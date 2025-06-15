@@ -1,0 +1,149 @@
+﻿TUR = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = empire
+
+	cultures = { turkish }
+	capital = STATE_EASTERN_THRACE
+}
+
+NAP = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { italian }
+	capital = STATE_CAMPANIA
+}
+
+AGN = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { catalan }
+	capital = STATE_ARAGON
+}
+
+AQU = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { occitan }
+	capital = STATE_AQUITAINE
+}
+
+PRO = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { occitan }
+	capital = STATE_PROVENCE
+}
+
+NOV = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { occitan }
+	capital = STATE_NOVGOROD
+}
+
+TYR = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { south_german }
+	capital = STATE_TYROL
+}
+
+ERZ = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { turkish }
+	capital = STATE_ERZURUM
+}
+TRB = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { turkish  kurdish }
+	capital = STATE_TRABZON
+}
+DYB = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { kurdish turkish }
+	capital = STATE_DIYARBAKIR
+}
+ADN = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { turkish }
+	capital = STATE_ADANA
+}
+MSL = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = { kurdish mashriqi turkish }
+	capital = STATE_ADANA
+}
+BSR = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = {  mashriqi }
+	capital = STATE_BASRA
+}
+KHO = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = {  persian }
+	capital = STATE_KHORASAN
+}
+STY = {
+	color = { 62  122  189 }
+	country_type = recognized
+	tier = kingdom
+
+	cultures = {  south_german }
+	capital = STATE_STYRIA
+}
+
+CKC = {
+	color = { 99 236 240 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { siberian }
+	capital = STATE_CHUKOTKA
+}
+
+BAN = {
+	color = { 99 236 240 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { north_german }
+	capital = STATE_BRANDENBURG
+}

@@ -1,0 +1,197 @@
+STATES = {
+    s:STATE_LANGUEDOC = {
+        create_state = {
+            country = c:OCC
+            owned_provinces = { x106040 x1060C0 x1727F7 x306080 x3784B2 x5615DD x7C1D57 x906080 xB0E000 xBBB6AD xCF9FBF xECF077 xF0C060 }
+        }
+    }
+    s:STATE_GUYENNE = {
+        create_state = {
+            country = c:OCC
+            owned_provinces = { x061121 x086618 x106080 x306000 x30E000 x5020C0 x7BCDC4 xA2BBE9 xAF89BC xB06000 xC8CD2F xF3D359 }
+        }
+    }
+    s:STATE_PROVENCE = {
+        create_state = {
+            country = c:PRO
+            owned_provinces = { x3040E0 x31C0DF x6D5E3F xB040E0 xB0C060 xB0C0E0 xC03918 xCB9C34  x5080E0 }
+        }
+    }
+    s:STATE_BRITTANY = {
+        create_state = {
+            country = c:BRI
+            owned_provinces = { x10A040 x2368E7 x2BD902 x32C2E2 x50F4A7 x55607E x706000 x85E5AC xA0B0D1 xABF468 xC4D7A2 xD0E080 xD584A0 xF91DD2 }
+        }
+    }
+    s:STATE_FLANDERS = {
+        create_state = {
+            country = c:FLA
+            owned_provinces = { x93FB2E x018061 x0141A0 x8041A0 x800060 x808061 }
+        }
+    }
+    s:STATE_FRENCH_LOW_COUNTRIES = {
+        create_state = {
+            country = c:FLA
+            owned_provinces = { x106000 x5362AC x70C020 xA0A080 xD0854D xE0A0C0 }
+        }
+    }
+    s:STATE_SAVOY = {
+        create_state = {
+            country = c:SAV
+            owned_provinces = { x56B04B xDDDD3B x6B4BA4 xD000E0 }
+        }
+    }
+    s:STATE_RHINELAND = {
+        create_state = {
+            country = c:RHE
+            owned_provinces = { xD080A0 x904020 xC1B963 x5D7A68 }
+        }
+        create_state = {
+            country = c:FRA
+            owned_provinces = { x11C021 x707505 }
+        }
+    }
+    s:STATE_WESTPHALIA = {
+        create_state = {
+            country = c:WES
+            owned_provinces = { x1DD141 xA08061 x218061 x418021 x4101A0 x910095 }
+        }
+        create_state = {
+            country = c:LIP
+            owned_provinces = { x9F0060 }
+        }
+        create_state = {
+            country = c:SCM
+            owned_provinces = { x1BA4F6 }
+        }
+    }
+    s:STATE_ANHALT = {
+        create_state = {
+            country = c:ANH
+            owned_provinces = { xA080E0 x12694A x618061 xCF5D8E x34386E xCBA4A5 xE0C0A0 xA51232 x3C9B93 x8A448C xED8F7B }
+        }
+    }
+    s:STATE_BOHEMIA = {
+        create_state = {
+            country = c:BOH
+            owned_provinces = { x71E041 xCDE96E x0B9B4F x465A13 x81C142 x9080A0 xFA371D x9C175D x61902F xEE1941 x716141 xA40163 x400226 x1D6B94 x67FE18 xF06141 xAFD2D1 xF0E041 xD286DB x2ED2B3 x74C71F }
+        }
+    }
+    s:STATE_MORAVIA = {
+        create_state = {
+            country = c:BOH
+            owned_provinces = { x08AA4B xD9A784 x49C8F7 xEF6080 x12778D x71E080 x4B3444 x1D088E xF0E080 x10DFDF }
+        }
+    }
+    s:STATE_AQUITAINE = {
+        create_state = {
+            country = c:AQU
+            owned_provinces = { x073FC4 x5F7F2D x606DEC x6E16BB x70A080 x76BA85 xA220D0 xBBF036 xCD8E77 xD957E6 xF02080 xF0A080 }
+        }
+    }
+    s:STATE_STYRIA = {
+        create_state = {
+            country = c:STY
+            owned_provinces = { xB06141 x86FD73 xB4D292 x8F8020 x1101A0 x155A44 x59D927 x017E3C }
+        }
+    }
+    s:STATE_SOUTH_TYROL = {
+        create_state = {
+            country = c:TYR
+            owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
+        }
+
+        add_homeland = cu:south_german
+        add_homeland = cu:north_italian
+    }
+    s:STATE_TYROL = {
+        create_state = {
+            country = c:TYR
+            owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 }
+        }
+    }
+    s:STATE_LOMBARDY = {
+        create_state = {
+            country = c:LOM
+            owned_provinces = { x3F1E38 xD04060 x9AC196 x867A90 xA40CE9 x50C060 x70B8A9 x4713EE }
+        }
+    }
+    s:STATE_VENETIA = {
+        create_state = {
+            country = c:VEN
+            owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
+        }
+    }
+    s:STATE_NORTH_RHINE = {
+        create_state = {
+            country = c:RHE
+            owned_provinces = { x9F4072 x8001E0 x834B66 x518021 x29CCD6 x486F6A }
+        }
+    }
+    s:STATE_RUHR = {
+        create_state = {
+            country = c:RHE
+            owned_provinces = { x2101E0 x5101A0 xD08021 x0180E0 }
+        }
+    }
+    s:STATE_BRUNSWICK = {
+        create_state = {
+            country = c:HAN
+            owned_provinces = { x2180E0 }
+        }
+        create_state = {
+            country = c:BRA
+            owned_provinces = { xA61E6E x43D537 }
+        }
+        create_state = {
+            country = c:BAV
+            owned_provinces = { x4C16EA xA001E0 }
+        }
+    }
+    s:STATE_POMERANIA = {
+        create_state = {
+            country = c:POM
+            owned_provinces = { xA9BD82 x8C6982 x19AE19 x3C26DD x6A53CF xA04121 xE1A03A x567452 x86E6F2 xCDEAE4 xA0C020 xD4C37D x8D1E12 xEF5730 x8001A0 x89A2A9 }
+        }
+    }
+    s:STATE_ISTRIA = {
+        create_state = {
+            country = c:VEN
+            owned_provinces = { x108021 x3060BF x56C78A xB061C0 x36B2E3 xF0A040 }
+        }
+    }
+    s:STATE_HIGHLANDS = {
+        create_state = {
+            country = c:SCO
+            owned_provinces = { xFBDD5D xCCBBD1 x662BE7 x84625B x8E7728 xFACCE3 x314E1F x80DB90 x20E000 x0E7C03 x37518E x3CFF08 xB7B8EA x0C1520 xF78F29 x637BE8 xF00652 x47C5CD x5B0884 }
+        }
+    }
+    s:STATE_LOWLANDS = {
+        create_state = {
+            country = c:SCO
+            owned_provinces = { xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
+        }
+    }
+    s:STATE_ICELAND = {
+        create_state = {
+            country = c:SWE
+            owned_provinces = { x0D5D48 x09AC69 x7E9967 x7DAE65 xEBDBE0 x10DC5B xB5D7AC xEB01CE x8BDAD5 x581B4C x5AED3F x34920F xC59154 xF8054C xF07C2C x4F18CA xC3D20F xBA991B x678B7C x943FCD x0578F9 x9D7B96 x853A46 x668EB2 x7A16C0 xCF05D9 x22E916 x1E1FC1 x1FAD4E x5DEB93 xA6BB87 xE2B048 xD51DB5 x63D42C x22B84A x6B8B1C xC72379 x285571 x6BE524 x7F72E8 xF65D73 x160AFE x808FE7 x08D106 xBD1A69 x85D626 x804040 x2720D0 x27F04F x2971FB x004160 x45F99B x9832AA x555934 xCC60C4 x933D7E x894E8F x6DF0C4 x2362E4 xFEF5A7 x70DC28 x317A6A x90A249 x571934 x251E56 x74FA3E x5CFCC7 x7AA0B3 x2A8549 x8B7790 }
+            state_type = unincorporated
+        }
+    }
+    s:STATE_GREENLAND = {
+        create_state = {
+            country = c:SWE
+            owned_provinces = { x8225B4 xF51FF4 x8F4B96 x5E2FCE x2E8797 x173BCB xF1D239 x46BDE7 x52B22D x28EBA7 x7847B1 x0489D2 x999944 xA2CFEA xDE68A4 x3792E7 x17C50A xB95090 x550BBD xCBFA01 xE3E358 x189543 x60CF04 x4352D2 xDF058C x4C6F83 xAD5556 xA6199A xDA4CED xE002A0 xC13204 x9CDC3F xCC0322 xCD02DA x1B77ED x191E0A xB6A165 xF8FE89 xE56D29 x51FFBC x7E24C2 xA72096 x664F9B xFF51DC x972E69 x15940C x5FD6D3 xE12026 x2FF14B xA6CE70 x0A0235 x8C64F5 x2DDD74 x2AC988 x4ACC4E xC9A105 x1AB55E x3C81BD xFFD9F4 x4D47A2 xD788E8 x83A8EE xC84380 x5B3F42 x8CC82F x31F2A9 xB41450 x6DB5A6 x698B9B xAAE5ED x5FF2CC x4061C4 x1213E4 xE200D5 xB52B26 xC6C6EB x8EAFCB xFB2EF8 x18820A x74D66A x22C365 x1AE7EA x10C9E8 x1164D0 x8C09AE xFEF0A7 x6817F7 x586D77 x97C242 x2F4B10 x451A6D xFC86C6 xE83E6C xDD4B17 xA80537 xCDB076 xA1E0B3 x9DE8E1 x2F616A x12A0C8 x8E8368 x54716A xAD6F70 x1BAA4F x8B199B xE0DCFA x5B4806 x3DBEF4 x046A22 xF5DF93 x47C1F2 xEB7FCA xEFAE70 xEB5453 x86622C x4D4904 x35427B x89E717 x9541C5 x7538BF x2CEF5A x1440C6 xACC160 xF68608 xBEBDBB x63B507 x6CF4E2 xF68FCE x9FE3D7 xBFD228 xD78CF2 x045371 x80C4C8 x3A4F58 xFD03D4 xD2DC36 x7C9625 x3E0F09 x816E36 xB736D5 x5E7A77 xBD5DCF x1187D1 xD274AC x3EF6DB xAE86F9 xD0D788 x705ADB xAE3205 x7447EA xDFB6F4 x2BE17D xFEE1AC x20083F x31DEF7 x75E8EC x4D34C9 x992454 x137F78 x5F273C x000A19 xA4966B x15354C x18434C x35EC65 x9A14C0 x949AD5 x0C2B43 xC52DC4 x293D01 x20228B x66D327 x4602D4 x2A33C0 xE4FA88 x52511D x3ED2BE xCBAA78 x881F10 xBB6ADF x8AC169 xAC5EF8 x6190CF xFC7F77 x15AE5B x1D11A0 xFB37DA xD353DD xE28564 x7E458B xD8B192 x1376E8 x8D72FA x4D0DB5 x135194 x71E0AB x1F1EB4 xCB0338 xA2EC4A x5FA68A x7C04E8 xF2A511 x0E081D xF5ED80 x71D436 x8AD1E9 x9D6298 xE917CD xFEF851 xE174E4 x04C479 x1E0CB2 x8032F6 x1A5496 x8DAC9C xAE77E8 x3BEA40 xCD8B06 xEB9A78 xEBEA77 x228995 x345503 x49E5F6 x6F8095 x6FFF74 x93F601 xF1014B x51A97F x0B75AA x09BEF7 x85BAD0 x7CA3C1 x7023CA x0B820F xABB8A9 x6BB73A x1096C5 x50748E xE9617F xED815B x899222 x315E14 x4BF6A9 xEC5065 x8A3761 x510F90 x67D4D9 x9CEA48 xE43391 xE7CC7E xAB9A68 xBDA0F3 xDA8974 x79AB30 x47B719 x0BEE23 xB35AD6 x7B8C27 xD5C48E xBDCB6F xD5E317 x832740 x884170 xA62EAA x28EF12 x32DBED xB38065 xE7C441 x721C60 x8B0F28 x59A50C x4A237A x1A4267 x485920 x60AA49 x96E540 xB63F36 xC6A074 x325620 x82F13A x59D1D2 x441330 x294234 x5B326C x8D1714 xDBB478 xF0F8D5 xF6C505 xC12C04 xC20A82 x0C8FC6 xAE8D8C xD5115E xBD889C x3E3DBE x751C4C xF2FD47 x20B5F6 x3E78C3 xC06CEF x813BEC xD20A8F x2D621B xB3F025 x1BAB17 x5D1EE3 x2EB6AA x9F438F x7A1E26 xA9AF29 x554C3D x7AC814 x78CFED x10B739 x3B33B6 x019043 x5AC0B5 x833619 x23A0CB xA9FDAD xB944BE x64794B xF162C2 xDF9239 x0BAB3C x36A036 xDDC889 x680BB5 x3E6BD8 xE98F5C x2204E2 xFAC3E4 x42DF86 x665F61 x6FAF4D x830E78 xE5B709 xE43641 xA0EFE7 x62B357 x1AE570 x5D9349 x76C842 x0C3790 x1A9422 xB460E8 x67E452 xE289BC x8391B2 }
+            state_type = unincorporated
+        }
+    }
+    s:STATE_BRANDENBURG = {
+        create_state = {
+            country = c:BAN
+            owned_provinces = { xA65DA6 x83B1A8 x9B9076 xA040A0 x069CFB xF8D457 x61C0A0 x82F9A8 x9E7304 x76EF4E xDF4020 x28CEC2 xB90BFF x514C51 xF77289 x60BF20 }
+        }
+
+        add_homeland = cu:north_german
+    }
+}

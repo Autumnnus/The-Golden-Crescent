@@ -1,48 +1,13 @@
 STATES = {
     s:STATE_RAJPUTANA = {
         create_state = {
-            country = c:BIK
-            owned_provinces = { xF3C5EA x9601FD x84F1F8 xA99FB3 xC40894 xF591B3 x53A30A x01F0E0 xEBA05F x214E7A x6A103F xEB0422 x5DACF4 }
+            country = c:MUG
+            owned_provinces = { xF3C5EA x9601FD x84F1F8 xA99FB3 xC40894 xF591B3 x53A30A x01F0E0 xEBA05F x214E7A x6A103F xEB0422 x5DACF4x82B440 x0A43D0 x0710F5 xBA06BC x604D2F xC7EF85 x0170B1 x67EA54 xA2025E x4EA8C5 xFFFB3C x5A410D xB9580C x61F021 xE95A9E xE27278 xBC1373 x37D8C4 xA9F108 }
         }
         create_state = {
-            country = c:JAS
-            owned_provinces = { x3C6F90 x77810B xD0F7A0 x6E8BCD xBD0984 x6031A0 x1031A8 x599EC5 x006D72 }
+            country = c:SIN
+            owned_provinces = { x3C6F90 x77810B xD0F7A0 x6E8BCD xBD0984 x6031A0 x1031A8 x599EC5 x006D72 xE0F021 xBD1F80 x9A6A95 x7B1C30 x22627C xDD12D2 xD77479 xCA50D5 x4CEAC0 xCBE6C4 x0C11FE x425430 xD76ACC xA389C9 xBAD851 xC28B1B x4922B9 xE0B020 x2A57A1 x25467F x3FF532 x166BD9 x5C95B5 x40881F xF051DF xCC8FF3 x0A34C2 xF671B7 x6E01FB xA614CA xDCFF99 }
         }
-        create_state = {
-            country = c:MEW
-            owned_provinces = { x40881F xF051DF xCC8FF3 x0A34C2 xF671B7 x6E01FB xA614CA xDCFF99 }
-        }
-        create_state = {
-            country = c:JOD
-            owned_provinces = { xBD1F80 x9A6A95 x7B1C30 x22627C xDD12D2 xD77479 xCA50D5 x4CEAC0 xCBE6C4 x0C11FE x425430 xD76ACC xA389C9 xBAD851 xC28B1B x4922B9 xE0B020 x2A57A1 x25467F x3FF532 x166BD9 x5C95B5 }
-        }
-        create_state = {
-            country = c:JAI
-            owned_provinces = { x604D2F xC7EF85 x0170B1 x67EA54 xA2025E x4EA8C5 xFFFB3C x5A410D xB9580C x61F021 }
-        }
-        create_state = {
-            country = c:BIC
-            owned_provinces = { xE0F021 }
-            state_type = unincorporated
-        }
-        create_state = {
-            country = c:ALW
-            owned_provinces = { x82B440 x0A43D0 x0710F5 xBA06BC }
-        }
-        create_state = {
-            country = c:KOT
-            owned_provinces = { xE95A9E xE27278 xBC1373 }
-        }
-        create_state = {
-            country = c:GWA
-            owned_provinces = { xA9F108 }
-        }
-        create_state = {
-            country = c:IND
-            owned_provinces = { x37D8C4 }
-        }
-
-        add_homeland = cu:rajput
     }
     s:STATE_DELHI = {
         create_state = {
@@ -176,7 +141,7 @@ STATES = {
     s:STATE_HILL_PUNJAB = {
         create_state = {
             country = c:MUG
-            owned_provinces = {  xE60F80 xF4C868 x0003C6 x607020 x45AF2E x5A5F96 xDB91D3xDEFFE6 x251424 x280F05 x3264B7 x572FB9 x59BBCE x8FF69F x96E54B xA07020 xA98EF8 xD52082 xE0C455 xE31B4E xF202E0  xA0F0A0 x66C9D9 x0C25D9 x394B7F }
+            owned_provinces = {  xE60F80 xF4C868 x0003C6 x607020 x45AF2E x5A5F96 xDB91D3 xDEFFE6 x251424 x280F05 x3264B7 x572FB9 x59BBCE x8FF69F x96E54B xA07020 xA98EF8 xD52082 xE0C455 xE31B4E xF202E0  xA0F0A0 x66C9D9 x0C25D9 x394B7F }
             state_type = unincorporated
         }
     }
@@ -268,6 +233,13 @@ STATES = {
         create_state = {
             country = c:CHT
             owned_provinces = { xA96256 x9DA767 x15A4E6 xF8FE8B xB8051E x4C120A xAFD189 x8C9774 }
+        }
+    }
+    s:STATE_ARAKAN = {
+        create_state = {
+            country = c:BGL
+            owned_provinces = { x9A018D xD5DB0B xE85BF0 xF691D2 x6305C9 xB316F6 }
+            state_type = unincorporated
         }
     }
 }

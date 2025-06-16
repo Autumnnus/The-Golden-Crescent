@@ -147,3 +147,71 @@ BAN = {
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 }
+
+#North America
+
+YEN = {
+	color = { 99 236 200 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { turkish }
+	capital = STATE_FLORIDA
+}
+
+SW1 ={
+	color = { 99 236 200 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { swedish }
+	capital = STATE_QUEBEC
+}
+
+SW2 ={
+	color = { 99 236 200 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { swedish }
+	capital = STATE_ONTARIO
+}
+
+SW3 ={
+	color = { 99 236 180 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { swedish }
+	capital = STATE_NEW_BRUNSWICK
+}
+
+FN1 ={
+	color = { 99 236 200 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { finnish }
+	capital = STATE_QUEBEC
+}
+
+NW1 ={
+	color = { 99 236 200 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { norwegian }
+	capital = STATE_NUNAVUT
+}

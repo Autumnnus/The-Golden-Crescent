@@ -13,12 +13,8 @@ STATES = {
     }
     s:STATE_KARS = {
         create_state = {
-            country = c:TRB
-            owned_provinces = { x467F92 xB8481F x009000 x8A9689 x809001 }
-        }
-        create_state = {
             country = c:GEO
-            owned_provinces = { x327755 xC09080 }
+            owned_provinces = { x327755 xC09080 x467F92 xB8481F x009000 x8A9689 x809001 }
         }
     }
     s:STATE_ADANA = {
@@ -158,6 +154,12 @@ STATES = {
         create_state = {
             country = c:BSR
             owned_provinces = { x09F8D1 x4CA291 x4FDA9B x55D475 x80E4E1 x872ACE xA18555 xA99276 xF5BD8F xFBA38B }
+        }
+    }
+    s:STATE_QUETTA = {
+        create_state = {
+            country = c:KAB
+            owned_provinces = {  x6F000D x1910AD x34A39B  x1DDD4D  x3C3D7F x454FE3 x4AAAC0 x5E7221 x6EA076  x7CA0E0 x8BB146 xB8655C xC13040 xDB0F57 }
         }
     }
 }

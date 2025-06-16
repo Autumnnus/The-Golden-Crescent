@@ -1,123 +1,123 @@
 STATES = {
     s:STATE_GREATER_POLAND = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0E40DA x1CB894 x1F6F99 x24BBED x29408F x2F0D92 x471A61 x577EE4 x57A53D x5FF022 x6000DF x738072 x8FE2DB x955F09 x9FEDC5 xA03316 xA3A3A9 xA7B86B xAB3C62 xC02B8C xC061A0 xC0E0A0 xD0A0E0 xDE06BA }
             state_type = unincorporated
         }
     }
     s:STATE_LESSER_POLAND = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x40DF20 x4161A0 x44ACBB x46B950 x496950 x51A0E0 x9444C9 xAEB9A5 xB491B1 xE0BB00 xEB0783 xF73169 }
         }
     }
     s:STATE_MAZOVIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x009F60 x1AA8FB x46B451  x4F022C x802161 x809F60 xC17590 xDC58D0 xE165F5 xF8C8F6 xDE551D x117AE1 x4969E4 xC06121 x0087C9 }
         }
     }
     s:STATE_VILNIUS = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x00E0A0 x0161A0 x4177AF x41E061 x4678E5 x577C69 xA916E3 xF2CB3D }
         }
     }
     s:STATE_WEST_GALICIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x90E060 x1161E0 xC8690C x66DCEE xA63CE6 xFCC35F xC7B7B8 x5F3456 x56599F xA550A9 x9061E0 x906060 x11E061 }
         }
     }
     s:STATE_EAST_GALICIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { xA2805F x9D8087 xCDD223 x11A021 xCAE5B0 x8F9F20 xE369C4 xA3CF78 xB021A0 x053163 x4D0305 xC1B262 xEFE270 x489C42 x7EDD9E x53932F xC58E1C xD0E061 }
         }
     }
     s:STATE_POSEN = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x1FA1E1 x2141A0 x2E6001 x999CEE xC32D8B xE513C0 x085962 xC02121 xFCC7B7 xF962B2 x41E0A0 x635336 }
         }
     }
     s:STATE_WEST_PRUSSIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { xBAF66D x178C99 x611F2F x945000 x3E3572 x0180A0 x7CB839 x80A0A0 x7A6061 x6E8875 x41A021 x374AC3 x55FD02 }
         }
     }
     s:STATE_EAST_PRUSSIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x975566 x4121A0 x2399A2 x1E73B9 xC020A0 x981EBE x72FDF3 x40A0A0 xBF9F20 x9FD037 x47C900 xC04521 x7D6DC3 xEEF586 xAEA6D6 x5428E6 xABC4AE }
         }
     }
     s:STATE_SILESIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { xC108EA x732DC0 x6E617F x1B72C9 x272E48 xC00121 xCE74AB x94D624 xAF9F20 x88194B x90B12B x821F52 x5E9091 x7B2F62 }
         }
     }
     s:STATE_KAUNAS = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0980C8 x0B6577 x21F318 x232B98 x406DC9 x6175AD x629C46 x7A5D64 x8060A0 x80D858 x95171C xA8FF51 xAF73F2 xBFE867 xC0A0A0 xCC4C28 xCD7291 xE0B943 }
             state_type = unincorporated
         }
     }
     s:STATE_VILNIUS = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x00E0A0 x0161A0 x4177AF x41E061 x4678E5 x577C69 xA916E3 xF2CB3D }
         }
     }
     s:STATE_BREST = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x157352 x18020B x1917E9 x241A22 x406020 x66FB56 x6D7F7E x75F1B4 x7E7F58 x806161 x84294C x84FE3D x862F77 x8ABE62 x936BF9 xA201E3 xA6BED3 xA93262 xAB3AC5 xAC6FAE xB338E8 xBCB94C xBFDF20 xC15AD8 xC1D9C0 xC3FA73 xCB21FD xCCD197 xDE471E xE06176 xE87D11 xF02643 }
         }
     }
     s:STATE_VITEBSK = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0020E0 x0153E3 x016161 x061F7B x1AE461 x1D8857 x1DE5C6 x2B4670 x3D1AAA x6CEBE0 x9126B4 x9EF309 xA42E0B xBF1F6F xD4812D xEF4591 }
         }
     }
     s:STATE_MINSK = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0161E0 x0A89D7 x16A8B5 x21175E x235156 x26722B x28C9D9 x2EB844 x2FD0B1 x416161 x41A0E0 x4B3105 x51F4A4 x557F9F x716052 x80DFDF x80E061 x80E0A0 xA16195 xA36969 xC06C1A xC3D50D xC9C7AF xEDA68C xEFAEC6 xF05D59 }
         }
     }
     s:STATE_VOLHYNIA = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0EB3C7 x1A9FFE x364496 x37A636 x5A26AE x71E0A0 x80FB0F x8201CF xAC3079 xAFEBC8 xE001E0 xE2F553 }
         }
     }
     s:STATE_KIEV = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x01E0E0 x022620 x1121A0 x11F253 x18E9E1 x1C7F2D x2472F3 x2C6218 x2D80BA x2E05DE x31F90F x33471E x46B48F x4700D0 x4C92CC x4D686A x54B5C4 x6168EB x6AC779 x7161A0 x7DA787 x7DF67D x82AE2F x884128 x8CE323 x905D21 x98E808 x9B1B0B xA8600B xA9FA61 xBD8617 xCD2CE5 xD5E7D2 xD6537D xD8EA8C xDD790F xE2B51B xE6AF95 xE996D1 xEA1E16 xF061A0 xF0E021 xF9066A xFF7D57 }
         }
     }
     s:STATE_KHARKOV = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x0708A3 x0B484F x270CD8 x2C6090 x36D880 x3ACCE8 x7EAE07 x817D22 xBCC260 xC482AD xCB4129 xCD72A1 xDAAE11 xE08061 xE682D3 xE6CADD xFC92C5 x0319ED x04E110 x1458A6 x14786A x1CB8D8 x3C304D x46BD2E x4C5706 x628FBE x9C070F xA0A57F xAD965B xBBC6BF xBC52ED xD0DA95 xF061E0 xFA0D5E }
         }
     }
     s:STATE_CHERNIHIV = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x032751 x03D6A7 x0A69A9 x12AB15 x348364 x34B4C6 x387D75 x44E2F9 x5F64A2 x675DF4 x83B302 x85EECF x925213 x9723F8 xA12B5A xB020C6 xBC0441 xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
         }
     }
     s:STATE_MOGILEV = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x01E061 x062D3B x0B93F6 x1197EA x26415C x361946 x3B1EB3 x79C34B x7E7DA7 x8061E0 x87E9EC x8F8DDD xB13CAC xB81A41 xBCCBB1 xC0A0E0 xC3026F xC6D645 xC9634A xD9956C xE1577C xF208D0 }
         }
     }
@@ -237,7 +237,7 @@ STATES = {
     }
     s:STATE_ELIZAVETPOL = {
         create_state = {
-            country = c:AZB
+            country = c:GEO
             owned_provinces = { x0E70E4 x2F7A57 x404F5B x747318 x809040 x8090BF x80D041 x9195D4 xB7DDE5 xDFB2B0 xEE1A87 }
         }
     }
@@ -279,7 +279,7 @@ STATES = {
     }
     s:STATE_PSKOV = {
         create_state = {
-            country = c:POL
+            country = c:PLC
             owned_provinces = { x201505 x3266DE x40A060 x4961C9 x4C8BB8 x55425A x6859CA x6D38D7 x6F9858 x6FD5E3 x8020DF x86F5A3 x87C547 x89D566 x9A8A71 x9CC46F x9ECE91 xA577B1 xA981B3 xB5BA9C xBA361B xD0DA34 xD1D45B xDF3F5C xE7438E xF06F29 }
         }
     }

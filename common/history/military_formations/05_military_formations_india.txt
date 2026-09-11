@@ -1,0 +1,128 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+MILITARY_FORMATIONS = {
+	c:HYD ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_india
+			name = sarf_e_khas
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HYDERABAD
+				count = 14
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HYDERABAD
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_HYDERABAD
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_HYDERABAD
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_HYDERABAD
+				count = 2
+			}
+		}
+	}
+	c:AWA ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_india
+			name = OudhRoyalArmy
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AWADH
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AWADH
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_AWADH
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_AWADH
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_AWADH
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_AWADH
+				count = 2
+			}
+		}
+	}
+	c:MYS ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_india
+			name = MysoreArmy
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MYSORE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MYSORE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MYSORE
+				count = 2
+			}
+		}
+	}
+	c:MUG ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_india
+			name = MughalArmy
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_DELHI
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_DELHI
+				count = 1
+			}
+		}
+	}
+	c:BCE ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_india
+			name = CeylonRifleRegiment
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CEYLON
+				count = 2
+			}
+		}
+	}
+}

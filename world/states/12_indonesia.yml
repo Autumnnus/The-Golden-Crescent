@@ -1,0 +1,23 @@
+# 12_indonesia.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+# senaryo.md 649: "Iran - Basra Korfezi ticaret usleri, Endonezya'da
+# birkac liman ve ticaret sirketi."
+STATE_SUNDA_ISLANDS: {owner: PER, pops: inherit, buildings: inherit}
+
+# --- Guneydogu Asya ---
+# senaryo.md 615 Britanya'ya yalnizca Kuzey Amerika dogu kiyisi ve Atlantik
+# adalari veriyor: Malaya ve Hint Okyanusu ussu Ingiliz degil.
+# senaryo.md 627 Hollanda'nin "Guneydogu Asya ticaret bolgeleri" duruyor (DEI).
+# senaryo.md 649 Iran'in "Endonezya'da birkac liman": Sunda ve Molukler.
+#
+# FILIPINLER: vanilla'da Ispanyol somurgesi. Bu evrende Ispanya hic kurulmadi,
+# dolayisiyla Filipinler'e de hic ulasmadi - Manila Musluman bir racaligin,
+# Mindanao Sulu Sultanligi'nin elinde kaldi.
+STATE_ACEH: {owner: ACE, pops: inherit, buildings: inherit}
+STATE_LUZON: {owner: TND, pops: inherit, buildings: inherit}
+STATE_MALAYA: {owner: JOH, pops: inherit, buildings: inherit}
+STATE_MINDANAO: {owner: SUL, pops: inherit, buildings: inherit}
+STATE_MOLUCCAS: {owner: PER, pops: inherit, buildings: inherit}
+STATE_VISAYAS: {owner: TND, pops: inherit, buildings: inherit}
+STATE_WEST_MICRONESIA: {owner: MCR, pops: inherit, buildings: inherit}

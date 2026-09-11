@@ -1,0 +1,75 @@
+# 11_east_asia.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# senaryo.md 494: "Cing yonetimi 18. yuzyilda ekonomik krizler, saray savaslari
+# ve Uygur isyanlari sonucunda cokmustur. Cin bes ana devlete ayrilmistir."
+#
+#   CHI  Kuzey Cin Imparatorlugu - Pekin ve Sari Nehir (senaryo.md 500)
+#   JGN  Jiangnan Cumhuriyeti    - Nankin, Sanghay, Yangtze deltasi (504)
+#   SHU  Shu Kralligi            - Sicuan merkezli daglik devlet (510)
+#   YUE  Yue Konfederasyonu      - Guangdong, Guangxi, guney kiyisi (516)
+#   MCH  Mancurya Hanligi        - eski Cing seckinleri, kuzeydogu (520)
+#
+# Uygur Hanligi zaten "Cin'in bazi bati bolgelerini" tutuyor (senaryo.md 354):
+# Tiansan, Dzungarya, Uliastai.
+
+# --- Uygur Hanligi ---------------------------------------------------------
+# senaryo.md 354: "Dogu Turkistan'i, Mogolistan'in batisini ve CIN'IN BAZI
+# BATI BOLGELERINI kontrol eder."  Son kisim Hui (Cinli Musluman) kusagi:
+# Gansu, Ningxia ve Alxa. Kansu koridoru Ipek Yolu'nun Cin'e acilan kapisi -
+# senaryo.md 356'daki "Ipek Yolu'nun en onemli ticaret devleti" ancak bu
+# koridora sahipse anlamli.
+STATE_ALXA: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_DZUNGARIA: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_GANSU: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_NINGXIA: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_TIANSHAN: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_ULIASTAI: {owner: XIN, pops: inherit, buildings: inherit}
+
+# --- Kuzey Cin Imparatorlugu: Sari Nehir havzasi ve Mogolistan --------------
+STATE_BEIJING: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_HENAN: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_HINGGAN: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_SHANDONG: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_SHANXI: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_URGA: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_XIAN: {owner: CHI, pops: inherit, buildings: inherit}
+STATE_ZHILI: {owner: CHI, pops: inherit, buildings: inherit}
+
+# --- Jiangnan Cumhuriyeti: Yangtze deltasi ve orta havza -------------------
+# senaryo.md 506: "Cin'in ekonomik ve teknolojik olarak en gelismis bolgesidir."
+STATE_EASTERN_HUBEI: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_HUNAN: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_JIANGSU: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_JIANGXI: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_NANJING: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_NORTHERN_ANHUI: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_SOUTHERN_ANHUI: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_SUZHOU: {owner: JGN, pops: inherit, buildings: inherit}
+STATE_ZHEJIANG: {owner: JGN, pops: inherit, buildings: inherit}
+
+# --- Shu Kralligi: Sicuan ve guneybati daglari ------------------------------
+STATE_CHONGQING: {owner: SHU, pops: inherit, buildings: inherit}
+STATE_GUIZHOU: {owner: SHU, pops: inherit, buildings: inherit}
+STATE_SICHUAN: {owner: SHU, pops: inherit, buildings: inherit}
+STATE_WESTERN_HUBEI: {owner: SHU, pops: inherit, buildings: inherit}
+STATE_YUNNAN: {owner: SHU, pops: inherit, buildings: inherit}
+
+# --- Yue Konfederasyonu: guney kiyisi ---------------------------------------
+STATE_FORMOSA: {owner: YUE, pops: inherit, buildings: inherit}
+STATE_FUJIAN: {owner: YUE, pops: inherit, buildings: inherit}
+STATE_GUANGDONG: {owner: YUE, pops: inherit, buildings: inherit}
+STATE_GUANGXI: {owner: YUE, pops: inherit, buildings: inherit}
+STATE_SHAOZHOU: {owner: YUE, pops: inherit, buildings: inherit}
+
+# --- Mancurya Hanligi: kuzeydogu --------------------------------------------
+STATE_NORTHERN_MANCHURIA: {owner: MCH, pops: inherit, buildings: inherit}
+STATE_OUTER_MANCHURIA: {owner: MCH, pops: inherit, buildings: inherit}
+STATE_SHENGJING: {owner: MCH, pops: inherit, buildings: inherit}
+STATE_SOUTHERN_MANCHURIA: {owner: MCH, pops: inherit, buildings: inherit}
+
+
+# Rus-Amerikan Sirketi bu evrende kurulmadi; Sahalin yerli sahibinde.
+STATE_SAKHALIN: {owner: SKH, pops: inherit, buildings: inherit}
+
+STATE_QINGHAI: {owner: TIB, pops: inherit, buildings: inherit}

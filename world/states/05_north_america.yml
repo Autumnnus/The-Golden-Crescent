@@ -1,0 +1,158 @@
+# 05_north_america.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# Bkz. senaryo_amerika.md. Uc kural:
+#   1) Avrupalilar kiyida, yerliler iceride
+#   2) ABD yok - on uc koloni hic birlesmedi
+#   3) Yerli devletler gercek devlet, kabile degil (senaryo.md 592)
+#
+#   SW1/NW1  Kalmar kolonileri (senaryo.md 563)
+#   NEN/VRG  Britanya kolonileri (senaryo.md 557)
+#   NNL      Yeni Hollanda - Nieuw Amsterdam hic dusmedi
+#   PEN      Pennsylvania - Alman ve Hollandali yerlesimcilerin cumhuriyeti
+#   YEN      Yeni Bursa, Rum kolonisi (senaryo.md 574)
+#   OJI/IRO/ILL/CHE/CRK/CTW/SEQ  yerli konfederasyonlar
+#   LKT/PWN/ARP/CMN/SLS          Buyuk Ovalar
+#   SLS/UTE/APC/BNN/ATB          bati ve Alaska: kolonilesmemis
+
+# --- Kalmar: Vinland (SW1) ---
+STATE_NEWFOUNDLAND: {owner: SW1, pops: inherit, buildings: inherit}
+STATE_NEW_BRUNSWICK: {owner: SW1, pops: inherit, buildings: inherit}
+STATE_QUEBEC: {owner: SW1, pops: inherit, buildings: inherit}
+
+# --- Kalmar: Nya Norrland (NW1) ---
+STATE_NORTHWEST_TERRITORIES: {owner: NW1, pops: inherit, buildings: inherit}
+STATE_NUNAVUT: {owner: NW1, pops: inherit, buildings: inherit}
+
+# --- Cree Konfederasyonu (OJI) ---
+STATE_ALBERTA: {owner: OJI, pops: inherit, buildings: inherit}
+STATE_MANITOBA: {owner: OJI, pops: inherit, buildings: inherit}
+STATE_ONTARIO: {owner: OJI, pops: inherit, buildings: inherit}
+STATE_SASKATCHEWAN: {owner: OJI, pops: inherit, buildings: inherit}
+
+# --- Yeni Ingiltere (NEN) ---
+STATE_CONNECTICUT: {owner: NEN, pops: inherit, buildings: inherit}
+STATE_MAINE: {owner: NEN, pops: inherit, buildings: inherit}
+STATE_MASSACHUSETTS: {owner: NEN, pops: inherit, buildings: inherit}
+STATE_NEW_HAMPSHIRE: {owner: NEN, pops: inherit, buildings: inherit}
+STATE_RHODE_ISLAND: {owner: NEN, pops: inherit, buildings: inherit}
+STATE_VERMONT: {owner: NEN, pops: inherit, buildings: inherit}
+
+# --- Yeni Hollanda (NNL) ---
+STATE_DELAWARE: {owner: NNL, pops: inherit, buildings: inherit}
+STATE_NEW_JERSEY: {owner: NNL, pops: inherit, buildings: inherit}
+STATE_NEW_YORK: {owner: NNL, pops: inherit, buildings: inherit}
+
+# --- Pennsylvania (PEN) ---
+STATE_PENNSYLVANIA: {owner: PEN, pops: inherit, buildings: inherit}
+
+# --- Virginia (VRG) ---
+STATE_DISTRICT_OF_COLUMBIA: {owner: VRG, pops: inherit, buildings: inherit}
+STATE_MARYLAND: {owner: VRG, pops: inherit, buildings: inherit}
+STATE_NORTH_CAROLINA: {owner: VRG, pops: inherit, buildings: inherit}
+STATE_SOUTH_CAROLINA: {owner: VRG, pops: inherit, buildings: inherit}
+STATE_VIRGINIA: {owner: VRG, pops: inherit, buildings: inherit}
+
+# --- Haudenosaunee (IRO) ---
+STATE_OHIO: {owner: IRO, pops: inherit, buildings: inherit}
+STATE_WEST_VIRGINIA: {owner: IRO, pops: inherit, buildings: inherit}
+
+# --- Buyuk Goller Federasyonu (ILL) ---
+STATE_ILLINOIS: {owner: ILL, pops: inherit, buildings: inherit}
+STATE_INDIANA: {owner: ILL, pops: inherit, buildings: inherit}
+STATE_MICHIGAN: {owner: ILL, pops: inherit, buildings: inherit}
+STATE_WISCONSIN: {owner: ILL, pops: inherit, buildings: inherit}
+
+# --- Cherokee (CHE) ---
+STATE_ARKANSAS: {owner: CHE, pops: inherit, buildings: inherit}
+STATE_KENTUCKY: {owner: CHE, pops: inherit, buildings: inherit}
+STATE_TENNESSEE: {owner: CHE, pops: inherit, buildings: inherit}
+
+# --- Muskogee (CRK) ---
+STATE_ALABAMA: {owner: CRK, pops: inherit, buildings: inherit}
+STATE_GEORGIA: {owner: CRK, pops: inherit, buildings: inherit}
+
+# --- Choctaw (CTW) ---
+STATE_LOUISIANA: {owner: CTW, pops: inherit, buildings: inherit}
+STATE_MISSISSIPPI: {owner: CTW, pops: inherit, buildings: inherit}
+
+# --- Sequoyah (SEQ) ---
+STATE_MISSOURI: {owner: SEQ, pops: inherit, buildings: inherit}
+STATE_OKLAHOMA: {owner: SEQ, pops: inherit, buildings: inherit}
+
+# --- Lakota (LKT) ---
+STATE_IOWA: {owner: LKT, pops: inherit, buildings: inherit}
+STATE_MINNESOTA: {owner: LKT, pops: inherit, buildings: inherit}
+STATE_NORTH_DAKOTA: {owner: LKT, pops: inherit, buildings: inherit}
+STATE_SOUTH_DAKOTA: {owner: LKT, pops: inherit, buildings: inherit}
+
+# --- Pawnee (PWN) ---
+STATE_KANSAS: {owner: PWN, pops: inherit, buildings: inherit}
+STATE_NEBRASKA: {owner: PWN, pops: inherit, buildings: inherit}
+
+# --- Arapaho (ARP) ---
+STATE_COLORADO: {owner: ARP, pops: inherit, buildings: inherit}
+STATE_WYOMING: {owner: ARP, pops: inherit, buildings: inherit}
+
+# --- Komanci (CMN) ---
+STATE_NEW_MEXICO: {owner: CMN, pops: inherit, buildings: inherit}
+STATE_RIO_GRANDE: {owner: CMN, pops: inherit, buildings: inherit}
+STATE_TEXAS: {owner: CMN, pops: inherit, buildings: inherit}
+
+# --- Buyuk Havza ve Kaliforniya halklari (UTE) ---
+STATE_CALIFORNIA: {owner: UTE, pops: inherit, buildings: inherit}
+STATE_NEVADA: {owner: UTE, pops: inherit, buildings: inherit}
+STATE_UTAH: {owner: UTE, pops: inherit, buildings: inherit}
+
+# --- Apaci (APC) ---
+STATE_ARIZONA: {owner: APC, pops: inherit, buildings: inherit}
+STATE_CHIHUAHUA: {owner: APC, pops: inherit, buildings: inherit}
+STATE_SONORA: {owner: APC, pops: inherit, buildings: inherit}
+
+# --- Salish ve ic yayla halklari (SLS) ---
+# ORG kullanilmadi: vanilla'da o tag Britanya'nin yerlesimci Oregon kolonisi
+# ve GBR'ye bagli geliyor - "bati kolonilesmemis" ilkesiyle celisirdi.
+STATE_MONTANA: {owner: SLS, pops: inherit, buildings: inherit}
+STATE_BRITISH_COLUMBIA: {owner: SLS, pops: inherit, buildings: inherit}
+STATE_OREGON: {owner: SLS, pops: inherit, buildings: inherit}
+STATE_WASHINGTON: {owner: SLS, pops: inherit, buildings: inherit}
+
+# --- Bannock (BNN) ---
+STATE_IDAHO: {owner: BNN, pops: inherit, buildings: inherit}
+
+# --- Athabaska (ATB) ---
+STATE_ALASKA: {owner: ATB, pops: inherit, buildings: inherit}
+STATE_YUKON_TERRITORY: {owner: ATB, pops: inherit, buildings: inherit}
+
+# --- Yeni Endulus (NAN) ---
+STATE_BAJA_CALIFORNIA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_BAJIO: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_DURANGO: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_GUERRERO: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_JALISCO: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_MEXICO: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_OAXACA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_SINALOA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_VERACRUZ: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_ZACATECAS: {owner: NAN, pops: inherit, buildings: inherit}
+
+# --- Maya Konfederasyonu (MAY) ---
+STATE_CHIAPAS: {owner: MAY, pops: inherit, buildings: inherit}
+STATE_YUCATAN: {owner: MAY, pops: inherit, buildings: inherit}
+
+# Florida: Rum'un Atlantik'teki tek onemli ussu (senaryo.md 574-582).
+# Turk, Rum, Ermeni, Afrikali ve yerli halklardan olusuyor.
+STATE_FLORIDA:
+  owner: YEN
+  homelands: [turkish, muskogean]
+  pops: inherit
+  buildings: inherit
+
+# ===========================================================================
+# ACIKCA LISTELENEN AVRUPA STATE'LERI
+# ===========================================================================
+# Bunlar daha once "unlisted: inherit" idi, yani vanilla pop'larini HAM
+# aliyorlardi ve ulkenin religion_split'i uygulanmiyordu. Gec Reform
+# senaryosunun calismasi icin acikca listelenmeleri gerekiyor:
+# sahiplik degismiyor, sadece pop donusumu devreye giriyor.
+STATE_BERMUDA: {owner: GBR, pops: inherit, buildings: inherit}

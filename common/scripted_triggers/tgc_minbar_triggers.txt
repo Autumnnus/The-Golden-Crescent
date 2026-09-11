@@ -1,0 +1,79 @@
+﻿# Uc Minber Krizi - tetikleyiciler
+#
+# senaryo.md 153: "Islam dunyasinda kabul edilmis tek bir dini liderlik
+# bulunmamaktadir." Kahire, Kurtuba ve Ictihatci Duzen arasindaki mucadele.
+#
+# TASARIM NOTU: minbar bagliligi ayri bir degiskende TUTULMUYOR; dogrudan
+# devlet dininden turetiliyor. Boylece bir devletin taraf degistirmesi
+# `set_state_religion` ile olur - oyuncuya gorunur ve sonuclari olan bir
+# eylem. Ayrica kayit/yukleme ve senkron sorunlarindan kacinir.
+
+# Islam dunyasinin herhangi bir mezhebine bagli mi?
+tgc_is_islamic_country = {
+	OR = {
+		country_has_state_religion = rel:mujtahidiyya
+		country_has_state_religion = rel:irfaniyya
+		country_has_state_religion = rel:taklidiyya
+		country_has_state_religion = rel:hikmatiyya
+		country_has_state_religion = rel:sunni
+		country_has_state_religion = rel:shiite
+		country_has_state_religion = rel:ibadi
+	}
+}
+
+# --- Uc minberin tabanlari -------------------------------------------------
+
+# Kahire: Taklidiyye.
+tgc_follows_cairo_minbar = {
+	country_has_state_religion = rel:taklidiyya
+}
+
+# Hicbir minbere baglanmamis Islam devletleri: Ictihat Cagi'nin mezhep
+# ayrismasi henuz onlara ulasmadi. Uc minberin de asil sahasi burasi -
+# Fas'tan Buhara'ya, Acheh'ten Kazak bozkirina kadar.
+tgc_is_uncommitted_muslim = {
+	OR = {
+		country_has_state_religion = rel:sunni
+		country_has_state_religion = rel:shiite
+		country_has_state_religion = rel:ibadi
+	}
+}
+
+# Kurtuba: Hikmetiyye.
+tgc_follows_cordoba_minbar = {
+	country_has_state_religion = rel:hikmatiyya
+}
+
+# Ictihatci Duzen: evrensel halifeligi reddedenler (senaryo.md 165).
+tgc_follows_ijtihadi_order = {
+	OR = {
+		country_has_state_religion = rel:mujtahidiyya
+		country_has_state_religion = rel:irfaniyya
+	}
+}
+
+# --- Minber iddiacilari ----------------------------------------------------
+
+tgc_is_cairo_claimant = {
+	this = c:EGY
+}
+
+tgc_is_cordoba_claimant = {
+	this = c:ANL
+}
+
+# Ictihatci Duzen'in tek bir merkezi yok; Rum ve Isfahan ortak savunur.
+tgc_is_ijtihadi_claimant = {
+	OR = {
+		this = c:TUR
+		this = c:PER
+	}
+}
+
+# Minber mucadelesinde sayilmak icin devletin kendi disiyasetini yurutmesi
+# gerekir; somurgeler ve tam entegre tabiiler kendi minberini secemez.
+tgc_counts_for_minbar = {
+	tgc_is_islamic_country = yes
+	NOT = { is_subject_type = subject_type_colony }
+	NOT = { is_subject_type = subject_type_puppet }
+}

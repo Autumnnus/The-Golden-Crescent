@@ -1,0 +1,14 @@
+﻿# Elle yazilir. Ulke adlari/sifatlari (TUR, PER, BOS, ...) world/countries
+# uzerinden uretiliyor -> replace/tgc_generated_countries_l_english.yml.
+# Burada yalnizca uretecin kapsamadigi DINAMIK ad anahtarlari var.
+l_english:
+ dyn_c_ottoman_empire: "Empire of Rum"
+ dyn_c_ottoman_empire_adj: "Rumi"
+ # Vanilla common/dynamic_country_names PER'i `unrecognized` degilse
+ # zorla dyn_c_iran yapiyor ve ulke adimizi eziyor. Anahtar yalnizca
+ # PER tarafindan kullanildigi icin en temiz cozum onu yeniden yazmak.
+ dyn_c_iran: "Shahdom of Isfahan"
+ dyn_c_iran_adj: "Isfahani"
+ # Cing coktu; vanilla CHI monarsi ise adini dyn_c_great_qing yapiyor.
+ dyn_c_great_qing: "Northern Chinese Empire"
+ dyn_c_great_qing_adj: "Northern Chinese"

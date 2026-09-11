@@ -1,0 +1,97 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+DIPLOMACY = {
+	# --- vanilla'dan devralinan kayitlar ---
+	c:SIA ?= {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+	}
+	c:DAI ?= {
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = rivalry
+		}
+	}
+
+	# --- world/ ---
+	c:ANL ?= {
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:GBR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = rivalry
+		}
+	}
+	c:BAV ?= {
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = rivalry
+		}
+	}
+	c:EGY ?= {
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = rivalry
+		}
+	}
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = rivalry
+		}
+	}
+	c:MOR ?= {
+		create_diplomatic_pact = {
+			country = c:ANL
+			type = rivalry
+		}
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+	}
+	c:PLC ?= {
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+	}
+	c:SAX ?= {
+		create_diplomatic_pact = {
+			country = c:BAV
+			type = rivalry
+		}
+	}
+	c:TUR ?= {
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:PLC
+			type = rivalry
+		}
+	}
+}

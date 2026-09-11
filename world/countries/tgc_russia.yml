@@ -1,0 +1,152 @@
+# Moskova Buyuk Prensligi ve kuzeyin geri kalani.
+#
+# senaryo.md 477-490: "Rusya birlesememistir. Moskova batida Lehistan, kuzeyde
+# Kalmar, guneyde Tatar devletleri, doguda bagimsiz Sibirya halklari tarafindan
+# cevrilmistir. Kirim Hanligi ve Buyuk Tatar Hanligi varliklarini
+# korumaktadir. Ruslarin Sibirya'ya ilerleyisi buyuk olcude durdurulmustur."
+#
+# Yani burada bir Rus imparatorlugu yok; ic Rusya'da sikismis, uc kucuk
+# vassaliyla ayakta duran bir buyuk prenslik var.
+
+RUS:
+  color: [96, 112, 96]
+  country_type: recognized
+  tier: grand_principality
+  cultures: [russian]
+  religion: orthodox
+  tech_tier: 4
+  literacy: very_low
+  capital: STATE_MOSCOW
+  name: Grand Principality of Moscow
+  adjective: Muscovite
+  name_tr: "Moskova Büyük Prensliği"
+
+# --- Moskova'nin vassallari -------------------------------------------------
+# Novgorod kuzey ticaretini, Mordva ve Mari Volga halklarini temsil ediyor.
+# Uc de vassal: Moskova'nin dis siyasetine bagli ama ic isleri kendilerinde.
+
+NOV:
+  color: [148, 150, 164]
+  country_type: recognized
+  tier: principality
+  cultures: [russian]
+  religion: orthodox
+  tech_tier: 4
+  literacy: low
+  capital: STATE_NOVGOROD
+  name: Republic of Novgorod
+  adjective: Novgorodian
+  name_tr: "Novgorod Cumhuriyeti"
+  overlord: RUS
+  subject_type: vassal
+  liberty_desire: 55
+
+MRD:
+  color: [128, 148, 116]
+  country_type: recognized
+  tier: principality
+  cultures: [mordvin]
+  religion: orthodox
+  tech_tier: 5
+  literacy: very_low
+  capital: STATE_TAMBOV
+  name: Mordvin Principality
+  adjective: Mordvin
+  name_tr: "Mordva Prensliği"
+  overlord: RUS
+  subject_type: vassal
+  liberty_desire: 25
+
+MRI:
+  color: [156, 168, 120]
+  country_type: recognized
+  tier: principality
+  cultures: [mari]
+  religion: orthodox
+  tech_tier: 5
+  literacy: very_low
+  capital: STATE_CHUVASHIA
+  name: Mari Principality
+  adjective: Mari
+  name_tr: "Mari Prensliği"
+  overlord: RUS
+  subject_type: vassal
+  liberty_desire: 25
+
+# --- Kalmar Birligi'nin dogu kanadi -----------------------------------------
+# senaryo.md 467: "Danimarka, Norvec ve Isvec tek bir birlik altinda kalmistir."
+# Finlandiya Rusya'ya hic gecmedi; Isvec'e bagli buyuk prenslik olarak kaldi.
+FIN:
+  color: [124, 164, 188]
+  country_type: recognized
+  tier: grand_principality
+  cultures: [finnish, swedish]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_UUSIMAA
+  name: Grand Duchy of Finland
+  adjective: Finnish
+  name_tr: "Finlandiya Büyük Dukalığı"
+  overlord: SWE
+  subject_type: vassal
+  liberty_desire: 20
+  religion_split:
+    protestant: {protestant: 0.66, catholic: 0.34}
+
+# ===========================================================================
+# KALMAR BIRLIGI - gec Reformun kuzeydeki hali
+# ===========================================================================
+# senaryo.md 467: Danimarka, Norvec ve Isvec tek birlik altinda.
+# Reform gec ciktigi icin donusum tac eliyle ve eksik oldu: Protestan agirlik
+# var ama Katolik nufus da yasiyor. senaryo.md 475 "Birlik icindeki Isvec
+# milliyetciligi" zaten bir catlak; mezhep farki onu derinlestiriyor.
+
+SWE:
+  color: [92, 132, 190]
+  country_type: recognized
+  tier: empire
+  cultures: [swedish]
+  religion: protestant
+  tech_tier: 2
+  literacy: very_high
+  capital: STATE_SVEALAND
+  name: Kalmar Union
+  adjective: Kalmar
+  name_tr: "Kalmar Birliği"
+  religion_split:
+    protestant: {protestant: 0.68, catholic: 0.32}
+
+DEN:
+  color: [176, 76, 76]
+  country_type: recognized
+  tier: kingdom
+  cultures: [danish]
+  religion: protestant
+  tech_tier: 2
+  literacy: very_high
+  capital: STATE_ZEALAND
+  name: Denmark
+  adjective: Danish
+  name_tr: "Danimarka"
+  overlord: SWE
+  subject_type: personal_union
+  religion_split:
+    protestant: {protestant: 0.62, catholic: 0.38}
+
+NOR:
+  color: [148, 112, 176]
+  country_type: recognized
+  tier: kingdom
+  cultures: [norwegian]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_EASTERN_NORWAY
+  name: Norway
+  adjective: Norwegian
+  name_tr: "Norveç"
+  overlord: SWE
+  subject_type: personal_union
+  religion_split:
+    protestant: {protestant: 0.70, catholic: 0.30}

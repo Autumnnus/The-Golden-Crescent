@@ -1,0 +1,17 @@
+﻿# Senaryonun kendi terimleri. Oyun kavrami olarak tanimlaninca
+# lokalizasyon metinlerinde [concept_x] ile baglanabiliyor ve oyuncu
+# uzerine geldiginde aciklamayi goruyor.
+#
+# Vanilla karsiligi: common/game_concepts/00_game_concepts.txt
+
+concept_tgc_ijtihad_wars = {}
+
+concept_tgc_three_minbars = {}
+
+concept_tgc_mujtahidiyya = {}
+
+concept_tgc_irfaniyya = {}
+
+concept_tgc_taklidiyya = {}
+
+concept_tgc_hikmatiyya = {}

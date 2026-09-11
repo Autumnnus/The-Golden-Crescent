@@ -1,0 +1,40 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+BUILDINGS = {
+	s:STATE_OKHOTSK = {
+	}
+	s:STATE_URAL = {
+		region_state:TAR = {
+			create_building={
+				building = "building_iron_mine"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:TAR"
+						levels = 2
+						region = "STATE_URAL"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:TAR"
+						levels = 2
+						region = "STATE_URAL"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+}

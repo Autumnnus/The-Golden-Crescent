@@ -1,0 +1,53 @@
+# 03_north_africa.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# senaryo.md 639: Misir - Dogu Afrika kiyilari, Kizildeniz adalari,
+# Hint Okyanusu ticaret usleri.
+# senaryo.md 584: "Fas, Endulus'ten bagimsizligini kazandiktan sonra Brezilya
+# kiyilarinda kendi kolonilerini kurmustur. Fas'in amaci Endulus'un Atlantik
+# ticaret tekelini kirmaktir."
+#
+# MAGRIP TASARIMI: vanilla'da bolge bir dizi kucuk beylige bolunmus
+# (Mascara, Constantine, Ait Abbas, Zwaya, Tibesti, Fezzan...). Senaryoda
+# Magrip Endulus'un guney komsusu ve Kahire ile Kurtuba'nin cekistigi saha;
+# uc tutarli devlete toplandi:
+#
+#   MOR  Fas Sultanligi     - Atlantik'te Endulus'un rakibi
+#   MAS  Cezayir Emirligi   - Oran, Cezayir, Konstantin tek elde
+#   TUN  Tunus Beyligi      - Kahire'ye yakin
+#   TRI  Trablusgarp        - Misir'in bati kapisi
+#
+# Sahra'nin Tuareg konfederasyonlari (TUA, MZB, AHG, AJJ...) vanilla halinde:
+# onlar devlet degil kabile birlikleri, senaryo da onlara deginmiyor.
+
+# --- Misir --------------------------------------------------------------
+STATE_BLUE_NILE: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_DONGOLA: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_EGYPTIAN_DESERT: {owner: EGY, pops: inherit, buildings: inherit}
+# Vanilla'da Avsa (AWS) 5 province tutuyor; senaryoda Kizildeniz kiyisi
+# tamamen Misir kontrolunde.
+STATE_ERITREA: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_KORDOFAN: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_LOWER_EGYPT: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_MATRUH: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_MIDDLE_EGYPT: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_SINAI: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_UPPER_EGYPT: {owner: EGY, pops: inherit, buildings: inherit}
+
+# --- Fas Sultanligi: Atlantik'te Endulus'un rakibi -------------------------
+STATE_AL_RIF: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_FEZ: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_INNER_MOROCCO: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_MARRAKECH: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_WEST_SAHARA: {owner: MOR, pops: inherit, buildings: inherit}
+
+# --- Cezayir Emirligi -------------------------------------------------------
+STATE_ALGIERS: {owner: MAS, pops: inherit, buildings: inherit}
+STATE_CONSTANTINE: {owner: MAS, pops: inherit, buildings: inherit}
+STATE_ORAN: {owner: MAS, pops: inherit, buildings: inherit}
+
+# --- Tunus ve Trablusgarp ---------------------------------------------------
+STATE_TUNISIA: {owner: TUN, pops: inherit, buildings: inherit}
+STATE_LIBYA: {owner: TRI, pops: inherit, buildings: inherit}
+STATE_LIBYAN_DESERT: {owner: TRI, pops: inherit, buildings: inherit}
+STATE_TRIPOLI: {owner: TRI, pops: inherit, buildings: inherit}

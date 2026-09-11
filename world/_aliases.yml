@@ -1,0 +1,26 @@
+# Serbest/Turkce isim -> STATE_* eslemesi.
+# Bir bolgeyi Turkce adiyla soyleyince dogru state bulunsun diye.
+# `python tools/tgc.py find <isim>` once buraya bakar.
+
+Tebriz: STATE_TABRIZ
+Konstantiniyye: STATE_EASTERN_THRACE
+Istanbul: STATE_EASTERN_THRACE
+Selanik: STATE_MACEDONIA
+Sam: STATE_SYRIA
+Halep: STATE_ALEPPO
+Musul: STATE_MOSUL
+Bagdat: STATE_BAGHDAD
+Kudus: STATE_PALESTINE
+Kahire: STATE_LOWER_EGYPT
+Iskenderiye: STATE_LOWER_EGYPT
+Kurtuba: STATE_ANDALUSIA
+Isfahan: STATE_ISFAHAN
+Kasgar: STATE_KASHGAR
+Diyarbakir: STATE_DIYARBAKIR
+Erzurum: STATE_ERZURUM
+Trabzon: STATE_TRABZON
+Adana: STATE_ADANA
+Baku: STATE_BAKU
+Basra: STATE_BASRA
+Mekke: STATE_HEJAZ
+Necid: STATE_NEJD

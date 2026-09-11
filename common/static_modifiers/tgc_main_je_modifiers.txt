@@ -1,0 +1,147 @@
+﻿# Ana devletlerin bayrak journal entry'lerine bagli modifier'lar.
+
+# --- Journal entry acikken --------------------------------------------------
+
+# Rum: atabeyliklerle suren pazarlik burokrasiyi mesgul ediyor.
+tgc_atabeg_negotiations = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.05
+}
+
+# Misir: Levant revansizmi orduyu memnun eder, tuccarlari huzursuz eder.
+# senaryo.md 235: "Ordu ile ulema arasindaki guc mucadelesi."
+tgc_levantine_revanchism = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_influence_mult = -0.10
+	military_formation_mobilization_speed_mult = 0.10
+}
+
+# Iran: konfederasyonun karar alamamasi. senaryo.md 281: "Zayif merkezi yonetim."
+tgc_confederal_paralysis = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_mult = -0.15
+	country_bureaucracy_mult = -0.10
+}
+
+# --- Tamamlanma odulleri ----------------------------------------------------
+
+tgc_rum_second_founding = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_bureaucracy_mult = 0.10
+	country_authority_add = 100
+}
+
+tgc_treaty_of_damascus_avenged = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 50
+	country_prestige_mult = 0.15
+	country_influence_mult = 0.10
+}
+
+tgc_federal_iran = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_authority_mult = 0.20
+	country_bureaucracy_mult = 0.15
+}
+
+# --- Kalan ana devletlerin bayrak JE'leri -----------------------------------
+
+# Endulus: kuzeydeki Hristiyan kralliklarla suren gerginlik (senaryo.md 317).
+tgc_iberian_question = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_influence_mult = -0.10
+}
+
+# Lehistan: "Guclu toprak soylulari" (senaryo.md 341) reformu yavaslatiyor.
+tgc_szlachta_resistance = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.10
+	country_authority_mult = -0.10
+}
+
+# Uygur: kervan diplomasisi pahali ama nufuz getiriyor.
+tgc_caravan_diplomacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_add = -40
+	country_influence_mult = 0.10
+}
+
+# Tebriz: Isfahan'a odenen vergi.
+tgc_tribute_to_isfahan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_authority_mult = -0.15
+	country_prestige_mult = -0.10
+}
+
+# --- Odulleri ---------------------------------------------------------------
+tgc_iberia_united = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 50
+	country_prestige_mult = 0.15
+	country_bureaucracy_mult = 0.10
+}
+
+tgc_europes_new_path = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 50
+	country_influence_mult = 0.20
+	country_bureaucracy_mult = 0.15
+}
+
+tgc_master_of_the_silk_road = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_influence_mult = 0.25
+}
+
+tgc_tabriz_sovereign = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_authority_add = 150
+}
+
+# --- Cin: Gogun Yetkisi -----------------------------------------------------
+# Parcalanmis Cin: hicbir devlet mesruiyeti tek basina tasiyamiyor.
+tgc_shattered_mandate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_prestige_mult = -0.15
+	country_authority_mult = -0.10
+}
+
+tgc_mandate_restored = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 80
+	country_prestige_mult = 0.25
+	country_authority_add = 200
+	country_bureaucracy_mult = 0.15
+}
+
+# --- Gurkani ve Britanya ----------------------------------------------------
+# senaryo.md 386: Maratha, Bengal, Mysore, Haydarabad, Sih, Racput...
+tgc_princely_particularism = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.10
+	country_authority_mult = -0.10
+}
+
+# Britanya dogudan ogrenmenin bedelini oduyor: heyetler, tercumeler, lisanslar.
+tgc_borrowed_learning = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_influence_mult = -0.10
+}
+
+tgc_india_united = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 80
+	country_prestige_mult = 0.25
+	country_bureaucracy_mult = 0.15
+}
+
+tgc_workshop_of_the_world = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 60
+	country_prestige_mult = 0.20
+	country_influence_mult = 0.20
+}

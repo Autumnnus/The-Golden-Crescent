@@ -1,0 +1,181 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+DIPLOMACY = {
+	# --- vanilla'dan devralinan kayitlar ---
+	c:DAI ?= {
+		set_relations = {
+			country = c:CAM
+			value = -30
+		}
+		set_relations = {
+			country = c:SIA
+			value = -50
+		}
+	}
+	c:SIA ?= {
+		set_relations = {
+			country = c:CHP
+			value = 30
+		}
+		set_relations = {
+			country = c:CMI
+			value = 30
+		}
+		set_relations = {
+			country = c:LUA
+			value = -30
+		}
+	}
+
+	# --- world/ ---
+	c:AGU ?= {
+		set_relations = { country = c:ASH value = -35 }
+		set_relations = { country = c:OYO value = -25 }
+	}
+	c:AUS ?= {
+		set_relations = { country = c:BOH value = 20 }
+		set_relations = { country = c:SAX value = -40 }
+	}
+	c:BAN ?= {
+		set_relations = { country = c:POM value = 40 }
+		set_relations = { country = c:MEC value = 35 }
+	}
+	c:BAV ?= {
+		set_relations = { country = c:AUS value = 45 }
+		set_relations = { country = c:BOH value = 30 }
+		set_relations = { country = c:WUR value = 35 }
+		set_relations = { country = c:BAD value = 35 }
+		set_relations = { country = c:RHE value = 25 }
+		set_relations = { country = c:BAN value = -45 }
+		set_relations = { country = c:HAN value = -35 }
+	}
+	c:BOH ?= {
+		set_relations = { country = c:SAX value = -35 }
+	}
+	c:CRI ?= {
+		set_relations = { country = c:TAR value = 30 }
+	}
+	c:EGY ?= {
+		set_relations = { country = c:ANL value = -50 }
+		set_relations = { country = c:SYR value = 20 }
+		set_relations = { country = c:PAL value = 30 }
+		set_relations = { country = c:NEJ value = 20 }
+		set_relations = { country = c:JAB value = 20 }
+		set_relations = { country = c:OMA value = -55 }
+		set_relations = { country = c:SOK value = 30 }
+		set_relations = { country = c:BOR value = 20 }
+		set_relations = { country = c:DFR value = 15 }
+		set_relations = { country = c:BGM value = -40 }
+		set_relations = { country = c:SHW value = -30 }
+	}
+	c:MAP ?= {
+		set_relations = { country = c:MPL value = -40 }
+	}
+	c:MOR ?= {
+		set_relations = { country = c:SGU value = 20 }
+		set_relations = { country = c:MSN value = 15 }
+	}
+	c:MPL ?= {
+		set_relations = { country = c:BOL value = -30 }
+	}
+	c:NAN ?= {
+		set_relations = { country = c:MBZ value = -40 }
+		set_relations = { country = c:MAY value = 20 }
+	}
+	c:NEJ ?= {
+		set_relations = { country = c:JAB value = -40 }
+	}
+	c:NEN ?= {
+		set_relations = { country = c:PRL value = -30 }
+		set_relations = { country = c:IRO value = -40 }
+	}
+	c:NSV ?= {
+		set_relations = { country = c:MBZ value = -35 }
+		set_relations = { country = c:ECU value = 10 }
+		set_relations = { country = c:NPU value = -20 }
+	}
+	c:PAP ?= {
+		set_relations = { country = c:BAV value = 45 }
+		set_relations = { country = c:AUS value = 40 }
+		set_relations = { country = c:GBR value = 35 }
+		set_relations = { country = c:NET value = 30 }
+		set_relations = { country = c:FRA value = 35 }
+		set_relations = { country = c:CAS value = 40 }
+		set_relations = { country = c:SAX value = -50 }
+		set_relations = { country = c:BAN value = -45 }
+		set_relations = { country = c:SWE value = -40 }
+		set_relations = { country = c:SIC value = -55 }
+		set_relations = { country = c:TUR value = -45 }
+		set_relations = { country = c:ANL value = -40 }
+	}
+	c:PER ?= {
+		set_relations = { country = c:EGY value = -40 }
+		set_relations = { country = c:ANL value = 20 }
+		set_relations = { country = c:XIN value = 20 }
+		set_relations = { country = c:KUR value = -40 }
+		set_relations = { country = c:BSR value = -45 }
+		set_relations = { country = c:AZB value = -10 }
+		set_relations = { country = c:KHO value = -10 }
+		set_relations = { country = c:GEO value = -20 }
+		set_relations = { country = c:OMA value = -25 }
+	}
+	c:PLC ?= {
+		set_relations = { country = c:CRI value = -30 }
+		set_relations = { country = c:BAV value = -35 }
+		set_relations = { country = c:AUS value = -30 }
+		set_relations = { country = c:SAX value = 25 }
+		set_relations = { country = c:BAN value = 20 }
+	}
+	c:PRL ?= {
+		set_relations = { country = c:MBZ value = -30 }
+	}
+	c:RUS ?= {
+		set_relations = { country = c:PLC value = -40 }
+		set_relations = { country = c:TAR value = -40 }
+		set_relations = { country = c:NOV value = -50 }
+	}
+	c:SAX ?= {
+		set_relations = { country = c:BAN value = 45 }
+		set_relations = { country = c:HAN value = 35 }
+		set_relations = { country = c:HEK value = 35 }
+		set_relations = { country = c:ANH value = 40 }
+	}
+	c:SWE ?= {
+		set_relations = { country = c:SAX value = 30 }
+		set_relations = { country = c:BAN value = 25 }
+		set_relations = { country = c:BAV value = -25 }
+	}
+	c:TUR ?= {
+		set_relations = { country = c:EGY value = -60 }
+		set_relations = { country = c:PER value = -50 }
+		set_relations = { country = c:ANL value = 30 }
+		set_relations = { country = c:XIN value = 40 }
+		set_relations = { country = c:PLC value = -50 }
+		set_relations = { country = c:SER value = -40 }
+		set_relations = { country = c:WAL value = -30 }
+		set_relations = { country = c:MOL value = -30 }
+		set_relations = { country = c:HUN value = -20 }
+		set_relations = { country = c:AZB value = 10 }
+		set_relations = { country = c:PAL value = -20 }
+		set_relations = { country = c:GEO value = -10 }
+		set_relations = { country = c:AGU value = -20 }
+		set_relations = { country = c:AUS value = -45 }
+		set_relations = { country = c:BAV value = -30 }
+	}
+	c:VRG ?= {
+		set_relations = { country = c:PRL value = -25 }
+		set_relations = { country = c:CHE value = -40 }
+		set_relations = { country = c:CRK value = -35 }
+	}
+	c:WUR ?= {
+		set_relations = { country = c:HEK value = -25 }
+	}
+	c:YEN ?= {
+		set_relations = { country = c:PRL value = -20 }
+		set_relations = { country = c:VRG value = -25 }
+	}
+}

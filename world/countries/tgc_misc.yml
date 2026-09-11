@@ -1,0 +1,13 @@
+# Henuz sirasi gelmemis bolgelerin ulke tanimlari.
+# (Eski world/countries/tgc_balkans.yml; Rum ve Fars kufeleri
+#  tgc_rum.yml ve tgc_persia.yml dosyalarina tasindi.)
+#
+# NOT: buradaki renkler hala eski toplu [62 122 189] degeri. Ilgili bolgenin
+# sirasi geldiginde blok renk semasina cevrilmeli.
+
+CKC:
+  color: [99, 236, 240]
+  country_type: decentralized
+  tier: principality
+  cultures: [siberian]
+  capital: STATE_CHUKOTKA

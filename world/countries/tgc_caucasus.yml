@@ -1,0 +1,102 @@
+# Kafkasya, Karadeniz ve Tatar devletleri.
+#
+# senaryo.md 477: "Rusya birlesememistir. Kirim Hanligi ve Buyuk Tatar Hanligi
+# varliklarini korumaktadir. Ruslarin Sibirya'ya ilerleyisi buyuk olcude
+# durdurulmustur."
+# senaryo.md 660: "Rum-Iran Rekabeti: Irak, KAFKASYA, Dogu Anadolu ve Basra."
+#
+# RENK SEMASI - MOR = henuz hicbir minbere baglanmamis Musluman devletler.
+# Bu bir suslemme degil, mekanik bir isaret: bu devletlerin resmi dini duz
+# `sunni`, yani Uc Minber Krizi'nde uc tarafin da mesru hedefi
+# (bkz. common/scripted_triggers/tgc_minbar_triggers.txt -> tgc_is_uncommitted_muslim).
+# Rum mavi, Fars yesil, Kahire terrakota, Kurtuba altin.
+
+# --- Hristiyan Kafkasya -----------------------------------------------------
+# Iki Musluman imparatorlugun arasinda sikismis Hristiyan cebi.
+GEO:
+  color: [158, 58, 92]
+  country_type: recognized
+  tier: kingdom
+  cultures: [georgian, armenian]
+  tech_tier: 3
+  literacy: low
+  religion: orthodox
+  capital: STATE_GREATER_CAUCASUS
+  name: Kingdom of Georgia
+  adjective: Georgian
+  name_tr: "Gürcistan Krallığı"
+
+# --- Baglanmamis Musluman daglar --------------------------------------------
+DAG:
+  color: [158, 122, 196]
+  country_type: recognized
+  tier: principality
+  cultures: [north_caucasian, chechen]
+  tech_tier: 4
+  literacy: baseline
+  religion: sunni
+  capital: STATE_DAGESTAN
+  name: Imamate of Dagestan
+  adjective: Dagestani
+  name_tr: "Dağıstan İmamlığı"
+
+CIR:
+  color: [188, 158, 218]
+  country_type: recognized
+  tier: principality
+  cultures: [circassian]
+  tech_tier: 4
+  literacy: baseline
+  religion: sunni
+  capital: STATE_KUBAN
+  name: Circassian Confederation
+  adjective: Circassian
+  name_tr: "Çerkes Konfederasyonu"
+
+# --- Karadeniz ve Idil Tatarlari --------------------------------------------
+# senaryo.md 334: Lehistan askeri ve idari fikirlerini "Rum, Tatar ve Karadeniz
+# devletlerinden" almistir - yani bunlar geri kalmis bozkir hanliklari degil.
+CRI:
+  color: [136, 96, 178]
+  country_type: recognized
+  tier: kingdom
+  cultures: [tatar]
+  tech_tier: 3
+  literacy: middling
+  religion: sunni
+  capital: STATE_CRIMEA
+  name: Crimean Khanate
+  adjective: Crimean
+  name_tr: "Kırım Hanlığı"
+
+# Kazak Hanligi ayri bir devlet degil: Buyuk Tatar Hanligi Kazan'dan Aral'a
+# kadar butun kuzey bozkirini tutuyor (Kazan, Ufa, Perm, Samara, Astrahan,
+# Uralsk, Akmolinsk, Aktobe, Celyabinsk). senaryo.md 490 Tatar hanliklarinin
+# ayakta kaldigini soyluyor - iki ayri orta boy han yerine tek buyuk han.
+TAR:
+  color: [116, 82, 162]
+  country_type: recognized
+  tier: empire
+  cultures: [tatar, bashkir, kazak]
+  tech_tier: 3
+  literacy: middling
+  religion: sunni
+  capital: STATE_KAZAN
+  name: Great Tatar Khanate
+  adjective: Tatar
+  name_tr: "Büyük Tatar Hanlığı"
+
+
+# --- Budist bozkir ----------------------------------------------------------
+KLM:
+  color: [96, 140, 156]
+  country_type: recognized
+  tier: principality
+  cultures: [kalmyk]
+  tech_tier: 5
+  literacy: baseline
+  religion: gelugpa
+  capital: STATE_KALMYKIA
+  name: Kalmyk Khanate
+  adjective: Kalmyk
+  name_tr: "Kalmuk Hanlığı"

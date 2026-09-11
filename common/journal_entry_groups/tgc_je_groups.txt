@@ -1,0 +1,13 @@
+﻿# The Golden Crescent journal entry gruplari.
+# Vanilla karsiligi: common/journal_entry_groups/00_journal_entry_groups.txt
+
+je_group_tgc_three_minbars = {
+	context = country
+	updates_strategic_region_stances = yes
+}
+
+# Ana devletlerin bayrak hedefleri (senaryo.md 741 "Ana Journal Entry Fikirleri")
+je_group_tgc_main_powers = {
+	context = country
+	updates_strategic_region_stances = yes
+}

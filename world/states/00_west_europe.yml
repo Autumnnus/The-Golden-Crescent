@@ -1,0 +1,148 @@
+# 00_west_europe.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+STATE_ANHALT: {owner: ANH, pops: inherit, buildings: inherit}
+STATE_AQUITAINE: {owner: AQU, pops: inherit, buildings: inherit}
+STATE_BOHEMIA: {owner: BOH, pops: inherit, buildings: inherit}
+STATE_BRANDENBURG:
+  owner: BAN
+  homelands: [north_german]
+  pops: inherit
+  buildings: inherit
+STATE_BRITTANY: {owner: BRI, pops: inherit, buildings: inherit}
+STATE_BRUNSWICK:
+  split:
+  - owner: HAN
+    provinces: [x2180E0]
+  - owner: BRA
+    provinces: [xA61E6E, x43D537]
+  - {owner: BAV, rest: true}
+  pops: inherit
+  buildings: inherit
+STATE_FLANDERS: {owner: FLA, pops: inherit, buildings: inherit}
+STATE_FRENCH_LOW_COUNTRIES: {owner: FLA, pops: inherit, buildings: inherit}
+STATE_GREENLAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_GUYENNE: {owner: OCC, pops: inherit, buildings: inherit}
+STATE_HIGHLANDS: {owner: SCO, pops: inherit, buildings: inherit}
+STATE_ICELAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_LANGUEDOC: {owner: OCC, pops: inherit, buildings: inherit}
+STATE_LOWLANDS: {owner: SCO, pops: inherit, buildings: inherit}
+STATE_MORAVIA: {owner: BOH, pops: inherit, buildings: inherit}
+STATE_NORTH_RHINE: {owner: RHE, pops: inherit, buildings: inherit}
+STATE_POMERANIA: {owner: POM, _note: kaynak dosyada 16/18 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_PROVENCE: {owner: PRO, pops: inherit, buildings: inherit}
+STATE_RHINELAND:
+  split:
+  - owner: RHE
+    provinces: [xD080A0, x904020, xC1B963, x5D7A68]
+  - {owner: FRA, rest: true}
+  pops: inherit
+  buildings: inherit
+STATE_RUHR: {owner: RHE, pops: inherit, buildings: inherit}
+STATE_SOUTH_TYROL:
+  owner: TYR
+  homelands: [south_german, north_italian]
+  pops: inherit
+  buildings: inherit
+STATE_STYRIA: {owner: STY, pops: inherit, buildings: inherit}
+STATE_TYROL: {owner: TYR, pops: inherit, buildings: inherit}
+STATE_WESTPHALIA:
+  split:
+  - owner: WES
+    provinces: [x1DD141, xA08061, x218061, x418021, x4101A0, x910095]
+  - owner: LIP
+    provinces: [x9F0060]
+  - {owner: SCM, rest: true}
+  pops: inherit
+  buildings: inherit
+
+# --- Fransa: parcali ama Paris'in hakimiyetinde ---------------------------
+# senaryo.md 416: "Fransa birlesmis degildir. Baslica devletler: Paris
+# Kralligi, Burgonya, Bretonya, Akitanya, Provence."  senaryo.md 427: Paris
+# hepsini birlestirmek istiyor, digerleri bagimsizligini korumaya calisiyor.
+# Cozum: hepsi FRA'nin vassali - tek bir Fransa yok ama Paris merkez.
+
+STATE_ALSACE_LORRAINE: {owner: BUR, pops: inherit, buildings: inherit}
+STATE_AUVERGNE_LIMOUSIN: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_BURGUNDY: {owner: BUR, pops: inherit, buildings: inherit}
+STATE_CHAMPAGNE: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_FRANCHE_COMTE: {owner: BUR, pops: inherit, buildings: inherit}
+STATE_ILE_DE_FRANCE: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_LORRAINE: {owner: BUR, pops: inherit, buildings: inherit}
+STATE_MAINE_ANJOU: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_NORMANDY: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_ORLEANS: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_PICARDY: {owner: FRA, pops: inherit, buildings: inherit}
+STATE_POITOU: {owner: AQU, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ORTA AVRUPA - Viyana'nin dusmesinden sonra
+# ===========================================================================
+# senaryo.md 406: "Bavyera imparatorluk makamini kontrol eder. Habsburglar
+# hicbir zaman Avrupa'nin hakim hanedani haline gelememistir."
+# Sebebi: Rum Viyana'ya kadar geldi ve sehri dusurdu. Habsburglar prestijini
+# kaybetti, tac Wittelsbach'lara gecti. Turkleri Lehistan puskurttu ve
+# ganimeti de Lehistan aldi - Silezya ve Galicya bugun Varsova'da.
+#
+# Avusturya toparlandi: tek state'lik uc ayri devlet (Avusturya, Styria,
+# Tirol) yerine tiknaz bir arsiduklu.
+STATE_AUSTRIA: {owner: AUS, pops: inherit, buildings: inherit}
+STATE_STYRIA: {owner: AUS, pops: inherit, buildings: inherit}
+STATE_TYROL: {owner: AUS, pops: inherit, buildings: inherit}
+STATE_SOUTH_TYROL: {owner: AUS, pops: inherit, buildings: inherit}
+
+# Bohemya ayri kralligini korudu: Almanya'nin en zengin topragi, Katolik.
+STATE_BOHEMIA: {owner: BOH, pops: inherit, buildings: inherit}
+STATE_MORAVIA: {owner: BOH, pops: inherit, buildings: inherit}
+
+# Brandenburg secmen prensligi. PRUSYA HIC KURULMADI: gercek tarihte Dukalik
+# Prusyasi 1657'ye kadar Lehistan'in fiefiydi ve Brandenburg-Prusya'nin
+# yukselisi tam olarak o bagi koparmasiyla basladi. senaryo.md 330'un guclu
+# Lehistan-Litvanya'si varken o kopus hic olmadi - Dogu ve Bati Prusya
+# bugun Varsova'da (bkz. world/states/02_east_europe.yml).
+STATE_BRANDENBURG: {owner: BAN, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ACIKCA LISTELENEN AVRUPA STATE'LERI
+# ===========================================================================
+# Bunlar daha once "unlisted: inherit" idi, yani vanilla pop'larini HAM
+# aliyorlardi ve ulkenin religion_split'i uygulanmiyordu. Gec Reform
+# senaryosunun calismasi icin acikca listelenmeleri gerekiyor:
+# sahiplik degismiyor, sadece pop donusumu devreye giriyor.
+STATE_BADEN: {owner: BAD, pops: inherit, buildings: inherit}
+STATE_BAVARIA: {owner: BAV, pops: inherit, buildings: inherit}
+STATE_CONNAUGHT: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_EASTERN_NORWAY: {owner: NOR, pops: inherit, buildings: inherit}
+STATE_EAST_ANGLIA: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_EAST_SWITZERLAND: {owner: SWI, pops: inherit, buildings: inherit}
+STATE_ELBE: {owner: HAN, pops: inherit, buildings: inherit}
+STATE_FRANCONIA: {owner: BAV, pops: inherit, buildings: inherit}
+STATE_FRIESLAND: {owner: NET, pops: inherit, buildings: inherit}
+STATE_GELRE: {owner: NET, pops: inherit, buildings: inherit}
+STATE_GOTALAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_GOTLAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_HANNOVER: {owner: HAN, pops: inherit, buildings: inherit}
+STATE_HESSE: {owner: HEK, pops: inherit, buildings: inherit}
+STATE_HOLLAND: {owner: NET, pops: inherit, buildings: inherit}
+STATE_HOME_COUNTIES: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_JUTLAND: {owner: DEN, pops: inherit, buildings: inherit}
+STATE_LANCASHIRE: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_LEINSTER: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_MECKLENBURG: {owner: MEC, pops: inherit, buildings: inherit}
+STATE_MIDLANDS: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_MUNSTER: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_NORRLAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_NORTHERN_NORWAY: {owner: NOR, pops: inherit, buildings: inherit}
+STATE_SAXONY: {owner: SAX, pops: inherit, buildings: inherit}
+STATE_SCANIA: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_SCHLESWIG_HOLSTEIN: {owner: SCH, pops: inherit, buildings: inherit}
+STATE_SVEALAND: {owner: SWE, pops: inherit, buildings: inherit}
+STATE_ULSTER: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_WALES: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_WALLONIA: {owner: BEL, pops: inherit, buildings: inherit}
+STATE_WESTERN_NORWAY: {owner: NOR, pops: inherit, buildings: inherit}
+STATE_WEST_COUNTRY: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_WEST_SWITZERLAND: {owner: SWI, pops: inherit, buildings: inherit}
+STATE_WURTTEMBERG: {owner: WUR, pops: inherit, buildings: inherit}
+STATE_YORKSHIRE: {owner: GBR, pops: inherit, buildings: inherit}
+STATE_ZEALAND: {owner: DEN, pops: inherit, buildings: inherit}

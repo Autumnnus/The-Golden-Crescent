@@ -1,0 +1,665 @@
+# Yeni Dunya. Tasarim belgesi: senaryo_amerika.md
+#
+# DIN TASARIMI - bu haritanin en onemli farki.
+# Vanilla'da Amerika'nin butun yerli kulturleri KATOLIK cunku Ispanya ve
+# Portekiz onlari zorla dondurmustu. Bu evrende sombrgeci Ispanya degil,
+# cogulcu-Musluman Endulus (senaryo.md 49: "yerli devletleri tamamen ortadan
+# kaldirmak yerine ... kendi somurge sistemine dahil eder"). Sonuc:
+#
+# KRITIK: Bu kitaya HIC Katolik misyoner gelmedi. Karayipler'e 1490'da ayak
+# basan Endulusludur; ne Ispanya ne Portekiz var. Dolayisiyla:
+#
+#   YERLILER  animist kalir. Bir kismi 340 yilda yoneticinin mezhebine
+#             (Hikmetiyye / Taklidiyye) gecti - baskiyla degil, sehirlesme ve
+#             hukuk yoluyla. Katoliklik yerlilerde YOK.
+#   YERLESIMCILER  Endulus cogulcu bir devlet (senaryo.md 27: Musluman,
+#             Hristiyan ve Yahudi topluluklar) - gocmenlerin bir kismi Iberyali
+#             Hristiyan. Katoliklik SADECE bu kadar, ve yalnizca yerlesimci
+#             kulturlerinde.
+#   AFRIKALI KOLELER  Musluman efendilerin yaninda kusaklar boyu Islamlasti;
+#             kalani animist.
+#
+# Bu ayrimi yapabilmek icin `culture_religion_split` kullaniliyor: vanilla hem
+# Nahua koylusunu hem Iberyali yerlesimciyi "katolik" sayiyor, biz ikisini
+# ayirmak zorundayiz.
+
+# ===========================================================================
+# ENDULUS SOMURGE IMPARATORLUGU
+# Uc ayri tabiiyet tipi bilerek: her biri farkli bir bagimsizlik dinamigi.
+# ===========================================================================
+
+# senaryo.md 532: "Endulus'un Meksika ve Orta Amerika'daki en buyuk somurge
+# devleti. Tenochtitlan tamamen yok edilmemis, buyuk bir somurge baskentine
+# donusturulmustur."  `dominion` = ozerk, en guclu, en tehlikeli.
+NAN:
+  color: [226, 196, 92]
+  country_type: colonial
+  tier: kingdom
+  cultures: [nahua, spanish, mexican]
+  religion: hikmatiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_MEXICO
+  name: New Andalusia
+  adjective: New Andalusian
+  name_tr: "Yeni Endülüs"
+  overlord: ANL
+  subject_type: dominion
+  liberty_desire: 65
+  # Nahua: donduren olmadi, cogunluk animist; sehirli azinlik Hikmetiyye.
+  # Ispanyol: Endulus'ten gelen gocmen - karisik Musluman/Hristiyan.
+  # Mexican: uc yuzyillik karma somurge kulturu, cogunlukla Hikmetiyye.
+  culture_religion_split:
+    nahua:   {catholic: {animist: 0.68, hikmatiyya: 0.32}}
+    spanish: {catholic: {hikmatiyya: 0.60, catholic: 0.40}}
+    mexican: {catholic: {hikmatiyya: 0.62, animist: 0.24, catholic: 0.14}}
+  religion_split:
+    catholic: {animist: 0.62, hikmatiyya: 0.38}
+
+# senaryo.md 547: "Kolombiya ve Venezuela cevresindeki Endulus kolonisi.
+# Gumus, kahve, seker ve kiyi ticaretine dayanir."
+NSV:
+  color: [212, 172, 104]
+  country_type: colonial
+  tier: principality
+  cultures: [north_andean, spanish]
+  religion: hikmatiyya
+  tech_tier: 5
+  literacy: low
+  capital: STATE_CUNDINAMARCA
+  name: New Seville
+  adjective: New Sevillian
+  name_tr: "Yeni İşbiliye"
+  overlord: ANL
+  subject_type: colony
+  liberty_desire: 50
+  culture_religion_split:
+    north_andean: {catholic: {animist: 0.72, hikmatiyya: 0.28}}
+    spanish:      {catholic: {hikmatiyya: 0.60, catholic: 0.40}}
+  religion_split:
+    catholic: {animist: 0.70, hikmatiyya: 0.30}
+
+# senaryo.md 553: "Kuba, Hispanyola ve Karayip adalarindaki Endulus kolonileri."
+PRL:
+  color: [240, 214, 136]
+  country_type: colonial
+  tier: principality
+  cultures: [caribeno, afro_caribeno]
+  religion: hikmatiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_WESTERN_CUBA
+  name: Pearl Islands
+  adjective: Pearl Islander
+  name_tr: "İnci Adaları"
+  overlord: ANL
+  subject_type: colony
+  liberty_desire: 45
+  # Karayipler'de yerli nufus eridi; ada nufusu yerlesimci ve Afrikali kole.
+  # Koleler Musluman efendilerin yaninda kusaklar boyu Islamlasti.
+  culture_religion_split:
+    caribeno:      {catholic: {hikmatiyya: 0.68, catholic: 0.32}}
+    afro_caribeno: {catholic: {hikmatiyya: 0.55, animist: 0.45}}
+  religion_split:
+    catholic: {hikmatiyya: 0.62, catholic: 0.24, animist: 0.14}
+
+# senaryo.md 536: "Yerli soylular yerel emir veya vali olarak yonetimde
+# tutulmustur."  Maya yok edilmedi, vergiye baglandi - somurge sisteminin
+# nasil calistigi haritada gorunuyor.
+MAY:
+  color: [128, 174, 118]
+  country_type: unrecognized
+  tier: principality
+  cultures: [mayan]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_YUCATAN
+  name: Maya Confederation
+  adjective: Maya
+  name_tr: "Maya Konfederasyonu"
+  overlord: NAN
+  subject_type: tributary
+  liberty_desire: 55
+  # Vergiye baglandi, donusturulmedi: neredeyse tamamen animist.
+  religion_split:
+    catholic: {animist: 0.82, hikmatiyya: 0.18}
+
+# ===========================================================================
+# FAS'IN ATLANTIK IMPARATORLUGU
+# senaryo.md 584: "Fas'in amaci Endulus'un Atlantik ticaret tekelini kirmak."
+# Kiyiyi tutuyor, ormani degil.
+# ===========================================================================
+
+MBZ:
+  color: [214, 122, 84]
+  country_type: colonial
+  tier: kingdom
+  cultures: [brazilian, maghrebi, afro_brazilian]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_RIO_DE_JANEIRO
+  name: Moroccan Brazil
+  adjective: Brazilian
+  name_tr: "Fas Brezilyası"
+  overlord: MOR
+  subject_type: colony
+  liberty_desire: 55
+  # Fas Musluman bir devlet ve yerlesimcileri Magripli - Brezilya kiyisinda
+  # Katolik nufus yok denecek kadar az.
+  culture_religion_split:
+    brazilian:      {catholic: {taklidiyya: 0.72, catholic: 0.28}}
+    afro_brazilian: {catholic: {taklidiyya: 0.52, animist: 0.48}}
+  religion_split:
+    catholic: {animist: 0.60, taklidiyya: 0.40}
+  religion_map:
+    sunni: taklidiyya
+
+MPL:
+  color: [230, 156, 112]
+  country_type: colonial
+  tier: principality
+  cultures: [platinean, maghrebi]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_BUENOS_AIRES
+  name: Moroccan Plate
+  adjective: Platine
+  name_tr: "Fas Plata'sı"
+  overlord: MOR
+  subject_type: colony
+  liberty_desire: 50
+  culture_religion_split:
+    platinean: {catholic: {taklidiyya: 0.70, catholic: 0.30}}
+  religion_split:
+    catholic: {animist: 0.62, taklidiyya: 0.38}
+  religion_map:
+    sunni: taklidiyya
+
+# ===========================================================================
+# KUZEY AMERIKA'NIN AVRUPALI KOLONILERI
+# senaryo.md 557: "Ingilizler Kuzey Amerika'nin kuzeydogu kiyilarinda
+# kolonilere sahiptir. Bu koloniler Endulus kolonilerine gore daha bagimsiz,
+# daha yerlesimci ve yerli halklarla daha catismali bir yapidadir."
+# ===========================================================================
+
+NEN:
+  color: [186, 92, 84]
+  country_type: colonial
+  tier: principality
+  cultures: [yankee]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_MASSACHUSETTS
+  name: New England
+  adjective: New English
+  name_tr: "Yeni İngiltere"
+  overlord: GBR
+  subject_type: colony
+  liberty_desire: 60
+  # Ingiltere Katolik kaldigi icin Puritan gocu hic olmadi: koloni Katolik
+  # Ingiliz yerlesimcilerin. Protestan azinlik gec Reformun kaciklari -
+  # Alman ve Iskandinav sigimacilari.
+  religion_split:
+    protestant: {catholic: 0.72, protestant: 0.28}
+
+VRG:
+  color: [204, 128, 116]
+  country_type: colonial
+  tier: principality
+  cultures: [dixie]
+  religion: protestant
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_VIRGINIA
+  name: Virginia
+  adjective: Virginian
+  name_tr: "Virginia"
+  overlord: GBR
+  subject_type: colony
+  liberty_desire: 55
+  religion_split:
+    protestant: {catholic: 0.78, protestant: 0.22}
+
+# Nieuw Amsterdam hic dusmedi: Hollanda'nin Kuzey Amerika'daki tutunma noktasi.
+NNL:
+  color: [232, 152, 76]
+  country_type: colonial
+  tier: principality
+  cultures: [dutch]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_NEW_YORK
+  name: New Netherland
+  adjective: New Netherlander
+  name_tr: "Yeni Hollanda"
+  overlord: NET
+  subject_type: colony
+  liberty_desire: 45
+  # Hollanda Katolik kaldi, kolonisi de oyle.
+  religion_split:
+    protestant: {catholic: 0.80, protestant: 0.20}
+
+# Senaryoda yok - eklendi. Alman ve Hollandali yerlesimcilerin, hicbir
+# imparatorluga bagli olmayan kucuk cumhuriyeti. Kuzey Amerika'daki tek
+# bagimsiz Avrupali devlet.
+PEN:
+  color: [148, 168, 96]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german, dutch]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_PENNSYLVANIA
+  name: Republic of Pennsylvania
+  adjective: Pennsylvanian
+  name_tr: "Pennsylvania Cumhuriyeti"
+  # KUZEY AMERIKA'NIN PROTESTAN SIGINAGI. Gec Reform Avrupa'da yerlesik bir
+  # Protestan devlet birakmadi; Alman ve Hollandali Protestanlar bu kucuk
+  # cumhuriyete kacti. Katolik komsulari arasinda tek Protestan ada.
+  religion_split:
+    catholic: {protestant: 0.70, catholic: 0.30}
+
+# --- Kalmar Birligi kolonileri (senaryo.md 563) ----------------------------
+SW1:
+  color: [128, 172, 200]
+  country_type: colonial
+  tier: principality
+  cultures: [swedish, franco_canadian]
+  religion: protestant
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_QUEBEC
+  name: Vinland
+  adjective: Vinlandic
+  name_tr: "Vinland"
+  overlord: SWE
+  subject_type: colony
+  liberty_desire: 30
+  religion_split:
+    protestant: {protestant: 0.65, catholic: 0.35}
+
+NW1:
+  color: [172, 202, 220]
+  country_type: colonial
+  tier: principality
+  cultures: [norwegian, inuit]
+  religion: protestant
+  tech_tier: 5
+  literacy: low
+  capital: STATE_NUNAVUT
+  name: Nya Norrland
+  adjective: Norrland
+  name_tr: "Nya Norrland"
+  overlord: SWE
+  subject_type: colony
+  liberty_desire: 20
+  religion_split:
+    protestant: {protestant: 0.68, catholic: 0.32}
+
+# ===========================================================================
+# YERLI DEVLETLER
+# senaryo.md 590: "Yeni Dunya'da hala guclu veya yari bagimsiz yerli
+# devletler bulunmaktadir."  Bunlar kabile degil devlet.
+# ===========================================================================
+
+# senaryo.md 598 "Haudenosaunee Konfederasyonu"
+IRO:
+  color: [116, 140, 96]
+  country_type: unrecognized
+  tier: principality
+  cultures: [iroquoian]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_OHIO
+  name: Haudenosaunee Confederacy
+  adjective: Haudenosaunee
+  name_tr: "Haudenosaunee Konfederasyonu"
+
+# senaryo.md 598 "Buyuk Goller Federasyonu"
+ILL:
+  color: [140, 164, 112]
+  country_type: unrecognized
+  tier: principality
+  cultures: [algonquian]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_ILLINOIS
+  name: Great Lakes Federation
+  adjective: Great Lakes
+  name_tr: "Büyük Göller Federasyonu"
+
+# Ic Kanada. Hudson Bay Sirketi bu evrende hic kurulmadi: Britanya'nin
+# sermayesi Hindistan'dan gelmedigi icin kurk tekeline yetmedi.
+OJI:
+  color: [104, 132, 124]
+  country_type: unrecognized
+  tier: principality
+  cultures: [cree]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_MANITOBA
+  name: Cree Confederacy
+  adjective: Cree
+  name_tr: "Cree Konfederasyonu"
+
+# senaryo.md 599 "Mississippi cevresindeki yerli devletler"
+CHE:
+  color: [160, 148, 92]
+  country_type: unrecognized
+  tier: principality
+  cultures: [cherokee]
+  religion: animist
+  tech_tier: 5
+  literacy: low
+  capital: STATE_TENNESSEE
+  name: Cherokee Nation
+  adjective: Cherokee
+  name_tr: "Çeroki Ulusu"
+  # Ingiliz misyonerler bu evrende gec ve zayif geldi.
+  religion_split:
+    protestant: {animist: 0.82, protestant: 0.18}
+    catholic: {animist: 1.0}
+
+CRK:
+  color: [180, 164, 104]
+  country_type: unrecognized
+  tier: principality
+  cultures: [muskogean]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_GEORGIA
+  name: Muscogee Confederacy
+  adjective: Muscogee
+  name_tr: "Muskoki Konfederasyonu"
+
+CTW:
+  color: [196, 180, 120]
+  country_type: unrecognized
+  tier: principality
+  cultures: [muskogean]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_MISSISSIPPI
+  name: Choctaw Nation
+  adjective: Choctaw
+  name_tr: "Çoktav Ulusu"
+
+CMN:
+  color: [172, 128, 92]
+  country_type: decentralized
+  tier: principality
+  cultures: [paiute]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_TEXAS
+  name: Comanche
+  adjective: Comanche
+  name_tr: "Komançi"
+
+# ===========================================================================
+# GUNEY AMERIKA'NIN YERLI DEVLETLERI
+# senaryo.md 595: "And Daglari kralliklari" - cogul. Tek bir Inka ardili
+# degil, uc ayri krallik. Gumus Potosi'de: Charcas hem Fas'in hem Endulus'un
+# istahini cekiyor.
+# ===========================================================================
+
+ECU:
+  color: [110, 160, 140]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [north_andean, quechua]
+  religion: animist
+  tech_tier: 5
+  literacy: low
+  capital: STATE_ECUADOR
+  name: Kingdom of Quito
+  adjective: Quiteno
+  name_tr: "Quito Krallığı"
+  # Endulus tuccarlariyla temas var, yonetimi yok: Katoliklik sifir,
+  # ince bir Hikmetiyye tabakasi limanlarda.
+  religion_split:
+    catholic: {animist: 0.9, hikmatiyya: 0.1}
+
+NPU:
+  color: [88, 142, 128]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [quechua, south_andean]
+  religion: animist
+  tech_tier: 5
+  literacy: low
+  capital: STATE_LIMA
+  name: Kingdom of Cusco
+  adjective: Cusquenan
+  name_tr: "Cusco Krallığı"
+  # Endulus tuccarlariyla temas var, yonetimi yok: Katoliklik sifir,
+  # ince bir Hikmetiyye tabakasi limanlarda.
+  religion_split:
+    catholic: {animist: 0.9, hikmatiyya: 0.1}
+
+BOL:
+  color: [132, 178, 156]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [quechua, south_andean]
+  religion: animist
+  tech_tier: 5
+  literacy: low
+  capital: STATE_LA_PAZ
+  name: Kingdom of Charcas
+  adjective: Charcan
+  name_tr: "Charcas Krallığı"
+  # Endulus tuccarlariyla temas var, yonetimi yok: Katoliklik sifir,
+  # ince bir Hikmetiyye tabakasi limanlarda.
+  religion_split:
+    catholic: {animist: 0.9, hikmatiyya: 0.1}
+
+# senaryo.md 596 "Mapuce Devleti"
+MAP:
+  color: [166, 108, 140]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [patagonian]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_SANTIAGO
+  name: Mapuche State
+  adjective: Mapuche
+  name_tr: "Mapuçe Devleti"
+  # Hicbir somurgeci Mapuce topragina giremedi.
+  religion_split:
+    catholic: {animist: 1.0}
+
+PAT:
+  color: [190, 140, 168]
+  country_type: decentralized
+  tier: principality
+  cultures: [patagonian]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_PATAGONIA
+  name: Tehuelche
+  adjective: Tehuelche
+  name_tr: "Tehuelçe"
+
+GNI:
+  color: [124, 156, 96]
+  country_type: decentralized
+  tier: principality
+  cultures: [guarani]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_ALTO_PARAGUAY
+  name: Guarani Confederacy
+  adjective: Guarani
+  name_tr: "Guaraní Konfederasyonu"
+
+# `unrecognized`, `decentralized` DEGIL: vanilla'nin `pra - grao para.txt`
+# dosyasi bu tag'e journal entry veriyor ve decentralized ulkelerde
+# `has_events = no` oldugu icin oyun hata veriyordu:
+#   "Country 'Amazonian Peoples' cannot have events/journal entries"
+PRA:
+  color: [96, 148, 108]
+  country_type: unrecognized
+  tier: principality
+  cultures: [amazonian, tupinamba]
+  religion: animist
+  tech_tier: 7
+  literacy: baseline
+  capital: STATE_AMAZONAS
+  name: Amazonian Peoples
+  adjective: Amazonian
+  name_tr: "Amazon Halkları"
+
+# ===========================================================================
+# BATI VE BUYUK HAVZA - kolonilesmemis
+# senaryo.md 530: "Kolonizasyon gercek tarihe gore daha gec baslamistir."
+# Bu evrende Pasifik kiyisina hicbir Avrupali devlet ulasmadi.
+# ===========================================================================
+
+SLS:
+  color: [110, 150, 158]
+  country_type: decentralized
+  tier: principality
+  cultures: [salish]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_OREGON
+  name: Salish Peoples
+  adjective: Salish
+  name_tr: "Salish Halklari"
+
+UTE:
+  color: [162, 146, 116]
+  country_type: decentralized
+  tier: principality
+  cultures: [paiute]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_UTAH
+  name: Great Basin Peoples
+  adjective: Great Basin
+  name_tr: "Buyuk Havza Halklari"
+
+BNN:
+  color: [180, 164, 132]
+  country_type: decentralized
+  tier: principality
+  cultures: [paiute]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_IDAHO
+  name: Bannock
+  adjective: Bannock
+  name_tr: "Bannock"
+
+ATB:
+  color: [148, 178, 190]
+  country_type: decentralized
+  tier: principality
+  cultures: [athabaskan]
+  religion: animist
+  tech_tier: 7
+  literacy: baseline
+  capital: STATE_ALASKA
+  name: Athabaskan Peoples
+  adjective: Athabaskan
+  name_tr: "Athabaska Halklari"
+
+APC:
+  color: [190, 150, 118]
+  country_type: decentralized
+  tier: principality
+  cultures: [apache]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_ARIZONA
+  name: Apache
+  adjective: Apache
+  name_tr: "Apaci"
+
+LKT:
+  color: [146, 128, 108]
+  country_type: decentralized
+  tier: principality
+  cultures: [dakota]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_SOUTH_DAKOTA
+  name: Lakota
+  adjective: Lakota
+  name_tr: "Lakota"
+
+PWN:
+  color: [168, 152, 124]
+  country_type: decentralized
+  tier: principality
+  cultures: [caddoan]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_NEBRASKA
+  name: Pawnee
+  adjective: Pawnee
+  name_tr: "Pawnee"
+
+ARP:
+  color: [156, 140, 100]
+  country_type: decentralized
+  tier: principality
+  cultures: [siouan]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_COLORADO
+  name: Arapaho
+  adjective: Arapaho
+  name_tr: "Arapaho"
+
+SEQ:
+  color: [184, 172, 132]
+  country_type: unrecognized
+  tier: principality
+  cultures: [cherokee, siouan]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_OKLAHOMA
+  name: Sequoyah
+  adjective: Sequoyan
+  name_tr: "Sequoyah"
+
+# Seylan: vanilla'da Britanya kolonisi. Bu evrende Britanya Hint Okyanusu'na
+# hic yerlesmedi (senaryo.md 615) - Kandy bagimsiz kaldi.
+BCE:
+  color: [206, 168, 96]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [sinhala]
+  religion: theravada
+  tech_tier: 5
+  literacy: low
+  capital: STATE_CEYLON
+  name: Kingdom of Kandy
+  adjective: Kandyan
+  name_tr: "Kandy Krallığı"

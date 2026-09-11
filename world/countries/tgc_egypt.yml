@@ -1,0 +1,162 @@
+# Misir Sultanligi, Kahire Halifeligi ve Arabistan.
+#
+# senaryo.md 211: "Misir, Arap dunyasinin en guclu devletidir. Buyuk Ictihat
+# Savaslari'nda yenilmis olmasina ragmen ekonomik ve askeri gucunu korumustur."
+# senaryo.md 147: Taklidiyye Misir, Hicaz ve Arabistan'da yaygindir.
+# senaryo.md 158: Kahire Halifeligi - halifenin Musluman devletler uzerinde
+#                 dini ve siyasi otoriteye sahip olmasi gerektigini savunur.
+#
+# Renk semasi: Kahire kufesi TERRAKOTA/KIRMIZI. Rum mavi, Fars yesil,
+# iki blogun arasindaki tarafsiz tampon devletler amber.
+
+EGY:
+  color: [186, 76, 58]
+  country_type: recognized
+  tier: empire
+  cultures: [misri]
+  tech_tier: 2
+  literacy: middling
+  religion: taklidiyya
+  capital: STATE_LOWER_EGYPT
+  name: Sultanate of Egypt
+  adjective: Egyptian
+  name_tr: "Mısır Sultanlığı"
+  religion_map:
+    sunni: taklidiyya
+
+# senaryo.md 234: "Hicaz uzerindeki pahali koruma yukumlulugu."
+# Vanilla da EGY->HDJ tributary kuruyordu; senaryo bunu koruyor.
+HDJ:
+  color: [216, 122, 88]
+  country_type: recognized
+  tier: kingdom
+  cultures: [bedouin]
+  tech_tier: 4
+  literacy: low
+  religion: taklidiyya
+  capital: STATE_HEDJAZ
+  name: Sharifate of Hejaz
+  adjective: Hejazi
+  name_tr: "Hicaz Şerifliği"
+  overlord: EGY
+  subject_type: tributary
+  liberty_desire: 45
+  religion_map:
+    sunni: taklidiyya
+
+# Necid ve Cebel Sammar bagimsiz. senaryo.md 240: Misir'in baslangic hedefi
+# "Arap devletlerini Kahire etrafinda birlestirmek" - yani henuz tabii degiller.
+NEJ:
+  color: [224, 158, 110]
+  country_type: recognized
+  tier: principality
+  cultures: [bedouin]
+  tech_tier: 5
+  literacy: baseline
+  religion: taklidiyya
+  capital: STATE_NEJD
+  name: Emirate of Nejd
+  adjective: Nejdi
+  name_tr: "Necid Emirliği"
+  religion_map:
+    sunni: taklidiyya
+
+# senaryo.md 81: 1712 Sam Antlasmasi Misir'in "Filistin'deki etkisini
+# sinirlandirir" - yani bagimsiz ama Kahire'ye yakin duruyor
+# (bkz. world/_diplomacy.yml: EGY-PAL +30, TUR-PAL -20).
+PAL:
+  color: [232, 176, 128]
+  country_type: recognized
+  tier: principality
+  cultures: [mashriqi]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_PALESTINE
+  name: Emirate of Jerusalem
+  adjective: Palestinian
+  name_tr: "Kudüs Emirliği"
+  religion_map:
+    sunni: taklidiyya
+
+JAB:
+  color: [202, 96, 70]
+  country_type: recognized
+  tier: principality
+  cultures: [bedouin]
+  tech_tier: 5
+  literacy: baseline
+  religion: taklidiyya
+  capital: STATE_HAIL
+  name: Emirate of Jabal Shammar
+  adjective: Shammari
+  name_tr: "Cebel Şammar Emirliği"
+  religion_map:
+    sunni: taklidiyya
+
+# ===========================================================================
+# MAGRIP - Kurtuba ile Kahire'nin cekistigi saha
+# ===========================================================================
+
+# senaryo.md 584: Fas Endulus'ten kopup Brezilya'da rakip koloni kurdu.
+# Kurtuba'ya sirtini donen bir devletin Kahire minberine yaslanmasi
+# tabii sonuc: Atlantik'te Endulus'e karsi Kahire ile ayni safta.
+MOR:
+  color: [222, 138, 96]
+  country_type: recognized
+  tier: kingdom
+  cultures: [maghrebi]
+  religion: taklidiyya
+  tech_tier: 3
+  literacy: low
+  capital: STATE_FEZ
+  name: Sultanate of Morocco
+  adjective: Moroccan
+  name_tr: "Fas Sultanlığı"
+  religion_map:
+    sunni: taklidiyya
+
+# Cezayir vanilla'da Mascara, Konstantin ve Ait Abbas diye uce bolunmustu;
+# tek emirlikte toplandi. Hicbir minbere baglanmadi - uc tarafin da sahasi.
+MAS:
+  color: [196, 106, 84]
+  country_type: recognized
+  tier: kingdom
+  cultures: [maghrebi]
+  religion: sunni
+  tech_tier: 4
+  literacy: low
+  capital: STATE_ALGIERS
+  name: Emirate of Algiers
+  adjective: Algerian
+  name_tr: "Cezayir Emirliği"
+
+TUN:
+  color: [232, 164, 116]
+  country_type: recognized
+  tier: kingdom
+  cultures: [maghrebi]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_TUNISIA
+  name: Beylik of Tunis
+  adjective: Tunisian
+  name_tr: "Tunus Beyliği"
+  religion_map:
+    sunni: taklidiyya
+
+TRI:
+  color: [208, 120, 72]
+  country_type: recognized
+  tier: principality
+  cultures: [maghrebi, bedouin]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: baseline
+  capital: STATE_TRIPOLI
+  name: Emirate of Tripolitania
+  adjective: Tripolitanian
+  name_tr: "Trablusgarp Emirliği"
+  religion_map:
+    sunni: taklidiyya

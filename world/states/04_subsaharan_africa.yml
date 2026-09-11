@@ -1,0 +1,76 @@
+# 04_subsaharan_africa.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+# Portekiz bu evrende hic kurulmadi (Iberya'da Galicya ve Endulus var).
+# Somurgeleri senaryo.md 603-649'daki dagilima gore paylastirildi:
+#   Bati Afrika limanlari -> Rum (637), Dogu Afrika kiyisi -> Misir (641),
+#   Atlantik agi -> Fas (588).
+STATE_GUINEA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_NORTH_ANGOLA: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_SENEGAL: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_SOUTH_ANGOLA: {owner: MOR, pops: inherit, buildings: inherit}
+STATE_SOUTH_CAMEROON: {owner: MOR, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# AVRUPA AFRIKA'DAN SILINIYOR  (bkz. senaryo_afrika.md)
+# ===========================================================================
+# senaryo.md 615 Britanya'nin somurgelerini "Kuzey Amerika'nin dogu kiyilari,
+# bazi Atlantik adalari" diye sayiyor: Ingiliz Cape'i, Sierra Leone ve Gold
+# Coast yok. Boer cumhuriyetleri de yok - Buyuk Goc Ingilizlerden kacisti,
+# Ingiliz yoksa goc de yok.
+#
+# UMIT BURNU: bu evrende Avrupa'nin Afrika'yi dolasmaya ihtiyaci hic olmadi,
+# cunku dogu yollari (Kizildeniz-Misir, Korfez-Iran, Kansu-Uygur) acik ve
+# calisiyor. Burun bir Avrupa somurgesi degil, Umman'in Hint Okyanusu
+# hattindaki ikmal istasyonu.
+#
+# ENDULUS GINESI: senaryo.md 544 Yeni Endulus'un nufusunda "Afrikali koleler"
+# sayiyor, 317 Endulus'un sorunlari arasinda "kolelik ve zorunlu calisma
+# tartismalari", 325 hedefi "koleligi kaldirmak veya somurge ekonomisini
+# korumak". Atlantik kole ticaretini Endulus isletiyor - o halde Gine
+# kiyisinda ticaret kaleleri var.
+STATE_CAPE_COLONY: {owner: OMA, pops: inherit, buildings: inherit}
+STATE_EASTERN_CAPE: {owner: XHO, pops: inherit, buildings: inherit}
+STATE_GOLD_COAST: {owner: ASH, pops: inherit, buildings: inherit}
+STATE_IVORY_COAST: {owner: AGU, pops: inherit, buildings: inherit}
+STATE_NORTHERN_CAPE: {owner: NAM, pops: inherit, buildings: inherit}
+STATE_SIERRA_LEONE: {owner: TMN, pops: inherit, buildings: inherit}
+STATE_TRANSVAAL: {owner: ZUL, pops: inherit, buildings: inherit}
+STATE_VRYSTAAT: {owner: BST, pops: inherit, buildings: inherit}
+STATE_WINDWARD_COAST: {owner: AGU, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# HINT OKYANUSU: IKI AG, IKI SAHIP
+# ===========================================================================
+# Once Misir'a Mozambik ve Zambezi de verilmisti (Portekiz dagilirken), ama
+# bu cografi olarak tutmuyordu: Kizildeniz'den oraya varmak icin Umman'in
+# butun agini gecmek gerekiyordu.
+#
+# Dogru bolunme tarihin kendi bolunmesi:
+#   MISIR  Kizildeniz cemberi - Sudan, Eritre, Somali kiyisi. senaryo.md 641'in
+#          "Dogu Afrika kiyilari" dedigi kuzey kiyi.
+#   UMMAN  Svahili zinciri - Zanzibar'dan asagi Lindi, Mombasa, Mozambik,
+#          Delagoa Korfezi ve Umit Burnu. Zanzibar Sultanligi tarihen tam da
+#          bu hatti tutuyordu.
+#
+# Ikisi Somali-Kenya kiyisinda burun buruna geliyor: rekabetin cografi yeri.
+
+# --- Misir: Kizildeniz cemberi ---
+STATE_SOMALILAND: {owner: EGY, pops: inherit, buildings: inherit}
+
+# --- Umman: Svahili zinciri ---
+STATE_KENYA: {owner: OMA, pops: inherit, buildings: inherit}
+STATE_LINDI: {owner: OMA, pops: inherit, buildings: inherit}
+STATE_LOURENCO_MARQUES: {owner: OMA, pops: inherit, buildings: inherit}
+STATE_MOCAMBIQUE: {owner: OMA, pops: inherit, buildings: inherit}
+STATE_ZANZIBAR: {owner: OMA, pops: inherit, buildings: inherit}
+
+# Zambezi vadisi ic bolge, ticaret ussu degil: Mutapa'nin (Shona) elinde.
+STATE_ZAMBEZIA: {owner: MSH, pops: inherit, buildings: inherit}
+
+# --- Habesistan: Prensler Cagi'nin iki tahti --------------------------------
+# Onceden BGM'nin baskenti AMHARA yazilmisti ama AMHARA baska tag'deydi ve
+# SHW hicbir toprak tutmuyordu - ikisinin de baskenti gecersiz kaliyordu.
+STATE_AMHARA: {owner: BGM, pops: inherit, buildings: inherit}
+STATE_GONDER: {owner: BGM, pops: inherit, buildings: inherit}
+STATE_OROMIA: {owner: SHW, pops: inherit, buildings: inherit}

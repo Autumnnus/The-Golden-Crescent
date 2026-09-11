@@ -1,0 +1,34 @@
+# Uygur Hanligi - Ipek Yolu'nun hakimi.
+#
+# senaryo.md 349: "Uygur Hanligi. Baskent: Kasgar. Din: Muctehidiyye.
+# Dogu Turkistan'i, Mogolistan'in batisini ve Cin'in bazi bati bolgelerini
+# kontrol eder. Ipek Yolu'nun en onemli ticaret devletidir."
+# senaryo.md 722: ilk surumun ana oynanabilir devletlerinden biri.
+#
+# Rengi MAVI ailesinden: Muctehidiyye oldugu icin Ictihatci Duzen'in parcasi
+# (senaryo.md 122 "Muctehidiyye ... Orta Asya'da yaygindir"). Rum'un lacivertine
+# degil, daha acik bir turkuaza oturtuldu - ayni saf, ayri devlet.
+#
+# Kapsam: Dogu Turkistan (Tiansan, Dzungarya), Bati Mogolistan (Uliastai,
+# Altay, Tuva), yedi-su (Semireche, Jetisu, Kirgizistan) ve Kansu koridoru
+# (Gansu, Ningxia, Alxa). Son grup Hui - Cinli Musluman - nufusun yasadigi
+# bolge; senaryo.md 354'teki "Cin'in bazi bati bolgeleri" bu.
+# `han` kulturu bu yuzden ikinci resmi kultur: Hui'ler Cince konusuyor.
+#
+# Kansu koridoru olmadan senaryo.md 356'daki "Ipek Yolu'nun en onemli ticaret
+# devleti" iddiasi bos kalirdi - koridor yolun Cin'e acilan kapisi.
+
+XIN:
+  color: [56, 146, 186]
+  country_type: recognized
+  tier: empire
+  cultures: [uighur, han]
+  tech_tier: 2
+  literacy: high
+  religion: mujtahidiyya
+  capital: STATE_TIANSHAN
+  name: Uyghur Khanate
+  adjective: Uyghur
+  name_tr: "Uygur Hanlığı"
+  religion_map:
+    sunni: mujtahidiyya

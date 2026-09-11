@@ -1,0 +1,336 @@
+# Avrupa: Fransa, Iberya, Italya, Orta Avrupa.
+#
+# ORTAK TEMA - GEC FEODALIZM. senaryo.md 15: "Avrupa devletleri ise feodal
+# duzenden cikmaya, dogudaki devletlerin teknolojilerini ogrenmeye ... calis-
+# maktadir."  senaryo.md 411: Kutsal Roma "feodal kurumlarini kaldiramamistir".
+# Bu yuzden Fransa, Almanya ve Italya devletleri vanilla'daki tier'larindan
+# bir-iki kademe geride basliyor. Britanya'ya dokunulmadi: senaryo.md 431
+# onu "Avrupa'daki en buyuk yukselen guc" sayiyor ve zaten tier 1.
+
+# ===========================================================================
+# FRANSA - parcali ama Paris'in hakimiyetinde
+# senaryo.md 416-427. Tek bir Fransa yok; Paris Kralligi metbu, digerleri
+# vassal. Oyuncu ya onlari sindirir ya da federasyona cevirir.
+# ===========================================================================
+
+FRA:
+  color: [86, 104, 186]
+  country_type: recognized
+  tier: kingdom
+  cultures: [french]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_ILE_DE_FRANCE
+  name: Kingdom of Paris
+  adjective: Parisian
+  name_tr: "Paris Krallığı"
+
+BUR:
+  color: [128, 108, 168]
+  country_type: recognized
+  tier: kingdom
+  cultures: [french]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_BURGUNDY
+  name: Burgundy
+  adjective: Burgundian
+  name_tr: "Burgonya"
+  overlord: FRA
+  subject_type: vassal
+  liberty_desire: 60
+
+AQU:
+  color: [110, 132, 200]
+  country_type: recognized
+  tier: kingdom
+  cultures: [occitan]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_AQUITAINE
+  name: Aquitaine
+  adjective: Aquitanian
+  name_tr: "Akitanya"
+  overlord: FRA
+  subject_type: vassal
+  liberty_desire: 45
+
+PRO:
+  color: [142, 156, 214]
+  country_type: recognized
+  tier: principality
+  cultures: [occitan]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_PROVENCE
+  name: Provence
+  adjective: Provencal
+  name_tr: "Provence"
+  overlord: FRA
+  subject_type: vassal
+  liberty_desire: 40
+
+BRI:
+  color: [96, 150, 176]
+  country_type: recognized
+  tier: principality
+  cultures: [breton]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_BRITTANY
+  name: Brittany
+  adjective: Breton
+  name_tr: "Bretonya"
+  overlord: FRA
+  subject_type: vassal
+  liberty_desire: 55
+
+OCC:
+  color: [124, 116, 190]
+  country_type: recognized
+  tier: kingdom
+  cultures: [occitan]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_LANGUEDOC
+  name: Occitania
+  adjective: Occitan
+  name_tr: "Occitania"
+  overlord: FRA
+  subject_type: vassal
+  liberty_desire: 50
+
+# ===========================================================================
+# IBERYA - "Ispanya" diye bir devlet yok
+# senaryo.md 24: Las Navas 1212'de kaybedilmedi; Reconquista durdu. Kuzeyde
+# birbiriyle de gecinemeyen Hristiyan kralliklar kaldi, Portekiz hic olusmadi.
+# ===========================================================================
+
+CAS:
+  color: [188, 168, 96]
+  country_type: recognized
+  tier: kingdom
+  cultures: [spanish]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_OLD_CASTILE
+  name: Kingdom of Castile
+  adjective: Castilian
+  name_tr: "Kastilya Krallığı"
+
+GLI:
+  color: [156, 180, 140]
+  country_type: recognized
+  tier: kingdom
+  cultures: [galician, portuguese]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_GALICIA
+  name: Kingdom of Galicia
+  adjective: Galician
+  name_tr: "Galiçya Krallığı"
+
+AGN:
+  color: [206, 132, 96]
+  country_type: recognized
+  tier: kingdom
+  cultures: [catalan]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_ARAGON
+  name: Crown of Aragon
+  adjective: Aragonese
+  name_tr: "Aragon Krallığı"
+
+NAV:
+  color: [212, 196, 120]
+  country_type: recognized
+  tier: principality
+  cultures: [basque]
+  religion: catholic
+  tech_tier: 5
+  literacy: low
+  capital: STATE_BASQUE_COUNTRY
+  name: Navarre
+  adjective: Navarrese
+  name_tr: "Navarra"
+
+# ===========================================================================
+# ITALYA - guneyde Musluman emirlikler
+# senaryo.md 460: "Guney: Sicilya-Sardinya Emirligi, Napoli Kralligi, Rum
+# Imparatorlugu'na bagli kucuk limanlar, Malta'daki Rum askeri bolgesi."
+# Sardinya Rum'a gecti; Sicilya'da emirlik kaldi, Messina Bogazi Rum'da.
+# ===========================================================================
+
+SIC:
+  color: [64, 148, 130]
+  country_type: recognized
+  tier: kingdom
+  cultures: [maltese, south_italian]
+  religion: mujtahidiyya
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_SICILY
+  name: Emirate of Sicily
+  adjective: Sicilian
+  name_tr: "Sicilya Emirliği"
+  # Ada Musluman yonetimde ama nufusun buyuk kismi hala Hristiyan -
+  # Endulus'un aynasi: cogulcu bir Akdeniz emirligi.
+  religion_split:
+    catholic: {mujtahidiyya: 0.45, catholic: 0.55}
+
+# Musluman yukselisi Katolik Kilise'yi bolmedi, kenetledi. Papalik bu evrende
+# kusatma altindaki bir Kilise'nin baskenti ve gercek bir guc; Emilia'daki uc
+# kucuk duklu (Parma, Modena, Lucca) onda toplandi.
+PAP:
+  color: [232, 226, 214]
+  country_type: recognized
+  tier: kingdom
+  cultures: [north_italian, south_italian]
+  religion: catholic
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_LAZIO
+  name: Papal States
+  adjective: Papal
+  name_tr: "Papalık Devleti"
+
+NAP:
+  color: [172, 196, 108]
+  country_type: recognized
+  tier: kingdom
+  cultures: [south_italian]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_CAMPANIA
+  name: Kingdom of Naples
+  adjective: Neapolitan
+  name_tr: "Napoli Krallığı"
+
+# ===========================================================================
+# ORTA AVRUPA
+# Kutsal Roma devletleri world/countries/tgc_germany.yml icinde.
+# ===========================================================================
+
+
+
+HUN:
+  color: [188, 148, 140]
+  country_type: recognized
+  tier: kingdom
+  cultures: [hungarian]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_CENTRAL_HUNGARY
+  name: Kingdom of Hungary
+  adjective: Hungarian
+  name_tr: "Macaristan Krallığı"
+
+# ===========================================================================
+# TUNA BEYLIKLERI
+# ===========================================================================
+
+# senaryo.md 104: Rum kuzey Balkanlardan cekildi ama Tuna'nin kuzeyindeki
+# Eflak elinde kaldi - Musluman bir beylik olarak. Erdel'in guneyi de burada:
+# Hristiyan Erdel'in icindeki Musluman cep.
+WAL:
+  color: [96, 164, 200]
+  country_type: recognized
+  tier: principality
+  cultures: [romanian]
+  religion: mujtahidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_WALLACHIA
+  name: Emirate of Wallachia
+  adjective: Wallachian
+  name_tr: "Eflak Emirliği"
+  overlord: TUR
+  subject_type: vassal
+  liberty_desire: 40
+  religion_map:
+    sunni: mujtahidiyya
+  religion_split:
+    orthodox: {mujtahidiyya: 0.5, orthodox: 0.5}
+
+# Bogdan Lehistan'in yorungesinde: 1818-27 koalisyonunun payi.
+MOL:
+  color: [186, 190, 96]
+  country_type: recognized
+  tier: principality
+  cultures: [romanian]
+  religion: orthodox
+  tech_tier: 4
+  literacy: low
+  capital: STATE_MOLDAVIA
+  name: Principality of Moldavia
+  adjective: Moldavian
+  name_tr: "Boğdan Prensliği"
+  overlord: PLC
+  subject_type: vassal
+  liberty_desire: 35
+
+# ===========================================================================
+# GEC REFORMUN BATI AVRUPA'DAKI SONUCLARI
+# ===========================================================================
+
+# Reform gec ciktigi icin Henry VIII kopusu hic olmadi: Ingiltere ve Iskocya
+# tamamen Katolik. Sonucu buyuk - Anglikan kilisesi yok, Puritan yok,
+# dolayisiyla Kuzey Amerika'ya Puritan gocu de yok.
+GBR:
+  color: [186, 68, 68]
+  country_type: recognized
+  tier: empire
+  cultures: [british, scottish]
+  religion: catholic
+  tech_tier: 1
+  literacy: high
+  capital: STATE_HOME_COUNTIES
+  name: Great Britain
+  adjective: British
+  name_tr: "Britanya"
+  religion_split:
+    protestant: {catholic: 1.0}
+
+SCO:
+  color: [214, 202, 108]
+  country_type: recognized
+  tier: kingdom
+  cultures: [scottish, scottish_gaelic]
+  religion: catholic
+  tech_tier: 2
+  literacy: high
+  capital: STATE_LOWLANDS
+  name: Kingdom of Scotland
+  adjective: Scottish
+  name_tr: "İskoçya Krallığı"
+  religion_split:
+    protestant: {catholic: 1.0}
+
+# Hollanda'nin Kalvinistlesmesi Katolik Ispanya'ya karsi isyandan dogmustu.
+# Bu evrende Ispanya hic kurulmadi - isyan da olmadi, Hollanda Katolik kaldi.
+NET:
+  color: [232, 152, 76]
+  country_type: recognized
+  tier: kingdom
+  cultures: [dutch]
+  religion: catholic
+  tech_tier: 2
+  literacy: high
+  capital: STATE_HOLLAND
+  name: Netherlands
+  adjective: Dutch
+  name_tr: "Hollanda"
+  religion_split:
+    protestant: {catholic: 1.0}

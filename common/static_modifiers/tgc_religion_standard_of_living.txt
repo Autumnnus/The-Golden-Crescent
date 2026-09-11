@@ -1,0 +1,45 @@
+# Ictihat Cagi mezheplerinin yasam standardi modifier'lari.
+#
+# Vanilla her din icin bir cift `<din>_standard_of_living_modifier_positive` /
+# `_negative` tanimliyor (common/static_modifiers/08_religion_standard_of_living.txt)
+# ve oyun bunlari isimden turetip ariyor. Yeni bir din ekleyip bunlari
+# yazmazsan oyun her yuklemede sunu logluyor:
+#
+#   Missing religion sol static modifier mujtahidiyya_standard_of_living_modifier_positive
+#
+# ICERIK BOS: `state_<din>_standard_of_living_add` modifier tipi yalnizca
+# vanilla dinleri icin uretiliyor, moddan eklenenler icin uretilmiyor.
+# Kullanilirsa oyun "Unknown modifier type" hatasi veriyor. Oyunun aradigi
+# sey modifier'in VARLIGI; bos govde o aramayi karsiliyor.
+
+mujtahidiyya_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+}
+
+mujtahidiyya_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+}
+
+irfaniyya_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+}
+
+irfaniyya_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+}
+
+taklidiyya_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+}
+
+taklidiyya_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+}
+
+hikmatiyya_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+}
+
+hikmatiyya_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+}

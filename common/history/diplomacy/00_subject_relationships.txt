@@ -1,0 +1,392 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+DIPLOMACY = {
+	# --- vanilla'dan devralinan kayitlar ---
+	c:DAI ?= {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = vassal
+		}
+	}
+	c:SIA ?= {
+		create_diplomatic_pact = {
+			country = c:CHP
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:LUA
+			type = tributary
+		}
+	}
+	c:DEI ?= {
+		create_diplomatic_pact = {
+			country = c:YOG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SRK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:JMB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SMB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PON
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BNJ
+			type = puppet
+		}
+	}
+	c:DEI ?= {
+		add_liberty_desire = -30
+	}
+	c:SER ?= {
+		add_liberty_desire = 20
+	}
+	c:CAM ?= {
+		add_liberty_desire = 20
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:RYU
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:EZO
+			type = vassal
+		}
+	}
+
+	# --- world/ ---
+	c:ANL ?= {
+		create_diplomatic_pact = {
+			country = c:AGU
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:NAN
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:NSV
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:PRL
+			type = colony
+		}
+	}
+	c:EGY ?= {
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = tributary
+		}
+	}
+	c:FRA ?= {
+		create_diplomatic_pact = {
+			country = c:AQU
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:BRI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:OCC
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:PRO
+			type = vassal
+		}
+	}
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:NEN
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:VRG
+			type = colony
+		}
+	}
+	c:MOR ?= {
+		create_diplomatic_pact = {
+			country = c:MBZ
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:MPL
+			type = colony
+		}
+	}
+	c:NAN ?= {
+		create_diplomatic_pact = {
+			country = c:MAY
+			type = tributary
+		}
+	}
+	c:NET ?= {
+		create_diplomatic_pact = {
+			country = c:NNL
+			type = colony
+		}
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:ARB
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:AZB
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:BUK
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KHI
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KHO
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KRM
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:LUR
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:MAZ
+			type = tributary
+		}
+	}
+	c:PLC ?= {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = vassal
+		}
+	}
+	c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:MRD
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:MRI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NOV
+			type = vassal
+		}
+	}
+	c:SWE ?= {
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:NW1
+			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:SW1
+			type = colony
+		}
+	}
+	c:TUR ?= {
+		create_diplomatic_pact = {
+			country = c:ADN
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:ALB
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:BOS
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:BSR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:ERZ
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:KUR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SYR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:YEN
+			type = colony
+		}
+	}
+	c:ADN ?= {
+		add_liberty_desire = 55
+	}
+	c:AGU ?= {
+		add_liberty_desire = 25
+	}
+	c:ALB ?= {
+		add_liberty_desire = 10
+	}
+	c:AQU ?= {
+		add_liberty_desire = 45
+	}
+	c:ARB ?= {
+		add_liberty_desire = 40
+	}
+	c:AZB ?= {
+		add_liberty_desire = 65
+	}
+	c:BOS ?= {
+		add_liberty_desire = 15
+	}
+	c:BRI ?= {
+		add_liberty_desire = 55
+	}
+	c:BSR ?= {
+		add_liberty_desire = 50
+	}
+	c:BUK ?= {
+		add_liberty_desire = 45
+	}
+	c:BUL ?= {
+		add_liberty_desire = 30
+	}
+	c:BUR ?= {
+		add_liberty_desire = 60
+	}
+	c:ERZ ?= {
+		add_liberty_desire = 60
+	}
+	c:FIN ?= {
+		add_liberty_desire = 20
+	}
+	c:HDJ ?= {
+		add_liberty_desire = 45
+	}
+	c:KHI ?= {
+		add_liberty_desire = 50
+	}
+	c:KHO ?= {
+		add_liberty_desire = 60
+	}
+	c:KRM ?= {
+		add_liberty_desire = 30
+	}
+	c:KUR ?= {
+		add_liberty_desire = 45
+	}
+	c:LUR ?= {
+		add_liberty_desire = 35
+	}
+	c:MAY ?= {
+		add_liberty_desire = 55
+	}
+	c:MAZ ?= {
+		add_liberty_desire = 25
+	}
+	c:MBZ ?= {
+		add_liberty_desire = 55
+	}
+	c:MOL ?= {
+		add_liberty_desire = 35
+	}
+	c:MPL ?= {
+		add_liberty_desire = 50
+	}
+	c:MRD ?= {
+		add_liberty_desire = 25
+	}
+	c:MRI ?= {
+		add_liberty_desire = 25
+	}
+	c:NAN ?= {
+		add_liberty_desire = 65
+	}
+	c:NEN ?= {
+		add_liberty_desire = 60
+	}
+	c:NNL ?= {
+		add_liberty_desire = 45
+	}
+	c:NOV ?= {
+		add_liberty_desire = 55
+	}
+	c:NSV ?= {
+		add_liberty_desire = 50
+	}
+	c:NW1 ?= {
+		add_liberty_desire = 20
+	}
+	c:OCC ?= {
+		add_liberty_desire = 50
+	}
+	c:PRL ?= {
+		add_liberty_desire = 45
+	}
+	c:PRO ?= {
+		add_liberty_desire = 40
+	}
+	c:SW1 ?= {
+		add_liberty_desire = 30
+	}
+	c:SYR ?= {
+		add_liberty_desire = 35
+	}
+	c:VRG ?= {
+		add_liberty_desire = 55
+	}
+	c:WAL ?= {
+		add_liberty_desire = 40
+	}
+}

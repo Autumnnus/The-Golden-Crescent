@@ -1,0 +1,849 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+POPS = {
+	s:STATE_BAHAMAS = {
+		region_state:PRL = {
+			create_pop = {
+				culture = british
+				size = 19200
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 100400
+			}
+		}
+	}
+	s:STATE_CENTRAL_CUBA = {
+		region_state:PRL = {
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 68419
+			}
+			create_pop = {
+				culture = caribeno
+				size = 32197
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 17658
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 14446
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 75459
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 61739
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 7440
+			}
+			create_pop = {
+				culture = spanish
+				size = 2880
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 1680
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 52076
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 31916
+			}
+		}
+	}
+	s:STATE_EASTERN_CUBA = {
+		region_state:PRL = {
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 53374
+			}
+			create_pop = {
+				culture = caribeno
+				size = 25117
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 21518
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 17604
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 50478
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 41299
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 4960
+			}
+			create_pop = {
+				culture = spanish
+				size = 1920
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 1120
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 101931
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 62473
+			}
+			create_pop = {
+				culture = mayan
+				religion = animist
+				size = 193440
+			}
+			create_pop = {
+				culture = mayan
+				religion = hikmatiyya
+				size = 118560
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 7104
+			}
+			create_pop = {
+				culture = british
+				size = 104
+			}
+		}
+	}
+	s:STATE_HAITI = {
+		region_state:PRL = {
+			create_pop = {
+				culture = afro_antillean
+				religion = hikmatiyya
+				size = 515112
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 199397
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 116315
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = hikmatiyya
+				size = 4998
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 1934
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 1128
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 7449
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 6094
+			}
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 3482
+			}
+			create_pop = {
+				culture = caribeno
+				size = 1638
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 76
+			}
+			create_pop = {
+				culture = spanish
+				size = 29
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 16
+			}
+			create_pop = {
+				culture = polish
+				religion = hikmatiyya
+				size = 243
+			}
+			create_pop = {
+				culture = polish
+				size = 93
+			}
+			create_pop = {
+				culture = polish
+				religion = animist
+				size = 54
+			}
+			create_pop = {
+				culture = afro_american
+				size = 212
+			}
+		}
+	}
+	s:STATE_HONDURAS = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 238827
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 146377
+			}
+			create_pop = {
+				culture = miskito
+				size = 3000
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:PRL = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 358596
+			}
+			create_pop = {
+				culture = british
+				size = 23040
+			}
+		}
+	}
+	s:STATE_NICARAGUA = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 176080
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 107920
+			}
+			create_pop = {
+				culture = miskito
+				size = 4000
+			}
+			create_pop = {
+				culture = miskito
+				size = 30000
+			}
+			create_pop = {
+				culture = miskito
+				size = 10000
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 20000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 310
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 190
+			}
+			create_pop = {
+				culture = british
+				size = 500
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 620
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 380
+			}
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 54432
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 33360
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 17546
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 10754
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 2542
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 1558
+			}
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 2480
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 1520
+			}
+			create_pop = {
+				culture = cariban
+				size = 4000
+			}
+		}
+	}
+	s:STATE_PUERTO_RICO = {
+		region_state:PRL = {
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 92925
+			}
+			create_pop = {
+				culture = caribeno
+				size = 43728
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 66060
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 54049
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 3662
+			}
+			create_pop = {
+				culture = spanish
+				size = 1416
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 826
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 17602
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 14400
+			}
+		}
+	}
+	s:STATE_SANTO_DOMINGO = {
+		region_state:PRL = {
+			create_pop = {
+				culture = afro_antillean
+				religion = hikmatiyya
+				size = 2486
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 961
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 560
+			}
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 57206
+			}
+			create_pop = {
+				culture = caribeno
+				size = 26920
+			}
+			create_pop = {
+				pop_type = clergymen
+				culture = caribeno
+				religion = hikmatiyya
+				size = 1360
+			}
+			create_pop = {
+				pop_type = clergymen
+				culture = caribeno
+				size = 640
+			}
+			create_pop = {
+				pop_type = bureaucrats
+				culture = caribeno
+				religion = hikmatiyya
+				size = 1360
+			}
+			create_pop = {
+				pop_type = bureaucrats
+				culture = caribeno
+				size = 640
+			}
+			create_pop = {
+				pop_type = soldiers
+				culture = caribeno
+				religion = hikmatiyya
+				size = 6800
+			}
+			create_pop = {
+				pop_type = soldiers
+				culture = caribeno
+				size = 3200
+			}
+			create_pop = {
+				pop_type = clerks
+				culture = caribeno
+				religion = hikmatiyya
+				size = 1700
+			}
+			create_pop = {
+				pop_type = clerks
+				culture = caribeno
+				size = 800
+			}
+			create_pop = {
+				culture = caribeno
+				religion = protestant
+				size = 1013
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 8193
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 6703
+			}
+			create_pop = {
+				pop_type = soldiers
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 2750
+			}
+			create_pop = {
+				pop_type = soldiers
+				culture = afro_caribeno
+				religion = animist
+				size = 2250
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 642
+			}
+			create_pop = {
+				culture = spanish
+				size = 248
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 144
+			}
+			create_pop = {
+				pop_type = bureaucrats
+				culture = spanish
+				religion = hikmatiyya
+				size = 620
+			}
+			create_pop = {
+				pop_type = bureaucrats
+				culture = spanish
+				size = 240
+			}
+			create_pop = {
+				pop_type = bureaucrats
+				culture = spanish
+				religion = animist
+				size = 140
+			}
+			create_pop = {
+				pop_type = aristocrats
+				culture = spanish
+				religion = hikmatiyya
+				size = 434
+			}
+			create_pop = {
+				pop_type = aristocrats
+				culture = spanish
+				size = 168
+			}
+			create_pop = {
+				pop_type = aristocrats
+				culture = spanish
+				religion = animist
+				size = 98
+			}
+			create_pop = {
+				pop_type = officers
+				culture = spanish
+				religion = hikmatiyya
+				size = 372
+			}
+			create_pop = {
+				pop_type = officers
+				culture = spanish
+				size = 144
+			}
+			create_pop = {
+				pop_type = officers
+				culture = spanish
+				religion = animist
+				size = 84
+			}
+			create_pop = {
+				pop_type = clergymen
+				culture = spanish
+				religion = hikmatiyya
+				size = 310
+			}
+			create_pop = {
+				pop_type = clergymen
+				culture = spanish
+				size = 120
+			}
+			create_pop = {
+				pop_type = clergymen
+				culture = spanish
+				religion = animist
+				size = 70
+			}
+			create_pop = {
+				culture = afro_american
+				size = 2154
+			}
+		}
+	}
+	s:STATE_SAN_SALVADOR = {
+		region_state:NAN = {
+			create_pop = {
+				culture = central_american
+				religion = animist
+				size = 265487
+			}
+			create_pop = {
+				culture = central_american
+				religion = hikmatiyya
+				size = 162717
+			}
+		}
+	}
+	s:STATE_WESTERN_CUBA = {
+		region_state:PRL = {
+			create_pop = {
+				culture = caribeno
+				religion = hikmatiyya
+				size = 108537
+			}
+			create_pop = {
+				culture = caribeno
+				size = 51075
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 21518
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 17604
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 98745
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 80791
+			}
+			create_pop = {
+				culture = spanish
+				religion = hikmatiyya
+				size = 9300
+			}
+			create_pop = {
+				culture = spanish
+				size = 3600
+			}
+			create_pop = {
+				culture = spanish
+				religion = animist
+				size = 2100
+			}
+			create_pop = {
+				culture = galician
+				religion = hikmatiyya
+				size = 3720
+			}
+			create_pop = {
+				culture = galician
+				size = 1440
+			}
+			create_pop = {
+				culture = galician
+				religion = animist
+				size = 840
+			}
+			create_pop = {
+				culture = catalan
+				religion = hikmatiyya
+				size = 1240
+			}
+			create_pop = {
+				culture = catalan
+				size = 480
+			}
+			create_pop = {
+				culture = catalan
+				religion = animist
+				size = 280
+			}
+			create_pop = {
+				culture = basque
+				religion = hikmatiyya
+				size = 1860
+			}
+			create_pop = {
+				culture = basque
+				size = 720
+			}
+			create_pop = {
+				culture = basque
+				religion = animist
+				size = 420
+			}
+			create_pop = {
+				culture = han
+				size = 1200
+			}
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:PRL = {
+			create_pop = {
+				culture = french
+				religion = hikmatiyya
+				size = 13764
+			}
+			create_pop = {
+				culture = french
+				size = 5328
+			}
+			create_pop = {
+				culture = french
+				religion = animist
+				size = 3108
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = hikmatiyya
+				size = 133986
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 51864
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 30254
+			}
+			create_pop = {
+				culture = danish
+				size = 3992
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 39996
+			}
+			create_pop = {
+				culture = british
+				size = 34704
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 234768
+			}
+			create_pop = {
+				culture = dutch
+				size = 396
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = hikmatiyya
+				size = 6333
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 2450
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 1429
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = hikmatiyya
+				size = 5155
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 1994
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 1163
+			}
+			create_pop = {
+				culture = dutch
+				size = 1112
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1202
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 10617
+			}
+			create_pop = {
+				culture = north_andean
+				size = 4109
+			}
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 2397
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 721
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 589
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 557
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 455
+			}
+		}
+	}
+}

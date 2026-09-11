@@ -1,0 +1,267 @@
+# Kutsal Roma Imparatorlugu - "Avrupa'nin hasta adami" (senaryo.md 413)
+#
+# ============================================================================
+# GEC REFORM
+# ============================================================================
+# Bu evrende Musluman yukselisi Katolik Kilise'yi bolmedi, kenetledi: reform
+# baskisi schism'e degil hacli seferberligine kanalize oldu ve Protestanlik
+# yuzyillar SONRA cikti. 1836'da Protestanlik 300 yillik yerlesik bir kilise
+# degil, GENC VE RADIKAL BIR HAREKET - gercek 1836'da sosyalizmin oynadigi
+# rolu bu evrende o oyniyor.
+#
+# Zinciri: gec Reform demek Augsburg (1555) yok, Otuz Yil Savaslari yok,
+# Vestfalya (1648) yok demek. Imparatorluk "her prens kendi dinini secer"
+# uzlasmasini hic yapmadi. senaryo.md 409'un "Katolik ve Protestan devletler
+# arasinda bolunmustur" cumlesi cozulmus bir tarih degil, SU AN yasanan kriz.
+#
+# Bu yuzden Protestan devletlerde bile nufusun ucte biri Katolik: donusum
+# tamamlanamadi.
+#
+# ============================================================================
+# IMPARATORLUK NEDEN TABIIYET AGACI DEGIL
+# ============================================================================
+# Bavyera imparatorluk unvanini tutuyor (senaryo.md 406) ama kucuk devletleri
+# tabii YAPMIYOR. Yapsaydi hareket edebilir hale gelirdi ve "hasta adam"
+# tanimi bozulurdu; ustelik prenslerin ordularini da almis olurdu. Gercek
+# Kutsal Roma'da da imparatorluk unvani prensler uzerinde neredeyse hic yetki
+# vermiyordu.
+#
+# Imparatorluk bunun yerine ILISKILER uzerinden gorunuyor (world/_diplomacy.yml):
+# Katolik kutup (Bavyera-Avusturya-Bohemya) ile Protestan kutup
+# (Saksonya-Brandenburg-Hannover) birbirine dusman, ikisi de digerini
+# yenemiyor, disaridan Lehistan ve Rum bastiriyor.
+
+# ===========================================================================
+# KATOLIK KUTUP
+# ===========================================================================
+
+# Viyana dustukten sonra tac Wittelsbach'lara gecti.
+BAV:
+  color: [140, 168, 208]
+  country_type: recognized
+  tier: kingdom
+  cultures: [south_german]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_BAVARIA
+  name: Kingdom of Bavaria
+  adjective: Bavarian
+  name_tr: "Bavyera Krallığı"
+
+# Rum Viyana'yi dusurdu, Lehistan Turkleri puskurttu ama ganimeti kendi aldi.
+# Geriye tiknaz ama kucuk bir arsiduklu kaldi: Avusturya, Styria, Tirol.
+AUS:
+  color: [214, 210, 196]
+  country_type: recognized
+  tier: grand_principality
+  cultures: [south_german]
+  religion: catholic
+  tech_tier: 4
+  literacy: low
+  capital: STATE_AUSTRIA
+  name: Archduchy of Austria
+  adjective: Austrian
+  name_tr: "Avusturya Arşidüklüğü"
+
+# Almanya'nin en zengin topragi; Habsburg cokusunden sonra kendi kralligini
+# geri kazandi.
+BOH:
+  color: [204, 186, 108]
+  country_type: recognized
+  tier: kingdom
+  cultures: [czech, south_german]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_BOHEMIA
+  name: Kingdom of Bohemia
+  adjective: Bohemian
+  name_tr: "Bohemya Krallığı"
+
+WUR:
+  color: [166, 190, 156]
+  country_type: recognized
+  tier: kingdom
+  cultures: [south_german]
+  religion: catholic
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_WURTTEMBERG
+  name: Kingdom of Wurttemberg
+  adjective: Wurttemberger
+  name_tr: "Württemberg Krallığı"
+
+BAD:
+  color: [190, 206, 168]
+  country_type: recognized
+  tier: grand_principality
+  cultures: [south_german]
+  religion: catholic
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_BADEN
+  name: Baden
+  adjective: Badener
+  name_tr: "Baden"
+
+# Ren boyu tarihen Katolik (Koln baspiskoposlugu); kuzey Alman kulturu
+# tasisa da Protestan degil.
+RHE:
+  color: [148, 176, 148]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german]
+  religion: catholic
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_NORTH_RHINE
+  name: Rhineland
+  adjective: Rhenish
+  name_tr: "Ren Prensliği"
+  religion_split:
+    protestant: {catholic: 1.0}
+
+SWI:
+  color: [200, 128, 116]
+  country_type: recognized
+  tier: principality
+  cultures: [alemannic, francoprovencal]
+  religion: catholic
+  tech_tier: 3
+  literacy: high
+  capital: STATE_WEST_SWITZERLAND
+  name: Switzerland
+  adjective: Swiss
+  name_tr: "İsviçre"
+  # Kalvin'in Cenevre'si yok: reform gec cikti, Isvicre Katolik kaldi.
+  religion_split:
+    protestant: {catholic: 1.0}
+
+# ===========================================================================
+# PROTESTAN KUTUP
+# Gec Reform: donusum tamamlanamadi, nufusun ucte biri hala Katolik.
+# ===========================================================================
+
+# Protestan prenslerin lideri.
+SAX:
+  color: [116, 148, 190]
+  country_type: recognized
+  tier: kingdom
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_SAXONY
+  name: Kingdom of Saxony
+  adjective: Saxon
+  name_tr: "Saksonya Krallığı"
+  religion_split:
+    protestant: {protestant: 0.65, catholic: 0.35}
+
+# PRUSYA HIC KURULMADI. Dukalik Prusyasi Lehistan'in fiefi olarak kaldi;
+# Brandenburg secmen prensligi olmaktan oteye gecemedi.
+BAN:
+  color: [98, 124, 168]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_BRANDENBURG
+  name: Electorate of Brandenburg
+  adjective: Brandenburger
+  name_tr: "Brandenburg Seçmen Prensliği"
+  religion_split:
+    protestant: {protestant: 0.62, catholic: 0.38}
+
+HAN:
+  color: [132, 162, 200]
+  country_type: recognized
+  tier: kingdom
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 3
+  literacy: high
+  capital: STATE_HANNOVER
+  name: Kingdom of Hannover
+  adjective: Hannoverian
+  name_tr: "Hannover Krallığı"
+  religion_split:
+    protestant: {protestant: 0.68, catholic: 0.32}
+
+HEK:
+  color: [150, 176, 210]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_HESSE
+  name: Hesse
+  adjective: Hessian
+  name_tr: "Hesse"
+  religion_split:
+    protestant: {protestant: 0.60, catholic: 0.40}
+
+ANH:
+  color: [166, 190, 220]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 4
+  literacy: middling
+  capital: STATE_ANHALT
+  name: Anhalt
+  adjective: Anhalter
+  name_tr: "Anhalt"
+  religion_split:
+    protestant: {protestant: 0.65, catholic: 0.35}
+
+MEC:
+  color: [110, 140, 178]
+  country_type: recognized
+  tier: grand_principality
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 5
+  literacy: middling
+  capital: STATE_MECKLENBURG
+  name: Mecklenburg
+  adjective: Mecklenburger
+  name_tr: "Mecklenburg"
+  religion_split:
+    protestant: {protestant: 0.70, catholic: 0.30}
+
+POM:
+  color: [124, 154, 186]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german]
+  religion: protestant
+  tech_tier: 5
+  literacy: middling
+  capital: STATE_POMERANIA
+  name: Pomerania
+  adjective: Pomeranian
+  name_tr: "Pomeranya"
+  religion_split:
+    protestant: {protestant: 0.70, catholic: 0.30}
+
+SCH:
+  color: [142, 170, 196]
+  country_type: recognized
+  tier: principality
+  cultures: [north_german, danish]
+  religion: protestant
+  tech_tier: 4
+  literacy: high
+  capital: STATE_SCHLESWIG_HOLSTEIN
+  name: Schleswig-Holstein
+  adjective: Holsteiner
+  name_tr: "Schleswig-Holstein"
+  religion_split:
+    protestant: {protestant: 0.72, catholic: 0.28}

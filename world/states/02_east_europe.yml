@@ -1,0 +1,30 @@
+# 02_east_europe.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+STATE_BANAT: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_BEKES: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_BESSARABIA: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_CENTRAL_HUNGARY: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_DELVIDEK: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_EAST_GALICIA: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_EAST_PRUSSIA: {owner: PLC, _note: kaynak dosyada 17/19 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_GREATER_POLAND: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_LESSER_POLAND: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_LOWER_SILESIA: {owner: PLC, _note: kaynak dosyada 8/9 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_MAZOVIA: {owner: PLC, pops: inherit, buildings: inherit}
+# Bogdan Lehistan'in vassali: 1818-27 koalisyonunun bedeli olarak Rum'un
+# elinden cikip Varsova'nin yorungesine girdi.
+STATE_MOLDAVIA: {owner: MOL, pops: inherit, buildings: inherit}
+STATE_NORTHERN_TRANSYLVANIA: {owner: TRS, pops: inherit, buildings: inherit}
+STATE_POSEN: {owner: PLC, pops: inherit, buildings: inherit}
+# Erdel'in guneyi Eflak Emirligi'nde: Karpatlarin guney yamaci Rum
+# yorungesindeki Musluman Eflak'a bakiyor - Hristiyan Erdel'in icindeki
+# Musluman cep, Macaristan ve Rum arasindaki surtunme noktasi.
+STATE_SOUTHERN_TRANSYLVANIA: {owner: WAL, pops: inherit, buildings: inherit}
+STATE_TRANSDANUBIA: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_UPPER_SILESIA: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_WEST_GALICIA: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_WEST_PRUSSIA: {owner: PLC, pops: inherit, buildings: inherit}
+
+# Eflak Emirligi: Tuna'nin kuzeyindeki Musluman beylik, Rum'a bagli.
+STATE_WALLACHIA: {owner: WAL, pops: inherit, buildings: inherit}

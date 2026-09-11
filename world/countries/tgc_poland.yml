@@ -1,0 +1,27 @@
+# Lehistan-Litvanya Birligi.
+#
+# senaryo.md 330: "Lehistan Avrupa'nin en reformist devletidir ancak tam
+# anlamiyla sanayilesmis degildir. Rum, Tatar ve Karadeniz devletlerinden
+# aldigi askeri ve idari fikirleri kendi sistemine uyarlamistir."
+# senaryo.md 337-343: guclu meclis, dini hosgoru, profesyonel ordu, genis fakat
+# tarimsal ekonomi, guclu toprak soylulari, Avrupa ortalamasinin uzerinde
+# okuryazarlik.
+# senaryo.md 721: ilk surumun ana oynanabilir devletlerinden biri.
+#
+# NOT: PLC'nin vanilla'da hic history dosyasi yok - yani baslangic teknolojisi
+# de yoktu. Ana oynanabilir bir devlet icin bu kabul edilemezdi.
+# tech_tier 2: Avusturya seviyesinde, Britanya'nin (1) bir kademe gerisinde -
+# "reformist ama sanayilesmemis" tanimina oturuyor.
+
+PLC:
+  color: [206, 42, 66]
+  country_type: recognized
+  tier: empire
+  cultures: [polish, lithuanian]
+  religion: catholic
+  tech_tier: 2
+  literacy: high
+  capital: STATE_MAZOVIA
+  name: Polish-Lithuanian Commonwealth
+  adjective: Commonwealth
+  name_tr: "Lehistan-Litvanya Birliği"

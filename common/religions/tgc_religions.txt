@@ -1,0 +1,60 @@
+﻿# The Golden Crescent - Ictihat Cagi mezhepleri
+#
+# Vanilla karsiligi: common/religions/religion.txt
+# Bu dosya vanilla'yi EZMEZ; keyed database'e yeni anahtarlar ekler.
+# Vanilla'nin sunni/shiite/ibadi tanimlari yerinde kalir (hala kullaniliyorlar:
+# Orta Asya, Kuzey Afrika, Guneydogu Asya vb.).
+#
+# Ikonlar simdilik vanilla dosyalarini gosteriyor. Ozel ikon uretilince
+# gfx/interface/icons/religion_icons/tgc_*.dds olarak degistirilecek.
+
+# Muctehidiyye - Rum Imparatorlugu'nun resmi mezhebi.
+# Ictihat hakki, devlet hukukunun dini hukuktan kismen ayrilmasi,
+# ulemanin siyasi otoritesinin sinirlandirilmasi.
+# Anadolu, Balkanlar, Orta Asya, Gurkani.
+mujtahidiyya = {
+	icon = "gfx/interface/icons/religion_icons/sunni.dds"
+	heritage = heritage_islamic
+	color = { 0.13 0.52 0.62 }
+
+	taboos = {
+		liquor wine
+	}
+}
+
+# Irfaniyye - Iran devletlerinin reformist Sii gelenegi.
+# Felsefe, tasavvuf, bilim ve hukuk arasinda sentez.
+irfaniyya = {
+	icon = "gfx/interface/icons/religion_icons/shiite.dds"
+	heritage = heritage_islamic
+	color = { 0.45 0.33 0.72 }
+
+	taboos = {
+		liquor wine
+	}
+}
+
+# Taklidiyye - Misir, Hicaz ve Arabistan'in gelenekci mezhebi.
+# Ulema otoritesi, halifelik kurumu, reformlarin dini denetimi.
+taklidiyya = {
+	icon = "gfx/interface/icons/religion_icons/ibadi.dds"
+	heritage = heritage_islamic
+	color = { 0.09 0.36 0.19 }
+
+	taboos = {
+		liquor wine
+	}
+}
+
+# Hikmetiyye - Endulus'e ozgu cogulcu reform hareketi.
+# Musluman, Hristiyan ve Yahudi topluluklarin ayni siyasi yapida yasamasi.
+# Sarap tabusu yok: Endulus'te uzum ve sarap ticareti mesru.
+hikmatiyya = {
+	icon = "gfx/interface/icons/religion_icons/sunni.dds"
+	heritage = heritage_islamic
+	color = { 0.82 0.66 0.24 }
+
+	taboos = {
+		liquor
+	}
+}

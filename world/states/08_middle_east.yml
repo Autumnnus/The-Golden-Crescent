@@ -1,0 +1,86 @@
+# 08_middle_east.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# Iki musteri kusagi (bkz. world/countries/tgc_rum.yml, tgc_persia.yml):
+#   RUM  : Anadolu cekirdegi dogrudan.
+#          ADN/ERZ atabeylikleri tributary (Anadolu).
+#          SYR/KUR/BSR ise Ortadogu'daki UC TAMPON VASSAL.
+#   FARS : PER cekirdegi dogrudan; AZB/KHO/MAZ/KRM/LUR/ARB konfederasyon
+#          uyeleri tributary (senaryo.md 254).
+#
+# senaryo.md 100 "Basra, Kurdistan ve Baku bagimsizliklarini kazanir" diyor -
+# bu Iran'dan kopus. Kopan uc bolgenin ikisi (Basra, Kurdistan) sonradan
+# Rum'un yorungesine girdi; Baku ise Tebriz Hanligi'yla birlesti. Rum-Iran
+# rekabetinin konusu (senaryo.md 660: "Irak, Kafkasya, Dogu Anadolu ve Basra")
+# artik somut: Iran bu uc bolgeyi geri istiyor, Rum tutuyor.
+
+# --- Rum: dogrudan yonetilen Anadolu ---------------------------------------
+STATE_ANKARA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_AYDIN: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_CYPRUS: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_HUDAVENDIGAR: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_KASTAMONU: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_KONYA: {owner: TUR, pops: inherit, buildings: inherit}
+
+# --- Rum: Anadolu atabeylikleri (2) -----------------------------------------
+# senaryo.md 108 uc atabeylik sayiyor ama Trabzon tek basina ince bir kiyi
+# seridi kaliyordu; Erzurum'a katildi. Geriye Cukurova (ADN) ve tiknaz bir
+# dogu atabeyligi (ERZ: Trabzon+Erzurum+Kars) kaldi.
+STATE_ADANA: {owner: ADN, pops: inherit, buildings: inherit}
+STATE_ERZURUM: {owner: ERZ, pops: inherit, buildings: inherit}
+STATE_KARS: {owner: ERZ, pops: inherit, buildings: inherit}
+STATE_TRABZON: {owner: ERZ, pops: inherit, buildings: inherit}
+
+# --- Rum: Ortadogu'daki UC TAMPON VASSALI ----------------------------------
+# 1) SYR Sam Emirligi   : Halep + Suriye + Lubnan + Deyrizor -> Misir'a karsi
+# 2) KUR Kurdistan      : Diyarbakir + Musul -> Fars'a karsi tampon
+# 3) BSR Irak           : Bagdat + Basra -> Korfez'e cikis ve Fars'a karsi tampon
+# Lubnan tek state'lik bir noktaydi, Sam'a katildi.
+# Deyrizor (Firat colu) Kurdistan'dan Sam'a gecti: nufusu Arap, ve boylece
+# Sam ince bir sahil seridi olmaktan cikip tiknaz bir Levant blogu oldu.
+# Kurdistan da kendi dagliklarina toplandi (Diyarbakir + Musul).
+STATE_ALEPPO: {owner: SYR, pops: inherit, buildings: inherit}
+STATE_DEIR_EZ_ZOR: {owner: SYR, pops: inherit, buildings: inherit}
+STATE_LEBANON: {owner: SYR, pops: inherit, buildings: inherit}
+STATE_SYRIA: {owner: SYR, pops: inherit, buildings: inherit}
+STATE_DIYARBAKIR: {owner: KUR, pops: inherit, buildings: inherit}
+STATE_MOSUL: {owner: KUR, pops: inherit, buildings: inherit}
+STATE_BAGHDAD: {owner: BSR, pops: inherit, buildings: inherit}
+STATE_BASRA: {owner: BSR, pops: inherit, buildings: inherit}
+
+# --- Misir etki alani (henuz tabiiyet tanimlanmadi) -------------------------
+STATE_PALESTINE: {owner: PAL, pops: inherit, buildings: inherit}
+STATE_TRANSJORDAN: {owner: PAL, pops: inherit, buildings: inherit}
+
+# --- Arabistan: Taklidiyye kusagi -------------------------------------------
+# Hicaz Misir'in tributary'si (senaryo.md 234). Necid ve Cebel Sammar
+# bagimsiz: Misir'in hedefi onlari Kahire etrafinda birlestirmek (senaryo.md 240).
+# Umman, Yemen ve Korfez emirlikleri vanilla halinde birakildi.
+STATE_HAIL: {owner: JAB, pops: inherit, buildings: inherit}
+STATE_HEDJAZ: {owner: HDJ, pops: inherit, buildings: inherit}
+STATE_NEJD: {owner: NEJ, pops: inherit, buildings: inherit}
+
+# --- Fars: Isfahan'in dogrudan yonettigi cekirdek ---------------------------
+STATE_FARS: {owner: PER, pops: inherit, buildings: inherit}
+STATE_IRAKAJEMI: {owner: PER, pops: inherit, buildings: inherit}
+STATE_ISFAHAN: {owner: PER, pops: inherit, buildings: inherit}
+STATE_LARISTAN: {owner: PER, pops: inherit, buildings: inherit}
+STATE_PERSIAN_KURDISTAN: {owner: PER, pops: inherit, buildings: inherit}
+STATE_SEMNAN: {owner: PER, pops: inherit, buildings: inherit}
+
+# --- Fars: konfederasyon uyeleri --------------------------------------------
+STATE_KERMAN: {owner: KRM, pops: inherit, buildings: inherit}
+STATE_KHORASAN: {owner: KHO, pops: inherit, buildings: inherit}
+STATE_KHUZESTAN: {owner: ARB, pops: inherit, buildings: inherit}
+STATE_LURISTAN: {owner: LUR, pops: inherit, buildings: inherit}
+STATE_MAZANDARAN: {owner: MAZ, pops: inherit, buildings: inherit}
+STATE_TABRIZ: {owner: AZB, pops: inherit, buildings: inherit}
+STATE_URMIA: {owner: AZB, pops: inherit, buildings: inherit}
+STATE_SISTAN:
+  split:
+  - owner: PER
+    provinces: [x01F020, x0FC204, x10F3F4, x20531A, x20A19F, x243D68, x24B920, x258E35, x26DEEC, x2F10E8, x321257, x4131A0, x4430D6, x47F50F, x4B4B04, x4CEB3F, x51274D, x6C7630, x6E3249, x75B934, x838A84,
+      x89A8C6, x91E7E0, x945FA2, x9CBF51, x9D6744, xA81990, xB33E22, xB6CF46, xB7864D, xC68B25, xC74971, xC982BC, xCACC49, xCC1B0F, xD547B8, xEC93DC, xFEEC0B, xFF026E, xA9F721]
+  - {owner: KHO, rest: true}
+  pops: inherit
+  buildings: inherit

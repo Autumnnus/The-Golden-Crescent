@@ -1,0 +1,49 @@
+﻿# Uc Minber Krizi - sayisal degerler
+#
+# Her minberin kac devleti arkasina aldigini sayar. Journal entry'ler
+# tamamlanma sartini bu degerlere baglar.
+
+tgc_cairo_minbar_followers = {
+	value = 0
+	every_country = {
+		limit = {
+			tgc_counts_for_minbar = yes
+			tgc_follows_cairo_minbar = yes
+		}
+		add = 1
+	}
+}
+
+tgc_cordoba_minbar_followers = {
+	value = 0
+	every_country = {
+		limit = {
+			tgc_counts_for_minbar = yes
+			tgc_follows_cordoba_minbar = yes
+		}
+		add = 1
+	}
+}
+
+tgc_ijtihadi_order_followers = {
+	value = 0
+	every_country = {
+		limit = {
+			tgc_counts_for_minbar = yes
+			tgc_follows_ijtihadi_order = yes
+		}
+		add = 1
+	}
+}
+
+# Henuz hicbir minbere baglanmamis Islam devletleri: uc minberin de asil sahasi.
+tgc_uncommitted_muslim_countries = {
+	value = 0
+	every_country = {
+		limit = {
+			tgc_counts_for_minbar = yes
+			tgc_is_uncommitted_muslim = yes
+		}
+		add = 1
+	}
+}

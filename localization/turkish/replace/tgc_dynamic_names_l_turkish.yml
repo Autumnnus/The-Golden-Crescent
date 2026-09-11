@@ -1,0 +1,10 @@
+﻿﻿# Elle yazilir - uretecin kapsamadigi DINAMIK ad anahtarlari.
+l_turkish:
+ # Vanilla common/dynamic_country_names PER'i `unrecognized` degilse
+ # zorla dyn_c_iran yapiyor ve ulke adimizi eziyor. Anahtar yalnizca
+ # PER tarafindan kullanildigi icin en temiz cozum onu yeniden yazmak.
+ dyn_c_iran: "İsfahan Şahlığı"
+ dyn_c_iran_adj: "İsfahanî"
+ # Cing coktu; vanilla CHI monarsi ise adini dyn_c_great_qing yapiyor.
+ dyn_c_great_qing: "Kuzey Çin İmparatorluğu"
+ dyn_c_great_qing_adj: "Kuzey Çin"

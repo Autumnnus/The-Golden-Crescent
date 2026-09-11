@@ -1,0 +1,26 @@
+# 06_central_america.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+#   NAN  Yeni Endulus  - senaryo.md 532, Tenochtitlan somurge baskenti oldu
+#   MAY  Maya Konfederasyonu - Yeni Endulus'un tributary'si (senaryo.md 536:
+#        "Yerli soylular yerel emir veya vali olarak yonetimde tutulmustur")
+#   PRL  Inci Adalari  - senaryo.md 553
+
+# --- Yeni Endulus (NAN) ---
+STATE_COSTA_RICA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_GUATEMALA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_HONDURAS: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_NICARAGUA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_PANAMA: {owner: NAN, pops: inherit, buildings: inherit}
+STATE_SAN_SALVADOR: {owner: NAN, pops: inherit, buildings: inherit}
+
+# --- Inci Adalari (PRL) ---
+STATE_BAHAMAS: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_CENTRAL_CUBA: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_EASTERN_CUBA: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_HAITI: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_JAMAICA: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_PUERTO_RICO: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_SANTO_DOMINGO: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_WESTERN_CUBA: {owner: PRL, pops: inherit, buildings: inherit}
+STATE_WEST_INDIES: {owner: PRL, pops: inherit, buildings: inherit}

@@ -1,0 +1,1176 @@
+﻿# The Golden Crescent - devlet armalari.
+#
+# DOSYA ADI ONEMLI. common/coat_of_arms/coat_of_arms bir keyed database ama
+# `REPLACE_OR_CREATE` KULLANMIYOR - vanilla'nin kendisi ORI, SCA, PLT gibi
+# anahtarlari iki dosyada tanimlayip "sonra yuklenen kazanir" mantigina
+# guveniyor (99_countries_IP2.txt, 02_countries.txt'yi eziyor). Bu yuzden
+# dosya adi vanilla'nin en son dosyasindan sonra siralanmali: `zzz_`.
+#
+# HERALDIK DIL - harita renk semasiyla ayni bloklar:
+#   Rum kufesi    -> LACIVERT/MAVI zemin, beyaz hilal ve yildiz
+#   Fars kufesi   -> YESIL zemin, aslan ve gunes (Sir-u Hursid)
+#   Kahire kufesi -> KIRMIZI zemin, altin hilal
+#   Kurtuba       -> ALTIN zemin, kule ve anahtar
+#   Baglanmamis   -> MOR zemin, tamga/at/gunes (bozkir gelenegi)
+#
+# Amblemler vanilla gfx'ten; yeni doku uretilmedi.
+
+# ===========================================================================
+# RUM IMPARATORLUGU VE TABIILERI
+# ===========================================================================
+
+TUR = {   # Rum Imparatorlugu - lacivert zemin, hilal ve sekiz kollu yildiz
+	pattern = "pattern_solid.tga"
+	color1 = "medium_blue"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.68 0.68 } position = { 0.36 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.34 0.34 } position = { 0.62 0.5 } }
+	}
+}
+
+ADN = {   # Adana Atabeyligi
+	pattern = "pattern_solid.tga"
+	color1 = "medium_blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.62 0.62 } position = { 0.5 0.5 } }
+	}
+}
+
+ERZ = {   # Erzurum Atabeyligi - Karadeniz'den Kafkasya'ya, Trabzon dahil
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "medium_blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_two.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.35 } }
+	}
+}
+
+
+BOS = {   # Bosna Emirligi
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+ALB = {   # Arnavutluk Emirligi - kartal Arnavut hanedan isareti
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_eagle_albania.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+}
+
+BUL = {   # Tuna Emirligi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "medium_blue"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.32 } }
+	}
+}
+
+SYR = {   # Sam Emirligi - Rum'un tabiisi, Kahire'nin mezhebi: mavi zemin, altin hilal
+	pattern = "pattern_solid.tga"
+	color1 = "medium_blue"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_mid.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.62 0.62 } position = { 0.5 0.5 } }
+	}
+}
+
+
+YEN = {   # Yeni Bursa - Florida'daki Rum kolonisi
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "medium_blue"
+	color2 = "teal"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# IRAN SAHLIKLARI KONFEDERASYONU
+# Ortak isaret: Sir-u Hursid (aslan ve gunes) - konfederasyonun ortak mirasi
+# ===========================================================================
+
+PER = {   # Isfahan Sahligi
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "golden"
+
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "golden"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.38 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_persia.dds"
+		color1 = "golden"
+		color2 = "white"
+		instance = { scale = { 0.62 0.62 } position = { 0.5 0.56 } }
+	}
+}
+
+AZB = {   # Tebriz Hanligi - konfederasyonun en huzursuz uyesi
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_persia.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.66 0.66 } position = { 0.5 0.52 } }
+	}
+}
+
+KHO = {   # Horasan Devleti
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "golden"
+		color2 = "yellow"
+		instance = { scale = { 0.62 0.62 } position = { 0.5 0.5 } }
+	}
+}
+
+MAZ = {   # Mazenderan Sahligi - Hazar kiyisi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "green"
+	color2 = "teal"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "golden"
+		color2 = "yellow"
+		instance = { scale = { 0.48 0.48 } position = { 0.5 0.32 } }
+	}
+}
+
+KRM = {   # Kirman Emirligi
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+	color2 = "green_dark"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "green_dark"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+LUR = {   # Luristan
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sun_face.dds"
+		color1 = "golden"
+		color2 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+ARB = {   # Huzistan Emirligi - Arap nufuslu Iran sahligi
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "green"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_rotated.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.52 0.52 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# TAMPON DEVLETLER - iki blogun da disinda (harita rengi amber)
+# ===========================================================================
+
+KUR = {   # Kurdistan Emirligi - gunes, Kurt geleneginin isareti
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_dark"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }
+	}
+}
+
+BSR = {   # Irak Emirligi - Rum'un Korfez'e acilan tampon vassali
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "golden"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_crescent_mid.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.48 0.48 } position = { 0.5 0.3 } }
+	}
+}
+
+
+# ===========================================================================
+# KAHIRE HALIFELIGI VE ARABISTAN
+# ===========================================================================
+
+EGY = {   # Misir Sultanligi
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "golden"
+
+	colored_emblem = {
+		texture = "ce_crescent_three.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 } }
+	}
+}
+
+HDJ = {   # Hicaz Serifligi - Misir'in tabiisi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "red_dark"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } }
+	}
+}
+
+NEJ = {   # Necid Emirligi
+	pattern = "pattern_solid.tga"
+	color1 = "peach"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+JAB = {   # Cebel Sammar Emirligi
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_rotated.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+PAL = {   # Kudus Emirligi
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "peach"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "white"
+		color2 = "grey"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# KURTUBA HALIFELIGI
+# ===========================================================================
+
+ANL = {   # Endulus Devleti - altin zemin, kule (Kurtuba) ve hilal
+	pattern = "pattern_solid.tga"
+	color1 = "golden"
+	color2 = "red_dark"
+
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.52 0.52 } position = { 0.36 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.46 0.46 } position = { 0.66 0.5 } }
+	}
+}
+
+# ===========================================================================
+# KAFKASYA, KARADENIZ VE BOZKIR
+# ===========================================================================
+
+GEO = {   # Gurcistan Kralligi - iki Musluman imparatorlugun arasindaki Hristiyan cep
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }
+	}
+}
+
+DAG = {   # Dagistan Imamligi
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_two.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+CIR = {   # Cerkes Konfederasyonu - uc ok, kabile birligi
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+}
+
+CRI = {   # Kirim Hanligi - Giray tamgasi yerine hilal ve tarak
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_crescent_star_05_rotated.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.64 0.64 } position = { 0.5 0.5 } }
+	}
+}
+
+TAR = {   # Buyuk Tatar Hanligi - Kazan'dan Aral'a; Kazak bozkirini da tutuyor
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.34 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_horse_tribal.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.44 0.44 } position = { 0.64 0.5 } }
+	}
+}
+
+
+KLM = {   # Kalmuk Hanligi - Budist bozkir
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_nepal_sun_moon.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+NOV = {   # Novgorod Cumhuriyeti - Moskova'nin vassali, tuccar sehrinin detineci
+	pattern = "pattern_solid.tga"
+	color1 = "grey"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# ORTA ASYA VE AVRUPA
+# ===========================================================================
+
+XIN = {   # Uygur Hanligi - Ipek Yolu'nun hakimi, Muctehidiyye (mavi saf)
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.56 0.56 } position = { 0.34 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "golden"
+		color2 = "yellow"
+		instance = { scale = { 0.44 0.44 } position = { 0.64 0.5 } }
+	}
+}
+
+PLC = {   # Lehistan-Litvanya Birligi
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "red"
+	color2 = "red_dark"
+
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.5 0.5 } position = { 0.28 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_horse.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.5 0.5 } position = { 0.72 0.5 } }
+	}
+}
+
+# ===========================================================================
+# CIN'IN BES DEVLETI
+# ===========================================================================
+
+CHI = {   # Kuzey Cin Imparatorlugu - imparatorluk sarisi, ejder yerine gunes
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_rising_sun.dds"
+		color1 = "red_dark"
+		color2 = "red"
+		instance = { scale = { 0.62 0.62 } position = { 0.5 0.5 } }
+	}
+}
+
+JGN = {   # Jiangnan Cumhuriyeti - yesim, tuccar-burokrat devleti
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "teal"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.3 } }
+	}
+}
+
+SHU = {   # Shu Kralligi - daglik, savunmaci
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "white"
+		color2 = "grey"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE = {   # Yue Konfederasyonu - guney kiyisinin ticaret birligi
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+MCH = {   # Mancurya Hanligi - eski Cing seckinleri
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "yellow"
+		color2 = "golden"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# HINDISTAN
+# ===========================================================================
+
+MUG = {   # Gurkani Devleti - Muctehidiyye, Ictihatci Duzen'in dogu kanadi (mavi saf)
+	pattern = "pattern_solid.tga"
+	color1 = "medium_blue"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+BGL = {   # Bengal Sultanligi
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+HYD = {   # Haydarabad
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+MYS = {   # Mysore Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "orange"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "red_dark"
+		color2 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# MOSKOVA, TURKISTAN VE HINDISTAN'IN GERI KALANI
+# ===========================================================================
+
+RUS = {   # Moskova Buyuk Prensligi - imparatorluk degil, sikismis bir prenslik
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+MRD = {   # Mordva Prensligi
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_sun_udmurt.dds"
+		color1 = "red_dark"
+		color2 = "yellow"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+MRI = {   # Mari Prensligi
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sun_chuvash.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+FIN = {   # Finlandiya Buyuk Dukaligi - Isvec'e bagli
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "azure"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.32 } }
+	}
+}
+
+KHI = {   # Hive Hanligi - Iran konfederasyonunun Turkistan kanadi
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_two.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+}
+
+BUK = {   # Buhara Emirligi - Ipek Yolu'nun medrese sehri
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+}
+
+MAR = {   # Maratha Konfederasyonu - Gurkani'nin baslica rakibi
+	pattern = "pattern_solid.tga"
+	color1 = "orange"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+PAN = {   # Sih Devleti - Pencap ovasini kaybetti, daglarda tutundu
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_sun_sikh.dds"
+		color1 = "azure"
+		color2 = "azure"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+AWA = {   # Avadh
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_fish_oudh.dds"
+		color1 = "golden"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# AVRUPA VE MAGRIP
+# ===========================================================================
+
+SIC = {   # Sicilya Emirligi - Akdeniz'in cogulcu Musluman adasi
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_three.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }
+	}
+}
+
+WAL = {   # Eflak Emirligi - Tuna'nin kuzeyindeki Musluman beylik
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+MOL = {   # Bogdan Prensligi - Lehistan'in vassali
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_dark"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_bull_head.dds"
+		color1 = "azure"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+FRA = {   # Paris Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "medium_blue"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_fleur_quebec.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+CAS = {   # Kastilya Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "beige"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "red_dark"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+GLI = {   # Galicya Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "azure"
+		color2 = "golden"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+MOR = {   # Fas Sultanligi - Kahire minberinin Atlantik mufttefiki
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_star_05_morocco.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+MAS = {   # Cezayir Emirligi
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crescent_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# YENI DUNYA
+# Somurge armalari metbularinin dilinden konusuyor: Endulus kolonileri altin
+# zemin + hilal, Fas kolonileri terrakota. Yerli devletler kendi isaretleri.
+# ===========================================================================
+
+NAN = {   # Yeni Endulus - Tenochtitlan somurge baskenti
+	pattern = "pattern_solid.tga"
+	color1 = "golden"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "red_dark"
+		color2 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.42 } }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.36 0.36 } position = { 0.5 0.72 } }
+	}
+}
+
+NSV = {   # Yeni Isbiliye
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "golden"
+	color2 = "green_dark"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "green_dark"
+		color2 = "green_dark"
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.3 } }
+	}
+}
+
+PRL = {   # Inci Adalari
+	pattern = "pattern_solid.tga"
+	color1 = "golden"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_crescent_three.dds"
+		color1 = "azure"
+		color2 = "azure"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+MAY = {   # Maya Konfederasyonu - Yeni Endulus'un tributary'si
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_sun_face.dds"
+		color1 = "yellow"
+		color2 = "red_dark"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+MBZ = {   # Fas Brezilyasi
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_star_05_morocco.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.5 0.5 } position = { 0.36 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.42 0.42 } position = { 0.66 0.5 } }
+	}
+}
+
+MPL = {   # Fas Plata'si
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "red_dark"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_star_05_morocco.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.44 0.44 } position = { 0.5 0.3 } }
+	}
+}
+
+NEN = {   # Yeni Ingiltere - koloni bayragindaki cam agaci
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_tree_new_england.dds"
+		color1 = "white"
+		color2 = "green_dark"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+VRG = {   # Virginia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+NNL = {   # Yeni Hollanda - Nieuw Amsterdam hic dusmedi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "orange"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } }
+	}
+}
+
+PEN = {   # Pennsylvania Cumhuriyeti - Alman ve Hollandali yerlesimciler
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "green_dark"
+	color2 = "beige"
+	colored_emblem = {
+		texture = "ce_tree_new_england.dds"
+		color1 = "beige"
+		color2 = "green_dark"
+		instance = { scale = { 0.52 0.52 } position = { 0.5 0.5 } }
+	}
+}
+
+SW1 = {   # Vinland - Kalmar'in Kuzey Amerika kolonisi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "azure"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crowned.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } }
+	}
+}
+
+NW1 = {   # Nya Norrland
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+IRO = {   # Haudenosaunee Konfederasyonu - Barisin Buyuk Agaci
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_tree_new_england.dds"
+		color1 = "white"
+		color2 = "beige"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+ILL = {   # Buyuk Goller Federasyonu
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "azure"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "azure"
+		color2 = "white"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+OJI = {   # Cree Konfederasyonu
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+MAP = {   # Mapuce Devleti - somurgelesmemis Sili
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+NPU = {   # Cusco Kralligi
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "teal"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "golden"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } }
+	}
+}
+
+BOL = {   # Charcas Kralligi - Potosi gumusu
+	pattern = "pattern_solid.tga"
+	color1 = "teal"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sun_face.dds"
+		color1 = "white"
+		color2 = "golden"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+ECU = {   # Quito Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+# ===========================================================================
+# AFRIKA
+# Sahel Kahire'nin dilinde (kirmizi + altin hilal), Endulus Ginesi altin,
+# Habesistan Hristiyan, yerli devletler kendi isaretleri.
+# ===========================================================================
+
+AGU = {   # Endulus Ginesi - kole fabrikalari
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "golden"
+	color2 = "green_dark"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "green_dark"
+		color2 = "green_dark"
+		instance = { scale = { 0.44 0.44 } position = { 0.5 0.3 } }
+	}
+}
+
+OMA = {   # Umman Sultanligi - Hint Okyanusu'nun ucuncu kutbu
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_crossed_kris_daggers.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+SOK = {   # Sokoto Halifeligi - Sahel'in en buyugu
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_crescent_star_06.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+BOR = {   # Bornu Sultanligi
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_dark"
+	color2 = "green_dark"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "green_dark"
+		color2 = "green_dark"
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+}
+
+MSN = {   # Massina
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "golden"
+		color2 = "golden"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+BGM = {   # Begemder - Habesistan'in kuzey tahti
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	color2 = "golden"
+	colored_emblem = {
+		texture = "ce_lion_judah.dds"
+		color1 = "golden"
+		color2 = "white"
+		instance = { scale = { 0.64 0.64 } position = { 0.5 0.5 } }
+	}
+}
+
+SHW = {   # Soa
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "green_dark"
+	color2 = "red_dark"
+	colored_emblem = {
+		texture = "ce_lion_judah.dds"
+		color1 = "golden"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.3 } }
+	}
+}
+
+ASH = {   # Asanti Imparatorlugu - altin tabure
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = "black"
+		color2 = "brown"
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+}
+
+ZUL = {   # Zulu Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
+
+KON = {   # Kongo Kralligi
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_sun_face.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}

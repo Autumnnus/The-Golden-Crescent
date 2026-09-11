@@ -1,0 +1,34 @@
+# BASKENT DUZELTMELERI
+#
+# Bu ulkelerin hicbiri senaryonun ilgi alaninda degil; hepsi vanilla'dan miras
+# aliniyor. Ama yeniden dagitimlarimiz baskentlerini baska ulkeye tasidi ve
+# geriye BASKENTI KENDINDE OLMAYAN ulkeler kaldi.
+#
+# Bu Vic3'te sessiz bir hata degil: ulkenin `capital` nesnesi gecersiz kaliyor
+# ve `capital`'a dokunan her script cokuyor. Oyun log'unda soyle gorunuyor:
+#
+#   Error: Event target link 'capital' returned an invalid object
+#   Script location: common/dynamic_country_names/00_dynamic_country_names.txt
+#
+# `check` artik bunu topraga sahip HER ulke icin dogruluyor (yalnizca
+# world/countries icinde tanimladiklarimiz icin degil).
+#
+# Her birine kendi tuttugu bir state baskent olarak veriliyor; baska hicbir
+# sey degismiyor.
+
+AJJ: {country_type: decentralized, tier: principality, cultures: [tuareg], capital: STATE_EAST_SAHARA}
+BEL: {country_type: recognized, tier: kingdom, cultures: [wallonian, flemish], religion: catholic, capital: STATE_WALLONIA}
+DGR: {country_type: unrecognized, tier: principality, cultures: [khmer], capital: STATE_MEKONG}
+DLM: {country_type: decentralized, tier: principality, cultures: [bidan], capital: STATE_MAURITANIA}
+FER: {country_type: decentralized, tier: principality, cultures: [siberian], capital: STATE_OKHOTSK}
+FTR: {country_type: unrecognized, tier: principality, cultures: [fulbe], capital: STATE_MAURITANIA}
+KKI: {country_type: decentralized, tier: principality, cultures: [kachin], capital: STATE_MANDALAY}
+KNG: {country_type: unrecognized, tier: principality, cultures: [kru], capital: STATE_VOLTA}
+KRI: {country_type: decentralized, tier: principality, cultures: [aborigine], capital: STATE_TASMANIA}
+KRU: {country_type: decentralized, tier: principality, cultures: [kru], capital: STATE_LIBERIA}
+MDK: {country_type: unrecognized, tier: principality, cultures: [mande], capital: STATE_LIBERIA}
+MNC: {country_type: decentralized, tier: principality, cultures: [shona], capital: STATE_ZAMBEZI}
+RGB: {country_type: decentralized, tier: principality, cultures: [bidan], capital: STATE_TIMBUKTU}
+TEK: {country_type: decentralized, tier: principality, cultures: [berber], capital: STATE_SAHARA}
+TID: {country_type: unrecognized, tier: principality, cultures: [moluccan], capital: STATE_CELEBES}
+TRS: {country_type: recognized, tier: principality, cultures: [szekely, hungarian, romanian], religion: catholic, capital: STATE_NORTHERN_TRANSYLVANIA}

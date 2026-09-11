@@ -1,0 +1,66 @@
+﻿l_turkish:
+ je_group_tgc_main_powers: "Büyük Devletlerin Hedefleri"
+
+ je_tgc_rum_recall_atabegs: "Atabeylerin Geri Çağrılması"
+ je_tgc_rum_recall_atabegs_reason: "1818 veraset savaşı bize kuzey Balkanlardan fazlasına mal oldu. Saray kendisiyle döğüşürken Adana, Erzurum ve Trabzon atabeyleri sessizce mektuplara cevap vermeyi bıraktı. Hâlâ vergi gönderiyorlar, hâlâ kendilerine bizim diyorlar — ama pazarlık eden vali artık vali değildir. Onları düzgün bağla; yoksa bir kuşak sonra komşu olurlar."
+ je_tgc_rum_recall_atabegs_complete_tt: "Üç atabeylikten hiçbiri artık salt #b tâbi vergici#! değil"
+
+ je_tgc_egypt_revenge_of_damascus: "Şam'ın İntikamı"
+ je_tgc_egypt_revenge_of_damascus_reason: "1712'de elçilerimiz Şam'da Suriye'yi kalemle verdi ve reformcular o günden beri orayı Kahire'nin dilini konuşup Konstantiniyye'nin emrini alan bir vasal emirlik üzerinden tutuyor. Donanma hiç yenilmedi. Hazine hiç boşalmadı. Kaybedilen bir eyaletti; eyaletler geri alınır."
+ je_tgc_egypt_revenge_of_damascus_complete_tt: "#b Suriye#!, #b Halep#! ve #b Filistin#!'in tamamı bizde"
+
+ je_tgc_persia_assembly_of_shahs: "Şahların Meclisi"
+ je_tgc_persia_assembly_of_shahs_reason: "Konfederasyon 1815'te İran parçalanmasın diye kuruldu ve işe yaradı — hiçbir şeye karar veremeyen bir merkez pahasına. Her şah kendi ordusunu, kendi gümrüğünü, kendi dış siyasetini tutuyor. Tebriz ile Horasan zaten kapının yarısındalar. Meclisi bir hatıraya dönüşmeden federasyona çevir."
+ je_tgc_persia_assembly_of_shahs_complete_tt: "En az #b 4#! şahlık vergiden daha sıkı bir bağı kabul etti"
+
+ tgc_atabeg_negotiations: "Atabeylerle Pazarlık"
+ tgc_levantine_revanchism: "Levant Revanşizmi"
+ tgc_confederal_paralysis: "Konfederal Felç"
+ tgc_rum_second_founding: "İmparatorluğun İkinci Kuruluşu"
+ tgc_treaty_of_damascus_avenged: "Şam Antlaşması'nın İntikamı"
+ tgc_federal_iran: "Federal İran"
+
+ je_tgc_andalusia_complete_peninsula: "Yarımadanın Tamamlanması"
+ je_tgc_andalusia_complete_peninsula_reason: "Las Navas 1212'de kazanıldı ve yarımada o günden beri bölünmüş durumda. Kurtuba güneyi, batıyı ve merkezi tutuyor; kuzey hâlâ hiçbir halifeye — giderek de yalnızca Londra'ya — cevap veren bir Hristiyan krallıklar yaması. Federal bir halifelik onları yok etmeden içine alabilir; Hikmetiyye'nin bütün iddiası bu. Okyanusun ötesinde kanıtlamadan önce yarımadada kanıtla."
+ je_tgc_andalusia_complete_peninsula_complete_tt: "#b Eski Kastilya, Leon, Asturias, Galiçya, Aragon, Katalonya#! ve #b Bask#! bizde"
+
+ je_tgc_poland_new_path: "Avrupa'nın Yeni Yolu"
+ je_tgc_poland_new_path_reason: "Topçu talimimizi Rûm'dan, kalemiyemizi Tatarlardan, hoşgörümüzü zaruretten aldık. Bu bizi Avrupa'nın en reformist devleti yaptı ama hâlâ sanayi devleti yapmadı. Viyana feodal, Paris beş krallık, Britanya dersini doğuda arıyor. Avrupa'ya kim öğretirse o liderlik edecek — öyleyse öğret."
+ je_tgc_poland_new_path_complete_tt: "Okuryazarlık #b %60#! üstünde ve #b Büyük Güç#! rütbesi"
+
+ je_tgc_uyghur_silk_road: "İpek Yolunun Hâkimi"
+ je_tgc_uyghur_silk_road_reason: "Kaşgar doğu kapısını, Buhara batı kapısını tutuyor; arada kalan her şey başkasının geçiş resmini ödüyor. Çin beş devlet, yolu kapatamıyor; İsfahan bir konfederasyon, açamıyor. Kervanlar hukuk dışında zaten bizim."
+ je_tgc_uyghur_silk_road_complete_tt: "#b Tianşan, Hive, Buhara#! ve #b Fergana#! bizde"
+
+ je_tgc_tabriz_leave_assembly: "Meclisten Çıkış"
+ je_tgc_tabriz_leave_assembly_reason: "1815 konfederasyonu bir atel oldu, omurga değil. Tebriz İsfahan'a vergi ödüyor, Rûm sınırında İsfahan'ın savaşlarını veriyor ve ikisinde de fikri sorulmuyor. Tezgâhlarımız onlarınkinden çok üretiyor, hukukçularımız onlarınkinden iyi tartışıyor. Ayakta durabilen şahlık taşınmaz."
+ je_tgc_tabriz_leave_assembly_complete_tt: "Hiçbir metbuya bağlı değiliz"
+
+ tgc_iberian_question: "Kuzey Meselesi"
+ tgc_szlachta_resistance: "Şlahta'nın Direnci"
+ tgc_caravan_diplomacy: "Kervan Diplomasisi"
+ tgc_tribute_to_isfahan: "İsfahan'a Ödenen Vergi"
+ tgc_iberia_united: "Yarımada Birleşti"
+ tgc_europes_new_path: "Avrupa'nın Öğretmeni"
+ tgc_master_of_the_silk_road: "İpek Yolunun Hâkimi"
+ tgc_tabriz_sovereign: "Tebriz Egemen"
+
+ je_tgc_mandate_of_heaven: "Göğün Yetkisi"
+ je_tgc_mandate_of_heaven_reason: "Çing hanedanı iflasla, saray savaşlarıyla ve Uygur isyanlarıyla düştü; yerine geçen şey, her biri iddianın bir parçasını tutan beş devlet oldu. Pekin ayini, Nankin parayı, Siçuan dağları, Guangzhou denizi, Mukden hanedanın adını tutuyor. Gök yetkisini bölmez — geri çeker ve kimin yerden kaldıracağını bekler."
+ je_tgc_mandate_of_heaven_complete_tt: "#b Pekin, Nankin, Siçuan, Guangdong#! ve #b Güney Mançurya#! bizde"
+
+ tgc_shattered_mandate: "Yetki Parçalandı"
+ tgc_mandate_restored: "Yetki Yeniden Kuruldu"
+
+ je_tgc_gurkani_unify_india: "Hindistan'ın Birliği"
+ je_tgc_gurkani_unify_india_reason: "Bu yarımadada tek bir yabancı şirketin tek bir kalesi yok — ve asıl sorun tam olarak bu: karşısında birleşilecek ortak bir düşman yok. Delhi kuzeybatıyı yönetiyor, geri kalan her yerde bir mihrace, bir nizam ya da bir konfederasyon bir parçayı tutuyor. Hindistan orduyla, federal antlaşmayla ya da üç yüz prensi tek bir halk olduklarına ikna ederek birleştirilebilir. Üçü de başka yerlerde denendi. Yalnızca sonuncusu kalıcı oldu."
+ je_tgc_gurkani_unify_india_complete_tt: "#b Delhi, Doğu Bengal, Haydarabad, Mysore#! ve #b Bombay#! bizde"
+
+ je_tgc_britain_secret_of_the_east: "Doğu'nun Sırrı"
+ je_tgc_britain_secret_of_the_east_reason: "Soyacak bir Bengal'imiz, soyacak bir Şirketimiz yok. Elimizde kömür var, bir ada var ve Konstantiniyye ile İsfahan'ın yapamadığımız şeyleri yapışını yüz yıl seyretmişliğimiz var. Heyetlerimiz Tebriz'den çizimlerle, Kurtuba'dan tercümelerle dönüyor. Taklit etmek ayıp değil — taklit edilmek hedef."
+ je_tgc_britain_secret_of_the_east_complete_tt: "Okuryazarlık #b %80#! üstünde, #b Siemens-Martin fırını#! ve #b betonarme#! araştırılmış"
+
+ tgc_princely_particularism: "Prenslerin Ayrılıkçılığı"
+ tgc_borrowed_learning: "Ödünç Alınmış İlim"
+ tgc_india_united: "Hindistan Birleşti"
+ tgc_workshop_of_the_world: "Dünyanın Atölyesi"

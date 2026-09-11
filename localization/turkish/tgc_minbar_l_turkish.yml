@@ -1,0 +1,42 @@
+﻿l_turkish:
+ je_group_tgc_three_minbars: "Üç Minber Krizi"
+
+ je_tgc_cairo_caliphate: "Kahire Halifeliği"
+ je_tgc_cairo_caliphate_reason: "Kahire'deki halife her Müslüman devlet üzerinde dinî ve siyasi otorite iddia ediyor. 1712'deki yenilgiden beri bu iddia itaate değil, tekrara dayanıyor. Ezher uleması onu dışarı taşımalı — Mağrip'e, bozkıra, Hint adalarına — reformcular onu bir hatıraya çevirmeden önce."
+ je_tgc_cairo_caliphate_complete_tt: "En az #b 26#! devlet Kahire minberini izliyor (şu an 16)"
+ je_tgc_cairo_caliphate_fail_tt: "Taklidiyye'yi terk ettik"
+
+ je_tgc_cordoba_caliphate: "Kurtuba Halifeliği"
+ je_tgc_cordoba_caliphate_reason: "Kurtuba emretmez, çeker. Halife siyasi itaat değil; hukukta, bilimde ve edebiyatta liderlik iddia eder. Hiçbir şeyi yönetmeyen bir minber, kötü yöneten bir minberden uzun yaşayabilir — yeter ki dinleyeni olsun."
+ je_tgc_cordoba_caliphate_complete_tt: "En az #b 10#! devlet Kurtuba minberini izliyor (şu an 2)"
+ je_tgc_cordoba_caliphate_fail_tt: "Hikmetiyye'yi terk ettik"
+
+ je_tgc_ijtihadi_order: "İçtihatçı Düzen"
+ je_tgc_ijtihadi_order_reason: "Rûm ve İsfahan evrensel halifelik fikrini açıkça reddediyor. Dinî otorite, devlete ve çağa hesap veren ulusal ve bölgesel kurumlara aittir. Bu minber için bir iddia değil, minberi kaldırma teklifidir. Teklifin işlediğini kanıtla."
+ je_tgc_ijtihadi_order_complete_tt: "En az #b 32#! devlet İçtihatçı Düzen'i izliyor (şu an 21)"
+ je_tgc_ijtihadi_order_fail_tt: "İçtihat mezheplerini terk ettik"
+
+ tgc_minbar_claim_upkeep: "Minber İddiasının Yükü"
+ tgc_ijtihadi_order_upkeep: "Millîleştirilmiş Dinî Otorite"
+ tgc_minbar_mission_burden: "Yurtdışındaki Ulema Heyeti"
+ tgc_cairo_caliphate_recognized: "Kahire Halifeliği Tanındı"
+ tgc_cordoba_caliphate_recognized: "Kurtuba Halifeliği Tanındı"
+ tgc_ijtihadi_order_ascendant: "İçtihatçı Düzen Üstün"
+
+ tgc_minbar.1.t: "Ezher'den Bir Davetiye"
+ tgc_minbar.1.d: "Ezher âlimleri, [SCOPE.sCountry('tgc_minbar_target').GetName] ulemasının içtihat meselesinde henüz hüküm vermediğini bildiriyor. İyi donatılmış bir heyet, reformcular varmadan meseleyi Kahire lehine kapatabilir."
+ tgc_minbar.1.f: "Dinleyicisi olmayan minber yalnızca mobilyadır."
+ tgc_minbar.1.a: "Heyeti gönder — ve ağırlığının bedelini öde."
+ tgc_minbar.1.b: "Hazinenin daha yakın borçları var."
+
+ tgc_minbar.2.t: "Kurtuba'ya Gelen Mektuplar"
+ tgc_minbar.2.d: "[SCOPE.sCountry('tgc_minbar_target').GetName] öğrencileri Kurtuba akademilerine mektup yazıp fıkhımızı soruyor. Vakıf kürsüleri ve yol bursları, yazışmayı bir medreseye; medreseyi de zamanla bir yerleşmeye çevirir."
+ tgc_minbar.2.f: "Kimseyi döndürmüyoruz. Yalnızca mektuplara cevap veriyoruz — masraflı biçimde."
+ tgc_minbar.2.a: "Kürsüleri vakfet, bursları bağla."
+ tgc_minbar.2.b: "Kendi keseleriyle gelsinler."
+
+ tgc_minbar.3.t: "Halifesiz Bir Mahkeme"
+ tgc_minbar.3.d: "[SCOPE.sCountry('tgc_minbar_target').GetName] hukukçuları, bir devletin halifenin mührünü beklemeden nasıl kanun yapabileceğini sordu. Cevabımız koca bir hukuk mektebi — ve mektepler gönderilmez, kurulur."
+ tgc_minbar.3.f: "Dinî otorite ihraç edilmez. Yerinde kurulur ve ondan sonra onlarındır."
+ tgc_minbar.3.a: "Mektebi kur, kadrosunu kendi fakültelerimizden ver."
+ tgc_minbar.3.b: "Kendileri varsınlar, ya da hiç."

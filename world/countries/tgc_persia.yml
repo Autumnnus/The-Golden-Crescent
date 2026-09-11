@@ -1,0 +1,185 @@
+# Iran Sahliklari Konfederasyonu ve Rum-Fars arasindaki tampon devletler.
+#
+# senaryo.md 246: "Iran tek bir devlet degildir. Sahliklar ortak savunma,
+# ticaret ve bilim kurumlariyla birbirlerine baglidir."
+# Bu yuzden uyeler `tributary`: kendi ordularini ve diplomasilerini buyuk olcude
+# korurlar, sadece Isfahan'a bagli kalirlar. Yuksek liberty_desire =
+# senaryo.md 283 "Tebriz ve Horasan'in bagimsizlik egilimleri".
+#
+# Renk semasi: konfederasyon YESIL tonlari. Rum kufesi mavi (tgc_rum.yml).
+
+# --- Konfederasyonun merkezi ---------------------------------------------
+PER:
+  color: [34, 120, 88]
+  country_type: recognized
+  tier: empire
+  cultures: [persian]
+  tech_tier: 1
+  literacy: very_high
+  religion: irfaniyya
+  capital: STATE_ISFAHAN
+  name: Shahdom of Isfahan
+  adjective: Isfahani
+  name_tr: "İsfahan Şahlığı"
+  religion_map:
+    shiite: irfaniyya
+
+# --- Konfederasyon uyeleri -----------------------------------------------
+# Tebriz Hanligi Baku'yu da tutuyor (Tebriz + Urmiye + Azerbaycan).
+# Once ayri bir BAK Hanligi vardi; iki kucuk blob yerine tek tiknaz sahlik.
+AZB:
+  color: [72, 156, 118]
+  country_type: recognized
+  tier: kingdom
+  cultures: [azerbaijani]
+  tech_tier: 2
+  literacy: high
+  religion: irfaniyya
+  capital: STATE_TABRIZ
+  name: Khanate of Tabriz
+  adjective: Tabrizi
+  name_tr: "Tebriz Hanlığı"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 65
+  religion_map:
+    shiite: irfaniyya
+    sunni: mujtahidiyya
+
+KHO:
+  color: [50, 138, 100]
+  country_type: recognized
+  tier: kingdom
+  cultures: [persian]
+  tech_tier: 2
+  literacy: high
+  religion: irfaniyya
+  capital: STATE_KHORASAN
+  name: State of Khorasan
+  adjective: Khorasani
+  name_tr: "Horasan Devleti"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 60
+  religion_map:
+    shiite: irfaniyya
+
+MAZ:
+  color: [96, 174, 136]
+  country_type: recognized
+  tier: principality
+  cultures: [mazanderani]
+  tech_tier: 3
+  literacy: middling
+  religion: irfaniyya
+  capital: STATE_MAZANDARAN
+  name: Shahdom of Mazandaran
+  adjective: Mazandarani
+  name_tr: "Mazenderan Şahlığı"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 25
+  religion_map:
+    shiite: irfaniyya
+
+KRM:
+  color: [140, 200, 166]
+  country_type: recognized
+  tier: principality
+  cultures: [persian]
+  tech_tier: 3
+  literacy: middling
+  religion: irfaniyya
+  capital: STATE_KERMAN
+  name: Emirate of Kerman
+  adjective: Kermani
+  name_tr: "Kirman Emirliği"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 30
+  religion_map:
+    shiite: irfaniyya
+
+LUR:
+  color: [118, 190, 152]
+  country_type: recognized
+  tier: principality
+  cultures: [luri]
+  tech_tier: 3
+  literacy: low
+  religion: irfaniyya
+  capital: STATE_LURISTAN
+  name: Luristan
+  adjective: Luri
+  name_tr: Luristan
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 35
+  religion_map:
+    shiite: irfaniyya
+
+ARB:
+  color: [64, 146, 128]
+  country_type: recognized
+  tier: principality
+  cultures: [mashriqi]
+  tech_tier: 3
+  literacy: low
+  religion: irfaniyya
+  capital: STATE_KHUZESTAN
+  name: Emirate of Khuzestan
+  adjective: Khuzestani
+  name_tr: "Huzistan Emirliği"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 40
+  religion_map:
+    shiite: irfaniyya
+
+# senaryo.md 100: "Basra, Kurdistan ve Baku bagimsizliklarini kazanir."
+# Basra ve Kurdistan Iran'dan koptuktan sonra Rum'un yorungesine girdi -
+# tanimlari world/countries/tgc_rum.yml icinde, Rum'un tampon vassallari
+# olarak. Baku ise Tebriz Hanligi'yla birlesti (yukarida AZB).
+# Iran'in baslangic hedeflerinden biri ucunu de geri almak.
+
+# --- Konfederasyonun Turkistan kanadi ---------------------------------------
+# Hive ve Buhara Isfahan'a federe. Bu dini degil SIYASI bir birlik: ikisi de
+# Muctehidiyye, yani Ictihatci Duzen'in Sunni kolundalar, ama konfederasyonun
+# ortak savunma ve ticaret kurumlarina bagli (senaryo.md 252). Konfederasyon
+# federal devlete donusurse bu catlak buyuyecek.
+
+KHI:
+  color: [98, 180, 172]
+  country_type: recognized
+  tier: kingdom
+  cultures: [uzbek, turkmen]
+  religion: mujtahidiyya
+  tech_tier: 3
+  literacy: low
+  capital: STATE_KHIVA
+  name: Khanate of Khiva
+  adjective: Khivan
+  name_tr: "Hive Hanlığı"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 50
+  religion_map:
+    sunni: mujtahidiyya
+
+BUK:
+  color: [72, 158, 152]
+  country_type: recognized
+  tier: kingdom
+  cultures: [uzbek, tajik]
+  religion: mujtahidiyya
+  tech_tier: 3
+  literacy: middling
+  capital: STATE_UZBEKIA
+  name: Emirate of Bukhara
+  adjective: Bukharan
+  name_tr: "Buhara Emirliği"
+  overlord: PER
+  subject_type: tributary
+  liberty_desire: 45
+  religion_map:
+    sunni: mujtahidiyya

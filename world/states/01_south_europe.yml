@@ -1,0 +1,110 @@
+# 01_south_europe.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# Balkanlar uc halka:
+#   1) Rum dogrudan (Rumeli eyaletleri): Trakya, Makedonya, Uskup, Teselya,
+#      Yunanistan, Ege ve Girit. Homeland'ler vanilla kaliyor -> Balkan
+#      milliyetciligi senaryo sorunu olarak yasiyor (senaryo.md 193).
+#   2) Musluman kukla emirlikler: BOS, ALB, BUL  (bkz. world/countries/tgc_rum.yml)
+#   3) Bagimsiz Hristiyan kuzey: SER, WAL, MOL, CRO, HUN, TRS
+#      -> 1818-1827 Taht Savasi koalisyonu (senaryo.md 102)
+
+STATE_ABRUZZO: {owner: NAP, pops: inherit, buildings: inherit}
+STATE_ALBANIA: {owner: ALB, pops: inherit, buildings: inherit}
+STATE_ALENTEJO: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_APULIA: {owner: NAP, pops: inherit, buildings: inherit}
+STATE_ARAGON: {owner: AGN, pops: inherit, buildings: inherit}
+STATE_ASTURIAS: {owner: CAS, pops: inherit, buildings: inherit}
+STATE_ATTICA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_BALEARIC_ISLANDS: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_BASQUE_COUNTRY: {owner: NAV, pops: inherit, buildings: inherit}
+STATE_BEIRA: {owner: ANL, _note: kaynak dosyada 11/6 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_BOSNIA: {owner: BOS, pops: inherit, buildings: inherit}
+STATE_BULGARIA: {owner: BUL, pops: inherit, buildings: inherit}
+STATE_CALABRIA: {owner: NAP, pops: inherit, buildings: inherit}
+STATE_CAMPANIA: {owner: NAP, pops: inherit, buildings: inherit}
+STATE_CANARY_ISLANDS: {owner: ANL, _note: kaynak dosyada 5/5 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_CATALONIA: {owner: AGN, pops: inherit, buildings: inherit}
+STATE_CORSICA: {owner: COR, pops: inherit, buildings: inherit}
+STATE_CRETE: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_CROATIA: {owner: CRO, pops: inherit, buildings: inherit}
+STATE_DALMATIA: {owner: CRO, pops: inherit, buildings: inherit}
+STATE_DOBRUDJA: {owner: TUR, _note: kaynak dosyada 8/8 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_EASTERN_SERBIA: {owner: SER, pops: inherit, buildings: inherit}
+STATE_EASTERN_THRACE: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_EAST_AEGEAN_ISLANDS: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_ESTREMADURA: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_EXTREMADURA: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_GALICIA: {owner: GLI, pops: inherit, buildings: inherit}
+STATE_IONIAN_ISLANDS: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_ISTRIA: {owner: VEN, pops: inherit, buildings: inherit}
+STATE_KOSOVO: {owner: ALB, pops: inherit, buildings: inherit}
+# --- Iberya: "Ispanya" diye bir devlet yok ---------------------------------
+# senaryo.md 24: Las Navas 1212'de kazanildi, Kastilya ve Aragon'un guneye
+# ilerleyisi durdu. Ispanya hic kurulmadi; kuzeyde birbirinden ayri Hristiyan
+# kralliklar, guneyde Endulus var. Portekiz de olusmadi - kuzeyi Galicya'ya,
+# guneyi Endulus'e ait.
+STATE_LEON: {owner: CAS, pops: inherit, buildings: inherit}
+STATE_OLD_CASTILE: {owner: CAS, pops: inherit, buildings: inherit}
+STATE_ENTRE_DOURO_E_MINHO: {owner: GLI, pops: inherit, buildings: inherit}
+STATE_MURCIA: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_AZORES: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_CAPE_VERDE: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_LOMBARDY: {owner: LOM, pops: inherit, buildings: inherit}
+STATE_LOWER_ANDALUSIA:
+  owner: ANL
+  homelands: [spanish]
+  pops: inherit
+  buildings: inherit
+STATE_MACEDONIA: {owner: TUR, pops: inherit, buildings: inherit}
+# senaryo.md 636: Rum'un somurgeleri "Florida'daki Yeni Bursa, MALTA, bazi Bati
+# Afrika ikmal limanlari". senaryo.md 464: "Malta'daki Rum askeri bolgesi".
+STATE_MALTA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_MADEIRA: {owner: ANL, _note: kaynak dosyada 2/2 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_MONTENEGRO: {owner: BOS, pops: inherit, buildings: inherit}
+STATE_NEW_CASTILE: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_NORTHERN_THRACE: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_PELOPONNESE: {owner: TUR, pops: inherit, buildings: inherit}
+# senaryo.md 462: "Malta'daki Rum askeri bolgesi" ve Rum'a bagli guney
+# Italya limanlari. Sardinya Rum'un Bati Akdeniz ussu.
+STATE_SARDINIA: {owner: TUR, pops: inherit, buildings: inherit}
+# Sicilya Emirligi adanin tamamina hakim; yalnizca bogazin dogu ucundaki
+# Messina Rum'da - Messina Bogazi'ni kontrol eden kucuk bir garnizon sehri.
+STATE_SICILY:
+  split:
+  - owner: TUR
+    provinces: [x00D020]
+  - {owner: SIC, rest: true}
+  pops: inherit
+  buildings: inherit
+STATE_SAVOY: {owner: SAV, pops: inherit, buildings: inherit}
+STATE_SKOPIA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_SLAVONIA: {owner: HUN, pops: inherit, buildings: inherit}
+STATE_THESSALIA: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_UPPER_ANDALUSIA: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_VALENCIA: {owner: ANL, pops: inherit, buildings: inherit}
+STATE_VENETIA: {owner: VEN, pops: inherit, buildings: inherit}
+STATE_WESTERN_SERBIA: {owner: SER, pops: inherit, buildings: inherit}
+STATE_WESTERN_THRACE: {owner: TUR, pops: inherit, buildings: inherit}
+STATE_WEST_AEGEAN_ISLANDS: {owner: TUR, _note: kaynak dosyada 2/2 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ITALYA - guclenen Papalik
+# ===========================================================================
+# Musluman yukselisi Katolik Kilise'yi bolmedi, aksine kenetledi: Papalik bu
+# evrende kusatma altindaki bir Kilise'nin baskenti ve gercek bir guc.
+# Emilia'daki uc kucuk duklu (Parma, Modena, Lucca) Papalik'ta toplandi.
+STATE_EMILIA: {owner: PAP, pops: inherit, buildings: inherit}
+STATE_LAZIO: {owner: PAP, pops: inherit, buildings: inherit}
+STATE_ROMAGNA: {owner: PAP, pops: inherit, buildings: inherit}
+STATE_UMBRIA: {owner: PAP, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ACIKCA LISTELENEN AVRUPA STATE'LERI
+# ===========================================================================
+# Bunlar daha once "unlisted: inherit" idi, yani vanilla pop'larini HAM
+# aliyorlardi ve ulkenin religion_split'i uygulanmiyordu. Gec Reform
+# senaryosunun calismasi icin acikca listelenmeleri gerekiyor:
+# sahiplik degismiyor, sadece pop donusumu devreye giriyor.
+STATE_PIEDMONT: {owner: SAR, pops: inherit, buildings: inherit}
+STATE_TUSCANY: {owner: TUS, pops: inherit, buildings: inherit}

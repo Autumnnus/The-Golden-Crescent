@@ -1,0 +1,78 @@
+# 10_india.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# senaryo.md 374-396. Bu evrende Britanya Hindistan'a hic girmedi; Dogu
+# Hindistan Sirketi'nin 21 eyaleti yerli devletlere dagildi.
+#
+#   MUG  Gurkani Devleti      - Delhi, Pencap, Sind, Kesmir (senaryo.md 378)
+#   PAN  Sih Devleti          - Dag Pencabi'na cekilmis rakip (senaryo.md 391)
+#   MAR  Maratha Konfederasyonu - orta Hindistan ve Gujarat (senaryo.md 386)
+#   BGL  Bengal Sultanligi    - Ganj deltasi, Bihar, Orissa, Assam
+#   AWA  Avadh                - Ganj ovasinin ortasi
+#   HYD  Haydarabad           - Dekkan
+#   MYS  Mysore               - guney
+#
+# Onceki surumde buradaki bircok state mekanik bir import'tan kalma parcali
+# haldeydi (Seylan'in bir parcasi Iran'da, bir parcasi Misir'da; Pegu'nun
+# kalani Iran'da). Hepsi tek sahibe toplandi.
+
+# --- Gurkani Devleti: kuzeybati imparatorlugu -------------------------------
+STATE_AGRA: {owner: MUG, pops: inherit, buildings: inherit}
+STATE_BUNDELKHAND: {owner: MUG, pops: inherit, buildings: inherit}
+STATE_DELHI: {owner: MUG, pops: inherit, buildings: inherit}
+STATE_MALWA: {owner: MUG, pops: inherit, buildings: inherit}
+STATE_PUNJAB:
+  owner: MUG
+  homelands: [panjabi]
+  pops: inherit
+  buildings: inherit
+STATE_RAJPUTANA: {owner: MUG, pops: inherit, buildings: inherit}
+STATE_SINDH: {owner: MUG, pops: inherit, buildings: inherit}
+
+# --- Sih Devleti: Gurkani'nin daglara surdugu rakip -------------------------
+# senaryo.md 382 Kesmir'i Gurkani'ye veriyor ama senaryo.md 391 Sih Devleti'ni
+# de rakip sayiyor. Ikisini birden tutmanin yolu: Sihler Pencap ovasini
+# kaybetti, dag eteklerinde ve Kesmir'de tutundular.
+STATE_HILL_PUNJAB: {owner: PAN, pops: inherit, buildings: inherit}
+STATE_KASHMIR: {owner: PAN, pops: inherit, buildings: inherit}
+
+# --- Maratha Konfederasyonu: orta Hindistan --------------------------------
+# Gujarat tarihen Gaekwad hanedaninin, yani Maratha; senaryo.md 384'teki
+# "Gujarat'in bazi bolgeleri" ifadesi de tam mulkiyet demiyor.
+STATE_BOMBAY: {owner: MAR, pops: inherit, buildings: inherit}
+STATE_CENTRAL_PROVINCES: {owner: MAR, pops: inherit, buildings: inherit}
+STATE_GUJARAT: {owner: MAR, pops: inherit, buildings: inherit}
+
+# --- Avadh ------------------------------------------------------------------
+STATE_AWADH: {owner: AWA, pops: inherit, buildings: inherit}
+
+# --- Bengal Sultanligi: Ganj deltasi ve dogu -------------------------------
+STATE_ARAKAN: {owner: BGL, pops: inherit, buildings: inherit}
+STATE_ASSAM: {owner: BGL, pops: inherit, buildings: inherit}
+STATE_BIHAR: {owner: BGL, pops: inherit, buildings: inherit}
+STATE_EAST_BENGAL: {owner: BGL, pops: inherit, buildings: inherit}
+STATE_ORISSA: {owner: BGL, pops: inherit, buildings: inherit}
+STATE_WEST_BENGAL: {owner: BGL, pops: inherit, buildings: inherit}
+
+# --- Haydarabad: Dekkan -----------------------------------------------------
+STATE_CIRCARS: {owner: HYD, pops: inherit, buildings: inherit}
+STATE_HYDERABAD: {owner: HYD, pops: inherit, buildings: inherit}
+STATE_KURNOOL: {owner: HYD, pops: inherit, buildings: inherit}
+
+# --- Mysore: guney ----------------------------------------------------------
+STATE_MADRAS: {owner: MYS, pops: inherit, buildings: inherit}
+STATE_MYSORE: {owner: MYS, pops: inherit, buildings: inherit}
+STATE_TRAVANCORE: {owner: MYS, pops: inherit, buildings: inherit}
+
+# --- Seylan: tek sahip ------------------------------------------------------
+# Vanilla'da Kandy + Britanya; import sirasinda Iran ve Misir'a da parca
+# dusmustu. Adanin tamami Kandy'ye toplandi.
+STATE_CEYLON: {owner: BCE, pops: inherit, buildings: inherit}
+
+# --- Birmanya: Iran ve Bengal parcalari temizlendi --------------------------
+STATE_PEGU: {owner: BUR, pops: inherit, buildings: inherit}
+STATE_TENASSERIM: {owner: BUR, pops: inherit, buildings: inherit}
+
+# --- Himalayalar ---
+# Qinghai (Amdo) Tibet'in parcasi; vanilla'da Cing'in elindeydi, Cing coktu.
+STATE_INDIAN_OCEAN_TERRITORY: {owner: EGY, pops: inherit, buildings: inherit}

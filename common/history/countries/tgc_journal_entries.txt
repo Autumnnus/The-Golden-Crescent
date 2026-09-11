@@ -1,0 +1,119 @@
+﻿# Journal entry'leri sahiplerine bagla (Uc Minber + ana devlet hedefleri).
+#
+# NEDEN BURASI: Vic3'te journal entry'ler kendiliginden baslamaz, bir efektle
+# eklenmeleri gerekir. `common/on_actions` keyed database oldugu icin
+# `on_game_started_after_lobby`'yi kendi dosyamizda yeniden tanimlarsak oyun
+# onu sessizce atar (vanilla kazanir) - vanilla'nin 7000 satirlik
+# 00_code_on_actions.txt'sini ezmek de guncelleme-kirilgan olurdu.
+# `common/history/countries` ise CALISAN bir history script'i: farkli isimli
+# dosyalar birbirini ezmez, hepsi calisir. Vanilla'nin kendi ulke kurulumu
+# (kanunlar, teknoloji) bozulmadan bizimki de calisir.
+#
+# Vanilla ornegi: common/history/countries/ait - ait abbas.txt
+
+COUNTRIES = {
+	# Kahire Halifeligi + Sam'in Intikami
+	c:EGY ?= {
+		add_journal_entry = {
+			type = je_tgc_cairo_caliphate
+		}
+		add_journal_entry = {
+			type = je_tgc_egypt_revenge_of_damascus
+		}
+	}
+
+	# Kurtuba Halifeligi
+	c:ANL ?= {
+		add_journal_entry = {
+			type = je_tgc_cordoba_caliphate
+		}
+		add_journal_entry = {
+			type = je_tgc_andalusia_complete_peninsula
+		}
+	}
+
+	# Lehistan-Litvanya: Avrupa'nin Yeni Yolu
+	c:PLC ?= {
+		add_journal_entry = {
+			type = je_tgc_poland_new_path
+		}
+	}
+
+	# Uygur Hanligi: Ipek Yolunun Hakimi
+	c:XIN ?= {
+		add_journal_entry = {
+			type = je_tgc_uyghur_silk_road
+		}
+	}
+
+	# Tebriz Hanligi: Meclisten Cikis
+	c:AZB ?= {
+		add_journal_entry = {
+			type = je_tgc_tabriz_leave_assembly
+		}
+	}
+
+	# Ictihatci Duzen'in iki merkezi
+	c:TUR ?= {
+		add_journal_entry = {
+			type = je_tgc_ijtihadi_order
+		}
+		add_journal_entry = {
+			type = je_tgc_rum_recall_atabegs
+		}
+	}
+
+	c:PER ?= {
+		add_journal_entry = {
+			type = je_tgc_ijtihadi_order
+		}
+		add_journal_entry = {
+			type = je_tgc_persia_assembly_of_shahs
+		}
+	}
+
+	# Cin: Gogun Yetkisi - bes devletin besi de ayni yarista
+	c:CHI ?= {
+		add_journal_entry = {
+			type = je_tgc_mandate_of_heaven
+		}
+	}
+
+	c:JGN ?= {
+		add_journal_entry = {
+			type = je_tgc_mandate_of_heaven
+		}
+	}
+
+	c:SHU ?= {
+		add_journal_entry = {
+			type = je_tgc_mandate_of_heaven
+		}
+	}
+
+	c:YUE ?= {
+		add_journal_entry = {
+			type = je_tgc_mandate_of_heaven
+		}
+	}
+
+	c:MCH ?= {
+		add_journal_entry = {
+			type = je_tgc_mandate_of_heaven
+		}
+	}
+
+	# Gurkani: Hindistan'in Birligi
+	c:MUG ?= {
+		add_journal_entry = {
+			type = je_tgc_gurkani_unify_india
+		}
+	}
+
+	# Britanya: Dogu'nun Sirri
+	c:GBR ?= {
+		add_journal_entry = {
+			type = je_tgc_britain_secret_of_the_east
+		}
+	}
+}

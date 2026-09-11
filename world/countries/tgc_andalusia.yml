@@ -1,0 +1,32 @@
+# Endulus Devleti - Uc Minber Krizi'nin ucuncu ayagi.
+#
+# senaryo.md 296: "Endulus, Iberya'nin guneyini ve merkezini kontrol eden
+# dunyanin en buyuk deniz ve somurge guclerinden biridir."
+# senaryo.md 163: Kurtuba Halifeligi - halifeligi dogrudan yonetim makami
+# yerine bilim, hukuk ve kultur liderligi olarak gorur.
+# senaryo.md 139: Hikmetiyye - Musluman, Hristiyan ve Yahudi topluluklarin
+# ayni siyasi yapi icinde yasayabilecegini savunur.
+#
+# Sinirlar zaten world/states/01_south_europe.yml icinde tanimli; burada
+# yalnizca ulke tanimi ve din dagilimi kuruluyor.
+#
+# TODO (Asama 2): `andalusian` ve `berber` kulturleri yok, simdilik vanilla
+# `spanish` kullaniliyor. Kultur uretimi Iberya asamasinda yapilmali.
+
+ANL:
+  color: [212, 172, 66]
+  country_type: recognized
+  tier: empire
+  cultures: [spanish]
+  tech_tier: 1
+  literacy: very_high
+  religion: hikmatiyya
+  capital: STATE_LOWER_ANDALUSIA
+  name: State of al-Andalus
+  adjective: Andalusi
+  name_tr: "Endülüs Devleti"
+  # Cogulcu nufus: Musluman cogunluk + kalici Hristiyan ve Yahudi topluluklar.
+  # senaryo.md 27: "Musluman, Hristiyan ve Yahudi topluluklar arasinda kirilgan
+  # fakat kalici bir siyasi denge kurulur."
+  religion_split:
+    catholic: {hikmatiyya: 0.55, catholic: 0.45}

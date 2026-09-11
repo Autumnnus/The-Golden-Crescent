@@ -1,0 +1,44 @@
+﻿# Ana devletlerin bayrak journal entry'leri icin sayisal degerler.
+
+# Isfahan'a bagli sahliklardan kac tanesi gevsek `tributary` olmaktan cikip
+# daha siki bir tabiiyete gecti? senaryo.md 289: "Konfederasyonu federal
+# devlete donusturmek."
+tgc_isfahan_federated_shahdoms = {
+	value = 0
+	every_subject_or_below = {
+		limit = {
+			NOT = { is_subject_type = subject_type_tributary }
+		}
+		add = 1
+	}
+}
+
+# Rum'un iki atabeyliginden kac tanesi HALA cozulmemis durumda?
+# (senaryo.md 108/203; Trabzon Erzurum'a katildigi icin ucu iki oldu.)
+#
+# Bir atabeylik su iki yoldan biriyle cozulur:
+#   - ilhak edilir (artik bir ulke olarak var olmaz, dolayisiyla sayilmaz)
+#   - gevsek `tributary` bagindan cikip daha siki bir tabiiyete gecer
+#
+# DIKKAT: `every_subject_or_below` uzerinden saymak yanlis olurdu - atabeylik
+# tamamen bagimsizlasirsa tabii listesinden duser ve sayac sifirlanip journal
+# entry'yi yanlislikla tamamlardi. Bu yuzden butun ulkeler taranip
+# "bize sikica bagli DEGIL" olanlar sayiliyor.
+tgc_rum_unbound_atabegates = {
+	value = 0
+	every_country = {
+		limit = {
+			OR = {
+				this = c:ADN
+				this = c:ERZ
+			}
+			NOT = {
+				AND = {
+					is_subject_of = root
+					NOT = { is_subject_type = subject_type_tributary }
+				}
+			}
+		}
+		add = 1
+	}
+}

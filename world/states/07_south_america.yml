@@ -1,0 +1,90 @@
+# 07_south_america.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+#   NSV  Yeni Isbiliye - Kolombiya ve Venezuela (senaryo.md 547)
+#   MBZ  Fas Brezilyasi - kiyi seridi (senaryo.md 584)
+#   MPL  Fas Plata'si   - Buenos Aires ve Uruguay agzi
+#   ECU/NPU/BOL  And kralliklari (senaryo.md 595, cogul)
+#   MAP  Mapuce Devleti (senaryo.md 596) | PAT Tehuelche | GNI Guarani
+#   PRA  Amazon halklari - Fas kiyiyi tutuyor, ormani degil
+
+# --- Yeni Isbiliye (NSV) ---
+STATE_ANTIOQUIA: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_BOLIVAR: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_CAUCA: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_CUNDINAMARCA: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_GUAVIARE: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_GUAYANA: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_MIRANDA: {owner: NSV, pops: inherit, buildings: inherit}
+STATE_ZULIA: {owner: NSV, pops: inherit, buildings: inherit}
+
+# --- Fas Brezilyasi (MBZ) ---
+STATE_BAHIA: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_CEARA: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_MARANHAO: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_MINAS_GERAIS: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_PARAIBA: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_PARANA: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_PERNAMBUCO: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_PIAUI: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_RIO_DE_JANEIRO: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_RIO_GRANDE_DO_NORTE: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_SANTA_CATARINA: {owner: MBZ, pops: inherit, buildings: inherit}
+STATE_SAO_PAULO: {owner: MBZ, pops: inherit, buildings: inherit}
+
+# --- Fas Plata'si (MPL) ---
+STATE_BUENOS_AIRES: {owner: MPL, pops: inherit, buildings: inherit}
+STATE_CORRIENTES: {owner: MPL, pops: inherit, buildings: inherit}
+STATE_RIO_GRANDE_DO_SUL: {owner: MPL, pops: inherit, buildings: inherit}
+STATE_SANTA_FE: {owner: MPL, pops: inherit, buildings: inherit}
+STATE_URUGUAY: {owner: MPL, pops: inherit, buildings: inherit}
+
+# --- Amazon halklari (PRA) ---
+STATE_ACRE: {owner: PRA, pops: inherit, buildings: inherit}
+STATE_AMAZONAS: {owner: PRA, pops: inherit, buildings: inherit}
+STATE_PARA: {owner: PRA, pops: inherit, buildings: inherit}
+
+# --- Guarani (GNI) ---
+STATE_ALTO_PARAGUAY: {owner: GNI, pops: inherit, buildings: inherit}
+STATE_BAJO_PARAGUAY: {owner: GNI, pops: inherit, buildings: inherit}
+STATE_CHACO: {owner: GNI, pops: inherit, buildings: inherit}
+STATE_GOIAS: {owner: GNI, pops: inherit, buildings: inherit}
+STATE_MATO_GROSSO: {owner: GNI, pops: inherit, buildings: inherit}
+
+# --- Quito Kralligi (ECU) ---
+STATE_ECUADOR: {owner: ECU, pops: inherit, buildings: inherit}
+STATE_PASTAZA: {owner: ECU, pops: inherit, buildings: inherit}
+
+# --- Cusco Kralligi (NPU) ---
+STATE_AREQUIPA: {owner: NPU, pops: inherit, buildings: inherit}
+STATE_CAJAMARCA: {owner: NPU, pops: inherit, buildings: inherit}
+STATE_ICA: {owner: NPU, pops: inherit, buildings: inherit}
+STATE_LIMA: {owner: NPU, pops: inherit, buildings: inherit}
+
+# --- Charcas Kralligi (BOL) ---
+STATE_ANTOFAGASTA: {owner: BOL, pops: inherit, buildings: inherit}
+STATE_JUJUY: {owner: BOL, pops: inherit, buildings: inherit}
+STATE_LA_PAZ: {owner: BOL, pops: inherit, buildings: inherit}
+STATE_POTOSI: {owner: BOL, pops: inherit, buildings: inherit}
+STATE_SANTA_CRUZ: {owner: BOL, pops: inherit, buildings: inherit}
+STATE_TARAPACA: {owner: BOL, pops: inherit, buildings: inherit}
+
+# --- Mapuce Devleti (MAP) ---
+STATE_ARAUCANIA: {owner: MAP, pops: inherit, buildings: inherit}
+STATE_LOS_RIOS: {owner: MAP, pops: inherit, buildings: inherit}
+STATE_SANTIAGO: {owner: MAP, pops: inherit, buildings: inherit}
+
+# --- Tehuelche (PAT) ---
+STATE_LA_PAMPA: {owner: PAT, pops: inherit, buildings: inherit}
+STATE_PATAGONIA: {owner: PAT, pops: inherit, buildings: inherit}
+STATE_RIO_NEGRO: {owner: PAT, pops: inherit, buildings: inherit}
+STATE_TUCUMAN: {owner: PAT, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ACIKCA LISTELENEN AVRUPA STATE'LERI
+# ===========================================================================
+# Bunlar daha once "unlisted: inherit" idi, yani vanilla pop'larini HAM
+# aliyorlardi ve ulkenin religion_split'i uygulanmiyordu. Gec Reform
+# senaryosunun calismasi icin acikca listelenmeleri gerekiyor:
+# sahiplik degismiyor, sadece pop donusumu devreye giriyor.
+STATE_SOUTH_ATLANTIC_ISLANDS: {owner: GBR, pops: inherit, buildings: inherit}

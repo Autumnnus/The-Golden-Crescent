@@ -1,0 +1,208 @@
+# 1836 baslangic diplomasisi.
+#
+# Ciktilar (vanilla dosya adlariyla, tam dosya olarak yeniden uretilir):
+#   rivalries -> common/history/diplomacy/00_rivalries.txt
+#   relations -> common/history/diplomacy/00_relations.txt
+# Tabiiyetler burada degil, world/countries/*.yml icindeki `overlord:` alaninda.
+#
+# Vanilla'nin bizim tag'lerimize dokunan kayitlari atilir, geri kalani korunur.
+
+# ---------------------------------------------------------------------------
+# Rekabetler - senaryo.md 653 "1836 Yilinin Buyuk Catismalari"
+# ---------------------------------------------------------------------------
+rivalries:
+  # senaryo.md 655: "Suriye, Filistin, Kibris ve Dogu Akdeniz uzerinde hakimiyet."
+  - [TUR, EGY]
+  # senaryo.md 659: "Irak, Kafkasya, Dogu Anadolu ve Basra Korfezi."
+  - [TUR, PER]
+  # senaryo.md 663 Uc Minber Krizi: iki halifelik birbirinin mesruiyetini reddediyor.
+  - [EGY, ANL]
+  # senaryo.md 435: Britanya'nin hedefi "Endulus'un Atlantik hakimiyetini kirmak".
+  - [ANL, GBR]
+  # senaryo.md 104: Lehistan 1818-1827 Rum Taht Savasi'na mudahale eden
+  # koalisyonun basindaydi; Rum kuzey Balkanlardan cekilmek zorunda kaldi.
+  - [TUR, PLC]
+  # KUTSAL ROMA'NIN IC BOLUNMESI - imparatorlugun asil catismasi.
+  # Vestfalya hic olmadigi icin mezhep meselesi cozulmedi: Katolik kutbun
+  # basi Bavyera (imparatorluk unvani onda), Protestan kutbun basi Saksonya.
+  - [BAV, SAX]
+  # senaryo.md 584: Fas bagimsizligini kazandiktan sonra Brezilya'da Endulus'un
+  # Atlantik ticaret tekelini kirmaya calisiyor.
+  - [ANL, MOR]
+
+# ---------------------------------------------------------------------------
+# Iliski degerleri (-100 .. +100). set_relations iki yonlu calisir.
+# ---------------------------------------------------------------------------
+relations:
+  # --- Uc buyuk gucun birbirine bakisi ---
+  - {between: [TUR, EGY], value: -60}
+  - {between: [TUR, PER], value: -50}
+  - {between: [PER, EGY], value: -40}
+  - {between: [EGY, ANL], value: -50}
+
+  # senaryo.md 71: "Endulus dogrudan savasa katilmasa da reformistlere ekonomik
+  # ve diplomatik destek verir." Ictihat Savaslari'nin mirasi.
+  - {between: [TUR, ANL], value: 30}
+  - {between: [PER, ANL], value: 20}
+
+  # --- Ictihatci Duzen'in kendi ici ---
+  # senaryo.md 122: Muctehidiyye Anadolu, Balkanlar ve Orta Asya'da yaygin.
+  - {between: [TUR, XIN], value: 40}
+  - {between: [PER, XIN], value: 20}
+
+  # --- Rum'un Balkan cephesi ---
+  # senaryo.md 104: Taht Savasi koalisyonu - Lehistan, KRI ve Balkan devletleri.
+  - {between: [TUR, PLC], value: -50}
+  - {between: [TUR, SER], value: -40}
+  - {between: [TUR, WAL], value: -30}
+  - {between: [TUR, MOL], value: -30}
+  - {between: [TUR, HUN], value: -20}
+
+  # --- Rum'un tampon vassallari ---
+  # Ucu de Rum'a bagli ama mezhepleri farkli; Iran ikisini geri istiyor
+  # (senaryo.md 660: "Irak, Kafkasya, Dogu Anadolu ve Basra Korfezi").
+  - {between: [PER, KUR], value: -40}
+  - {between: [PER, BSR], value: -45}
+  - {between: [PER, AZB], value: -10}
+
+  # --- Konfederasyonun catlaklari ---
+  # senaryo.md 283: "Tebriz ve Horasan'in bagimsizlik egilimleri."
+  - {between: [PER, KHO], value: -10}
+  # Tebriz, Isfahan'a karsi Rum'a goz kirpiyor.
+  - {between: [TUR, AZB], value: 10}
+
+  # --- Levant: Rum'un tabiisi ama Kahire'nin mezhebi ---
+  # senaryo.md 231: Misir'in sorunu "Suriye ve Filistin'de kaybedilen nufuz".
+  - {between: [EGY, SYR], value: 20}
+  - {between: [EGY, PAL], value: 30}
+  - {between: [TUR, PAL], value: -20}
+
+  # --- Kahire'nin Arap dunyasi ---
+  # senaryo.md 240: "Arap devletlerini Kahire etrafinda birlestirmek."
+  - {between: [EGY, NEJ], value: 20}
+  - {between: [EGY, JAB], value: 20}
+  # Necid ve Cebel Sammar birbirinin Arabistan icindeki rakibi.
+  - {between: [NEJ, JAB], value: -40}
+
+  # --- Kafkasya ve Karadeniz ---
+  # Gurcistan iki Musluman imparatorlugun arasinda sikismis durumda.
+  - {between: [TUR, GEO], value: -10}
+  - {between: [PER, GEO], value: -20}
+  # senaryo.md 334: Lehistan askeri ve idari fikirlerini Tatar ve Karadeniz
+  # devletlerinden aldi - ama Kirim ile Karadeniz'de rakipler.
+  - {between: [PLC, CRI], value: -30}
+  - {between: [CRI, TAR], value: 30}
+  # senaryo.md 490: Moskova cevrelenmis durumda.
+  - {between: [RUS, PLC], value: -40}
+  - {between: [RUS, TAR], value: -40}
+  - {between: [RUS, NOV], value: -50}
+
+  # --- Yeni Dunya: somurge rekabeti ---
+  # senaryo.md 588: Fas'in amaci Endulus'un Atlantik tekelini kirmak.
+  # Somurgeler metbularinin husumetini devraliyor.
+  - {between: [NAN, MBZ], value: -40}
+  - {between: [PRL, MBZ], value: -30}
+  - {between: [NSV, MBZ], value: -35}
+  # Britanya kolonileri Endulus'un Karayip hakimiyetinden rahatsiz.
+  - {between: [NEN, PRL], value: -30}
+  - {between: [VRG, PRL], value: -25}
+  # senaryo.md 559: Ingiliz kolonileri "yerli halklarla daha catismali".
+  - {between: [NEN, IRO], value: -40}
+  - {between: [VRG, CHE], value: -40}
+  - {between: [VRG, CRK], value: -35}
+  # Endulus yerlileri yok etmedi, vergiye bagladi - iliskiler daha iyi.
+  - {between: [NAN, MAY], value: 20}
+  - {between: [NSV, ECU], value: 10}
+  # Yeni Bursa iki devin arasinda sikismis (senaryo.md 578).
+  - {between: [YEN, PRL], value: -20}
+  - {between: [YEN, VRG], value: -25}
+  # Potosi gumusu: Charcas'i herkes istiyor.
+  - {between: [MPL, BOL], value: -30}
+  - {between: [NSV, NPU], value: -20}
+  # Mapuce hicbir somurgeciye guvenmiyor.
+  - {between: [MAP, MPL], value: -40}
+
+  # --- Afrika ---
+  # Misir'in hatti Kizildeniz cemberi (Sudan, Eritre, Somali), Umman'inki
+  # Svahili zinciri (Zanzibar'dan Umit Burnu'na). Somali-Kenya kiyisinda
+  # burun buruna geliyorlar - rekabetin cografi yeri orasi.
+  - {between: [EGY, OMA], value: -55}
+  # Umman'in zinciri Hint Okyanusu'nda Iran'in limanlariyla da kesisiyor.
+  - {between: [PER, OMA], value: -25}
+  # Sahel Kahire minberine bagli: Misir'in Afrika icindeki derinligi.
+  - {between: [EGY, SOK], value: 30}
+  - {between: [EGY, BOR], value: 20}
+  - {between: [EGY, DFR], value: 15}
+  # Fas da Sahra ticaretinde Kahire'nin yaninda.
+  - {between: [MOR, SGU], value: 20}
+  - {between: [MOR, MSN], value: 15}
+  # Endulus'un kole fabrikalari ic bolgedeki devletlerle catisiyor.
+  - {between: [AGU, ASH], value: -35}
+  - {between: [AGU, OYO], value: -25}
+  # Rum'un Bati Afrika ikmal limanlari Endulus'un hattiyla kesisiyor.
+  - {between: [TUR, AGU], value: -20}
+  # Habesistan iki yandan sikismis Hristiyan yayla imparatorlugu.
+  - {between: [EGY, BGM], value: -40}
+  - {between: [EGY, SHW], value: -30}
+
+  # ===========================================================================
+  # KUTSAL ROMA: iki kutup, cozulmemis mezhep meselesi
+  # ===========================================================================
+  # Imparatorluk tabiiyet agaci degil - "hasta adam" (senaryo.md 413) tam da
+  # kimsenin kimseye emir veremiyor olmasi. Yapiyi iliskiler gosteriyor.
+
+  # --- Katolik kutup kendi icinde ---
+  - {between: [BAV, AUS], value: 45}
+  - {between: [BAV, BOH], value: 30}
+  - {between: [BAV, WUR], value: 35}
+  - {between: [BAV, BAD], value: 35}
+  - {between: [BAV, RHE], value: 25}
+  - {between: [AUS, BOH], value: 20}
+
+  # --- Protestan kutup kendi icinde ---
+  - {between: [SAX, BAN], value: 45}
+  - {between: [SAX, HAN], value: 35}
+  - {between: [SAX, HEK], value: 35}
+  - {between: [SAX, ANH], value: 40}
+  - {between: [BAN, POM], value: 40}
+  - {between: [BAN, MEC], value: 35}
+
+  # --- Iki kutup karsi karsiya ---
+  - {between: [BAV, BAN], value: -45}
+  - {between: [BAV, HAN], value: -35}
+  - {between: [AUS, SAX], value: -40}
+  - {between: [BOH, SAX], value: -35}
+  - {between: [WUR, HEK], value: -25}
+
+  # --- Disaridan baski (senaryo.md 410) ---
+  # "Lehistan ve Rum baskisi altindadir." Lehistan Protestan prenslerin
+  # arkasinda: Viyana'yi kurtaran guc, imparatorluk uzerinde soz sahibi.
+  - {between: [PLC, BAV], value: -35}
+  - {between: [PLC, AUS], value: -30}
+  - {between: [PLC, SAX], value: 25}
+  - {between: [PLC, BAN], value: 20}
+  # Viyana'yi dusuren Rum'a karsi hala husumet var.
+  - {between: [TUR, AUS], value: -45}
+  - {between: [TUR, BAV], value: -30}
+
+  # --- Papalik: kusatma altindaki Kilise'nin merkezi ---
+  # Musluman yukselisi Katolikligi kenetledi; Papalik butun Katolik
+  # devletlerin arkasinda, Protestanlarin karsisinda.
+  - {between: [PAP, BAV], value: 45}
+  - {between: [PAP, AUS], value: 40}
+  - {between: [PAP, GBR], value: 35}
+  - {between: [PAP, NET], value: 30}
+  - {between: [PAP, FRA], value: 35}
+  - {between: [PAP, CAS], value: 40}
+  - {between: [PAP, SAX], value: -50}
+  - {between: [PAP, BAN], value: -45}
+  - {between: [PAP, SWE], value: -40}
+  # Papalik icin asil tehdit Musluman Sicilya - Roma'nin gunundeki hilal.
+  - {between: [PAP, SIC], value: -55}
+  - {between: [PAP, TUR], value: -45}
+  - {between: [PAP, ANL], value: -40}
+
+  # --- Kalmar: Protestan kuzey ---
+  - {between: [SWE, SAX], value: 30}
+  - {between: [SWE, BAN], value: 25}
+  - {between: [SWE, BAV], value: -25}

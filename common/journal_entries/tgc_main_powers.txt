@@ -1,0 +1,420 @@
+﻿# Ana devletlerin bayrak journal entry'leri.
+#
+# Her biri senaryo.md'deki "Baslangic hedefleri" listesinin ilk maddesini
+# somut, dogrulanabilir bir sarta baglar. Soyut yol secimi sistemleri
+# (Rum'un merkezi imparatorluk / federasyon / vatandaslik ucgeni gibi)
+# bilerek disarida birakildi; onlar ayri bir asamada kurulacak.
+
+# ---------------------------------------------------------------------------
+# Rum - Atabeylerin Geri Cagrilmasi
+# senaryo.md 108: "Adana, Erzurum ve Trabzon'daki atabeylikler merkezden
+# uzaklasir."  senaryo.md 203: Rum'un ilk hedefi onlari yeniden baglamak.
+#
+# Hedef anneksiyon degil, gevsek `tributary` bagini siki bir tabiiyete
+# cevirmek ya da dogrudan yonetmek - ikisi de sarti saglar.
+# ---------------------------------------------------------------------------
+je_tgc_rum_recall_atabegs = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:TUR
+	}
+
+	modifiers_while_active = {
+		tgc_atabeg_negotiations
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_rum_recall_atabegs_complete_tt
+			tgc_rum_unbound_atabegates < 1
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_rum_second_founding
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Misir - Sam'in Intikami
+# senaryo.md 79: 1712 Sam Antlasmasi ile Misir Suriye hakimiyetini kaybetti.
+# senaryo.md 239: "Suriye ve Filistin'i yeniden kontrol etmek."
+# ---------------------------------------------------------------------------
+je_tgc_egypt_revenge_of_damascus = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:EGY
+	}
+
+	modifiers_while_active = {
+		tgc_levantine_revanchism
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_egypt_revenge_of_damascus_complete_tt
+			owns_entire_state_region = STATE_SYRIA
+			owns_entire_state_region = STATE_ALEPPO
+			owns_entire_state_region = STATE_PALESTINE
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_treaty_of_damascus_avenged
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Iran - Sahlarin Meclisi
+# senaryo.md 94: 1804-1815'te Iran gevsek bir konfederasyona donusturuldu.
+# senaryo.md 289: "Konfederasyonu federal devlete donusturmek."
+#
+# Alti sahliktan en az dordunun gevsek `tributary` bagindan cikip daha siki
+# bir tabiiyete gecmesi gerekiyor.
+# ---------------------------------------------------------------------------
+je_tgc_persia_assembly_of_shahs = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:PER
+	}
+
+	modifiers_while_active = {
+		tgc_confederal_paralysis
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_persia_assembly_of_shahs_complete_tt
+			tgc_isfahan_federated_shahdoms >= 4
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_federal_iran
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Endulus - Yarimadanin Tamamlanmasi
+# senaryo.md 325: "Iberya'yi tamamen birlestirmek."
+#
+# NOT: senaryo.md 755 Endulus'un bayrak JE'sini "Iki Kitanin Halifeligi"
+# (somurge krizi) olarak tarif ediyor. Amerika kolonileri henuz haritada yok
+# (Asama 5), o yuzden simdilik somut olan Iberya hedefi kuruldu.
+# ---------------------------------------------------------------------------
+je_tgc_andalusia_complete_peninsula = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:ANL
+	}
+
+	modifiers_while_active = {
+		tgc_iberian_question
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_andalusia_complete_peninsula_complete_tt
+			owns_entire_state_region = STATE_OLD_CASTILE
+			owns_entire_state_region = STATE_LEON
+			owns_entire_state_region = STATE_ASTURIAS
+			owns_entire_state_region = STATE_GALICIA
+			owns_entire_state_region = STATE_ARAGON
+			owns_entire_state_region = STATE_CATALONIA
+			owns_entire_state_region = STATE_BASQUE_COUNTRY
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_iberia_united
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Lehistan - Avrupa'nin Yeni Yolu
+# senaryo.md 345: "Lehistan'in amaci Avrupa'nin modernlesmesine liderlik etmek."
+# senaryo.md 342: "Avrupa ortalamasinin uzerinde okuryazarlik."
+#
+# Liderlik toprakla degil, orneklikle olculuyor: once okuryazarlikta cephe,
+# sonra buyuk guc rutbesi.
+# ---------------------------------------------------------------------------
+je_tgc_poland_new_path = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:PLC
+	}
+
+	modifiers_while_active = {
+		tgc_szlachta_resistance
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_poland_new_path_complete_tt
+			literacy_rate >= 0.6
+			country_rank >= rank_value:great_power
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_europes_new_path
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Uygur - Ipek Yolunun Hakimi
+# senaryo.md 356: "Ipek Yolu'nun en onemli ticaret devletidir."
+# senaryo.md 366: sorunu "Kazak ve Kirgiz boylarinin bagimsizligi".
+#
+# Dogu ucu (Kasgar, Turfan) zaten elde; hedef bati ucu - Hive, Buhara, Fergana.
+# ---------------------------------------------------------------------------
+je_tgc_uyghur_silk_road = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:XIN
+	}
+
+	modifiers_while_active = {
+		tgc_caravan_diplomacy
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_uyghur_silk_road_complete_tt
+			owns_entire_state_region = STATE_TIANSHAN
+			owns_entire_state_region = STATE_KHIVA
+			owns_entire_state_region = STATE_UZBEKIA
+			owns_entire_state_region = STATE_FERGANA
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_master_of_the_silk_road
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Tebriz - Meclisten Cikis
+# senaryo.md 283: "Tebriz ve Horasan'in bagimsizlik egilimleri."
+# senaryo.md 291: Iran oyuncusu "sahliklarin tamamen bagimsiz olmasina izin
+# verebilir" - bu JE o ihtimalin Tebriz tarafindan gorunusudur.
+# ---------------------------------------------------------------------------
+je_tgc_tabriz_leave_assembly = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:AZB
+	}
+
+	modifiers_while_active = {
+		tgc_tribute_to_isfahan
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_tabriz_leave_assembly_complete_tt
+			is_subject = no
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_tabriz_sovereign
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Cin - Gogun Yetkisi (Tianming)
+# senaryo.md 522: "Her Cin devleti ulkeyi yeniden birlestirme hakkina sahip
+# oldugunu iddia eder."  senaryo.md 736: "Basit Cin birlesme sistemi."
+#
+# Bes devletin BESI de ayni JE'yi aliyor - bu bir yaris, bir gorev degil.
+# Sart bes baskenti birden tutmak: Pekin, Nankin, Sicuan, Guangdong ve
+# Guney Mancurya. Hangisi once toplarsa Gogun Yetkisi onun.
+# ---------------------------------------------------------------------------
+je_tgc_mandate_of_heaven = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		OR = {
+			this = c:CHI
+			this = c:JGN
+			this = c:SHU
+			this = c:YUE
+			this = c:MCH
+		}
+	}
+
+	modifiers_while_active = {
+		tgc_shattered_mandate
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_mandate_of_heaven_complete_tt
+			owns_entire_state_region = STATE_BEIJING
+			owns_entire_state_region = STATE_NANJING
+			owns_entire_state_region = STATE_SICHUAN
+			owns_entire_state_region = STATE_GUANGDONG
+			owns_entire_state_region = STATE_SOUTHERN_MANCHURIA
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_mandate_restored
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Gurkani - Hindistan'in Birligi
+# senaryo.md 396: "Gurkani oyuncusu Hindistan'i askeri fetihle, federal
+# anlasmalarla veya ortak bir Hint kimligi olusturarak birlestirebilir."
+#
+# Sart yolu degil sonucu olcuyor: dort rakip merkezin dordu de elde olmali.
+# ---------------------------------------------------------------------------
+je_tgc_gurkani_unify_india = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:MUG
+	}
+
+	modifiers_while_active = {
+		tgc_princely_particularism
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_gurkani_unify_india_complete_tt
+			owns_entire_state_region = STATE_DELHI
+			owns_entire_state_region = STATE_EAST_BENGAL
+			owns_entire_state_region = STATE_HYDERABAD
+			owns_entire_state_region = STATE_MYSORE
+			owns_entire_state_region = STATE_BOMBAY
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_india_united
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Britanya - Dogu'nun Sirri
+# senaryo.md 767: "Britanya dogu teknolojilerini taklit ederek sanayi
+# devrimini hizlandirmaya calisir."
+# senaryo.md 431: "Britanya Avrupa'daki en buyuk yukselen guctur."
+#
+# Bu evrende Britanya'nin Hindistan'i yok; sermayesini ve hammaddesini
+# somurgeden degil kendi adasindan cikarmak zorunda. Sart bu yuzden toprak
+# degil: okuryazarlik ve sanayi teknolojisi.
+# ---------------------------------------------------------------------------
+je_tgc_britain_secret_of_the_east = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	group = je_group_tgc_main_powers
+
+	is_shown_when_inactive = {
+		this = c:GBR
+	}
+
+	modifiers_while_active = {
+		tgc_borrowed_learning
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_britain_secret_of_the_east_complete_tt
+			literacy_rate >= 0.8
+			has_technology_researched = open_hearth_process
+			has_technology_researched = reinforced_concrete
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_workshop_of_the_world
+		}
+	}
+
+	weight = 300
+
+	should_be_pinned_by_default_involved = yes
+}

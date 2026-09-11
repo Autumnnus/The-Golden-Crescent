@@ -1,0 +1,2025 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+POPS = {
+	s:STATE_ACRE = {
+		region_state:PRA = {
+			create_pop = {
+				culture = amazonian
+				size = 16100
+			}
+			create_pop = {
+				culture = south_andean
+				size = 160
+			}
+			create_pop = {
+				culture = amazonic
+				size = 90
+			}
+		}
+	}
+	s:STATE_ALTO_PARAGUAY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 11000
+			}
+			create_pop = {
+				culture = platinean
+				size = 1030
+			}
+		}
+	}
+	s:STATE_AMAZONAS = {
+		region_state:PRA = {
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = north_andean
+				size = 210
+			}
+			create_pop = {
+				culture = amazonian
+				size = 36800
+			}
+			create_pop = {
+				culture = amazonic
+				size = 14325
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 940
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 1980
+			}
+			create_pop = {
+				culture = amazonian
+				size = 11000
+			}
+		}
+	}
+	s:STATE_ANTIOQUIA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 194259
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 75545
+			}
+			create_pop = {
+				culture = guajiro
+				religion = animist
+				size = 8400
+			}
+			create_pop = {
+				culture = guajiro
+				religion = hikmatiyya
+				size = 3600
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 113403
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 48601
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 43400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 18600
+			}
+			create_pop = {
+				culture = muisca
+				size = 22403
+			}
+			create_pop = {
+				culture = muisca
+				religion = hikmatiyya
+				size = 9601
+			}
+		}
+	}
+	s:STATE_ANTOFAGASTA = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 39597
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 4399
+			}
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 57780
+			}
+			create_pop = {
+				culture = aimara
+				religion = hikmatiyya
+				size = 6420
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 540
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 60
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 3060
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 340
+			}
+		}
+	}
+	s:STATE_ARAUCANIA = {
+		region_state:MAP = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 52004
+			}
+			create_pop = {
+				culture = patagonian
+				size = 3200
+			}
+			create_pop = {
+				culture = patagonian
+				size = 28200
+			}
+			create_pop = {
+				culture = patagonian
+				size = 12000
+			}
+		}
+	}
+	s:STATE_AREQUIPA = {
+		region_state:NPU = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 43200
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 4800
+			}
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 72360
+			}
+			create_pop = {
+				culture = aimara
+				religion = hikmatiyya
+				size = 8040
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 131850
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 14650
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 1800
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 450
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 50
+			}
+		}
+	}
+	s:STATE_BAHIA = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 201300
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 134200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 76577
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 70686
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 129344
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 119393
+			}
+		}
+	}
+	s:STATE_BAJO_PARAGUAY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = platinean
+				size = 125764
+			}
+			create_pop = {
+				culture = spanish
+				size = 807
+			}
+			create_pop = {
+				culture = guarani
+				religion = catholic
+				size = 48588
+			}
+			create_pop = {
+				culture = guarani
+				religion = catholic
+				size = 22050
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 11814
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 16851
+			}
+			create_pop = {
+				culture = guarani
+				size = 24012
+			}
+		}
+	}
+	s:STATE_BOLIVAR = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 103963
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 40429
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 14798
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 6342
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 3241
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 1389
+			}
+			create_pop = {
+				culture = amazonian
+				size = 28000
+			}
+		}
+	}
+	s:STATE_BUENOS_AIRES = {
+		region_state:MPL = {
+			create_pop = {
+				culture = platinean
+				religion = taklidiyya
+				size = 144620
+			}
+			create_pop = {
+				culture = platinean
+				size = 61980
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 12896
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 7904
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 8184
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 5016
+			}
+			create_pop = {
+				culture = patagonian
+				size = 2000
+			}
+			create_pop = {
+				culture = patagonian
+				size = 30000
+			}
+		}
+	}
+	s:STATE_CAJAMARCA = {
+		region_state:NPU = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 82624
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 9180
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 10800
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 1200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 3600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 400
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 168027
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 18669
+			}
+		}
+	}
+	s:STATE_CAUCA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 118368
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 46032
+			}
+			create_pop = {
+				culture = muisca
+				size = 12000
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 47600
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 20400
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 22400
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 9600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 5600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 2400
+			}
+		}
+	}
+	s:STATE_CEARA = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 41868
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 27911
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 2000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 13210
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 12192
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 59421
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 54849
+			}
+		}
+	}
+	s:STATE_CHACO = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 9000
+			}
+			create_pop = {
+				culture = quechua
+				size = 400
+			}
+			create_pop = {
+				culture = platinean
+				size = 34804
+			}
+			create_pop = {
+				culture = guarani
+				size = 1500
+			}
+			create_pop = {
+				culture = quechua
+				size = 1200
+			}
+		}
+	}
+	s:STATE_CORRIENTES = {
+		region_state:MPL = {
+			create_pop = {
+				culture = platinean
+				religion = taklidiyya
+				size = 71024
+			}
+			create_pop = {
+				culture = platinean
+				size = 30438
+			}
+			create_pop = {
+				culture = brazilian
+				religion = animist
+				size = 9923
+			}
+			create_pop = {
+				culture = brazilian
+				religion = taklidiyya
+				size = 6081
+			}
+			create_pop = {
+				culture = guarani
+				size = 35996
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 1302
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 798
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 391
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 239
+			}
+		}
+	}
+	s:STATE_CUNDINAMARCA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 333646
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 129750
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 11900
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 5100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 2100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 900
+			}
+			create_pop = {
+				culture = muisca
+				size = 30943
+			}
+			create_pop = {
+				culture = muisca
+				religion = hikmatiyya
+				size = 13261
+			}
+		}
+	}
+	s:STATE_ECUADOR = {
+		region_state:ECU = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 298890
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 33210
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 65340
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 7260
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 384837
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 42759
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 75987
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 8442
+			}
+		}
+	}
+	s:STATE_GOIAS = {
+		region_state:GNI = {
+			create_pop = {
+				culture = nordestino
+				size = 21921
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 994
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 12108
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 38895
+			}
+		}
+	}
+	s:STATE_GUAVIARE = {
+		region_state:NSV = {
+			create_pop = {
+				culture = amazonian
+				size = 88000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 6998
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 2998
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 1680
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 720
+			}
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 20158
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 7838
+			}
+		}
+	}
+	s:STATE_GUAYANA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = afro_caribbean
+				religion = animist
+				size = 36000
+			}
+			create_pop = {
+				culture = dutch
+				size = 632
+			}
+			create_pop = {
+				culture = amazonian
+				size = 7796
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 12000
+			}
+			create_pop = {
+				culture = french
+				religion = animist
+				size = 1115
+			}
+			create_pop = {
+				culture = french
+				religion = hikmatiyya
+				size = 477
+			}
+			create_pop = {
+				culture = amazonian
+				size = 4000
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 10080
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = hikmatiyya
+				size = 4320
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 92000
+			}
+			create_pop = {
+				culture = british
+				size = 3588
+			}
+			create_pop = {
+				culture = amazonian
+				size = 8000
+			}
+		}
+	}
+	s:STATE_ICA = {
+		region_state:NPU = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 83614
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 9290
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 3015
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 335
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 585
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 65
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 218524
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 24280
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 49500
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 5500
+			}
+		}
+	}
+	s:STATE_JUJUY = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 3600
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 400
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 45900
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 5100
+			}
+			create_pop = {
+				culture = platinean
+				religion = animist
+				size = 3600
+			}
+			create_pop = {
+				culture = platinean
+				religion = hikmatiyya
+				size = 400
+			}
+			create_pop = {
+				culture = platinean
+				religion = animist
+				size = 11074
+			}
+			create_pop = {
+				culture = platinean
+				religion = hikmatiyya
+				size = 1230
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 990
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 110
+			}
+		}
+	}
+	s:STATE_LA_PAMPA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = platinean
+				size = 159740
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 60
+			}
+			create_pop = {
+				culture = patagonian
+				size = 16000
+			}
+		}
+	}
+	s:STATE_LA_PAZ = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 198713
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 22079
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 286200
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 31800
+			}
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 241204
+			}
+			create_pop = {
+				culture = aimara
+				religion = hikmatiyya
+				size = 26800
+			}
+			create_pop = {
+				culture = amazonian
+				size = 47000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 2880
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 320
+			}
+		}
+	}
+	s:STATE_LIMA = {
+		region_state:NPU = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 223200
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 24800
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 190800
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 21200
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 19710
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 2190
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 5580
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 620
+			}
+			create_pop = {
+				culture = amazonian
+				size = 16000
+			}
+		}
+	}
+	s:STATE_LOS_RIOS = {
+		region_state:MAP = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 204892
+			}
+			create_pop = {
+				culture = patagonian
+				size = 48000
+			}
+		}
+	}
+	s:STATE_MARANHAO = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = amazonic
+				religion = animist
+				size = 25557
+			}
+			create_pop = {
+				culture = amazonic
+				religion = taklidiyya
+				size = 17038
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 7294
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 19384
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 17892
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 31764
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 29320
+			}
+		}
+	}
+	s:STATE_MATO_GROSSO = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 20000
+			}
+			create_pop = {
+				culture = guarani
+				religion = catholic
+				size = 6700
+			}
+			create_pop = {
+				culture = platinean
+				size = 4000
+			}
+			create_pop = {
+				culture = paulista
+				size = 4278
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 10122
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 15532
+			}
+			create_pop = {
+				culture = guarani
+				size = 30000
+			}
+			create_pop = {
+				culture = amazonian
+				size = 44000
+			}
+			create_pop = {
+				culture = quechua
+				size = 2300
+			}
+			create_pop = {
+				culture = south_andean
+				size = 500
+			}
+			create_pop = {
+				culture = guarani
+				size = 2500
+			}
+			create_pop = {
+				culture = amazonian
+				size = 2560
+			}
+		}
+	}
+	s:STATE_MINAS_GERAIS = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = brazilian
+				religion = taklidiyya
+				size = 264459
+			}
+			create_pop = {
+				culture = brazilian
+				size = 102845
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 94276
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 87024
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 94276
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 87024
+			}
+		}
+	}
+	s:STATE_MIRANDA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 192174
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 74734
+			}
+			create_pop = {
+				culture = cariban
+				size = 5603
+			}
+			create_pop = {
+				culture = cariban
+				religion = hikmatiyya
+				size = 2401
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 42146
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 18062
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 16803
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 7201
+			}
+		}
+	}
+	s:STATE_PARA = {
+		region_state:PRA = {
+			create_pop = {
+				culture = amazonic
+				size = 111297
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 65737
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 77642
+			}
+			create_pop = {
+				culture = amazonian
+				size = 43800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3646
+			}
+			create_pop = {
+				culture = french
+				size = 416
+			}
+		}
+	}
+	s:STATE_PARAIBA = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 27069
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 18045
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 7445
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 11420
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 10540
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 31848
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 29397
+			}
+		}
+	}
+	s:STATE_PARANA = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = paulista
+				religion = animist
+				size = 6134
+			}
+			create_pop = {
+				culture = paulista
+				religion = taklidiyya
+				size = 4088
+			}
+			create_pop = {
+				culture = sulista
+				religion = animist
+				size = 6134
+			}
+			create_pop = {
+				culture = sulista
+				religion = taklidiyya
+				size = 4088
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 3185
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 2940
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 5199
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 4798
+			}
+		}
+	}
+	s:STATE_PASTAZA = {
+		region_state:ECU = {
+			create_pop = {
+				culture = amazonian
+				size = 40000
+			}
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 10797
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 1199
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 3604
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 400
+			}
+			create_pop = {
+				culture = amazonian
+				size = 32000
+			}
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 1530
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 170
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 2880
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 320
+			}
+		}
+	}
+	s:STATE_PATAGONIA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 25100
+			}
+			create_pop = {
+				culture = patagonian
+				size = 31100
+			}
+			create_pop = {
+				culture = platinean
+				size = 8000
+			}
+		}
+	}
+	s:STATE_PERNAMBUCO = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 113360
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 75572
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 29920
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 85703
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 79109
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 168535
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 155570
+			}
+		}
+	}
+	s:STATE_PIAUI = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 19104
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 12735
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 12245
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 11302
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 19004
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 17542
+			}
+		}
+	}
+	s:STATE_POTOSI = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 21600
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 2400
+			}
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 109797
+			}
+			create_pop = {
+				culture = aimara
+				religion = hikmatiyya
+				size = 12199
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 12600
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 1400
+			}
+		}
+	}
+	s:STATE_RIO_DE_JANEIRO = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = brazilian
+				religion = taklidiyya
+				size = 147883
+			}
+			create_pop = {
+				culture = brazilian
+				size = 57509
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 137880
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 127273
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 58377
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 53886
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_NORTE = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = nordestino
+				religion = animist
+				size = 17942
+			}
+			create_pop = {
+				culture = nordestino
+				religion = taklidiyya
+				size = 11960
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 4944
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 5326
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 4916
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 22288
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 20572
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_SUL = {
+		region_state:MPL = {
+			create_pop = {
+				culture = sulista
+				religion = animist
+				size = 72343
+			}
+			create_pop = {
+				culture = sulista
+				religion = taklidiyya
+				size = 44338
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 26150
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 16026
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 2534
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 1552
+			}
+			create_pop = {
+				culture = guarani
+				size = 40000
+			}
+		}
+	}
+	s:STATE_RIO_NEGRO = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 6880
+			}
+			create_pop = {
+				culture = platinean
+				size = 6096
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 20
+			}
+			create_pop = {
+				culture = patagonian
+				size = 17000
+			}
+			create_pop = {
+				culture = platinean
+				size = 13900
+			}
+		}
+	}
+	s:STATE_SANTA_CATARINA = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = sulista
+				religion = animist
+				size = 21350
+			}
+			create_pop = {
+				culture = sulista
+				religion = taklidiyya
+				size = 14232
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 6767
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 6245
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 6843
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 6316
+			}
+		}
+	}
+	s:STATE_SANTA_CRUZ = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 25380
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 2820
+			}
+			create_pop = {
+				culture = amazonian
+				size = 8000
+			}
+			create_pop = {
+				culture = quechua
+				religion = animist
+				size = 92520
+			}
+			create_pop = {
+				culture = quechua
+				religion = hikmatiyya
+				size = 10280
+			}
+			create_pop = {
+				culture = guarani
+				size = 32000
+			}
+		}
+	}
+	s:STATE_SANTA_FE = {
+		region_state:MPL = {
+			create_pop = {
+				culture = platinean
+				religion = taklidiyya
+				size = 66261
+			}
+			create_pop = {
+				culture = platinean
+				size = 28397
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 558
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 342
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 279
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 171
+			}
+			create_pop = {
+				culture = guarani
+				size = 8000
+			}
+		}
+	}
+	s:STATE_SANTIAGO = {
+		region_state:MAP = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 655608
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 1200
+			}
+		}
+	}
+	s:STATE_SAO_PAULO = {
+		region_state:MBZ = {
+			create_pop = {
+				culture = paulista
+				religion = animist
+				size = 103728
+			}
+			create_pop = {
+				culture = paulista
+				religion = taklidiyya
+				size = 69151
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 45206
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				religion = animist
+				size = 41727
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = taklidiyya
+				size = 34458
+			}
+			create_pop = {
+				culture = afro_brazilian
+				religion = animist
+				size = 31807
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 8000
+			}
+		}
+	}
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 14540
+			}
+		}
+	}
+	s:STATE_TARAPACA = {
+		region_state:BOL = {
+			create_pop = {
+				culture = south_andean
+				religion = animist
+				size = 10800
+			}
+			create_pop = {
+				culture = south_andean
+				religion = hikmatiyya
+				size = 1200
+			}
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 34650
+			}
+			create_pop = {
+				culture = aimara
+				religion = hikmatiyya
+				size = 3850
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 1080
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 120
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 270
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 30
+			}
+		}
+	}
+	s:STATE_TUCUMAN = {
+		region_state:PAT = {
+			create_pop = {
+				culture = platinean
+				size = 76078
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 250
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 80
+			}
+			create_pop = {
+				culture = quechua
+				size = 2600
+			}
+		}
+	}
+	s:STATE_URUGUAY = {
+		region_state:MPL = {
+			create_pop = {
+				culture = platinean
+				religion = taklidiyya
+				size = 66635
+			}
+			create_pop = {
+				culture = platinean
+				size = 28557
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 12398
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 7598
+			}
+			create_pop = {
+				culture = brazilian
+				religion = animist
+				size = 9920
+			}
+			create_pop = {
+				culture = brazilian
+				religion = taklidiyya
+				size = 6080
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 5381
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = taklidiyya
+				size = 3297
+			}
+		}
+	}
+	s:STATE_ZULIA = {
+		region_state:NSV = {
+			create_pop = {
+				culture = north_andean
+				religion = animist
+				size = 234438
+			}
+			create_pop = {
+				culture = north_andean
+				religion = hikmatiyya
+				size = 91170
+			}
+			create_pop = {
+				culture = cariban
+				size = 2803
+			}
+			create_pop = {
+				culture = cariban
+				religion = hikmatiyya
+				size = 1201
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				size = 50540
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 21660
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = animist
+				size = 17710
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				religion = hikmatiyya
+				size = 7590
+			}
+			create_pop = {
+				culture = guajiro
+				religion = animist
+				size = 2803
+			}
+			create_pop = {
+				culture = guajiro
+				religion = hikmatiyya
+				size = 1201
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+﻿l_english:
+ je_group_tgc_three_minbars: "The Crisis of the Three Minbars"
+
+ # --- Journal entries ------------------------------------------------------
+ # NOT: JE aciklama anahtari `_desc` degil `_reason` (vanilla: je_age_of_princes_reason)
+ je_tgc_cairo_caliphate: "The Caliphate of Cairo"
+ je_tgc_cairo_caliphate_reason: "The Caliph in Cairo claims spiritual and temporal authority over every Muslim polity. Since the defeat of 1712 that claim has rested on assertion rather than obedience. The ulema of al-Azhar must carry it abroad — to the Maghreb, to the steppe, to the Indies — before the reformers make it a memory."
+ je_tgc_cairo_caliphate_complete_tt: "At least #b 26#! states follow the minbar of Cairo (currently 16)"
+ je_tgc_cairo_caliphate_fail_tt: "We have abandoned Taqlidiyya"
+
+ je_tgc_cordoba_caliphate: "The Caliphate of Cordoba"
+ je_tgc_cordoba_caliphate_reason: "Cordoba does not command; it attracts. The Caliph claims leadership in law, science and letters rather than obedience in politics. A minbar that rules nothing may yet outlast one that rules badly — but only if someone is listening."
+ je_tgc_cordoba_caliphate_complete_tt: "At least #b 10#! states follow the minbar of Cordoba (currently 2)"
+ je_tgc_cordoba_caliphate_fail_tt: "We have abandoned Hikmatiyya"
+
+ je_tgc_ijtihadi_order: "The Ijtihadi Order"
+ je_tgc_ijtihadi_order_reason: "Rum and Isfahan reject the universal caliphate outright. Religious authority belongs to national and regional institutions, answerable to the state and to the age. It is not a claim to the minbar — it is a proposal to dismantle it. Prove the proposal works."
+ je_tgc_ijtihadi_order_complete_tt: "At least #b 32#! states follow the Ijtihadi Order (currently 21)"
+ je_tgc_ijtihadi_order_fail_tt: "We have abandoned the Ijtihadi schools"
+
+ # --- Modifiers ------------------------------------------------------------
+ tgc_minbar_claim_upkeep: "Upkeep of the Minbar Claim"
+ tgc_ijtihadi_order_upkeep: "Nationalised Religious Authority"
+ tgc_minbar_mission_burden: "Ulema Mission Abroad"
+ tgc_cairo_caliphate_recognized: "Caliphate of Cairo Recognised"
+ tgc_cordoba_caliphate_recognized: "Caliphate of Cordoba Recognised"
+ tgc_ijtihadi_order_ascendant: "The Ijtihadi Order Ascendant"
+
+ # --- Events ---------------------------------------------------------------
+ tgc_minbar.1.t: "An Invitation from al-Azhar"
+ tgc_minbar.1.d: "The scholars of al-Azhar report that the ulema of [SCOPE.sCountry('tgc_minbar_target').GetName] have not yet ruled on the question of ijtihad. A delegation, generously provisioned, might settle the matter in Cairo's favour before the reformers arrive."
+ tgc_minbar.1.f: "A minbar without listeners is only furniture."
+ tgc_minbar.1.a: "Send the delegation — and pay for its hospitality."
+ tgc_minbar.1.b: "The treasury has closer obligations."
+
+ tgc_minbar.2.t: "Letters from Cordoba"
+ tgc_minbar.2.d: "Students from [SCOPE.sCountry('tgc_minbar_target').GetName] have written to the academies of Cordoba asking after our jurisprudence. Endowed chairs and travel stipends would turn correspondence into a school — and a school, in time, into a settlement."
+ tgc_minbar.2.f: "We convert no one. We merely answer letters, at some expense."
+ tgc_minbar.2.a: "Endow the chairs and fund the stipends."
+ tgc_minbar.2.b: "Let them come on their own coin."
+
+ tgc_minbar.3.t: "A Court Without a Caliph"
+ tgc_minbar.3.d: "The jurists of [SCOPE.sCountry('tgc_minbar_target').GetName] have asked how a state may legislate without waiting on a caliph's seal. Our answer is a whole school of law — and schools are built, not sent."
+ tgc_minbar.3.f: "Religious authority is not exported. It is founded, locally, and then it belongs to them."
+ tgc_minbar.3.a: "Found the school and staff it from our own faculties."
+ tgc_minbar.3.b: "Let them arrive at it themselves, or not at all."

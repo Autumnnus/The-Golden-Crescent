@@ -1,0 +1,67 @@
+﻿l_english:
+ je_group_tgc_main_powers: "The Ambitions of the Great Powers"
+
+ je_tgc_rum_recall_atabegs: "Recalling the Atabegs"
+ je_tgc_rum_recall_atabegs_reason: "The succession war of 1818 cost us more than the northern Balkans. While the court fought itself, the atabegs of Adana, Erzurum and Trebizond quietly stopped answering letters. They still send tribute, and they still call themselves ours — but a governor who negotiates is no longer a governor. Bind them properly, or in a generation they will be neighbours."
+ je_tgc_rum_recall_atabegs_complete_tt: "None of the three atabegates remain mere #b tributaries#!"
+
+ je_tgc_egypt_revenge_of_damascus: "The Revenge of Damascus"
+ je_tgc_egypt_revenge_of_damascus_reason: "In 1712 our envoys signed away Syria at Damascus, and the reformists have held it ever since through a client emirate that speaks Cairo's language and takes Konstantiniyye's orders. The fleet was never defeated. The treasury was never emptied. What was lost was a province, and provinces can be retaken."
+ je_tgc_egypt_revenge_of_damascus_complete_tt: "We control all of #b Syria#!, #b Aleppo#! and #b Palestine#!"
+
+ je_tgc_persia_assembly_of_shahs: "The Assembly of the Shahs"
+ je_tgc_persia_assembly_of_shahs_reason: "The confederation was built in 1815 to keep Iran from shattering, and it worked — at the price of a centre that cannot decide anything. Every shah keeps his own army, his own customs, his own foreign policy. Tabriz and Khorasan are already halfway out the door. Turn the assembly into a federation before it turns into a memory."
+ je_tgc_persia_assembly_of_shahs_complete_tt: "At least #b 4#! shahdoms have accepted a binding tie closer than tribute"
+
+ # --- Modifiers ------------------------------------------------------------
+ tgc_atabeg_negotiations: "Negotiations with the Atabegs"
+ tgc_levantine_revanchism: "Levantine Revanchism"
+ tgc_confederal_paralysis: "Confederal Paralysis"
+ tgc_rum_second_founding: "The Second Founding of the Empire"
+ tgc_treaty_of_damascus_avenged: "The Treaty of Damascus Avenged"
+ tgc_federal_iran: "Federal Iran"
+
+ je_tgc_andalusia_complete_peninsula: "Completing the Peninsula"
+ je_tgc_andalusia_complete_peninsula_reason: "Las Navas was won in 1212, and the peninsula has been divided ever since. Cordoba holds the south, the west and the centre; the north remains a patchwork of Christian kingdoms that answer to no caliph and increasingly to London. A federal caliphate can absorb them without unmaking them — that is the whole claim of Hikmatiyya. Prove it on the peninsula before proving it across the ocean."
+ je_tgc_andalusia_complete_peninsula_complete_tt: "We hold #b Old Castile, Leon, Asturias, Galicia, Aragon, Catalonia#! and the #b Basque Country#!"
+
+ je_tgc_poland_new_path: "Europe's New Path"
+ je_tgc_poland_new_path_reason: "We took our artillery drill from Rum, our chancery from the Tatars, and our tolerance from necessity. It has made us the most reformed state in Europe and still not an industrial one. Vienna is feudal, Paris is five kingdoms, and Britain is looking east for its lessons. Europe will be led by whoever teaches it — so teach it."
+ je_tgc_poland_new_path_complete_tt: "Literacy above #b 60%#! and the rank of #b Great Power#!"
+
+ je_tgc_uyghur_silk_road: "Master of the Silk Road"
+ je_tgc_uyghur_silk_road_reason: "Kashgar holds the eastern gate and Bukhara the western, and everything between them pays someone else's toll. China is five states and cannot close the road; Isfahan is a confederation and cannot open it. The caravans are already ours in everything but law."
+ je_tgc_uyghur_silk_road_complete_tt: "We hold #b Tianshan, Khiva, Bukhara#! and #b Fergana#!"
+
+ je_tgc_tabriz_leave_assembly: "Leaving the Assembly"
+ je_tgc_tabriz_leave_assembly_reason: "The confederation of 1815 was a splint, not a spine. Tabriz pays tribute to Isfahan, fights Isfahan's wars on the Rumi border, and is consulted on neither. Our workshops out-produce theirs and our jurists out-argue theirs. A shahdom that can stand should not be carried."
+ je_tgc_tabriz_leave_assembly_complete_tt: "We answer to no overlord"
+
+ tgc_iberian_question: "The Northern Question"
+ tgc_szlachta_resistance: "Resistance of the Szlachta"
+ tgc_caravan_diplomacy: "Caravan Diplomacy"
+ tgc_tribute_to_isfahan: "Tribute to Isfahan"
+ tgc_iberia_united: "The Peninsula United"
+ tgc_europes_new_path: "Teacher of Europe"
+ tgc_master_of_the_silk_road: "Master of the Silk Road"
+ tgc_tabriz_sovereign: "Tabriz Sovereign"
+
+ je_tgc_mandate_of_heaven: "The Mandate of Heaven"
+ je_tgc_mandate_of_heaven_reason: "The Qing fell to bankruptcy, palace war and the Uyghur revolts, and what replaced them was five states each holding a piece of the argument. Beijing keeps the rites, Nanjing keeps the money, Sichuan keeps the mountains, Guangzhou keeps the sea, Mukden keeps the dynasty's name. Heaven does not divide its mandate — it withdraws it, and waits to see who picks it up."
+ je_tgc_mandate_of_heaven_complete_tt: "We hold #b Beijing, Nanjing, Sichuan, Guangdong#! and #b Southern Manchuria#!"
+
+ tgc_shattered_mandate: "The Mandate Shattered"
+ tgc_mandate_restored: "The Mandate Restored"
+
+ je_tgc_gurkani_unify_india: "The Unity of India"
+ je_tgc_gurkani_unify_india_reason: "No foreign company holds a single fort on this subcontinent, and that is precisely the problem: there is no common enemy to unite against. Delhi rules the northwest, and everywhere else a maharaja, a nizam or a confederation rules a piece. India can be unified by the army, by federal treaty, or by convincing three hundred princes they are one people. All three have been tried elsewhere. Only the last has lasted."
+ je_tgc_gurkani_unify_india_complete_tt: "We hold #b Delhi, East Bengal, Hyderabad, Mysore#! and #b Bombay#!"
+
+ je_tgc_britain_secret_of_the_east: "The Secret of the East"
+ je_tgc_britain_secret_of_the_east_reason: "We have no Bengal to strip and no Company to do the stripping. What we have is coal, an island, and a hundred years of watching Konstantiniyye and Isfahan build things we could not. Our delegations return from Tabriz with drawings and from Cordoba with translations. Copying is not shameful — being copied is the goal."
+ je_tgc_britain_secret_of_the_east_complete_tt: "Literacy above #b 80%#!, and #b open hearth process#! and #b reinforced concrete#! researched"
+
+ tgc_princely_particularism: "Princely Particularism"
+ tgc_borrowed_learning: "Borrowed Learning"
+ tgc_india_united: "India United"
+ tgc_workshop_of_the_world: "Workshop of the World"

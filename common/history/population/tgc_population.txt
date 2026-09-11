@@ -1,0 +1,230 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+POPULATION = {
+	c:ADN ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:AGN ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:AGU ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ALB ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:ANL ?= {
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:AQU ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:ATB ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:AZB ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:BAN ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:BGL ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:BGM ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:BOH ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:BOS ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:BRI ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:BSR ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:BUL ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:CAS ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:CHE ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:CMN ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:CRI ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:CRK ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:CTW ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:DAG ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:ERZ ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:GEO ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:GLI ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:GNI ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:HUN ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:ILL ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:IRO ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:JGN ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:KHO ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:KLM ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:KRM ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:KUR ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:LUR ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MAP ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAR ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MAY ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:MAZ ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:MBZ ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MCH ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MPL ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MRD ?= {
+		effect_starting_pop_literacy_very_low = yes
+	}
+	c:MRI ?= {
+		effect_starting_pop_literacy_very_low = yes
+	}
+	c:MUG ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:NAN ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:NAP ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:NAV ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:NEN ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:NNL ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:NOV ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:NSV ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:NW1 ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:OCC ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:OJI ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:PAL ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:PEN ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:PLC ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:POM ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:PRL ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:PRO ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:RHE ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:SCH ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:SCO ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:SHU ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+	c:SW1 ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:SYR ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:TAR ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:TND ?= {
+		effect_starting_pop_literacy_baseline = yes
+	}
+	c:VRG ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:XIN ?= {
+		effect_starting_pop_literacy_high = yes
+	}
+	c:YEN ?= {
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:YUE ?= {
+		effect_starting_pop_literacy_low = yes
+	}
+}

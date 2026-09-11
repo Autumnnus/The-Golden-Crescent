@@ -1,0 +1,51 @@
+﻿# Uc Minber Krizi - ulke modifier'lari
+#
+# Journal entry'ler acikken `modifiers_while_active` ile verilir; tamamlaninca
+# `add_modifier` ile kalici olarak eklenir.
+
+# --- Minber iddiasini surdurmenin maliyeti ---------------------------------
+# Halifelik iddiasi ucretsiz degil: ulema aginin, hac organizasyonunun ve
+# dis dini eliligin gideri var.
+tgc_minbar_claim_upkeep = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_add = -75
+}
+
+# Ictihatci Duzen iddia degil reddiye oldugu icin ulema agi tasimaz;
+# bunun yerine dini otoritenin ulusallastirilmasi burokrasi kazandirir.
+tgc_ijtihadi_order_upkeep = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_authority_add = 50
+}
+
+# Yurtdisina gonderilen ulema heyetinin surekli yuku (olaylardan, sureli).
+tgc_minbar_mission_burden = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_authority_add = -50
+	country_influence_add = -10
+}
+
+# --- Tamamlanma odulleri ---------------------------------------------------
+# NOT: Vic3'te prestij veren bir efekt yok (`add_prestige` diye bir sey yok);
+# prestij yalnizca modifier uzerinden gelir. Bu yuzden odul tamamen burada.
+tgc_cairo_caliphate_recognized = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 50
+	country_prestige_mult = 0.20
+	country_influence_mult = 0.15
+	country_authority_add = 150
+}
+
+tgc_cordoba_caliphate_recognized = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_prestige_mult = 0.15
+	country_influence_mult = 0.25
+}
+
+tgc_ijtihadi_order_ascendant = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 40
+	country_prestige_mult = 0.15
+	country_authority_add = 200
+}

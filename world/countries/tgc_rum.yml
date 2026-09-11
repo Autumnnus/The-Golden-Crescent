@@ -1,0 +1,218 @@
+# Rum Imparatorlugu ve tabiileri.
+#
+# senaryo.md 5: "Rum Imparatorlugu"  |  senaryo.md 102: 1818-1827 Rum Taht Savasi
+# Renk semasi: Rum ve tabiileri MAVI tonlari. Fars kufesi yesil (tgc_persia.yml),
+# iki blogun arasindaki tarafsiz tampon devletler amber.
+
+# --- Metbu ---------------------------------------------------------------
+TUR:
+  color: [40, 84, 160]
+  country_type: recognized
+  tier: empire
+  cultures: [turkish]
+  tech_tier: 1
+  literacy: high
+  religion: mujtahidiyya
+  capital: STATE_EASTERN_THRACE
+  name: Empire of Rum
+  adjective: Rumi
+  name_tr: "Rûm İmparatorluğu"
+  religion_map:
+    sunni: mujtahidiyya
+
+# --- Balkan kukla emirlikleri --------------------------------------------
+# 1827 Taht Savasi sonrasi dogrudan yonetimden vazgecilip vassal'a cevrildiler.
+# Musluman yonetici sinif + Hristiyan koylu nufus: religion_split bu karisimi
+# kurar, boylece "Balkan milliyetciligi" senaryo sorunu olarak yasar.
+
+BOS:
+  color: [116, 184, 222]
+  country_type: recognized
+  tier: principality
+  cultures: [bosniak]
+  tech_tier: 3
+  literacy: middling
+  religion: mujtahidiyya
+  capital: STATE_BOSNIA
+  name: Emirate of Bosnia
+  adjective: Bosnian
+  name_tr: "Bosna Emirliği"
+  overlord: TUR
+  subject_type: vassal
+  liberty_desire: 15
+  religion_map:
+    sunni: mujtahidiyya
+  religion_split:
+    orthodox: {mujtahidiyya: 0.35, orthodox: 0.65}
+
+ALB:
+  color: [158, 210, 238]
+  country_type: recognized
+  tier: principality
+  cultures: [albanian]
+  tech_tier: 3
+  literacy: low
+  religion: mujtahidiyya
+  capital: STATE_ALBANIA
+  name: Emirate of Albania
+  adjective: Albanian
+  name_tr: "Arnavutluk Emirliği"
+  overlord: TUR
+  subject_type: vassal
+  liberty_desire: 10
+  religion_map:
+    sunni: mujtahidiyya
+  religion_split:
+    orthodox: {mujtahidiyya: 0.30, orthodox: 0.70}
+
+BUL:
+  color: [72, 146, 208]
+  country_type: recognized
+  tier: kingdom
+  cultures: [bulgarian]
+  tech_tier: 3
+  literacy: middling
+  religion: mujtahidiyya
+  capital: STATE_BULGARIA
+  name: Emirate of the Danube
+  adjective: Danubian
+  name_tr: "Tuna Emirliği"
+  overlord: TUR
+  subject_type: vassal
+  liberty_desire: 30
+  religion_map:
+    sunni: mujtahidiyya
+  religion_split:
+    orthodox: {mujtahidiyya: 0.55, orthodox: 0.45}
+
+# --- Anadolu atabeylikleri (2) -------------------------------------------
+# senaryo.md 108: "Adana, Erzurum ve Trabzon'daki atabeylikler merkezden
+# uzaklasir." senaryo.md 203: Rum'un ilk hedefi onlari yeniden baglamak.
+# Trabzon tek basina ince bir kiyi seridiydi; Erzurum'a katildi ve ortaya
+# Karadeniz'den Kafkasya'ya uzanan tek bir dogu atabeyligi cikti.
+# tributary = en gevsek bag; yuksek liberty_desire = kopma egilimi.
+
+ADN:
+  color: [58, 132, 178]
+  country_type: recognized
+  tier: principality
+  cultures: [turkish]
+  tech_tier: 3
+  literacy: middling
+  religion: mujtahidiyya
+  capital: STATE_ADANA
+  name: Atabegate of Adana
+  adjective: Adanan
+  name_tr: "Adana Atabeyliği"
+  overlord: TUR
+  subject_type: tributary
+  liberty_desire: 55
+  religion_map:
+    sunni: mujtahidiyya
+
+ERZ:
+  color: [84, 162, 192]
+  country_type: recognized
+  tier: kingdom
+  cultures: [turkish, armenian, greek]
+  tech_tier: 3
+  literacy: middling
+  religion: mujtahidiyya
+  capital: STATE_ERZURUM
+  name: Atabegate of Erzurum
+  adjective: Erzurumi
+  name_tr: "Erzurum Atabeyliği"
+  overlord: TUR
+  subject_type: tributary
+  liberty_desire: 60
+  religion_map:
+    sunni: mujtahidiyya
+
+
+# --- ORTADOGU'DAKI UC TAMPON VASSAL --------------------------------------
+# Rum'un Anadolu'yu disariya kapatan kusagi. Ucu de protectorate: dis
+# siyasetleri Rum'da, ic isleri kendilerinde.
+#
+#   SYR  Misir'a karsi (senaryo.md 77, 1712 Sam Antlasmasi)
+#   KUR  Fars'a karsi  (senaryo.md 660, Dogu Anadolu ve Irak rekabeti)
+#   BSR  Fars'a karsi + Korfez'e cikis
+#
+# Ucu de Rum'un mezhebinde DEGIL - tampon olmalari bu yuzden pahali.
+
+SYR:
+  color: [98, 152, 216]
+  country_type: recognized
+  tier: principality
+  cultures: [mashriqi]
+  tech_tier: 3
+  literacy: middling
+  religion: taklidiyya
+  capital: STATE_SYRIA
+  name: Emirate of Damascus
+  adjective: Damascene
+  name_tr: "Şam Emirliği"
+  # Lubnan tek state'lik bir noktaydi; Sam'a katildi.
+  overlord: TUR
+  subject_type: protectorate
+  liberty_desire: 35
+  religion_split:
+    sunni: {taklidiyya: 0.6, mujtahidiyya: 0.4}
+
+
+# --- Atlantik --------------------------------------------------------------
+# senaryo.md 574: "Yeni Bursa - Florida'da kurulmus kucuk bir Rum kolonisi.
+# Rum'un Atlantik'teki tek onemli ussu."
+YEN:
+  color: [78, 168, 208]
+  country_type: colonial
+  tier: principality
+  cultures: [turkish]
+  tech_tier: 3
+  literacy: middling
+  religion: mujtahidiyya
+  capital: STATE_FLORIDA
+  name: New Bursa
+  adjective: New Bursan
+  name_tr: Yeni Bursa
+  overlord: TUR
+  subject_type: colony
+  religion_map:
+    sunni: mujtahidiyya
+
+KUR:
+  color: [198, 152, 62]
+  country_type: recognized
+  tier: kingdom
+  cultures: [kurdish]
+  tech_tier: 4
+  literacy: low
+  religion: mujtahidiyya
+  capital: STATE_MOSUL
+  name: Emirate of Kurdistan
+  adjective: Kurdish
+  name_tr: "Kürdistan Emirliği"
+  overlord: TUR
+  subject_type: protectorate
+  liberty_desire: 45
+  religion_map:
+    sunni: mujtahidiyya
+    shiite: irfaniyya
+
+BSR:
+  color: [214, 180, 94]
+  country_type: recognized
+  tier: kingdom
+  cultures: [mashriqi]
+  tech_tier: 3
+  literacy: middling
+  religion: irfaniyya
+  capital: STATE_BASRA
+  name: Emirate of Iraq
+  adjective: Iraqi
+  name_tr: Basra Devleti
+  overlord: TUR
+  subject_type: protectorate
+  liberty_desire: 50
+  religion_map:
+    shiite: irfaniyya
+    sunni: taklidiyya

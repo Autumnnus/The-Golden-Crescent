@@ -1,0 +1,335 @@
+# Afrika. Tasarim belgesi: senaryo_afrika.md
+#
+# KURUCU FIKIR: Umit Burnu hic onemli olmadi. Gercek tarihte Portekiz 1488'de
+# burnu donmesi, doguya giden kara yollarini Muslumanlarin tutmasina karsi bir
+# cabaydi. Bu evrende o caba hic gerekmedi - kisa yollar acik ve calisiyor
+# (Kizildeniz-Misir, Korfez-Iran, Kansu-Uygur). Sonuc: Avrupa Afrika'ya hic
+# yerlesmedi, Afrika'nin ici Afrikalilarda kaldi, ve Avrupa dogu ticaretine
+# ulasamadigi icin geri kaldi (senaryo.md 15).
+#
+# DIN: Avrupali misyoner gelmedi. Vanilla'da Kongo'da Katolik, Guney
+# Afrika'da Kalvinist nufus var - ikisi de Portekiz ve Hollanda'nin eseri,
+# ikisi de burada yok.
+
+# ===========================================================================
+# ENDULUS GINESI - kole fabrikalari
+# senaryo.md 544 / 317 / 325. Endulus'un somurge ekonomisinin kaynagi;
+# "Iki Kitanin Halifeligi" krizinin ahlaki agirligi buradan geliyor.
+# Kiyida ticaret kaleleri - ic bolge Asanti, Dahomey, Benin ve Oyo'nun.
+# ===========================================================================
+
+AGU:
+  color: [230, 200, 120]
+  country_type: colonial
+  tier: principality
+  cultures: [kissi, akan]
+  religion: hikmatiyya
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_IVORY_COAST
+  name: Andalusian Guinea
+  adjective: Guinean
+  name_tr: "Endülüs Ginesi"
+  overlord: ANL
+  subject_type: colony
+  liberty_desire: 25
+  religion_split:
+    animist: {animist: 0.75, hikmatiyya: 0.25}
+
+# ===========================================================================
+# UMMAN - Hint Okyanusu'nun ucuncu kutbu
+# Svahili zinciri: Zanzibar'dan asagi Lindi, Mombasa, Mozambik, Delagoa
+# Korfezi ve Umit Burnu. Zanzibar Sultanligi tarihen tam da bu hatti
+# tutuyordu; burada ona Burun da eklendi cunku Avrupali hic gelmedi.
+#
+# Misir'la Somali-Kenya kiyisinda burun buruna: senaryo.md 641 Misir'a
+# "Dogu Afrika kiyilari" veriyor ama Misir'in hatti Kizildeniz cemberi,
+# Umman'inki guney okyanus. Ikisi ayni denizde, ayni mallarda, rakip.
+#
+# Ibadi mezhebi hicbir minbere bagli degil: Umman uc halifelik iddiasinin
+# da disinda kendi hattini yurutuyor.
+# ===========================================================================
+
+OMA:
+  color: [122, 148, 172]
+  country_type: recognized
+  tier: kingdom
+  cultures: [swahili, bedouin]
+  religion: ibadi
+  tech_tier: 4
+  literacy: low
+  capital: STATE_OMAN
+  name: Sultanate of Oman
+  adjective: Omani
+  name_tr: "Umman Sultanlığı"
+  # Zanzibar hatti Umman'dan buyuk: baskent Maskat ama agirlik Afrika'da.
+  # Cape'te Hollandali yerlesimci yok; istasyonun nufusu Khoi ve Svahili.
+  culture_map:
+    boer: khoisan
+    griqua: khoisan
+
+# ===========================================================================
+# SAHEL - Kahire minberinin derinligi
+# 1212'den beri Sahra ticaret yollari hic kesilmedi ve Sahel sehirleri zengin
+# bir Akdeniz'e bagli kaldi. senaryo.md 147 Taklidiyye'yi "Misir, Hicaz ve
+# Arabistan"da sayiyor; Maliki Sahel de tarihen o hatta bagliydi.
+# ===========================================================================
+
+SOK:
+  color: [188, 152, 72]
+  country_type: recognized
+  tier: empire
+  cultures: [hausa, fulbe]
+  religion: taklidiyya
+  tech_tier: 4
+  literacy: low
+  capital: STATE_HAUSALAND
+  name: Sokoto Caliphate
+  adjective: Sokoto
+  name_tr: "Sokoto Halifeliği"
+  religion_map:
+    sunni: taklidiyya
+
+BOR:
+  color: [206, 172, 96]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [kanuri]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: low
+  capital: STATE_BORNU
+  name: Sultanate of Bornu
+  adjective: Bornuan
+  name_tr: "Bornu Sultanlığı"
+  religion_map:
+    sunni: taklidiyya
+
+MSN:
+  color: [172, 140, 88]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [fulbe]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: low
+  capital: STATE_EASTERN_MALI
+  name: Massina Empire
+  adjective: Massinan
+  name_tr: "Massina İmparatorluğu"
+  religion_map:
+    sunni: taklidiyya
+
+SGU:
+  color: [156, 130, 84]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [bambara]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_WESTERN_MALI
+  name: Segu
+  adjective: Segu
+  name_tr: "Segu"
+  religion_map:
+    sunni: taklidiyya
+
+WAD:
+  color: [198, 158, 104]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [fur]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_WADDAI
+  name: Wadai
+  adjective: Wadaian
+  name_tr: "Vaday"
+  religion_map:
+    sunni: taklidiyya
+
+DFR:
+  color: [216, 184, 124]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [fur, bedouin]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_DARFUR
+  name: Sultanate of Darfur
+  adjective: Darfuri
+  name_tr: "Darfur Sultanlığı"
+  religion_map:
+    sunni: taklidiyya
+
+# ===========================================================================
+# HABESISTAN - Afrika'nin Gurcistan'i
+# Musluman guclerle cevrili Hristiyan yayla imparatorlugu. Prensler Cagi
+# bolunmesi korunuyor: birlestirmek oyuncunun isi, Misir'in guneyden baskisi
+# hikayeyi kuruyor.
+# ===========================================================================
+
+BGM:
+  color: [140, 88, 76]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [amhara, tigray]
+  religion: oriental_orthodox
+  tech_tier: 5
+  literacy: low
+  capital: STATE_GONDER
+  name: Begemder
+  adjective: Ethiopian
+  name_tr: "Begemder"
+
+SHW:
+  color: [168, 108, 92]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [amhara, oromo]
+  religion: oriental_orthodox
+  tech_tier: 5
+  literacy: low
+  capital: STATE_OROMIA
+  name: Shewa
+  adjective: Shewan
+  name_tr: "Şoa"
+
+# ===========================================================================
+# AYAKTA KALAN BUYUK AFRIKA DEVLETLERI
+# senaryo.md 530'un Amerika icin soyledigi burada da gecerli: gec
+# kolonizasyon, cok sayida yerli devlet.
+# ===========================================================================
+
+ASH:
+  color: [124, 156, 100]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [akan]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_GOLD_COAST
+  name: Ashanti Empire
+  adjective: Ashanti
+  name_tr: "Aşanti İmparatorluğu"
+
+OYO:
+  color: [148, 176, 112]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [yoruba]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_YORUBA_STATES
+  name: Oyo Empire
+  adjective: Yoruba
+  name_tr: "Oyo İmparatorluğu"
+
+KON:
+  color: [110, 140, 118]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [bakongo]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_BAS_CONGO
+  name: Kingdom of Kongo
+  adjective: Kongolese
+  name_tr: "Kongo Krallığı"
+  # Portekizli misyoner gelmedi: vanilla'daki Katolik tabaka yok.
+  religion_split:
+    catholic: {animist: 1.0}
+
+BUG:
+  color: [136, 164, 132]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [baganda]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_UGANDA
+  name: Buganda
+  adjective: Ganda
+  name_tr: "Buganda"
+
+ZUL:
+  color: [164, 116, 108]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [zulu]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_ZULULAND
+  name: Zulu Kingdom
+  adjective: Zulu
+  name_tr: "Zulu Krallığı"
+  culture_map:
+    boer: zulu
+
+XHO:
+  color: [186, 140, 128]
+  country_type: unrecognized
+  tier: principality
+  cultures: [xhosa]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_EASTERN_CAPE
+  name: Xhosa Confederacy
+  adjective: Xhosa
+  name_tr: "Xhosa Konfederasyonu"
+  culture_map:
+    boer: xhosa
+    griqua: xhosa
+
+BST:
+  color: [200, 160, 144]
+  country_type: unrecognized
+  tier: principality
+  cultures: [sotho]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_VRYSTAAT
+  name: Basotho Kingdom
+  adjective: Basotho
+  name_tr: "Basotho Krallığı"
+  culture_map:
+    boer: sotho
+
+NAM:
+  color: [176, 156, 132]
+  country_type: decentralized
+  tier: principality
+  cultures: [khoisan]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_NAMAQUALAND
+  name: Namaqua
+  adjective: Namaqua
+  name_tr: "Namaqua"
+  culture_map:
+    boer: khoisan
+    griqua: khoisan
+
+MAD:
+  color: [148, 128, 168]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [malagasy]
+  religion: animist
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_NORTH_MADAGASCAR
+  name: Kingdom of Merina
+  adjective: Merina
+  name_tr: "Merina Krallığı"

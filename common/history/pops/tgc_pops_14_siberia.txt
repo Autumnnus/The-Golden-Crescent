@@ -1,0 +1,235 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+POPS = {
+	s:STATE_CHUKOTKA = {
+		region_state:CKC = {
+			create_pop = {
+				culture = inuit
+				size = 1310
+			}
+			create_pop = {
+				culture = siberian
+				size = 11570
+			}
+			create_pop = {
+				culture = russian
+				size = 143
+			}
+		}
+	}
+	s:STATE_IRKUTSK = {
+		region_state:TNS = {
+			create_pop = {
+				culture = russian
+				size = 172920
+			}
+			create_pop = {
+				culture = buryat
+				size = 73920
+			}
+			create_pop = {
+				culture = siberian
+				size = 2640
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 3960
+			}
+			create_pop = {
+				culture = tatar
+				size = 7920
+			}
+		}
+	}
+	s:STATE_KAMCHATKA = {
+		region_state:KMC = {
+			create_pop = {
+				culture = siberian
+				size = 4140
+			}
+			create_pop = {
+				culture = russian
+				size = 1860
+			}
+		}
+	}
+	s:STATE_OB = {
+		region_state:KNT = {
+			create_pop = {
+				culture = ugrian
+				size = 4980
+			}
+			create_pop = {
+				culture = russian
+				size = 506
+			}
+			create_pop = {
+				culture = tatar
+				size = 431
+			}
+		}
+	}
+	s:STATE_OKHOTSK = {
+		region_state:FER = {
+			create_pop = {
+				culture = siberian
+				size = 5800
+			}
+			create_pop = {
+				culture = siberian
+				religion = orthodox
+				size = 4900
+			}
+			create_pop = {
+				culture = russian
+				size = 1170
+			}
+		}
+	}
+	s:STATE_TOBOLSK = {
+		region_state:KNT = {
+			create_pop = {
+				culture = russian
+				size = 386252
+			}
+			create_pop = {
+				culture = tatar
+				size = 17424
+			}
+			create_pop = {
+				culture = ugrian
+				size = 1257
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 12111
+			}
+		}
+	}
+	s:STATE_TOMSK = {
+		region_state:KNT = {
+			create_pop = {
+				culture = russian
+				size = 309600
+			}
+			create_pop = {
+				culture = siberian
+				size = 2400
+			}
+			create_pop = {
+				culture = tatar
+				religion = animist
+				size = 10200
+			}
+			create_pop = {
+				culture = tatar
+				size = 15000
+			}
+			create_pop = {
+				culture = kazak
+				size = 10200
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 14400
+			}
+		}
+	}
+	s:STATE_TRANS_BAIKAL = {
+		region_state:BRY = {
+			create_pop = {
+				culture = russian
+				size = 152455
+			}
+			create_pop = {
+				culture = buryat
+				size = 25151
+			}
+			create_pop = {
+				culture = siberian
+				size = 15298
+			}
+			create_pop = {
+				culture = mongol
+				size = 207
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2036
+			}
+		}
+	}
+	s:STATE_TUVA = {
+		region_state:XIN = {
+			create_pop = {
+				culture = tuvan
+				size = 43710
+			}
+			create_pop = {
+				culture = mongol
+				size = 3290
+			}
+			create_pop = {
+				culture = mongol
+				size = 2000
+			}
+		}
+	}
+	s:STATE_UPPER_YENISEYSK = {
+		region_state:TNS = {
+			create_pop = {
+				culture = russian
+				size = 26550
+			}
+			create_pop = {
+				culture = siberian
+				size = 8640
+			}
+		}
+	}
+	s:STATE_URAL = {
+		region_state:TAR = {
+			create_pop = {
+				culture = russian
+				size = 320760
+			}
+			create_pop = {
+				culture = ugrian
+				size = 23760
+			}
+			create_pop = {
+				culture = bashkir
+				size = 13484
+			}
+			create_pop = {
+				culture = tatar
+				size = 19800
+			}
+		}
+	}
+	s:STATE_YAKUTSK = {
+		region_state:YAK = {
+			create_pop = {
+				culture = yakut
+				size = 92805
+			}
+			create_pop = {
+				culture = yakut
+				religion = animist
+				size = 27200
+			}
+			create_pop = {
+				culture = russian
+				size = 22343
+			}
+			create_pop = {
+				culture = siberian
+				size = 4410
+			}
+		}
+	}
+}

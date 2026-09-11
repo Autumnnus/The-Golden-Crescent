@@ -1,0 +1,12 @@
+﻿# ============================================================
+#  OTOMATIK URETILDI - ELLE DUZENLEME
+#  Kaynak: world/  |  Uretici: tools/tgc.py build
+#  Bu dosyayi elle degistirirsen bir sonraki build'de kaybolur.
+# ============================================================
+
+POPULATION = {
+	c:PER ?= {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+}

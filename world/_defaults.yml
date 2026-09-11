@@ -1,0 +1,18 @@
+# Global ayarlar
+
+# world/states altinda tanimlanmayan state'ler ne olsun?
+#   inherit -> vanilla sahibi/pop'u/binasi aynen korunur (kademeli gelistirme icin)
+#   drop    -> sahipsiz kalir (tam total conversion icin)
+unlisted: inherit
+
+# Tum miras alinan pop'lara uygulanan carpan
+pop_scale: 1.0
+
+# Global din donusumu: vanilla dini -> mod dini
+# Ornek:
+#   religion_map:
+#     sunni: mujtahidiyya
+religion_map: {}
+
+# Global kultur donusumu
+culture_map: {}

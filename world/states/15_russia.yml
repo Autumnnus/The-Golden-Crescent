@@ -1,0 +1,117 @@
+# 15_russia.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+#
+# senaryo.md 477: "Rusya birlesememistir. Kirim Hanligi ve Buyuk Tatar Hanligi
+# varliklarini korumaktadir. Ruslarin Sibirya'ya ilerleyisi buyuk olcude
+# durdurulmustur."
+#
+#   RUS  Moskova Buyuk Prensligi - kucuk bir ic Rusya devleti, uc vassali var
+#   NOV  Novgorod  - Moskova'nin vassali (kuzey ticaret cumhuriyeti)
+#   MRD  Mordva    - Moskova'nin vassali (Volga halklari)
+#   MRI  Mari      - Moskova'nin vassali (Volga halklari)
+#   TAR  Buyuk Tatar Hanligi - Kazan'dan Aral'a; Kazak Hanligi buna katildi
+#   CRI  Kirim Hanligi - Karadeniz bozkiri
+#   KHI/BUK - Hive ve Buhara, Iran konfederasyonuna federe (world/countries)
+
+# --- Moskova Buyuk Prensligi'nin cekirdegi ---------------------------------
+# Onceden bunlar "listelenmemis" oldugu icin vanilla'dan miras aliniyordu;
+# artik acikca yaziliyor ki baskent ve din donusumu net olsun.
+STATE_GALICH: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_MOSCOW: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_NENETSIA: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_NIZHNY_NOVGOROD: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_RYAZAN: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_SMOLENSK: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_TVER: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_YAROSLAVL: {owner: RUS, pops: inherit, buildings: inherit}
+
+STATE_AKMOLINSK: {owner: TAR, pops: inherit, buildings: inherit}
+# Amur vanilla'da Cing'in; Cing coktugu icin Mancurya Hanligi'na kaldi.
+STATE_AMUR: {owner: MCH, pops: inherit, buildings: inherit}
+STATE_AKTOBE: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_ALTAI: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_ARKHANGELSK: {owner: NOV, pops: inherit, buildings: inherit}
+STATE_BREST: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_BURYATIA: {owner: BRY, pops: inherit, buildings: inherit}
+STATE_CHELYABINSK: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_CHERNIHIV: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_CHERSON: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_CHUVASHIA: {owner: MRI, pops: inherit, buildings: inherit}
+STATE_COURLAND: {owner: UBD, pops: inherit, buildings: inherit}
+STATE_CRIMEA: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_EAST_KARELIA: {owner: NOV, pops: inherit, buildings: inherit}
+STATE_ELIZAVETPOL: {owner: GEO, pops: inherit, buildings: inherit}
+STATE_FERGANA: {owner: BUK, pops: inherit, buildings: inherit}
+STATE_INGRIA: {owner: NOV, pops: inherit, buildings: inherit}
+STATE_JETISY: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_KALMYKIA: {owner: KLM, pops: inherit, buildings: inherit}
+STATE_KAUNAS: {owner: PLC, _note: kaynak dosyada 18/23 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_KAZAN: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_KHARKOV: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_KHIVA: {owner: KHI, pops: inherit, buildings: inherit}
+STATE_KIEV: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_KOLA: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_KOLYMA: {owner: YAK, pops: inherit, buildings: inherit}
+STATE_KRASNOYARSK: {owner: TNS, pops: inherit, buildings: inherit}
+STATE_KURSK: {owner: MRD, pops: inherit, buildings: inherit}
+STATE_MERZ:
+  split:
+  - owner: KHO
+    provinces: [x6598F7, x6CF557, x780AED, x7B5777, x8955C1, xB1243B, xDC167D, xE16FA1, xF76F3D, xFAAE74, x1B9E03, x8851E8, x3A816D, x087318, x132704, x156A20, x1DA83C, x29133A, x35E93F, x582102, x622B3C,
+      x6D1768, x79947D, xAC0120, xC07060, xC9EFBF, xCB0EBB, xDCACAB, xECBE1C, xF9C1AD]
+  - {owner: BUK, rest: true}
+  pops: inherit
+  buildings: inherit
+STATE_MINSK: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_MOGILEV: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_NORTH_CAUCASUS: {owner: DAG, pops: inherit, buildings: inherit}
+STATE_NOVGOROD: {owner: NOV, pops: inherit, buildings: inherit}
+# Oryol BRY'ye atanmisti ama BRY vanilla'da BURYATIA (Sibirya) tag'i -
+# bir ulke hem Oryol'u hem Baykal'i tutuyordu. Oryol Moskova'ya verildi.
+STATE_ORYOL: {owner: RUS, pops: inherit, buildings: inherit}
+STATE_PERM: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_PSKOV: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_RIGA: {owner: UBD, pops: inherit, buildings: inherit}
+STATE_ROSTOV: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_SEMIRECHE: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_STAVROPOL: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_SURGUT: {owner: KNT, pops: inherit, buildings: inherit}
+STATE_SYRDARYA:
+  split:
+  - owner: BUK
+    provinces: [x0145C2, x033466, x062F08, x07C704, x0A8234, x0D9C53, x10172C, x1387E0, x13D004, x1D27FC, x1DE878, x1F8CE9, x22C5AD, x22D34F, x25CA20, x27D6CF, x2E4029, x2E5108, x31AD84, x325EAF,
+      x333152, x38A7E5, x3A39A7, x3D45E5, x3E8D51, x40EF89, x47E541, x4EA9F1, x4F3261, x541D18, x568056, x5A2042, x5B9666, x5D77D1, x5D791D, x620358, x6444C8, x69CBE4, x6A4EB0, x6AB6B7,
+      x6F3D05, x70B70F, x787566, x799939, x7CDF26, x7D1D24, x7D8A00, x7F26D4, x8618BE, x8699E8, x86A8DD, x87C316, x8876C0, x89E818, x8A4521, x8B411C, x924962, x977713, x97DC5E, x987C0E,
+      x9B0043, x9BCC26, xA5EDAA, xA6CCE1, xA7243E, xA782F8, xAE34BD, xAEB443, xAEE25B, xAF4A7B, xB197C2, xB21F0F, xBA328F, xBB73D9, xBC829B, xBF034D, xBF7A6B, xC4716E, xC571F8, xC575F9,
+      xC57C7D, xC7176C, xC9EEEC, xCF77F8, xD4B44D, xDB3430, xDC5B68, xDC957E, xDF85B2, xE35599, xE5CE89, xE60BC3, xEC97B2, xEE95FA, xF047E2, xF0F84D, xF36CC2, xF3EEA6, x0056D2, x00E0DC,
+      x0336B0, x131337, x15362E, x307A30, x3FB5F1, x420720, x46CEC2, x4B4659, x4BC705, x4EA876, x521C5F, x5234F8, x5929A2, x594580, x61AE5C, x639678, x73AEDA, x747296, x75D8BE, x79CF5A,
+      x8468EA, x8BA515, x908370, x9371DA, x94A977, x9C08EB, x9CE782, x9E6765, xA45A37, xBBC62C, xBFF435, xC12161, xC8C2BC, xD1E603, xDC4EDA, xE0006E, xE5D5C2, xE7A599, xE9360C, xF2346F,
+      xF2A3CF, xF2E22E, xFA45E1, x06E5B4, x0D7F8D, x15A6BA, x20F796, x3588E6, x38E787, x3C11D2, x43BF94, x4B754A, x4D4D41, x4E7976, x54F889, x669165, x6D84D3, x807237, x86511D, x8B5644,
+      x9AB575, xA3F943, xBB92FC, xBC9B7E, xCF05B0, xD0E049, xD1425A, xDCF801, xE43165, xF980F5, xF9A3AF]
+  - {owner: XIN, rest: true}
+  pops: inherit
+  buildings: inherit
+STATE_TALINN: {owner: UBD, pops: inherit, buildings: inherit}
+STATE_TAMBOV: {owner: MRD, pops: inherit, buildings: inherit}
+STATE_TARTU: {owner: UBD, pops: inherit, buildings: inherit}
+STATE_TAURIDA: {owner: CRI, pops: inherit, buildings: inherit}
+STATE_UFA: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_URALSK: {owner: TAR, _note: kaynak dosyada 127/153 province atanmisti; tam state'e cevrildi, pops: inherit, buildings: inherit}
+STATE_VILNIUS: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_VITEBSK: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_VOLHYNIA: {owner: PLC, pops: inherit, buildings: inherit}
+STATE_VYATKA: {owner: TAR, pops: inherit, buildings: inherit}
+
+# ===========================================================================
+# ACIKCA LISTELENEN AVRUPA STATE'LERI
+# ===========================================================================
+# Bunlar daha once "unlisted: inherit" idi, yani vanilla pop'larini HAM
+# aliyorlardi ve ulkenin religion_split'i uygulanmiyordu. Gec Reform
+# senaryosunun calismasi icin acikca listelenmeleri gerekiyor:
+# sahiplik degismiyor, sadece pop donusumu devreye giriyor.
+STATE_ALAND: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_KUOPIO: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_OSTROBOTHNIA: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_OULU: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_UUSIMAA: {owner: FIN, pops: inherit, buildings: inherit}
+STATE_WEST_KARELIA: {owner: FIN, pops: inherit, buildings: inherit}

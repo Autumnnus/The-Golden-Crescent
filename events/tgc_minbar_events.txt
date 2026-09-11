@@ -1,0 +1,206 @@
+﻿namespace = tgc_minbar
+
+# Uc Minber Krizi olaylari.
+#
+# Uc journal entry'nin `on_monthly_pulse` bloklarindan tetiklenir; ROOT her
+# zaman minber iddiacisidir (EGY / ANL / TUR-PER).
+#
+# Ortak yapi: henuz hicbir minbere baglanmamis bir Islam devleti bulunur ve
+# oyuncuya oraya ulema heyeti gonderme secenegi sunulur. Heyet bedavaya
+# gelmez - hazineden gider ve suren bir otorite yuku birakir.
+
+# ---------------------------------------------------------------------------
+# 1 - Kahire: halifelik davetiyesi
+# ---------------------------------------------------------------------------
+tgc_minbar.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tgc_minbar.1.t
+	desc = tgc_minbar.1.d
+	flavor = tgc_minbar.1.f
+
+	event_image = {
+		video = "middleeast_islam"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	duration = 3
+
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		tgc_follows_cairo_minbar = yes
+		any_country = {
+			tgc_counts_for_minbar = yes
+			tgc_is_uncommitted_muslim = yes
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				tgc_counts_for_minbar = yes
+				tgc_is_uncommitted_muslim = yes
+			}
+			save_scope_as = tgc_minbar_target
+		}
+	}
+
+	option = { # Ulema heyetini gonder
+		name = tgc_minbar.1.a
+		default_option = yes
+
+		add_treasury = -25000
+
+		add_modifier = {
+			name = tgc_minbar_mission_burden
+			days = normal_modifier_time
+			is_decaying = yes
+		}
+
+		scope:tgc_minbar_target = {
+			set_state_religion = rel:taklidiyya
+		}
+	}
+
+	option = { # Simdilik beklemek daha akillica
+		name = tgc_minbar.1.b
+	}
+}
+
+# ---------------------------------------------------------------------------
+# 2 - Kurtuba: bilim ve hukuk ustunlugu
+# senaryo.md 163: Kurtuba halifeligi bir yonetim makami degil, bir cazibe
+# merkezi olarak isler; bu yuzden davet degil, davet edilme uzerinden gider.
+# ---------------------------------------------------------------------------
+tgc_minbar.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = tgc_minbar.2.t
+	desc = tgc_minbar.2.d
+	flavor = tgc_minbar.2.f
+
+	event_image = {
+		video = "middleeast_courtroom_upheaval"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		tgc_follows_cordoba_minbar = yes
+		any_country = {
+			tgc_counts_for_minbar = yes
+			tgc_is_uncommitted_muslim = yes
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				tgc_counts_for_minbar = yes
+				tgc_is_uncommitted_muslim = yes
+			}
+			save_scope_as = tgc_minbar_target
+		}
+	}
+
+	option = { # Kurtuba medreselerinde burs ac
+		name = tgc_minbar.2.a
+		default_option = yes
+
+		add_treasury = -25000
+
+		add_modifier = {
+			name = tgc_minbar_mission_burden
+			days = normal_modifier_time
+			is_decaying = yes
+		}
+
+		scope:tgc_minbar_target = {
+			set_state_religion = rel:hikmatiyya
+		}
+	}
+
+	option = { # Kurtuba kimseyi ikna etmeye calismaz
+		name = tgc_minbar.2.b
+	}
+}
+
+# ---------------------------------------------------------------------------
+# 3 - Ictihatci Duzen: halifelige degil, ictihada davet
+# ---------------------------------------------------------------------------
+tgc_minbar.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = tgc_minbar.3.t
+	desc = tgc_minbar.3.d
+	flavor = tgc_minbar.3.f
+
+	event_image = {
+		video = "middleeast_courtroom_upheaval"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+
+	duration = 3
+
+	cooldown = { days = normal_modifier_time }
+
+	trigger = {
+		tgc_follows_ijtihadi_order = yes
+		any_country = {
+			tgc_counts_for_minbar = yes
+			tgc_is_uncommitted_muslim = yes
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				tgc_counts_for_minbar = yes
+				tgc_is_uncommitted_muslim = yes
+			}
+			save_scope_as = tgc_minbar_target
+		}
+	}
+
+	# Rum Muctehidiyye'yi, Isfahan Irfaniyye'yi yayar; ayni duzenin iki kolu.
+	option = { # Kendi mezhebimizin hukuk okulunu kur
+		name = tgc_minbar.3.a
+		default_option = yes
+
+		add_treasury = -25000
+
+		add_modifier = {
+			name = tgc_minbar_mission_burden
+			days = normal_modifier_time
+			is_decaying = yes
+		}
+
+		if = {
+			limit = {
+				country_has_state_religion = rel:irfaniyya
+			}
+			scope:tgc_minbar_target = {
+				set_state_religion = rel:irfaniyya
+			}
+		}
+		else = {
+			scope:tgc_minbar_target = {
+				set_state_religion = rel:mujtahidiyya
+			}
+		}
+	}
+
+	option = { # Dini otorite ihrac edilmez
+		name = tgc_minbar.3.b
+	}
+}

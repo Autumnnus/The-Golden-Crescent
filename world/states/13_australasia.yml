@@ -1,0 +1,17 @@
+# 13_australasia.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+# --- Avustralya ve Yeni Zelanda ---
+# senaryo.md 613-617 Britanya'nin somurgelerini "Kuzey Amerika'nin dogu
+# kiyilari, bazi Atlantik adalari" diye sayiyor - Avustralya yok.
+# senaryo.md 645: "Misir - ... Avustralya'nin kuzeyinde yeni kurulan kucuk
+# yerlesimler."  Geri kalani Aborijin halklarinda.
+STATE_NEW_SOUTH_WALES: {owner: WDJ, pops: inherit, buildings: inherit}
+STATE_NORTHERN_TERRITORY: {owner: EGY, pops: inherit, buildings: inherit}
+STATE_NORTH_ISLAND: {owner: UNT, pops: inherit, buildings: inherit}
+STATE_QUEENSLAND: {owner: MRA, pops: inherit, buildings: inherit}
+STATE_SOUTH_AUSTRALIA: {owner: WTI, pops: inherit, buildings: inherit}
+STATE_SOUTH_ISLAND: {owner: NTU, pops: inherit, buildings: inherit}
+STATE_TASMANIA: {owner: KRI, pops: inherit, buildings: inherit}
+STATE_VICTORIA: {owner: KLN, pops: inherit, buildings: inherit}
+STATE_WESTERN_AUSTRALIA: {owner: WTI, pops: inherit, buildings: inherit}

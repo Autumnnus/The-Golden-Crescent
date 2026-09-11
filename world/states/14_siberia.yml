@@ -1,0 +1,15 @@
+# 14_siberia.txt bolgesindeki state atamalari
+# Elle duzenlenir. Oyun dosyalari: python tools/tgc.py build
+
+STATE_CHUKOTKA: {owner: CKC, pops: inherit, buildings: inherit}
+STATE_IRKUTSK: {owner: TNS, pops: inherit, buildings: inherit}
+STATE_KAMCHATKA: {owner: KMC, pops: inherit, buildings: inherit}
+STATE_OB: {owner: KNT, pops: inherit, buildings: inherit}
+STATE_OKHOTSK: {owner: FER, pops: inherit, buildings: inherit}
+STATE_TOBOLSK: {owner: KNT, pops: inherit, buildings: inherit}
+STATE_TOMSK: {owner: KNT, pops: inherit, buildings: inherit}
+STATE_TRANS_BAIKAL: {owner: BRY, pops: inherit, buildings: inherit}
+STATE_TUVA: {owner: XIN, pops: inherit, buildings: inherit}
+STATE_UPPER_YENISEYSK: {owner: TNS, pops: inherit, buildings: inherit}
+STATE_URAL: {owner: TAR, pops: inherit, buildings: inherit}
+STATE_YAKUTSK: {owner: YAK, pops: inherit, buildings: inherit}

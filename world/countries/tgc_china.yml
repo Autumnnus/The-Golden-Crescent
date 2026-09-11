@@ -1,0 +1,79 @@
+# Cin'in bes devleti.
+#
+# senaryo.md 494: "Cing yonetimi 18. yuzyilda ekonomik krizler, saray savaslari
+# ve Uygur isyanlari sonucunda cokmustur."
+# senaryo.md 522: "Her Cin devleti ulkeyi yeniden birlestirme hakkina sahip
+# oldugunu iddia eder."
+#
+# Renk semasi: Cin kendi ailesi. Kuzey imparatorluk sarisi, Jiangnan yesim,
+# Shu arduvaz, Yue mercan, Mancurya zeytin.
+#
+# country_type ayrimi senaryoya dayaniyor: Kuzey Cin geleneksel merkez,
+# Jiangnan ise "Cin'in ekonomik ve teknolojik olarak en gelismis bolgesi"
+# (senaryo.md 506) - ikisi tanininan guc. Digerleri henuz degil.
+
+CHI:
+  color: [206, 168, 74]
+  country_type: recognized
+  tier: empire
+  cultures: [han, manchu]
+  religion: confucian
+  tech_tier: 4
+  literacy: low
+  capital: STATE_BEIJING
+  name: Northern Chinese Empire
+  adjective: Northern Chinese
+  name_tr: "Kuzey Çin İmparatorluğu"
+
+# senaryo.md 725: ilk surumun ana oynanabilir devletlerinden biri.
+JGN:
+  color: [72, 160, 140]
+  country_type: recognized
+  tier: kingdom
+  cultures: [han]
+  religion: confucian
+  tech_tier: 2
+  literacy: middling
+  capital: STATE_NANJING
+  name: Republic of Jiangnan
+  adjective: Jiangnan
+  name_tr: "Jiangnan Cumhuriyeti"
+
+SHU:
+  color: [104, 122, 158]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [han]
+  religion: confucian
+  tech_tier: 4
+  literacy: low
+  capital: STATE_SICHUAN
+  name: Kingdom of Shu
+  adjective: Shu
+  name_tr: "Shu Krallığı"
+
+YUE:
+  color: [200, 108, 108]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [yue, hakka]
+  religion: confucian
+  tech_tier: 3
+  literacy: low
+  capital: STATE_GUANGDONG
+  name: Yue Confederation
+  adjective: Yue
+  name_tr: "Yue Konfederasyonu"
+
+MCH:
+  color: [120, 130, 80]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [manchu]
+  religion: confucian
+  tech_tier: 4
+  literacy: low
+  capital: STATE_SOUTHERN_MANCHURIA
+  name: Khanate of Manchuria
+  adjective: Manchu
+  name_tr: "Mançurya Hanlığı"

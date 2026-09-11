@@ -1,0 +1,250 @@
+# Gurkani Devleti ve Hindistan.
+#
+# senaryo.md 374: "Gurkaniler, Hindistan'in batisi ve kuzeybatisinda guclu bir
+# Turk-Fars-Hint imparatorlugudur."  senaryo.md 723: ana oynanabilir devlet.
+# senaryo.md 122: Muctehidiyye "Anadolu, Balkanlar, Orta Asya ve GURKANI
+# devletlerinde yaygindir" - yani Gurkani Ictihatci Duzen'in parcasi.
+#
+# NOT: Bu evrende Britanya Hindistan'a hic girmedi (senaryo.md 615: Britanya
+# yalnizca Kuzey Amerika dogu kiyisi ve bazi Atlantik adalari). Dogu Hindistan
+# Sirketi'nin 21 vanilla eyaleti world/states/10_india.yml icinde yerli
+# devletlere dagitilmis durumda; BIC artik hicbir yere sahip degil.
+
+MUG:
+  color: [92, 124, 190]
+  country_type: recognized
+  tier: empire
+  cultures: [hindustani, panjabi]
+  religion: mujtahidiyya
+  tech_tier: 2
+  literacy: middling
+  capital: STATE_DELHI
+  name: Gurkani Empire
+  adjective: Gurkani
+  name_tr: "Gurkanî Devleti"
+  religion_map:
+    sunni: mujtahidiyya
+
+# --- Gurkani'nin baslica rakipleri (senaryo.md 386) -------------------------
+
+# senaryo.md 386 ilk sirada "Maratha Konfederasyonu"nu sayiyor. Vanilla'da
+# Maratha devletleri Kolhapur/Satara/Nagpur diye dagilmis durumda; senaryonun
+# istedigi tek konfederasyon icin bos MAR tag'i kullanildi. Gujarat da burada:
+# tarihen Gaekwad hanedaninin, yani Maratha.
+MAR:
+  color: [212, 128, 96]
+  country_type: recognized
+  tier: kingdom
+  cultures: [marathi, gujarati]
+  religion: hindu
+  tech_tier: 3
+  literacy: low
+  capital: STATE_BOMBAY
+  name: Maratha Confederation
+  adjective: Maratha
+  name_tr: "Maratha Konfederasyonu"
+
+# senaryo.md 391 "Sikh Devleti"ni rakip sayiyor ama senaryo.md 382 Kesmir'i
+# Gurkani'ye veriyor. Cozum: Sihler Pencap ovasini kaybetti, Dag Pencabi ve
+# Kesmir'de tutundular - yenilmis ama diri bir rakip.
+PAN:
+  color: [232, 196, 88]
+  country_type: recognized
+  tier: kingdom
+  cultures: [panjabi]
+  religion: sikh
+  tech_tier: 3
+  literacy: low
+  capital: STATE_HILL_PUNJAB
+  name: Sikh State
+  adjective: Sikh
+  name_tr: "Sih Devleti"
+
+AWA:
+  color: [190, 160, 200]
+  country_type: unrecognized
+  tier: principality
+  cultures: [avadhi]
+  religion: sunni
+  tech_tier: 4
+  literacy: low
+  capital: STATE_AWADH
+  name: Awadh
+  adjective: Awadhi
+  name_tr: "Avadh"
+# Sinirlari zaten world/states/10_india.yml icinde; burada yalnizca senaryonun
+# onemsedigi ucu tanimlaniyor. Hindistan'in tamami Asama 4'te elden gececek.
+
+BGL:
+  color: [66, 150, 124]
+  country_type: recognized
+  tier: kingdom
+  cultures: [bengali]
+  religion: sunni
+  tech_tier: 3
+  literacy: low
+  capital: STATE_EAST_BENGAL
+  name: Sultanate of Bengal
+  adjective: Bengali
+  name_tr: "Bengal Sultanlığı"
+
+HYD:
+  color: [174, 120, 168]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [deccani]
+  religion: sunni
+  tech_tier: 4
+  literacy: low
+  capital: STATE_HYDERABAD
+  name: Hyderabad
+  adjective: Hyderabadi
+  name_tr: "Haydarabad"
+
+MYS:
+  color: [206, 142, 88]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [kannada]
+  religion: hindu
+  tech_tier: 4
+  literacy: low
+  capital: STATE_MYSORE
+  name: Kingdom of Mysore
+  adjective: Mysorean
+  name_tr: "Mysore Krallığı"
+
+# ===========================================================================
+# HIMALAYALAR
+# ===========================================================================
+
+NEP:
+  color: [178, 96, 84]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [nepali]
+  religion: hindu
+  tech_tier: 5
+  literacy: low
+  capital: STATE_HIMALAYAS
+  name: Kingdom of Nepal
+  adjective: Nepali
+  name_tr: "Nepal Krallığı"
+
+# Cing coktugu icin Amdo (Qinghai) da Lhasa'ya dondu.
+TIB:
+  color: [214, 178, 96]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [tibetan]
+  religion: gelugpa
+  tech_tier: 6
+  literacy: low
+  capital: STATE_LHASA
+  name: Tibet
+  adjective: Tibetan
+  name_tr: "Tibet"
+
+# ===========================================================================
+# GUNEYDOGU ASYA
+# senaryo.md bu bolgeye ayrintili girmiyor; senaryonun getirdigi tek fark
+# Britanya'nin ve Ispanya'nin burada hic olmamasi.
+# ===========================================================================
+
+# Malaya Ingiliz degil: Johor Sultanligi bogazlarin iki yakasini tutuyor.
+JOH:
+  color: [206, 148, 60]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [malay]
+  religion: sunni
+  tech_tier: 5
+  literacy: low
+  capital: STATE_MALAYA
+  name: Sultanate of Johor
+  adjective: Johorean
+  name_tr: "Johor Sultanlığı"
+
+# Ace tarihen Kizildeniz uzerinden Misir ve Osmanli ile bagliydi; bu evrende
+# o hat Kahire minberine cikiyor (senaryo.md 643: Misir'in Hint Okyanusu
+# ticaret usleri). Guneydogu Asya'nin minbere baglanmis tek devleti.
+ACE:
+  color: [188, 108, 72]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [sumatran]
+  religion: taklidiyya
+  tech_tier: 5
+  literacy: low
+  capital: STATE_ACEH
+  name: Sultanate of Aceh
+  adjective: Acehnese
+  name_tr: "Açe Sultanlığı"
+  religion_map:
+    sunni: taklidiyya
+
+# FILIPINLER: vanilla'da Ispanyol somurgesi ve butun Filipin kulturleri
+# KATOLIK. Bu evrende Ispanya hic kurulmadi, dolayisiyla 1565 fethi de hic
+# olmadi. Manila Musluman bir racaligin merkezi olarak kaldi; adalarin
+# ic kesimi animist.
+TND:
+  color: [162, 132, 178]
+  country_type: unrecognized
+  tier: kingdom
+  cultures: [tagalog, visayan]
+  religion: sunni
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_LUZON
+  name: Rajahnate of Tondo
+  adjective: Tondo
+  name_tr: "Tondo Racalığı"
+  # Ispanyol misyoner gelmedi: Katoliklik yok, kiyilar Musluman, ic kesim animist.
+  culture_religion_split:
+    tagalog: {catholic: {sunni: 0.55, animist: 0.45}}
+    visayan: {catholic: {animist: 0.75, sunni: 0.25}}
+  religion_split:
+    catholic: {animist: 0.7, sunni: 0.3}
+
+SUL:
+  color: [142, 116, 158]
+  country_type: unrecognized
+  tier: principality
+  cultures: [moro]
+  religion: sunni
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_MINDANAO
+  name: Sultanate of Sulu
+  adjective: Sulu
+  name_tr: "Sulu Sultanlığı"
+
+# Yeni Zelanda: vanilla'da UNT Britanya'nin protektorasi. senaryo.md 615
+# Britanya'ya Pasifik'te hicbir sey vermiyor - Maori bagimsiz.
+UNT:
+  color: [126, 154, 128]
+  country_type: unrecognized
+  tier: principality
+  cultures: [maori]
+  religion: animist
+  tech_tier: 6
+  literacy: baseline
+  capital: STATE_NORTH_ISLAND
+  name: Maori Confederation
+  adjective: Maori
+  name_tr: "Maori Konfederasyonu"
+
+# Korfez'de Ingiliz protektorasi yok: Britanya Hint Okyanusu'na hic girmedi.
+# Abu Dabi bu evrende Umman ve Basra arasinda bagimsiz bir sahil emirligi.
+ABU:
+  color: [176, 158, 108]
+  country_type: unrecognized
+  tier: principality
+  cultures: [bedouin]
+  religion: sunni
+  tech_tier: 5
+  literacy: baseline
+  capital: STATE_ABU_DHABI
+  name: Emirate of Abu Dhabi
+  adjective: Abu Dhabi
+  name_tr: "Abu Dabi Emirliği"

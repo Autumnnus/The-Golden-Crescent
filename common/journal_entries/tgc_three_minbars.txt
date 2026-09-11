@@ -1,0 +1,163 @@
+﻿# Uc Minber Krizi
+#
+# senaryo.md 153-169: Kahire Halifeligi, Kurtuba Halifeligi ve Ictihatci Duzen
+# arasindaki dini liderlik mucadelesi.
+#
+# Her journal entry, sahibinin minberini kac Islam devletinin izledigini olcer.
+# Taraf degistirme `set_state_religion` ile olur (bkz. events/tgc_minbar_events.txt),
+# yani gorunur ve bedeli olan bir karardir.
+
+# ---------------------------------------------------------------------------
+# Kahire Halifeligi - Misir
+# senaryo.md 158: "Halifenin Musluman devletler uzerinde dini ve siyasi
+# otoriteye sahip olmasi gerektigini savunur."
+# ---------------------------------------------------------------------------
+je_tgc_cairo_caliphate = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_tgc_three_minbars
+
+	is_shown_when_inactive = {
+		tgc_is_cairo_claimant = yes
+	}
+
+
+	modifiers_while_active = {
+		tgc_minbar_claim_upkeep
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_cairo_caliphate_complete_tt
+			tgc_cairo_minbar_followers >= 26
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_cairo_caliphate_recognized
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_tgc_cairo_caliphate_fail_tt
+			NOT = { tgc_follows_cairo_minbar = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			60 = 0
+			10 = tgc_minbar.1
+		}
+	}
+
+	weight = 200
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Kurtuba Halifeligi - Endulus
+# senaryo.md 163: "Halifeligi dogrudan yonetim makami yerine bilim, hukuk ve
+# kultur liderligi olarak gorur."
+# ---------------------------------------------------------------------------
+je_tgc_cordoba_caliphate = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	group = je_group_tgc_three_minbars
+
+	is_shown_when_inactive = {
+		tgc_is_cordoba_claimant = yes
+	}
+
+
+	modifiers_while_active = {
+		tgc_minbar_claim_upkeep
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_cordoba_caliphate_complete_tt
+			tgc_cordoba_minbar_followers >= 10
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_cordoba_caliphate_recognized
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_tgc_cordoba_caliphate_fail_tt
+			NOT = { tgc_follows_cordoba_minbar = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			60 = 0
+			10 = tgc_minbar.2
+		}
+	}
+
+	weight = 200
+
+	should_be_pinned_by_default_involved = yes
+}
+
+# ---------------------------------------------------------------------------
+# Ictihatci Duzen - Rum ve Isfahan
+# senaryo.md 165: "Rum ve Iran devletleri evrensel halifelik fikrini reddeder.
+# Dini otoritenin ulusal veya bolgesel kurumlara bagli olmasi gerektigini
+# savunur." Bu bir halifelik iddiasi degil, ona karsi bir duzen onerisidir -
+# bu yuzden ulema agi masrafi yerine burokratik kazanc getirir.
+# ---------------------------------------------------------------------------
+je_tgc_ijtihadi_order = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+
+	group = je_group_tgc_three_minbars
+
+	is_shown_when_inactive = {
+		tgc_is_ijtihadi_claimant = yes
+	}
+
+
+	modifiers_while_active = {
+		tgc_ijtihadi_order_upkeep
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_tgc_ijtihadi_order_complete_tt
+			tgc_ijtihadi_order_followers >= 32
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = tgc_ijtihadi_order_ascendant
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_tgc_ijtihadi_order_fail_tt
+			NOT = { tgc_follows_ijtihadi_order = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			60 = 0
+			10 = tgc_minbar.3
+		}
+	}
+
+	weight = 200
+
+	should_be_pinned_by_default_involved = yes
+}

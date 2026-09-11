@@ -71,7 +71,7 @@ class BuildError(RuntimeError):
 class Resolved:
     """The full 1836 world after world/*.yml is applied to vanilla."""
 
-    def __init__(self, world: World, index: dict):
+    def __init__(self, world: World, index: dict, *, contents: bool = True):
         self.world = world
         self.index = index
         self.countries: dict = {}       # tag -> merged definition dict
@@ -81,10 +81,10 @@ class Resolved:
         self.state_homelands: dict = {}
         self.state_claims: dict = {}
         self.notes: list = []
-        self._resolve()
+        self._resolve(contents=contents)
 
     # -- countries --------------------------------------------------------
-    def _resolve(self) -> None:
+    def _resolve(self, *, contents: bool = True) -> None:
         """Ownership first, contents second.
 
         Pops and buildings need to know which tags end up with land — a
@@ -96,7 +96,8 @@ class Resolved:
         plan = self._resolve_ownership()
         self._landed = {tag for owners in self.state_owners.values()
                         for tag, _, _ in owners}
-        self._resolve_contents(plan)
+        if contents:
+            self._resolve_contents(plan)
 
     def _resolve_countries(self) -> None:
         for tag, van in self.index["countries"].items():

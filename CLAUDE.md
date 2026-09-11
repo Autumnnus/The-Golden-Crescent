@@ -108,3 +108,16 @@ After an implementation, before reporting the task done:
 3. Check script braces and GUI block nesting; compare changed syntax with a known working vanilla or mod example.
 4. Require Victoria 3 runtime validation only when the change is critical or cannot be verified reliably through static checks. When logs are relevant, inspect the configured Victoria 3 logs directory directly.
 5. Report files changed, validation performed, and any game-runtime checks that remain for the user.
+
+
+## Offline scenario atlas and LLM map workflow
+
+Read `tools/LLM_MAP_WORKFLOW.md` before previewing a hypothetical map scenario.
+Use Python 3.10+ (`.venv/bin/python` in the configured local environment).
+`catalog --region ...` exports verified IDs and neighbors; `atlas --scenario ...`
+creates an interactive HTML plus JSON; `map --scenario ... --mode changes --data`
+exports ownership changes. Scenario version 1 files are previews applied in memory,
+not replacements for world/ source files. Never guess province hex IDs. Resolve with
+`find`/`show`, preview, then integrate into world/ only within the requested scope.
+A successful preview is not game validation: after source integration run `build`
+and `check`. See `tools/examples/ve_atlas_scenario.yml` for a verified split example.

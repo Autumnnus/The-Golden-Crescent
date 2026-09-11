@@ -18,10 +18,8 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-from . import geo as geo_mod
-from . import index as idx
-from .paths import BUILD, VANILLA
-from .world import load_world
+from .paths import BUILD, assert_read_only
+from .atlas import stable_number
 
 OUT_DIR = BUILD / "maps"
 MAX_WIDTH = 3200
@@ -79,7 +77,8 @@ def _readable(bg: tuple) -> tuple:
 
 
 def _font(size: int):
-    for name in ("segoeui.ttf", "arial.ttf", "DejaVuSans.ttf"):
+    for name in ("segoeui.ttf", "arial.ttf", "DejaVuSans.ttf",
+                 "/System/Library/Fonts/Supplemental/Arial.ttf"):
         try:
             return ImageFont.truetype(name, size)
         except OSError:
@@ -89,60 +88,6 @@ def _font(size: int):
 
 # ---------------------------------------------------------------------------
 # what to paint
-
-
-def _resolved_owners():
-    """STATE_* -> owning tag (largest share), from world/ merged onto vanilla."""
-    from . import build as build_mod
-    world = load_world()
-    res = build_mod.Resolved(world, idx.load())
-    out = {}
-    for state, owners in res.state_owners.items():
-        best = max(owners, key=lambda o: len(o[1]))
-        out[state] = best[0]
-    return out, res
-
-
-def _state_colors(mode: str, index: dict, adjacency: dict) -> tuple:
-    """(state -> rgb, state -> label suffix)."""
-    states = index["states"]
-    colors, notes = {}, {}
-
-    if mode == "reference":
-        # Greedy colouring over the adjacency graph so no two touching states
-        # share a hue; the map exists to tell them apart.
-        assigned: dict = {}
-        for name in sorted(states, key=lambda n: -len(adjacency.get(n, ()))):
-            used = {assigned[n] for n in adjacency.get(name, ()) if n in assigned}
-            k = next(i for i in range(999) if i not in used)
-            assigned[name] = k
-        for name, st in states.items():
-            colors[name] = SEA if st["is_sea"] else _distinct(assigned[name])
-        return colors, notes
-
-    owners, res = _resolved_owners()
-    for name, st in states.items():
-        if st["is_sea"]:
-            colors[name] = SEA
-            continue
-        tag = owners.get(name)
-        if not tag:
-            colors[name] = UNOWNED
-            continue
-        notes[name] = tag
-        if mode == "political":
-            colors[name] = _to_rgb((res.countries.get(tag) or {}).get("color"))
-        elif mode == "religion":
-            rel = (res.countries.get(tag) or {}).get("religion") or "none"
-            notes[name] = rel
-            colors[name] = _religion_color(rel, index)
-        elif mode == "phase":
-            spec = res.world.countries.get(tag)
-            phase = (spec.phase if spec and spec.phase else None)
-            notes[name] = phase or "vanilla"
-            colors[name] = (UNOWNED if phase is None
-                            else _distinct(abs(hash(phase)) % 97))
-    return colors, notes
 
 
 def _religion_color(rel: str, index: dict) -> tuple:
@@ -161,21 +106,45 @@ def _religion_color(rel: str, index: dict) -> tuple:
     }
     if rel in fixed:
         return fixed[rel]
-    return _distinct(abs(hash(rel)) % 97)
+    return _distinct(stable_number(rel) % 97)
 
 
 # ---------------------------------------------------------------------------
 # cropping
 
 
-def _crop_box(region, index: dict, gmeta: dict, adjacency: dict):
+def _crop_box(region, index: dict, gmeta: dict, adjacency: dict,
+              world=None, owners=None):
     if not region or region.lower() == "world":
         return None, "world"
     states = index["states"]
+    # Explicit selectors compose without guessing ambiguous fuzzy names.
+    if "," in region:
+        boxes = [_crop_box(r.strip(), index, gmeta, adjacency, world, owners)[0]
+                 for r in region.split(",")]
+        if any(b is None for b in boxes):
+            return None, "world"
+        return (min(b[0] for b in boxes), min(b[1] for b in boxes),
+                max(b[2] for b in boxes), max(b[3] for b in boxes)), "selection"
+    aliases = world.aliases if world else {}
+    alias = next((v for k, v in aliases.items() if k.casefold() == region.casefold()), None)
+    if alias:
+        wanted = {alias} if isinstance(alias, str) else set(alias)
+        wanted = {n if n.startswith("STATE_") else "STATE_" + n.upper() for n in wanted}
+        if not wanted <= states.keys():
+            raise ValueError(f"Invalid state alias: {region}")
+        return _bbox_of(wanted, gmeta), sorted(wanted)[0]
+    tag = region.removeprefix("country:").upper()
+    if tag in index["countries"] or world and tag in world.countries:
+        wanted = {n for n, shares in (owners or {}).items() if any(t == tag for t, _, _ in shares)}
+        if not wanted:
+            raise ValueError(f"Country {tag} owns no land")
+        return _bbox_of(wanted, gmeta), tag
 
-    name = region if region.startswith("STATE_") else "STATE_" + region.upper()
+
+    name = region.upper() if region.upper().startswith("STATE_") else "STATE_" + region.upper()
     if name in states:
-        wanted = {name} | set(adjacency.get(name, ()))
+        wanted = {name} | {n for n in adjacency.get(name, ()) if not states[n]["is_sea"]}
         return _bbox_of(wanted, gmeta), name
 
     # A state_regions file stem, e.g. 08_middle_east.
@@ -203,7 +172,7 @@ def _bbox_of(names: set, gmeta: dict):
     x1 = max(b[2] for b in boxes)
     y1 = max(b[3] for b in boxes)
     pad = max(40, (x1 - x0) // 12)
-    return (x0 - pad, y0 - pad, x1 + pad, y1 + pad)
+    return (x0 - pad, y0 - pad, x1 + pad + 1, y1 + pad + 1)
 
 
 # ---------------------------------------------------------------------------
@@ -211,57 +180,78 @@ def _bbox_of(names: set, gmeta: dict):
 
 
 def render(mode: str = "political", region=None, out=None,
-           labels: bool = True) -> int:
-    index = idx.load()
-    ids, gmeta = geo_mod.load()
-    adjacency = json.loads((BUILD / "state_adjacency.json").read_text(encoding="utf-8"))
-    order = gmeta["meta"]["state_order"]
-
-    colors, notes = _state_colors(mode, index, adjacency)
-
-    palette = np.zeros((len(order) + 1, 3), dtype=np.uint8)
-    palette[len(order)] = BLANK                       # index for "no state"
-    for i, name in enumerate(order):
-        palette[i] = colors.get(name, BLANK)
-
-    lookup = np.where(ids < 0, len(order), ids)
-    rgb = palette[lookup]
-
-    # Thin state borders: a pixel whose right or lower neighbour is a different
-    # state. Cheap, and it keeps small states legible when scaled down.
-    edge = np.zeros(ids.shape, dtype=bool)
-    edge[:, :-1] |= ids[:, :-1] != ids[:, 1:]
-    edge[:-1, :] |= ids[:-1, :] != ids[1:, :]
-    rgb[edge] = BORDER
-
-    img = Image.fromarray(rgb, mode="RGB")
-
-    box, label = _crop_box(region, index, gmeta, adjacency)
-    if box:
-        x0, y0, x1, y1 = box
-        x0, y0 = max(0, x0), max(0, y0)
-        x1, y1 = min(img.width, x1), min(img.height, y1)
-        img = img.crop((x0, y0, x1, y1))
-        offset = (x0, y0)
-        visible = {n for n, m in gmeta["states"].items()
-                   if x0 <= m["anchor"][0] <= x1 and y0 <= m["anchor"][1] <= y1}
-    else:
-        offset = (0, 0)
-        visible = set(gmeta["states"])
-
-    scale = min(1.0, MAX_WIDTH / img.width)
-    if scale < 1.0:
-        img = img.resize((int(img.width * scale), int(img.height * scale)),
-                         Image.NEAREST)
-
+           labels: bool = True, width: int = MAX_WIDTH, scenario_path=None,
+           baseline="world", borders="country", data=False) -> int:
+    from .atlas import Snapshot, write_output
+    snap = Snapshot(scenario_path, baseline)
+    view = snap.viewport(region, width)
+    img = snap.image(view, mode, borders=borders)
+    context = snap.context(view)
+    notes, colors = {}, {}
+    for state in context["states"]:
+        owners = state["owners"]
+        tags = sorted({o["tag"] for o in owners})
+        if mode == "religion":
+            notes[state["id"]] = " / ".join(sorted({snap.country(t)["religion"] for t in tags}))
+        elif mode == "phase":
+            notes[state["id"]] = " / ".join(sorted({str(state["phase"] or snap.country(t)["phase"] or "vanilla") for t in tags}))
+        else:
+            notes[state["id"]] = " / ".join(tags)
+        colors[state["id"]] = BLANK
     if labels:
-        _draw_labels(img, visible, gmeta, colors, notes, offset, scale, index, mode)
-
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    path = Path(out) if out else OUT_DIR / f"{mode}_{label}.png"
+        _draw_labels(img, {s["id"] for s in context["states"]}, snap.geo,
+                     colors, notes, view["box"][:2], view["scale"], snap.index, mode)
+    # A title, explicit semantics and a compact legend make exported images self-contained.
+    counts = np.bincount(view["pixels"].ravel(), minlength=len(snap.provinces))
+    areas = {}
+    for i, province in enumerate(snap.provinces[1:], 1):
+        tag = province["owner"]
+        if tag and counts[i]:
+            areas[tag] = areas.get(tag, 0) + int(counts[i])
+    tags = sorted(areas, key=lambda t: (-areas[t], t))
+    legend = []
+    if mode == "political":
+        legend = [(snap.country(t)["name"] + " · " + t, snap.country(t)["color"]) for t in tags]
+    elif mode == "religion":
+        rels = sorted({snap.country(t)["religion"] for t in tags})
+        legend = [(r, _religion_color(r, snap.index)) for r in rels]
+    elif mode == "changes":
+        legend = [("Ownership changed", (230,174,78)), ("Unchanged", (96,116,123))]
+    elif mode == "phase":
+        phases = {s["phase"] or snap.country(o["tag"])["phase"]
+                  for s in context["states"] for o in s["owners"]}
+        legend = [(str(p or "vanilla"), _distinct(stable_number(p) % 97) if p else UNOWNED)
+                  for p in sorted(phases, key=lambda v: str(v))]
+    cols = max(1, img.width // 250)
+    shown = legend[:cols * 3]
+    footer = 42 + 26 * ((len(shown) + cols - 1) // cols)
+    framed = Image.new("RGB", (img.width, img.height + 84 + footer), (20,32,40))
+    framed.paste(img, (0,84))
+    draw = ImageDraw.Draw(framed)
+    title = context["title"][:70]
+    draw.text((20,12), title, font=_font(24), fill=(238,223,185))
+    subtitle = f"{mode.upper()}  /  {view['label']}  /  1836 source preview"
+    draw.text((20,49), subtitle, font=_font(14), fill=(194,209,215))
+    for i, (label, color) in enumerate(shown):
+        x, y = 20 + (i % cols)*250, img.height + 97 + (i//cols)*26
+        draw.rectangle((x,y+3,x+12,y+15), fill=tuple(color))
+        draw.text((x+20,y), label[:29], font=_font(13), fill=(231,236,237))
+    note = ("Religion = owner's state religion, not population share." if mode == "religion" else
+            f"Province ownership · Baseline: {baseline} · {len(snap.changed)} changed states worldwide")
+    if len(legend) > len(shown):
+        note += f" · +{len(legend)-len(shown)} legend entries in atlas"
+    draw.text((20,framed.height-26), note, font=_font(12), fill=(194,209,215))
+    path = Path(out) if out else OUT_DIR / f"{mode}_{view['label']}.png"
+    if path.suffix.lower() != ".png":
+        raise ValueError("map --out must end in .png")
+    assert_read_only(path)
+    if data:
+        assert_read_only(path.with_suffix(".json"))
     path.parent.mkdir(parents=True, exist_ok=True)
-    img.save(path)
-    print(f"wrote {path}  ({img.width}x{img.height}, mode={mode}, region={label})")
+    framed.save(path)
+    if data:
+        write_output(path.with_suffix(".json"), json.dumps(snap.llm_context(view), ensure_ascii=False, indent=2))
+    print(f"wrote {path}  ({framed.width}x{framed.height}, mode={mode}, region={view['label']})")
     return 0
 
 
@@ -289,6 +279,8 @@ def _draw_labels(img, visible, gmeta, colors, notes, offset, scale, index, mode)
             text = f"{text}\n{notes[name]}"
         box = draw.multiline_textbbox((x, y), text, font=font, anchor="mm",
                                       align="center")
+        if box[0] < 0 or box[1] < 0 or box[2] > img.width or box[3] > img.height:
+            continue
         if any(not (box[2] < p[0] or box[0] > p[2]
                     or box[3] < p[1] or box[1] > p[3]) for p in placed):
             continue

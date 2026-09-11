@@ -11,19 +11,22 @@ git-ignored.
 from __future__ import annotations
 
 import json
+import hashlib
 import time
 
 import numpy as np
 from PIL import Image
 
 from . import index as idx
-from .paths import BUILD, vanilla
+from .paths import BUILD, vanilla, assert_read_only
 
 Image.MAX_IMAGE_PIXELS = None          # the map is far past Pillow's bomb guard
 
 STATE_IDS = BUILD / "state_ids.npy"          # int16 per pixel, -1 = no state
 GEO_META = BUILD / "geo.json"                # bbox / label anchor / area
 ADJACENCY = BUILD / "state_adjacency.json"
+PROVINCE_CODES = BUILD / "province_codes.npy"
+CACHE_VERSION = 2
 
 NO_STATE = -1
 
@@ -32,11 +35,24 @@ def _province_key(rgb: tuple) -> str:
     return "x{:02X}{:02X}{:02X}".format(*rgb)
 
 
-def is_current() -> bool:
-    if not (STATE_IDS.exists() and GEO_META.exists()):
-        return False
+def _signature(index: dict) -> dict:
     src = vanilla("map_data", "provinces.png")
-    return STATE_IDS.stat().st_mtime >= src.stat().st_mtime
+    stat = src.stat()
+    mapping = json.dumps(index["province_state"], sort_keys=True).encode()
+    return {"version": CACHE_VERSION, "source": str(src.resolve()),
+            "size": stat.st_size, "mtime_ns": stat.st_mtime_ns,
+            "mapping": hashlib.sha256(mapping).hexdigest(),
+            "order": sorted(index["states"])}
+
+
+def is_current(index=None) -> bool:
+    if not all(p.exists() for p in (STATE_IDS, GEO_META, ADJACENCY, PROVINCE_CODES)):
+        return False
+    try:
+        meta = json.loads(GEO_META.read_text(encoding="utf-8"))
+        return meta["meta"].get("signature") == _signature(index or idx.load())
+    except (ValueError, KeyError, OSError):
+        return False
 
 
 def build_geo(force: bool = False, verbose: bool = True) -> dict:
@@ -114,10 +130,14 @@ def build_geo(force: bool = False, verbose: bool = True) -> dict:
             adj[order[v]].add(order[u])
 
     BUILD.mkdir(parents=True, exist_ok=True)
+    for path in (STATE_IDS, PROVINCE_CODES, GEO_META, ADJACENCY):
+        assert_read_only(path)
     np.save(STATE_IDS, state_ids)
+    np.save(PROVINCE_CODES, packed)
     payload = {
         "meta": {"width": w, "height": h, "state_order": order,
-                 "seconds": round(time.time() - t0, 1)},
+                 "seconds": round(time.time() - t0, 1),
+                 "signature": _signature(index)},
         "states": meta,
     }
     GEO_META.write_text(json.dumps(payload), encoding="utf-8")
@@ -138,6 +158,6 @@ def load():
     """(state_ids array, geo metadata dict), building the cache on first use."""
     if not is_current():
         build_geo(verbose=True)
-    ids = np.load(STATE_IDS)
+    ids = np.load(STATE_IDS, mmap_mode="r")
     meta = json.loads(GEO_META.read_text(encoding="utf-8"))
     return ids, meta

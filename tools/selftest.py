@@ -314,6 +314,11 @@ def main() -> int:
         test_rules(s)
         test_cleanup(s)
         test_read_only(s)
+        import unittest
+        import test_atlas
+        result = unittest.TextTestRunner(verbosity=1).run(
+            unittest.defaultTestLoader.loadTestsFromModule(test_atlas))
+        s.check("atlas regression suite", result.wasSuccessful())
     finally:
         clear_world()
         META.write_text(meta_backup, encoding="utf-8")

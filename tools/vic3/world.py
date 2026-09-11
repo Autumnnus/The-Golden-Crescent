@@ -176,50 +176,55 @@ def _as_list(v) -> list:
 
 def _load_countries(world: World) -> None:
     for path in _yaml_files("countries"):
-        for tag, spec in _load_yaml(path).items():
-            if not isinstance(tag, str) or not tag.isupper() or not 2 <= len(tag) <= 4:
-                raise WorldError(f"{path.name}: {tag!r} is not a country tag")
-            if tag in world.countries:
-                raise WorldError(
-                    f"{path.name}: {tag} already defined in "
-                    f"{world.countries[tag].source}")
-            if not isinstance(spec, dict):
-                raise WorldError(f"{path.name}: {tag}: expected a mapping")
-            _reject_unknown(path, tag, spec, _COUNTRY_KEYS)
-            lit = spec.get("literacy")
-            if lit is not None and lit not in LITERACY:
-                raise WorldError(
-                    f"{path.name}: {tag}: literacy {lit!r} is not one of "
-                    f"{sorted(LITERACY)}")
-            cap = spec.get("capital")
-            world.countries[tag] = Country(
-                tag=tag,
-                source=path.name,
-                color=spec.get("color"),
-                country_type=spec.get("country_type", "recognized"),
-                tier=spec.get("tier", "kingdom"),
-                cultures=_as_list(spec.get("cultures")),
-                religion=spec.get("religion"),
-                tech_tier=spec.get("tech_tier"),
-                literacy=lit,
-                capital=_qualify_state(cap),
-                market_capital=_qualify_state(spec.get("market_capital")),
-                name=spec.get("name"),
-                adjective=spec.get("adjective"),
-                name_tr=spec.get("name_tr"),
-                adjective_tr=spec.get("adjective_tr"),
-                religion_map=spec.get("religion_map") or {},
-                religion_split=spec.get("religion_split") or {},
-                culture_religion_split=spec.get("culture_religion_split") or {},
-                culture_map=spec.get("culture_map") or {},
-                overlord=spec.get("overlord"),
-                subject_type=spec.get("subject_type"),
-                liberty_desire=spec.get("liberty_desire"),
-                coat_of_arms=spec.get("coat_of_arms"),
-                is_named_from_capital=spec.get("is_named_from_capital"),
-                phase=str(spec["phase"]) if "phase" in spec else None,
-                notes=spec.get("notes"),
-            )
+        add_countries(world, _load_yaml(path), path)
+
+
+def add_countries(world: World, data: dict, path: Path) -> None:
+    for tag, spec in data.items():
+        if not isinstance(tag, str) or not tag.isupper() or not 2 <= len(tag) <= 4:
+            raise WorldError(f"{path.name}: {tag!r} is not a country tag")
+        if tag in world.countries:
+            raise WorldError(
+                f"{path.name}: {tag} already defined in "
+                f"{world.countries[tag].source}")
+        if not isinstance(spec, dict):
+            raise WorldError(f"{path.name}: {tag}: expected a mapping")
+        _reject_unknown(path, tag, spec, _COUNTRY_KEYS)
+        lit = spec.get("literacy")
+        if lit is not None and lit not in LITERACY:
+            raise WorldError(
+                f"{path.name}: {tag}: literacy {lit!r} is not one of "
+                f"{sorted(LITERACY)}")
+        cap = spec.get("capital")
+        world.countries[tag] = Country(
+            tag=tag,
+            source=path.name,
+            color=spec.get("color"),
+            country_type=spec.get("country_type", "recognized"),
+            tier=spec.get("tier", "kingdom"),
+            cultures=_as_list(spec.get("cultures")),
+            religion=spec.get("religion"),
+            tech_tier=spec.get("tech_tier"),
+            literacy=lit,
+            capital=_qualify_state(cap),
+            market_capital=_qualify_state(spec.get("market_capital")),
+            name=spec.get("name"),
+            adjective=spec.get("adjective"),
+            name_tr=spec.get("name_tr"),
+            adjective_tr=spec.get("adjective_tr"),
+            religion_map=spec.get("religion_map") or {},
+            religion_split=spec.get("religion_split") or {},
+            culture_religion_split=spec.get("culture_religion_split") or {},
+            culture_map=spec.get("culture_map") or {},
+            overlord=spec.get("overlord"),
+            subject_type=spec.get("subject_type"),
+            liberty_desire=spec.get("liberty_desire"),
+            coat_of_arms=spec.get("coat_of_arms"),
+            is_named_from_capital=spec.get("is_named_from_capital"),
+            phase=str(spec["phase"]) if spec.get("phase") is not None else None,
+            notes=spec.get("notes"),
+        )
+
 
 
 def _qualify_state(name):
@@ -230,67 +235,72 @@ def _qualify_state(name):
 
 def _load_states(world: World) -> None:
     for path in _yaml_files("states"):
-        for raw_name, spec in _load_yaml(path).items():
-            state = _qualify_state(raw_name)
-            if state in world.states:
+        add_states(world, _load_yaml(path), path)
+
+
+def add_states(world: World, data: dict, path: Path) -> None:
+    for raw_name, spec in data.items():
+        state = _qualify_state(raw_name)
+        if state in world.states:
+            raise WorldError(
+                f"{path.name}: {state} already defined in "
+                f"{world.states[state].source}")
+        # Shorthand: `STATE_X: TAG` means the whole state goes to TAG.
+        if isinstance(spec, str):
+            spec = {"owner": spec}
+        if not isinstance(spec, dict):
+            raise WorldError(f"{path.name}: {state}: expected a mapping or a tag")
+        _reject_unknown(path, state, spec, _STATE_KEYS)
+
+        shares: list = []
+        if "split" in spec:
+            if "owner" in spec:
                 raise WorldError(
-                    f"{path.name}: {state} already defined in "
-                    f"{world.states[state].source}")
-            # Shorthand: `STATE_X: TAG` means the whole state goes to TAG.
-            if isinstance(spec, str):
-                spec = {"owner": spec}
-            if not isinstance(spec, dict):
-                raise WorldError(f"{path.name}: {state}: expected a mapping or a tag")
-            _reject_unknown(path, state, spec, _STATE_KEYS)
-
-            shares: list = []
-            if "split" in spec:
-                if "owner" in spec:
+                    f"{path.name}: {state}: use either 'owner' or 'split', "
+                    f"not both")
+            for i, part in enumerate(spec["split"] or []):
+                if not isinstance(part, dict):
                     raise WorldError(
-                        f"{path.name}: {state}: use either 'owner' or 'split', "
-                        f"not both")
-                for i, part in enumerate(spec["split"] or []):
-                    if not isinstance(part, dict):
-                        raise WorldError(
-                            f"{path.name}: {state}: split[{i}] must be a mapping")
-                    _reject_unknown(path, f"{state}.split[{i}]", part, _SPLIT_KEYS)
-                    if "owner" not in part:
-                        raise WorldError(
-                            f"{path.name}: {state}: split[{i}] has no owner")
-                    rest = bool(part.get("rest"))
-                    provs = [str(p) for p in _as_list(part.get("provinces"))]
-                    if not rest and not provs:
-                        raise WorldError(
-                            f"{path.name}: {state}: split[{i}] needs 'provinces' "
-                            f"or 'rest: true'")
-                    shares.append(Share(part["owner"], provs, rest,
-                                        part.get("state_type")))
-                if sum(1 for s in shares if s.rest) > 1:
+                        f"{path.name}: {state}: split[{i}] must be a mapping")
+                _reject_unknown(path, f"{state}.split[{i}]", part, _SPLIT_KEYS)
+                if "owner" not in part:
                     raise WorldError(
-                        f"{path.name}: {state}: only one split part may be 'rest'")
-            elif "owner" in spec:
-                shares.append(Share(spec["owner"], [], True, spec.get("state_type")))
-            else:
-                raise WorldError(f"{path.name}: {state}: needs 'owner' or 'split'")
-
-            for key in ("pops", "buildings"):
-                val = spec.get(key, "inherit")
-                if val not in ("inherit", "drop"):
+                        f"{path.name}: {state}: split[{i}] has no owner")
+                rest = bool(part.get("rest"))
+                provs = [str(p) for p in _as_list(part.get("provinces"))]
+                if not rest and not provs:
                     raise WorldError(
-                        f"{path.name}: {state}: {key} must be 'inherit' or 'drop', "
-                        f"got {val!r}")
+                        f"{path.name}: {state}: split[{i}] needs 'provinces' "
+                        f"or 'rest: true'")
+                shares.append(Share(part["owner"], provs, rest,
+                                    part.get("state_type")))
+            if sum(1 for s in shares if s.rest) > 1:
+                raise WorldError(
+                    f"{path.name}: {state}: only one split part may be 'rest'")
+        elif "owner" in spec:
+            shares.append(Share(spec["owner"], [], True, spec.get("state_type")))
+        else:
+            raise WorldError(f"{path.name}: {state}: needs 'owner' or 'split'")
 
-            world.states[state] = StateSpec(
-                state=state,
-                source=path.name,
-                shares=shares,
-                pops=spec.get("pops", "inherit"),
-                buildings=spec.get("buildings", "inherit"),
-                homelands=_as_list(spec.get("homelands")),
-                claims=_as_list(spec.get("claims")),
-                phase=str(spec["phase"]) if "phase" in spec else None,
-                notes=spec.get("notes"),
-            )
+        for key in ("pops", "buildings"):
+            val = spec.get(key, "inherit")
+            if val not in ("inherit", "drop"):
+                raise WorldError(
+                    f"{path.name}: {state}: {key} must be 'inherit' or 'drop', "
+                    f"got {val!r}")
+
+        world.states[state] = StateSpec(
+            state=state,
+            source=path.name,
+            shares=shares,
+            pops=spec.get("pops", "inherit"),
+            buildings=spec.get("buildings", "inherit"),
+            homelands=_as_list(spec.get("homelands")),
+            claims=_as_list(spec.get("claims")),
+            phase=str(spec["phase"]) if spec.get("phase") is not None else None,
+            notes=spec.get("notes"),
+        )
+
 
 
 def _load_diplomacy(world: World) -> None:

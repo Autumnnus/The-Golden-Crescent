@@ -1,5 +1,25 @@
 # The Golden Crescent — toolchain
 
+## Senaryo Atlası — oyunu açmadan harita geliştir
+
+Yeni etkileşimli atlas ve LLM iş akışı: [LLM_MAP_WORKFLOW.md](LLM_MAP_WORKFLOW.md).
+Python **3.10+** gerekir; bağımlılıklar `tools/requirements.txt` içindedir.
+
+```bash
+.venv/bin/python tools/tgc.py atlas
+.venv/bin/python tools/tgc.py atlas --scenario tools/examples/ve_atlas_scenario.yml
+.venv/bin/python tools/tgc.py catalog --region 08_middle_east --out build/context.json
+.venv/bin/python tools/tgc.py map --scenario tools/examples/ve_atlas_scenario.yml --mode changes --data
+```
+
+Atlas tek HTML + JSON olarak `build/maps/` içine yazılır. Tarayıcıda eyalet/il seç,
+ülkeye ata, önce/sonra karşılaştır, geri al ve senaryoyu indir. JSON/YAML
+senaryoları bellekte uygulanır; `world/` veya oyun dosyalarına yazılmaz.
+Siyasi harita bölünmüş eyaletleri il bazında gösterir. `religion` sahibin devlet
+dinidir; `changes` il sahipliği farkıdır. `--baseline vanilla` mod–vanilla
+karşılaştırması, `--width 8192` ayrıntılı çıktı, `--borders province` il sınırları içindir.
+
+
 `world/*.yml` is the source of truth. Every generated game file is produced by
 `build` and **must never be edited by hand**: `build` deletes its own previous
 output on every run, so a hand-edit is silently lost.
@@ -24,7 +44,9 @@ this toolchain opens it for writing (`paths.assert_read_only` guards every write
 | `python tools/tgc.py check` | validate; **must be 0 errors before a phase is done** |
 | `python tools/tgc.py find <name>` | resolve a state region by any name, alias or province hex |
 | `python tools/tgc.py show <state>` | inspect one state: provinces, pops, buildings, vanilla owner |
-| `python tools/tgc.py map --mode <m>` | render `political`, `reference`, `religion` or `phase` |
+| `python tools/tgc.py map --mode <m>` | render `political`, `reference`, `religion`, `phase` or `changes` |
+| `python tools/tgc.py atlas` | offline interactive atlas + JSON context |
+| `python tools/tgc.py catalog --region <r>` | compact verified JSON context for LLMs |
 | `python tools/tgc.py index` | rebuild `build/index.json` — **after a Victoria 3 patch** |
 | `python tools/tgc.py geo` | rasterise `provinces.png` — **after a Victoria 3 patch** |
 | `python tools/tgc.py selftest` | regression-test the toolchain — run after touching `tools/` |
@@ -177,7 +199,7 @@ true of vanilla is not a bug we introduced; chasing one costs hours.
 | file | from | rebuild with |
 |---|---|---|
 | `index.json` | the whole vanilla install | `tgc.py index` |
-| `state_ids.npy`, `geo.json`, `state_adjacency.json` | `provinces.png` | `tgc.py geo` |
+| `state_ids.npy`, `province_codes.npy`, `geo.json`, `state_adjacency.json` | `provinces.png` | `tgc.py geo` |
 | `maps/*.png` | the two above | `tgc.py map` |
 
 Re-run `index` and `geo` after a Victoria 3 update.
@@ -195,6 +217,9 @@ Re-run `index` and `geo` after a Victoria 3 update.
 | `vic3/world.py` | load and validate `world/*.yml` |
 | `vic3/build.py` | resolved world → game files |
 | `vic3/check.py` | validation rules, with a vanilla baseline |
-| `vic3/mapdraw.py` | map rendering |
+| `vic3/mapdraw.py` | province-accurate PNG rendering |
+| `vic3/atlas.py` | shared map snapshot, offline HTML and LLM context |
+| `vic3/scenario.py` | validated in-memory scenario overlays |
+| `vic3/atlas_web/` | dependency-free interactive atlas UI |
 | `vic3/report.py` | `find` and `show` |
 | `crashinfo.py` | minidump → cause of a load crash |

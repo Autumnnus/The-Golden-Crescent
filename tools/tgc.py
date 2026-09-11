@@ -19,6 +19,9 @@ import argparse
 import sys
 from pathlib import Path
 
+if sys.version_info < (3, 10):
+    raise SystemExit("Python 3.10+ required. Use .venv/bin/python tools/tgc.py (see tools/README.md).")
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from vic3.paths import MOD, VANILLA          # noqa: E402
@@ -52,13 +55,25 @@ def main(argv=None) -> int:
 
     p_map = sub.add_parser("map", help="render a map")
     p_map.add_argument("--mode", default="political",
-                       choices=["political", "reference", "religion", "phase"])
+                       choices=["political", "reference", "religion", "phase", "changes"])
     p_map.add_argument("--region", default=None,
                        help="crop to a region: a state name, a state_regions file "
                             "stem, or 'world'")
     p_map.add_argument("--out", default=None)
     p_map.add_argument("--labels", action="store_true", default=True)
     p_map.add_argument("--no-labels", dest="labels", action="store_false")
+    p_map.add_argument("--borders", choices=["country", "state", "province", "none"], default="country")
+    p_map.add_argument("--data", action="store_true", help="also write LLM-readable JSON context")
+    p_atlas = sub.add_parser("atlas", help="build an offline interactive scenario atlas + JSON context")
+    p_atlas.add_argument("--region", default=None, help="world, state, region file, country tag or comma-separated selectors")
+    p_atlas.add_argument("--out", default=None, help="output .html path (JSON sidecar is automatic)")
+    p_catalog = sub.add_parser("catalog", help="export verified map context as JSON for an LLM")
+    p_catalog.add_argument("--region", default=None)
+    p_catalog.add_argument("--out", default=None, help="default: JSON to stdout")
+    for parser in (p_map, p_atlas, p_catalog):
+        parser.add_argument("--scenario", default=None, help="preview a version 1 YAML/JSON overlay without editing world/")
+        parser.add_argument("--baseline", choices=["world", "vanilla"], default="world")
+        parser.add_argument("--width", type=int, default=4096 if parser is p_atlas else 3200)
 
     sub.add_parser("paths", help="print the resolved directories")
     sub.add_parser("selftest", help="regression-test the toolchain itself")
@@ -106,7 +121,29 @@ def main(argv=None) -> int:
     if args.cmd == "map":
         from vic3 import mapdraw
         return mapdraw.render(mode=args.mode, region=args.region,
-                              out=args.out, labels=args.labels)
+                              out=args.out, labels=args.labels, width=args.width,
+                              scenario_path=args.scenario, baseline=args.baseline,
+                              borders=args.borders, data=args.data)
+
+    if args.cmd == "atlas":
+        from vic3.atlas import export_atlas
+        return export_atlas(region=args.region, out=args.out, width=args.width,
+                            scenario_path=args.scenario, baseline=args.baseline)
+
+    if args.cmd == "catalog":
+        import contextlib
+        import json
+        from vic3.atlas import Snapshot, write_output
+        with contextlib.redirect_stdout(sys.stderr):
+            snap = Snapshot(args.scenario, args.baseline)
+            data = snap.llm_context(snap.viewport(args.region, args.width))
+        payload = json.dumps(data, ensure_ascii=False, indent=2)
+        if args.out:
+            write_output(args.out, payload)
+            print(f"wrote {args.out}")
+        else:
+            print(payload)
+        return 0
 
     ap.error(f"unknown command {args.cmd}")
     return 2
@@ -117,3 +154,6 @@ if __name__ == "__main__":
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
+    except (ValueError, RuntimeError, OSError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        raise SystemExit(2)

@@ -1,0 +1,10 @@
+# Arac onbellegi ve render ciktilari - vanilla'dan yeniden uretilebilir
+/build/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+/.idea/workspace.xml
+_bisect_off/

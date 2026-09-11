@@ -1,146 +1,834 @@
-## İslamın Altın Çağını Koruması:
+# Victoria III: İçtihat Çağı
 
-- Moğol İstilalarının Durdurulması (1258): Gerçek tarihte Hülagü Han'ın Bağdat'ı yağmalaması ve Abbasi Halifeliği'ne son vermesi, Altın Çağ'ın sembolik sonu olarak kabul edilir. Sizin senaryonuzda, Halife Mustasım'ın ordusu Moğolları Bağdat önlerinde ezici bir yenilgiye uğratabilir. Bu zafer, sadece halifeliği kurtarmakla kalmaz, aynı zamanda İslam dünyasına muazzam bir özgüven ve istikrar aşılar.
-- Mutezile'nin Zaferi: 9. ve 10. yüzyıllarda İslam düşüncesinde akılcılığı ve felsefeyi ön planda tutan Mutezile ekolü, zamanla etkisini yitirmişti. Sizin alternatif evreninizde Mutezile, Eş'arilik karşısında kalıcı bir zafer kazanarak devletin resmi ideolojisi haline gelebilir. Bu, bilimsel ve felsefi araştırmaların kesintisiz devam etmesini sağlardı.
-- Gırnata Emirliği'nin 1492'de yıkılması yerine, Endülüs Emevileri veya benzeri bir devlet İber Yarımadası'ndaki varlığını sürdürür ve Reconquista'yı (Yeniden Fetih) püskürtür. Bu, Avrupa ile İslam dünyası arasında bambaşka bir güç dengesi yaratırdı.
+## Alternatif Tarih Total Conversion Senaryosu
 
-## Devletler
+### Başlangıç tarihi: 1836
 
-Ortadoğu Devletleri:
-1. Mısır Ticaret İmparatorluğu (Kahire Sultanlığı)
+## 1. Dünyanın Temel Durumu
 
-Kimdir?: Osmanlıların hiç gelmediği bir dünyada, Memlük Sultanlığı hayatta kaldı ve reforme oldu. Belki de Kavalalı gibi bir hanedan yine iktidarı ele geçirdi ama çok daha istikrarlı bir devletin başına geçti. Bu devlet, deniz ticaretine ve donanmaya odaklanmış bir imparatorluktur.
-Başkent: Kahire
-Karakteri: Denizci ve Merkantilist. İngiltere'nin oyun başlangıcındaki rolüne benzer. Güçlü bir donanması, Akdeniz ve Kızıldeniz'de ticaret kolonileri (Yemen ve doğu afrika kıyıları) var. Sanayileşmeyi finanse edecek sermayeye sahipler.
-Din: Geleneksel İslam
-Olaylar: Büyük islam reformun savaşında Türkler ve Farslara karşı büyük yenilgiye uğramıştır. Suriye, Filistinde ve Doğu akdeniz adalarında egemen topraklarını kaybetmiştir.
+Bu evrende İslam dünyasının Altın Çağı sona ermemiştir. Bağdat’ın bilimsel kurumları tamamen yok olmamış, Endülüs varlığını korumuş ve Anadolu Selçukluları Moğol istilasından sonra parçalanmamıştır.
 
-2. Rum İmparatorluğu
+Ancak bu durum İslam dünyasının birleşik veya barışçıl olduğu anlamına gelmez.
 
-Kimdir?: Moğol istilasıyla zayıflamayan Anadolu Selçuklu Devleti, varlığını sürdürdü ve Anadolu'yu tek bir bayrak altında birleştirdi.  Balkanlar'da da bir miktar genişledi. Bu devlet, bürokrasiye ve kara ordusuna dayalı merkeziyetçi bir yapıdır.
-Başkent: Konstantiniyye
-Karakteri: Askeri ve Bürokratik. Prusya/Almanya'ya benzer bir rol. Disiplinli, büyük bir ordusu ve organize bir devlet yapısı var. Anadolu'nun zengin maden ve tarım kaynaklarına sahipler.
-Din: Reformize olmuş islam
-Olaylar: Farslarla Mısırı yendikten sonra doğu akdenizde iyi bir toprak kazanımı sağlamıştır ama aynı zamanda avrupa koalisyonuna ve farslarla ortadoğuda büyük bir mücadeleye girmiştir. Taht savaşınında etkili olunca kuzey balkanlardan (macaristan, bosna, hırvatistan, romanya'dan püskürtülmüştür. Balkanları türkleştirme ve müslümanlaştırmada önemli rol oynamıştır. Akdenizde Malta ve sicilyada küçük toprak parçaları vardır. Koloni yarışına geç kalmıştır. O yüzden fas ile bir liman satın alarak yeni dünyaya açılma isteği vardır.
+Bilimsel gelişmenin devam etmesi, İslam dünyasında büyük bir düşünsel dönüşüme yol açmıştır. Dinî otoritenin, hukukun, bilimin ve devlet yönetiminin nasıl düzenlenmesi gerektiği üzerine başlayan tartışmalar, yüzyıllar süren reform hareketlerine ve savaşlara dönüşmüştür.
 
-3. Pers Bilim Devleti (İsfahan Sultanlığı)
+1836 yılında dünyanın ekonomik ve bilimsel merkezi hâlâ Akdeniz, Orta Doğu ve Orta Asya çevresindedir. Avrupa devletleri ise feodal düzenden çıkmaya, doğudaki devletlerin teknolojilerini öğrenmeye ve dünya ticaretinden daha fazla pay almaya çalışmaktadır.
 
-Kimdir?: Safevilerin yükselmediği İran'da, Altın Çağ'ın bilimsel mirasını sahiplenen yerli bir Pers hanedanı (örneğin Ziyariler veya Samanilerin bir devamı) iktidarda. Bu devlet, eğitime, bilime ve teknolojiye yatırım yapmış bir güçtür.
-Başkent: İsfahan
-Karakteri: Teknolojik ve Kültürel. Fransa'ya benzer bir rol. Okuryazarlık oranı en yüksek olan devlet. Gelişmiş üniversitelere ve bilimsel kurumlara sahip.
-Din: Reformize olmuş islam
-Olaylar: Türklerle beraber Mısırı Din savaşlarında yenmiştir. Hormuzu ele geçirmiştir ama savaşta istediğini alamayınca Irak ve doğu anadolu üzerinden türklere savaş açmıştır. Büyük savaşta kazananı olmayınca kendi tebaa devletleri isyanı sonucunda yıkıcı bir sebep olmuştur. Kuzey ırakta kürt devleti, Irakta basra devleti bağımsız kalmıştır. Tebriz ve Horasan hala bağımlı olmaya devam etmiştir lakin isyankar durumdalar. Mısıra göre doğu da koloni yarışında geri kalmıştır. Endonezyayı koloni etmeye çalışıyordur
+Dünya yeni bir sanayi çağının eşiğindedir.
 
-4. Basra Devleti
+---
 
-   Kimdir?: Farslardan bağımsızlığını kazanan Irak kökenli devlet
-   Başkent: Basra
-   Karakteri: Teknolojik, bilim ve Kültürel
-   Din: Reformize olmuş islam ve geleneksel islam karışımı
+# 2. Tarihsel Kırılma Noktaları
 
-#### Küçük bağımsız devletler:
-Hicaz ve Mekke: Kutsal toprakları kontrol eder ve Halife'nin koruması altındadır.
-Yemen ve Umman: Denizci küçük devletler.
-Filistin, Suriye: Mısırdan bağımsızlığını kazanmışlardır
-Adana, Erzurum ve Trabzon: Doğuda ki savaştan yıpranan rum imparatorluğundan ayrılan atabeylikler
+## 1212 – Endülüs'ün Zaferi
 
+Endülüs ve Mağrip orduları Las Navas de Tolosa Savaşı’nı kazanır. Kastilya ve Aragon’un güneye ilerleyişi durdurulur.
 
-### Avrupa Devletleri:
+Endülüs, ilerleyen yüzyıllarda Kurtuba merkezli federal bir devlete dönüşür. Müslüman, Hristiyan ve Yahudi topluluklar arasında kırılgan fakat kalıcı bir siyasi denge kurulur.
 
-1. Kutsal Roma İmparatorluğu
+## 1243 – Rum Selçuklularının Kurtuluşu
 
-İçindeki yüzlerce prenslikler artık imparatorun çoğuna hakim olmuştur. Avrupanın hasta adamıdır. 4 bir yandan saldırılara zor dayanıyor. İmparator Bavyeradır. Habsburglar bu evrende başarılı olamamıştır. Reforma karşı mağlup olmuştur. İmparatorluğun bir kısmı protestanlara ait. En büyük düşmanı Polonya ve Türklerdir.
+Anadolu Selçuklu Devleti, Köse Dağ’da Moğollara karşı yenilmez. Anadolu’daki merkezî devlet yapısı korunur ve büyük beylikler dönemi yaşanmaz.
 
-2. İber Yarımadası: Tersine Çevrilmiş Reconquista
+Osmanlı Beyliği hiçbir zaman yükselmez.
 
-Endülüs Sultanlığı: Yarımadanın güney ve orta kısımlarına hakim, başkenti Kurtuba (Cordoba) olan zengin ve güçlü bir devlet. Avrupa standartlarının çok üzerinde bir teknolojiye ve okuryazarlığa sahip. Atlantik'te güçlü bir donanması var ve belki de Yeni Dünya'da ("Magrib el-Aqsa" - En Batıdaki Batı dedikleri) kolonileri bulunuyor.
-Hristiyan Krallıkları: İspanya ve Portekiz hiç birleşememiştir. Yarımadanın kuzeyindeki dağlık bölgelere sıkışmış, fakir ama fanatik León Krallığı ve Aragon Krallığı bulunur. Tek varoluş amaçları Endülüs'e karşı "kutsal savaş" yürütmektir.
+Selçuklu devleti zamanla Anadolu, Balkanlar ve Doğu Akdeniz’e yayılan çok uluslu **Rûm İmparatorluğu’na** dönüşür.
 
-3. Fransa: Birleşememiş Krallık
+## 1258 – Bağdat İttifakı
 
-Kral, Paris ve çevresini kontrol ederken, Burgonya Dükalığı, Bretonya Dükalığı ve Akitanya Dükalığı gibi büyük feodal beylikler hala yarı bağımsızdır ve sık sık krala isyan ederler. Fransa bir "Büyük Güç" adayıdır ama tüm enerjisini kendi iç birliğini sağlamaya harcar. İslamın yükselişinden dolayı katolikler kendi içinde daha güçlenmiştir bu yüzden feodal ve orta çağdan geç çıkmışlardır.
+Abbasi Halifeliği, Rum Selçukluları, Mısır, İran devletleri ve Mezopotamya emirlikleri Hülagü Han’a karşı geçici bir ittifak kurar.
 
-4. İtalyan Yarımadası: Rönesans'ın Beşiği Değil, Savaş Alanı
+Moğollar tamamen yok edilmez ancak Bağdat’ı ele geçiremezler. Şehir zarar görse de kütüphaneleri, rasathaneleri ve eğitim kurumları korunur.
 
-Durum: Doğu ile ticareti Mısır ve Endülüs kontrol ettiği için Venedik ve Ceneviz gibi şehir devletleri asla zenginleşememiştir. Rönesans'ı finanse edecek sermaye birikmemiştir.
-Karakteri: Kuzeyde Milano, Savoy gibi birbiriyle savaşan küçük devletler. Ortada, siyasi entrikalara odaklanmış ama kültürel olarak sönük bir Papalık Devleti.  Güneyde Sicilya-Sardinya Emirliği bulunmaktadır. Onların rakibi Napoli Krallığı vardır.
+Bağdat’ın kurtarılması sonucunda bilim tek bir merkeze bağlı kalmaz. Kurtuba, Kahire, Konya, Tebriz, İsfahan, Buhara, Semerkant ve Kaşgar arasında uluslararası bir akademik ağ oluşur.
 
-5. Britanya Adaları: İzole ve Hırslı Krallık
+## 1490 – Batı Denizlerinin Keşfi
 
-Durum: Coğrafi izolasyonu sayesinde Avrupa'daki kaosun bir kısmından kurtulmuştur. Belki de Doğu'nun ileri teknolojisini taklit ederek kendi sanayi devrimini başlatmaya çalışan ilk Avrupa ülkesidir.
-Karakteri: Doğu'dan gelen lüks mallara bağımlı olmaktan rahatsız, agresif bir merkantilist krallık. Donanmasını, Endülüs ve Mısır'ın ticaret tekelini kırmak ve kendi denizaşırı imparatorluğunu kurmak için kullanmaya çalışır. Doğu güçlerine karşı en büyük potansiyel rakip olabilir.
+Endülüslü denizciler Atlas Okyanusu’nu aşarak Karayipler ve Orta Amerika kıyılarına ulaşır.
 
-6. Kuzey ve Doğu Avrupa: Kenardaki Güçler
+Endülüs, yerli devletleri tamamen ortadan kaldırmak yerine onları vergi, ticaret ve bağlılık anlaşmalarıyla kendi sömürge sistemine dâhil eder.
 
-Kalmar Birliği: Danimarka, Norveç ve İsveç'in birliği, Kutsal Roma İmparatorluğu'nun kaosuna ve Polonya'nın Baltık'taki potansiyel etkisine karşı bir savunma mekanizması olarak varlığını sürdürmektedir. Baltıkları Polonyaya karşı kazanmıştır.
-Polonya-Litvanya Birliği: Osmanlı tehdidi olmadan, ana rakibi batıdaki Kutsal Roma İmparatorluğu'dur. Geniş topraklara sahip ama teknolojik olarak geri, güçlü soyluların (Szlachta) kralın otoritesini sınırladığı bir devlettir.
-Moskova: Bu evrendeki en kötü durumda olan devlettir. Rusya birleşememiştir. Güneyde Tatar devletleri, Batıda Polonya ve Kuzeyde Kalmar birliği ile mücadelesinden ötürü güçsüz kalmıştır.
-Kırım ve Tatar Hanlığı: Karadenizin kuzeyini yöneten kırım hanlığı varlığını korumuştur. Tatar hanlığı ise ruslara karşı kaybetmemiş aksine kazanmıştır. Rusların doğuya ilerlemesi engellenmiştir. Sibirya yavaştan kolonize ediliyor
+Bu sistem daha az yıkıcı görünmesine rağmen ekonomik sömürüye, zorunlu çalışmaya ve kültürel baskılara dayanır.
 
-7. Kafkasya
+## 1540-1630 – İçtihat Hareketinin Doğuşu
 
-Gürcistan: İslama karşı kendini koruyabilen nadir ülkedir. Gürcistan ve erivanı kontrol ediyor
-Bakü: Farslardan bağımsız azeri devleti
-Çerkez ve Dagestan: Rusyanın olmadığı ama tatar baskısı olan bağımsız 2 müslüman devlet
+Anadolu ve İran’daki düşünürler, geleneksel dinî yorumların sorgulanamayacağı fikrine karşı çıkar.
 
-### Yeni Dünya:
-Kolonizasyon gerçek evrene göre daha geç başlamıştır
+Hareketin temel ilkeleri şunlardır:
 
-1. Endülüs Sömürge İmparatorluğu (Andalus al-Jadida - Yeni Endülüs)
+- Taklit yerine içtihat
+- Bilimsel bilginin dinle çelişmediği düşüncesi
+- Kutsal metinlerin yerel dillere çevrilmesi
+- Ulemanın siyasi otoritesinin sınırlandırılması
+- Devlet hukukunun değişen toplumsal şartlara uyarlanması
 
-   Kim Keşfetti?: Atlantik'e kıyısı olan, gelişmiş astronomi ve denizcilik bilgisine sahip Endülüs Sultanlığı, 15. yüzyılın sonlarında okyanusu aşan ilk güç oldu.
-   Kontrol Ettiği Bölgeler: Karayipler ("Cezair'ül-Lü'lü" - İnci Adaları), günümüz Meksika'sı ve Orta Amerika. Aztek ve İnka gibi imparatorluklarla karşılaştılar.
-   Sömürgecilik Tarzı: İspanyolların aksine, amaçları tüm kültürü yok etmekten ziyade, var olan yönetim yapılarını kendi sistemlerine entegre etmek oldu. Yerel soyluları "Emir" veya "Vali" olarak atadılar, İslam'a geçişi teşvik ettiler ancak zorlamadılar ve vergi/haraç sistemini kurdular. Büyük şehirler (Tenochtitlan, Kurtuba al-Jadida olarak yeniden isimlendirilebilir) hala ayaktadır ama artık camileri ve medreseleri vardır. Nüfus, Endülüslü Araplar, Berberiler ve yerli halkın melezleşmesiyle oluşan yeni bir kimliğe sahiptir.
-   Ekonomi: Gümüş madenleri, şeker plantasyonları ve değerli tarım ürünleri üzerine kurulu.
+Bu düşünceler özellikle Türkler, Farslar ve Orta Asya halkları arasında yayılır.
 
-2. İngiliz Kolonileri (Kuzey Atlantik Şirketi)
+## 1664-1712 – Büyük İçtihat Savaşları
 
-Geç Kalan Oyuncu: Avrupa'nın hırslı ama görece zayıf gücü İngiltere, Doğu'nun zenginliğine ulaşamayınca kendine yeni bir yol aradı. Endülüs ve Mısır'ın "değersiz" bulduğu kuzey bölgelerine göz diktiler.
-Kontrol Ettiği Bölgeler: Günümüz ABD'sinin Doğu Kıyısı (New England ve Virginia bölgeleri).
-Sömürgecilik Tarzı: Dini ve ekonomik baskıdan kaçan Avrupalıların yerleştiği, küçük çiftlikler ve kasabalar üzerine kurulu koloniler. Endülüs ve Mısır'ın merkeziyetçi sömürgelerinin aksine, daha bağımsız ve kendi kendine yeten bir yapıları var. Yerli halkla ilişkileri ise genellikle çatışmalı.
+Mısır ve Hicaz merkezli gelenekçi devletler, reform hareketlerinin yayılmasını durdurmak için savaş başlatır.
 
-3. Nordic Koloniler
+Rûm İmparatorluğu ve İran devletleri reformist ittifakın başını çeker. Endülüs doğrudan savaşa katılmasa da reformistlere ekonomik ve diplomatik destek verir.
 
-Günümüz kanada ve grönland ı nordlu kolonistler tarafından kolonize edildi
+Savaş, Mısır’ın yenilgisiyle sonuçlanır.
 
-4. Yerli İmparatorlukların Durumu
+## 1712 – Şam Antlaşması
 
-Aztek ve İnka: Askeri olarak yenilgiye uğradılar ve veba gibi hastalıklar yüzünden nüfusları kırıldı. Ancak kültürleri ve halkları, Endülüs yönetim sistemi içinde bir alt tabaka olarak da olsa varlıklarını sürdürüyor. Victoria 3'te "Asimile Olmuş" veya "Ayrımcılığa Uğrayan" popülasyonlar olarak temsil edilebilirler.
-Kuzey Amerika Kabileleri: İngiliz yerleşimcilerin sürekli genişlemesi karşısında sürekli savaş halindeler.
+Mısır:
 
-5. Yeni Bursa (Florida)
+- Suriye üzerindeki hâkimiyetini kaybeder.
+- Filistin’deki etkisini sınırlandırır.
+- Doğu Akdeniz adalarının bir kısmını Rûm İmparatorluğu’na bırakır.
+- Reformist mezhepleri resmen tanımak zorunda kalır.
 
-Türklerin koloniye geç katılmasından ötürü florida'ya ilk kolonileri oluşturdular.
+Mısır yenilmiş olmasına rağmen donanmasını ve ticaret imparatorluğunu korur.
 
-6.  Fas Brezilyası
+## 1778-1804 – Rûm-İran Büyük Savaşı
 
-Endülüsten bağımsız olan faslar brezilyada yeni koloni devleti kurmaktalar
+Eski müttefikler Rûm ve İran; Irak, Kafkasya, Doğu Anadolu ve Basra Körfezi üzerinde hâkimiyet kurmak için savaşa girer.
 
-7. Mısır Kolonileri: Doğu afrikada kolonileri bulunmaktadır. Ayrıca yavaştan avusturalyayı kolonize etmekteler.
+Savaşın kesin bir kazananı olmaz.
 
-8. Baharat Kolonisi: Farslar tarafından endonezyada kurulan koloni devleti. Farslar koloniye geç kalmıştır.
+İki devlet ekonomik olarak tükenir. İran’ın tebaa devletleri isyan ederken Rûm İmparatorluğu’nun doğu eyaletlerinde merkezî otorite zayıflar.
 
-### Asya:
+## 1804-1815 – İran Konfederasyonunun Kuruluşu
 
-Uygur Hanlığı: İpek yolu ve diğer ticaret yollarından kazanç sağlayan ticaret devletidir. Moğolistan ve Orta asyada önemli toprakları vardır.
+İsfahan merkezli eski Pers Bilim Devleti çöker.
 
+Tebriz, Horasan, Kirman ve diğer bölgesel yönetimler geniş özerklik kazanır. İran tamamen dağılmamak için gevşek bir konfederasyona dönüştürülür.
 
+Basra, Kürdistan ve Bakü bağımsızlıklarını kazanır.
 
-### İslam Reformu:
-1. Temel Fikir ve Reformun Doğuşu (16. Yüzyıl)
+## 1818-1827 – Rûm Taht Savaşı
 
-Avrupa'daki Protestan Reformu'na benzer şekilde, 16. yüzyılda İslam dünyasında da bir aydınlanma ve sorgulama hareketi başlar. Bu hareketin temelinde yatan fikirler şunlardır:
+Rûm İmparatorluğu’nda yaşanan veraset krizi sırasında Polonya, Kutsal Roma İmparatorluğu ve Balkan devletlerinden oluşan bir koalisyon savaşa müdahale eder.
 
-    Taklit'e Karşı İçtihat: Yüzyıllardır süregelen fıkıh okullarının (mezheplerin) körü körüne taklit edilmesine ("Taklit") karşı, Kur'an ve Sünnet'in akıl ve vicdan ışığında yeniden yorumlanması ("İçtihat") gerektiği savunulur.
-    Aracılara Reddiye: Halifelik, tarikat şeyhleri ve geleneksel ulema sınıfının, Allah ile kul arasına giren aracılar olduğu fikri eleştirilir. Herkesin kutsal metinleri kendi dilinde okuyup anlayabileceği savunulur.
-    Akıl ve Bilim Vurgusu: İslam'ın ilk yüzyıllarındaki bilimsel ve felsefi ruha geri dönme çağrısı yapılır. Bilimsel keşiflerin, Tanrı'nın ayetlerini anlamanın bir yolu olduğu vurgulanır.
+Rûm orduları kuzey Balkanlardan çekilmek zorunda kalır.
 
-Bu fikirler, özellikle siyasi ve kültürel olarak Arap dünyasından farklı bir kimliğe sahip olan İran ve Anadolu'da hızla yayılır.
-2. Büyük Bölünme: "Mushafiyyun" vs. "Taklidiyyun"
+Adana, Erzurum ve Trabzon’daki atabeylikler merkezden uzaklaşır.
 
-Bu reform hareketi, İslam dünyasını ikiye böler. Bu, Sünni-Şii ayrımından daha derin, felsefi bir bölünmedir.
+## 1836 – Sanayi Çağının Başlangıcı
 
-    Reformistler (Mushafiyyun - "Kitap Ehli" veya "Akılcılar"): Sadece Kur'an'ı ve aklı temel alan, yenilikçi ve ilerici grup. Merkezleri İran ve Anadolu'dur.
-    Gelenekçiler (Taklidiyyun - "Takipçiler"): Geleneksel mezhepleri, ulema otoritesini ve yerleşik düzeni savunan muhafazakar grup. Merkezleri Mısır (El-Ezher Üniversitesi) ve kutsal şehirlerin bulunduğu Hicaz'dır.
+Rûm kaybettiği gücünü yeniden kurmak, Mısır eski topraklarını geri almak, İran ise konfederasyonu bir arada tutmak istemektedir.
 
-Bu bölünme, Avrupa'daki 30 Yıl Savaşları'na benzer kanlı ve uzun süren "İnanç Savaşları"na yol açar. Farlar ve Türkler bir olup Mısırlılara karşı savaşır ve mağlup eder. Ortadoğuda reform yayılması başlar.
+Endülüs kolonilerini kontrol etmekte zorlanırken Avrupa devletleri hızla sanayileşmeye başlamıştır.
+
+---
+
+# 3. İslam Dünyasındaki Dinî Akımlar
+
+## Müçtehidiyye
+
+Anadolu, Balkanlar, Orta Asya ve Gurkanî devletlerinde yaygındır.
+
+Temel özellikleri:
+
+- İçtihat hakkını savunur.
+- Devlet hukukunun dinî hukuktan kısmen ayrılmasına izin verir.
+- Bilimsel ve teknik eğitime önem verir.
+- Dinî makamların doğrudan siyasi yönetimini reddeder.
+
+Rûm İmparatorluğu’nun resmî mezhebidir.
+
+## İrfaniyye
+
+İran devletlerinde yaygın olan reformist Şii gelenektir.
+
+Felsefe, tasavvuf, bilim ve hukuk arasında bir sentez kurmaya çalışır. İran’daki üniversiteler ve bilim akademileri üzerinde güçlü etkisi vardır.
+
+## Hikmetiyye
+
+Endülüs’e özgü çoğulcu reform hareketidir.
+
+Müslüman, Hristiyan ve Yahudi toplulukların aynı siyasi yapı içinde yaşayabileceğini savunur. Şehirli tüccarlar, akademisyenler ve bürokratlar arasında güçlüdür.
+
+## Taklidiyye
+
+Mısır, Hicaz ve Arabistan’da yaygındır.
+
+Geleneksel mezhepleri, ulema otoritesini ve halifelik kurumunu savunur. Teknolojiye karşı değildir ancak sosyal ve hukuki reformların dinî otorite tarafından denetlenmesini ister.
+
+---
+
+# 4. Üç Minber Krizi
+
+İslam dünyasında kabul edilmiş tek bir dinî liderlik bulunmamaktadır.
+
+## Kahire Halifeliği
+
+Mısır tarafından desteklenir. Halifenin Müslüman devletler üzerinde dinî ve siyasi otoriteye sahip olması gerektiğini savunur.
+
+## Kurtuba Halifeliği
+
+Endülüs tarafından desteklenir. Halifeliği doğrudan yönetim makamı yerine bilim, hukuk ve kültür liderliği olarak görür.
+
+## İçtihatçı Düzen
+
+Rûm ve İran devletleri evrensel halifelik fikrini reddeder. Dinî otoritenin ulusal veya bölgesel kurumlara bağlı olması gerektiğini savunur.
+
+Bu üç anlayış arasındaki mücadele, 1836 sonrasında yeni bir büyük savaşa dönüşebilir.
+
+---
+
+# 5. Başlıca Devletler
+
+## Rûm İmparatorluğu
+
+**Başkent:** Konstantiniyye
+**Tarihî merkez:** Konya
+**Din:** Müçtehidiyye
+**Yönetim:** Bürokratik meşrutî imparatorluk
+
+Rûm İmparatorluğu Anadolu Selçuklularının devamıdır. Türk yönetici hanedanına sahip olmasına rağmen Türkler, Rumlar, Ermeniler, Bulgarlar, Arnavutlar, Slavlar ve Kürtler imparatorluk içinde yaşamaktadır.
+
+### Güçlü yönleri
+
+- Büyük ve deneyimli kara ordusu
+- Gelişmiş bürokrasi
+- Anadolu’nun maden ve tarım kaynakları
+- Konstantiniyye ve Selanik gibi büyük ticaret merkezleri
+- Yüksek askerî teknoloji
+
+### Sorunları
+
+- Balkan milliyetçiliği
+- Rum ve Türk seçkinler arasındaki rekabet
+- Gelenekçi din adamlarının reform karşıtlığı
+- Ayrılıkçı doğu atabeylikleri
+- İran ve Mısır ile süren rekabet
+- Zayıf sömürge imparatorluğu
+
+### Başlangıç hedefleri
+
+- Adana, Erzurum ve Trabzon’u yeniden bağlamak
+- Balkan halklarına vatandaşlık vermek veya zorla merkezîleştirmek
+- Rûm-İran sınırını güvence altına almak
+- Yeni Bursa kolonisini geliştirmek
+- Akdeniz hâkimiyetini yeniden kurmak
+
+---
+
+## Mısır Sultanlığı
+
+**Başkent:** Kahire
+**Din:** Taklidiyye
+**Yönetim:** Merkezî askerî sultanlık
+
+Mısır, Arap dünyasının en güçlü devletidir. Büyük İçtihat Savaşları’nda yenilmiş olmasına rağmen ekonomik ve askerî gücünü korumuştur.
+
+Mısır gelenekçi fakat teknolojik olarak geri değildir. Kahire ve İskenderiye gelişmiş bilim, ticaret ve denizcilik merkezleridir.
+
+### Güçlü yönleri
+
+- Güçlü donanma
+- Akdeniz ve Kızıldeniz ticareti
+- Yüksek devlet geliri
+- Kahire Halifeliğinin sağladığı meşruiyet
+- Doğu Afrika’daki ticaret üsleri
+
+### Sorunları
+
+- Suriye ve Filistin’de kaybedilen nüfuz
+- Reformist azınlıklar
+- Ordu ile ulema arasındaki güç mücadelesi
+- Hicaz üzerindeki pahalı koruma yükümlülüğü
+- Rûm ve İran’a karşı rövanşizm
+
+### Başlangıç hedefleri
+
+- Suriye ve Filistin’i yeniden kontrol etmek
+- Arap devletlerini Kahire etrafında birleştirmek
+- Halifeliğin otoritesini güçlendirmek
+- Doğu Afrika ve Hint Okyanusu ticaretini genişletmek
+
+---
+
+## İran Şahlıkları Konfederasyonu
+
+**Ortak merkez:** İsfahan
+**Din:** İrfaniyye
+**Yönetim:** Gevşek hanedan konfederasyonu
+
+İran tek bir devlet değildir. Şahlıklar ortak savunma, ticaret ve bilim kurumlarıyla birbirlerine bağlıdır.
+
+### Konfederasyon üyeleri
+
+- İsfahan Şahlığı
+- Tebriz Hanlığı
+- Horasan Devleti
+- Mazenderan Şahlığı
+- Kirman Emirliği
+- Luristan
+- Huzistan
+
+### Konfederasyon dışındaki eski İran bölgeleri
+
+- Basra Devleti
+- Kürdistan Emirliği
+- Bakü Hanlığı
+- Belucistan devletleri
+
+### Güçlü yönleri
+
+- Yüksek okuryazarlık
+- Gelişmiş üniversiteler
+- Kimya, metalürji ve mühendislik geleneği
+- İpek ve kara ticaret yolları
+- Büyük nüfus ve kaynak potansiyeli
+
+### Sorunları
+
+- Zayıf merkezî yönetim
+- Şahlar arasındaki rekabet
+- Tebriz ve Horasan’ın bağımsızlık eğilimleri
+- Basra Körfezi’ne sınırlı erişim
+- Rûm ile sınır anlaşmazlıkları
+
+### Başlangıç hedefleri
+
+- Konfederasyonu federal devlete dönüştürmek
+- İsfahan merkezli imparatorluğu yeniden kurmak
+- Şahlıkların tamamen bağımsız olmasına izin vermek
+- Basra ve Bakü’yü konfederasyona geri almak
+
+---
+
+## Endülüs Devleti
+
+**Başkent:** Kurtuba
+**Din:** Hikmetiyye
+**Yönetim:** Federal meşrutî halifelik
+
+Endülüs, İberya’nın güneyini ve merkezini kontrol eden dünyanın en büyük deniz ve sömürge güçlerinden biridir.
+
+### Güçlü yönleri
+
+- Gelişmiş donanma
+- Yüksek okuryazarlık
+- Büyük Amerika kolonileri
+- Atlantik ticaretindeki üstünlük
+- Çok kültürlü şehirler
+
+### Sorunları
+
+- Kolonilerde bağımsızlık hareketleri
+- Berberi ve Endülüslü seçkinler arasındaki rekabet
+- Yerli halkların ağır vergilendirilmesi
+- Kölelik ve zorunlu çalışma tartışmaları
+- Kuzeydeki Hristiyan krallıklar
+- İngiliz ve Hollandalı rakipler
+
+### Başlangıç hedefleri
+
+- Kolonileri federasyona dönüştürmek veya doğrudan yönetmek
+- İberya’yı tamamen birleştirmek
+- Köleliği kaldırmak veya sömürge ekonomisini korumak
+- Kurtuba Halifeliğinin etkisini genişletmek
+
+---
+
+## Lehistan-Litvanya Birliği
+
+Lehistan Avrupa’nın en reformist devletidir ancak tam anlamıyla sanayileşmiş değildir.
+
+Rûm, Tatar ve Karadeniz devletlerinden aldığı askerî ve idari fikirleri kendi sistemine uyarlamıştır.
+
+### Özellikleri
+
+- Güçlü meclis
+- Dinî hoşgörü
+- Profesyonel ordu
+- Geniş fakat tarımsal ekonomi
+- Güçlü toprak soyluları
+- Avrupa ortalamasının üzerinde okuryazarlık
+
+Lehistan’ın amacı Avrupa’nın modernleşmesine liderlik etmek ve Kutsal Roma İmparatorluğu üzerindeki etkisini artırmaktır.
+
+---
+
+## Uygur Hanlığı
+
+**Başkent:** Kaşgar
+**Din:** Müçtehidiyye
+
+Uygur Hanlığı Doğu Türkistan’ı, Moğolistan’ın batısını ve Çin’in bazı batı bölgelerini kontrol eder.
+
+İpek Yolu’nun en önemli ticaret devletidir.
+
+### Güçlü yönleri
+
+- Çin ve İslam dünyası arasındaki ticaret
+- Gelişmiş şehir kültürü
+- Hareketli süvari ordusu
+- Müslüman Türk ve Moğol halkları üzerindeki etkisi
+
+### Sorunları
+
+- Çin devletlerinin kaybedilen toprakları geri alma isteği
+- Kazak ve Kırgız boylarının bağımsızlığı
+- Hanlık ile şehirli tüccarlar arasındaki yönetim mücadelesi
+- Rus ve Tatar devletlerinin Orta Asya’ya ilgisi
+
+---
+
+## Gurkanî Devleti
+
+Gurkanîler, Hindistan’ın batısı ve kuzeybatısında güçlü bir Türk-Fars-Hint imparatorluğudur.
+
+Kontrol ettikleri bölgeler:
+
+- Delhi
+- Pencap
+- Sind
+- Keşmir
+- Gujarat’ın bazı bölgeleri
+
+Rakipleri:
+
+- Maratha Konfederasyonu
+- Bengal Sultanlığı
+- Mysore
+- Haydarabad
+- Sikh Devleti
+- Racput krallıkları
+- Güney Hindistan devletleri
+
+Gurkanî oyuncusu Hindistan’ı askerî fetihle, federal anlaşmalarla veya ortak bir Hint kimliği oluşturarak birleştirebilir.
+
+---
+
+# 6. Avrupa'nın Durumu
+
+## Kutsal Roma İmparatorluğu
+
+Kutsal Roma İmparatorluğu hâlâ varlığını sürdürmektedir.
+
+Bavyera imparatorluk makamını kontrol eder. Habsburglar hiçbir zaman Avrupa’nın hâkim hanedanı hâline gelememiştir.
+
+İmparatorluk:
+
+- Katolik ve Protestan devletler arasında bölünmüştür.
+- Lehistan ve Rûm baskısı altındadır.
+- Feodal kurumlarını kaldıramamıştır.
+- Avrupa’nın “hasta adamı” olarak görülmektedir.
+
+## Fransa
+
+Fransa birleşmiş değildir.
+
+Başlıca devletler:
+
+- Paris Krallığı
+- Burgonya
+- Bretonya
+- Akitanya
+- Provence
+
+Paris Krallığı bütün Fransa’yı birleştirmek isterken diğer devletler bağımsızlıklarını korumaya çalışır.
+
+## Britanya
+
+Britanya Avrupa’daki en büyük yükselen güçtür.
+
+Doğudaki bilimsel ve askerî gelişmeleri taklit ederek kendi sanayi devrimini başlatmaktadır.
+
+Başlıca hedefleri:
+
+- Endülüs’ün Atlantik hâkimiyetini kırmak
+- Kuzey Amerika kolonilerini birleştirmek
+- Doğu ticaretine doğrudan erişmek
+- Feodal toprak sahiplerinin gücünü azaltmak
+
+## İtalya
+
+İtalya üç ana bölgeye ayrılmıştır:
+
+### Kuzey
+
+- Milano
+- Savoy
+- Venedik
+- Ceneviz
+- Küçük Hristiyan şehir devletleri
+
+Venedik ve Ceneviz, doğu ticaretini Mısır ve Endülüs kontrol ettiği için gerçek tarihteki kadar güçlü değildir.
+
+### Merkez
+
+Papalık Devleti ve küçük Hristiyan prenslikleri bulunur.
+
+### Güney
+
+- Sicilya-Sardinya Emirliği
+- Napoli Krallığı
+- Rûm İmparatorluğu’na bağlı küçük limanlar
+- Malta’daki Rûm askerî bölgesi
+
+## Kalmar Birliği
+
+Danimarka, Norveç ve İsveç tek bir birlik altında kalmıştır.
+
+Kalmar:
+
+- Baltık Denizi’nde Lehistan ile rekabet eder.
+- Grönland ve Kanada’da kolonilere sahiptir.
+- Birlik içindeki İsveç milliyetçiliğiyle mücadele eder.
+
+## Moskova ve Tatar Devletleri
+
+Rusya birleşememiştir.
+
+Moskova:
+
+- Batıda Lehistan
+- Kuzeyde Kalmar
+- Güneyde Tatar devletleri
+- Doğuda bağımsız Sibirya halkları
+
+tarafından çevrelenmiştir.
+
+Kırım Hanlığı ve Büyük Tatar Hanlığı varlıklarını korumaktadır. Rusların Sibirya’ya ilerleyişi büyük ölçüde durdurulmuştur.
+
+---
+
+# 7. Çin'in Parçalanması
+
+Çing yönetimi 18. yüzyılda ekonomik krizler, saray savaşları ve Uygur isyanları sonucunda çökmüştür.
+
+Çin beş ana devlete ayrılmıştır:
+
+## Kuzey Çin İmparatorluğu
+
+Pekin ve Sarı Nehir çevresini kontrol eden geleneksel hanedan.
+
+## Jiangnan Cumhuriyeti
+
+Nankin, Şanghay ve Yangtze Deltası’nı kontrol eden tüccar-bürokrat devleti.
+
+Çin’in ekonomik ve teknolojik olarak en gelişmiş bölgesidir.
+
+## Shu Krallığı
+
+Siçuan merkezli dağlık ve savunmacı devlet.
+
+## Yue Konfederasyonu
+
+Guangdong, Guangxi ve güney kıyı şehirlerinden oluşan ticaret birliği.
+
+## Mançurya Hanlığı
+
+Eski Çing seçkinlerinin kuzeydoğuda kurduğu devlet.
+
+Her Çin devleti ülkeyi yeniden birleştirme hakkına sahip olduğunu iddia eder.
+
+Japonya Tokugawa, Kore ise Joseon yönetiminde kalmıştır.
+
+---
+
+# 8. Yeni Dünya
+
+Kolonizasyon gerçek tarihe göre daha geç başlamıştır. Bu nedenle birçok yerli devlet ve kültür varlığını korumaktadır.
+
+## Yeni Endülüs
+
+Endülüs’ün Meksika ve Orta Amerika’daki en büyük sömürge devletidir.
+
+Yerli soylular yerel emir veya vali olarak yönetimde tutulmuştur. Tenochtitlan tamamen yok edilmemiş, büyük bir sömürge başkentine dönüştürülmüştür.
+
+Nüfus:
+
+- Endülüslüler
+- Berberiler
+- Nahua halkları
+- Mayalar
+- Afrikalı köleler
+- Karma sömürge kültürleri
+
+## Yeni İşbiliye
+
+Kolombiya ve Venezuela çevresindeki Endülüs kolonisi.
+
+Gümüş, kahve, şeker ve kıyı ticaretine dayanır.
+
+## İnci Adaları
+
+Küba, Hispanyola ve Karayip adalarındaki Endülüs kolonileri.
+
+## İngiliz Kolonileri
+
+İngilizler Kuzey Amerika’nın kuzeydoğu kıyılarında kolonilere sahiptir.
+
+Bu koloniler Endülüs kolonilerine göre daha bağımsız, daha yerleşimci ve yerli halklarla daha çatışmalı bir yapıdadır.
+
+## Kalmar Kolonileri
+
+Kalmar Birliği:
+
+- Grönland
+- Labrador
+- Kanada’nın kuzeydoğusu
+
+üzerinde hâkimiyet kurmuştur.
+
+## Yeni Bursa
+
+Florida’da kurulmuş küçük bir Rûm kolonisidir.
+
+Yeni Bursa:
+
+- Rûm’un Atlantik’teki tek önemli üssüdür.
+- Endülüs ve İngiliz kolonileri arasında sıkışmıştır.
+- Türk, Rum, Ermeni, Afrikalı ve yerli halklardan oluşur.
+- Rûm İmparatorluğu için pahalı fakat prestijli bir kolonidir.
+
+## Fas Brezilyası
+
+Fas, Endülüs’ten bağımsızlığını kazandıktan sonra Brezilya kıyılarında kendi kolonilerini kurmuştur.
+
+Fas’ın amacı Endülüs’ün Atlantik ticaret tekelini kırmaktır.
+
+## Yerli Devletler
+
+Yeni Dünya’da hâlâ güçlü veya yarı bağımsız yerli devletler bulunmaktadır:
+
+- Maya Konfederasyonları
+- And Dağları krallıkları
+- Mapuçe Devleti
+- Haudenosaunee Konfederasyonu
+- Büyük Göller Federasyonu
+- Mississippi çevresindeki yerli devletler
+
+---
+
+# 9. Sömürge Dünyasının Dağılımı
+
+## Endülüs
+
+- Meksika
+- Orta Amerika
+- Karayipler
+- Kolombiya
+- Venezuela
+
+## Britanya
+
+- Kuzey Amerika’nın doğu kıyıları
+- Bazı Atlantik adaları
+
+## Kalmar
+
+- Grönland
+- Kanada’nın kuzeydoğusu
+
+## Hollanda
+
+- Guyana
+- Karayip ticaret adaları
+- Güneydoğu Asya ticaret bölgeleri
+
+## Fas
+
+- Brezilya kıyıları
+
+## Rûm
+
+- Florida’daki Yeni Bursa
+- Malta
+- Bazı Batı Afrika ikmal limanları
+
+## Mısır
+
+- Doğu Afrika kıyıları
+- Kızıldeniz adaları
+- Hint Okyanusu ticaret üsleri
+- Avustralya’nın kuzeyinde yeni kurulan küçük yerleşimler
+
+## İran
+
+- Basra Körfezi ticaret üsleri
+- Endonezya’da birkaç liman ve ticaret şirketi
+
+---
+
+# 10. 1836 Yılının Büyük Çatışmaları
+
+## Rûm-Mısır Rekabeti
+
+Suriye, Filistin, Kıbrıs ve Doğu Akdeniz üzerinde hâkimiyet mücadelesi.
+
+## Rûm-İran Rekabeti
+
+Irak, Kafkasya, Doğu Anadolu ve Basra Körfezi için devam eden mücadele.
+
+## Üç Minber Krizi
+
+Kahire, Kurtuba ve içtihatçı devletler arasındaki dinî liderlik mücadelesi.
+
+## Endülüs Sömürge Krizi
+
+Yeni Endülüs ve diğer sömürgelerde bağımsızlık, federasyon ve eşit vatandaşlık talepleri.
+
+## Avrupa'nın Modernleşmesi
+
+Britanya, Lehistan ve bazı Alman devletlerinin doğudaki güçlerle teknolojik farkı kapatma çabası.
+
+## Çin'in Birleşmesi
+
+Beş Çin devletinin ülkenin meşru yönetimi olma mücadelesi.
+
+## Hindistan Mücadelesi
+
+Gurkanî Devleti ile Hindu, Sikh ve bölgesel Müslüman devletler arasındaki hâkimiyet savaşı.
+
+## Orta Asya Hâkimiyeti
+
+Uygurlar, Tatarlar, Kazaklar ve İran devletleri arasında ticaret yollarının kontrolü.
+
+---
+
+# 11. Modun Ana Temaları
+
+Modun temel çatışması İslam ile Hristiyanlık arasında olmamalıdır.
+
+Ana temalar şunlardır:
+
+- Reform ile gelenek
+- Merkezî devlet ile yerel özerklik
+- Bilimsel gelişme ile siyasi otorite
+- Çok uluslu imparatorluk ile milliyetçilik
+- Sömürgecilik ile bağımsızlık
+- Avrupa’nın doğuyu yakalama çabası
+- Sanayileşmenin toplumsal sonuçları
+- Dinî otoritenin modern devletteki yeri
+
+Hiçbir uygarlık tamamen ileri, geri, iyi veya kötü olmamalıdır.
+
+İslam dünyası bilimsel olarak gelişmiş fakat savaşlar ve siyasi rekabetlerle bölünmüş durumdadır. Avrupa geride kalmış olsa da hızla yükselme potansiyeline sahiptir. Endülüs çoğulcu fakat sömürgeci, Mısır gelenekçi fakat modern, Rûm reformist fakat emperyalist, İran bilimsel fakat siyasi olarak parçalıdır.
+
+---
+
+# 12. İlk Oynanabilir Sürüm
+
+İlk sürüm bütün dünyayı tamamlamaya çalışmamalıdır.
+
+## Ana oynanabilir devletler
+
+1. Rûm İmparatorluğu
+2. Mısır Sultanlığı
+3. İsfahan Şahlığı
+4. Tebriz Hanlığı
+5. Endülüs
+6. Lehistan-Litvanya
+7. Uygur Hanlığı
+8. Gurkanî Devleti
+9. Britanya
+10. Jiangnan Cumhuriyeti
+
+## İlk sürüm içeriği
+
+- Başlangıç sınırları
+- Ülke isimleri ve bayraklar
+- Kültür ve din dağılımları
+- Teknoloji ve okuryazarlık dengesi
+- Başlangıç diplomatik ilişkileri
+- Her ana devlet için en az bir Journal Entry
+- Rûm, Mısır ve İran için ortak Büyük İçtihat Savaşları geçmişi
+- Üç Minber Krizi sistemi
+- Basit Çin birleşme sistemi
+
+---
+
+# 13. Ana Journal Entry Fikirleri
+
+## Rûm – İmparatorluğun İkinci Kuruluşu
+
+Oyuncu merkezî Türk imparatorluğu, çok uluslu federasyon veya anayasal vatandaşlık devleti arasında seçim yapar.
+
+## Mısır – Şam'ın İntikamı
+
+Mısır kaybettiği Levant topraklarını geri almaya veya ticaret imparatorluğuna odaklanmaya karar verir.
+
+## İran – Şahların Meclisi
+
+Konfederasyon merkezîleştirilebilir, federal hâle getirilebilir veya tamamen parçalanabilir.
+
+## Endülüs – İki Kıtanın Halifeliği
+
+Koloniler doğrudan yönetilebilir, federasyona alınabilir veya bağımsız devletlere dönüştürülebilir.
+
+## Lehistan – Avrupa'nın Yeni Yolu
+
+Lehistan, Avrupa’ya reform yoluyla liderlik edebilir veya bölgesel bir askerî imparatorluğa dönüşebilir.
+
+## Uygur – İpek Yolunun Hâkimi
+
+Uygurlar Çin’e, Orta Asya’ya veya ticari modernleşmeye yönelebilir.
+
+## Britanya – Doğu'nun Sırrı
+
+Britanya doğu teknolojilerini taklit ederek sanayi devrimini hızlandırmaya çalışır.
+
+## Çin Devletleri – Göğün Yetkisi
+
+Her Çin devleti Çin’i birleştirmek için farklı siyasi model sunar.
+
+---
+
+# 14. Mod Geliştirme Sırası
+
+## Aşama 1 – Orta Doğu Dikey Dilimi
+
+- Rûm
+- Mısır
+- İran devletleri
+- Basra
+- Kürdistan
+- Hicaz
+- Adana, Erzurum ve Trabzon
+- Din dağılımları
+- Başlangıç savaşları ve ilişkileri
+
+## Aşama 2 – İberya ve Avrupa
+
+- Endülüs
+- Kuzey İberya krallıkları
+- Fransa devletleri
+- Kutsal Roma İmparatorluğu
+- Lehistan
+- Britanya
+- İtalya
+- Kalmar
+
+## Aşama 3 – Orta Asya ve Çin
+
+- Uygur Hanlığı
+- Tatar devletleri
+- Çin devletleri
+- Moğolistan
+- Rus prenslikleri
+
+## Aşama 4 – Hindistan
+
+- Gurkanî Devleti
+- Marathalar
+- Bengal
+- Sikh Devleti
+- Güney Hindistan devletleri
+
+## Aşama 5 – Yeni Dünya
+
+- Endülüs kolonileri
+- İngiliz kolonileri
+- Yeni Bursa
+- Fas Brezilyası
+- Yerli devletler
+
+## Aşama 6 – Özel Sistemler
+
+- Üç Minber Krizi
+- İran Konfederasyonu
+- Çin birleşmesi
+- Endülüs sömürge federasyonu
+- Rûm vatandaşlık reformu
+- Avrupa modernleşme yarışı
+- Halifelik ve içtihat olay zincirleri

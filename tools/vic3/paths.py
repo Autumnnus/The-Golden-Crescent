@@ -27,6 +27,8 @@ _CANDIDATES = [
     Path(r"D:\Steam\steamapps\common\Victoria 3\game"),
     Path(r"D:\SteamLibrary\steamapps\common\Victoria 3\game"),
     Path(r"E:\SteamLibrary\steamapps\common\Victoria 3\game"),
+    Path.home() / "Library/Application Support/Steam/steamapps/common/Victoria 3/game",
+    Path.home() / ".local/share/Steam/steamapps/common/Victoria 3/game",
 ]
 
 

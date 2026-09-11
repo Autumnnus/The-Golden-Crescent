@@ -2,8 +2,16 @@
 
 The vanilla game directory is:
 
+Windows
+
 ```text
 C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game
+```
+
+Mac
+
+```text
+~/Library/Application Support/Steam/steamapps/common/Victoria 3/game
 ```
 
 It is a **reference-only** source of truth. It may be searched, listed, and read to learn current game syntax, definitions, GUI templates, icons, localization keys, scripted GUI bindings, and comparable vanilla implementations.
@@ -58,7 +66,8 @@ Rules:
 python tools/tgc.py build && python tools/tgc.py check
 ```
 
-  `check` must report zero errors before the task is considered done.
+`check` must report zero errors before the task is considered done.
+
 - Before writing YAML, resolve region names with `python tools/tgc.py find <name>` and inspect
   the target with `python tools/tgc.py show <state>` — never guess a `STATE_*` identifier or a
   province hex list.
@@ -76,8 +85,16 @@ python tools/tgc.py build && python tools/tgc.py check
 - Do not end every task with a generic “test this in game” requirement. If no critical runtime uncertainty remains, report the static verification performed and finish the task.
 - When the user mentions errors, debugging, crashes, warnings, or logs—or when diagnosis requires game output—inspect the Victoria 3 logs at:
 
+Windows
+
 ```text
 C:\Users\<username>\OneDrive\Documents\Paradox Interactive\Victoria 3\logs
+```
+
+Mac
+
+```text
+~/Documents/Paradox Interactive/Victoria 3/logs
 ```
 
 - Treat the logs directory as a diagnostic, read-only source. Inspect relevant files such as `error.log`, `debug.log`, `game.log`, and `system.log` when present; do not modify, delete, truncate, or clear them.

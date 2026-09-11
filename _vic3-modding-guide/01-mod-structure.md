@@ -6,13 +6,13 @@ All facts below were verified on this machine (game files + the "Victorian Centu
 
 ## 1. Where things live
 
-| What | Path (this machine) |
-|---|---|
-| Game files | `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game` |
-| User/mod dir | `C:\Users\prost\OneDrive\Documents\Paradox Interactive\Victoria 3` |
-| Mods | `...\Documents\Paradox Interactive\Victoria 3\mod\<folder>` (this mod: `mod\3219394272` — a Steam Workshop numeric ID; a local mod folder name can be any string **(unverified)**) |
-| Logs | `...\Documents\Paradox Interactive\Victoria 3\logs` |
-| Saves | `...\Documents\Paradox Interactive\Victoria 3\save games` |
+| What | Windows | Mac |
+|---|---|---|
+| Game files | `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game` | `~/Library/Application Support/Steam/steamapps/common/Victoria 3/game` |
+| User/mod dir | `C:\Users\<username>\OneDrive\Documents\Paradox Interactive\Victoria 3` | `~/Documents/Paradox Interactive/Victoria 3` |
+| Mods | `...\Documents\Paradox Interactive\Victoria 3\mod\<folder>` | `~/Documents/Paradox Interactive/Victoria 3/mod/<folder>` |
+| Logs | `...\Documents\Paradox Interactive\Victoria 3\logs` | `~/Documents/Paradox Interactive/Victoria 3/logs` |
+| Saves | `...\Documents\Paradox Interactive\Victoria 3\save games` | `~/Documents/Paradox Interactive/Victoria 3/save games` |
 
 Other folders that exist under the Documents dir: `crashes`, `dumps`, `exceptions`, `playsets_backup`, `cache`, `screenshots`.
 
@@ -135,8 +135,12 @@ PowerShell one-liner to check any file:
 ```
 
 ## 6. Logs and how to debug with them
+ 
+The logs directory:
+- Windows: `C:\Users\<username>\OneDrive\Documents\Paradox Interactive\Victoria 3\logs\`
+- Mac: `~/Documents/Paradox Interactive/Victoria 3/logs/`
 
-`C:\Users\prost\OneDrive\Documents\Paradox Interactive\Victoria 3\logs\` exists and contains (observed):
+It exists and contains (observed):
 
 - `error.log` — the main modding feedback channel. Rotates: `error.1.log` … `error.5.log` are previous sessions.
 - `game.log` — script-system errors **with file + line number**.

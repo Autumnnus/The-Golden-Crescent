@@ -536,7 +536,9 @@ The tag being releasable/formable must already exist in `country_definitions` (a
 
 ## 7. How Victorian Century organizes its overrides (patterns worth copying)
 
-Mod root: `C:\Users\prost\OneDrive\Documents\Paradox Interactive\Victoria 3\mod\3219394272`.
+Mod root:
+- Windows: `C:\Users\<username>\OneDrive\Documents\Paradox Interactive\Victoria 3\mod\3219394272`
+- Mac: `~/Documents/Paradox Interactive/Victoria 3/mod/3219394272`
 
 1. **Full-file override by identical filename** — for files where entries can't be merged. `common/history/countries/gbr - great britain.txt` (and 13 others: aus, bic, chi, fra, jap, nep, net, pru, rus, spa, tur, usa) match vanilla filenames exactly, replacing the whole file. Likewise all 16 `map_data/state_regions/*.txt` are copies of vanilla with edits (added traits, raised `arable_land`, converted `capped_resources` mines into discoverable `resource` blocks with `discovered_amount`/`undiscovered_amount`).
 2. **`REPLACE_OR_CREATE:` prefix for database entries** — used in `common/country_definitions/zz_imp_countries.txt`, `common/country_formation/joi_imperial_federation.txt` / `jol_major_formables.txt`, `common/cultures/joi_cultures.txt`:

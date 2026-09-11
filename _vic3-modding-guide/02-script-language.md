@@ -2,7 +2,7 @@
 
 **Read this file when:** writing or editing any Victoria 3 script `.txt` — events, journal entries, decisions, scripted effects/triggers, script values, on_actions. This is the core language reference (scopes, triggers, effects, variables, script values). For file-format specifics see `03-events.md`, `05-journal-entries-and-decisions.md`, `06-modifiers.md`.
 
-All syntax below was verified against vanilla 1.9-era files in `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game\` and the "Victorian Century" mod (`mod\3219394272`). Victoria 3 is NOT CK3/EU4/HOI4 — do not import syntax from other Paradox games.
+All syntax below was verified against vanilla 1.9-era files in `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game\` (Mac: `~/Library/Application Support/Steam/steamapps/common/Victoria 3/game/`) and the "Victorian Century" mod (`mod\3219394272`). Victoria 3 is NOT CK3/EU4/HOI4 — do not import syntax from other Paradox games.
 
 ## 1. Basic syntax
 

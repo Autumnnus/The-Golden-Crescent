@@ -18,7 +18,9 @@ Verified by grepping: `state_gold_rush` is used by `game/events/gold_rush.txt` a
 
 ## 2. Modifier type definitions
 
-Folder: `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game\common\modifier_type_definitions\`
+Folder:
+- Windows: `C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game\common\modifier_type_definitions\`
+- Mac: `~/Library/Application Support/Steam/steamapps/common/Victoria 3/game/common/modifier_type_definitions/`
 Files: `00_modifier_types.txt`, `01_building_modifier_types.txt`, `02_modifier_types_rules.txt` (booleans), `03_modifier_types_script_only.txt`, `04_label_modifier_types.txt`, `05_power_bloc_modifier_types.txt`, `06_country_modifier_types.txt`, `07_description_modifier_types.txt`, `08_movement_modifier_types.txt`, `09_social_class_modifier_types.txt`, `10/11_*_culture_modifier_types.txt`, `12_ip4_script_modifiers.txt`, `13_ep2_script_modifiers.txt`, `99_todo_sort_into_other_files.txt`, plus `modifier_types.md` (Paradox's own format doc).
 
 ### Anatomy (from `modifier_types.md`, annotated by Paradox)

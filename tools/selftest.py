@@ -285,14 +285,20 @@ def test_cleanup(s: Suite) -> None:
             str(meta["game_custom_data"]["replace_paths"]))
 
 
-def test_read_only(s: Suite) -> None:
+def install_snapshot(root: Path = VANILLA) -> dict:
+    """Compare this run, not unrelated edits made before the test started."""
+    return {str(p.relative_to(root)): (stat.st_size, stat.st_mtime_ns)
+            for d in ("common", "map_data", "localization")
+            for p in (root / d).rglob("*") if p.is_file()
+            for stat in (p.stat(),)}
+
+
+def test_read_only(s: Suite, before: dict) -> None:
     s.section("the Victoria 3 install is never written to")
-    import time
-    recent = [p for d in ("common", "map_data", "localization")
-              for p in (VANILLA / d).rglob("*")
-              if p.is_file() and time.time() - p.stat().st_mtime < 7200]
-    s.check("no file in the install was modified in the last two hours",
-            not recent, str(recent[:3]))
+    after = install_snapshot()
+    changed = [p for p in before.keys() | after.keys() if before.get(p) != after.get(p)]
+    s.check("install common/map_data/localization files are unchanged during this run",
+            not changed, str(changed[:3]))
     from vic3.paths import assert_read_only
     try:
         assert_read_only(VANILLA / "common" / "anything.txt")
@@ -308,12 +314,12 @@ def main() -> int:
         print(f"refusing to run: {dirty} already exist")
         return 2
     meta_backup = META.read_text(encoding="utf-8")
+    install_before = install_snapshot()
     try:
         test_parser(s)
         test_generator(s)
         test_rules(s)
         test_cleanup(s)
-        test_read_only(s)
         import unittest
         import test_atlas
         result = unittest.TextTestRunner(verbosity=1).run(
@@ -323,6 +329,7 @@ def main() -> int:
         clear_world()
         META.write_text(meta_backup, encoding="utf-8")
         run("build")
+    test_read_only(s, install_before)
     print(f"\n{s.passed} passed, {s.failed} failed")
     return 1 if s.failed else 0
 

@@ -12,7 +12,7 @@ from PIL import Image
 
 from . import geo, index as idx, scenario
 from .build import Resolved
-from .paths import BUILD, assert_read_only
+from .paths import BUILD, WORLD, assert_read_only
 from .world import World, load_world
 
 MODES = ("political", "reference", "religion", "phase", "changes")
@@ -46,9 +46,19 @@ class Snapshot:
         base = load_world()
         self.scenario = scenario.load(scenario_path) if scenario_path else {
             "version": 1, "title": "The Golden Crescent", "countries": {}, "states": {}}
+        if not scenario_path:
+            if (WORLD / "scenario.yml").exists():
+                self.scenario = scenario.load(WORLD / "scenario.yml")
+            else:
+                self.scenario["version"] = base.version
         self.world = scenario.overlay(base, self.scenario) if scenario_path else base
         scenario.validate_world(self.world, self.index)
-        self.res = Resolved(self.world, self.index, contents=False)
+        self.development = None
+        if self.world.version >= 2:
+            from .worldplan import compile_world
+            self.res, _, self.development = compile_world(self.world, self.index)
+        else:
+            self.res = Resolved(self.world, self.index, contents=False)
         self.baseline_name = baseline
         before = World() if baseline == "vanilla" else base
         self.before = Resolved(before, self.index, contents=False)
@@ -205,11 +215,14 @@ class Snapshot:
                 "before_countries": {tag: self.country(tag, True) for tag in sorted(self.before.countries)},
                 "base_countries": {tag: self.country(tag, base=True) for tag in sorted(self.base.countries)},
                 "scenario": self.scenario,
-                "contract": "Scenario version 1: countries merge fields; states replace ownership plans. "
+                "development": self.development,
+                "contract": "Scenario version 1/2: countries merge fields; states replace ownership plans. "
                     "Use exact STATE_* ids and province hex strings. Unlisted states inherit world/. "
                     "A split must cover all passable provinces, or include one rest:true share. "
                     "This is an 1836 source preview, not a running save or event simulation. "
-                    "Map validation is not game validation; integrate into world/, then build and check."}
+                    "For economy, population, military and diplomacy use version 2 and scenario validate/report/build. "
+                    "Read tools/LLM_SCENARIO_WORKFLOW.md and query rules for installed identifiers. "
+                    "Source validation is not a runtime simulation."}
 
     def llm_context(self, view):
         """Keep region queries small; browser-only palettes and base copies stay out."""
@@ -218,6 +231,11 @@ class Snapshot:
         tags.update(self.scenario.get("countries", {}))
         data["country_tags"] = sorted(data["countries"])
         data["countries"] = {t: c for t, c in data["countries"].items() if t in tags}
+        if data.get("development"):
+            report = data["development"]
+            visible = {s["id"] for s in data["states"]}
+            data["development"] = {**report, "states":{k:v for k,v in report["states"].items() if k in visible},
+                                   "countries":{k:v for k,v in report["countries"].items() if k in tags}}
         del data["base_countries"], data["before_countries"]
         return data
 

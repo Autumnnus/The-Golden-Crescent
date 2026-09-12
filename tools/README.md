@@ -1,3 +1,13 @@
+**Kolay başlatma:** Mac'te kökteki `Atlas.command`, Windows'ta `Atlas.bat`
+dosyasına çift tıklayın. [Kısa Türkçe rehber](../ATLAS_KISA_REHBER.md).
+Sunucu veya açık terminal gerekmiyor.
+
+> **Tam dünya senaryoları (v2):** Ekonomi, nüfus, şirketler, teknoloji, kanunlar,
+> ordu/donanma ve diplomasi için [LLM Senaryo İş Akışı](LLM_SCENARIO_WORKFLOW.md)
+> belgesini kullanın. `rules` gerçek oyun mekaniklerini sorgular;
+> `scenario validate/report/build` ayrı önizleme üretir. Etkin tek dosya kaynağı
+> `world/scenario.yml` olabilir. Aşağıdaki eski parçalı harita akışı da desteklenir.
+
 # The Golden Crescent — toolchain
 
 ## Senaryo Atlası — oyunu açmadan harita geliştir
@@ -47,7 +57,7 @@ this toolchain opens it for writing (`paths.assert_read_only` guards every write
 | `python tools/tgc.py map --mode <m>` | render `political`, `reference`, `religion`, `phase` or `changes` |
 | `python tools/tgc.py atlas` | offline interactive atlas + JSON context |
 | `python tools/tgc.py catalog --region <r>` | compact verified JSON context for LLMs |
-| `python tools/tgc.py index` | rebuild `build/index.json` — **after a Victoria 3 patch** |
+| `python tools/tgc.py index` | force rebuild `build/index.json`; game source changes also invalidate it automatically |
 | `python tools/tgc.py geo` | rasterise `provinces.png` — **after a Victoria 3 patch** |
 | `python tools/tgc.py selftest` | regression-test the toolchain — run after touching `tools/` |
 | `python tools/crashinfo.py` | read the newest minidump and name the fault |

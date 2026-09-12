@@ -25,10 +25,11 @@ from __future__ import annotations
 import json
 import re
 from collections import defaultdict
+from pathlib import Path
 
 from . import index as idx
 from . import pdx
-from .paths import MOD, write_text
+from .paths import MOD, write_text, assert_read_only
 from .world import Country, StateSpec, World, load_world
 
 HEADER = (
@@ -49,6 +50,10 @@ OWNED = [
     "common/history/buildings/tgc_*.txt",
     "common/country_definitions/tgc_*.txt",
     "localization/*/tgc_generated_*.yml",
+    "common/history/*/ve_scenario_*.txt",
+    "common/static_modifiers/ve_scenario_*.txt",
+    "common/subject_types/ve_scenario_*.txt",
+    "common/diplomatic_actions/ve_scenario_*.txt",
 ]
 
 # Directories that must be declared in replace_paths when we emit into them,
@@ -57,6 +62,10 @@ NEEDS_REPLACE_PATH = {
     "common/history/states",
     "common/history/pops",
     "common/history/buildings",
+    "common/history/countries",
+    "common/history/population",
+    "common/history/military_formations",
+    "common/history/diplomacy",
 }
 
 
@@ -98,6 +107,9 @@ class Resolved:
                         for tag, _, _ in owners}
         if contents:
             self._resolve_contents(plan)
+            from . import development
+            if development.enabled(self.world):
+                development.apply(self)
 
     def _resolve_countries(self) -> None:
         for tag, van in self.index["countries"].items():
@@ -134,8 +146,10 @@ class Resolved:
                 continue
             spec = self.world.states.get(name)
             van_owners = history.get(name, {}).get("owners", [])
-            owners = (self._vanilla_owners(van_owners) if spec is None
+            owners = (self._vanilla_owners(van_owners) if spec is None or spec.ownership_inherit
                       else self._spec_owners(name, st, spec))
+            if spec and spec.ownership_inherit and spec.state_type:
+                owners = [(tag, provinces, spec.state_type) for tag, provinces, _ in owners]
             if not owners:
                 continue
             self.state_owners[name] = owners
@@ -144,9 +158,9 @@ class Resolved:
                 self.state_homelands[name] = list(hist.get("homelands", []))
                 self.state_claims[name] = list(hist.get("claims", []))
             else:
-                self.state_homelands[name] = (spec.homelands
-                                              or list(hist.get("homelands", [])))
-                self.state_claims[name] = spec.claims or list(hist.get("claims", []))
+                self.state_homelands[name] = (spec.homelands if spec.homelands_explicit or spec.homelands
+                                              else list(hist.get("homelands", [])))
+                self.state_claims[name] = spec.claims if spec.claims_explicit or spec.claims else list(hist.get("claims", []))
             plan[name] = (spec, van_owners)
         return plan
 
@@ -463,35 +477,40 @@ def _emit_localization(res: Resolved, language: str) -> str:
 # metadata
 
 
-def _sync_replace_paths(written_dirs: set) -> list:
+def _sync_replace_paths(written_dirs: set, root=MOD) -> list:
     """Rewrite metadata.json's replace_paths from what build actually emitted.
 
     Declaring a directory the mod does not fill deletes that content from the
     game, so this list is never maintained by hand.
     """
-    meta_path = MOD / ".metadata" / "metadata.json"
-    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    meta_path = root / ".metadata" / "metadata.json"
+    assert_read_only(meta_path)
+    source = meta_path if meta_path.exists() else MOD / ".metadata" / "metadata.json"
+    meta = json.loads(source.read_text(encoding="utf-8"))
     custom = meta.setdefault("game_custom_data", {})
     wanted = sorted(d for d in written_dirs if d in NEEDS_REPLACE_PATH)
-    if custom.get("replace_paths") != wanted:
+    if custom.get("replace_paths") != wanted or not meta_path.exists():
+        meta_path.parent.mkdir(parents=True, exist_ok=True)
         custom["replace_paths"] = wanted
         meta_path.write_text(json.dumps(meta, indent="\t", ensure_ascii=False) + "\n",
                              encoding="utf-8")
     return wanted
 
 
-def _clean_owned() -> int:
+def _clean_owned(root=MOD) -> int:
     removed, touched = 0, set()
-    for pattern in OWNED:
-        for f in MOD.glob(pattern):
-            touched.add(f.parent)
-            f.unlink()
-            removed += 1
+    files = [f for pattern in OWNED for f in root.glob(pattern)]
+    for f in files:
+        assert_read_only(f)
+    for f in files:
+        touched.add(f.parent)
+        f.unlink()
+        removed += 1
     # Leave no empty directory behind: an empty dir under a replace_paths entry
     # is exactly the shape that deletes vanilla content and replaces it with
     # nothing.
     for d in sorted(touched, key=lambda p: -len(p.parts)):
-        while d != MOD and d.is_dir() and not any(d.iterdir()):
+        while d != root and d.is_dir() and not any(d.iterdir()):
             d.rmdir()
             d = d.parent
     return removed
@@ -501,30 +520,29 @@ def _clean_owned() -> int:
 # entry point
 
 
-def build(verbose: bool = True) -> dict:
-    world = load_world()
-    index = idx.load()
-    removed = _clean_owned()
+def prepare_files(world, index, compiled=None):
+    """Pure render used both by build and by on-disk output verification."""
+    from .development import enabled
+    advanced = enabled(world)
+    pending = {}
 
     written: list = []
     dirs: set = set()
 
     def emit(rel: str, text: str, src: str, bom: bool = True) -> None:
-        path = MOD / rel
-        body = HEADER.format(src=src) + "\n" + text
-        write_text(path, body, bom=bom)
+        pending[rel] = (HEADER.format(src=src) + "\n" + text, bom)
         written.append(rel)
-        dirs.add(str(path.parent.relative_to(MOD)).replace("\\", "/"))
+        dirs.add(Path(rel).parent.as_posix())
 
-    res = None
-    if world.states:
-        res = Resolved(world, index)
+    res = compiled[0] if compiled else None
+    if world.states or advanced:
+        res = res or Resolved(world, index)
         emit("common/history/states/tgc_states.txt", _emit_states(res), "states/")
         pops = _emit_pops(res)
-        if pops.strip() != "POPS = {\n}".strip():
+        if advanced or pops.strip() != "POPS = {\n}".strip():
             emit("common/history/pops/tgc_pops.txt", pops, "states/")
         blds = _emit_buildings(res)
-        if blds.strip() != "BUILDINGS = {\n}".strip():
+        if advanced or blds.strip() != "BUILDINGS = {\n}".strip():
             emit("common/history/buildings/tgc_buildings.txt", blds, "states/")
 
     if world.countries:
@@ -538,7 +556,66 @@ def build(verbose: bool = True) -> dict:
             emit("localization/turkish/tgc_generated_countries_l_turkish.yml",
                  _emit_localization(res, "turkish"), "countries/")
 
-    replace_paths = _sync_replace_paths(dirs)
+    if compiled:
+        for rel, text in compiled[1].items():
+            emit(rel, text, "scenario.yml")
+    return res, pending, written, dirs
+
+
+def build(verbose: bool = True, *, world_override=None, output_root=None, compiled=None) -> dict:
+    world = load_world() if world_override is None else world_override
+    index = idx.load()
+    root = Path(output_root).resolve() if output_root else MOD
+    assert_read_only(root)
+    from .development import enabled
+    advanced = enabled(world)
+    if advanced and compiled is None:
+        from .worldplan import compile_world
+        compiled = compile_world(world, index)
+    res, pending, written, dirs = prepare_files(world, index, compiled)
+    for rel in pending:
+        assert_read_only(root / rel)
+        if (root / rel).is_symlink():
+            raise BuildError(f"Refusing to overwrite symlink: {root / rel}")
+    metadata_path = root / ".metadata" / "metadata.json"
+    assert_read_only(metadata_path)
+    source_metadata = metadata_path if metadata_path.exists() else MOD / ".metadata" / "metadata.json"
+    metadata = json.loads(source_metadata.read_text(encoding="utf-8"))
+    if not isinstance(metadata, dict) or not isinstance(metadata.get("game_custom_data", {}), dict):
+        raise BuildError("metadata and game_custom_data must be objects")
+    if advanced:
+        # Full history includes vanilla and manual source overrides. Running a
+        # manual file again alongside that generated layer would duplicate effects.
+        for directory in dirs & NEEDS_REPLACE_PATH:
+            for file in (root / directory).rglob("*.txt"):
+                if file.name.startswith(("tgc_", "ve_scenario_")):
+                    continue
+                if pdx.parse_file(file).items:
+                    raise BuildError(f"Manual history would execute twice: {file}. Move its startup changes into the scenario source before an active build.")
+    # Keep an exact rollback snapshot until all generated files and metadata land.
+    previous = {f: f.read_bytes() for pattern in OWNED for f in root.glob(pattern)}
+    for path in previous:
+        assert_read_only(path)
+    before_metadata = metadata_path.read_bytes() if metadata_path.exists() else None
+    try:
+        removed = _clean_owned(root)
+        for rel, (body, bom) in pending.items():
+            write_text(root / rel, body, bom=bom)
+        replace_paths = _sync_replace_paths(dirs, root)
+    except BaseException:
+        for rel in pending:
+            path = root / rel
+            if path.exists() and path not in previous:
+                path.unlink()
+        for path, data in previous.items():
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+        if before_metadata is None:
+            metadata_path.unlink(missing_ok=True)
+        else:
+            metadata_path.parent.mkdir(parents=True, exist_ok=True)
+            metadata_path.write_bytes(before_metadata)
+        raise
 
     if verbose:
         if removed:

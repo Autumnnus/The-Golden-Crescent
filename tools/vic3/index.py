@@ -10,12 +10,13 @@ Regenerate after a Victoria 3 patch:  python tools/tgc.py index
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import time
 from pathlib import Path
 
 from . import pdx
-from .paths import BUILD, MOD, VANILLA, vanilla
+from .paths import BUILD, MOD, VANILLA, vanilla, assert_read_only
 
 INDEX_PATH = BUILD / "index.json"
 _INDEX_CACHE = None
@@ -447,6 +448,18 @@ def _index_loc(defs: dict) -> dict:
 # entry point
 
 
+def source_signature():
+    """Detect a different install, game patch, or edited vanilla reference files."""
+    rows = []
+    for sub in ("map_data/state_regions", "common", "localization/english"):
+        for path in sorted((VANILLA / sub).rglob("*")):
+            if path.is_file() and path.suffix in (".txt", ".yml"):
+                stat = path.stat()
+                rows.append((path.relative_to(VANILLA).as_posix(), stat.st_size, stat.st_mtime_ns))
+    return {"version": 1, "root": str(VANILLA.resolve()),
+            "files": hashlib.sha256(json.dumps(rows).encode()).hexdigest()}
+
+
 def build_index(verbose: bool = True) -> dict:
     t0 = time.time()
 
@@ -479,6 +492,7 @@ def build_index(verbose: bool = True) -> dict:
     index = {
         "meta": {
             "generated_by": "tools/tgc.py index",
+            "source_signature": source_signature(),
             "vanilla_root": str(VANILLA),
             "mod_root": str(MOD),
             "state_count": len(states),
@@ -501,6 +515,7 @@ def build_index(verbose: bool = True) -> dict:
         "loc": loc,
     }
     BUILD.mkdir(parents=True, exist_ok=True)
+    assert_read_only(INDEX_PATH)
     INDEX_PATH.write_text(json.dumps(index), encoding="utf-8")
     if verbose:
         m = index["meta"]
@@ -525,5 +540,12 @@ def load(refresh: bool = False) -> dict:
     if refresh or not INDEX_PATH.exists():
         _INDEX_CACHE = build_index(verbose=refresh)
     else:
-        _INDEX_CACHE = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+        try:
+            cached = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            cached = {}
+        if cached.get("meta", {}).get("source_signature") != source_signature():
+            _INDEX_CACHE = build_index(verbose=False)
+        else:
+            _INDEX_CACHE = cached
     return _INDEX_CACHE

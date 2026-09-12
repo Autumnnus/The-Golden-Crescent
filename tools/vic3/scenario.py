@@ -43,11 +43,11 @@ def load(path):
 def validate_document(data):
     if not isinstance(data, dict):
         raise WorldError("scenario: expected a JSON/YAML object")
-    extra = set(data) - {"version", "title", "description", "countries", "states"}
+    extra = set(data) - {"version", "title", "description", "countries", "states", "diplomacy", "subject_types"}
     if extra:
         raise WorldError(f"scenario: unknown fields {sorted(extra, key=str)}")
-    if type(data.get("version")) is not int or data["version"] != 1:
-        raise WorldError("scenario: version must be 1")
+    if type(data.get("version")) is not int or data["version"] not in (1, 2):
+        raise WorldError("scenario: version must be 1 or 2")
     for key in ("title", "description"):
         if key in data and not isinstance(data[key], str):
             raise WorldError(f"scenario: {key} must be text")
@@ -75,12 +75,22 @@ def overlay(base, data):
     """Country fields merge; a state ownership plan replaces the previous plan."""
     validate_document(data)
     result = copy.deepcopy(base)
+    result.version = max(base.version, data["version"])
+    for key, attr in (("diplomacy", "diplomacy_policy"), ("subject_types", "subject_types")):
+        if key in data:
+            if data["version"] < 2 or not isinstance(data[key], dict):
+                raise WorldError(f"{key}: requires a version 2 object")
+            setattr(result, attr, copy.deepcopy(data[key]))
     country_data = {}
     for tag, spec in data.get("countries", {}).items():
         if not isinstance(spec, dict):
             raise WorldError(f"scenario: {tag}: expected a country object")
         old = result.countries.pop(tag, None)
         merged = asdict(old) if old else {}
+        if not old and data["version"] >= 2:
+            from . import index
+            vanilla = index.load()["countries"].get(tag, {})
+            merged.update({k: vanilla[k] for k in ("country_type", "tier") if k in vanilla})
         for key in ("tag", "source"):
             merged.pop(key, None)
         country_data[tag] = {**merged, **spec}
@@ -123,8 +133,11 @@ def validate_world(world, index):
         if not required:
             required = all_provinces
         seen = set()
-        if not spec.shares:
+        if not spec.shares and not spec.ownership_inherit:
             raise WorldError(f"{name}: empty ownership plan")
+        for value in [spec.state_type] + [s.state_type for s in spec.shares]:
+            if value is not None and value not in ('incorporated', 'unincorporated'):
+                raise WorldError(f'{name}: state_type must be incorporated or unincorporated')
         for share in spec.shares:
             if not isinstance(share.owner, str) or share.owner not in known_tags:
                 raise WorldError(f"{name}: unknown owner {share.owner!r}; define countries first")
@@ -136,7 +149,7 @@ def validate_world(world, index):
                 if prov in seen:
                     raise WorldError(f"{name}: province {prov} is assigned twice")
                 seen.add(prov)
-        if not any(s.rest for s in spec.shares) and required - seen:
+        if not spec.ownership_inherit and not any(s.rest for s in spec.shares) and required - seen:
             raise WorldError(f"{name}: {len(required - seen)} provinces have no owner; add rest: true")
     for name, patch in world.region_patches.items():
         if set(patch) & {"provinces", "impassable"}:

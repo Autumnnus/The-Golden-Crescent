@@ -31,6 +31,14 @@ _DQUOTE = chr(34)
 _SQUOTE = chr(39)
 
 
+class QuotedString(str):
+    """Keep lexical spelling when copying a game string (including escapes)."""
+    def __new__(cls, value, raw=None):
+        result = super().__new__(cls, value)
+        result.raw = raw
+        return result
+
+
 class PdxSyntaxError(ValueError):
     """Raised when a file cannot be parsed; carries file and line number."""
 
@@ -40,7 +48,8 @@ class PdxSyntaxError(ValueError):
 
 def read_text(path) -> str:
     """Read a Paradox file, stripping the BOM and tolerating bad encodings."""
-    raw = open(path, "rb").read()
+    with open(path, "rb") as handle:
+        raw = handle.read()
     if raw.startswith(b"\xef\xbb\xbf"):
         raw = raw[3:]
     try:
@@ -60,7 +69,7 @@ class _Tok:
     glued: bool    # no whitespace between this token and the previous one
 
 
-def _tokenize(src: str) -> list[_Tok]:
+def _tokenize(src: str, origin="<string>") -> list[_Tok]:
     toks: list[_Tok] = []
     i, n, line = 0, len(src), 1
     glued = False
@@ -90,6 +99,7 @@ def _tokenize(src: str) -> list[_Tok]:
                 break
         else:
             if c == _DQUOTE:
+                start_line = line
                 j, buf = i + 1, []
                 while j < n and src[j] != _DQUOTE:
                     if src[j] == "\\" and j + 1 < n:
@@ -100,16 +110,16 @@ def _tokenize(src: str) -> list[_Tok]:
                         line += 1
                     buf.append(src[j])
                     j += 1
-                toks.append(_Tok("scalar", "".join(buf), line, glued))
+                if j >= n:
+                    raise PdxSyntaxError(f"{origin}:{start_line}: unterminated quoted string")
+                toks.append(_Tok("scalar", QuotedString("".join(buf), src[i:j+1]), start_line, glued))
                 i = j + 1
             else:
                 j = i
                 while j < n and src[j] not in _DELIM and src[j] != "#":
                     j += 1
-                if j == i:          # unknown delimiter: skip, never loop forever
-                    i += 1
-                    glued = False
-                    continue
+                if j == i:
+                    raise PdxSyntaxError(f"{origin}:{line}: unexpected delimiter {c!r}")
                 toks.append(_Tok("scalar", src[i:j], line, glued))
                 i = j
             glued = True
@@ -224,7 +234,7 @@ class Node:
 # parser
 
 def parse(src: str, origin: str = "<string>") -> Node:
-    toks = _tokenize(src)
+    toks = _tokenize(src, origin)
     pos = 0
 
     def fail(tok, msg):
@@ -256,7 +266,7 @@ def parse(src: str, origin: str = "<string>") -> Node:
                 key, op = tok.text, nxt.text
                 pos += 2
                 node.items.append(Item(key, op, parse_value(depth)))
-            elif nxt.kind == "{" and nxt.glued:
+            elif nxt.kind == "{" and not isinstance(tok.text, QuotedString) and (nxt.glued or tok.text in ("rgb", "hsv", "hsv360")):
                 typ = tok.text                # typed block as a bare list item
                 pos += 2
                 node.items.append(
@@ -273,7 +283,7 @@ def parse(src: str, origin: str = "<string>") -> Node:
             return parse_block(depth + 1)
         if tok.kind == "scalar":
             nxt = toks[pos + 1]
-            if nxt.kind == "{" and nxt.glued:
+            if nxt.kind == "{" and not isinstance(tok.text, QuotedString) and (nxt.glued or tok.text in ("rgb", "hsv", "hsv360")):
                 typ = tok.text
                 pos += 2
                 return TypedBlock(typ, parse_block(depth + 1))
@@ -291,12 +301,14 @@ def parse_file(path) -> Node:
 # --------------------------------------------------------------------------
 # serializer
 
-_BARE_OK = re.compile(r"^[A-Za-z0-9_:.@|/<>-]+$")
+_BARE_OK = re.compile(r"^[A-Za-z0-9_:.@|/-]+$")
 
 
 def _scalar(s: str) -> str:
+    if isinstance(s, QuotedString) and s.raw is not None:
+        return s.raw
     if s == "" or not _BARE_OK.match(s):
-        return _DQUOTE + s.replace(_DQUOTE, "\\" + _DQUOTE) + _DQUOTE
+        return _DQUOTE + s.replace("\\", "\\\\").replace(_DQUOTE, "\\" + _DQUOTE) + _DQUOTE
     return s
 
 

@@ -404,6 +404,18 @@ def check(verbose: bool = True) -> int:
             except pdx.PdxSyntaxError as e:
                 rep.error("syntax", str(e))
 
+    from .development import enabled
+    if enabled(world):
+        from .worldplan import compile_world
+        try:
+            res, extra, report = compile_world(world, index)
+            _rule_generated_snapshot(rep, world, index, (res, extra, report))
+            for message in report['warnings']:rep.warn('scenario', message)
+            if verbose:print(f"checked complete scenario: {len(res.state_owners)} states, {len(res.landed_tags)} countries")
+        except ValueError as exc:
+            rep.error('scenario', str(exc))
+        return rep.print(verbose)
+
     if world:
         res = build_mod.Resolved(world, index)
         _world_rules(rep, res, index)
@@ -432,3 +444,26 @@ def _world_rules(rep: Report, res, index: dict) -> None:
     _rule_double_owned(rep, res, index)
     _rule_decentralized_buildings(rep, res)
     _rule_identifiers(rep, res, index)
+
+
+def _rule_generated_snapshot(rep, world, index, compiled):
+    """A valid source does not prove the files the engine will load are current."""
+    _, pending, _, directories = build_mod.prepare_files(world, index, compiled)
+    for relative, (body, bom) in pending.items():
+        path = MOD / relative
+        expected = (b"\xef\xbb\xbf" if bom else b"") + body.encode("utf-8")
+        if not path.exists():
+            rep.error("generated-output", f"Missing {relative}; run build")
+        elif path.read_bytes() != expected:
+            rep.error("generated-output", f"Stale or edited {relative}; run build from current world/ source")
+    for pattern in build_mod.OWNED:
+        for path in MOD.glob(pattern):
+            relative = path.relative_to(MOD).as_posix()
+            if relative not in pending:
+                rep.error("generated-output", f"Orphan generated file {relative}; run build")
+    metadata = MOD / ".metadata/metadata.json"
+    if metadata.exists():
+        actual = json.loads(metadata.read_text(encoding="utf-8")).get("game_custom_data", {}).get("replace_paths", [])
+        expected = sorted(directories & build_mod.NEEDS_REPLACE_PATH)
+        if sorted(actual) != expected:
+            rep.error("generated-output", "replace_paths does not match current compiled layers; run build")

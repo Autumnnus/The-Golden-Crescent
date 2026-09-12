@@ -98,7 +98,7 @@ class ScenarioTests(unittest.TestCase):
             scenario.overlay(World(), {"version":1,"states":{"A":"AA","STATE_A":"BB"}})
 
     def test_unknown_state_sea_bad_fields_and_version(self):
-        for data in [{"version":2}, {"version":True}, {"version":1,"typo":{}},
+        for data in [{"version":3}, {"version":True}, {"version":1,"typo":{}},
                      {"version":1,"states":{"WRONG":"AA"}},
                      {"version":1,"states":{"STATE_SEA":"AA"}},
                      {"version":1,"countries":{"AA":{"color":[0,1,999]}}}]:

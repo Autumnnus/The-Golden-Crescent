@@ -121,3 +121,21 @@ not replacements for world/ source files. Never guess province hex IDs. Resolve 
 `find`/`show`, preview, then integrate into world/ only within the requested scope.
 A successful preview is not game validation: after source integration run `build`
 and `check`. See `tools/examples/ve_atlas_scenario.yml` for a verified split example.
+
+## LLM-first full scenario authoring
+
+For alternate-history economy, population, literacy, laws, technology, companies,
+interest groups, military, culture/religion ratios, or diplomatic dependencies,
+read `tools/LLM_SCENARIO_WORKFLOW.md` first. Use a version 2 scenario and
+`rules` for installed IDs, then `scenario validate`, `scenario report`, and
+`scenario build` for an isolated preview. The canonical active source is
+`world/scenario.yml`; finish active changes with `build` and `check`.
+Do not treat a painted map as a complete scenario, or static diagnostics as GDP
+or exact clout simulation. The user describes the world; the LLM authors and
+validates the source. The atlas is primarily inspection and small corrections.
+
+Easy user entry: root `Atlas.command` (macOS), `Atlas.bat` (Windows),
+`Atlas.sh` (terminal/Linux), and `ATLAS_KISA_REHBER.md`. Examples and test
+fixtures are never user requirements or implicitly active scenarios.
+`check` for v2 must compare actual generated files with current compiled source.
+Literacy/wealth are setup inputs; vanilla explicitly recalculates them during setup.

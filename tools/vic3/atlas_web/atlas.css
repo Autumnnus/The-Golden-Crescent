@@ -679,3 +679,8 @@ pre {
     flex: 1;
   }
 }
+
+#development {border-top:1px solid var(--line, #39424c); margin-top:16px; padding-top:8px;}
+#development p {font-size:12px; line-height:1.5; margin:6px 0; overflow-wrap:anywhere;}
+#development h4 {margin:12px 0 8px;}
+#development details {margin-top:10px;}

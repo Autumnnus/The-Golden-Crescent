@@ -1,3 +1,7 @@
+> Haritanın ötesinde nüfus, ekonomi, devlet ve diplomasi değişiklikleri için
+> [LLM_SCENARIO_WORKFLOW.md](LLM_SCENARIO_WORKFLOW.md) içindeki **version 2**
+> sözleşmesini kullan. Bu belgedeki version 1 yalnızca harita iş akışıdır.
+
 # LLM ile harita ve senaryo geliştirme
 
 Harita kaynağı, oyunun kurulu sürümünün gerçek `provinces.png` ve state/history

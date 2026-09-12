@@ -71,15 +71,38 @@ def main(argv=None) -> int:
     p_catalog.add_argument("--region", default=None)
     p_catalog.add_argument("--out", default=None, help="default: JSON to stdout")
     for parser in (p_map, p_atlas, p_catalog):
-        parser.add_argument("--scenario", default=None, help="preview a version 1 YAML/JSON overlay without editing world/")
+        parser.add_argument("--scenario", default=None, help="preview a version 1/2 YAML/JSON overlay without editing world/")
         parser.add_argument("--baseline", choices=["world", "vanilla"], default="world")
         parser.add_argument("--width", type=int, default=4096 if parser is p_atlas else 3200)
+
+    p_rules = sub.add_parser("rules", help="query verified game mechanics identifiers and prerequisites")
+    p_rules.add_argument("--kind", default=None)
+    p_rules.add_argument("--query", default="")
+    p_rules.add_argument("--limit", type=int, default=30)
+    p_rules.add_argument("--offset", type=int, default=0)
+    p_rules.add_argument("--script", action="store_true")
+    p_rules.add_argument("--out")
+    p_scenario = sub.add_parser("scenario", help="validate, report or build a complete scenario preview")
+    p_scenario.add_argument("action", choices=["validate", "report", "build", "schema"])
+    p_scenario.add_argument("file", nargs="?")
+    p_scenario.add_argument("--out")
+    p_scenario.add_argument("--country")
 
     sub.add_parser("paths", help="print the resolved directories")
     sub.add_parser("selftest", help="regression-test the toolchain itself")
 
     args = ap.parse_args(argv)
 
+    if args.cmd == "rules":
+        from vic3.mechanics import query
+        return query(args.kind, args.query, args.limit, args.offset, args.script, args.out)
+    if args.cmd == "scenario":
+        if args.action == "schema":
+            from vic3.schema import export
+            return export(args.out)
+        if not args.file: ap.error("scenario validate/report/build requires a YAML/JSON file")
+        from vic3.worldplan import run
+        return run(args.file, args.action, args.out, args.country)
     if args.cmd == "paths":
         print(f"mod      {MOD}")
         print(f"vanilla  {VANILLA}   (read-only)")

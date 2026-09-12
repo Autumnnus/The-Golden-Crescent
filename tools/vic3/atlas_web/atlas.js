@@ -82,11 +82,15 @@
       "claims",
       "state_type",
       "notes",
-      "phase",
+      "phase", "population", "industry",
     ];
     for (const k of Object.keys(spec))
       if (!allowed.includes(k))
         throw Error(state.id + ": bilinmeyen alan " + k);
+    if (!owns(spec, "owner") && !owns(spec, "split") &&
+        ["population", "industry", "homelands", "claims", "state_type"].some(k => owns(spec, k))) {
+      return new Map((provincesByState.get(state.index) || []).map(i => [P[i].hex, P[i].base]));
+    }
     if (owns(spec, "owner") === owns(spec, "split"))
       throw Error(
         state.id + ": owner veya split alanlarından yalnızca biri gerekli.",
@@ -166,7 +170,8 @@
     "notes",
     "coat_of_arms",
     "is_named_from_capital",
-    "phase",
+    "phase", "population", "industry", "technology", "laws", "institutions",
+    "interest_groups", "companies", "military", "history_mode",
   ];
   function parseDocument(text) {
     const value = JSON.parse(text);
@@ -187,16 +192,19 @@
     return value;
   }
   function validated(raw) {
-    if (!safeObject(raw) || raw.version !== 1)
-      throw Error("Senaryo version: 1 içeren bir JSON nesnesi olmalı.");
+    if (!safeObject(raw) || ![1, 2].includes(raw.version))
+      throw Error("Senaryo version: 1 veya 2 içeren bir JSON nesnesi olmalı.");
     for (const k of Object.keys(raw))
       if (
-        !["version", "title", "description", "countries", "states"].includes(k)
+        !["version", "title", "description", "countries", "states", "diplomacy", "subject_types"].includes(k)
       )
         throw Error("Bilinmeyen senaryo alanı: " + k);
     for (const k of ["title", "description"])
       if (owns(raw, k) && typeof raw[k] !== "string")
         throw Error(k + " metin olmalı.");
+    for (const k of ["diplomacy", "subject_types"])
+      if (owns(raw,k) && (raw.version !== 2 || !safeObject(raw[k])))
+        throw Error(k + ": version 2 nesnesi gerekli.");
     const next = clone(raw);
     next.countries ??= {};
     next.states ??= {};
@@ -462,6 +470,38 @@
         return f;
       }),
     );
+    const economy = $("development");
+    economy.replaceChildren();
+    const report = D.development;
+    const stale = JSON.stringify(draft) !== JSON.stringify(initial);
+    economy.hidden = !report && draft.version !== 2;
+    if (!economy.hidden) {
+      economy.append(el("h3", "Başlangıç dünyası"));
+      if (!report || stale) {
+        economy.append(el("p", "Taslak değişti. Ekonomi ve diplomasi için scenario validate/report ile yeniden derleyin; bu görünüm haritayı günceller.", "muted"));
+      } else {
+        const st = report.states[s.id];
+        for (const [tag, data] of Object.entries(st?.owners || {})) {
+          const c = report.countries[tag] || {};
+          economy.append(el("h4", tag + " · " + data.population.toLocaleString("tr-TR") + " kişi"));
+          const lit = data.settings.literacy;
+          const info = [lit === undefined ? "Okuryazarlık: oyun başlangıcı" : "Okuryazarlık girdisi: %" + Math.round(lit*100),
+            data.buildings.reduce((n,b) => n+b.level,0) + " bina seviyesi",
+            "Tahmini iş: " + data.estimated_jobs.toLocaleString("tr-TR"),
+            "Altyapı talebi: " + data.infrastructure_demand_base,
+            "Bağlılık: " + (c.overlord || "Bağımsız"),
+            (c.military?.battalions || 0) + " tabur / " + (c.military?.ships || 0) + " gemi (ülke)"];
+          for (const line of info) economy.append(el("p", line));
+          const ratios = (values) => Object.entries(values).map(([k,v]) => k + " %" + (100*v/(data.population || 1)).toFixed(1)).join(" · ");
+          economy.append(el("p", ratios(data.cultures), "muted"), el("p", ratios(data.religions), "muted"));
+          const details = el("details");
+          details.append(el("summary", "Binalar ve ülke kanunları"));
+          for (const b of data.buildings) details.append(el("p", b.type + " × " + b.level));
+          details.append(el("p", (c.laws || []).join(", "), "muted"));
+          economy.append(details);
+        }
+      }
+    }
     const choices = provincesByState.get(s.index) || [];
     if (!choices.includes(province))
       province = choices.find((i) => !P[i].impassable) || choices[0] || null;
@@ -1062,6 +1102,10 @@
     ])
       delete result[k];
     result.scenario = draft;
+    if (JSON.stringify(draft) !== JSON.stringify(initial)) {
+      result.development = null;
+      result.warnings = [...result.warnings, "Development report invalidated by edits. Run scenario report on the exported draft."];
+    }
     result.countries = countries;
     result.title = draft.title;
     result.states = D.states.map((s) => {
@@ -1101,7 +1145,7 @@
   };
   $("prompt").onclick = async () => {
     const text =
-      "Bu Victoria 3 modu için hayali senaryomu geliştir. Eklediğim atlas-context.json dosyasını gerçek eyalet, ülke ve il kimliklerinin kaynağı olarak kullan. Kimlik uydurma. Senaryomu version: 1, title, countries, states alanlarını içeren scenario.json olarak üret. countries alanı ülke özelliklerini birleştirir; states alanı mevcut sahiplik planını değiştirir. Bölünmede owner ve provinces kullan; kalan illeri tek bir rest: true payıyla tamamla. Kapsam dışındaki yerler için önce tgc.py catalog ile veri edin. Sonucu .venv/bin/python tools/tgc.py atlas --scenario scenario.json ve .venv/bin/python tools/tgc.py map --scenario scenario.json --mode changes --data ile doğrula. Harita önizlemesinin olay veya save simülasyonu olmadığını dikkate al. world/ dosyalarına entegrasyondan sonra build ve check çalıştır. Senaryom: ";
+      "Bu Victoria 3 modu için hayali senaryomu geliştir. Eklediğim atlas-context.json dosyasını gerçek eyalet, ülke ve il kimliklerinin kaynağı olarak kullan. Kimlik uydurma. Önce tools/LLM_SCENARIO_WORKFLOW.md dosyasını oku. Senaryomu version: 2 içeren scenario.json olarak üret; countries, states, subject_types ve diplomacy alanlarını kullan. tools/tgc.py rules ve scenario schema ile gerçek kimlik ve sözleşmeyi sorgula. Nüfus, okuryazarlık, kültür/din oranları, binalar, üretim yöntemleri, şirketler, teknoloji, kanunlar, kurumlar, çıkar grupları, ordu/donanma ve bağlılıkları senaryoya göre birlikte düşün. Önce scenario validate, sonra scenario report ve scenario build ile ayrı önizleme üret. countries alanı ülke özelliklerini birleştirir; states alanı mevcut sahiplik planını değiştirir. Bölünmede owner ve provinces kullan; kalan illeri tek bir rest: true payıyla tamamla. Kapsam dışındaki yerler için önce tgc.py catalog ile veri edin. Sonucu .venv/bin/python tools/tgc.py atlas --scenario scenario.json ve .venv/bin/python tools/tgc.py map --scenario scenario.json --mode changes --data ile doğrula. Harita önizlemesinin olay veya save simülasyonu olmadığını dikkate al. world/ dosyalarına entegrasyondan sonra build ve check çalıştır. Senaryom: ";
     try {
       await navigator.clipboard.writeText(text);
       status(

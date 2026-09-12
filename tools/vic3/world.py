@@ -45,11 +45,13 @@ _COUNTRY_KEYS = {
     "religion_map", "religion_split", "culture_religion_split", "culture_map",
     "overlord", "subject_type", "liberty_desire", "market_capital", "notes",
     "coat_of_arms", "is_named_from_capital", "phase",
+    "population", "industry", "technology", "laws", "institutions",
+    "interest_groups", "companies", "military", "history_mode",
 }
 
 _STATE_KEYS = {
     "owner", "pops", "buildings", "split", "homelands", "claims", "state_type",
-    "notes", "phase",
+    "notes", "phase", "population", "industry",
 }
 
 _SPLIT_KEYS = {"owner", "provinces", "rest", "state_type"}
@@ -84,6 +86,16 @@ class Country:
     phase: str | None = None
     notes: str | None = None
 
+    population: dict = field(default_factory=dict)
+    industry: dict = field(default_factory=dict)
+    technology: dict = field(default_factory=dict)
+    laws: dict = field(default_factory=dict)
+    institutions: dict = field(default_factory=dict)
+    interest_groups: dict = field(default_factory=dict)
+    companies: dict = field(default_factory=dict)
+    military: dict = field(default_factory=dict)
+    history_mode: str = "inherit"
+
     @property
     def is_subject(self) -> bool:
         return bool(self.overlord)
@@ -92,7 +104,7 @@ class Country:
     def literacy_rate(self):
         if self.literacy is None:
             return None
-        return LITERACY[self.literacy]
+        return LITERACY[self.literacy] if isinstance(self.literacy, str) else self.literacy
 
 
 @dataclass(slots=True)
@@ -116,6 +128,13 @@ class StateSpec:
     phase: str | None = None
     notes: str | None = None
 
+    population: dict = field(default_factory=dict)
+    industry: dict = field(default_factory=dict)
+    ownership_inherit: bool = False
+    state_type: str | None = None
+    homelands_explicit: bool = False
+    claims_explicit: bool = False
+
     @property
     def owners(self) -> list:
         return [s.owner for s in self.shares]
@@ -129,9 +148,13 @@ class World:
     region_patches: dict = field(default_factory=dict)
     aliases: dict = field(default_factory=dict)
 
+    diplomacy_policy: dict = field(default_factory=dict)
+    subject_types: dict = field(default_factory=dict)
+    version: int = 1
+
     def __bool__(self) -> bool:
         return bool(self.countries or self.states or self.diplomacy
-                    or self.region_patches)
+                    or self.region_patches or self.diplomacy_policy or self.subject_types)
 
     def subjects_of(self, tag: str) -> list:
         return [c for c in self.countries.values() if c.overlord == tag]
@@ -150,7 +173,8 @@ def _yaml_files(subdir: str) -> list[Path]:
 
 def _load_yaml(path: Path) -> dict:
     try:
-        data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        from .scenario import UniqueLoader
+        data = yaml.load(path.read_text(encoding="utf-8-sig"), Loader=UniqueLoader)
     except yaml.YAMLError as e:
         raise WorldError(f"{path.name}: invalid YAML: {e}") from None
     if data is None:
@@ -191,7 +215,7 @@ def add_countries(world: World, data: dict, path: Path) -> None:
             raise WorldError(f"{path.name}: {tag}: expected a mapping")
         _reject_unknown(path, tag, spec, _COUNTRY_KEYS)
         lit = spec.get("literacy")
-        if lit is not None and lit not in LITERACY:
+        if lit is not None and not (isinstance(lit, str) and lit in LITERACY) and not (type(lit) in (int, float) and 0 <= lit <= 1):
             raise WorldError(
                 f"{path.name}: {tag}: literacy {lit!r} is not one of "
                 f"{sorted(LITERACY)}")
@@ -223,6 +247,8 @@ def add_countries(world: World, data: dict, path: Path) -> None:
             is_named_from_capital=spec.get("is_named_from_capital"),
             phase=str(spec["phase"]) if spec.get("phase") is not None else None,
             notes=spec.get("notes"),
+            **{k: spec.get(k, {}) for k in ("population", "industry", "technology", "laws", "institutions", "interest_groups", "companies", "military")},
+            history_mode=spec.get("history_mode", "inherit"),
         )
 
 
@@ -273,13 +299,13 @@ def add_states(world: World, data: dict, path: Path) -> None:
                         f"{path.name}: {state}: split[{i}] needs 'provinces' "
                         f"or 'rest: true'")
                 shares.append(Share(part["owner"], provs, rest,
-                                    part.get("state_type")))
+                                    part.get("state_type", spec.get("state_type"))))
             if sum(1 for s in shares if s.rest) > 1:
                 raise WorldError(
                     f"{path.name}: {state}: only one split part may be 'rest'")
         elif "owner" in spec:
             shares.append(Share(spec["owner"], [], True, spec.get("state_type")))
-        else:
+        elif not any(k in spec for k in ("population", "industry", "homelands", "claims", "state_type")):
             raise WorldError(f"{path.name}: {state}: needs 'owner' or 'split'")
 
         for key in ("pops", "buildings"):
@@ -299,6 +325,10 @@ def add_states(world: World, data: dict, path: Path) -> None:
             claims=_as_list(spec.get("claims")),
             phase=str(spec["phase"]) if spec.get("phase") is not None else None,
             notes=spec.get("notes"),
+            population=spec.get("population", {}), industry=spec.get("industry", {}),
+            ownership_inherit="owner" not in spec and "split" not in spec,
+            state_type=spec.get("state_type"),
+            homelands_explicit="homelands" in spec, claims_explicit="claims" in spec,
         )
 
 
@@ -340,4 +370,8 @@ def load_world() -> World:
     _load_diplomacy(w)
     _load_region_patches(w)
     _load_aliases(w)
+    document = WORLD / "scenario.yml"
+    if document.exists():
+        from . import scenario
+        w = scenario.overlay(w, scenario.load(document))
     return w

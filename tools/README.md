@@ -1,3 +1,5 @@
+**Araç seçimi:** [Atlas ve Flavor birlikte çalışma rehberi](TOOLS.md). Event/günlük zincirleri için ayrı [Flavor Studio](flavor/README.md) aracını kullanın.
+
 **Kolay başlatma:** Mac'te kökteki `Atlas.command`, Windows'ta `Atlas.bat`
 dosyasına çift tıklayın. [Kısa Türkçe rehber](../ATLAS_KISA_REHBER.md).
 Sunucu veya açık terminal gerekmiyor.

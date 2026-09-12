@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>Flavor Studio · Hikâye masası</title><style>/*STYLE*/</style></head>
+<body><a class="skip" href="#inspector">İçeriğe geç</a>
+<header><div class="brand"><span class="mark" aria-hidden="true">F</span><div><strong>FLAVOR STUDIO</strong><span>Hikâye masası</span></div></div>
+<div class="header-status"><span class="dot"></span><span>Önizleme · Oyun dosyası üretilmedi</span></div>
+<button id="review-open" class="primary">Taslağı onayla <span aria-hidden="true">↗</span></button></header>
+<div class="workspace"><aside class="library"><p class="eyebrow">01 / HİKÂYE</p><h1 id="title"></h1><p id="summary" class="muted"></p>
+<div class="counts" id="counts"></div><label for="search">Düğüm ara</label><input id="search" type="search" placeholder="Başlık, ülke, kimlik…">
+<nav id="node-list" aria-label="Hikâye düğümleri"></nav>
+<div class="library-bottom"><button id="download-plan">Planı indir · JSON</button><button id="download-context">LLM bağlamını indir</button></div></aside>
+<main><div class="toolbar"><div><p class="eyebrow">02 / AKIŞ</p><h2>Bir karar, bir sonraki sayfa.</h2></div><div class="view-tools"><button id="zoom-out" aria-label="Uzaklaştır">−</button><button id="fit">Sığdır</button><button id="zoom-in" aria-label="Yakınlaştır">+</button></div></div>
+<div class="legend"><span><i class="event-dot"></i>Event</span><span><i class="journal-dot"></i>Günlük</span><span>→ Gecikmeli bağlantı</span></div>
+<div id="graph" tabindex="0" aria-label="Olay zinciri diyagramı; düğümleri Tab ile seçebilirsiniz"><div id="graph-space"><div id="graph-content"><svg id="connections" aria-hidden="true"></svg><div id="cards"></div></div></div></div>
+<div class="walkbar"><div><strong>Akış provası</strong><p>Seçeneklerle ilerle. Koşullar ve oyun zamanı simüle edilmez.</p></div><button id="reset-walk">Başa dön</button><ol id="trail"></ol></div>
+<details class="diagnostics"><summary id="diagnostics-label">Kontroller ve varsayımlar</summary><div id="diagnostics"></div></details></main>
+<aside id="inspector" class="inspector" tabindex="-1"><div class="inspector-top"><p class="eyebrow">03 / SAHNE</p><label for="language" class="sr-only">Önizleme dili</label><select id="language"><option value="tr">Türkçe</option><option value="en">English</option></select></div>
+<div id="detail"></div></aside></div>
+<footer><span>Bağımsız flavor çalışma alanı · çevrimdışı</span><span id="revision"></span></footer>
+<dialog id="review"><form method="dialog"><div class="dialog-top"><h2>Bu taslağı derlemeye hazırla</h2><button aria-label="Kapat">×</button></div></form>
+<p>Onay belgesi bu planın, kaynakların ve görsellerin mevcut sürümüne bağlıdır. Bir değişiklikte yeniden önizleme gerekir.</p>
+<label class="check"><input type="checkbox" id="confirm"> Zinciri, tetikleyicileri, sonuçları ve görsel tercihlerini inceledim.</label>
+<label for="review-note">Notun (isteğe bağlı)</label><textarea id="review-note" rows="3" placeholder="LLM için son notlar…"></textarea>
+<button class="primary" id="approve" disabled>Onay belgesini indir</button><p class="muted">Bu düğme modu değiştirmez. LLM, indirdiğin belgeyle onaylanan planı derleyebilir.</p><p id="approval-status" role="status"></p></dialog>
+<script id="flavor-data" type="application/json">/*DATA*/</script><script>/*SCRIPT*/</script></body></html>

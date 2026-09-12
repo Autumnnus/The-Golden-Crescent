@@ -139,3 +139,22 @@ Easy user entry: root `Atlas.command` (macOS), `Atlas.bat` (Windows),
 fixtures are never user requirements or implicitly active scenarios.
 `check` for v2 must compare actual generated files with current compiled source.
 Literacy/wealth are setup inputs; vanilla explicitly recalculates them during setup.
+
+
+## Independent flavor authoring (events and journal chains)
+
+Read `tools/TOOLS.md` to choose between Atlas and Flavor Studio. For events,
+journals, narrative choices, cultural/religious/political flavor, triggers or GFX,
+read `tools/flavor/docs/LLM_WORKFLOW.md` and `tools/flavor/docs/SYNTAX.md`.
+Author separate plans under `flavor/projects/`; do not put flavor into world/.
+Generate a diagram before producing game scripts. The user must explicitly
+approve that exact preview revision before `approve`, `build` or `install`;
+never fabricate approval or use synthetic test receipts as user consent.
+An explicit chat approval may be recorded with `flavor.py approve`, quoting the
+actual approval and binding the existing review fingerprint. Tool development
+or a generic continuation is not approval of an example story.
+When both tools are needed, provide a full Atlas scenario report with --context
+to Flavor. Activate new Atlas country definitions before installing flavor,
+then check both tools. Flavor owns only its namespace files and manifest;
+never overwrite Atlas history, metadata or unrelated hand-authored content.
+Easy entry: Flavor.command / Flavor.bat / Flavor.sh.

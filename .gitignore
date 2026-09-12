@@ -9,3 +9,4 @@ __pycache__/
 # IDE
 /.idea/workspace.xml
 _bisect_off/
+.DS_Store

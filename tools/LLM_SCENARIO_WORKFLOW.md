@@ -181,3 +181,8 @@ diplomacy:
 Atlas v2 alanlarını import/export sırasında korur. Derlenmiş v2 atlasında eyaletin başlangıç dünya paneli vardır. Taslak değiştirilince önceden hesaplanmış ekonomik rapor gizlenir ve LLM bağlamından çıkarılır. Dışa aktar, tekrar validate/report/atlas çalıştır; tarayıcıda ekonomi simüle edilmez.
 
 Örnek: `tools/examples/ve_industrial_reversal.yml`. Fransa veya başka bir ülke için varsayılan özel vasallık yoktur; özel türler yalnız açık scenario.subject_types girdisinden üretilir. Test fixture dosyaları kullanıcı senaryosu değildir. Test: `PYTHONPATH=tools .venv/bin/python -m unittest tools/test_scenario.py tools/test_atlas.py` ve `tools/tgc.py selftest`.
+
+
+## Event / günlük flavor içeriği
+
+Oyun içinde ilerleyen hikâyeler için bağımsız `tools/flavor/flavor.py` aracını kullan. Ayrı flavor planını ve diyagramını oluştur; kullanıcı o sürümü onaylamadan oyun dosyalarını derleme. Bu senaryonun ülke filtresiz tam raporunu Flavor komutlarına `--context` olarak ver. Kaynakları, onayı ve çıktı sahipliğini ayıran sözleşme: [tools/TOOLS.md](TOOLS.md) ve [Flavor LLM iş akışı](flavor/docs/LLM_WORKFLOW.md).

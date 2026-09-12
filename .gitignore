@@ -10,3 +10,5 @@ __pycache__/
 /.idea/workspace.xml
 _bisect_off/
 .DS_Store
+/.vic3-tools.local.json
+/.flavor/

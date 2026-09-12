@@ -8,4 +8,4 @@ flavor/projects/hikayenin_adi/
   assets/         # gerekiyorsa özgün DDS/BK2/poster dosyaları
 ```
 
-Buraya örnek otomatik etkinleştirilmez. Başlangıç örneği `tools/flavor/examples/academy.yml`; çalışma sözleşmesi `tools/flavor/docs/LLM_WORKFLOW.md` içindedir. Oyun çıktıları buraya yazılmaz; onaydan sonra `build/flavor/` altında oluşur.
+Buraya örnek otomatik etkinleştirilmez. Örnek diyagram: `python3 scripts/tools.py flavor preview @examples/flavor/academy.yml --open`. Ortak çalışma sözleşmesinin konumunu `python3 scripts/tools.py docs` gösterir. Oyun çıktıları buraya yazılmaz; onaydan sonra `build/flavor/` altında oluşur.

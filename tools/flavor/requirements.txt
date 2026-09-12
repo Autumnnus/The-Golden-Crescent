@@ -1,3 +1,0 @@
-# Independent flavor dependencies; can share the repository's existing venv.
-PyYAML>=6,<7
-Pillow>=10,<13

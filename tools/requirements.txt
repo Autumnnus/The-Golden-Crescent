@@ -1,4 +1,0 @@
-# Python 3.10+; install in a project-local virtual environment.
-numpy>=1.24,<3
-Pillow>=10,<13
-PyYAML>=6,<7

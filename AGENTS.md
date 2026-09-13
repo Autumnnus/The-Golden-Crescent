@@ -12,7 +12,7 @@ This repository contains the mod and its scenario sources. Reusable Atlas/Flavor
 
 ## Source and authoring
 
-- Scenario design: `docs/scenario/senaryo.md`, `senaryo_afrika.md`, `senaryo_amerika.md`; state notes: `docs/reference/states.md`. `docs/archive/` is historical evidence, not current instructions.
+- Scenario design starts at `docs/scenario/README.md` (version 2). Read its subject-specific authority table: lore, written atlas, country dossiers, economy, law, diplomacy and regional files must agree. `docs/scenario/archive/` and `docs/archive/` are historical evidence, not current instructions. The deleted legacy states.md is not a source to restore automatically. Written design decisions are proposals awaiting user review, not permission to activate a scenario.
 - Atlas's active source is `world/` (V2: `world/scenario.yml`). Generated history/country/localization/map files must not be hand-edited. Generator cleanup replaces its own prior output.
 - Before inventing YAML identifiers, use `python3 scripts/tools.py atlas find <name>` / `show <state>` and `rules`. Never guess STATE IDs or province hex values. Free-form aliases belong in `world/_aliases.yml`.
 - Prose/screenshot map requests require a reference map and verified state names. Preview hypothetical scenarios before active integration. Use `atlas preview --scenario ...` and `atlas map --scenario ... --mode changes --data` as needed.

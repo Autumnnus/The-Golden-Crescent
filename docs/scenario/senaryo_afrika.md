@@ -1,130 +1,98 @@
-# Afrika — Senaryo Taslağı
+# Afrika — bağımsız ağlar, yeni sanayi baskısı
 
-`senaryo.md` Afrika'ya iki cümleyle değiniyor:
+**Güncel sürüm 2.** Bu belge eski taslağın “zorunlu sonuç” diye sunduğu varsayımların yerini alır. Afrika yalnız Mısır'ın arka bahçesi, sömürge kaynağı veya Avrupa'nın yokluğunu gösterecek bir boşluk değildir.
 
-- `:637` — *"Rûm — Florida'daki Yeni Bursa, Malta, **Bazı Batı Afrika ikmal limanları**"*
-- `:641` — *"Mısır — **Doğu Afrika kıyıları**, Kızıldeniz adaları, Hint Okyanusu ticaret üsleri"*
+## 1. Ana kararlar
 
-Geri kalanı çıkarım. Ama çıkarımlar zorlama değil: modun kendi mantığından
-zorunlu olarak çıkıyorlar.
+1. Avrupa'nın kıta çapında yerleşim/sömürge imparatorluğu yoktur. Buna rağmen Avrupalı gemiler, ticarethaneler, göçmenler ve misyonerler bulunabilir. **Egemen toprak ile ticari mevcudiyet aynı şey değildir.**
+2. Ümit Burnu önemlidir. Kızıldeniz ve kara aktarmasına alternatif rota, Mısır ile ticaret yapanlar için bile bir sigortadır. Müslüman devletlerin kendi aralarında da tarife ve savaş ihtilafı vardır.
+3. Endülüs, Fas, Mısır ve Umman kıyı ağları kurar; liman anlaşması bütün hinterlandı ele geçirmiş olmak demek değildir. Kara egemenliğinin maliyeti ve yerel direniş aynen geçerlidir.
+4. Sahel'in ilmî-ticari bağları güçlüdür; bunun bedeli yerel devletlerin iradesinin silinmesi değildir. Her Sahel hükümdarı Kahire adına oy vermez, asker göndermez veya aynı mezhep kimliğini taşımaz.
+5. İnsan ticareti ve zorlayıcı emek farklı ağlarda sürer. Müslüman alıcıların varlığı sömürüyü hafifletmez; bütün Afrikalı devletleri de yalnız köle satıcısı yapmaz.
+6. Müslümanlığın güçlü olması bilimsel/ahlaki tek tip üstünlük; Hristiyanlığın veya yerel dinlerin varlığı geri kalmışlık işareti olarak kullanılmaz.
 
----
+## 2. Bölgelerin kendi tarihi
 
-## Kurucu fikir: Ümit Burnu hiç önemli olmadı
+### Mağrip
 
-Gerçek tarihte Avrupa Afrika'yı dolaşmak zorundaydı, çünkü doğuya giden kara
-yolları Müslüman devletlerin elindeydi ve onlar geçiş resmi alıyordu. Portekiz
-1488'de Ümit Burnu'nu dönmesi, Vasco da Gama'nın 1498'de Hindistan'a varması —
-hepsi **bu ambargoyu delme çabasıydı.**
+1506 ayrılığından sonra Fas, İberya ile savaşmaktan çok kendi kıyı geliri ve Atlantik sermayesini kurmaya yönelir. Köy/yayla topluluklarının vergi pazarlığı sürer. Cezayir, Tunus ve Trablus ayrı denizci yönetimlerdir; Mısır'ın doğrudan veya otomatik bağlı ülkeleri değildir.
 
-Bu evrende o çaba hiç başarılı olmadı. Kısa yollar hâlâ Müslümanların elinde ve
-onlar **çalışıyor**: Mısır Kızıldeniz'i, İran Basra Körfezi'ni, Uygur Kansu
-koridorunu tutuyor ve hepsi ticaretten kazanıyor. Kimsenin Afrika'yı dolaşmaya
-ihtiyacı yok.
+Tunus'un hukuk ve ticaret mektepleri, Cezayir'in denizcilik/onarım kapasitesi, Fas'ın deri-dokuma ve Atlantik ağı farklı kalkınma temelleridir. Sahara'nın tümü kıyı devletlerinin etkin bürokratik kontrolünde gösterilmez.
 
-Bunun üç sonucu var:
+### Sahel ve Sahra
 
-1. **Ümit Burnu sömürgeleşmedi.** Ne İngiliz Cape'i var, ne Boer cumhuriyetleri
-   (Büyük Göç İngilizlerden kaçıştı — İngiliz yoksa göç de yok). Güney Afrika
-   Xhosa, Zulu, Tswana ve Khoi'nin.
-2. **Avrupa'nın geri kalmışlığının sebebi bu.** `senaryo.md:15` "Avrupa doğudaki
-   devletlerin teknolojilerini öğrenmeye çalışmaktadır" diyor — çünkü kendi
-   deniz yolunu hiç açamadı.
-3. **Afrika'nın içi Afrikalıların.** Geç kolonizasyon + Avrupa'nın zayıflığı =
-   büyük Afrika devletleri ayakta.
+Gelişen Sahra ticareti tahıl, tuz, tekstil, hayvan, metal ve insan ticaretini içerir. Mali havzasındaki kentler ve Hausa bölgesi yerel eğitim ve yazışma ağlarına sahiptir. Bütün bu gelişmenin kaynağı Kahire'den gelen emirler değildir.
 
----
+Bu evrenin Sokoto birliği 1789–1819 arasında hukuk reformu, kent koalisyonları ve bölgesel seferlerle şekillenir. Gerçek tarihteki olayların aynı aktör/tarih dizisiyle değişmeden kaldığı varsayılmaz. Merkezîleşme isteyen dinî reformcularla bağımsız kent ve otlak yöneticileri çatışır. Segu, Bambara ağırlıklı ve farklı inançları barındıran bir siyasal merkezdir; sırf denge için topluca Taklidiyye'ye çevrilmez.
 
-## 1. Avrupa Afrika'dan siliniyor
+### Nil, Boynuz ve Doğu Afrika
 
-`senaryo.md:615` Britanya'nın sömürgelerini "Kuzey Amerika'nın doğu kıyıları,
-bazı Atlantik adaları" diye sayıyor. Şu an haritada duran ve kalkması gerekenler:
+Mısır'ın doğrudan nehir yönetimi Dongola'ya kadar uzanır. Sennaar, Darfur ve Vaday ayrı aktörlerdir. Habeş yaylasında Begemder, Şewa, Tigray ve diğer yerel merkezler kendi birleşme mücadelelerini yürütür; “Afrika'nın Gürcistan'ı” benzetmesi bunların yerine tarih yazmaz.
 
-| Şu an | Ne olacak |
-|---|---|
-| İngiliz Cape Kolonisi (3 state) | Xhosa ve Khoi devletlerine |
-| İngiliz Sierra Leone, Gold Coast | Temne ve Aşanti'ye |
-| Boer cumhuriyetleri (Vrystaat, Transvaal) | Yok — Büyük Göç hiç olmadı |
+Maskat ve Zanzibar aynı Umman tacının iki merkezi olarak ticaret ve emek rejimi üzerinde rekabet eder. Mısır'ın kıyı üsleri Zanzibar'ı veya Mozambik'in tamamını elinde tuttuğu anlamına gelmez. Svahili şehir meclisleri Umman hükümdarıyla bile ayrı haklar üzerinde pazarlık eder.
 
-## 2. Müslüman güçlerin Afrika'daki ayak izi
+### Ekvator ve güney
 
-Senaryonun verdikleri, artı zorunlu sonuçlar:
+Kongo/Loango havzası, Luba–Lunda ağları, Büyük Göller devletleri ve güneydeki farklı topluluklar kendi tarım, metal, otlak ve ticaret düzenlerini taşır. Ortadoğu sanayisinin artan talebi bunları tek yönlü zenginleştirmez: ucuz mamul ithali bazı zanaatları sarsar, yeni ihraç gelirleri başka kesimleri güçlendirir.
 
-| Devlet | Kapsam | Kaynak |
-|---|---|---|
-| **Rûm** | Senegal, Gine — Batı Afrika ikmal limanları | `:637` |
-| **Mısır** | Sudan, Eritre, Mozambik, Zambezi, Lourenço Marques | `:641` |
-| **Fas** | Angola, Güney Kamerun — Atlantik ağı | `:588` |
-| **Endülüs** | **Gine Körfezi'nde köle fabrikaları** ← yeni | `:544`, `:317` |
+Zulu askerî merkezîleşmesi 1790–1825 arasındaki otlak, ticaret ve yerel rekabetin bu evrene özgü sonucudur; Avrupa yerleşimcilerinin yokluğu bölgenin bütün savaşlarını yok etmez. Aynı şekilde Basotho birlikleri, Xhosa ağları ve Tswana merkezleri Zulu devletinin türevleri değildir.
 
-Endülüs'ünki benim eklemem ama senaryonun zorunlu sonucu: `senaryo.md:544` Yeni
-Endülüs'ün nüfusunda "Afrikalı köleler" var, `:317` Endülüs'ün sorunları
-arasında "Kölelik ve zorunlu çalışma tartışmaları", `:325` başlangıç hedefi
-"Köleliği kaldırmak veya sömürge ekonomisini korumak". Bir Atlantik köle
-ticareti var ve onu Endülüs işletiyor — o hâlde Gine kıyısında ticaret
-kaleleri olmalı. Bu, kaldırma ikilemini haritada somut hâle getirir.
+## 3. Egemen aktörler ve başlangıç geçimi
 
-## 3. Sahel — Kahire minberinin derinliği
+| Bölge / aktör | Siyasi yapı ve başlıca merkez | Ekonomik temel | Dış ilişki / iç sorun |
+|---|---|---|---|
+| Fas | Fes merkezli sultanlık, H8 | Tahıl, deri/dokuma, liman ve Brezilya kredisi | Endülüs'le ticari rakip; kırsal vergi ve plantasyon çıkarı |
+| Cezayir / Tunus / Trablus | Ayrı kıyı hanedan/divanları, H8 | Denizcilik, zanaat, iç ticaret geçişi | Yerel dinî gelenekler; Kahire'ye siyasi tabiiyet yok |
+| Sahra/Tuareg ve Bidan ağları | Ayrı vaha/otlak sözleşmeleri, H9 | Hayvan, tuz ve taşıma | Sabit harita sınırı ile mevsimlik hareket ayrılacak |
+| Sokoto birliği | Sokoto ve Hausa emirlikleri; H8, üye sözleşmeleri | Tarım, tekstil, kent ticareti, eğitim | Hukuk merkezîleşmesi ve yerel emek/otorite uyuşmazlığı |
+| Bornu | Kuka çevresinde sultanlık, H8 | Göl havzası tarımı ve ticaret | Su/otlak, Sokoto rekabeti; Kahire ile dinî bağ ayrı |
+| Massina / Timbuktu | İç delta devleti / özerk ilmî-ticari kent | Hayvancılık, tahıl, nehir–çöl aktarması | Timbuktu, Massina'nın sözleşmeli özerk kentidir; bütün Malî onların tek idaresi değil |
+| Segu | Bamako–Segu nehir kuşağı, H8 | Tarım, zanaat, bölgesel pazar | Yerel inançlar ve Müslüman cemaatler; zorlayıcı emek tartışması |
+| Futa Jallon / Futa Toro | Ayrı dinî-eşraf meclisleri, H8 | Tarım, yayla ve nehir geçişi | Kıyı ticareti ve yerel otorite |
+| Vaday / Darfur / Sennaar | Ayrı sultanlıklar, H8 | Tarım, hayvan ve transit | Nil/Çad/Sahel bağları; Mısır nüfuzuna koşullu yaklaşım |
+| Cayor / Walo / Kaabu | Ayrı yerel egemen devletler, H8/H9 | Nehir/kıyı ticareti ve tarım | Yabancı iskele kira hakları; aracı tüccar tekelleri |
+| Aşanti | Kumasi merkezli devlet, H8 | Altın, tarım, zanaat ve ticaret | Kıyı ortaklarıyla gelir paylaşımı; saray sefer yükü |
+| Dahomey / Oyo / Benin | Ayrı krallıklar, H8 | Tarım, zanaat, pazar ve farklı emek ticaretleri | Aynı kültür, rejim veya köle ticareti bağımlılığı oranı atanmaz |
+| Kongo / Loango | Ayrı krallıklar, H8 | Nehir, tarım, dokuma ve kıyı ticareti | Ticari dinî azınlıklar mümkün; nüfus bütünü Katolik ya da din değiştirmemiş sayılmaz |
+| Luba / Lunda | Ayrı hanedan ve yerel birlik ağları, H8/H9 | Metal, tarım, bölgesel değişim | Merkez–yerel katkı ve uzun mesafe ticaretinin dağılımı |
+| Buganda / Bunyoro / Ruanda / Burundi | Ayrı göl havzası krallıkları, H8 | Yoğun tarım, hayvancılık, zanaat | Toprak ve emek yükümlülükleri; dış tüccarın ayrıcalığı |
+| Nyamwezi ve komşu ticaret ağları | Bölgesel şeflik/kurullar, H9 | Taşıma, tarım ve iç ticaret | Kervan emeği ve kıyı aracılığı |
+| Begemder / Şewa / Tigray | Ayrı yayla yönetimleri, H8 | Tarım, hayvancılık ve yerel üretim | Birleşme, kilise-toprak ilişkileri; tek dış koruyucu yok |
+| Harar / Somali kıyı sultanlıkları | Ayrı ticari-siyasi merkezler, H8/H7 | Kervan, hayvan, liman | Mısır/Umman ticari rekabeti, yerel bağımsızlık |
+| Umman–Zanzibar | Ortak taç içinde özerk denizaşırı divan, H8 | Baharat, taşımacılık ve ticaret | Kölelik yasal; iki merkezin gelir ve hanedan kavgası |
+| Svahili şehirleri | Mombasa/Kilwa ve diğer kentlerin ayrı şartları, H7/H8 | Kıyı ticareti, üretim ve tamir | Umman ile her kentin ayrı ilişkisi; bütün kıyı tek ilhak alanı değil |
+| Merina | Antananarivo merkezli krallık, H8 | Pirinç, zanaat ve devlet atölyeleri | Angarya, bölgesel topluluklar ve dış kredi |
+| Zulu | KwaBulawayo çevresindeki askerî merkez, H8 | Tarım, sürü, bölgesel emek | Hizmet yükü ve komşu toplulukların egemenliği |
+| Xhosa / Tswana / Basotho | Ayrı devlet ve birlikler, H9; bazı merkezlerde H8 | Tarım, hayvancılık, ticaret | Birleşme/yerel hak dengesi; hazır tek güney federasyonu yok |
+| Khoekhoe / Nama / Herero ve diğer güneybatı toplulukları | Ayrı otlak, kıyı ve iç kurullar, H9 | Hayvan, yerel üretim ve geçiş | Yabancı yerleşim, arazi satışı ve su hakkı |
 
-1212'den beri İslam dünyası geri çekilmedi, Sahra ticaret yolları hiç kesilmedi
-ve Sahel şehirleri zengin bir Akdeniz'e bağlı kaldı. Sonuç: Sahel devletleri
-gerçek tarihtekinden güçlü ve **İslam sınırı daha güneyde.**
+H8 varsayılanları yerel emek/inanç kartıyla kesinleştirilecek. Yukarıdaki satırlar aynı adlı bütün halkların homojen bir ülkeye zorla toplanması emri değildir. Küçük birimlerin başkent ve sınır ayrıntıları siyasi harita hazırlığında açılacak.
 
-| Devlet | Kapsam |
-|---|---|
-| **Sokoto Halifeliği** | Nijerya, Hausaland (×3), Kuzey Kamerun — zaten büyük |
-| **Bornu Sultanlığı** | Bornu, Niger |
-| **Massina** | Doğu Mali, Timbuktu |
-| **Futa Jallon / Segu** | Batı Mali, Gine içi |
-| **Vaday, Darfur** | Çad havzası |
+## 4. Yabancı erişim defteri
 
-**Mezhep önerisi: Sahel Taklidiyye (Kahire).** Sahel tarihen Maliki Sünni ve
-Kahire ile Fas'a bağlıydı. Mekanik olarak da gerekli: Kahire minberinin şu an
-**6 takipçisi** var, İçtihatçı Düzen'in 18. Sahel'i Kahire'ye bağlamak Kahire'yi
-~13'e çıkarır ve Üç Minber Krizi'ni gerçek bir yarışa çevirir.
+| Yabancı taraf | Yer ve ev sahibi | Hak | Verilmeyen hak |
+|---|---|---|---|
+| Rûm | Rufisque iskelesi; Cayor | 1809'dan kalan sınırlı ikmal/depo kirası | Senegal/Gine'nin tamamında egemenlik veya vergi |
+| Endülüs şirketleri | Whydah ticaret mahallesi; Dahomey | Depo, ticaret ve sınırlı konsolosluk | Bütün Gine Körfezi'ni “Endülüs Ginesi” kolonisi yapma |
+| Fas tüccarları | Loango ve Benguela çevresinde farklı yerel muhataplar | Ayrı liman/ambar sözleşmeleri | Angola/Kamerun'un ilhakı; tek bir yekpare Afrika kolonisi |
+| Mısır | Massava ve Dahlak'taki yerel yönetimler | Donanma ikmali, kira ve hac güvenliği | Eritre/Habeş yaylası egemenliği |
+| Mısır tüccarları | Kilwa ve Mozambik kıyı kentleri | Ticaret, ortak gemi/ambar yatırımı | Zanzibar veya bütün Mozambik'in yönetimi |
+| Britanya/Hollanda | Yerel güney kıyı kurullarıyla süreli sözleşmeler | Burnu dolaşan gemilere su, tamir, ticari ikamet | Cape Kolonisi, Boer cumhuriyetleri veya içeriye sınırsız yerleşim hakkı |
 
-## 4. Habeşistan — Afrika'nın Gürcistan'ı
+1836'da bu erişimlerin çoğu yabancı ülke rengiyle boyanacak toprak değildir. Sonraki haritada gerekirse simge/etiketle gösterilir. Yerel egemenliğin ihlal edilmesi olay nedeni olabilir; başlangıçta bütün hakların ihlal edilmiş olduğu varsayılmaz.
 
-Müslüman güçlerle çevrili Hristiyan yayla imparatorluğu. Kafkasya'daki
-Gürcistan'ın aynası. Vanilla'da Prensler Çağı yüzünden parçalı (Gonder, Amhara,
-Oromia, Şoa). Parçalı bırakmayı öneriyorum: birleştirme oyuncunun işi olsun,
-ve Mısır'ın güneyden gelen baskısı hikâyeyi kursun.
+## 5. Emek, inanç ve eğitim
 
-## 5. Ayakta kalan büyük Afrika devletleri
+Kölelik veya başka zorlayıcı emek biçimleri Sokoto/diğer Sahel yönetimleri, bazı kıyı krallıkları, Umman ağı ve farklı hanedan alanlarında değişen kapsamda bulunur. Hepsinin aynı yasaya ve ekonomik bağımlılığa sahip olduğu söylenmez. Aşanti gibi bir devletin bütün ekonomisi insan ihracına indirgenmez.
 
-`senaryo.md:530`'un Amerika için söylediği Afrika için de geçerli: geç
-kolonizasyon, çok sayıda yerli devlet.
+Sahel'de Müslüman topluluklar, yerel inançlar ve farklı ilmî ağlar bir aradadır. Svahili kıyıda Sünni, Umman yönetici çevresinde İbadi gelenekler ayrılır. Habeş yaylasında yerel Hristiyan kiliseleri ve başka dinî topluluklar sürer. Ticaret ve misyon sonucunda oluşan küçük Hristiyan cemaatler sırf Avrupa egemenliği yok diye silinmez.
 
-**Aşanti**, **Dahomey**, **Oyo**, **Benin** (Gine körfezi) · **Kongo**, **Luba**,
-**Lunda** (ekvator) · **Buganda**, **Nyamwezi** (göller) · **Zulu**, **Xhosa**,
-**Tswana**, **Herero** (güney) · **Merina** (Madagaskar) · **Umman-Zanzibar**
-(Doğu Afrika ticareti — Umman zaten burada)
+Metin okuryazarlığı, yerel bilgi aktarımı ve teknik beceri ayrı ölçülerdir. Bütün kıtanın tek bir “baseline” eğitim değeri yoktur. Kent mektepleri ile kırsal erişim farkı, sanayi ithalini çalıştıracak usta sayısı ve kayıt dili ülke bazında belirlenecek.
 
-## 6. Dinler
+## 6. Afrika'dan başlayan üç anlatı
 
-Amerika'daki mantığın aynısı: **Avrupalı misyoner gelmedi.**
+- **Kumasi'nin terazileri:** Aşanti meclisi yeni mamul ithalatı karşısında zanaat tarifesi mi, doğrudan makine yatırımı mı yapacak? Endülüs kredi teklifi sonucu belirlemez; yerel üretici ve köylünün maliyeti görünürdür.
+- **İki kıyının divanı:** Zanzibar geliri Maskat'a ne kadar aktarılacak; kölelikten çıkan üreticilere toprak/kredi sağlanacak mı? Oyuncu yalnız hangi dış güce bağlanacağını seçmez.
+- **Burnun sözleşmesi:** yerel kıyı kurulları ortak gümrük ve toprak sicili kurabilir, ayrı sözleşmelerle rekabet edebilir veya dış filoya koruma yetkisi verebilir. Son seçenek gelir karşılığında egemenlik riski taşır.
 
-| Bölge | Din |
-|---|---|
-| Sahel ve Sahra | Taklidiyye (Kahire) |
-| Gine körfezi, ekvator, göller | Animist — Hristiyanlık yok |
-| Habeşistan | Oriental Orthodox |
-| Doğu Afrika kıyısı | Sünni (Svahili ticaret İslamı), bağlanmamış |
-| Güney Afrika | Animist — Hollandalı Kalvinist yok, çünkü Cape kolonisi yok |
-| Kuzey Afrika | Taklidiyye (Fas, Tunus, Trablus), Cezayir bağlanmamış |
-
-Vanilla'da Kongo ve Güney Afrika'da Katolik/Protestan nüfus var; ikisi de
-Portekiz ve Hollanda'nın eseri, ikisi de bu evrende yok.
-
----
-
-## Sayılar
-
-| | Devlet | State |
-|---|---|---|
-| Müslüman güçlerin sömürgeleri | 4 | ~14 |
-| Sahel Müslüman devletleri | ~7 | ~16 |
-| Habeşistan ve Boynuz | ~5 | ~6 |
-| Diğer Afrika devletleri | ~25 | ~46 |
-
-Avrupa'nın Afrika'daki payı: **sıfır.**
+Bu anlatılar sonraki event/journal çalışmasının yazılı çekirdeğidir; burada oyun kodu değildir.

@@ -1,3 +1,5 @@
+> **Senaryo için güncel kaynak:** [sürüm 2 dünya tasarımı](../scenario/README.md). Bu arşivdeki ülke listeleri, bağlılıklar, din dağılımları ve üretim sırası yeni senaryonun kanonu değildir; [çelişki/karar kaydı](../scenario/tutarlilik_denetimi.md) bunların nasıl değiştiğini açıklar.
+
 > TARİHSEL ARŞİV — Bu belge eski yeniden kurulum incelemesini korur; güncel dosya yolları veya silme talimatı değildir. Buradaki reset/clean/discard işlemlerini uygulamayın. Güncel düzen için ../../README.md ve ../TOOLS.md dosyalarını okuyun.
 
 # The Golden Crescent — Yeniden Kurulum Planı

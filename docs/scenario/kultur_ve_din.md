@@ -1,0 +1,41 @@
+# Kültür ve din defteri — ana ülkeler
+
+**13 Eylül 2026 · sınırlı yazılı tasarım turu.** Bu belge on öncelikli ülke/ülke grubu için kimlik ve bölgesel dağılım kararlarını tamamlar. Yeni ayrıntılar yapımcı tasarımıdır. Kesin eyalet yüzdeleri, oyun kültür/din kimlikleri ve bütün dünya demografisi değildir. Sınırlar [atlasa](dunya_atlasi.md), hukuki haklar [kurumlar belgesine](hukuk_ve_kurumlar.md), sayısal yöntem [ekonomi belgesine](ekonomi_ve_toplum.md) bağlıdır.
+
+## 1. Kimlikleri nasıl kaydedeceğiz?
+
+Ülkenin resmî dili, yönetimde ayrıcalıklı toplulukları, halkın konuştuğu diller ve kişilerin inançları ayrı alanlardır. “Rûm tebaası”, “İran ortaklığı” ve “Britanya tacı” siyasi aidiyetlerdir; bütün sakinleri tek pop kültürüne dönüştürmez.
+
+Müçtehidiyye, İrfaniyye, Hikmetiyye ve Taklidiyye öncelikle hukuk ve dinî kurum gelenekleridir. Sünni/Şii/İbadi gibi inanç aidiyetleriyle kesişebilirler. Aynı kişiyi hem Sünni hem Müçtehidî satırına nüfus olarak eklemeyeceğiz. Yazılı kayıtta **inanç aidiyeti** ve **kurumsal yorum geleneği** ayrı tutulacak. Oyunda ayrı din mi, kurum mu, başka temsil mi kullanılacağı kaynak incelemesinde seçilecek.
+
+Din veya kültürden teknoloji puanı türetilmez. Teknik avantaj okul, meslek eğitimi, sermaye ve üretim merkezinden gelir. Ülke çapında tek çoğunluk varsaymak yerine aşağıdaki bölgesel çekirdekler kullanılacak; nitel ağırlık ifadesi kesin yüzde değildir.
+
+## 2. Ana ülke kayıtları
+
+| Ülke | Resmî/siyasi kimlik | Bölgesel kültür ve dil çekirdekleri | İnanç ve kurum dağılımı | Başlangıç toplumsal meselesi |
+|---|---|---|---|---|
+| Rûm | Türkçe ağırlıklı merkezî idare; Müçtehidî hukuk meclisleri, çok dilli imparatorluk | Batı/orta Anadolu'da Türkçe konuşan topluluklar; Ege ve Balkan çekirdeğinde Rum ve diğer yerel halklar; doğuda Ermeni/Kürt topluluklar; Bağdat çevresinde Arapça ağırlığı. Konstantiniyye ve limanlar karışık | Müslüman halk içinde farklı Sünni/Şii gelenekler; Rum Ortodoks, Ermeni Apostolik, Yahudi cemaatleri ve diğer yerel Hristiyanlar. Balkan Hristiyan çekirdekleri korunur | Devlet okuluna ve memuriyete erişim, yerel dilde eğitim, cemaat mahkemeleri. Bağlı emirlikler bu ülke toplamına katılmaz |
+| Mısır | Arapça merkezî idare; sultan ile Abbasi makamı ayrı; Taklidî hukuk ağırlığı | Delta ve orta Nil'de Mısır Arapçası; güney nehir koridorunda Nubya toplulukları; İskenderiye/Kahire'de ticaret ve uzman göçü | Müslüman çoğunluk tasarımı; Kıpti cemaatler kentte ve kırda devam eder. Güney koridoru tek dil veya tek inanç kabul edilmez | Sulama arazisi, vakıf muafiyeti ve teknik okul erişimi. İthal uzmanlık bütün limanı yabancı kültüre çevirmez |
+| İsfahan | Farsça saray/akademi; İrfanî kurumlar, H3 | İsfahan–Kaşan ve Fars/Şiraz çekirdeklerinde Farsça; kentlerde Ermeni ve Yahudi cemaatleri; yerel diğer topluluklar bölge kaydında açılacak | Şii gelenekler ve İrfanî yorum ağı güçlü; Sünni, Ermeni Hristiyan, Yahudi ve Zerdüşt cemaatlerin devamı tasarımda korunur | Akademiye katılabilmek ile siyasi temsil eşit değildir; vakıf ve kent mülkiyeti ayrıcalıkları |
+| Tebriz | Azeri Türkçesi ve Farsçanın farklı idari/ilmî rolleri; İrfanî kurumlar | Tebriz çevresinde Azeri Türkçesi; Urmiye havzasında Azeri, Kürt ve yerel Hristiyan topluluklar. Şehir ile kırsal havza aynı oranı almaz | Şii/İrfanî ağ, farklı Sünni cemaatler, Ermeni Apostolik ve yerel Süryani kilise gelenekleri | Atölye ve patent hakkı; öğretim dilinin teknik mesleğe girişte yarattığı eşitsizlik |
+| Endülüs | Kurtuba federal tacı; Hikmetî anayasal uzlaşma | Endülüslü Arapça ve yerel Romance dilleri; Lizbon çevresinde Portekizce gelenekleri; kentlerde Mağrip göçmenleri ve Yahudi cemaatleri. Kuzey bağımsız krallıkları ayrı | Müslüman kurumlar baskın; Katolik ve Yahudi cemaatler kamusal uzlaşmanın ayrı tarafları. Hikmetiyye herkesin yeni dini değildir | Ortak kent yurttaşlığı ile köy, cemaat ve sömürge haklarının farkı. Endülüslü üst kimliği yerel dilleri silmez |
+| Britanya taçları | Katolik ortak hükümdar; üç ayrı iç düzen | İngiltere'de İngiliz, Galler'de Gal; İskoçya'da Scots ve Gaelic ağları; İrlanda'da İrlandalı topluluklar ve kent/yerleşimci azınlıklar ayrı kaydedilir | İngiltere–Galler'de Katolik makamlar ve reform cemaatleri; İskoçya'da reform kiliseleri güçlü, Katolik yerel cemaatler sürer; İrlanda'da Katolik ağırlık | Ortak taç kültürel birleşme değildir. Kilise ve mülk koşulları okul, görev ve temsil hakkını farklılaştırır |
+| Lehistan–Litvanya | Katolik seçimli taç; Leh/Litvan soylu ortaklığı | Leh çekirdeği, Litvan bölgeleri ve doğu Ruthen dil alanları ayrı; Yahudi kent ağları, Müslüman Tatar cemaatleri ve liman azınlıkları korunur | Katolik, Ortodoks, Yahudi ve Müslüman topluluklar; yerel reform kiliseleri. Ruthen tek tip nihai oyun kültürü sayılmaz | Rûm'dan teknik aktarım din değiştirme gerektirmez. Teknik okul ve ordu mesleği açılırken soyluluk/köylü statüsü eşitsizliği sürer |
+| Kaşgar | Hanlık ve gümrük meclisi; resmî Müçtehidî yorum | Tarım havzasında Uygur vaha toplulukları; geçitlerde Kırgız ve diğer yerel ağlar; kentlerde ayrı tüccar diasporaları | Sünni gelenekler ve yerel tasavvuf ağları güçlü; resmî yorum kırsala tek biçimde yayılmış sayılmaz. Cungarya temas alanlarında Budist topluluklar korunur | Vaha vergisi, göçer geçişi ve medrese–teknik okul kaynak paylaşımı. Garnizon erişimi çevre nüfusunun tümünü hanlığa katmaz |
+| Gurkanî | Müslüman hanedan, Müçtehidî meclis; Farsça saray geleneği ve yerel idare dilleri | Delhi/yukarı Ganj–Yamuna'da bölgesel Hint dil toplulukları; Lahor/orta Pencap'ta Pencaplılar; kentlerde çok dilli askerî/ticari çevreler | Hindu topluluklar ana nüfus tabanıdır; farklı Müslüman cemaatler, Sihler, Jainler ve diğer yerel inançlar bölgesel kaydedilir | Hanedan dini halkın dini değildir. Toprak aracılığı, tapınak/vakıf gelirleri ve askerî göreve erişim; Keşmir ve Racput bağlıları ayrı nüfus |
+| Jiangnan | Nankin tüccar–bürokrat cumhuriyeti; Konfüçyüsçü kamusal tören | Aşağı Yangtze kent ve kır dil ağları; Şanghay çevresinde Wu, Nankin ve iç koridorda farklı yerel dil alanları; Hunan/Hubei toplulukları ayrıca | Budist, Taoist, ata kültü ve yerel ibadetler birlikte yaşayabilir. Müslüman ticaret cemaatleri yerel ölçekte bulunur | Tek bir devlet töreni herkese tek inanç dayatmaz. Dil ve ikamet şartları lonca, sınav ve meclis erişimini etkiler |
+
+## 3. Son kullanıcı kararlarının koruma kuralları
+
+- **İskandinavya:** Danimarkalı, İsveçli ve Norveçli kimlikler ortak taç içinde ayrı kalır; Finlandiya'daki Fin/İsveççe topluluklar ve kuzeyde Sámi halkları silinmez. Reform kiliseleri ağırlığı, yerel inanç ve cemaat farklılıklarıyla kaydedilir. Görece güçlü okul ağı bütün kuzeyi aynı okuryazarlıkta yapmaz.
+- **Moskova:** Rusça konuşan çekirdek ve Ortodoks kurumlar korunur. Tatar baskısı toplu İslamlaşma değildir; Moskova kültürü Sibirya'nın tamamına taşınmaz.
+- **Japonya/Kore:** Büyük yeni kültürel dönüşüm yazılmaz. Japonya'da Budist ve kami ibadeti, Kore'de Konfüçyüsçü kurumlar ile Budist/yerel ibadetler ayrı katmanlardır. Tekil oyun dinine indirgeme sonraki temsil kararıdır.
+- **Güneydoğu Asya:** Yerli Malay, Cava, Khmer, Tay, Bamar, Vietnam ve diğer halkların kimliği dış sömürgeciye göre değiştirilmez. Mısır/Umman kolonisi kurulursa yerleşimci, asker ve tüccar nüfusu yerel halktan ayrı ve yerleşim ölçeğinde yazılır. Müslüman dış yönetim otomatik Müslüman çoğunluk üretmez.
+
+## 4. Sayılandırmaya geçişte kullanılacak kayıt
+
+Her nihai bölge için: **egemen ülke → bölge → toplam nüfus → kültür/dil topluluğu → inanç aidiyeti → kişi sayısı → kent/kır ve eğitim farkı → kurumsal yorum notu → tarihsel gerekçe**.
+
+Kültür–inanç çiftlerinin kişi sayıları bölge toplamına, bölge toplamları ülkenin doğrudan nüfusuna eşit olacak. Din ve kültür yüzdeleri bu ortak kayıttan türetilecek. Birlik/koloni nüfusu ikinci kez sayılmayacak. Kesişen ibadet gelenekleri için aynı insan çoğaltılmayacak; oyun temsili seçilene kadar bunlar nitel not olarak kalacak.
+
+**Bu turda tamamlanan:** ana ülkelerin kimlik çekirdekleri, bölgesel dağılım yönü ve devlet dini–halk dini ayrımı. **Kalan:** kesin sınırlarla birlikte bölge bazında nüfus/yüzde ataması, küçük devletler ve oyun kimlikleri. Tablo toplulukların eksiksiz envanteri değildir; adı geçmeyen halkları silme talimatı vermez.

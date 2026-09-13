@@ -36,12 +36,20 @@ Bunlar kullanıcının belirlediği yönlerdir. Belgelerde bu yönleri açıklay
 
 Bir sınır değişikliği önce atlası, bir bağlılık değişikliği önce diplomasi belgesini değiştirir; ülke dosyası bunların özeti olarak güncellenir. Ekonomik hedefi değiştirmeden ülkeye yeni sanayi/okuryazarlık ayrıcalığı eklenmez. Her yeni devlet için yer, geçim kaynağı, yönetim ve dış ilişki birlikte yazılır.
 
+## Atlas uygulama aşaması — 13 Eylül 2026
+
+Kullanıcı fazlar halinde Atlas üretimini başlattı. Güncel uygulama ve devam kaydı [ATLAS_FAZLARI.md](ATLAS_FAZLARI.md); ilk paket [Rûm önizlemesidir](../../scenarios/atlas/phase01_rum/README.md). Yazılı kararlar tasarım kaynağı olmaya devam eder.
+
 ## Bu sürümün statüsü
 
 - Güncel tasarım yukarıdaki dosyalardır. `archive/*_v1.md` eski metinleri değişmeden korur; talimat veya ikinci bir kanon değildir.
 - [Eski yeniden kurulum belgesi](../archive/YENIDEN_KURULUM.md) teknik sorunların tarihsel kaydıdır. Oradaki 171 ülke, eski tag/state listeleri, mezhep dağılımları ve faz takvimi yeni senaryoya emir vermez.
-- Bu aşamada Atlas/Flavor çalıştırılmaz; YAML, event, journal, oyun dosyası veya gerçek province haritası üretilmez.
-- Haritalar şimdilik yazılı sınır tarifleri ve ölçekli olmayan ilişki diyagramlarıdır. Sayısal hedefler tasarım girdisidir; motor sonucu değildir.
+- Önceki yazılı hazırlık aşaması sona erdi; Atlas ayrı önizleme paketlerinde çalıştırılabilir. Etkin dünya henüz kurulmadı. Flavor için kesin diyagram onayı gerekliliği sürer.
+- Yazılı atlas genel dünyayı tarif eder; faz paketleri doğrulanmış il kimlikleriyle bölgesel harita üretir. Sayısal hedefler tasarım girdisidir; motor sonucu değildir.
 - Ana ülkeler için yazılı altyapı ayrıntılandırılmıştır. Küçük ülkelerin tek tek hükümdarları, her eyaletin nüfus yüzdeleri ve kesin province sınırları henüz uygulama için kilitlenmiş değildir. Bunları bitmiş gibi göstermiyoruz.
 
 **İlk inceleme:** ana senaryo → ülke dosyaları → atlas/diplomasi. Kullanıcı dünyayı değiştirmek istediğinde önce bu yazılı taslak güncellenir; sonraki üretim aşaması bu metinlere dayanır.
+
+### Atlas güncel uygulama
+
+[Faz 1B.1 — Rûm nüfus, eğitim ve kurum önizlemesi](../../scenarios/atlas/phase01b_rum_demography/README.md) üretildi. Sonraki iş ve açık kabul kapıları [faz kaydında](ATLAS_FAZLARI.md). Henüz etkin/oynanabilir dünya değildir.

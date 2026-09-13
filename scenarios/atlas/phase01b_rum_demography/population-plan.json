@@ -1,0 +1,210 @@
+{
+  "country": "RUM",
+  "target_population": 27000000,
+  "status": "producer_design_inputs",
+  "composition_policy": "preserve inherited joint culture/religion proportions; no demographic marginal cross-product",
+  "literacy_policy": "owner/state setup input; not guaranteed runtime literacy",
+  "settlement_weights_total": 28160,
+  "regions": [
+    {
+      "state": "STATE_MALTA",
+      "owner": "RUM",
+      "population": 173000,
+      "literacy": 0.46,
+      "settlement_weight": 180,
+      "reason": "Deniz ikmali ve yerel zanaat; sınırlı ada taşıma kapasitesi"
+    },
+    {
+      "state": "STATE_EASTERN_THRACE",
+      "owner": "RUM",
+      "population": 2876000,
+      "literacy": 0.56,
+      "settlement_weight": 3000,
+      "reason": "Başkent, basım ve yüksek eğitim; çevre kırsal alan dahil"
+    },
+    {
+      "state": "STATE_CRETE",
+      "owner": "RUM",
+      "population": 384000,
+      "literacy": 0.34,
+      "settlement_weight": 400,
+      "reason": "Ada tarımı, kıyı zanaatı ve deniz geçişi"
+    },
+    {
+      "state": "STATE_WEST_AEGEAN_ISLANDS",
+      "owner": "RUM",
+      "population": 173000,
+      "literacy": 0.4,
+      "settlement_weight": 180,
+      "reason": "Küçük limanlar ve ticaret okuryazarlığı"
+    },
+    {
+      "state": "STATE_EAST_AEGEAN_ISLANDS",
+      "owner": "RUM",
+      "population": 240000,
+      "literacy": 0.42,
+      "settlement_weight": 250,
+      "reason": "Anadolu limanlarıyla üretim ve ticaret bağları"
+    },
+    {
+      "state": "STATE_ATTICA",
+      "owner": "RUM",
+      "population": 1151000,
+      "literacy": 0.43,
+      "settlement_weight": 1200,
+      "reason": "Kent zanaatı, liman ve bölgesel idare"
+    },
+    {
+      "state": "STATE_THESSALIA",
+      "owner": "RUM",
+      "population": 1438000,
+      "literacy": 0.29,
+      "settlement_weight": 1500,
+      "reason": "Tahıl ve kırsal nüfus; okul ağı kentlerin gerisinde"
+    },
+    {
+      "state": "STATE_SKOPIA",
+      "owner": "RUM",
+      "population": 959000,
+      "literacy": 0.27,
+      "settlement_weight": 1000,
+      "reason": "Kara ticaret geçişi; dağ/kır eğitimine erişim sınırlı"
+    },
+    {
+      "state": "STATE_MACEDONIA",
+      "owner": "RUM",
+      "population": 1342000,
+      "literacy": 0.43,
+      "settlement_weight": 1400,
+      "reason": "Selanik ticareti, basım ve kırsal hinterlant"
+    },
+    {
+      "state": "STATE_WESTERN_THRACE",
+      "owner": "RUM",
+      "population": 863000,
+      "literacy": 0.32,
+      "settlement_weight": 900,
+      "reason": "Tarımsal ve transit kuşak"
+    },
+    {
+      "state": "STATE_IONIAN_ISLANDS",
+      "owner": "RUM",
+      "population": 288000,
+      "literacy": 0.43,
+      "settlement_weight": 300,
+      "reason": "Denizcilik ve çok dilli ticaret ağı"
+    },
+    {
+      "state": "STATE_PELOPONNESE",
+      "owner": "RUM",
+      "population": 623000,
+      "literacy": 0.3,
+      "settlement_weight": 650,
+      "reason": "Tarım ve yerel zanaat ağırlığı"
+    },
+    {
+      "state": "STATE_CYPRUS",
+      "owner": "RUM",
+      "population": 336000,
+      "literacy": 0.36,
+      "settlement_weight": 350,
+      "reason": "Levant ticareti ve ada tarımı"
+    },
+    {
+      "state": "STATE_ALEPPO",
+      "owner": "RUM",
+      "population": 1534000,
+      "literacy": 0.42,
+      "settlement_weight": 1600,
+      "reason": "Kent imalatı, Antakya/Lazkiye ticareti ve gıda hinterlandı"
+    },
+    {
+      "state": "STATE_BAGHDAD",
+      "owner": "RUM",
+      "population": 1438000,
+      "literacy": 0.47,
+      "settlement_weight": 1500,
+      "reason": "Korunmuş akademiler, sulama, nehir ticareti ve kent üretimi"
+    },
+    {
+      "state": "STATE_DEIR_EZ_ZOR",
+      "owner": "RUM",
+      "population": 479000,
+      "literacy": 0.23,
+      "settlement_weight": 500,
+      "reason": "Fırat geçişi ve sınırlı su/yerleşim kapasitesi"
+    },
+    {
+      "state": "STATE_BASRA",
+      "owner": "RUM",
+      "population": 575000,
+      "literacy": 0.26,
+      "settlement_weight": 600,
+      "reason": "Yalnız Rûm kuzey payı: Nasıriye/Amara tarımı; Basra kenti hariç"
+    },
+    {
+      "state": "STATE_HUDAVENDIGAR",
+      "owner": "RUM",
+      "population": 2876000,
+      "literacy": 0.5,
+      "settlement_weight": 3000,
+      "reason": "Bursa–Marmara makineleşmesi, işgücü göçü ve teknik okul"
+    },
+    {
+      "state": "STATE_AYDIN",
+      "owner": "RUM",
+      "population": 2109000,
+      "literacy": 0.44,
+      "settlement_weight": 2200,
+      "reason": "İzmir limanı, iç ova tarımı ve imalat"
+    },
+    {
+      "state": "STATE_KONYA",
+      "owner": "RUM",
+      "population": 1534000,
+      "literacy": 0.35,
+      "settlement_weight": 1600,
+      "reason": "Tarihî eğitim merkezi ile geniş kırsal kuşağın ortak ortalaması"
+    },
+    {
+      "state": "STATE_KASTAMONU",
+      "owner": "RUM",
+      "population": 1534000,
+      "literacy": 0.38,
+      "settlement_weight": 1600,
+      "reason": "Ereğli yakıt/liman zinciri ve kırsal hinterlant"
+    },
+    {
+      "state": "STATE_ADANA",
+      "owner": "RUM",
+      "population": 432000,
+      "literacy": 0.31,
+      "settlement_weight": 450,
+      "reason": "Yalnız Rûm doğu payı: Aintab imalatı ve geçitler; Adana kenti hariç"
+    },
+    {
+      "state": "STATE_TRABZON",
+      "owner": "RUM",
+      "population": 623000,
+      "literacy": 0.35,
+      "settlement_weight": 650,
+      "reason": "Yalnız Samsun/Ordu batı payı; Trabzon atabeyliği hariç"
+    },
+    {
+      "state": "STATE_ERZURUM",
+      "owner": "RUM",
+      "population": 431000,
+      "literacy": 0.24,
+      "settlement_weight": 450,
+      "reason": "Yalnız Van payı; yüksek havza, yerel eğitim ve transit bağımlılığı"
+    },
+    {
+      "state": "STATE_ANKARA",
+      "owner": "RUM",
+      "population": 2589000,
+      "literacy": 0.34,
+      "settlement_weight": 2700,
+      "reason": "İç Anadolu kent ağı, tarım ve bölgesel üretim"
+    }
+  ]
+}

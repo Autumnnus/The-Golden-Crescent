@@ -1,0 +1,1051 @@
+{
+  "version": 2,
+  "title": "The Golden Crescent — Phase 1A: Rum Geography Review",
+  "description": "MAP AND DEPENDENCY PREVIEW ONLY. 13 September 2026. NOT A PLAYABLE RELEASE. Outside the listed scope vanilla remains as context. Population/buildings are inherited technical baseline, not scenario demographics/economy. 1B must replace laws, technology, military, population, buildings and review characters/events before installation. Six Nizam dependencies use a provisional 8% variable tribute proxy, not the exact fixed-quota constitution. Border choices and unresolved hub placement are in README.md.",
+  "countries": {
+    "RUM": {
+      "name": "Empire of Rum",
+      "name_tr": "Rûm İmparatorluğu",
+      "color": [
+        41,
+        125,
+        136
+      ],
+      "country_type": "recognized",
+      "tier": "empire",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_EASTERN_THRACE",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "BOS": {
+      "name": "Bosnia Emirate",
+      "name_tr": "Bosna Emirliği",
+      "color": [
+        219,
+        151,
+        78
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "bosniak"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BOSNIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ALB": {
+      "name": "Albania Emirate",
+      "name_tr": "Arnavutluk Emirliği",
+      "color": [
+        185,
+        96,
+        107
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "albanian"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ALBANIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "BUL": {
+      "name": "Danube Emirate",
+      "name_tr": "Tuna Emirliği",
+      "color": [
+        175,
+        156,
+        70
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "bulgarian"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BULGARIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ADA": {
+      "name": "Adana Atabegate",
+      "name_tr": "Adana Atabeyliği",
+      "color": [
+        216,
+        137,
+        89
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ADANA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ERZ": {
+      "name": "Erzurum Atabegate",
+      "name_tr": "Erzurum Atabeyliği",
+      "color": [
+        146,
+        120,
+        182
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ERZURUM",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "TRB": {
+      "name": "Trabzon Atabegate",
+      "name_tr": "Trabzon Atabeyliği",
+      "color": [
+        71,
+        155,
+        96
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_TRABZON",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "KUR": {
+      "name": "Kurdistan Emirate",
+      "name_tr": "Kürdistan Emirliği",
+      "color": [
+        175,
+        185,
+        89
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "kurdish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_MOSUL",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "BSR": {
+      "name": "Basra Republic",
+      "name_tr": "Basra Cumhuriyeti",
+      "color": [
+        84,
+        171,
+        177
+      ],
+      "country_type": "recognized",
+      "tier": "city_state",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BASRA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "SYR": {
+      "name": "Damascus Emirate",
+      "name_tr": "Şam Emirliği",
+      "color": [
+        180,
+        105,
+        92
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_SYRIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "LEB": {
+      "name": "Mount Lebanon Emirate",
+      "name_tr": "Cebel-i Lübnan Emirliği",
+      "color": [
+        128,
+        171,
+        129
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_LEBANON",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "PAL": {
+      "name": "Jerusalem Emirate",
+      "name_tr": "Kudüs Emirliği",
+      "color": [
+        184,
+        144,
+        182
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_PALESTINE",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "KUW": {
+      "name": "Kuwait Emirate",
+      "name_tr": "Kuveyt Emirliği",
+      "color": [
+        219,
+        179,
+        112
+      ],
+      "country_type": "recognized",
+      "tier": "city_state",
+      "cultures": [
+        "bedouin"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BASRA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    }
+  },
+  "states": {
+    "STATE_ADANA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x39CBF7",
+            "x4DA0F1",
+            "x7DD48B",
+            "x8517E9",
+            "xCCBD19",
+            "xDAD836",
+            "xF657D8"
+          ]
+        },
+        {
+          "owner": "ADA",
+          "provinces": [
+            "x2111E0",
+            "x63E9DB",
+            "x909463",
+            "xA09060",
+            "xA4523A",
+            "xB0E060",
+            "xE8DCC5",
+            "xFA9C84"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_ALBANIA": {
+      "owner": "ALB",
+      "phase": "1A"
+    },
+    "STATE_ALEPPO": {
+      "owner": "RUM",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_ANKARA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x03F8EA",
+            "x04F350",
+            "x098D9C",
+            "x0BD6EC",
+            "x0D1D4E",
+            "x15BC1F",
+            "x17B19B",
+            "x180265",
+            "x1A75C7",
+            "x25499A",
+            "x29D9AF",
+            "x3041CC",
+            "x30A0E0",
+            "x39B060",
+            "x3E9653",
+            "x401080",
+            "x409000",
+            "x431F60",
+            "x465D69",
+            "x5D2F75",
+            "x5F00C0",
+            "x62FAA8",
+            "x66B13B",
+            "x785849",
+            "x7DD19B",
+            "x8713CE",
+            "x895D6B",
+            "x8E9935",
+            "x964F97",
+            "x967F78",
+            "xA8674E",
+            "xB556A0",
+            "xC09000",
+            "xC29DFD",
+            "xCAF12B",
+            "xCB8C83",
+            "xE17847",
+            "xEB1F97",
+            "xF470A0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_ATTICA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0A645C",
+            "x465F8D",
+            "x518791",
+            "x8D7F62",
+            "xA010A0",
+            "xBF5160",
+            "xC72C61",
+            "xCA246A"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_AYDIN": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x15CC91",
+            "x205020",
+            "x20AAE2",
+            "x6E8DF4",
+            "x95ABDB",
+            "xA090A0",
+            "xABD1D0",
+            "xB020E0",
+            "xBEA226",
+            "xC0FCA9",
+            "xE8A5DB",
+            "xFD1F86"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_BAGHDAD": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0748CD",
+            "x0B769F",
+            "x0CA064",
+            "x13CEE0",
+            "x1D7CB1",
+            "x1EC145",
+            "x1EDF69",
+            "x205060",
+            "x20D060",
+            "x281DD3",
+            "x312AA2",
+            "x34A371",
+            "x396DB2",
+            "x4F90CC",
+            "x4FD1AE",
+            "x50D95C",
+            "x523252",
+            "x54DF0B",
+            "x5F9550",
+            "x679B60",
+            "x79A258",
+            "x7AD6CB",
+            "x7F8783",
+            "x803872",
+            "x81730A",
+            "x92702E",
+            "xA05060",
+            "xA4A407",
+            "xAE7D6F",
+            "xBB57AC",
+            "xC375C0",
+            "xDC55AB",
+            "xE090E0",
+            "xEE1814"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_BASRA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x1CC9CC",
+            "x1D7F5E",
+            "x41F864",
+            "x7CAD29",
+            "x88ADC8",
+            "x93CB74",
+            "x9F9CCA",
+            "xBE6A23",
+            "xF1BF17",
+            "xFE18C1"
+          ]
+        },
+        {
+          "owner": "KUW",
+          "provinces": [
+            "x00F060",
+            "x68C89A",
+            "xDABB9C"
+          ]
+        },
+        {
+          "owner": "BSR",
+          "provinces": [
+            "x2050E0",
+            "x6CBE21",
+            "x807060",
+            "xDB6370"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_BOSNIA": {
+      "owner": "BOS",
+      "phase": "1A"
+    },
+    "STATE_BULGARIA": {
+      "owner": "BUL",
+      "phase": "1A"
+    },
+    "STATE_CRETE": {
+      "owner": "RUM",
+      "phase": "1A"
+    },
+    "STATE_CYPRUS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x40B020",
+            "x79685E",
+            "xBF3020"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_DEIR_EZ_ZOR": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0D20D8",
+            "x19152C",
+            "x1B437C",
+            "x1ECFDA",
+            "x1F78F4",
+            "x205956",
+            "x246A9F",
+            "x24B968",
+            "x479916",
+            "x519F26",
+            "x56095E",
+            "x6BDF5C",
+            "x849047",
+            "x969057",
+            "x97B814",
+            "x9A097B",
+            "xA6B14C",
+            "xBD22F1",
+            "xBF549D",
+            "xC414B6",
+            "xCE5C9A",
+            "xE67DB6",
+            "xF5D646",
+            "xF98995"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_DIYARBAKIR": {
+      "owner": "KUR",
+      "phase": "1A"
+    },
+    "STATE_DOBRUDJA": {
+      "split": [
+        {
+          "owner": "BUL",
+          "provinces": [
+            "x316021",
+            "x7763F3",
+            "x7F25CD",
+            "x940C8D",
+            "xA3D7CE",
+            "xB06121",
+            "xD9E021"
+          ]
+        },
+        {
+          "owner": "RUS",
+          "provinces": [
+            "x50F5CB"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_EASTERN_SERBIA": {
+      "owner": "SER",
+      "phase": "1A"
+    },
+    "STATE_EASTERN_THRACE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x115006",
+            "x194E90",
+            "x2073F0",
+            "x608BB0",
+            "xF02082",
+            "xF0A020",
+            "xFCF160"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_EAST_AEGEAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x2190A0",
+            "xC56452",
+            "xE011A0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_ERZURUM": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x25E046",
+            "x3051BD",
+            "x409080",
+            "x4F6E8F",
+            "x5C223C",
+            "xA23F9A",
+            "xC7DC49",
+            "xD0901D",
+            "xF51B98"
+          ]
+        },
+        {
+          "owner": "ERZ",
+          "provinces": [
+            "x27689E",
+            "x31B08C",
+            "x52EB9A",
+            "x59E513",
+            "x60677E",
+            "x669A31",
+            "x740ED1",
+            "x795751",
+            "x7BC870",
+            "x801080",
+            "x81F589",
+            "x895074",
+            "x8F5A6A",
+            "x90BA49",
+            "x92A943",
+            "xC01080",
+            "xC41BC3",
+            "xFDB72C"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_HUDAVENDIGAR": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x13886D",
+            "x2F78D7",
+            "x3020E0",
+            "x30A060",
+            "x31CD7B",
+            "x34C810",
+            "x3F1505",
+            "x809000",
+            "xB0A060",
+            "xB4D60B",
+            "xB8FEBB"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_IONIAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x405060",
+            "x4B79CA"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_KARS": {
+      "split": [
+        {
+          "owner": "ERZ",
+          "provinces": [
+            "x009000",
+            "x467F92",
+            "x809001",
+            "x8A9689",
+            "xB8481F"
+          ]
+        },
+        {
+          "owner": "RUS",
+          "provinces": [
+            "x327755",
+            "xC09080"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_KASTAMONU": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x1D8401",
+            "x312F4B",
+            "x415C04",
+            "x449057",
+            "x6089D1",
+            "x747BB5",
+            "x7A7E06",
+            "xB82B24",
+            "xBEBB3F",
+            "xC01000",
+            "xC1C893",
+            "xE1E090",
+            "xF040E0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_KONYA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x02FE8B",
+            "x04C595",
+            "x0EABBE",
+            "x1D4A61",
+            "x375BA2",
+            "x401060",
+            "x472F2C",
+            "x47B8CA",
+            "x4CEBB4",
+            "x547B95",
+            "x55148F",
+            "x56087A",
+            "x601020",
+            "x602629",
+            "x65DE76",
+            "x661DB3",
+            "x669397",
+            "x6DB349",
+            "x70373E",
+            "x76099B",
+            "x76C0DF",
+            "x802F12",
+            "x8505DE",
+            "x8F7C3D",
+            "x93F78F",
+            "x9E386C",
+            "x9FFCAB",
+            "xA4ED5C",
+            "xB54481",
+            "xBACCB8",
+            "xBB0729",
+            "xBC2D46",
+            "xC0A9EB",
+            "xC1905F",
+            "xCB2093",
+            "xCCE5E0",
+            "xDE59BB",
+            "xE01020",
+            "xE090A0",
+            "xE8D503",
+            "xEB98F3",
+            "xF28CC2",
+            "xF7871B",
+            "xFA1AEF"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_KOSOVO": {
+      "owner": "ALB",
+      "phase": "1A"
+    },
+    "STATE_LEBANON": {
+      "owner": "LEB",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_MACEDONIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x01D060",
+            "x021374",
+            "x506020",
+            "x70A0E0",
+            "x75CAD1",
+            "x90E0A0",
+            "xBA7B5B",
+            "xD2619E",
+            "xE48F39"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_MALTA": {
+      "owner": "RUM",
+      "phase": "1A"
+    },
+    "STATE_MONTENEGRO": {
+      "split": [
+        {
+          "owner": "MON",
+          "provinces": [
+            "x446E84",
+            "x8C6292",
+            "xA12F82",
+            "xF5F6C2"
+          ]
+        },
+        {
+          "owner": "AUS",
+          "provinces": [
+            "x90A0E0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_MOSUL": {
+      "owner": "KUR",
+      "phase": "1A"
+    },
+    "STATE_NORTHERN_THRACE": {
+      "owner": "BUL",
+      "phase": "1A"
+    },
+    "STATE_PALESTINE": {
+      "owner": "PAL",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_PELOPONNESE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0055D7",
+            "x43409D",
+            "x61E57E",
+            "xBA3449",
+            "xC0D060"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_SKOPIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x11E0A0",
+            "x419E6F",
+            "x494421",
+            "x596DE2",
+            "x7CF777",
+            "x800FE7",
+            "xE0118B"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_SYRIA": {
+      "owner": "SYR",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_THESSALIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x01D0E0",
+            "x18C9AD",
+            "x8050E0",
+            "x80D060",
+            "xACFFA7",
+            "xE6E868"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_TRABZON": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x146DD9",
+            "x288BCD",
+            "x809080"
+          ]
+        },
+        {
+          "owner": "TRB",
+          "provinces": [
+            "x001080",
+            "x009080",
+            "x1357F8",
+            "x9655BD",
+            "xA88EEC",
+            "xAE07E3",
+            "xB526B3"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_TRANSJORDAN": {
+      "owner": "SYR",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_WESTERN_SERBIA": {
+      "owner": "SER",
+      "phase": "1A"
+    },
+    "STATE_WESTERN_THRACE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0261AB",
+            "x6181D2",
+            "x702020",
+            "xB2249C",
+            "xBE51B7",
+            "xEDECFB",
+            "xF02020"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_WEST_AEGEAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x6090A0",
+            "x6960A0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    }
+  },
+  "subject_types": {
+    "ve_rum_nizam_dependency": {
+      "base": "vassal",
+      "name": "Nizam Dependency",
+      "name_tr": "Nizam Ahdi Bağlılığı",
+      "overlord_types": [
+        "recognized"
+      ],
+      "subject_types": [
+        "recognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": true,
+      "income_transfer": 0.08
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "TUR",
+      "GRE",
+      "ION",
+      "SER",
+      "WAL",
+      "RUM",
+      "BOS",
+      "ALB",
+      "BUL",
+      "ADA",
+      "ERZ",
+      "TRB",
+      "KUR",
+      "BSR",
+      "SYR",
+      "LEB",
+      "PAL",
+      "KUW"
+    ],
+    "subjects": [
+      {
+        "overlord": "RUM",
+        "subject": "BOS",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ALB",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "BUL",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ADA",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ERZ",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "TRB",
+        "type": "ve_rum_nizam_dependency"
+      }
+    ]
+  }
+}

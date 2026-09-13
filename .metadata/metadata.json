@@ -1,12 +1,17 @@
 {
-  "name" : "The Golden Crescent",
-	"id" : "",
-  "version" : "",
-  "supported_game_version" : "",
-  "short_description" : "",
-  "tags" : [],
-  "relationships" : [],
-  "game_custom_data" : {
-    "multiplayer_synchronized" : true
-  }
+	"name": "The Golden Crescent",
+	"id": "",
+	"version": "0.1.0",
+	"supported_game_version": "1.13.11",
+	"short_description": "An alternate 1836 in which the Islamic world never fell behind.",
+	"tags": [
+		"Alternative History",
+		"Map",
+		"Historical"
+	],
+	"relationships": [],
+	"game_custom_data": {
+		"multiplayer_synchronized": true,
+		"replace_paths": []
+	}
 }

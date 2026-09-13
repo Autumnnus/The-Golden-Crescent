@@ -1,0 +1,14 @@
+# Arac onbellegi ve render ciktilari - vanilla'dan yeniden uretilebilir
+/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+/.idea/workspace.xml
+_bisect_off/
+.DS_Store
+/.vic3-tools.local.json
+/.flavor/

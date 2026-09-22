@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "title": "Kart 1A — Altı Fransız Devleti",
+  "description": "Dünya siyasi iskeletinin yalnız Fransa bölümü. Paris'in kuzey çekirdeği French Low Countries state'ini de içerir. Nüfus, ekonomi, hukuk, ordu ve diplomasi üretmez.",
+  "countries": {
+    "FPA": {
+      "name": "Kingdom of Paris",
+      "name_tr": "Paris Krallığı",
+      "color": [
+        66,
+        106,
+        160
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "french"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_ILE_DE_FRANCE"
+    },
+    "FBG": {
+      "name": "Kingdom of Burgundy",
+      "name_tr": "Burgonya Krallığı",
+      "color": [
+        130,
+        86,
+        166
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "french"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_BURGUNDY"
+    },
+    "FBR": {
+      "name": "Duchy of Brittany",
+      "name_tr": "Bretonya Dükalığı",
+      "color": [
+        77,
+        139,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "french"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_BRITTANY"
+    },
+    "FAQ": {
+      "name": "Kingdom of Aquitaine",
+      "name_tr": "Akitanya Krallığı",
+      "color": [
+        185,
+        128,
+        77
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "french"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_AQUITAINE"
+    },
+    "FOC": {
+      "name": "Occitan Confederation",
+      "name_tr": "Oksitanya Konfederasyonu",
+      "color": [
+        181,
+        101,
+        79
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "occitan"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_LANGUEDOC"
+    },
+    "FPR": {
+      "name": "Provence",
+      "name_tr": "Provence",
+      "color": [
+        181,
+        151,
+        83
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "occitan"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_PROVENCE"
+    },
+    "FRA": {
+      "capital": "STATE_INDIAN_OCEAN_TERRITORY",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      },
+      "notes": "Geçici: Afrika ve Atlantik kartları henüz FRA'nın denizaşırı paylarını yeniden dağıtmadı."
+    }
+  },
+  "states": {
+    "STATE_ILE_DE_FRANCE": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_PICARDY": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NORMANDY": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CHAMPAGNE": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ORLEANS": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_MAINE_ANJOU": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_FRENCH_LOW_COUNTRIES": {
+      "owner": "FPA",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_BURGUNDY": {
+      "owner": "FBG",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_FRANCHE_COMTE": {
+      "owner": "FBG",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_LORRAINE": {
+      "owner": "FBG",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ALSACE_LORRAINE": {
+      "owner": "FBG",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_RHONE": {
+      "owner": "FBG",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_BRITTANY": {
+      "owner": "FBR",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_AQUITAINE": {
+      "owner": "FAQ",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GUYENNE": {
+      "owner": "FAQ",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_POITOU": {
+      "owner": "FAQ",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_LANGUEDOC": {
+      "owner": "FOC",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_AUVERGNE_LIMOUSIN": {
+      "owner": "FOC",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CORSICA": {
+      "owner": "FPR",
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_PROVENCE": {
+      "split": [
+        {
+          "owner": "FPR",
+          "provinces": [
+            "x3040E0",
+            "x31C0DF",
+            "x6D5E3F",
+            "xB040E0",
+            "xB0C060",
+            "xB0C0E0",
+            "xC03918",
+            "xCB9C34"
+          ]
+        },
+        {
+          "owner": "SAR",
+          "provinces": [
+            "x5080E0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

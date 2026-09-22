@@ -1,0 +1,268 @@
+{
+  "version": 2,
+  "title": "Kart 5U — Orta Amerika Yerel Meclisleri",
+  "description": "UCA doğrudan payları Guatemala, Honduras, Nikaragua, Kosta Rika ve San Salvador yerel meclislerine ayrılır. Nikaragua’daki Mosquito protektora payı da Nikaragua Göl Meclisi’ne döner; Chiapastaki UCA payı mevcut Maya kartıyla aynı state olduğundan nihai province birleşimine bırakılmıştır.",
+  "countries": {
+    "VGA": {
+      "name": "Guatemala Highland Council",
+      "name_tr": "Guatemala Yüksekova Meclisi",
+      "color": [
+        115,
+        136,
+        91
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_GUATEMALA"
+    },
+    "VHN": {
+      "name": "Honduras Coastal Council",
+      "name_tr": "Honduras Kıyı Meclisi",
+      "color": [
+        83,
+        133,
+        143
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_HONDURAS"
+    },
+    "VNC": {
+      "name": "Nicaragua Lake Council",
+      "name_tr": "Nikaragua Göl Meclisi",
+      "color": [
+        122,
+        121,
+        151
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_NICARAGUA"
+    },
+    "VKR": {
+      "name": "Costa Rica Assembly",
+      "name_tr": "Kosta Rika Meclisi",
+      "color": [
+        128,
+        139,
+        97
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_COSTA_RICA"
+    },
+    "VSS": {
+      "name": "San Salvador Council",
+      "name_tr": "San Salvador Meclisi",
+      "color": [
+        142,
+        110,
+        100
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_SAN_SALVADOR"
+    },
+    "UCA": {
+      "name": "Residual Central American Jurisdiction",
+      "name_tr": "Geçici Orta Amerika Yetki Alanı",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_CHIAPAS",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_COSTA_RICA": {
+      "split": [
+        {
+          "owner": "VKR",
+          "provinces": [
+            "x1A076A",
+            "x32AA32",
+            "x10EF80",
+            "x4D3411",
+            "x478109",
+            "x535AE8",
+            "xD88369",
+            "x8342D1",
+            "x395FB6",
+            "xB0243F",
+            "xEF90DC"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GUATEMALA": {
+      "split": [
+        {
+          "owner": "VGA",
+          "provinces": [
+            "xDEC8D3",
+            "x464F6A",
+            "x0F5049",
+            "xBD8628",
+            "xA9090A",
+            "x78C465",
+            "xD9BEFE",
+            "xD030C0",
+            "x42124E",
+            "xB2E11E",
+            "x50B040",
+            "x2D4EB6",
+            "x5449D0",
+            "x6D71DA",
+            "x702CD9",
+            "x65C19A",
+            "x30E01C",
+            "x50B0C0",
+            "xC67219",
+            "xD176F3",
+            "xFA4B41",
+            "x011E0F"
+          ]
+        },
+        {
+          "owner": "VGA",
+          "provinces": [
+            "xD0B040",
+            "x02073E",
+            "x7D333F"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_HONDURAS": {
+      "split": [
+        {
+          "owner": "VHN",
+          "provinces": [
+            "x3C64D6",
+            "x9A0C09",
+            "x964591",
+            "x90EF40",
+            "xFA595E",
+            "xE521E1",
+            "x52914C",
+            "x907040",
+            "xC77E76",
+            "x5C25CB",
+            "x55B06A",
+            "xC27057",
+            "xE2A108",
+            "xD08FCB",
+            "x63D186",
+            "xEF5C1F",
+            "x0E5459",
+            "x98E7D7",
+            "x3D20D1",
+            "x10EF40",
+            "x600AC6",
+            "x907080",
+            "x528F3B"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NICARAGUA": {
+      "split": [
+        {
+          "owner": "VNC",
+          "provinces": [
+            "x95FC5A",
+            "x9070C0",
+            "x9CDB2B",
+            "xD50755",
+            "x10EFC0",
+            "x832DFB",
+            "x074DD8",
+            "x68E7F3",
+            "xC9A998",
+            "x1070C0",
+            "xFD8FA1",
+            "x2245C0",
+            "x9EB0DC",
+            "x4A4413",
+            "x107080",
+            "x02733F",
+            "x745F00",
+            "x865E67",
+            "xBA0A50"
+          ]
+        },
+        {
+          "owner": "VNC",
+          "provinces": [
+            "x17F33B",
+            "x6C22F2",
+            "x59D231",
+            "xAD9EE8"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SAN_SALVADOR": {
+      "split": [
+        {
+          "owner": "VSS",
+          "provinces": [
+            "xB0D0C7",
+            "x3DB036",
+            "x107040",
+            "xCC1FCA"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "UCA",
+      "MKT"
+    ]
+  }
+}

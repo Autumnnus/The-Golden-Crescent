@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "six Nizam subjects: demography, laws, institutions, governments, economies and quota-scale formations",
+  "scenario_sha256": "4bf114a4ab2b5428f579a22419d3cc61599cbafe601d37871cb0ce6cf5c406b3",
+  "plan_sha256": "1161da8b43ccfa7bd7a065ee6883720844d8a47e5996d3e8d89edc6b81aa4585",
+  "capacity_audit_sha256": "401c0f7cd409e5ab696e95f1347bffbf43efc70bdc8b1f558b174cd2c5e83f20",
+  "report_sha256": "bea06a81d83d66241ad15569dd21a094c31cdaff98f5effb259ae46700785e32",
+  "subject_population": 6550000,
+  "subject_building_levels": 258,
+  "subject_battalions": 66,
+  "subject_ships": 14,
+  "freed_inherited_slave_status": 17806,
+  "unchanged_other_countries": 446,
+  "rum_population": 27000000,
+  "rum_battalions": 160,
+  "rum_ships": 48,
+  "trabzon_city_owner": "TRB",
+  "additional_warnings": [],
+  "runtime_tested": false,
+  "playable_release": false,
+  "remaining_engine_gates": {
+    "nizam": "income transfer and war joining remain the Phase 1A base-vassal prototype; fixed contribution and limited levy are not yet modeled",
+    "market": "local capacity and dependencies are directional; customs separation and prices need engine testing",
+    "politics": "ruling IG membership is explicit; clout and legitimacy are runtime outcomes",
+    "characters": "rulers and commanders are Flavor/character work and are not invented by Atlas"
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "version": 2,
+  "title": "Kart 1B — İberya'nın Kesin Çekirdekleri",
+  "description": "Dünya siyasi iskeleti: Endülüs, Kastilya, Aragon, Galiçya ve Navarra'nın yazılı olarak kesin çekirdekleri. Aragon ve Katalonya’daki eski Katalan geçici payları Aragon tacında birleşir; açık sınırlar geçici sahipte kalır; mekanik başlangıç verisi üretmez.",
+  "countries": {
+    "VAN": {
+      "name": "Andalusian Federation",
+      "name_tr": "Endülüs Federasyonu",
+      "color": [
+        63,
+        137,
+        95
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "spanish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_LOWER_ANDALUSIA"
+    },
+    "VCA": {
+      "name": "Kingdom of Castile",
+      "name_tr": "Kastilya Krallığı",
+      "color": [
+        151,
+        103,
+        77
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "spanish"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_NEW_CASTILE"
+    },
+    "VAR": {
+      "name": "Crown of Aragon",
+      "name_tr": "Aragon Tacı",
+      "color": [
+        157,
+        126,
+        69
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "catalan"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_ARAGON"
+    },
+    "VGL": {
+      "name": "Kingdom of Galicia",
+      "name_tr": "Galiçya Krallığı",
+      "color": [
+        83,
+        128,
+        151
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "galician",
+        "portuguese"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_GALICIA"
+    },
+    "VNV": {
+      "name": "Kingdom of Navarre",
+      "name_tr": "Navarra Krallığı",
+      "color": [
+        134,
+        85,
+        99
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "basque"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_BASQUE_COUNTRY"
+    },
+    "SPA": {
+      "name": "Unresolved Spanish Holder",
+      "name_tr": "Geçici İspanyol Sahibi",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "spanish"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_CANARY_ISLANDS",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    },
+    "POR": {
+      "name": "Unresolved Portuguese Holder",
+      "name_tr": "Geçici Portekiz Sahibi",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "portuguese"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_BOMBAY",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_LOWER_ANDALUSIA": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x4E5464",
+            "xB1108A",
+            "x911497",
+            "x801020",
+            "x53634F",
+            "x4A1438",
+            "x3C4E5B",
+            "x58E3EB",
+            "x809020",
+            "x2B6ABC",
+            "xD06000",
+            "x59202C"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_UPPER_ANDALUSIA": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x099199",
+            "xA0B040",
+            "x27E575",
+            "x2030C0",
+            "xEE7F54",
+            "x20B040",
+            "x0010A0",
+            "x0362A1",
+            "x203DB5",
+            "xF50658",
+            "xEB9217",
+            "x07E82B"
+          ]
+        },
+        {
+          "owner": "VAN",
+          "provinces": [
+            "xBC6ED3"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_EXTREMADURA": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "xB4471A",
+            "x679A01",
+            "x009020",
+            "x97FBA4",
+            "x342BE6",
+            "x506000",
+            "xC694C3",
+            "xF19B02",
+            "x7500D4",
+            "x30A000",
+            "x4A8E78",
+            "xE47DCF"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ESTREMADURA": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "xD0A080",
+            "x50A000",
+            "xD02000",
+            "x545164"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NEW_CASTILE": {
+      "split": [
+        {
+          "owner": "VCA",
+          "provinces": [
+            "x302080",
+            "x2B550F",
+            "xB0A080",
+            "xB5194A",
+            "xF841E6",
+            "xB0A000",
+            "xF693FD",
+            "x92DDDA",
+            "x89CA9E",
+            "xCAA3E1",
+            "xDCD24C",
+            "x41C3FC",
+            "x73D6A9",
+            "x093A56",
+            "xF44640",
+            "x88CEE5",
+            "x8010A0",
+            "xA1BEC2"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_OLD_CASTILE": {
+      "split": [
+        {
+          "owner": "VCA",
+          "provinces": [
+            "x0543B8",
+            "x10C4E5",
+            "x22193A",
+            "x24A9D6",
+            "x3A3528",
+            "x4D18FC",
+            "x50E0C0",
+            "x590C75",
+            "x5DB702",
+            "x702000",
+            "x70A000",
+            "xA1037C",
+            "xAC1425",
+            "xBF2564",
+            "xC3ED38",
+            "xCA2220",
+            "xCB3245",
+            "xD7A4DE",
+            "xDC8B19",
+            "xF02000",
+            "xF0A000",
+            "xF44AAA"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_LEON": {
+      "split": [
+        {
+          "owner": "VCA",
+          "provinces": [
+            "x0D5242",
+            "x2C00C8",
+            "x38C557",
+            "x70F50D",
+            "x906201",
+            "xB02000",
+            "xB1C098",
+            "xB3BC6E",
+            "xD060C0",
+            "xD30171"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ARAGON": {
+      "split": [
+        {
+          "owner": "VAR",
+          "provinces": [
+            "x202982",
+            "x9060C0",
+            "x339B06",
+            "x2555A4",
+            "x076DE0",
+            "x3CBF9E",
+            "x45B331",
+            "xA603C7"
+          ]
+        },
+        {
+          "owner": "VAR",
+          "provinces": [
+            "x506040",
+            "x5FB607",
+            "x30A080"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CATALONIA": {
+      "split": [
+        {
+          "owner": "VAR",
+          "provinces": [
+            "xE0C020",
+            "xD616D2",
+            "x11E041",
+            "x906040",
+            "xC2FFD9",
+            "x890622"
+          ]
+        },
+        {
+          "owner": "VAR",
+          "provinces": [
+            "x2914C3",
+            "x0C64AC",
+            "x945748",
+            "x08B4D6",
+            "x936FF3"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GALICIA": {
+      "split": [
+        {
+          "owner": "VGL",
+          "provinces": [
+            "x0EA604",
+            "x167F12",
+            "x33F984",
+            "x50E040",
+            "x583E92",
+            "xB85939",
+            "xD03554",
+            "xD0E040"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ASTURIAS": {
+      "split": [
+        {
+          "owner": "VGL",
+          "provinces": [
+            "x0F84B8",
+            "x3E77F9",
+            "x5060C0",
+            "x525202"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ENTRE_DOURO_E_MINHO": {
+      "split": [
+        {
+          "owner": "VGL",
+          "provinces": [
+            "x0EF845",
+            "x37ADD8",
+            "x641376",
+            "xA64B2E",
+            "xD0A000",
+            "xD0E0C0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_BASQUE_COUNTRY": {
+      "split": [
+        {
+          "owner": "VNV",
+          "provinces": [
+            "x10E0C0",
+            "x48868C",
+            "x702080",
+            "xABE0B3",
+            "x9EC9B8"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "SPC"
+    ]
+  }
+}

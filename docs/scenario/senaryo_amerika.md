@@ -31,7 +31,7 @@ Bir metropolün sözleşmeli ticaret erişimi ile doğrudan kolonisi ayrı göst
 | Virginia | Chesapeake kıyıları, Virginia/Maryland ve Carolina kıyı plantasyon alanları | Ayrı Londra kolonisi, H10; kölelik yasal | Plantasyon kredi krizi, azatlı ve köleleştirilmiş insanların özgürlük mücadeleleri |
 | Yeni Bursa | Florida kıyısındaki ana liman ve sınırlı tarımsal hinterlant | Rûm kolonisi, H10; 1820 ilgası | İkmal masrafı, karma halk, yarımadanın yerli içiyle anlaşmalar |
 
-Yeni Bursa bütün Florida yarımadasını, Vinland bütün Kanada'yı, Virginia bütün Carolina içlerini otomatik yönetmez. Koloni çekirdekleriyle antlaşmalı/iddia edilen hinterlant son haritada ayrı kaydedilecek.
+Yeni Bursa bütün Florida yarımadasını, Vinland bütün Kanada'yı, Virginia bütün Carolina içlerini otomatik yönetmez. Koloni çekirdekleriyle antlaşmalı/iddia edilen hinterlant siyasi state karar defterinde ayrı doğrudan sahiplere bağlanmıştır.
 
 ### İç Kuzey Amerika
 
@@ -56,9 +56,10 @@ Comanche'ın başka bir halkın kültür etiketiyle, Mapuçe'nin bütün Patagon
 |---|---|---|---|
 | Yeni Endülüs | Tenochtitlan–Meksika havzası, merkezî plato ve körfez/Pasifik'e bağlantı koridorları | Endülüs'e geniş özerk sömürge şartı | Tahıl, dokuma, gümüş ve yerel pazar; temsil, yerli iş kotası ve vergi |
 | Maya Birliği | Yucatán ve Chiapas'ın yerel meclis ağları | Endülüs'le doğrudan sınırlı haraç antlaşması | Tarım, zanaat, kıyı değişimi; Yeni Endülüs tahsildarlarına direnç |
-| Orta Amerika'nın diğer yönetimleri | Maya alanı dışındaki yerel kent/hanedan ve kıyı meclisleri | Bazıları Endülüs ticaret şartında, bazıları bağımsız | Hepsi tek koloninin otomatik parçası değildir; son ülke listesi açılacak |
-| Yeni İşbiliye | Cartagena, Karayip kıyı ağı; aşağı Magdalena ve bazı Orinoco kıyı noktaları | Daha dar Endülüs kolonisi | Şeker, boya, tütün ve liman; kahve yükselen sektör, varsayılan dev 1836 ekonomisi değil |
+| Orta Amerika'nın diğer yönetimleri | Maya alanı dışındaki yerel kent/hanedan ve kıyı meclisleri; Panama Kıstak Meclisi | Bazıları Endülüs ticaret şartında, bazıları bağımsız | Hepsi tek koloninin otomatik parçası değildir; Panama geçiş gelirini yerel meclis yönetir |
+| Yeni İşbiliye | Cartagena/Antioquia–aşağı Magdalena kıyı-nehir ağı ve bazı Orinoco kıyı noktaları | Daha dar Endülüs kolonisi | Şeker, boya, tütün ve liman; kahve yükselen sektör, varsayılan dev 1836 ekonomisi değil |
 | İnci Adaları | Küba, Hispanyola, Porto Riko ve Jamaika'da farklı yerel idareli ana koloni sistemi | Endülüs kolonisi; ada meclisleri ve vali | Şeker/liman, kölelik ve toprak; bütün küçük Karayip adaları tek idarede değil |
+| Leeward / Windward ada meclisleri | Eski Fransız iki Küçük Antil province'i | Ayrı yerel meclisler | İki ada tek kolonide birleşmez; sonraki toplumsal kart her adanın emek ve kültür bileşimini ayrı kurar |
 
 Yeni Endülüs bütün eski Meksika sınırını veya Orta Amerika'yı almaz. Yeni İşbiliye bütün Kolombiya/Venezuela içini almaz; Bogotá çevresindeki Muisca siyasal alanı ayrı kalır. İç bölgelerle maden/taşıma antlaşmaları toprak sahipliği değildir.
 
@@ -72,7 +73,7 @@ Yeni Endülüs bütün eski Meksika sınırını veya Orta Amerika'yı almaz. Ye
 
 **Fas Brezilyası** Recife–Bahia kıyı çekirdeği ve Rio çevresindeki daha küçük ayrı yerleşim/liman ağından oluşur. Fas'ın sermayesi bütün Brezilya kıyısını ve içi tutmaya yetmez. Amazon, iç yayla ve güney topluluklarının egemenliği sürer. Tarihsel Portekiz sömürge kurumları yalnız ad değiştirilerek kopyalanmaz.
 
-Fas'ın Plata'da Buenos Aires/Montevideo çevresindeki tüccar mahalleleri ve yerel kira sözleşmeleri vardır; **Fas Plata'sı adlı büyük koloni devleti kurulmaz.** Nehir ve otlak egemenliği yerel Guaraní, Charrúa ve diğer aktörlerle ilgilidir. Liman sözleşmeleri arasında kimin taraf olduğu son yerel kartlarda açılacak.
+Fas'ın Plata'da Buenos Aires/Montevideo çevresindeki tüccar mahalleleri ve yerel kira sözleşmeleri vardır; **Fas Plata'sı adlı büyük koloni devleti kurulmaz.** Nehir ve otlak egemenliği yerel Guaraní, Charrúa ve diğer aktörlerdedir. Liman sözleşmelerinin tarafları siyasi state karar defteri ve diplomasi belgesinde kayıtlıdır.
 
 Fas Brezilyası'nın kredisi hem ana yurt tüccarına hem zorlayıcı plantasyon düzenine bağlıdır. Ana yurtta kölelik tartışması, kolonide kimin borcunu ve gelir kaybını üstleneceği sorusuyla birlikte yürür.
 
@@ -103,6 +104,6 @@ And devletlerinin ayrılığı bir kelime oyunundan doğmaz: 1620–1690 veraset
 
 ## 8. Sayısal hazırlık sınırı
 
-Eski “30 devlet / 145 state” toplamı bağlayıcı değil. Her koloninin çekirdeği, iddia sahası ve yerli egemen alanı ayrı tarif edilmeden nüfus/bina dağıtımı yapılmayacak. Özellikle Tenochtitlan–Maya, Hudson–Haudenosaunee, Vinland–iç Kanada, Florida ve Fas Brezilyası çizgileri ayrıntılandırılacak.
+Eski “30 devlet / 145 state” toplamı bağlayıcı değil. Her koloninin çekirdeği, iddia sahası ve yerli egemen alanı siyasi state karar defterinde ayrı kaydedildi. Nüfus/bina dağıtımı ancak sonraki mekanik aşamada bu sınır kaydına göre yapılacaktır.
 
 Bu sürümün başarısı daha çok küçük bayrak üretmek değildir: her aktörün kaynak, temsil ve dış ilişki sorununun görünür olmasıdır. Oyuncu yerli bir devletle de kendi hedefini izleyebilmeli; yalnız sömürgeleştirenin ilerlemesini beklememelidir.

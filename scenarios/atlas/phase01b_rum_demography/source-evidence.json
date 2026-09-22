@@ -1,0 +1,193 @@
+{
+  "scenario_sha256": "4894afc07343482537cd2911f56c3d9506b3ed6acc2855fd9394c1b12c0ddaa6",
+  "game_root": "/Users/kadir/Library/Application Support/Steam/steamapps/common/Victoria 3/game",
+  "source_sha256": {
+    "common/institutions/00_institutions.txt": "9d3b8474e2e99a34cd23cc38343253b850d0b2991a0f9418c85577c68c8ece2b",
+    "common/laws/00_army_model.txt": "86c32fb873dd2c192728088b572466d73ef8e0f9cd78130e1e0121803dea17e3",
+    "common/laws/00_bureaucracy.txt": "3d4b720fa18a75f361075504dfc1cf9e0ba1a90200a5b2e6bff9c3a1bad8f98f",
+    "common/laws/00_church_and_state.txt": "ad4e366533b268a86f29813c13aeae6f7472d94de84c35bfe51ce960fd8bb015",
+    "common/laws/00_citizenship.txt": "c006054323511c81b40502810c4ed8f6a806ebde02bf0a3023538e756ec9bb10",
+    "common/laws/00_distribution_of_power.txt": "014b5fcb89d4e4abb86c98c013364117a183daf569c9cb8d4ab0bb5ff833cd04",
+    "common/laws/00_governance_principles.txt": "e676448ea64c17079677ddbf2cbfdbec0ffdefa465286f16c1e6107a14e7f4cf",
+    "common/laws/00_internal_security.txt": "3e7b3fb954ee6d71e87f7e9a5878cadcb8acf9f4704b492c21d20552997caab2",
+    "common/laws/00_navy_model.txt": "406371ace46d307f866d27d7eaf1ced01362539788bed79abbb319d218f7d005",
+    "common/laws/01_colonial_affairs.txt": "102e57f8941f391b3e80dab5b892051f07a02b8bc8874349f505296eccdd5b1a",
+    "common/laws/01_economic_system.txt": "5ccac1062b2589dd2fb11b5b3c261fb037aa1a5d06a9af4333d11756af492b76",
+    "common/laws/01_education_system.txt": "94508a8b3fe6612b2510aa99466304839e8d69114179deb16031e34cfff16275",
+    "common/laws/01_health_system.txt": "4d015438098f9eea1350bdeb4ffe308e86857c9245e24226ab2e643566e317ed",
+    "common/laws/01_land_reform.txt": "2a6c33fb5c9c44c5876dfb066fc34379b48f382fafa322f483d6d4df02f57a9b",
+    "common/laws/01_policing.txt": "8d6938f1eb556f412ba5353056cd43797f4eea3fb7ea8d6ef6e7e9eeb4a80be3",
+    "common/laws/01_taxation.txt": "dd028ab3863ed9e3754ab91d17e07455661cc2bad2e77f98bfb4b64b59a7c317",
+    "common/laws/01_trade_policy.txt": "f6e0ca1e180c57f994aae1a04ea3e407bfadd4ede85f75f67c303ed16d734e6d",
+    "common/laws/02_childrens_rights.txt": "5c3659a8cfd083511b47ec0637c0ceb570a823029d9fc082f16ad854598d8818",
+    "common/laws/02_free_speech.txt": "5f85d745eb6d0326d90ba03117a02b16f6a913003cf03e19bf07ac370708254f",
+    "common/laws/02_labor_rights.txt": "78c4f45f9f3e0a5b3ecdaf03a8ea6ede6ade46eb1de64ae31621e4ecdfe8c371",
+    "common/laws/02_labour_associations.txt": "a74414c223efcd5f75a25d4118f9966636146ae5b82e7306fc4c13f07ee12528",
+    "common/laws/02_migration.txt": "53229809fe63dd8d4c7748fa2205183c737f8afbfb60ab2e9510bc4d65fff5e3",
+    "common/laws/02_rights_of_women.txt": "8dcfab1ce6746d59b44070e4a367e3d016affc68eb3dff5353f71f0df730886f",
+    "common/laws/02_slavery.txt": "5771d1e2fbef2c649aed1678b29bac9a94af756d445f9db94faed9e51c9cbd51",
+    "common/laws/02_welfare.txt": "42594f77b4566637631453c60749318f21e154e23d554be166ac68c7cac44784"
+  },
+  "law_catalog": {
+    "law_monarchy": {
+      "source": "common/laws/00_governance_principles.txt",
+      "group": "lawgroup_governance_principles",
+      "disallowing_laws": [
+        "law_anarchy"
+      ]
+    },
+    "law_wealth_voting": {
+      "source": "common/laws/00_distribution_of_power.txt",
+      "group": "lawgroup_distribution_of_power",
+      "unlocking_technologies": [
+        "democracy"
+      ],
+      "disallowing_laws": [
+        "law_chiefdom",
+        "law_command_economy"
+      ]
+    },
+    "law_appointed_bureaucrats": {
+      "source": "common/laws/00_bureaucracy.txt",
+      "group": "lawgroup_bureaucracy"
+    },
+    "law_subjecthood": {
+      "source": "common/laws/00_citizenship.txt",
+      "group": "lawgroup_citizenship"
+    },
+    "law_freedom_of_conscience": {
+      "source": "common/laws/00_church_and_state.txt",
+      "group": "lawgroup_church_and_state",
+      "unlocking_technologies": [
+        "rationalism"
+      ],
+      "disallowing_laws": [
+        "law_theocracy"
+      ]
+    },
+    "law_professional_army": {
+      "source": "common/laws/00_army_model.txt",
+      "group": "lawgroup_army_model",
+      "unlocking_technologies": [
+        "military_drill"
+      ],
+      "disallowing_laws": [
+        "law_strict_edo_system",
+        "law_intermediate_edo_system"
+      ]
+    },
+    "law_professional_navy": {
+      "source": "common/laws/00_navy_model.txt",
+      "group": "lawgroup_navy_model",
+      "unlocking_technologies": [
+        "military_drill"
+      ]
+    },
+    "law_interventionism": {
+      "source": "common/laws/01_economic_system.txt",
+      "group": "lawgroup_economic_system",
+      "unlocking_technologies": [
+        "manufacturies"
+      ],
+      "disallowing_laws": [
+        "law_serfdom",
+        "law_anarchy",
+        "law_factory_councils",
+        "law_women_in_the_fields"
+      ]
+    },
+    "law_protectionism": {
+      "source": "common/laws/01_trade_policy.txt",
+      "group": "lawgroup_trade_policy",
+      "unlocking_technologies": [
+        "stock_exchange"
+      ]
+    },
+    "law_land_based_taxation": {
+      "source": "common/laws/01_taxation.txt",
+      "group": "lawgroup_taxation"
+    },
+    "law_tenant_farmers": {
+      "source": "common/laws/01_land_reform.txt",
+      "group": "lawgroup_land_reform"
+    },
+    "law_no_colonial_affairs": {
+      "source": "common/laws/01_colonial_affairs.txt",
+      "group": "lawgroup_colonization"
+    },
+    "law_dedicated_police": {
+      "source": "common/laws/01_policing.txt",
+      "group": "lawgroup_policing",
+      "institution": "institution_police",
+      "unlocking_technologies": [
+        "law_enforcement"
+      ]
+    },
+    "law_no_home_affairs": {
+      "source": "common/laws/00_internal_security.txt",
+      "group": "lawgroup_internal_security"
+    },
+    "law_public_schools": {
+      "source": "common/laws/01_education_system.txt",
+      "group": "lawgroup_education_system",
+      "institution": "institution_schools",
+      "unlocking_technologies": [
+        "empiricism"
+      ],
+      "disallowing_laws": [
+        "law_state_religion",
+        "law_serfdom"
+      ]
+    },
+    "law_charitable_health_system": {
+      "source": "common/laws/01_health_system.txt",
+      "group": "lawgroup_health_system",
+      "institution": "institution_health_system",
+      "unlocking_technologies": [
+        "medical_degrees"
+      ]
+    },
+    "law_no_workers_rights": {
+      "source": "common/laws/02_labor_rights.txt",
+      "group": "lawgroup_labor_rights"
+    },
+    "law_restricted_child_labor": {
+      "source": "common/laws/02_childrens_rights.txt",
+      "group": "lawgroup_childrens_rights",
+      "unlocking_technologies": [
+        "labor_movement"
+      ]
+    },
+    "law_women_own_property": {
+      "source": "common/laws/02_rights_of_women.txt",
+      "group": "lawgroup_rights_of_women"
+    },
+    "law_no_social_security": {
+      "source": "common/laws/02_welfare.txt",
+      "group": "lawgroup_welfare"
+    },
+    "law_no_migration_controls": {
+      "source": "common/laws/02_migration.txt",
+      "group": "lawgroup_migration",
+      "disallowing_laws": [
+        "law_sakoku"
+      ]
+    },
+    "law_censorship": {
+      "source": "common/laws/02_free_speech.txt",
+      "group": "lawgroup_free_speech",
+      "unlocking_technologies": [
+        "law_enforcement"
+      ]
+    },
+    "law_anti_strike_laws": {
+      "source": "common/laws/02_labour_associations.txt",
+      "group": "lawgroup_labour_associations"
+    },
+    "law_slavery_banned": {
+      "source": "common/laws/02_slavery.txt",
+      "group": "lawgroup_slavery"
+    }
+  },
+  "runtime_tested": false
+}

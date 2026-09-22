@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "title": "Kart 3F/4F — Hint Okyanusu liman sözleşmeleri",
+  "description": "Dört Güneydoğu Asya ve bir Svahili liman sözleşmesinin başlangıç siyasi iklimini kaydeder. Bu ilişkiler state sahibi veya subject yaratmaz; ilgili ev sahibi bütün province egemenliğini korur.",
+  "countries": {},
+  "states": {},
+  "diplomacy": {
+    "mode": "inherit",
+    "relations": [
+      {
+        "actor": "EGY",
+        "target": "ACE",
+        "value": 25
+      },
+      {
+        "actor": "EGY",
+        "target": "SLW",
+        "value": 20
+      },
+      {
+        "actor": "OMA",
+        "target": "JOH",
+        "value": 25
+      },
+      {
+        "actor": "OMA",
+        "target": "SUL",
+        "value": 10
+      },
+      {
+        "actor": "OMA",
+        "target": "MBS",
+        "value": 10
+      }
+    ]
+  }
+}

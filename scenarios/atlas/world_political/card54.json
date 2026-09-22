@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "title": "Kart 4D — Afrika Yerel Egemenlik Kapanışı",
+  "description": "Dünya siyasi iskeleti: Mısır'ın Dongola dışındaki Kordofan ve Eritre doğrudan payları Darfur ile mevcut Afar yönetimine döner. Altın Sahil'deki Danimarka ve Hollanda depo payları Aşanti egemenliğine katılır; liman sözleşmeleri toprak devri değildir.",
+  "countries": {},
+  "states": {
+    "STATE_KORDOFAN": {
+      "split": [
+        {
+          "owner": "DFR",
+          "provinces": [
+            "xC4132F",
+            "xE47124",
+            "x1647C9",
+            "xFCDD6C",
+            "xCAA22A",
+            "xD6D2BA",
+            "x7EB8A8",
+            "xF762CD",
+            "x40DB33",
+            "xBD0B08",
+            "x6EA7DD",
+            "xD05060",
+            "x626379",
+            "xE5BBE8",
+            "x3C65B2",
+            "x62C35D",
+            "x9C967C",
+            "x9B588A",
+            "x57FCDD",
+            "xFCE1F9",
+            "xA668F8",
+            "xE39CEC",
+            "x676377",
+            "xC5236B",
+            "xA203EC",
+            "x7C620A",
+            "x7C421B",
+            "x7CFD1D",
+            "x0EEDAA",
+            "x57E23D",
+            "x74A2D3",
+            "x410939",
+            "x509EA3",
+            "xE7D087",
+            "xF020AE",
+            "xF68453",
+            "xA11B63",
+            "xB241EF",
+            "x5B6A6A",
+            "x29D3A4",
+            "xA4E1B0",
+            "x2A8438",
+            "xCBAC14",
+            "x6BD07F",
+            "x4A40BB",
+            "xAA1C4C",
+            "x784BF6",
+            "x16448D",
+            "xD738FB",
+            "x510933",
+            "xA02C79",
+            "xAEAA5D",
+            "xCDE64E",
+            "x1646F0",
+            "x99652C",
+            "xA0B800",
+            "x032C4F",
+            "xD08D75",
+            "x651EA8",
+            "xD0CBC3",
+            "x8060D0",
+            "xE0D838",
+            "x68ED3B",
+            "x70A245",
+            "xC41573",
+            "xBBA919",
+            "xE18962",
+            "xA0F49D",
+            "xD5F5EC",
+            "x61FBFB",
+            "x597D96",
+            "x7AA326",
+            "x370E9B",
+            "xDCA5EF",
+            "x229089",
+            "x1D7674",
+            "x902F75",
+            "x0C8466",
+            "x1B9423",
+            "x0E24E1",
+            "x2B2E2D"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ERITREA": {
+      "split": [
+        {
+          "owner": "AWS",
+          "provinces": [
+            "x9970A0",
+            "x48573C",
+            "x64B77C",
+            "x409D6F",
+            "x7090A0",
+            "xE64992",
+            "x140193",
+            "x0EBF6B",
+            "xE00AC4",
+            "xF786F9",
+            "x593F30",
+            "x035501",
+            "x03442D",
+            "x9E4472",
+            "x59AB39",
+            "x569C7E",
+            "xEC9D04",
+            "x70A072",
+            "xEB1C6A",
+            "xC5D429",
+            "x5D45FC",
+            "x66F6C3",
+            "x1B0B1E"
+          ]
+        },
+        {
+          "owner": "AWS",
+          "provinces": [
+            "x40E050",
+            "x9B6C39",
+            "x3EE4D1",
+            "x9E8FDD",
+            "xA07E70"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GOLD_COAST": {
+      "split": [
+        {
+          "owner": "ASH",
+          "provinces": [
+            "x802111"
+          ]
+        },
+        {
+          "owner": "ASH",
+          "provinces": [
+            "x8504E6"
+          ]
+        },
+        {
+          "owner": "ASH",
+          "provinces": [
+            "x6C8064"
+          ]
+        },
+        {
+          "owner": "ASH",
+          "provinces": [
+            "x1472E7",
+            "xDE4D17",
+            "xB99E19",
+            "x4B8CBE",
+            "x111F0C",
+            "xBC1F14",
+            "xE63565",
+            "x61C0D0",
+            "x6A6B14",
+            "xB9D107",
+            "xDBB653",
+            "x14F486",
+            "x364DF5",
+            "x6B5943",
+            "x6C9759",
+            "xA624EE",
+            "x589734",
+            "x6FFF10",
+            "xE0C0D0",
+            "xE9F5E6",
+            "x801552",
+            "xE0CF6C",
+            "x946D4E",
+            "x76AA0B",
+            "xE797D7",
+            "xFBC3B8",
+            "xE80D2D",
+            "xAAFDFC",
+            "xD14671",
+            "x925167",
+            "xD845A1",
+            "x15B10C",
+            "x961786",
+            "xEC0AF9",
+            "xF02A4B",
+            "xC2E0C0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

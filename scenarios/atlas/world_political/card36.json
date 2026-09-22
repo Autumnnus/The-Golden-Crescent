@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "title": "Kart 1I — Tuna bağımsızlık düzeltmesi",
+  "description": "Yazılı atlas Macaristan ve Erdel’i bağımsız sayar; Habsburg kişisel birliği yoktur. Bu kart yalnız onların vanilla Avusturya crown_land başlangıç bağlarını kaldırır.",
+  "countries": {},
+  "states": {},
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "HUN",
+      "TRS"
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "title": "Kart 1C — Alman Çekirdekleri",
+  "description": "Dünya siyasi iskeleti: Brandenburg, Pomeranya, Ren kent birliği ve Anhalt'ın doğrulanmış çekirdekleri. Doğu/Batı Prusya ve Silezya yazılı karar gelene kadar geçici PRU sahibinde kalır; Posen Lehistan--Litvanya kartındadır.",
+  "countries": {
+    "VBR": {
+      "name": "Margraviate of Brandenburg",
+      "name_tr": "Brandenburg Marklığı",
+      "color": [
+        83,
+        119,
+        152
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_BRANDENBURG"
+    },
+    "VPM": {
+      "name": "Duchy of Pomerania",
+      "name_tr": "Pomeranya Dükalığı",
+      "color": [
+        108,
+        141,
+        103
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_POMERANIA"
+    },
+    "VRC": {
+      "name": "Rhine City League",
+      "name_tr": "Ren Kent Birliği",
+      "color": [
+        153,
+        107,
+        77
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_RUHR"
+    },
+    "ANH": {
+      "name": "Principality of Anhalt",
+      "name_tr": "Anhalt Prensliği",
+      "color": [
+        103,
+        141,
+        151
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_ANHALT"
+    },
+    "PRU": {
+      "name": "Unresolved Prussian Remnant",
+      "name_tr": "Geçici Prusya Kalıntısı",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_EAST_PRUSSIA",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_BRANDENBURG": {
+      "split": [
+        {
+          "owner": "VBR",
+          "provinces": [
+            "x069CFB",
+            "x28CEC2",
+            "x514C51",
+            "x60BF20",
+            "x61C0A0",
+            "x76EF4E",
+            "x82F9A8",
+            "x83B1A8",
+            "x9B9076",
+            "x9E7304",
+            "xA040A0",
+            "xA65DA6",
+            "xB90BFF",
+            "xDF4020",
+            "xF77289",
+            "xF8D457"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_POMERANIA": {
+      "split": [
+        {
+          "owner": "VPM",
+          "provinces": [
+            "x3E3572",
+            "x0180A0",
+            "xA9BD82",
+            "x8C6982",
+            "x19AE19",
+            "x3C26DD",
+            "x6A53CF",
+            "xA04121",
+            "xE1A03A",
+            "x567452",
+            "x86E6F2",
+            "xCDEAE4",
+            "xA0C020",
+            "xD4C37D",
+            "x8D1E12",
+            "xEF5730",
+            "x8001A0",
+            "x89A2A9"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NORTH_RHINE": {
+      "split": [
+        {
+          "owner": "VRC",
+          "provinces": [
+            "x9F4072",
+            "x8001E0",
+            "x834B66",
+            "x518021",
+            "x29CCD6",
+            "x486F6A"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_RHINELAND": {
+      "split": [
+        {
+          "owner": "VRC",
+          "provinces": [
+            "xD080A0",
+            "x904020",
+            "xC1B963",
+            "x5D7A68"
+          ]
+        },
+        {
+          "owner": "BAV",
+          "provinces": [
+            "x11C021",
+            "x707505"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_RUHR": {
+      "split": [
+        {
+          "owner": "VRC",
+          "provinces": [
+            "x2101E0",
+            "x5101A0",
+            "xD08021",
+            "x0180E0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WESTPHALIA": {
+      "split": [
+        {
+          "owner": "VRC",
+          "provinces": [
+            "x1DD141",
+            "xA08061",
+            "x218061",
+            "x418021",
+            "x4101A0",
+            "x910095"
+          ]
+        },
+        {
+          "owner": "LIP",
+          "provinces": [
+            "x9F0060"
+          ]
+        },
+        {
+          "owner": "SCM",
+          "provinces": [
+            "x1BA4F6"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ANHALT": {
+      "split": [
+        {
+          "owner": "ANH",
+          "provinces": [
+            "xA080E0",
+            "x12694A",
+            "x618061",
+            "xCF5D8E",
+            "x34386E",
+            "xCBA4A5",
+            "xE0C0A0",
+            "xA51232",
+            "x3C9B93"
+          ]
+        },
+        {
+          "owner": "ANH",
+          "provinces": [
+            "x8A448C",
+            "xED8F7B"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

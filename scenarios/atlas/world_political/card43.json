@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "title": "Kart 1L — İspanyol geçici sahibinin tasfiyesi",
+  "description": "Rif eski SPA payı Fas’a, Kanarya Adaları Endülüs’e geçer. İberya’da birleşik İspanya bulunmadığı için geçici SPA ülke tanımı ve devralınan diplomasi temizlenir.",
+  "countries": {},
+  "states": {
+    "STATE_AL_RIF": {
+      "split": [
+        {
+          "owner": "MOR",
+          "provinces": [
+            "x20B0C0",
+            "xA0B0C0",
+            "xCA9F75",
+            "xDFB040",
+            "xE6D43C",
+            "xFA1C92"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CANARY_ISLANDS": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x20EF01",
+            "xF0EF86",
+            "x655491",
+            "x64C2B3",
+            "xC2C164"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "SPA"
+    ]
+  }
+}

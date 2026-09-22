@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "title": "Kart 1L — Portekiz Geçici Sahibinin Kapanışı",
+  "description": "Portekiz'in son doğrudan payları ilgili Hindistan, Çin ve Takımada kartlarında yerel sahiplere devredildikten sonra miras diplomasi kayıtları temizlenir. Bu siyasi iskelet kartı mekanik başlangıç verisi üretmez.",
+  "countries": {},
+  "states": {},
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "POR"
+    ]
+  }
+}

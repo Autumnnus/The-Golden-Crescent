@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "title": "Kart 5W — Panama Kıstağı Meclisi",
+  "description": "Dünya siyasi iskeleti: Panama’daki Kolombiya doğrudan payı yerel Kıstak Meclisi’ne geçer. Geçiş vergisi ve dış liman sözleşmeleri toprak egemenliği değildir; sonraki diplomasi katmanında kurulacaktır.",
+  "countries": {
+    "VIT": {
+      "name": "Isthmian Council",
+      "name_tr": "Kıstak Meclisi",
+      "color": [
+        107,
+        145,
+        133
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "muisca"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_PANAMA"
+    }
+  },
+  "states": {
+    "STATE_PANAMA": {
+      "split": [
+        {
+          "owner": "VIT",
+          "provinces": [
+            "xBB820B",
+            "x8A8A20",
+            "xD0EF40",
+            "x47C5F8",
+            "x50C29C",
+            "x8537FE",
+            "x357099",
+            "x717275",
+            "x910E14",
+            "x30B080",
+            "xB0A911",
+            "xC650E1",
+            "xB0B080",
+            "xEE835F"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

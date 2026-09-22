@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "title": "Kart 6A — Yerinden olmuş yerel başkentler",
+  "description": "Önceki siyasi state/pay kararları eski başkenti artık ülke sahibinde olmayan yerel aktörlerin başkentini, hâlâ sahip oldukları state'e taşır. Yeni sınır veya ülke yaratmaz.",
+  "countries": {
+    "DIO": {
+      "capital": "STATE_SENEGAL"
+    },
+    "BGM": {
+      "capital": "STATE_GONDER"
+    },
+    "TGR": {
+      "capital": "STATE_GONDER"
+    },
+    "GJM": {
+      "capital": "STATE_GONDER"
+    },
+    "MTB": {
+      "capital": "STATE_TRANSVAAL"
+    },
+    "ATB": {
+      "capital": "STATE_ALASKA"
+    },
+    "COO": {
+      "capital": "STATE_WEST_BENGAL"
+    },
+    "JEY": {
+      "capital": "STATE_CIRCARS"
+    },
+    "DGR": {
+      "capital": "STATE_MEKONG"
+    },
+    "AIN": {
+      "capital": "STATE_SAKHALIN"
+    },
+    "UZH": {
+      "capital": "STATE_SYRDARYA"
+    },
+    "TEK": {
+      "capital": "STATE_WEST_SAHARA"
+    }
+  },
+  "states": {},
+  "diplomacy": {
+    "mode": "inherit"
+  }
+}

@@ -82,8 +82,8 @@ Bu düzen “gevşek fakat çalışan birlik” başlangıcını verir. Federal 
 
 Maratha dış konseyi Pune, Gwalior, Indore ve Nagpur temsilcilerinden oluşur. Mevcut sınır savunmasına katkı ayrı mali cetvellerden gelir; yeni ortak sefer oybirliği gerektirir. Pune toplantı ve komuta merkezi olabilir, üyelerin bütün gelirini kendisine yazamaz. Ortak altyapı katılan üyelerin ayrı sözleşmesiyle kurulur.
 
-Afrika'da Sokoto'nun emirlikleri, Massina–Timbuktu şartı; Asya'da Lao/Khmer/Şan ilişkileri ve takımadalardaki liman hukukları, bu ana dünya dosyasının kalan ayrıntı alanıdır. Genel “bağlı” etiketiyle doldurulmayacaklar. Bu aşamada açıkça yazılmamış bir askerî üst devlet **varsayılmayacak**; yerel yönetim korunacak ve kesin statü kartı yazılacak.
+Afrika'da Gobir, Sokoto'nun sınırlı emirlik sözleşmesindedir; Bornu ve Borgu bağımsızdır. Massina–Timbuktu şartı Massina'nın yerel payındaki kent hukukudur, ikinci bir üst devlet değildir. Asya'da Lao/Khmer/Şan ilişkileri ve takımadalardaki liman hukukları da genel “bağlı” etiketiyle doldurulmaz. Açıkça yazılmamış askerî üst devlet varsayılmayacak; yerel yönetim korunacak ve kesin statü kartı yazılacak.
 
 ## 7. Sınır kilidi için ortak kural
 
-Buradaki şehir sahipliği kararları yazılı tasarımda geçerlidir. Son haritada hiçbir şehir adı iki doğrudan egemene yazılamaz. Bir devletin alanını büyüten sonraki karar komşu devlet kartını ve diplomasi defterini aynı anda değiştirmelidir. Nehir adaları, küçük vadiler ve benzeri son çizim ayrıntısı, bugünden doğrulanmış province sınırı diye sunulmaz.
+Buradaki şehir sahipliği kararları yazılı tasarımda geçerlidir. Son haritada hiçbir şehir adı iki doğrudan egemene yazılamaz. Nehir adaları, küçük vadiler ve benzeri son çizim ayrıntısı [siyasi state karar defterinde](SIYASI_STATE_KARAR_DEFTERI.md) gerçek province sahibiyle kilitlidir. Bir devletin alanını büyüten sonraki karar komşu devlet kartını, karar defterini ve diplomasi belgesini aynı anda değiştirmelidir.

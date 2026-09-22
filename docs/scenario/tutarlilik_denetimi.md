@@ -67,8 +67,8 @@ Bu yönlerin kullanıcı tarafından belirtilmesi, dünyanın bütün sınır ve
 |---|---|---|
 | Kurucu fikir ve neden-sonuç tarihi | Yazıldı | Kullanıcının tarih/dünya tercihleriyle tasarım kilidi |
 | On öncelikli ülkenin kimliği, koalisyonu ve yolları | Yazıldı | Kişi ve hanedan isimlerinin son edisyonu |
-| Ana coğrafya ve ihtilaflar | Yazıldı | Küçük siyasi birimlerin tam listesi ve kesin komşu sınırları |
-| Büyük bağlılıklar/taçlar/konfederasyonlar | Yazıldı; ana birliklerin oy/katkı kuralları da eklendi | Yerel Afrika/Asya/ada antlaşmalarının tek tek taraf kayıtları |
+| Ana coğrafya ve ihtilaflar | Yazıldı; 675 state'in province sahibi Atlas kartları ve siyasi state karar defteriyle kilitlendi | Sınır değişirse komşu kart/diplomasi ile birlikte yeniden denetim |
+| Büyük bağlılıklar/taçlar/konfederasyonlar | Yazıldı; ana birliklerin oy/katkı kuralları ve başlangıç subject/pact kayıtları eklendi | Liman sözleşmelerinin Flavor ve mekanik ayrıntıları |
 | Sanayi, enerji, gıda, ulaşım ve mali açmazlar | Yazıldı | Ülke/eyalet sayısal kaynak ve kapasite eşlemesi |
 | Ana ülkelerin nüfus/eğitim ve sektör hedefleri | Tasarım aralığı yazıldı | Tek değer seçimi ve eyalet toplamları; dünya toplamı henüz üretilmedi |
 | Hukuk ve temel kurumlar | On profil + ana ülke istisnaları yazıldı | Küçük ülke/yerel örf ayrıntıları; kesin oyun kanunları bu aşamada seçilmedi |
@@ -77,7 +77,7 @@ Bu yönlerin kullanıcı tarafından belirtilmesi, dünyanın bütün sınır ve
 | Harita, arma ve GFX | Görsel dil ve gerekli altı harita tanımlandı | Nihai harita/arma/görseller üretilmedi |
 | Oyun başlangıç verisi | Bu çalışmanın kapsamı değil | Yazılı tasarım incelendikten sonra ayrı aşama |
 
-**Dürüst değerlendirme:** ana senaryo artık birbiriyle konuşan ekonomi, hukuk, diplomasi ve ülke dosyalarına sahip. Buna “her eyalet ve her küçük ülke için üretime hazır tam veri” demek hâlâ yanlış olur. Eksik olan, temel dünyanın gerekçesi değil; aşağıdaki ayrıntı katmanıdır. Araçlara geçmeden önce özellikle sınır/egemenlik tercihlerinin yazılı olarak kilitlenmesi gerekir.
+**Dürüst değerlendirme:** ana senaryo artık birbiriyle konuşan ekonomi, hukuk, diplomasi ve ülke dosyalarına sahip. Siyasi sınır/egemenlik tercihi artık yazılı ve Atlas düzeyinde kilitlidir. Buna “her eyalet ve her küçük ülke için üretime hazır tam mekanik veri” demek hâlâ yanlış olur; nüfus, ekonomi, hukuk, teknoloji, ordu ve Flavor sonraki katmanlardır.
 
 ## 4. Öncelikli yazılı ayrıntı sırası
 

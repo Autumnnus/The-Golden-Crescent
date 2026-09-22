@@ -1,0 +1,1069 @@
+{
+  "phase": "1B.4B",
+  "parent_scenario_sha256": "4bf114a4ab2b5428f579a22419d3cc61599cbafe601d37871cb0ce6cf5c406b3",
+  "parent_pops_sha256": "9242d3a14614945bcfb0dbf2f83fa42151005a38d85b32ece2c8451e7b1bf6ff",
+  "countries": {
+    "KUR": {
+      "population": 1700000,
+      "laws": [
+        "law_monarchy",
+        "law_autocracy",
+        "law_hereditary_bureaucrats",
+        "law_subjecthood",
+        "law_state_religion",
+        "law_peasant_levies",
+        "law_merchant_navy",
+        "law_traditionalism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_no_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_in_the_fields",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_debt_slavery"
+      ],
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_armed_forces"
+      ],
+      "formations": [
+        {
+          "name": "Dicle Serhad Kuvveti",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_irregular_infantry",
+              "state": "STATE_MOSUL",
+              "count": 16
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_MOSUL",
+              "count": 4
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_MOSUL",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    "BSR": {
+      "population": 320000,
+      "laws": [
+        "law_presidential_republic",
+        "law_oligarchy",
+        "law_elected_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_laissez_faire",
+        "law_free_trade",
+        "law_consumption_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_private_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_no_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ],
+      "ruling_interest_groups": [
+        "ig_industrialists",
+        "ig_petty_bourgeoisie"
+      ],
+      "formations": [
+        {
+          "name": "Basra Muhafizlari",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_BASRA",
+              "count": 6
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_BASRA",
+              "count": 1
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_BASRA",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Sattularap Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_BASRA",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    "SYR": {
+      "population": 1170000,
+      "laws": [
+        "law_monarchy",
+        "law_autocracy",
+        "law_hereditary_bureaucrats",
+        "law_subjecthood",
+        "law_state_religion",
+        "law_peasant_levies",
+        "law_merchant_navy",
+        "law_traditionalism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_no_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_in_the_fields",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_debt_slavery"
+      ],
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_devout"
+      ],
+      "formations": [
+        {
+          "name": "Sam Kervan Ordusu",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_irregular_infantry",
+              "state": "STATE_SYRIA",
+              "count": 12
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_SYRIA",
+              "count": 2
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_SYRIA",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    "LEB": {
+      "population": 560000,
+      "laws": [
+        "law_monarchy",
+        "law_oligarchy",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_state_religion",
+        "law_peasant_levies",
+        "law_merchant_navy",
+        "law_traditionalism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_no_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_in_the_fields",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_debt_slavery"
+      ],
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_petty_bourgeoisie"
+      ],
+      "formations": [
+        {
+          "name": "Cebel Muhafizlari",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_irregular_infantry",
+              "state": "STATE_LEBANON",
+              "count": 6
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_LEBANON",
+              "count": 1
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_LEBANON",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Beyrut Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_LEBANON",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    "PAL": {
+      "population": 650000,
+      "laws": [
+        "law_monarchy",
+        "law_autocracy",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_peasant_levies",
+        "law_merchant_navy",
+        "law_traditionalism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_no_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_in_the_fields",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_debt_slavery"
+      ],
+      "ruling_interest_groups": [
+        "ig_devout",
+        "ig_landowners"
+      ],
+      "formations": [
+        {
+          "name": "Kudus Muhafizlari",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_irregular_infantry",
+              "state": "STATE_PALESTINE",
+              "count": 8
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_PALESTINE",
+              "count": 1
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_PALESTINE",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Akka Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_PALESTINE",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    "KUW": {
+      "population": 120000,
+      "laws": [
+        "law_monarchy",
+        "law_oligarchy",
+        "law_hereditary_bureaucrats",
+        "law_subjecthood",
+        "law_state_religion",
+        "law_peasant_levies",
+        "law_merchant_navy",
+        "law_traditionalism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_no_health_system",
+        "law_no_workers_rights",
+        "law_child_labor_allowed",
+        "law_women_in_the_fields",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_debt_slavery"
+      ],
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_petty_bourgeoisie"
+      ],
+      "formations": [
+        {
+          "name": "Kuveyt Muhafizlari",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_irregular_infantry",
+              "state": "STATE_BASRA",
+              "count": 3
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_BASRA",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Kuveyt Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_BASRA",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "population_by_state": {
+    "STATE_MOSUL": {
+      "KUR": {
+        "total": 750000,
+        "literacy": 0.3
+      }
+    },
+    "STATE_DIYARBAKIR": {
+      "KUR": {
+        "total": 950000,
+        "literacy": 0.28
+      }
+    },
+    "STATE_BASRA": {
+      "BSR": {
+        "total": 320000,
+        "literacy": 0.42
+      },
+      "KUW": {
+        "total": 120000,
+        "literacy": 0.3
+      }
+    },
+    "STATE_SYRIA": {
+      "SYR": {
+        "total": 1050000,
+        "literacy": 0.37
+      }
+    },
+    "STATE_TRANSJORDAN": {
+      "SYR": {
+        "total": 120000,
+        "literacy": 0.2
+      }
+    },
+    "STATE_LEBANON": {
+      "LEB": {
+        "total": 560000,
+        "literacy": 0.43
+      }
+    },
+    "STATE_PALESTINE": {
+      "PAL": {
+        "total": 650000,
+        "literacy": 0.36
+      }
+    }
+  },
+  "freed_inherited_slave_status_basra": 3530,
+  "retained_inherited_slave_status_h8": 29047,
+  "industry": {
+    "STATE_MOSUL": {
+      "KUR": {
+        "building_government_administration": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_hereditary_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 3,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_sulfur_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 6,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 5,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 3,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_tobacco_plantation": 2
+      }
+    },
+    "STATE_DIYARBAKIR": {
+      "KUR": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_hereditary_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_coal_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 6,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 4,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 4,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_tobacco_plantation": 2,
+        "building_vineyard": 2,
+        "building_tea_plantation": 0
+      }
+    },
+    "STATE_BASRA": {
+      "BSR": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_secular_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_secular_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 2,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_shipyard": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_shipbuilding"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 4,
+          "production_methods": [
+            "pm_pulp_pressing",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 3,
+          "production_methods": [
+            "pm_bakery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 2,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        }
+      },
+      "KUW": {
+        "building_port": {
+          "level": 4,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_shipyard": {
+          "level": 1,
+          "production_methods": [
+            "pm_basic_shipbuilding"
+          ]
+        }
+      }
+    },
+    "STATE_SYRIA": {
+      "SYR": {
+        "building_government_administration": {
+          "level": 5,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_hereditary_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 3,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 3,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 5,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_glassworks": {
+          "level": 3,
+          "production_methods": [
+            "pm_forest_glass",
+            "pm_manual_glassblowing"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_pulp_pressing",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_millet_farm": {
+          "level": 8,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 5,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 4,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_silk_plantation": {
+          "level": 3,
+          "production_methods": [
+            "default_building_silk_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_tobacco_plantation": 3,
+        "building_vineyard": 2,
+        "building_logging_camp": {
+          "level": 2,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_TRANSJORDAN": {
+      "SYR": {
+        "building_government_administration": {
+          "level": 1,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_hereditary_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_sulfur_mine": {
+          "level": 3,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_millet_farm": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 1,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_port": {
+          "level": 1,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 0
+      }
+    },
+    "STATE_LEBANON": {
+      "LEB": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 2,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 2,
+          "production_methods": [
+            "pm_pulp_pressing",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_bakery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_shipyard": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_shipbuilding"
+          ]
+        },
+        "building_coal_mine": {
+          "level": 6,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 3,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 4,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_millet_farm": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_silk_plantation": {
+          "level": 3,
+          "production_methods": [
+            "default_building_silk_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_vineyard": 2
+      }
+    },
+    "STATE_PALESTINE": {
+      "PAL": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 2,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_glassworks": {
+          "level": 3,
+          "production_methods": [
+            "pm_forest_glass",
+            "pm_manual_glassblowing"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 1,
+          "production_methods": [
+            "pm_pulp_pressing",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 6,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_sulfur_mine": {
+          "level": 3,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 3,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 3,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_millet_farm": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 1,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "pm_road_carts"
+          ]
+        },
+        "building_tobacco_plantation": 1,
+        "building_vineyard": 2
+      }
+    }
+  },
+  "design_limits": {
+    "diplomacy": "all six remain independent; the 1712 and 1804 treaty guarantees are not reducible to an automatic subject relation",
+    "basra_kuwait_hub": "one vanilla STATE_BASRA port hub belongs to KUW while the city hub belongs to BSR; Atlas cannot create two port hubs inside one state region",
+    "market": "complementary capacity and dependencies are directional; tariffs, routes, convoys and prices need engine testing",
+    "politics": "ruling IG membership is explicit; clout and legitimacy are runtime outcomes",
+    "slavery": "Basra emancipation and H8 debt-slavery starting effects require runtime verification"
+  }
+}

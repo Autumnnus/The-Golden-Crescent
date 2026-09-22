@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "title": "Kart 5S — Cusco Krallığı Çekirdeği",
+  "description": "Cusco Krallığı, oyun başkenti temsili olarak Arequipa ile güney Peru yüksek havzası, Tarapacá ve Cajamarca paylarında kurulur. Lima kıyısıyla ilişkisi toprak devri değil sözleşmeli ticarettir; Ica ile Pastaza yerel sahipliğinde kalır. Eski Güney Peru başlangıç kaydı temizlenir.",
+  "countries": {
+    "VCU": {
+      "name": "Kingdom of Cusco",
+      "name_tr": "Cusco Krallığı",
+      "color": [
+        135,
+        109,
+        137
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "quechua"
+      ],
+      "religion": "animist",
+      "capital": "STATE_AREQUIPA"
+    }
+  },
+  "states": {
+    "STATE_CAJAMARCA": {
+      "split": [
+        {
+          "owner": "VCU",
+          "provinces": [
+            "x5ED420",
+            "xA33231",
+            "xE8C4B9",
+            "x49AE7D",
+            "xA6A663",
+            "x069581",
+            "x53C9A1",
+            "xDC3D44",
+            "x6EDBA1",
+            "x215FF5",
+            "xD57EEE",
+            "x54BF7F",
+            "xC000D0",
+            "x1D15F7",
+            "xD12A1F",
+            "xE709F8",
+            "x4CD5E4",
+            "x2A7F60",
+            "x3EA1E4",
+            "x4080D0",
+            "x08FB24",
+            "xF91A3D",
+            "x66279A",
+            "x2E0608",
+            "x5C955D",
+            "xC8294A",
+            "x8170A2",
+            "x769175",
+            "xB26C25",
+            "x1FAA35",
+            "x8D62E6",
+            "x2ACF46",
+            "xAD65A3",
+            "xEF024D"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_AREQUIPA": {
+      "split": [
+        {
+          "owner": "VCU",
+          "provinces": [
+            "x007035",
+            "x2E3791",
+            "x3BC37F",
+            "x451783",
+            "x67EC55",
+            "x72698B",
+            "x79A3B0",
+            "x7C1054",
+            "x89775D",
+            "x8EC087",
+            "x923040",
+            "x96798E",
+            "x96AB5D",
+            "xB077B0",
+            "xBB02B0",
+            "xBED190",
+            "xC16B62",
+            "xC72B01",
+            "xD619E0",
+            "xD66487",
+            "xDF23D0",
+            "xDFC0B0",
+            "xE326BA",
+            "xF6869A"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_TARAPACA": {
+      "split": [
+        {
+          "owner": "VCU",
+          "provinces": [
+            "xB3DA33",
+            "x380AE9",
+            "xC9DDC4",
+            "x8733A4",
+            "x79C7F7",
+            "x2F3768",
+            "x1040D0",
+            "xD46425",
+            "xCB9DD5",
+            "xF391A7",
+            "xA00070",
+            "x49DD3B",
+            "x2FB295"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "SPU"
+    ]
+  }
+}

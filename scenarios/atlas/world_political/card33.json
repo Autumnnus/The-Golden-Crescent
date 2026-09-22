@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "title": "Kart 3C — Yerel Takımada Yönetimleri",
+  "description": "DEI doğrudan payları Aceh, Java sarayları, Borneo sultanlıkları, Sulawesi ve Maluku yerel yönetimlerine aktarılır; Sunda'daki son geçici Portekiz liman payı Bali'ye döner. Batı Java, DEI doğrulama ankrajı olarak sonraki nihai aktarım kartına ayrılmıştır; Mısır/Umman liman imtiyazları diplomasi katmanında kurulacaktır.",
+  "countries": {
+    "DEI": {
+      "name": "Residual Dutch East Indies Jurisdiction",
+      "name_tr": "Geçici Hollanda Doğu Hint Yetki Alanı",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "dutch"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_WEST_JAVA",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_ACEH": {
+      "split": [
+        {
+          "owner": "ACE",
+          "provinces": [
+            "xC5091B",
+            "x5BDF4D",
+            "x1C8420",
+            "xA0DFD0",
+            "xEB815E",
+            "xAB0290",
+            "x07B7F0",
+            "xC266CF",
+            "x0DDF49",
+            "xBE17D2",
+            "x30AED9",
+            "x9A7E0B",
+            "x388ABB",
+            "x60E050",
+            "xE3CB2E"
+          ]
+        },
+        {
+          "owner": "SAK",
+          "provinces": [
+            "x4544B1",
+            "xD5A22C",
+            "x7E3D68",
+            "x4F7793",
+            "xD4118B",
+            "x616150"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CELEBES": {
+      "split": [
+        {
+          "owner": "SLW",
+          "provinces": [
+            "x7A4D9B",
+            "x5585BD",
+            "x7AA69B",
+            "x5D959D",
+            "xBF46E7",
+            "xB3682E",
+            "xE2401F",
+            "x9A5C23",
+            "xC00170",
+            "x0CA6B2",
+            "x10547F",
+            "xE82A26",
+            "x79D69A",
+            "xA22F3F",
+            "xD12748",
+            "x7BD240",
+            "x08BE67",
+            "xB67D4D",
+            "x507A4B",
+            "x613129",
+            "xFEA2EE",
+            "x7EF242",
+            "x58A658",
+            "xEDDB5F",
+            "x4DA1DC",
+            "x886F1C",
+            "x63E362",
+            "xB14D58",
+            "x0C7820",
+            "x8080F0",
+            "xC04B6D"
+          ]
+        },
+        {
+          "owner": "BTN",
+          "provinces": [
+            "xF0B767",
+            "x908010"
+          ]
+        },
+        {
+          "owner": "TID",
+          "provinces": [
+            "x7A4DF4"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CENTRAL_JAVA": {
+      "split": [
+        {
+          "owner": "YOG",
+          "provinces": [
+            "xEB0621",
+            "x20DF70",
+            "x14F9F5",
+            "xA06070",
+            "x62742E",
+            "x9C517C",
+            "x01B3D5",
+            "xA12ED1",
+            "x727A46",
+            "xD19D2E"
+          ]
+        },
+        {
+          "owner": "SRK",
+          "provinces": [
+            "x143969"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_EAST_BORNEO": {
+      "split": [
+        {
+          "owner": "BNJ",
+          "provinces": [
+            "x018070",
+            "x9F4941",
+            "x8BD8AF",
+            "xB8D3B7",
+            "x0FFCAE",
+            "x4F7415",
+            "x9B7A4D",
+            "x496AEF",
+            "xDF0BCF",
+            "x0ED6AA",
+            "xE9E984",
+            "xDB778E",
+            "xEA35E9",
+            "x71A232",
+            "x3660F5",
+            "x9C48FE",
+            "x38416A",
+            "x6A70EA",
+            "x88A1EC",
+            "xFF0B89",
+            "x10645D",
+            "x0E858D",
+            "x8D8D4A",
+            "x8F8FDE",
+            "x0596C2",
+            "x0A7250",
+            "x0A8175"
+          ]
+        },
+        {
+          "owner": "BLG",
+          "provinces": [
+            "xAC440F",
+            "xF6BB4E",
+            "xFD2E40",
+            "xF8DD56",
+            "xE49DDE",
+            "x3EE142",
+            "x1F6009",
+            "x6728CB",
+            "xFBB6C2",
+            "x69AF77",
+            "x330B36",
+            "xC03A53",
+            "x3BE572",
+            "x1DF499",
+            "x9ED038"
+          ]
+        },
+        {
+          "owner": "KTI",
+          "provinces": [
+            "xC72ED3",
+            "x2D539F",
+            "x3E96AF",
+            "x8B9E4E",
+            "x2695FB",
+            "xD5155A",
+            "x7BA8AD",
+            "xDFE51D",
+            "xC7410C",
+            "x952BEE",
+            "x672606",
+            "x4D4D9B",
+            "xCC69E2",
+            "x8B8321",
+            "x13DD1D",
+            "xA57C37",
+            "x3631B8",
+            "x718F24",
+            "xD6E8B0",
+            "x413B50",
+            "x527DD4"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_EAST_JAVA": {
+      "split": [
+        {
+          "owner": "SRK",
+          "provinces": [
+            "x2060EF",
+            "x1D38B7",
+            "xEF70EC",
+            "xA8B603",
+            "xC226AF",
+            "xD91A27",
+            "xA0E070",
+            "xAD1F3C",
+            "x5C2239",
+            "x5C2250"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_MOLUCCAS": {
+      "split": [
+        {
+          "owner": "TID",
+          "provinces": [
+            "xF88172",
+            "xD3A69B",
+            "xAF6607",
+            "x3CEE2E",
+            "xC1DDAE",
+            "x51EA06",
+            "x079110",
+            "x0D5E42",
+            "x91B395",
+            "xD986F1",
+            "x22A870",
+            "xD02FE9",
+            "xB346EB",
+            "x7A7A6E",
+            "xF0CE19",
+            "xF94D86"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NORTH_SUMATRA": {
+      "split": [
+        {
+          "owner": "SAK",
+          "provinces": [
+            "x8A3E15",
+            "xD2D88C",
+            "x257D2C",
+            "x79A66E",
+            "x85B004",
+            "x4E9BC1",
+            "x9D4BD1",
+            "xDC4677",
+            "xEAF2DC",
+            "xA0CEED",
+            "x9377DF",
+            "xE0A0F0",
+            "x91B001",
+            "x01C030",
+            "xA1341F",
+            "x7C7431",
+            "x339E85",
+            "xD3A66E",
+            "x983FEB",
+            "x01317D",
+            "x3F7EA0",
+            "x677AA6",
+            "x87F7B6",
+            "x8171EA",
+            "x48428B",
+            "x6021D0",
+            "x5BE3D2",
+            "x8B7A14",
+            "x35213F"
+          ]
+        },
+        {
+          "owner": "JMB",
+          "provinces": [
+            "x5157D3",
+            "xDA82F4",
+            "x7AC280",
+            "xAE71B4",
+            "xEC5DEA",
+            "xA2F773",
+            "x6ED39E",
+            "xE4C2D6"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SOUTH_SUMATRA": {
+      "split": [
+        {
+          "owner": "JMB",
+          "provinces": [
+            "xDBE794",
+            "xA97585",
+            "x74812B",
+            "x847F76",
+            "xE226FB",
+            "x31E5B1",
+            "x067967",
+            "xE49A2F",
+            "xE962F4",
+            "x8FBCF4",
+            "xCC1A24",
+            "x174432",
+            "x7945C0",
+            "xFB099E",
+            "xD10CCE",
+            "x42D05B",
+            "xB0F538",
+            "x7A4DC8",
+            "x0F65F5",
+            "x27FD1C",
+            "x7D6D54",
+            "x3099D2",
+            "x3441E9",
+            "xD2193E",
+            "x8527A9",
+            "x7FFD6B",
+            "x0D0BEB",
+            "x4CF770",
+            "x00F15A",
+            "x03CEC7"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SUNDA_ISLANDS": {
+      "split": [
+        {
+          "owner": "BAL",
+          "provinces": [
+            "x5ABA94",
+            "x100090",
+            "x4EE71E",
+            "x3CCE91",
+            "x7F4592",
+            "x908090",
+            "x929145",
+            "x7D205E",
+            "x900090",
+            "x108090",
+            "x4CFCE1",
+            "x28EC3F",
+            "x699245",
+            "xCF8A98",
+            "x5F978F",
+            "xE90740"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WEST_BORNEO": {
+      "split": [
+        {
+          "owner": "LAN",
+          "provinces": [
+            "x1C7417",
+            "x2A3D46",
+            "xE02CB6"
+          ]
+        },
+        {
+          "owner": "PON",
+          "provinces": [
+            "xD735DB",
+            "xE3C4F2",
+            "xC29C28",
+            "xA67A6E",
+            "x638173",
+            "x76E306",
+            "xF9BDCB",
+            "xFCFD83",
+            "x029E85",
+            "x8A69A7",
+            "xFF8539",
+            "xF37396",
+            "xFFE074",
+            "x71D428",
+            "x706E00",
+            "xA91194",
+            "x4DD36E",
+            "xB7B05B",
+            "xAD54BC",
+            "x4408AB",
+            "xF8375D"
+          ]
+        },
+        {
+          "owner": "SMB",
+          "provinces": [
+            "x60FDC2",
+            "x42973E",
+            "x6D4CDF"
+          ]
+        },
+        {
+          "owner": "STG",
+          "provinces": [
+            "x477680",
+            "xA6D36E",
+            "xCF4105",
+            "x7FFBF0",
+            "xBC374E",
+            "xA5A916",
+            "x56FE77",
+            "x445D59",
+            "x9910E9",
+            "x939612",
+            "x04BB3B"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

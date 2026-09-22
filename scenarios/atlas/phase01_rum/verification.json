@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "geography_and_transfer_only",
+  "runtime_tested": false,
+  "scenario_sha256": "5ca7b6a67dec1f1a85e542f9e2075f0da1d387f54e41e2e9727cce3b8729711c",
+  "report_sha256": "eb463af242048ac52018c4520af59ae709e01099cf54ba9deb8c1392f0a7c367",
+  "changed_states": 41,
+  "country_definitions": 13,
+  "rum_dependencies": 6,
+  "population_culture_religion_and_building_totals_preserved": true,
+  "hub_ownership_checks": 18,
+  "baseline_warnings": 73,
+  "additional_warnings": [
+    "EGY: removed inherited army unit in lost state STATE_ALEPPO",
+    "EGY: removed inherited army unit in lost state STATE_LEBANON",
+    "EGY: removed inherited army unit in lost state STATE_PALESTINE",
+    "EGY: removed inherited army unit in lost state STATE_SYRIA"
+  ],
+  "playable_release": false,
+  "active_world_modified": false,
+  "next_phase": "1B: demography/economy/laws/military/hubs/legacy content audit",
+  "tool_python_tests": 122,
+  "tool_changed_source_sha256": {
+    "src/vic3/build.py": "592ba16c89056c77e17de9cd28d158180ae76fa22ffa4d089a1941ab8974e4c1",
+    "tests/test_scenario.py": "1787d9731b5a7a863d235d6e02f831760e50a436c4ad0b1878f84b9d25608c7c"
+  }
+}

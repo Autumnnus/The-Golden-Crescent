@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "title": "Kart 6C — Başlangıç bağlılık ve taç sözleşmeleri",
+  "description": "Yazılı 1836 diplomasisindeki hiyerarşik bağlılıkları dar özel sözleşmelerle, hiyerarşik olmayan ortak taçları ise karşılıklı ilişki göstergeleriyle kurar. Liman hakları ve ortak konseyler ikinci bir toprak sahibi oluşturmaz.",
+  "countries": {},
+  "states": {},
+  "subject_types": {
+    "ve_autonomous_compact": {
+      "base": "vassal",
+      "name": "Autonomous Compact",
+      "name_tr": "Özerk Bağlılık Sözleşmesi",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.05
+    },
+    "ve_colonial_charter": {
+      "base": "vassal",
+      "name": "Colonial Charter",
+      "name_tr": "Sömürge Şartı",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.08
+    },
+    "ve_tributary_compact": {
+      "base": "protectorate",
+      "name": "Limited Tributary Compact",
+      "name_tr": "Sınırlı Haraç Sözleşmesi",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.02
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "subjects": [
+      {
+        "overlord": "RUM",
+        "subject": "BOS",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ALB",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "BUL",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ADA",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ERZ",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "TRB",
+        "type": "ve_autonomous_compact",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "RUM",
+        "subject": "VBU",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 40
+      },
+      {
+        "overlord": "VPL",
+        "subject": "MOL",
+        "type": "ve_tributary_compact",
+        "liberty_desire": 40
+      },
+      {
+        "overlord": "VAN",
+        "subject": "VNE",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "VAN",
+        "subject": "VSI",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "VAN",
+        "subject": "VPI",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "VAN",
+        "subject": "VMY",
+        "type": "ve_tributary_compact",
+        "liberty_desire": 55
+      },
+      {
+        "overlord": "MOR",
+        "subject": "VFB",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "VEL",
+        "subject": "VNI",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "VEL",
+        "subject": "VVA",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "NET",
+        "subject": "VNH",
+        "type": "ve_colonial_charter",
+        "liberty_desire": 40
+      }
+    ],
+    "relations": [
+      {
+        "actor": "VEL",
+        "target": "VSC",
+        "value": 50
+      },
+      {
+        "actor": "VEL",
+        "target": "VIR",
+        "value": 50
+      },
+      {
+        "actor": "VSC",
+        "target": "VIR",
+        "value": 50
+      },
+      {
+        "actor": "DEN",
+        "target": "VIN",
+        "value": 35
+      },
+      {
+        "actor": "SWE",
+        "target": "VIN",
+        "value": 35
+      },
+      {
+        "actor": "NOR",
+        "target": "VIN",
+        "value": 35
+      },
+      {
+        "actor": "JAP",
+        "target": "RYU",
+        "value": 20
+      },
+      {
+        "actor": "YUE",
+        "target": "RYU",
+        "value": 20
+      }
+    ]
+  }
+}

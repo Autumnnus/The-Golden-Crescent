@@ -1,0 +1,810 @@
+{
+  "scope": "six Nizam subjects: explicit PM output/input and full formation materiel upkeep",
+  "countries": {
+    "BOS": {
+      "selected_building_records": 11,
+      "selected_building_levels": 35,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 1,
+        "combat_unit_type_hussars": 2,
+        "combat_unit_type_line_infantry": 7
+      },
+      "army_max_manpower": 10000,
+      "navy_max_crew": 0,
+      "goods": {
+        "artillery": {
+          "explicit_output": 25.0,
+          "industrial_input": 0.0,
+          "industry_net": 25.0,
+          "formation_upkeep": 1.0,
+          "after_formation_upkeep": 24.0
+        },
+        "coal": {
+          "explicit_output": 0.0,
+          "industrial_input": 110.0,
+          "industry_net": -110.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -110.0
+        },
+        "fabric": {
+          "explicit_output": 15.0,
+          "industrial_input": 25.0,
+          "industry_net": -10.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -10.0
+        },
+        "grain": {
+          "explicit_output": 80.0,
+          "industrial_input": 0.0,
+          "industry_net": 80.0,
+          "formation_upkeep": 2.0,
+          "after_formation_upkeep": 78.0
+        },
+        "hardwood": {
+          "explicit_output": 60.0,
+          "industrial_input": 30.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 30.0
+        },
+        "iron": {
+          "explicit_output": 320.0,
+          "industrial_input": 95.0,
+          "industry_net": 225.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 225.0
+        },
+        "lead": {
+          "explicit_output": 120.0,
+          "industrial_input": 0.0,
+          "industry_net": 120.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 120.0
+        },
+        "meat": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 30.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 5.0,
+          "industry_net": -5.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -5.0
+        },
+        "small_arms": {
+          "explicit_output": 60.0,
+          "industrial_input": 0.0,
+          "industry_net": 60.0,
+          "formation_upkeep": 7.0,
+          "after_formation_upkeep": 53.0
+        },
+        "tools": {
+          "explicit_output": 180.0,
+          "industrial_input": 140.0,
+          "industry_net": 40.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 40.0
+        },
+        "wood": {
+          "explicit_output": 210.0,
+          "industrial_input": 165.0,
+          "industry_net": 45.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 45.0
+        }
+      },
+      "trade_dependencies": [
+        "coal",
+        "fabric",
+        "paper"
+      ],
+      "fleet_full_construction_goods": {}
+    },
+    "ALB": {
+      "selected_building_records": 16,
+      "selected_building_levels": 52,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 1,
+        "combat_unit_type_hussars": 3,
+        "combat_unit_type_line_infantry": 8,
+        "ship_type_frigate": 3
+      },
+      "army_max_manpower": 12000,
+      "navy_max_crew": 1500,
+      "goods": {
+        "artillery": {
+          "explicit_output": 0.0,
+          "industrial_input": 0.0,
+          "industry_net": 0.0,
+          "formation_upkeep": 1.0,
+          "after_formation_upkeep": -1.0
+        },
+        "clippers": {
+          "explicit_output": 0.0,
+          "industrial_input": 12.0,
+          "industry_net": -12.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -12.0
+        },
+        "clothes": {
+          "explicit_output": 135.0,
+          "industrial_input": 0.0,
+          "industry_net": 135.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 135.0
+        },
+        "coal": {
+          "explicit_output": 160.0,
+          "industrial_input": 80.0,
+          "industry_net": 80.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 80.0
+        },
+        "fabric": {
+          "explicit_output": 45.0,
+          "industrial_input": 145.0,
+          "industry_net": -100.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -100.0
+        },
+        "fish": {
+          "explicit_output": 75.0,
+          "industrial_input": 0.0,
+          "industry_net": 75.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 75.0
+        },
+        "grain": {
+          "explicit_output": 200.0,
+          "industrial_input": 0.0,
+          "industry_net": 200.0,
+          "formation_upkeep": 6.0,
+          "after_formation_upkeep": 194.0
+        },
+        "hardwood": {
+          "explicit_output": 20.0,
+          "industrial_input": 10.0,
+          "industry_net": 10.0,
+          "formation_upkeep": 0.3,
+          "after_formation_upkeep": 9.7
+        },
+        "iron": {
+          "explicit_output": 200.0,
+          "industrial_input": 10.0,
+          "industry_net": 190.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 190.0
+        },
+        "lead": {
+          "explicit_output": 120.0,
+          "industrial_input": 0.0,
+          "industry_net": 120.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 120.0
+        },
+        "meat": {
+          "explicit_output": 90.0,
+          "industrial_input": 0.0,
+          "industry_net": 90.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 90.0
+        },
+        "merchant_marine": {
+          "explicit_output": 18.0,
+          "industrial_input": 0.0,
+          "industry_net": 18.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 18.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 5.0,
+          "industry_net": -5.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -5.0
+        },
+        "small_arms": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 8.0,
+          "after_formation_upkeep": 22.0
+        },
+        "tools": {
+          "explicit_output": 0.0,
+          "industrial_input": 155.0,
+          "industry_net": -155.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -155.0
+        },
+        "wood": {
+          "explicit_output": 370.0,
+          "industrial_input": 75.0,
+          "industry_net": 295.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 295.0
+        }
+      },
+      "trade_dependencies": [
+        "artillery",
+        "clippers",
+        "fabric",
+        "paper",
+        "tools"
+      ],
+      "fleet_full_construction_goods": {
+        "fabric": 645.0,
+        "hardwood": 1074.0
+      }
+    },
+    "BUL": {
+      "selected_building_records": 18,
+      "selected_building_levels": 67,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 3,
+        "combat_unit_type_hussars": 3,
+        "combat_unit_type_line_infantry": 12,
+        "ship_type_frigate": 4
+      },
+      "army_max_manpower": 18000,
+      "navy_max_crew": 2000,
+      "goods": {
+        "artillery": {
+          "explicit_output": 25.0,
+          "industrial_input": 0.0,
+          "industry_net": 25.0,
+          "formation_upkeep": 3.0,
+          "after_formation_upkeep": 22.0
+        },
+        "clippers": {
+          "explicit_output": 0.0,
+          "industrial_input": 24.0,
+          "industry_net": -24.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -24.0
+        },
+        "clothes": {
+          "explicit_output": 180.0,
+          "industrial_input": 0.0,
+          "industry_net": 180.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 180.0
+        },
+        "coal": {
+          "explicit_output": 0.0,
+          "industrial_input": 80.0,
+          "industry_net": -80.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -80.0
+        },
+        "fabric": {
+          "explicit_output": 15.0,
+          "industrial_input": 185.0,
+          "industry_net": -170.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -170.0
+        },
+        "fish": {
+          "explicit_output": 75.0,
+          "industrial_input": 0.0,
+          "industry_net": 75.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 75.0
+        },
+        "grain": {
+          "explicit_output": 340.0,
+          "industrial_input": 0.0,
+          "industry_net": 340.0,
+          "formation_upkeep": 7.0,
+          "after_formation_upkeep": 333.0
+        },
+        "hardwood": {
+          "explicit_output": 130.0,
+          "industrial_input": 30.0,
+          "industry_net": 100.0,
+          "formation_upkeep": 0.4,
+          "after_formation_upkeep": 99.6
+        },
+        "iron": {
+          "explicit_output": 320.0,
+          "industrial_input": 95.0,
+          "industry_net": 225.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 225.0
+        },
+        "meat": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 30.0
+        },
+        "merchant_marine": {
+          "explicit_output": 36.0,
+          "industrial_input": 0.0,
+          "industry_net": 36.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 36.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 10.0,
+          "industry_net": -10.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -10.0
+        },
+        "small_arms": {
+          "explicit_output": 60.0,
+          "industrial_input": 0.0,
+          "industry_net": 60.0,
+          "formation_upkeep": 12.0,
+          "after_formation_upkeep": 48.0
+        },
+        "tools": {
+          "explicit_output": 180.0,
+          "industrial_input": 155.0,
+          "industry_net": 25.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 25.0
+        },
+        "wood": {
+          "explicit_output": 575.0,
+          "industrial_input": 165.0,
+          "industry_net": 410.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 410.0
+        }
+      },
+      "trade_dependencies": [
+        "clippers",
+        "coal",
+        "fabric",
+        "paper"
+      ],
+      "fleet_full_construction_goods": {
+        "fabric": 860.0,
+        "hardwood": 1432.0
+      }
+    },
+    "ADA": {
+      "selected_building_records": 12,
+      "selected_building_levels": 35,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 1,
+        "combat_unit_type_hussars": 2,
+        "combat_unit_type_line_infantry": 5,
+        "ship_type_frigate": 3
+      },
+      "army_max_manpower": 8000,
+      "navy_max_crew": 1500,
+      "goods": {
+        "artillery": {
+          "explicit_output": 0.0,
+          "industrial_input": 0.0,
+          "industry_net": 0.0,
+          "formation_upkeep": 1.0,
+          "after_formation_upkeep": -1.0
+        },
+        "clippers": {
+          "explicit_output": 0.0,
+          "industrial_input": 18.0,
+          "industry_net": -18.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -18.0
+        },
+        "clothes": {
+          "explicit_output": 135.0,
+          "industrial_input": 0.0,
+          "industry_net": 135.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 135.0
+        },
+        "coal": {
+          "explicit_output": 320.0,
+          "industrial_input": 0.0,
+          "industry_net": 320.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 320.0
+        },
+        "fabric": {
+          "explicit_output": 240.0,
+          "industrial_input": 145.0,
+          "industry_net": 95.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 95.0
+        },
+        "fish": {
+          "explicit_output": 75.0,
+          "industrial_input": 0.0,
+          "industry_net": 75.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 75.0
+        },
+        "grain": {
+          "explicit_output": 60.0,
+          "industrial_input": 80.0,
+          "industry_net": -20.0,
+          "formation_upkeep": 5.0,
+          "after_formation_upkeep": -25.0
+        },
+        "groceries": {
+          "explicit_output": 90.0,
+          "industrial_input": 0.0,
+          "industry_net": 90.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 90.0
+        },
+        "hardwood": {
+          "explicit_output": 0.0,
+          "industrial_input": 10.0,
+          "industry_net": -10.0,
+          "formation_upkeep": 0.3,
+          "after_formation_upkeep": -10.3
+        },
+        "iron": {
+          "explicit_output": 0.0,
+          "industrial_input": 10.0,
+          "industry_net": -10.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -10.0
+        },
+        "meat": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 30.0
+        },
+        "merchant_marine": {
+          "explicit_output": 27.0,
+          "industrial_input": 0.0,
+          "industry_net": 27.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 27.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 5.0,
+          "industry_net": -5.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -5.0
+        },
+        "small_arms": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 5.0,
+          "after_formation_upkeep": 25.0
+        },
+        "tools": {
+          "explicit_output": 0.0,
+          "industrial_input": 80.0,
+          "industry_net": -80.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -80.0
+        },
+        "wood": {
+          "explicit_output": 0.0,
+          "industrial_input": 75.0,
+          "industry_net": -75.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -75.0
+        }
+      },
+      "trade_dependencies": [
+        "artillery",
+        "clippers",
+        "grain",
+        "hardwood",
+        "iron",
+        "paper",
+        "tools",
+        "wood"
+      ],
+      "fleet_full_construction_goods": {
+        "fabric": 645.0,
+        "hardwood": 1074.0
+      }
+    },
+    "ERZ": {
+      "selected_building_records": 11,
+      "selected_building_levels": 28,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 1,
+        "combat_unit_type_hussars": 3,
+        "combat_unit_type_line_infantry": 6
+      },
+      "army_max_manpower": 10000,
+      "navy_max_crew": 0,
+      "goods": {
+        "artillery": {
+          "explicit_output": 0.0,
+          "industrial_input": 0.0,
+          "industry_net": 0.0,
+          "formation_upkeep": 1.0,
+          "after_formation_upkeep": -1.0
+        },
+        "clippers": {
+          "explicit_output": 0.0,
+          "industrial_input": 6.0,
+          "industry_net": -6.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -6.0
+        },
+        "coal": {
+          "explicit_output": 0.0,
+          "industrial_input": 100.0,
+          "industry_net": -100.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -100.0
+        },
+        "fabric": {
+          "explicit_output": 10.0,
+          "industrial_input": 0.0,
+          "industry_net": 10.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 10.0
+        },
+        "grain": {
+          "explicit_output": 40.0,
+          "industrial_input": 0.0,
+          "industry_net": 40.0,
+          "formation_upkeep": 3.0,
+          "after_formation_upkeep": 37.0
+        },
+        "hardwood": {
+          "explicit_output": 50.0,
+          "industrial_input": 10.0,
+          "industry_net": 40.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 40.0
+        },
+        "iron": {
+          "explicit_output": 240.0,
+          "industrial_input": 50.0,
+          "industry_net": 190.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 190.0
+        },
+        "lead": {
+          "explicit_output": 160.0,
+          "industrial_input": 0.0,
+          "industry_net": 160.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 160.0
+        },
+        "meat": {
+          "explicit_output": 20.0,
+          "industrial_input": 0.0,
+          "industry_net": 20.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 20.0
+        },
+        "merchant_marine": {
+          "explicit_output": 9.0,
+          "industrial_input": 0.0,
+          "industry_net": 9.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 9.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 5.0,
+          "industry_net": -5.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -5.0
+        },
+        "small_arms": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 6.0,
+          "after_formation_upkeep": 24.0
+        },
+        "tools": {
+          "explicit_output": 120.0,
+          "industrial_input": 135.0,
+          "industry_net": -15.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -15.0
+        },
+        "wood": {
+          "explicit_output": 295.0,
+          "industrial_input": 60.0,
+          "industry_net": 235.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 235.0
+        }
+      },
+      "trade_dependencies": [
+        "artillery",
+        "clippers",
+        "coal",
+        "paper",
+        "tools"
+      ],
+      "fleet_full_construction_goods": {}
+    },
+    "TRB": {
+      "selected_building_records": 10,
+      "selected_building_levels": 26,
+      "formation_counts": {
+        "combat_unit_type_cannon_artillery": 1,
+        "combat_unit_type_hussars": 1,
+        "combat_unit_type_line_infantry": 6,
+        "ship_type_frigate": 4
+      },
+      "army_max_manpower": 8000,
+      "navy_max_crew": 2000,
+      "goods": {
+        "artillery": {
+          "explicit_output": 0.0,
+          "industrial_input": 0.0,
+          "industry_net": 0.0,
+          "formation_upkeep": 1.0,
+          "after_formation_upkeep": -1.0
+        },
+        "clippers": {
+          "explicit_output": 80.0,
+          "industrial_input": 18.0,
+          "industry_net": 62.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 62.0
+        },
+        "coal": {
+          "explicit_output": 0.0,
+          "industrial_input": 60.0,
+          "industry_net": -60.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -60.0
+        },
+        "fabric": {
+          "explicit_output": 0.0,
+          "industrial_input": 40.0,
+          "industry_net": -40.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -40.0
+        },
+        "fish": {
+          "explicit_output": 75.0,
+          "industrial_input": 0.0,
+          "industry_net": 75.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 75.0
+        },
+        "grain": {
+          "explicit_output": 0.0,
+          "industrial_input": 80.0,
+          "industry_net": -80.0,
+          "formation_upkeep": 5.0,
+          "after_formation_upkeep": -85.0
+        },
+        "groceries": {
+          "explicit_output": 90.0,
+          "industrial_input": 0.0,
+          "industry_net": 90.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 90.0
+        },
+        "hardwood": {
+          "explicit_output": 50.0,
+          "industrial_input": 10.0,
+          "industry_net": 40.0,
+          "formation_upkeep": 0.4,
+          "after_formation_upkeep": 39.6
+        },
+        "iron": {
+          "explicit_output": 240.0,
+          "industrial_input": 30.0,
+          "industry_net": 210.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 210.0
+        },
+        "merchant_marine": {
+          "explicit_output": 27.0,
+          "industrial_input": 0.0,
+          "industry_net": 27.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 27.0
+        },
+        "paper": {
+          "explicit_output": 0.0,
+          "industrial_input": 5.0,
+          "industry_net": -5.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -5.0
+        },
+        "small_arms": {
+          "explicit_output": 30.0,
+          "industrial_input": 0.0,
+          "industry_net": 30.0,
+          "formation_upkeep": 6.0,
+          "after_formation_upkeep": 24.0
+        },
+        "tools": {
+          "explicit_output": 60.0,
+          "industrial_input": 85.0,
+          "industry_net": -25.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": -25.0
+        },
+        "wood": {
+          "explicit_output": 175.0,
+          "industrial_input": 110.0,
+          "industry_net": 65.0,
+          "formation_upkeep": 0.0,
+          "after_formation_upkeep": 65.0
+        }
+      },
+      "trade_dependencies": [
+        "artillery",
+        "coal",
+        "fabric",
+        "grain",
+        "paper",
+        "tools"
+      ],
+      "fleet_full_construction_goods": {
+        "fabric": 860.0,
+        "hardwood": 1432.0
+      }
+    }
+  },
+  "source_sha256": {
+    "common/combat_unit_types/00_land_combat_unit_types.txt": "ad3ed3d68533cbe6ef05ce014cd88b920b58dc4a42b3e566077cdccee072d86c",
+    "common/interest_groups/00_armed_forces.txt": "a9bf6cdad3a02a13a0e3edacb9c23cf87cb8695065b6a97a859ba0a730f3ce47",
+    "common/interest_groups/00_devout.txt": "6b237c39629c763183576948404f600905ae16ee8f1fea29d330c8b58987ae44",
+    "common/interest_groups/00_industrialists.txt": "d31738cdb360ece4e7e6f332e2d4984c93605727a98ed0dfdb2abb410ee0f07a",
+    "common/interest_groups/00_landowners.txt": "833743373d938366f87c098e5773da7e5f232933b7a3f9fddee68e3f4da0b4d3",
+    "common/interest_groups/00_petty_bourgeoisie.txt": "24bed7391c4c16e78c23fff14d2f1d2226c84785daa2fe6d90577e910fb8d06c",
+    "common/laws/00_army_model.txt": "86c32fb873dd2c192728088b572466d73ef8e0f9cd78130e1e0121803dea17e3",
+    "common/laws/00_bureaucracy.txt": "3d4b720fa18a75f361075504dfc1cf9e0ba1a90200a5b2e6bff9c3a1bad8f98f",
+    "common/laws/00_church_and_state.txt": "ad4e366533b268a86f29813c13aeae6f7472d94de84c35bfe51ce960fd8bb015",
+    "common/laws/00_citizenship.txt": "c006054323511c81b40502810c4ed8f6a806ebde02bf0a3023538e756ec9bb10",
+    "common/laws/00_distribution_of_power.txt": "014b5fcb89d4e4abb86c98c013364117a183daf569c9cb8d4ab0bb5ff833cd04",
+    "common/laws/00_governance_principles.txt": "e676448ea64c17079677ddbf2cbfdbec0ffdefa465286f16c1e6107a14e7f4cf",
+    "common/laws/00_internal_security.txt": "3e7b3fb954ee6d71e87f7e9a5878cadcb8acf9f4704b492c21d20552997caab2",
+    "common/laws/00_navy_model.txt": "406371ace46d307f866d27d7eaf1ced01362539788bed79abbb319d218f7d005",
+    "common/laws/01_colonial_affairs.txt": "102e57f8941f391b3e80dab5b892051f07a02b8bc8874349f505296eccdd5b1a",
+    "common/laws/01_economic_system.txt": "5ccac1062b2589dd2fb11b5b3c261fb037aa1a5d06a9af4333d11756af492b76",
+    "common/laws/01_education_system.txt": "94508a8b3fe6612b2510aa99466304839e8d69114179deb16031e34cfff16275",
+    "common/laws/01_health_system.txt": "4d015438098f9eea1350bdeb4ffe308e86857c9245e24226ab2e643566e317ed",
+    "common/laws/01_land_reform.txt": "2a6c33fb5c9c44c5876dfb066fc34379b48f382fafa322f483d6d4df02f57a9b",
+    "common/laws/01_policing.txt": "8d6938f1eb556f412ba5353056cd43797f4eea3fb7ea8d6ef6e7e9eeb4a80be3",
+    "common/laws/01_taxation.txt": "dd028ab3863ed9e3754ab91d17e07455661cc2bad2e77f98bfb4b64b59a7c317",
+    "common/laws/01_trade_policy.txt": "f6e0ca1e180c57f994aae1a04ea3e407bfadd4ede85f75f67c303ed16d734e6d",
+    "common/laws/02_childrens_rights.txt": "5c3659a8cfd083511b47ec0637c0ceb570a823029d9fc082f16ad854598d8818",
+    "common/laws/02_free_speech.txt": "5f85d745eb6d0326d90ba03117a02b16f6a913003cf03e19bf07ac370708254f",
+    "common/laws/02_labor_rights.txt": "78c4f45f9f3e0a5b3ecdaf03a8ea6ede6ade46eb1de64ae31621e4ecdfe8c371",
+    "common/laws/02_labour_associations.txt": "a74414c223efcd5f75a25d4118f9966636146ae5b82e7306fc4c13f07ee12528",
+    "common/laws/02_migration.txt": "53229809fe63dd8d4c7748fa2205183c737f8afbfb60ab2e9510bc4d65fff5e3",
+    "common/laws/02_rights_of_women.txt": "8dcfab1ce6746d59b44070e4a367e3d016affc68eb3dff5353f71f0df730886f",
+    "common/laws/02_slavery.txt": "5771d1e2fbef2c649aed1678b29bac9a94af756d445f9db94faed9e51c9cbd51",
+    "common/laws/02_welfare.txt": "42594f77b4566637631453c60749318f21e154e23d554be166ac68c7cac44784",
+    "common/production_methods/01_industry.txt": "d0abb71f6ba922f46e1e512810053d1206a3cbfd8a2ff419d8a66c87b8a36886",
+    "common/production_methods/02_agro.txt": "40d5d3d776783624e004321a66dc45848f1d8c3d3cb264c612e3521ae11829e5",
+    "common/production_methods/03_mines.txt": "5e182a3d1e885e0d99848a03070e952d6cd20e33cb2f2e4b5ffa9a2ba23d8931",
+    "common/production_methods/04_plantations.txt": "7cd7cbbd269b358421b267405b4e2cc72548d40d3bec749b3d4ae9cc910bbc70",
+    "common/production_methods/07_government.txt": "f74d57845a75e7568c211646366c1e809aa7242aebc712f42af4a728fb07d80d",
+    "common/production_methods/09_misc_resource.txt": "e2aadd13e1b7042fc0ce85fb66ba016db0b3a06248e7a9d1eb5efa228d2bde0d",
+    "common/production_methods/11_private_infrastructure.txt": "cd32009af5d592d99cf1a9822a57542b9e0b9ad82c7193f24ec32cf3799a017e",
+    "common/production_methods/13_construction.txt": "65d032301d83cf3ad200901af721454d786b77e29be3069e6ad862668d99dd85",
+    "common/ship_types/00_ship_types.txt": "68db2d71d1a48f76703dcde4bf352a72eae80eb537d762ff048de451ece04877",
+    "common/strategic_regions/europe_strategic_regions.txt": "bbdc686f2f7ab6c7a88c38b1d9bc120c7358e6abc53796e546b861972e31e974",
+    "common/strategic_regions/west_south_asia_strategic_regions.txt": "64549538054c9647bd7776caa5544a3020f6b420cd6f9cfcd310afa2051f88c1"
+  },
+  "interpretation": {
+    "capacity": "nameplate values from explicit selected production methods",
+    "dependency": "negative local balance flags intended trade/customs reliance; it is not an opening-day shortage prediction",
+    "not_included": [
+      "employment, qualifications, throughput and infrastructure",
+      "prices, POP consumption, trade routes, convoys and market access",
+      "wages, treasury, debt, legitimacy and interest-group clout",
+      "mobilization state, readiness, replacement and fleet construction timing"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "six independent Middle Eastern states: demography, H7/H8 laws, institutions, economies and bounded formations",
+  "scenario_sha256": "094281708576c8fe8748b76fb13a40dc6ff40f6b2e24623fb18f440d46d2d917",
+  "plan_sha256": "aa95bbfa4c24843f449bc078881b3134ec8d483d1350dd2e557a14fa36d1bad2",
+  "capacity_audit_sha256": "0f46240dce4e8e93be70e0c0b78871d4ded8818a909afa1b87d3ea1f82c685cb",
+  "report_sha256": "cb1fc1f54791e98937e94bfa5472600a7f4e5e1c29ab470f36772bacf7f4774e",
+  "population": 4520000,
+  "building_levels": 242,
+  "battalions": 68,
+  "ships": 13,
+  "basra_freed_inherited_slave_status": 3530,
+  "h8_retained_inherited_slave_status_before_rescale": 29047,
+  "h8_emitted_slave_population": 46267,
+  "regional_external_dependencies": [
+    "artillery",
+    "fabric",
+    "hardwood",
+    "iron",
+    "wood"
+  ],
+  "unchanged_other_countries": 447,
+  "additional_warnings": [],
+  "runtime_tested": false,
+  "playable_release": false,
+  "remaining_engine_gates": {
+    "diplomacy": "all six remain independent; the 1712 and 1804 treaty guarantees are not reducible to an automatic subject relation",
+    "basra_kuwait_hub": "one vanilla STATE_BASRA port hub belongs to KUW while the city hub belongs to BSR; Atlas cannot create two port hubs inside one state region",
+    "market": "complementary capacity and dependencies are directional; tariffs, routes, convoys and prices need engine testing",
+    "politics": "ruling IG membership is explicit; clout and legitimacy are runtime outcomes",
+    "slavery": "Basra emancipation and H8 debt-slavery starting effects require runtime verification"
+  }
+}

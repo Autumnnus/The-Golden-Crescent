@@ -1,0 +1,156 @@
+{
+  "scope": "explicitly selected production methods at full employment",
+  "selected_building_records": 162,
+  "selected_building_levels": 1070,
+  "goods": {
+    "clippers": {
+      "explicit_output": 1050.0,
+      "explicit_input": 306.0,
+      "explicit_net": 744.0
+    },
+    "clothes": {
+      "explicit_output": 6140.0,
+      "explicit_input": 0.0,
+      "explicit_net": 6140.0
+    },
+    "coal": {
+      "explicit_output": 2800.0,
+      "explicit_input": 1956.0,
+      "explicit_net": 844.0
+    },
+    "dye": {
+      "explicit_output": 0.0,
+      "explicit_input": 740.0,
+      "explicit_net": -740.0
+    },
+    "engines": {
+      "explicit_output": 400.0,
+      "explicit_input": 265.0,
+      "explicit_net": 135.0
+    },
+    "fabric": {
+      "explicit_output": 2715.0,
+      "explicit_input": 4870.0,
+      "explicit_net": -2155.0
+    },
+    "fertilizer": {
+      "explicit_output": 1015.0,
+      "explicit_input": 900.0,
+      "explicit_net": 115.0
+    },
+    "grain": {
+      "explicit_output": 5180.0,
+      "explicit_input": 1640.0,
+      "explicit_net": 3540.0
+    },
+    "groceries": {
+      "explicit_output": 4425.0,
+      "explicit_input": 0.0,
+      "explicit_net": 4425.0
+    },
+    "hardwood": {
+      "explicit_output": 590.0,
+      "explicit_input": 420.0,
+      "explicit_net": 170.0
+    },
+    "iron": {
+      "explicit_output": 3520.0,
+      "explicit_input": 3510.0,
+      "explicit_net": 10.0
+    },
+    "lead": {
+      "explicit_output": 400.0,
+      "explicit_input": 0.0,
+      "explicit_net": 400.0
+    },
+    "luxury_clothes": {
+      "explicit_output": 1260.0,
+      "explicit_input": 0.0,
+      "explicit_net": 1260.0
+    },
+    "meat": {
+      "explicit_output": 460.0,
+      "explicit_input": 1180.0,
+      "explicit_net": -720.0
+    },
+    "merchant_marine": {
+      "explicit_output": 459.0,
+      "explicit_input": 0.0,
+      "explicit_net": 459.0
+    },
+    "paper": {
+      "explicit_output": 2730.0,
+      "explicit_input": 1120.0,
+      "explicit_net": 1610.0
+    },
+    "silk": {
+      "explicit_output": 165.0,
+      "explicit_input": 630.0,
+      "explicit_net": -465.0
+    },
+    "small_arms": {
+      "explicit_output": 600.0,
+      "explicit_input": 0.0,
+      "explicit_net": 600.0
+    },
+    "steel": {
+      "explicit_output": 1495.0,
+      "explicit_input": 1400.0,
+      "explicit_net": 95.0
+    },
+    "sulfur": {
+      "explicit_output": 840.0,
+      "explicit_input": 690.0,
+      "explicit_net": 150.0
+    },
+    "tools": {
+      "explicit_output": 3920.0,
+      "explicit_input": 3885.0,
+      "explicit_net": 35.0
+    },
+    "transportation": {
+      "explicit_output": 760.0,
+      "explicit_input": 0.0,
+      "explicit_net": 760.0
+    },
+    "wood": {
+      "explicit_output": 3985.0,
+      "explicit_input": 4460.0,
+      "explicit_net": -475.0
+    }
+  },
+  "country_capacity": {
+    "country_bureaucracy_add": 3450.0,
+    "country_construction_add": 190.0,
+    "country_ship_construction_add": 150.0,
+    "country_weekly_innovation_add": 64.5
+  },
+  "state_capacity": {
+    "state_construction_mult": 0.15,
+    "state_infrastructure_add": 913.0,
+    "state_pollution_generation_add": 2392.0,
+    "state_pop_qualifications_mult": 6.45,
+    "state_tax_capacity_add": 690.0
+  },
+  "source_sha256": {
+    "common/production_methods/01_industry.txt": "d0abb71f6ba922f46e1e512810053d1206a3cbfd8a2ff419d8a66c87b8a36886",
+    "common/production_methods/02_agro.txt": "40d5d3d776783624e004321a66dc45848f1d8c3d3cb264c612e3521ae11829e5",
+    "common/production_methods/03_mines.txt": "5e182a3d1e885e0d99848a03070e952d6cd20e33cb2f2e4b5ffa9a2ba23d8931",
+    "common/production_methods/04_plantations.txt": "7cd7cbbd269b358421b267405b4e2cc72548d40d3bec749b3d4ae9cc910bbc70",
+    "common/production_methods/07_government.txt": "f74d57845a75e7568c211646366c1e809aa7242aebc712f42af4a728fb07d80d",
+    "common/production_methods/09_misc_resource.txt": "e2aadd13e1b7042fc0ce85fb66ba016db0b3a06248e7a9d1eb5efa228d2bde0d",
+    "common/production_methods/11_private_infrastructure.txt": "cd32009af5d592d99cf1a9822a57542b9e0b9ad82c7193f24ec32cf3799a017e",
+    "common/production_methods/13_construction.txt": "65d032301d83cf3ad200901af721454d786b77e29be3069e6ad862668d99dd85"
+  },
+  "interpretation": {
+    "not_included": [
+      "subsistence output and consumption",
+      "unlisted inherited/default production methods",
+      "trade routes, convoy availability and prices",
+      "employment, qualifications and throughput modifiers",
+      "government wages and institution bureaucracy expense"
+    ],
+    "negative_net": "planned domestic/import dependency to inspect in the engine, not a validation error",
+    "positive_net": "nameplate capacity, not proof that inputs, workers or buyers exist"
+  }
+}

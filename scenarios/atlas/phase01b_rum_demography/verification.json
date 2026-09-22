@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "RUM population/literacy inputs and 24 law/3 institution mapping",
+  "scenario_sha256": "4894afc07343482537cd2911f56c3d9506b3ed6acc2855fd9394c1b12c0ddaa6",
+  "parent_sha256": "5ca7b6a67dec1f1a85e542f9e2075f0da1d387f54e41e2e9727cce3b8729711c",
+  "report_sha256": "15a250d3b923834fecad99451296f4df659523f8e280f4b61a9f1e70d3132d66",
+  "population": 27000000,
+  "regions": 25,
+  "weighted_literacy_input": 0.4017688888888889,
+  "unchanged_other_countries": 452,
+  "additional_warnings": [],
+  "runtime_tested": false,
+  "playable_release": false,
+  "composition_check": "marginal proportional drift only; joint cohort generation not independently audited in this subphase",
+  "pending": [
+    "1811 emancipation and slave-status cleanup",
+    "regional final culture/religion design",
+    "industry and bureaucracy funding",
+    "final technology and military",
+    "IG government",
+    "other regional countries",
+    "hubs and legacy events"
+  ]
+}

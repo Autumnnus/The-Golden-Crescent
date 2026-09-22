@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "scope": "RUM government coalition, professional formations and military supply chain",
+  "scenario_sha256": "9764919e0105aece671810023e1beaa21a8b5b03c90964ab6d7dd8ce352148b4",
+  "military_plan_sha256": "fff4a5471e306a8fa6a38e04c4dc4663d9f04f415d417c4a75d73c037c55398b",
+  "capacity_audit_sha256": "4f189d1956a5abc32aa9e9a713336e863bdae10a5127aeee52af1a3027000858",
+  "report_sha256": "7ea8f6ffb033dfbad4514547102e45f0eb3a5d5cccb1fbb72e71b9b2b968a77a",
+  "population": 27000000,
+  "building_levels": 1246,
+  "battalions": 160,
+  "ships": 48,
+  "army_max_manpower": 160000,
+  "navy_max_crew": 30000,
+  "ruling_interest_groups": [
+    "ig_landowners",
+    "ig_armed_forces",
+    "ig_intelligentsia"
+  ],
+  "military_goods_after_upkeep": {
+    "ammunition": 130.0,
+    "artillery": 35.0,
+    "grain": 3472.0,
+    "hardwood": 135.2,
+    "small_arms": 360.0
+  },
+  "unchanged_other_countries": 452,
+  "additional_warnings": [],
+  "runtime_tested": false,
+  "playable_release": false,
+  "remaining_engine_gates": [
+    "measure employment, military wages, goods prices and opening budget",
+    "measure legitimacy and clout produced by the three-IG government",
+    "confirm formation names, headquarters and naval readiness in the current game build",
+    "decide whether Atlas needs an explicit safe starting-debt contract"
+  ]
+}

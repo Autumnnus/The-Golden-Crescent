@@ -1,0 +1,741 @@
+{
+  "status": "static_audit_passed_with_release_blockers",
+  "parent": {
+    "scenario": "scenarios/atlas/phase01b4b_independent_belt/scenario.json",
+    "scenario_sha256": "094281708576c8fe8748b76fb13a40dc6ff40f6b2e24623fb18f440d46d2d917",
+    "report_sha256": "cb1fc1f54791e98937e94bfa5472600a7f4e5e1c29ab470f36772bacf7f4774e",
+    "generated_metadata_sha256": "28883176d501a17dcf9dcbdb6e651348ce55d1d7e4f53ce94a62affa1c0673c6"
+  },
+  "replace_paths": [
+    "common/history/buildings",
+    "common/history/countries",
+    "common/history/diplomacy",
+    "common/history/military_formations",
+    "common/history/pops",
+    "common/history/population",
+    "common/history/states"
+  ],
+  "replace_paths_match_expected": true,
+  "tag_reference_scan": {
+    "masked_history": {
+      "summary": {
+        "files": 19,
+        "references": 291,
+        "by_tag": {
+          "GRE": 35,
+          "ION": 11,
+          "TUR": 245
+        }
+      },
+      "files": [
+        {
+          "path": "common/history/buildings/01_south_europe.txt",
+          "references": {
+            "GRE": 20,
+            "ION": 5,
+            "TUR": 83
+          },
+          "total": 108,
+          "sha256": "e9fca670f184eb2d9f68e001397de91349a0400a402380e1aa7799e5c18cb982"
+        },
+        {
+          "path": "common/history/buildings/08_middle_east.txt",
+          "references": {
+            "TUR": 73
+          },
+          "total": 73,
+          "sha256": "33e7be786345d6d8a3725cae37356a368d6818fffda72a4f089e982a0d6845f6"
+        },
+        {
+          "path": "common/history/countries/gre - greece.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "12b039554a120838a58296f753a55a30d370558ee06107429b439d10ea805e1b"
+        },
+        {
+          "path": "common/history/countries/ion - ionian islands.txt",
+          "references": {
+            "ION": 1
+          },
+          "total": 1,
+          "sha256": "2e23541b11ae04c158d86abb2683561bb6fe2948a8a83b7bdffa5286099ba9ba"
+        },
+        {
+          "path": "common/history/countries/tur - ottoman empire.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "93d02b1f8732205f8dce570639b220cf32df58a43741fc68d6604b4ded8ebf09"
+        },
+        {
+          "path": "common/history/diplomacy/00_embargos.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "fe064291d66074bc78047d77ac5cab37c2f7114ea829002ce3ba93da546c2ff9"
+        },
+        {
+          "path": "common/history/diplomacy/00_favors.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "b9910feb07593fc7031b08a7bb48a3211e80a4095dc87ae56239902f460c28c7"
+        },
+        {
+          "path": "common/history/diplomacy/00_relations.txt",
+          "references": {
+            "GRE": 2,
+            "ION": 1,
+            "TUR": 14
+          },
+          "total": 17,
+          "sha256": "99387942cdadc3b16454c01db9cc23f59681d0e579f7fd5bad1f4cc6039ab66f"
+        },
+        {
+          "path": "common/history/diplomacy/00_rivalries.txt",
+          "references": {
+            "TUR": 2
+          },
+          "total": 2,
+          "sha256": "9a09bab808363ed9661f2cf3883d9134f8e86a7d7b9cda3785f863f7fbb16306"
+        },
+        {
+          "path": "common/history/diplomacy/00_subject_relationships.txt",
+          "references": {
+            "ION": 1,
+            "TUR": 1
+          },
+          "total": 2,
+          "sha256": "62ebb4e8c528183521e0ae400a61ef14171d301a2e2dbf9893ed6efdfaca45ce"
+        },
+        {
+          "path": "common/history/diplomacy/00_truces.txt",
+          "references": {
+            "GRE": 1,
+            "TUR": 2
+          },
+          "total": 3,
+          "sha256": "d37ff3e3dbd76a50d6640c1fd17f81739e920d2309bfd47b8af193e0b03587bc"
+        },
+        {
+          "path": "common/history/military_formations/00_military_formations_europe.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "2e9c7794c01a655fe724a117be604d99550450e3e2cbdbc021b6c93cc26248fa"
+        },
+        {
+          "path": "common/history/military_formations/04_military_formations_middle_east.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "50d31b93c3ec1e77dc295ef71f258dc69c6764f9e6a6c5414475351df4069ae0"
+        },
+        {
+          "path": "common/history/pops/01_south_europe.txt",
+          "references": {
+            "GRE": 3,
+            "ION": 1,
+            "TUR": 15
+          },
+          "total": 19,
+          "sha256": "aeed8ffac83aa1c60e45f471a22dfbe808a9860daf59b9765d340e98572a693f"
+        },
+        {
+          "path": "common/history/pops/08_middle_east.txt",
+          "references": {
+            "TUR": 15
+          },
+          "total": 15,
+          "sha256": "4e9129559c700370e60a4f7120511472f761ffcdf562292e042859d97e7a45e3"
+        },
+        {
+          "path": "common/history/population/gre - greece.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "1268a030d8a7a967d37fd271ed2658f89c2261966cad4b9ba8560ac406efe249"
+        },
+        {
+          "path": "common/history/population/ion - ionian islands.txt",
+          "references": {
+            "ION": 1
+          },
+          "total": 1,
+          "sha256": "f56b1c855fa091ec03348a7a16cc260cf2fe181697fdaa1da34b27a13930e793"
+        },
+        {
+          "path": "common/history/population/tur - ottoman empire.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "10715b0f6e5cf1eeabf1e856a9e1d57cb8b77f2e6b0d7cbea83b4c1aac4f9f0c"
+        },
+        {
+          "path": "common/history/states/00_states.txt",
+          "references": {
+            "GRE": 5,
+            "ION": 1,
+            "TUR": 36
+          },
+          "total": 42,
+          "sha256": "d8408feff70da84e50d5cbf3fcc552841cb2bf8c0338bf997ce127f10423c50e"
+        }
+      ]
+    },
+    "unmasked_startup_history": {
+      "summary": {
+        "files": 10,
+        "references": 29,
+        "by_tag": {
+          "GRE": 5,
+          "ION": 1,
+          "TUR": 23
+        }
+      },
+      "files": [
+        {
+          "path": "common/history/ai/00_secret_goals.txt",
+          "references": {
+            "GRE": 3,
+            "TUR": 8
+          },
+          "total": 11,
+          "sha256": "0d648fd08a89d2adee6935ca07449dda71a0b8f5fc0b40b9e698565dccad00d3"
+        },
+        {
+          "path": "common/history/ai/00_strategy.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "803911079203212674d41f0eaa08950ac7e88705d31f02cf52a084cc0fb02d21"
+        },
+        {
+          "path": "common/history/characters/gre - greece.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "4e924dea209b90b99807e4e510e85fd25e79d16e4e712d67a113391ca6bb7bd4"
+        },
+        {
+          "path": "common/history/characters/ion - ionian islands.txt",
+          "references": {
+            "ION": 1
+          },
+          "total": 1,
+          "sha256": "02f009a401683b1aa692c939c9f6d707875be7318fdaf4485612a7eda7573465"
+        },
+        {
+          "path": "common/history/characters/tur - ottomans.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "d79f3cf4e2c9825533d1069084496c3faacd7055506b461c094eb81e8b7ff213"
+        },
+        {
+          "path": "common/history/global/00_global.txt",
+          "references": {
+            "TUR": 3
+          },
+          "total": 3,
+          "sha256": "03c33f822172aee0f469c84286064d536e60af7df4b92526a74bd258505caf46"
+        },
+        {
+          "path": "common/history/lobbies/00_lobbies.txt",
+          "references": {
+            "GRE": 1,
+            "TUR": 6
+          },
+          "total": 7,
+          "sha256": "2e02e5f0c413c6fb0198e8fc00121af7b812ee4566e9b542026f631f63f08da1"
+        },
+        {
+          "path": "common/history/political_movements/00_movements.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "8b252833f3f775e821d6d060e77d8c2ff5bcadda5f392ff020b2c137dc1294b1"
+        },
+        {
+          "path": "common/history/power_blocs/00_power_blocs.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "3d6e05fab4c47962f384b2a88cb439a7f31107ba52bb3f594cb5920cb0eb5a44"
+        },
+        {
+          "path": "common/history/treaties/00_historical_treaties.txt",
+          "references": {
+            "TUR": 2
+          },
+          "total": 2,
+          "sha256": "a1c7e519ef1b07e2491f473ce0f94e6abae718fe725d68bcd8644d2432602f4e"
+        }
+      ]
+    },
+    "runtime_definitions": {
+      "summary": {
+        "files": 30,
+        "references": 253,
+        "by_tag": {
+          "GRE": 26,
+          "ION": 7,
+          "TUR": 220
+        }
+      },
+      "files": [
+        {
+          "path": "common/journal_entries/00_sick_man.txt",
+          "references": {
+            "TUR": 3
+          },
+          "total": 3,
+          "sha256": "e48405bfabb52f6ce757880e436c8d44c67111e246af3215fd3f96ec4f3477f9"
+        },
+        {
+          "path": "common/journal_entries/00_veiled_protectorate.txt",
+          "references": {
+            "TUR": 1
+          },
+          "total": 1,
+          "sha256": "b67fc2d52874e59373b36052c0c52af5e79ad4846519556aef67df8893d5fb17"
+        },
+        {
+          "path": "common/journal_entries/05_balkan_wars.txt",
+          "references": {
+            "GRE": 2,
+            "TUR": 8
+          },
+          "total": 10,
+          "sha256": "3e0aad24bc1fc90814bd0b3ae269e4616bc395f459b0c66b35b2306e5cc0c833"
+        },
+        {
+          "path": "common/journal_entries/05_bulgaria_je.txt",
+          "references": {
+            "TUR": 2
+          },
+          "total": 2,
+          "sha256": "fd3dbd34e7d1b3901fccea6d7aebbc965ecf054a20dff09e42b15a337ed5c28a"
+        },
+        {
+          "path": "common/journal_entries/05_eastern_question.txt",
+          "references": {
+            "TUR": 12
+          },
+          "total": 12,
+          "sha256": "12b385c8e48f2847236d4e2f7b4724fbb24c0342a99dc8f08c6cd4b7552afe4c"
+        },
+        {
+          "path": "common/journal_entries/05_great_eastern_crisis.txt",
+          "references": {
+            "TUR": 9
+          },
+          "total": 9,
+          "sha256": "269cd001d5de0d04cc53f2077b66beba76a9e4a4c6d1253e3de4df816098e808"
+        },
+        {
+          "path": "common/journal_entries/05_greece.txt",
+          "references": {
+            "GRE": 2
+          },
+          "total": 2,
+          "sha256": "f4a65df0bb91b714947adc7b94df7d9a90301fb92eb9db7d03ddf148ff0bb11e"
+        },
+        {
+          "path": "common/journal_entries/05_montenegro_je.txt",
+          "references": {
+            "TUR": 21
+          },
+          "total": 21,
+          "sha256": "552ebe834895e63d0a3a5475df741e4890a64bbb9180b6dda12c17115dba2b4c"
+        },
+        {
+          "path": "common/journal_entries/05_the_grand_collapse.txt",
+          "references": {
+            "TUR": 2
+          },
+          "total": 2,
+          "sha256": "27aeabf0c364f45d6048b15253d0c34e7ce45291f8ce519f3b97bac55198e1f6"
+        },
+        {
+          "path": "common/on_actions/00_code_on_actions.txt",
+          "references": {
+            "TUR": 11
+          },
+          "total": 11,
+          "sha256": "ec3e3e97140777b10d4d99f41c528ec1dc6f1499429e3e2f566b3819a36e63bb"
+        },
+        {
+          "path": "common/decisions/00_decisions.txt",
+          "references": {
+            "GRE": 3
+          },
+          "total": 3,
+          "sha256": "553c0e2d849bca1567accf6cbe1424b309c54e8b20b66a3d6ee3503fe611b71b"
+        },
+        {
+          "path": "common/decisions/bulgaria_decisions.txt",
+          "references": {
+            "GRE": 2,
+            "TUR": 2
+          },
+          "total": 4,
+          "sha256": "c495b54adf9120f9910c38f99ec698adcf061f0c542882c8377b4b148c6263c2"
+        },
+        {
+          "path": "common/decisions/greece_decisions.txt",
+          "references": {
+            "GRE": 1,
+            "ION": 4
+          },
+          "total": 5,
+          "sha256": "011ad7646c41c18259996937e2beade93ac9be0bd96349e0c3909c2bd4ea7bcc"
+        },
+        {
+          "path": "common/scripted_triggers/00_clothes_triggers.txt",
+          "references": {
+            "TUR": 11
+          },
+          "total": 11,
+          "sha256": "a3b7039ffd5e208e72f00d77b58ce0b344a6e0a68437ccf00aeeb05372fe4e8d"
+        },
+        {
+          "path": "common/scripted_triggers/00_coa_triggers.txt",
+          "references": {
+            "TUR": 2
+          },
+          "total": 2,
+          "sha256": "424fdc064b8c0bf14b04f48b1ba29d4b10049f34d64525235916e80dfdd3b81a"
+        },
+        {
+          "path": "common/scripted_triggers/00_scripted_triggers.txt",
+          "references": {
+            "GRE": 9,
+            "TUR": 1
+          },
+          "total": 10,
+          "sha256": "66432c31661d560146707744da29475cae92bbb6cbe432a1f0409133c92a3178"
+        },
+        {
+          "path": "common/scripted_effects/00_balkan_wars_scripted_effects.txt",
+          "references": {
+            "GRE": 2,
+            "TUR": 3
+          },
+          "total": 5,
+          "sha256": "09f8e9f7bdaf7f1caf2e2767a8bd7dac267abcd13a76891afa8d981165d9bdb3"
+        },
+        {
+          "path": "common/scripted_effects/00_chris_scripted_effects.txt",
+          "references": {
+            "TUR": 16
+          },
+          "total": 16,
+          "sha256": "b7e18655d24a834e93deef70e7fca9f12daa3e1ec148e82ff31541d6fc1a0f84"
+        },
+        {
+          "path": "common/scripted_effects/00_scripted_effects.txt",
+          "references": {
+            "GRE": 2
+          },
+          "total": 2,
+          "sha256": "278e5988ba786184ee12e1d806a6c72608e7b45df53fb7e4c4e61a6953f8d1c0"
+        },
+        {
+          "path": "common/scripted_effects/00_the_grand_collapse_scripted_effects.txt",
+          "references": {
+            "GRE": 1,
+            "TUR": 5
+          },
+          "total": 6,
+          "sha256": "b83839458819b26d24bee0122c7d24bdd8664ae89a1bba47d19bceeb0e47d34b"
+        },
+        {
+          "path": "common/scripted_effects/00_victoria_scripted_effects.txt",
+          "references": {
+            "GRE": 1
+          },
+          "total": 1,
+          "sha256": "b173953ebbfc0edacdddedb8130c3df0f41282d10f8e7ceeaa054ab8ade0b42d"
+        },
+        {
+          "path": "events/agitators_events/algeria_events.txt",
+          "references": {
+            "TUR": 5
+          },
+          "total": 5,
+          "sha256": "a97dc3d27072fa07e099178997b7c2821adde09e46124c6ea7760e292c9d422b"
+        },
+        {
+          "path": "events/balkans_events/balkan_wars_events.txt",
+          "references": {
+            "TUR": 29
+          },
+          "total": 29,
+          "sha256": "007663412d9f46e9a3835c6d81e011c403934f9c0d50e02ec4beb7d5e3470895"
+        },
+        {
+          "path": "events/balkans_events/eastern_crisis.txt",
+          "references": {
+            "TUR": 11
+          },
+          "total": 11,
+          "sha256": "98187dd93dbef8d78182d6f390e671bd57e7931f522f4b637fc9028bbf59a5ce"
+        },
+        {
+          "path": "events/balkans_events/eastern_question.txt",
+          "references": {
+            "TUR": 3
+          },
+          "total": 3,
+          "sha256": "7cea40d7fc98866231fabbefbf8caf9d0b48f870a20a9a014be3975668443a8e"
+        },
+        {
+          "path": "events/balkans_events/montenegro_events.txt",
+          "references": {
+            "TUR": 40
+          },
+          "total": 40,
+          "sha256": "d1631199ad20be91c4a8e7659f377d393d7c748db88ede1d9799e19fca935c2d"
+        },
+        {
+          "path": "events/egyptian_crisis_events.txt",
+          "references": {
+            "TUR": 6
+          },
+          "total": 6,
+          "sha256": "fc3c83094b0ffbf873c9ded935f047acef4a19f5c8cd7c56c384a47e4c3a36f3"
+        },
+        {
+          "path": "events/greece_events.txt",
+          "references": {
+            "GRE": 1,
+            "ION": 3,
+            "TUR": 11
+          },
+          "total": 15,
+          "sha256": "ee0949ca93b48092230a98970ae281d59bd58470d0db4a060255cd4e6bb2656a"
+        },
+        {
+          "path": "events/soi_events/00_ep1_caucasus_events.txt",
+          "references": {
+            "TUR": 3
+          },
+          "total": 3,
+          "sha256": "674474f2378e83c9430c50174c085272a220b640a4c4408c154e3820d34123f9"
+        },
+        {
+          "path": "events/veiled_protectorate_events.txt",
+          "references": {
+            "TUR": 3
+          },
+          "total": 3,
+          "sha256": "50b2110d93cb0694347a4a7f68de55e55437230844b6ea8ef99df116eb4b7383"
+        }
+      ]
+    }
+  },
+  "generated_replaced_history_references": [],
+  "startup_hazards": [
+    {
+      "path": "common/history/characters/gre - greece.txt",
+      "behavior": "GRE character creation",
+      "effective_reference_count": 1,
+      "tags": [
+        "GRE"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/characters/ion - ionian islands.txt",
+      "behavior": "ION character creation",
+      "effective_reference_count": 1,
+      "tags": [
+        "ION"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/characters/tur - ottomans.txt",
+      "behavior": "TUR character creation",
+      "effective_reference_count": 1,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/lobbies/00_lobbies.txt",
+      "behavior": "lobbies targeting GRE/TUR",
+      "effective_reference_count": 7,
+      "tags": [
+        "GRE",
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/treaties/00_historical_treaties.txt",
+      "behavior": "historical treaty involving TUR",
+      "effective_reference_count": 2,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/political_movements/00_movements.txt",
+      "behavior": "TUR political movement",
+      "effective_reference_count": 1,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/power_blocs/00_power_blocs.txt",
+      "behavior": "TUR power bloc creation",
+      "effective_reference_count": 1,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/ai/00_secret_goals.txt",
+      "behavior": "AI secret goals involving GRE/TUR",
+      "effective_reference_count": 11,
+      "tags": [
+        "GRE",
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/ai/00_strategy.txt",
+      "behavior": "TUR starting AI strategy",
+      "effective_reference_count": 1,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    },
+    {
+      "path": "common/history/global/00_global.txt",
+      "behavior": "global startup effects and checks involving GRE/TUR",
+      "effective_reference_count": 3,
+      "tags": [
+        "TUR"
+      ],
+      "loaded_despite_atlas_replace_paths": true
+    }
+  ],
+  "nizam": {
+    "pacts": [
+      {
+        "actor": "RUM",
+        "target": "BOS",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      },
+      {
+        "actor": "RUM",
+        "target": "ALB",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      },
+      {
+        "actor": "RUM",
+        "target": "BUL",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      },
+      {
+        "actor": "RUM",
+        "target": "ADA",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      },
+      {
+        "actor": "RUM",
+        "target": "ERZ",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      },
+      {
+        "actor": "RUM",
+        "target": "TRB",
+        "type": "ve_rum_nizam_dependency",
+        "source": "scenario"
+      }
+    ],
+    "mechanics": {
+      "income_transfer": 0.08,
+      "income_transfer_basis": "subject_income",
+      "subject_can_start_own_plays": false,
+      "subject_joins_overlord_wars": true,
+      "subject_can_have_subjects": false,
+      "subject_can_break": false,
+      "overlord_can_break": true,
+      "annex_on_country_formation": true,
+      "overlord_must_be_higher_rank": false,
+      "uses_overlord_map_color": true,
+      "category": "same_as_vassal"
+    },
+    "unimplemented_written_terms": [
+      "fixed annual contribution",
+      "levy quota",
+      "customs or shared-market treatment",
+      "mutual negotiated termination"
+    ],
+    "release_gate": "revise contract semantics and engine-test inherited vassal interactions"
+  },
+  "independent_belt_overlords": {
+    "KUR": null,
+    "BSR": null,
+    "SYR": null,
+    "LEB": null,
+    "PAL": null,
+    "KUW": null
+  },
+  "basra_kuwait_hub_gate": {
+    "state_region": "STATE_BASRA",
+    "city_hub": {
+      "province": "x807060",
+      "owner": "BSR"
+    },
+    "port_hub": {
+      "province": "x00F060",
+      "owner": "KUW"
+    },
+    "decision": "defer a second physical port until a separately reviewed state-region/province split"
+  },
+  "risk_classification": {
+    "confirmed_static_parse_or_build_crash": false,
+    "startup_behavior_contamination": true,
+    "runtime_event_or_on_action_contamination": true,
+    "runtime_tested": false,
+    "playable_release": false
+  },
+  "release_blockers": [
+    "neutralize unmasked TUR/GRE/ION startup history without broad blind vanilla copies",
+    "revise the Nizam contract to match the written contribution, levy, market and termination rules",
+    "disable or replace obsolete Ottoman/Greek runtime chains where their triggers can still resolve",
+    "resolve or explicitly retain the Basra-Kuwait single-port topology",
+    "run an isolated engine startup and observe error/game logs after static blockers are fixed"
+  ]
+}

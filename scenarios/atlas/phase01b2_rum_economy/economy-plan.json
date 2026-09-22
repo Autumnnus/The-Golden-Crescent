@@ -1,0 +1,1465 @@
+{
+  "phase": "1B.2",
+  "parent_scenario_sha256": "4894afc07343482537cd2911f56c3d9506b3ed6acc2855fd9394c1b12c0ddaa6",
+  "parent_pops_sha256": "d963678a22067643fbc60d7074f61744bff90fa4440a96546ecb407da782f1e2",
+  "emancipation": {
+    "law_date": 1811,
+    "converted_starting_people": 216325,
+    "from_pop_type": "slaves",
+    "to_pop_type": "peasants",
+    "culture_and_religion_preserved": true,
+    "recently_abolished_1836_effect_requested": false
+  },
+  "design_limits": {
+    "urbanization_target": "20-25%; building employment is only a proxy and must be measured in-engine",
+    "budget": "administrative capacity is provisioned; wages, institution cost and tax balance need an engine run",
+    "market": "production chains are source-balanced directionally; prices, trade routes and profitability need an engine run",
+    "railway": "short industrial and mine links only; no continuous continental network is asserted",
+    "companies": "Karadeniz Maden Ortaklığı needs a custom company definition before Atlas can assign it"
+  },
+  "technology_additions": [
+    "atmospheric_engine",
+    "canneries",
+    "dialectics",
+    "intensive_agriculture",
+    "lathe",
+    "mechanical_tools",
+    "mechanized_workshops",
+    "railways",
+    "rifling",
+    "screw_frigate"
+  ],
+  "states": {
+    "STATE_EASTERN_THRACE": {
+      "role": "Başkent, makine, askerî tedarik, tersane ve mali idare",
+      "buildings": {
+        "building_government_administration": {
+          "level": 15,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 8,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 8,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 18,
+          "production_methods": [
+            "pm_steel",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_steel_mill": {
+          "level": 13,
+          "production_methods": [
+            "pm_blister_steel_process",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_motor_industry": {
+          "level": 5,
+          "production_methods": [
+            "pm_steam_engines",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 8,
+          "production_methods": [
+            "pm_rifles",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_shipyard": {
+          "level": 8,
+          "production_methods": [
+            "pm_complex_shipbuilding"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 12,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_craftsman_sewing",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 10,
+          "production_methods": [
+            "pm_sulfite_pulping",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 8,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_chemical_plant": {
+          "level": 6,
+          "production_methods": [
+            "pm_artificial_fertilizers"
+          ]
+        },
+        "building_railway": {
+          "level": 6,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 8,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 18,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 4,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 5,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_silk_plantation": {
+          "level": 3,
+          "production_methods": [
+            "default_building_silk_plantation",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_HUDAVENDIGAR": {
+      "role": "Marmara dokuma, alet, motor ve kâğıt havzası",
+      "buildings": {
+        "building_government_administration": {
+          "level": 8,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 5,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 6,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 15,
+          "production_methods": [
+            "pm_steel",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_steel_mill": {
+          "level": 10,
+          "production_methods": [
+            "pm_blister_steel_process",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_motor_industry": {
+          "level": 5,
+          "production_methods": [
+            "pm_steam_engines",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 18,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_craftsman_sewing",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 8,
+          "production_methods": [
+            "pm_sulfite_pulping",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_furniture_manufactory": 8,
+        "building_food_industry": {
+          "level": 6,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_chemical_plant": {
+          "level": 4,
+          "production_methods": [
+            "pm_artificial_fertilizers"
+          ]
+        },
+        "building_railway": {
+          "level": 5,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 6,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 9,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 5,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 6,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        },
+        "building_silk_plantation": {
+          "level": 4,
+          "production_methods": [
+            "default_building_silk_plantation",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_KASTAMONU": {
+      "role": "Ereğli-Zonguldak kömür ve maden tahliye havzası",
+      "buildings": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 3,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_coal_mine": {
+          "level": 45,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_tooling_workshop": {
+          "level": 4,
+          "production_methods": [
+            "pm_steel",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_railway": {
+          "level": 5,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 5,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 11,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_fishing_wharf": 5,
+        "building_wheat_farm": {
+          "level": 10,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 5,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_AYDIN": {
+      "role": "İzmir ticaret, kömür, dokuma ve tüketim malları havzası",
+      "buildings": {
+        "building_government_administration": {
+          "level": 5,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 3,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 4,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_coal_mine": {
+          "level": 25,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 12,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_craftsman_sewing",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_furniture_manufactory": 6,
+        "building_food_industry": {
+          "level": 5,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_railway": {
+          "level": 4,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 6,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 5,
+        "building_wheat_farm": {
+          "level": 8,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 8,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        },
+        "building_silk_plantation": {
+          "level": 4,
+          "production_methods": [
+            "default_building_silk_plantation",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_KONYA": {
+      "role": "İç Anadolu tarım aleti, yün, gıda ve hukuk eğitimi merkezi",
+      "buildings": {
+        "building_government_administration": {
+          "level": 5,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 5,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 4,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 8,
+          "production_methods": [
+            "pm_steel",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 6,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 4,
+          "production_methods": [
+            "pm_sulfite_pulping",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 8,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_furniture_manufactory": 4,
+        "building_railway": {
+          "level": 3,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 14,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 10,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 5,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_ANKARA": {
+      "role": "İç tahıl, hayvancılık ve ikincil devlet tedarik kuşağı",
+      "buildings": {
+        "building_government_administration": {
+          "level": 6,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 3,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 3,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 4,
+          "production_methods": [
+            "pm_steel",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 8,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_railway": {
+          "level": 2,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 9,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 20,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 12,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_BAGHDAD": {
+      "role": "Nehir ticareti, kâğıt, eğitim, gıda ve kayıt merkezi",
+      "buildings": {
+        "building_government_administration": {
+          "level": 6,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 6,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 4,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_paper_mill": {
+          "level": 12,
+          "production_methods": [
+            "pm_sulfite_pulping",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_textile_mill": {
+          "level": 6,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_food_industry": {
+          "level": 8,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_furniture_manufactory": 4,
+        "building_railway": {
+          "level": 3,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_rice_farm": {
+          "level": 15,
+          "production_methods": [
+            "pm_soil_enriching_farming_building_rice_farm",
+            "pm_no_secondary",
+            "pm_tools_building_rice_farm"
+          ]
+        },
+        "building_tobacco_plantation": 4
+      }
+    },
+    "STATE_ALEPPO": {
+      "role": "Kervan ve Akdeniz bağlantılı dokuma, kâğıt ve gıda merkezi",
+      "buildings": {
+        "building_government_administration": {
+          "level": 4,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 3,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 3,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 9,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_paper_mill": {
+          "level": 5,
+          "production_methods": [
+            "pm_sulfite_pulping",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_food_industry": {
+          "level": 6,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_furniture_manufactory": 3,
+        "building_railway": {
+          "level": 2,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 4,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_logging_camp": {
+          "level": 6,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 10,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 8,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_ATTICA": {
+      "role": "Ege tersane, metal, kimya ve eğitim düğümü",
+      "buildings": {
+        "building_government_administration": {
+          "level": 4,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 4,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 3,
+          "production_methods": [
+            "pm_iron_frame_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_shipyard": {
+          "level": 5,
+          "production_methods": [
+            "pm_complex_shipbuilding"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 4,
+          "production_methods": [
+            "pm_rifles",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_glassworks": 6,
+        "building_railway": {
+          "level": 3,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 5,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_lead_mine": {
+          "level": 10,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_lead_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_sulfur_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 7,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_wheat_farm": {
+          "level": 5,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 5,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_WESTERN_THRACE": {
+      "role": "Balkan demir, cam ve dokuma geçişi",
+      "buildings": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 4,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_glassworks": 6,
+        "building_iron_mine": {
+          "level": 21,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 5,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_railway": {
+          "level": 1,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_port": {
+          "level": 4,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_wheat_farm": {
+          "level": 6,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        }
+      }
+    },
+    "STATE_SKOPIA": {
+      "role": "Balkan demir, kereste ve tahıl tedariki",
+      "buildings": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_iron_mine": {
+          "level": 30,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 14,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_railway": {
+          "level": 2,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 8,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_tobacco_plantation": 2
+      }
+    },
+    "STATE_MACEDONIA": {
+      "role": "Selanik gıda, hafif dokuma, tahıl ve kereste düğümü",
+      "buildings": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_philosophy_department",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 4,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_food_industry": {
+          "level": 5,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_railway": {
+          "level": 1,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 9,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_wheat_farm": {
+          "level": 8,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 5,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_THESSALIA": {
+      "role": "Balkan tahıl, hayvancılık ve pamuk hinterlandı",
+      "buildings": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_sewing_machines",
+            "pm_no_luxury_clothes",
+            "pm_mechanized_looms"
+          ]
+        },
+        "building_railway": {
+          "level": 1,
+          "production_methods": [
+            "pm_early_trains",
+            "pm_no_passenger_trains"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 8,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_wheat_farm": {
+          "level": 20,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 8,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 6,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_PELOPONNESE": {
+      "role": "Ege demir, kereste, bağ ve kıyı gıda tedariki",
+      "buildings": {
+        "building_iron_mine": {
+          "level": 15,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 5,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 3,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 3,
+        "building_wheat_farm": {
+          "level": 4,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_vineyard": 3
+      }
+    },
+    "STATE_CYPRUS": {
+      "role": "Doğu Akdeniz ikmal ve küçük maden adası",
+      "buildings": {
+        "building_government_administration": {
+          "level": 1,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_iron_mine": {
+          "level": 4,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_sulfur_mine": {
+          "level": 3,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2,
+        "building_wheat_farm": {
+          "level": 3,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        }
+      }
+    },
+    "STATE_BASRA": {
+      "role": "Rûm'un kuzey nehir payı; liman ve şehir Basra/Kuveyt yönetimlerindedir",
+      "buildings": {
+        "building_trade_center": 0,
+        "building_port": 0,
+        "building_fishing_wharf": 0,
+        "building_sulfur_mine": {
+          "level": 10,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_sulfur_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_rice_farm": {
+          "level": 7,
+          "production_methods": [
+            "pm_soil_enriching_farming_building_rice_farm",
+            "pm_no_secondary",
+            "pm_tools_building_rice_farm"
+          ]
+        },
+        "building_tobacco_plantation": 3
+      }
+    },
+    "STATE_ADANA": {
+      "role": "Rûm'un doğu/geçit payı; şehir, liman, tarım ve maden hub'ları Adana emirliğindedir",
+      "buildings": {
+        "building_port": 0,
+        "building_fishing_wharf": 0,
+        "building_cotton_plantation": 0,
+        "building_livestock_ranch": 0,
+        "building_tea_plantation": 0,
+        "building_logging_camp": {
+          "level": 4,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_TRABZON": {
+      "role": "Samsun-Ordu şehir ve tarım payı; liman/maden/kereste Trabzon atabeyliğindedir",
+      "buildings": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_horizontal_drawer_cabinets",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_food_industry": {
+          "level": 3,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 5,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_tea_plantation": 2
+      }
+    },
+    "STATE_ERZURUM": {
+      "role": "Van çevresindeki Rûm tarım payı; kent ve maden Erzurum atabeyliğindedir",
+      "buildings": {
+        "building_wheat_farm": {
+          "level": 3,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_DEIR_EZ_ZOR": {
+      "role": "Seyrek nehir ve hayvancılık kuşağı",
+      "buildings": {
+        "building_livestock_ranch": {
+          "level": 5,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_sheep_farms",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_MALTA": {
+      "role": "Merkez Akdeniz ikmal, bakım ve balıkçılık adası",
+      "buildings": {
+        "building_shipyard": {
+          "level": 2,
+          "production_methods": [
+            "pm_complex_shipbuilding"
+          ]
+        },
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2
+      }
+    },
+    "STATE_CRETE": {
+      "role": "Ada tarımı, kıyı gıdası ve deniz ikmali",
+      "buildings": {
+        "building_food_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_bakery",
+            "pm_cannery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2,
+        "building_cotton_plantation": {
+          "level": 2,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_IONIAN_ISLANDS": {
+      "role": "Batı Ege ikmal ve balıkçılık adaları",
+      "buildings": {
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2,
+        "building_wheat_farm": {
+          "level": 2,
+          "production_methods": [
+            "pm_soil_enriching_farming",
+            "pm_no_secondary",
+            "pm_tools"
+          ]
+        }
+      }
+    },
+    "STATE_EAST_AEGEAN_ISLANDS": {
+      "role": "Anadolu-Ege deniz geçişi",
+      "buildings": {
+        "building_port": {
+          "level": 1,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2
+      }
+    },
+    "STATE_WEST_AEGEAN_ISLANDS": {
+      "role": "Küçük liman ve balıkçılık ağı",
+      "buildings": {
+        "building_port": {
+          "level": 1,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": 2
+      }
+    }
+  }
+}

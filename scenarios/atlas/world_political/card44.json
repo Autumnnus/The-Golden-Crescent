@@ -1,0 +1,625 @@
+{
+  "version": 2,
+  "title": "Kart 1M/4D — Portekiz geçici paylarının yerelleştirilmesi",
+  "description": "POR’un çakışmayan geçici payları ve Senegal’deki Fransız doğrudan payı yerel veya yazılı denizci sahiplerine döner: Atlantik adaları/Alentejo Endülüs’e, Guangdong Yue’ye; Afrika payları state içindeki Kabu, Gaza, Maravi, Kongo, Cayor, Herero, Duala ve Makua temsilcilerine gider. Bombay, Gujarat ve Sunda aynı state’i kullanan kartlarda ayrı birleşir.",
+  "countries": {},
+  "states": {
+    "STATE_ALENTEJO": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "xEBA935",
+            "x84A822",
+            "xEFC9BC",
+            "xB0177A",
+            "xC3BFC4",
+            "xA07080",
+            "x8B17E3",
+            "x88DCE1",
+            "x207080"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_AZORES": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x90A080",
+            "x9B6D87",
+            "x769456"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CAPE_VERDE": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x4B7FA5",
+            "xE8E7A2",
+            "xA2E8C5",
+            "xA2C3E8"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GUINEA": {
+      "split": [
+        {
+          "owner": "MDK",
+          "provinces": [
+            "xAFBE88",
+            "x5CB7F3",
+            "x6C8F72",
+            "x5D1375",
+            "x3D0B76",
+            "x29C6D0",
+            "x482B8D",
+            "x8140A0",
+            "x83B875",
+            "xAAA0DE",
+            "x380214",
+            "x8F0D6B",
+            "x168505",
+            "x08E1DB",
+            "x14D406",
+            "xA04050",
+            "xF4618A",
+            "x12A380",
+            "x324AE0",
+            "xD00D92",
+            "xCC84F1",
+            "x7EFED6",
+            "x339CE8",
+            "xB7BFEE"
+          ]
+        },
+        {
+          "owner": "SSU",
+          "provinces": [
+            "x3070C0",
+            "x2000D0",
+            "x227115",
+            "x5512AF",
+            "x37ABFC",
+            "x1CBF4C",
+            "xAEF471",
+            "x0E47FB",
+            "x17E20B"
+          ]
+        },
+        {
+          "owner": "FTJ",
+          "provinces": [
+            "xE02F10",
+            "x6B6FCF",
+            "x366D0F",
+            "x63F919",
+            "xA4C378",
+            "x2BB939",
+            "x08502B",
+            "x7062D6",
+            "x18F33E",
+            "xEE9F2D",
+            "xD52D82",
+            "x91E57E",
+            "x91AD7F",
+            "xCB2DDE",
+            "x181E0E",
+            "xF57E66"
+          ]
+        },
+        {
+          "owner": "KBU",
+          "provinces": [
+            "x7486F1",
+            "x7B55A9",
+            "x6D295A",
+            "x97F797",
+            "x5A627D",
+            "xEB469A",
+            "x9933B7",
+            "x04FDE5",
+            "x146701"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_LOURENCO_MARQUES": {
+      "split": [
+        {
+          "owner": "GZA",
+          "provinces": [
+            "x54CDC5",
+            "x6E7B6C",
+            "x1DAC75",
+            "x7A8148",
+            "x6FB160",
+            "x4D5FD5",
+            "xBC9845",
+            "x17DAE2",
+            "x77C219",
+            "xF67484",
+            "x778C50",
+            "x3040D0",
+            "x00BE56",
+            "x93BF4B",
+            "x6A3989",
+            "x0D2E92",
+            "xBCE7FD",
+            "x195AAF",
+            "x7E6D78",
+            "x71A3EA",
+            "x588497",
+            "x3F9512",
+            "x72A8B7",
+            "x1C2C65",
+            "x61DA05",
+            "xBD1A31",
+            "xD07030",
+            "x963178",
+            "x89F9FC",
+            "x68F4FC",
+            "x2C2C46",
+            "xAAA76B",
+            "x3083D0",
+            "x361897",
+            "xB6C38B",
+            "x31033A",
+            "xC41403",
+            "x51ECCC",
+            "x8DC2A9",
+            "xE4494C",
+            "x040DB6",
+            "x7D5F16"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_MADEIRA": {
+      "split": [
+        {
+          "owner": "VAN",
+          "provinces": [
+            "x385719",
+            "x4D5156"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_MOCAMBIQUE": {
+      "split": [
+        {
+          "owner": "MRV",
+          "provinces": [
+            "xB230F4",
+            "xA32AAD",
+            "x005594",
+            "x876584",
+            "x2F77FB",
+            "x8EBD1B",
+            "x30D07F",
+            "x6421B0",
+            "x5EC8C1",
+            "x46C5DE",
+            "x20E0B0",
+            "x525F8A",
+            "x496E3D",
+            "x42BDF4",
+            "x771C70",
+            "x091828",
+            "x3406CB",
+            "x78B0B8",
+            "x2B8AAC",
+            "x06621F",
+            "xFC41E9",
+            "x4225C4",
+            "xB359EB",
+            "xBD46D0",
+            "xF6EEBD",
+            "x02EB92",
+            "x067381",
+            "x4C0097",
+            "xBF8A54",
+            "x9A37E8",
+            "x893622",
+            "x72177C",
+            "xB8E488",
+            "x8D3BFA",
+            "x17660D",
+            "x6A057E",
+            "x34D030",
+            "xF53770",
+            "x4AFF5E",
+            "x4E39F7",
+            "xFDAF31",
+            "xA6DBA7",
+            "x4C7393",
+            "xF7617F",
+            "x694CF9",
+            "xC139EB",
+            "x2C40DE",
+            "xFD8E92",
+            "x49E71A",
+            "x7F5A99",
+            "x1C0AF6",
+            "x3BC995",
+            "xB88D2A",
+            "xB66F1C",
+            "xB013D9",
+            "x6CE05D",
+            "x1C4AD1",
+            "xA1CEEF",
+            "x59469D",
+            "xA061AF",
+            "x6396AA",
+            "x7C3CE7",
+            "x1CC6C2",
+            "x0EFBB3",
+            "xC60197",
+            "x05A72B",
+            "x7D1C19",
+            "xE412DB"
+          ]
+        },
+        {
+          "owner": "TGI",
+          "provinces": [
+            "x3D00BC",
+            "xC270F8",
+            "xA5450D"
+          ]
+        },
+        {
+          "owner": "AGC",
+          "provinces": [
+            "x9FE0B0",
+            "xA8A6DE",
+            "xBE355B",
+            "x1D7D03",
+            "x49AFAC",
+            "xFE0A11",
+            "x11E090"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_NORTH_ANGOLA": {
+      "split": [
+        {
+          "owner": "KON",
+          "provinces": [
+            "x6FD2F7",
+            "x78C387",
+            "xCFA0E7",
+            "xDAAC09",
+            "xC93845",
+            "xCE457C",
+            "x82C47B",
+            "x15BBB9",
+            "xF00017",
+            "x087B9D",
+            "xADC6D4",
+            "xBF65DC",
+            "x32E90E",
+            "x4764A5",
+            "xD30F2F",
+            "xCFF013",
+            "xC7F9BD",
+            "x491B8B",
+            "x8F94AF",
+            "xDAA27C",
+            "x8C112B",
+            "xA71792"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SENEGAL": {
+      "split": [
+        {
+          "owner": "CAY",
+          "provinces": [
+            "xEF30C0",
+            "x339E4C",
+            "xA80844",
+            "x267B18",
+            "x329831",
+            "x3A5023",
+            "x70B0C0",
+            "xBCFFB5",
+            "x7B561C",
+            "xB07040",
+            "x30EF40"
+          ]
+        },
+        {
+          "owner": "JLF",
+          "provinces": [
+            "x7B4218",
+            "xCBF5C9",
+            "x1F187B",
+            "xAACD3D",
+            "xEFAFC0",
+            "xECB3CF",
+            "x2227E7",
+            "x008EC3"
+          ]
+        },
+        {
+          "owner": "FTR",
+          "provinces": [
+            "x696F38",
+            "x15407B",
+            "x12B16A"
+          ]
+        },
+        {
+          "owner": "SRR",
+          "provinces": [
+            "x269443",
+            "x186409",
+            "x969FBB",
+            "x8587D6",
+            "x656C64",
+            "xA90C4B",
+            "xB6C103"
+          ]
+        },
+        {
+          "owner": "BND",
+          "provinces": [
+            "x307041",
+            "xD6E38D",
+            "xE70946",
+            "x3D9C4C",
+            "xE69A18",
+            "x08DC87",
+            "x4983E8",
+            "xB0EF40"
+          ]
+        },
+        {
+          "owner": "DIO",
+          "provinces": [
+            "xD633FE",
+            "xF8E5E2"
+          ]
+        },
+        {
+          "owner": "KBU",
+          "provinces": [
+            "xCD9D60"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SOUTH_ANGOLA": {
+      "split": [
+        {
+          "owner": "HRO",
+          "provinces": [
+            "xE10AC9",
+            "x1B547C",
+            "x8060F0",
+            "xCB3588",
+            "xD891B2",
+            "x68FADF",
+            "x02B371",
+            "x0446CA",
+            "xFC5809",
+            "x57F834",
+            "x07C3F2",
+            "xD6C96D",
+            "xD2F7C4",
+            "x50C030"
+          ]
+        },
+        {
+          "owner": "OVM",
+          "provinces": [
+            "x80A69F",
+            "xA216A0",
+            "xC86852",
+            "x8FD44C",
+            "xB85B10",
+            "x9CA3E4",
+            "x00DFF0",
+            "xCAB778",
+            "x9AE2DA",
+            "xF0DC05",
+            "x08DF25",
+            "x42FC7B",
+            "x4B8072",
+            "x795FC5",
+            "xBAF0E0",
+            "x00B95C",
+            "xEB49D5",
+            "x4856DD",
+            "xC6BBE8",
+            "xE41930",
+            "xDDC690",
+            "xDD5B59",
+            "x97FF10",
+            "x0DFBDB",
+            "x9E59EC",
+            "xDCF6C9",
+            "xD2D8A2",
+            "x09AA46",
+            "xD189C0",
+            "x1E1A18",
+            "x85CF92",
+            "x7CB2EC",
+            "xA95021",
+            "x068F41",
+            "x8F380E"
+          ]
+        },
+        {
+          "owner": "OVB",
+          "provinces": [
+            "x006BF0",
+            "x2DAC68",
+            "x933C39",
+            "x7A69EF",
+            "x962E67",
+            "x9EDE02",
+            "x3C4D7A",
+            "x32FB24",
+            "x8DAA24",
+            "x688ED0",
+            "x6D0491"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_SOUTH_CAMEROON": {
+      "split": [
+        {
+          "owner": "DLA",
+          "provinces": [
+            "x902089",
+            "xC02050",
+            "xD0C4D5",
+            "x809F50",
+            "xCABC41",
+            "xC6087A",
+            "x342080",
+            "xF72F4B"
+          ]
+        },
+        {
+          "owner": "FNG",
+          "provinces": [
+            "x57C64A",
+            "xEB43CA",
+            "x80692A",
+            "x9BBCBB",
+            "x5A24D5",
+            "xCAACB2",
+            "xBA78B7",
+            "x12739C",
+            "xAFC4E7",
+            "x9B9430",
+            "x6BA6FD",
+            "x8AAF69",
+            "x23EF22",
+            "xE321D4",
+            "xC72921",
+            "xC9C5B7",
+            "x711E13",
+            "x41CFC6",
+            "xA4D2D9",
+            "x09AFA8",
+            "x8021D0",
+            "x733140",
+            "x0C9C74",
+            "xA1D098",
+            "x58E5DA",
+            "xBCF4E2",
+            "x4B1338",
+            "xA6E723",
+            "x9D619B",
+            "xE015A7"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_ZAMBEZIA": {
+      "split": [
+        {
+          "owner": "MSK",
+          "provinces": [
+            "x667225",
+            "x217D32",
+            "x277F44",
+            "x71C576",
+            "x6EDE1E",
+            "x30B0D0",
+            "x27EEEF",
+            "xF0ABE1",
+            "xCA8CD6",
+            "xD7451D",
+            "x1425A8",
+            "xA530D0",
+            "xD3F0C6",
+            "x2E9622",
+            "x65E3CE",
+            "xFE2942",
+            "xD40AFF",
+            "x4065F0",
+            "x85EFA4",
+            "x2F3673",
+            "x6D2A22",
+            "x1B94D7",
+            "x21A983",
+            "x3F4206",
+            "xEA6076",
+            "xD03083"
+          ]
+        },
+        {
+          "owner": "MNC",
+          "provinces": [
+            "x42453B",
+            "xF2EC6F",
+            "xE664C9",
+            "x1A4B94",
+            "x74D030",
+            "xB7D0AC",
+            "x3D83F2",
+            "x665190",
+            "x3F30D0",
+            "x8D331C"
+          ]
+        },
+        {
+          "owner": "GZA",
+          "provinces": [
+            "x90E090",
+            "x94943F",
+            "x0B2E9A",
+            "x19FC5A",
+            "x598E16"
+          ]
+        },
+        {
+          "owner": "MTP",
+          "provinces": [
+            "x30D099",
+            "x357FEE",
+            "x2AB129"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

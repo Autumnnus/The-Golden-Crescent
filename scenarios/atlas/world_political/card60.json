@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "title": "Kart 0E/1P/3G — Miras pact temizliği",
+  "description": "Avusturya, Kalmar, Hicaz, Körfez, Baluchistan ve Doğu Asya'daki devralınmış başlangıç pact'larını kaldırır; yazılı dünyada açıkça yaşayan Hicaz koruması ile Asya mandala/domain bağlarını dar özel türlerle yeniden kurar. Ortak taçlar hiyerarşik subject'e çevrilmez.",
+  "countries": {},
+  "states": {},
+  "subject_types": {
+    "ve_hajj_protection": {
+      "base": "protectorate",
+      "name": "Hajj Protection Compact",
+      "name_tr": "Hac Koruma Antlaşması",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.05
+    },
+    "ve_mandala_autonomy": {
+      "base": "vassal",
+      "name": "Mandala Autonomy Compact",
+      "name_tr": "Mandala Özerklik Antlaşması",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.04
+    },
+    "ve_japanese_domain": {
+      "base": "vassal",
+      "name": "Japanese Domain Compact",
+      "name_tr": "Japon Hanlık Sözleşmesi",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": true,
+      "income_transfer": 0.06
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "AUS",
+      "KRA",
+      "CRO",
+      "DEN",
+      "HOL",
+      "SCH",
+      "SWE",
+      "NOR",
+      "NET",
+      "LUX",
+      "EGY",
+      "HDJ",
+      "ABU",
+      "OMA",
+      "MBS",
+      "KAL",
+      "MAK",
+      "BUR",
+      "SHS",
+      "DAI",
+      "SIA",
+      "CAM",
+      "CHP",
+      "CMI",
+      "LUA",
+      "JAP",
+      "EZO"
+    ],
+    "subjects": [
+      {
+        "overlord": "EGY",
+        "subject": "HDJ",
+        "type": "ve_hajj_protection",
+        "liberty_desire": 30
+      },
+      {
+        "overlord": "BUR",
+        "subject": "SHS",
+        "type": "ve_mandala_autonomy",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "DAI",
+        "subject": "CAM",
+        "type": "ve_mandala_autonomy",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "SIA",
+        "subject": "CHP",
+        "type": "ve_mandala_autonomy",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "SIA",
+        "subject": "CMI",
+        "type": "ve_mandala_autonomy",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "SIA",
+        "subject": "LUA",
+        "type": "ve_mandala_autonomy",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "JAP",
+        "subject": "EZO",
+        "type": "ve_japanese_domain",
+        "liberty_desire": 35
+      }
+    ],
+    "relations": [
+      {
+        "actor": "DEN",
+        "target": "SWE",
+        "value": 50
+      },
+      {
+        "actor": "DEN",
+        "target": "NOR",
+        "value": 50
+      },
+      {
+        "actor": "SWE",
+        "target": "NOR",
+        "value": 50
+      },
+      {
+        "actor": "DEN",
+        "target": "HOL",
+        "value": 30
+      },
+      {
+        "actor": "DEN",
+        "target": "SCH",
+        "value": 30
+      },
+      {
+        "actor": "SIA",
+        "target": "DAI",
+        "value": -25
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3];OUT=Path(__file__).with_name('card51.json')
 def main():
  p=ROOT/'build/political-gbr-malaya-catalog.json'
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','GBR','--out',str(p)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','GBR','--out',str(p)],cwd=ROOT,check=True)
  s=next(x for x in json.loads(p.read_text())['states'] if x['id']=='STATE_MALAYA');merged={};order=[];found=False
  for row in s['owners']:
   found|=row['tag']=='GBR';tag='JOH' if row['tag']=='GBR' else row['tag']

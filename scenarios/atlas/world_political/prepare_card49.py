@@ -14,7 +14,7 @@ TARGETS={
 COUNTRIES={'VPD':{'name':'Baltic Prussian Duchy','name_tr':'Baltık Prusya Dükalığı','color':[102,130,151],'country_type':'recognized','tier':'principality','cultures':['north_german'],'religion':'protestant','capital':'STATE_EAST_PRUSSIA'}}
 def main():
  p=ROOT/'build/political-pru-closure-catalog.json'
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','PRU','--out',str(p)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','PRU','--out',str(p)],cwd=ROOT,check=True)
  by={s['id']:s for s in json.loads(p.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   merged={};order=[];found=False

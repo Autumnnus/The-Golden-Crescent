@@ -7,7 +7,7 @@ def c(n,tr,col,cu,cap):return {'name':n,'name_tr':tr,'color':col,'country_type':
 COUNTRIES={'VGN':c('Guarani River League','Guaraní Nehir Birliği',[96,137,107],['guarani'],'STATE_CORRIENTES'),'VPT':c('Pampas Treaty Council','Pampa Antlaşma Meclisi',[138,123,87],['patagonian'],'STATE_LA_PAMPA'),'VTC':c('Tucuman Valley Council','Tucumán Vadi Meclisi',[136,110,123],['quechua'],'STATE_TUCUMAN')}
 TARGETS={'STATE_CHACO':'VGN','STATE_CORRIENTES':'VGN','STATE_LA_PAMPA':'VPT','STATE_RIO_NEGRO':'VPT','STATE_SANTA_FE':'VGN','STATE_TUCUMAN':'VTC'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','ARG','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','ARG','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];local={p for e in s['owners'] if e['tag']!='ARG' for p in e['provinces']};parts=[]
   for e in s['owners']:

@@ -4,7 +4,7 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[3];O=Path(__file__).with_name('card30.json')
 C={'VCU':{'name':'Kingdom of Cusco','name_tr':'Cusco Krallığı','color':[135,109,137],'country_type':'recognized','tier':'kingdom','cultures':['quechua'],'religion':'animist','capital':'STATE_AREQUIPA'}}
 def load(t):
- p=R/f'build/political-{t.lower()}-catalog.json';subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region',t,'--out',str(p)],cwd=R,check=True);return {x['id']:x for x in json.loads(p.read_text())['states']}
+ p=R/f'build/political-{t.lower()}-catalog.json';subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region',t,'--out',str(p)],cwd=R,check=True);return {x['id']:x for x in json.loads(p.read_text())['states']}
 def main():
  n=load('NPU');s=load('SPU');states={}
  for src,sid,tag in [(n,'STATE_CAJAMARCA','NPU'),(s,'STATE_AREQUIPA','SPU'),(s,'STATE_TARAPACA','SPU')]:

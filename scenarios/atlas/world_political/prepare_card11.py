@@ -15,7 +15,7 @@ TARGET = Path(__file__).with_name("card11.json")
 
 
 def refresh(region: str, target: Path) -> dict:
-    subprocess.run([sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", region, "--out", str(target)], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", region, "--out", str(target)], cwd=ROOT, check=True)
     return json.loads(target.read_text())
 
 

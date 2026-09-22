@@ -25,7 +25,7 @@ COUNTRIES = {
 
 
 def main() -> None:
-    subprocess.run([sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "GBR", "--out", str(CATALOG)], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "GBR", "--out", str(CATALOG)], cwd=ROOT, check=True)
     by_id = {state["id"]: state for state in json.loads(CATALOG.read_text())["states"]}
     states = {}
     for state_id, target in TARGETS.items():

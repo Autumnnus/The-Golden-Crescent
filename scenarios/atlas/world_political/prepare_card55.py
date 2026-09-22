@@ -16,7 +16,7 @@ STATE = "STATE_YEMEN"
 
 def main() -> None:
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "HDJ,LAH,ZAI,MAH,KAT", "--out", str(CATALOG)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "HDJ,LAH,ZAI,MAH,KAT", "--out", str(CATALOG)],
         cwd=ROOT,
         check=True,
     )

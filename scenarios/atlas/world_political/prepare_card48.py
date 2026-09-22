@@ -11,7 +11,7 @@ STATE = "STATE_NEWFOUNDLAND"
 
 def main() -> None:
     catalog = ROOT / "build/political-gbr-newfoundland-catalog.json"
-    subprocess.run([sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "GBR", "--out", str(catalog)], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "GBR", "--out", str(catalog)], cwd=ROOT, check=True)
     state = next(item for item in json.loads(catalog.read_text())["states"] if item["id"] == STATE)
     owners = {}
     for row in state["owners"]:

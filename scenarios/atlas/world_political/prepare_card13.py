@@ -28,7 +28,7 @@ COUNTRIES = {
 
 def main() -> None:
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "EGY", "--out", str(CATALOG)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "EGY", "--out", str(CATALOG)],
         cwd=ROOT,
         check=True,
     )

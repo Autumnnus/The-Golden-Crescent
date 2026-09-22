@@ -10,7 +10,7 @@ COUNTRIES={
  'VOR':{'name':'Orinoco River Council','name_tr':'Orinoco Nehir Meclisi','color':[94,133,150],'country_type':'recognized','tier':'principality','cultures':['muisca'],'religion':'animist','capital':'STATE_GUAVIARE'},
 }
 def main():
- p=ROOT/'build/political-clm-closure-catalog.json';subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','CLM','--out',str(p)],cwd=ROOT,check=True)
+ p=ROOT/'build/political-clm-closure-catalog.json';subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','CLM','--out',str(p)],cwd=ROOT,check=True)
  by={x['id']:x for x in json.loads(p.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   merged={};order=[];found=False

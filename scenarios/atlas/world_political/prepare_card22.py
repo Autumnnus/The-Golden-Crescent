@@ -7,7 +7,7 @@ def c(name,tr,color,cult,cap):return {'name':name,'name_tr':tr,'color':color,'co
 COUNTRIES={'VNR':c('Northeast River Councils','Kuzeydoğu Nehir Meclisleri',[119,139,94],['tupinamba'],'STATE_CEARA'),'VSV':c('Sao Vicente Valley League','São Vicente Vadi Birliği',[111,127,158],['tupinamba'],'STATE_SAO_PAULO'),'VPS':c('Southern Plateau Assemblies','Güney Plato Meclisleri',[121,142,111],['guarani'],'STATE_PARANA'),'VMG':c('Minas Highland Council','Minas Yüksekova Meclisi',[140,112,94],['tupinamba'],'STATE_MINAS_GERAIS'),'VMT':c('Mato Grosso River Council','Mato Grosso Nehir Meclisi',[84,133,135],['guarani'],'STATE_MATO_GROSSO')}
 TARGETS={'STATE_CEARA':'VNR','STATE_MARANHAO':'VNR','STATE_PARAIBA':'VNR','STATE_PIAUI':'VNR','STATE_RIO_GRANDE_DO_NORTE':'VNR','STATE_SAO_PAULO':'VSV','STATE_PARANA':'VPS','STATE_SANTA_CATARINA':'VPS','STATE_MINAS_GERAIS':'VMG','STATE_MATO_GROSSO':'VMT'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];local={p for e in s['owners'] if e['tag']!='BRZ' for p in e['provinces']};parts=[];found=False
   for e in s['owners']:

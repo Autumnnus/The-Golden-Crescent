@@ -36,7 +36,7 @@ GBR_SCOPE = {
 
 
 def catalog(region: str, out: Path, scenario: Path | None = None) -> dict:
-    command = [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", region]
+    command = [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", region]
     if scenario:
         command.extend(["--scenario", str(scenario)])
     command.extend(["--out", str(out)])

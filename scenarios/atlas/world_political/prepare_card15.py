@@ -49,7 +49,7 @@ TARGETS = {
 
 
 def refresh_catalog() -> dict:
-    subprocess.run([sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "USA", "--out", str(CATALOG)], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "USA", "--out", str(CATALOG)], cwd=ROOT, check=True)
     return json.loads(CATALOG.read_text())
 
 

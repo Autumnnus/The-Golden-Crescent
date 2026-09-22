@@ -7,7 +7,7 @@ def c(name,tr,color,cult,cap):return {'name':name,'name_tr':tr,'color':color,'co
 COUNTRIES={'VAM':c('Upper Amazon Councils','Yukarı Amazon Meclisleri',[75,133,126],['amazonian'],'STATE_ACRE'),'VAK':c('Atacama Coastal Council','Atacama Kıyı Meclisi',[139,117,84],['quechua'],'STATE_ANTOFAGASTA'),'VLP':c('La Paz Highland Council','La Paz Yüksekova Meclisi',[119,125,151],['quechua'],'STATE_LA_PAZ'),'VKC':c('Charcas Kingdom','Charcas Krallığı',[142,111,131],['quechua'],'STATE_POTOSI'),'VSB':c('Santa Cruz River Assembly','Santa Cruz Nehir Meclisi',[93,136,111],['guarani'],'STATE_SANTA_CRUZ'),'BOL':{'name':'Residual Bolivian Jurisdiction','name_tr':'Geçici Bolivya Yetki Alanı','color':[125,125,125],'country_type':'recognized','tier':'principality','cultures':['quechua'],'religion':'catholic','capital':'STATE_MATO_GROSSO','companies':{'mode':'replace','add':[],'remove':[]}}}
 TARGETS={'STATE_ACRE':'VAM','STATE_AMAZONAS':'VAM','STATE_ANTOFAGASTA':'VAK','STATE_JUJUY':'VKC','STATE_LA_PAZ':'VLP','STATE_POTOSI':'VKC','STATE_SANTA_CRUZ':'VSB'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','BOL','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','BOL','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];local={p for e in s['owners'] if e['tag']!='BOL' for p in e['provinces']};parts=[];found=False
   for e in s['owners']:

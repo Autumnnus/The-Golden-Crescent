@@ -11,7 +11,7 @@ TARGETS={
 COUNTRIES={'VTL':{'name':'Palawa Council','name_tr':'Palawa Meclisi','color':[128,91,78],'country_type':'unrecognized','tier':'principality','cultures':['aborigine'],'religion':'animist','capital':'STATE_TASMANIA'}}
 def load(tag):
  p=ROOT/f'build/political-{tag.lower()}-catalog.json'
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region',tag,'--out',str(p)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region',tag,'--out',str(p)],cwd=ROOT,check=True)
  return {s['id']:s for s in json.loads(p.read_text())['states']}
 def main():
  catalogs={tag:load(tag) for tag in {'NSW','SAS','WAS','TAS'}}; states={};seen=set()

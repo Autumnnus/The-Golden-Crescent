@@ -15,7 +15,7 @@ COUNTRIES={
 }
 TARGETS={'STATE_QUEBEC':'VQC','STATE_MANITOBA':'VCI','STATE_SASKATCHEWAN':'VPC','STATE_ALBERTA':'VFC','STATE_NORTHWEST_TERRITORIES':'VDE','STATE_NUNAVUT':'VNU','STATE_BRITISH_COLUMBIA':'SLS','STATE_YUKON_TERRITORY':'ATB'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','HBC','--out',str(CATALOG)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','HBC','--out',str(CATALOG)],cwd=ROOT,check=True)
  by={s['id']:s for s in json.loads(CATALOG.read_text())['states']}; states={}
  for sid,target in TARGETS.items():
   state=by[sid]; parts=[];found=False; local={p for e in state['owners'] if e['tag'] not in ({'HBC','QUE'} if sid=='STATE_QUEBEC' else {'HBC'}) for p in e['provinces']}

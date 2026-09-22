@@ -153,7 +153,7 @@ def main() -> None:
     cards = load_prior_cards()
     covered = write_prior_preview(cards)
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "world", "--scenario", str(PRIOR), "--out", str(CATALOG)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "world", "--scenario", str(PRIOR), "--out", str(CATALOG)],
         cwd=ROOT,
         check=True,
     )

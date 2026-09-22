@@ -1,0 +1,405 @@
+﻿# OTOMATIK URETILDI - ELLE DUZENLEME
+# Kaynak: world/scenario.yml
+# Ureten: python3 scripts/tools.py atlas build
+# Bu dosyayi degistirmek istiyorsan world/ altindaki YAML'i degistir ve
+# yeniden uret; build kendi ciktisini her calismada siler.
+
+subject_type_ve_contractual_vassal = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_contractual_vassal
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = yes
+}
+subject_type_ve_limited_protection = {
+allow_change_country_flag = no
+use_overlord_map_color = no
+use_overlord_ruler = no
+annex_on_country_formation = no
+can_start_own_diplomatic_plays = yes
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = no
+gives_prestige_to_overlord = yes
+can_offer_to_become_in_sway_offers = yes
+autonomy_level = 2
+category = same_as_puppet
+lower_autonomy_subject_type_alternatives = { subject_type_puppet subject_type_colony }
+same_autonomy_subject_type_alternatives = { subject_type_tributary subject_type_dominion }
+ai_value = {
+	value = 1
+}
+diplomatic_action = ve_limited_protection
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_emirate_compact = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_emirate_compact
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_hajj_protection = {
+allow_change_country_flag = no
+use_overlord_map_color = no
+use_overlord_ruler = no
+annex_on_country_formation = no
+can_start_own_diplomatic_plays = yes
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = no
+gives_prestige_to_overlord = yes
+can_offer_to_become_in_sway_offers = yes
+autonomy_level = 2
+category = same_as_puppet
+lower_autonomy_subject_type_alternatives = { subject_type_puppet subject_type_colony }
+same_autonomy_subject_type_alternatives = { subject_type_tributary subject_type_dominion }
+ai_value = {
+	value = 1
+}
+diplomatic_action = ve_hajj_protection
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_mandala_autonomy = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_mandala_autonomy
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_japanese_domain = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_japanese_domain
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = yes
+}
+subject_type_ve_autonomous_compact = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_autonomous_compact
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_colonial_charter = {
+allow_change_country_flag = yes
+use_overlord_map_color = yes
+use_overlord_ruler = no
+annex_on_country_formation = yes
+can_start_own_diplomatic_plays = no
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = yes
+gives_prestige_to_overlord = yes
+autonomy_level = 1
+category = same_as_vassal
+higher_autonomy_subject_type_alternatives = { subject_type_tributary }
+same_autonomy_subject_type_alternatives = { subject_type_colony subject_type_puppet subject_type_crown_land }
+ai_value = {
+	value = 1.5
+}
+diplomatic_action = ve_colonial_charter
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}
+subject_type_ve_tributary_compact = {
+allow_change_country_flag = no
+use_overlord_map_color = no
+use_overlord_ruler = no
+annex_on_country_formation = no
+can_start_own_diplomatic_plays = yes
+breaks_if_subject_not_protected = yes
+overlord_must_be_same_country_type = no
+use_for_release_country = no
+gives_prestige_to_overlord = yes
+can_offer_to_become_in_sway_offers = yes
+autonomy_level = 2
+category = same_as_puppet
+lower_autonomy_subject_type_alternatives = { subject_type_puppet subject_type_colony }
+same_autonomy_subject_type_alternatives = { subject_type_tributary subject_type_dominion }
+ai_value = {
+	value = 1
+}
+diplomatic_action = ve_tributary_compact
+valid_overlord_country_types = { recognized unrecognized }
+valid_subject_country_types = { recognized unrecognized }
+valid_overlord_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+valid_subject_ranks = {
+	decentralized_power
+	great_power
+	insignificant_power
+	major_power
+	minor_power
+	unrecognized_major_power
+	unrecognized_power
+	unrecognized_regional_power
+}
+overlord_must_be_higher_rank = no
+can_have_subjects = no
+join_overlord_wars = no
+}

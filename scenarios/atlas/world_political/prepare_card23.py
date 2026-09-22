@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3];CATALOG=ROOT/'build/political-brz-goias-catalog.json';TARGET=Path(__file__).with_name('card23.json')
 COUNTRIES={'VGC':{'name':'Goias Central Council','name_tr':'Goiás Merkez Meclisi','color':[129,128,91],'country_type':'unrecognized','tier':'principality','cultures':['tupinamba'],'religion':'animist','capital':'STATE_GOIAS'},'BRZ':{'name':'Residual Brazilian Interior','name_tr':'Geçici Brezilya İç Bölgesi','color':[125,125,125],'country_type':'recognized','tier':'principality','cultures':['brazilian'],'religion':'catholic','capital':'STATE_RIO_DE_JANEIRO','companies':{'mode':'replace','add':[],'remove':[]}}}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);s=next(x for x in json.loads(CATALOG.read_text())['states'] if x['id']=='STATE_GOIAS');parts=[]
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);s=next(x for x in json.loads(CATALOG.read_text())['states'] if x['id']=='STATE_GOIAS');parts=[]
  for e in s['owners']:
   if e['tag']!='BRZ':raise RuntimeError('Goias owner changed')
   parts.append({'owner':'VGC','provinces':['x'+p[1:].upper() for p in dict.fromkeys(e['provinces'])]})

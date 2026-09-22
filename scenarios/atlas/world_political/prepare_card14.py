@@ -35,7 +35,7 @@ COUNTRIES = {
 def load_catalog(tag: str) -> dict[str, dict]:
     path = CATALOGS[tag]
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", tag, "--out", str(path)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", tag, "--out", str(path)],
         cwd=ROOT,
         check=True,
     )

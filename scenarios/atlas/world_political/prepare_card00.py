@@ -86,7 +86,7 @@ def main() -> None:
     if RUS_BORDER_STATES:
         catalog_path = ROOT / "build/political-card00-rus-catalog.json"
         subprocess.run(
-            [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "RUS", "--out", str(catalog_path)],
+            [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "RUS", "--out", str(catalog_path)],
             cwd=ROOT,
             check=True,
         )

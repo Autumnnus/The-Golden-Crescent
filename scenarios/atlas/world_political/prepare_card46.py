@@ -15,7 +15,7 @@ STATE = "STATE_GUAYANA"
 def main() -> None:
     catalog = ROOT / "build/political-fra-guyana-catalog.json"
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "FRA", "--out", str(catalog)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "FRA", "--out", str(catalog)],
         cwd=ROOT,
         check=True,
     )

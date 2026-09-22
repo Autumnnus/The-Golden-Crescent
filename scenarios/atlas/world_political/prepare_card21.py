@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[3];CATALOG=ROOT/'build/political-brz-catal
 COUNTRIES={'BRZ':{'name':'Residual Brazilian Interior','name_tr':'Geçici Brezilya İç Bölgesi','color':[125,125,125],'country_type':'recognized','tier':'principality','cultures':['brazilian'],'religion':'catholic','capital':'STATE_GOIAS','companies':{'mode':'replace','add':[],'remove':[]}},'VFB':{'name':'Moroccan Brazil Coastal Charter','name_tr':'Fas Brezilyası Kıyı Şartı','color':[141,105,69],'country_type':'recognized','tier':'principality','cultures':['maghrebi'],'religion':'sunni','capital':'STATE_PERNAMBUCO'}}
 TARGETS={'STATE_PERNAMBUCO':'VFB','STATE_BAHIA':'VFB','STATE_RIO_DE_JANEIRO':'VFB'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','BRZ','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];parts=[]
   for e in s['owners']:

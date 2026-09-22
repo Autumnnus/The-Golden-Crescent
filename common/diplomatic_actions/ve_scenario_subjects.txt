@@ -1,0 +1,396 @@
+﻿# OTOMATIK URETILDI - ELLE DUZENLEME
+# Kaynak: world/scenario.yml
+# Ureten: python3 scripts/tools.py atlas build
+# Bu dosyayi degistirmek istiyorsan world/ altindaki YAML'i degistir ve
+# yeniden uret; build kendi ciktisini her calismada siler.
+
+ve_contractual_vassal = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_contractual_vassal
+	income_transfer = 0.1
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_limited_protection = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_limited_protection
+	income_transfer = 0.03
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_emirate_compact = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_emirate_compact
+	income_transfer = 0.05
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_hajj_protection = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_hajj_protection
+	income_transfer = 0.05
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_mandala_autonomy = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_mandala_autonomy
+	income_transfer = 0.04
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_japanese_domain = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_japanese_domain
+	income_transfer = 0.06
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_autonomous_compact = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_autonomous_compact
+	income_transfer = 0.05
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_colonial_charter = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	second_country_gets_income_transfer = no
+	income_transfer_based_on_second_country = yes
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_colonial_charter
+	income_transfer = 0.08
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}
+ve_tributary_compact = {
+groups = { general }
+show_in_lens = no
+potential = {
+	always = no
+}
+pact = {
+	cost = 10
+	has_junior_participant = yes
+	maintenance_paid_by = first_country
+	relations_progress_per_day = 1
+	relations_improvement_max = 50
+	max_target_involvement = 5000
+	target_involvement_applies_to = source_country
+	second_modifier = {}
+	actor_can_break = {
+		is_diplomatic_play_committed_participant = no
+	}
+	target_can_break = {
+		always = no
+	}
+	manual_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	auto_break_effect = {
+		create_bidirectional_truce = {
+			country = scope:target_country
+			months = 60
+		}
+	}
+	subject_type = subject_type_ve_tributary_compact
+	income_transfer = 0.02
+}
+ai = {
+	will_break = {
+		always = no
+	}
+}
+}

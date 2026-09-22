@@ -9,7 +9,7 @@ CATALOG = ROOT / "build/political-usa-dc-catalog.json"
 TARGET = Path(__file__).with_name("card16.json")
 COUNTRIES = {"VDC": {"name": "Potomac Civic District", "name_tr": "Potomac Kent Bölgesi", "color": [135, 135, 135], "country_type": "recognized", "tier": "city_state", "cultures": ["yankee"], "religion": "protestant", "capital": "STATE_DISTRICT_OF_COLUMBIA"}, "USA": {"name": "Residual United States Jurisdiction", "name_tr": "Geçici ABD Yetki Alanı", "color": [125, 125, 125], "country_type": "recognized", "tier": "principality", "cultures": ["yankee"], "religion": "protestant", "capital": "STATE_ALABAMA", "companies": {"mode": "replace", "add": [], "remove": []}}}
 def main() -> None:
- subprocess.run([sys.executable,"scripts/tools.py","atlas","catalog","--region","USA","--out",str(CATALOG)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,"scenarios/atlas/world_political/catalog_vanilla.py","atlas","catalog","--baseline","vanilla","--region","USA","--out",str(CATALOG)],cwd=ROOT,check=True)
  state=next(s for s in json.loads(CATALOG.read_text())["states"] if s["id"]=="STATE_DISTRICT_OF_COLUMBIA")
  parts=[]
  for entry in state["owners"]:

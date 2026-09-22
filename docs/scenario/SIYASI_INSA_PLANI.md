@@ -2,9 +2,11 @@
 
 **19 Eylül 2026.** Bu belge, The Golden Crescent'ın Atlas üretim sırasının yeni tek planıdır. Önce dünyanın siyasi haritası kurulacak; ülke içi ekonomi, nüfus, hukuk, teknoloji, ordu ve Flavor bundan sonra gelir.
 
+**22 Eylül güncellemesi:** Kullanıcı siyasi haritayı doğrudan oyunda görmek istiyor. Siyasi kaynak `world/scenario.yml` içine taşındı ve Atlas tarafından üretildi. Geçici vanilla nüfus/bina taşıması ile motor testinin sınırı [siyasi oyun kurulumunda](SIYASI_OYUN_KURULUMU.md) kayıtlıdır. Aşağıdaki eski aşama sırası üretim tarihidir; güncel teslim statüsü bu paragraftır.
+
 ## Hedef ve sınır
 
-İlk teslim, 1 Ocak 1836 için dünya çapında incelenebilir bir siyasi önizlemedir. Her kara state için tek doğrudan sahip; her bağımlı devlet için tek overlord; sömürge, liman imtiyazı ve hak iddiası için ayrı bir tanım bulunur. Harita, bu aşamada etkin `world/` kaynağı veya oynanabilir başlangıç değildir.
+İlk teslim, 1 Ocak 1836 için dünya çapında incelenebilir bir siyasi önizlemeydi. Her kara state için tek doğrudan sahip; her bağımlı devlet için tek overlord; sömürge, liman imtiyazı ve hak iddiası için ayrı bir tanım bulunur. Bu kararlar şimdi etkin `world/` kaynağındadır; oyun içi doğrulama ayrıca gereklidir.
 
 Bu aşama bilinçli olarak şunları yapmaz: nüfus toplamı, kültür/din oranı, bina, şirket, kanun, teknoloji, ordu, piyasa, event veya GFX üretmez. Bunlar siyasi sınırlar kilitlendikten sonra aynı dünya kaynağına eklenir.
 
@@ -16,7 +18,7 @@ Bu aşama bilinçli olarak şunları yapmaz: nüfus toplamı, kültür/din oran�
 | Siyasi kart | `scenarios/atlas/world_political/regions/` | Bir bölgenin gerçek Atlas state kimlikleriyle sahiplik taslağı |
 | Birleşik siyasi önizleme | `build/world-political/partial-political-preview.json` | 65 karttan türeyen, 675 state'i ve yazılı başlangıç bağlılıklarını açıkça kapsayan etkin olmayan Atlas V2 önizlemesi |
 | Atlas çıktıları | `build/world-political/` ve `build/maps/` | Geçici HTML/JSON/rapor; kaynak değildir |
-| Etkin başlangıç dünyası | `world/scenario.yml` | Ancak siyasi kilit ve temel mekanik katmanı tamamlanınca oluşturulur |
+| Etkin başlangıç dünyası | `world/scenario.yml` | Siyasi sahiplik, başlangıç diplomasisi ve geçici vanilla nüfus/bina taşıması; aktif Atlas kaynağı |
 
 Kart tamamlanmadan birleşik senaryoya eklenmez. Böylece yarı kararlı bir sınır, sonraki ekonomi veya Flavor çalışmasına yanlış gerçekmiş gibi sızmaz.
 

@@ -10,7 +10,7 @@ def main():
  states={}
  for old in ('SPA','POR'):
   tmp=ROOT/f'build/political-card42-{old.lower()}-catalog.json'
-  subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region',old,'--scenario','build/world-political/partial-political-preview.json','--out',str(tmp)],cwd=ROOT,check=True)
+  subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region',old,'--scenario','build/world-political/partial-political-preview.json','--out',str(tmp)],cwd=ROOT,check=True)
   for s in json.loads(tmp.read_text())['states']:
    if s['id'] in TARGETS and TARGETS[s['id']][0]==old: states[s['id']]=s
  if set(states)!=set(TARGETS):raise RuntimeError(f'missing Iberian states: {sorted(set(TARGETS)-set(states))}')

@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[3];CATALOG=ROOT/'build/political-chl-catal
 COUNTRIES={'VRI':{'name':'Southern Rivers Assembly','name_tr':'Güney Nehirleri Meclisi','color':[89,136,135],'country_type':'unrecognized','tier':'principality','cultures':['patagonian'],'religion':'animist','capital':'STATE_LOS_RIOS'}}
 TARGETS={'STATE_ARAUCANIA':'THL','STATE_LOS_RIOS':'VRI'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','CHL','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','CHL','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];local={p for e in s['owners'] if e['tag']!='CHL' for p in e['provinces']};parts=[]
   for e in s['owners']:

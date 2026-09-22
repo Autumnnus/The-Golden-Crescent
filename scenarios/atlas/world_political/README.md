@@ -1,6 +1,6 @@
 # Dünya siyasi iskeleti
 
-Bu dizin The Golden Crescent'ın etkin olmayan 1836 siyasi dünya önizlemesinin
+Bu dizin The Golden Crescent'ın 1836 siyasi dünya kartlarının
 kaynağıdır. Kartlar yalnız doğrudan state/province sahipliğini ve bunun için
 gerekli asgarî ülke tanımını kurar. Nüfus, kültür-din oranı, bina, şirket,
 kanun, teknoloji, ordu, ekonomi ve Flavor burada üretilmez.
@@ -68,8 +68,11 @@ devralınan diplomasiyi ve Londra denizaşırı bağımlılıklarının sabit ka
 denetler; ayrıca etkin modu değiştirmeden `build/scenarios/` altındaki izole
 paketi Atlas'ın sıkı üretilmiş-dünya denetiminden geçirir.
 
-Önizleme `build/` altında kalır. Kullanıcı haritayı kilitlemeden
-`world/scenario.yml` oluşturulmaz ve etkin mod dosyası değiştirilmez.
+Kart önizlemesi `build/` altında kalır. Etkin oyun kaynağı artık
+`world/scenario.yml`dir; [siyasi oyun kurulumu](../../../docs/scenario/SIYASI_OYUN_KURULUMU.md)
+geçici nüfus/bina köprüsünü ve motor doğrulama kapısını açıklar. Kartlarda
+sınır değiştirilirse etkin kaynak da güncellenir ve `active_political_audit.py`
+ile eşitlik doğrulanır.
 
 ## Bölgesel karar kayıtları
 

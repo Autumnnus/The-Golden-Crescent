@@ -20,7 +20,7 @@ TARGETS = {
 
 def main() -> None:
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "DFR,TGR,ASH,EGY,DEN,NET", "--out", str(CATALOG)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "DFR,TGR,ASH,EGY,DEN,NET", "--out", str(CATALOG)],
         cwd=ROOT,
         check=True,
     )

@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3];OUT=Path(__file__).with_name('card52.json')
 COUNTRIES={'VIT':{'name':'Isthmian Council','name_tr':'Kıstak Meclisi','color':[107,145,133],'country_type':'recognized','tier':'principality','cultures':['muisca'],'religion':'catholic','capital':'STATE_PANAMA'}}
 def main():
- p=ROOT/'build/political-clm-panama-catalog.json';subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','CLM','--out',str(p)],cwd=ROOT,check=True)
+ p=ROOT/'build/political-clm-panama-catalog.json';subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','CLM','--out',str(p)],cwd=ROOT,check=True)
  s=next(x for x in json.loads(p.read_text())['states'] if x['id']=='STATE_PANAMA');parts=[]
  for row in s['owners']:parts.append({'owner':'VIT' if row['tag']=='CLM' else row['tag'],'provinces':row['provinces']})
  if not any(row['tag']=='CLM' for row in s['owners']):raise RuntimeError('Panama no longer has CLM share')

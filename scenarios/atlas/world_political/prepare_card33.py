@@ -34,7 +34,7 @@ C = {
 def main() -> None:
     catalog = R / "build/political-dei-catalog.json"
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "DEI", "--out", str(catalog)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "DEI", "--out", str(catalog)],
         cwd=R,
         check=True,
     )

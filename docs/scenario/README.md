@@ -1,6 +1,6 @@
 # The Golden Crescent — yazılı dünya tasarımı
 
-**Sürüm:** 2 · **Başlangıç:** 1 Ocak 1836 · **Durum:** yapımcı taslağı; kullanıcı incelemesine hazır, oyuna uygulanmadı.
+**Sürüm:** 2 · **Başlangıç:** 1 Ocak 1836 · **Durum:** siyasi sınırlar etkin Atlas kaynağına uygulandı; motor doğrulaması ve ülke içi mekanikler sürüyor.
 
 ## Değişmez kurucu fikir
 
@@ -23,7 +23,8 @@ Bunlar kullanıcının belirlediği yönlerdir. Belgelerde bu yönleri açıklay
 |---|---|
 | [Ana senaryo](senaryo.md) | Dünyanın kimliği, nedensel tarih ve 1836'nın büyük meselesi |
 | [Yazılı dünya atlası](dunya_atlasi.md) | Siyasi coğrafya, doğrudan egemenlik ve sınır ihtilafları |
-| [Siyasi state karar defteri](SIYASI_STATE_KARAR_DEFTERI.md) | 675 state'in doğrulanmış province sahibi; siyasi sınırın kesin uygulama kaydı |
+| [Siyasi state karar defteri](SIYASI_STATE_KARAR_DEFTERI.md) | 675 state'in doğrulanmış province sahibi; siyasi sınırın uygulama kaydı |
+| [Siyasi oyun kurulumu](SIYASI_OYUN_KURULUMU.md) | Etkin `world/scenario.yml`, geçici nüfus/bina taşıması ve motor kapısı |
 | [Sınır ve birlik ekleri](sinir_ve_birlik_ekleri.md) | Kritik sınırlar, ortak fonlar ve taç/konfederasyon karar usulleri |
 | [Ülke dosyaları](ulke_dosyalari.md) | Öncelikli oynanabilir ülkelerin yönetimi, iç koalisyonu ve çıkmazları |
 | [Ekonomi ve toplum](ekonomi_ve_toplum.md) | Sanayi zincirleri, nüfus/eğitim hedefleri, kültür-din yaklaşımı |
@@ -45,7 +46,7 @@ Kullanıcı dünya sınırlarını, devletleri ve bağlılıkları önce kurmaya
 
 - Güncel tasarım yukarıdaki dosyalardır. `archive/*_v1.md` eski metinleri değişmeden korur; talimat veya ikinci bir kanon değildir.
 - [Eski yeniden kurulum belgesi](../archive/YENIDEN_KURULUM.md) teknik sorunların tarihsel kaydıdır. Oradaki 171 ülke, eski tag/state listeleri, mezhep dağılımları ve faz takvimi yeni senaryoya emir vermez.
-- Önceki yazılı hazırlık aşaması sona erdi; Atlas ayrı önizleme paketlerinde çalıştırılabilir. Etkin dünya henüz kurulmadı. Flavor için kesin diyagram onayı gerekliliği sürer.
+- Önceki yazılı hazırlık aşaması sona erdi; siyasi Atlas kaynağı `world/scenario.yml` içinde etkinleştirildi. Flavor için kesin diyagram onayı gerekliliği sürer.
 - Yazılı atlas genel dünyayı tarif eder; faz paketleri doğrulanmış il kimlikleriyle bölgesel harita üretir. Sayısal hedefler tasarım girdisidir; motor sonucu değildir.
 - Ana ülkeler için yazılı altyapı ayrıntılandırılmıştır. Siyasi province sınırları
   artık karar defterinde kilitlidir. Küçük ülkelerin tek tek hükümdarları ile

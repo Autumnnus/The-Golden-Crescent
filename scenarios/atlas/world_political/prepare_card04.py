@@ -106,7 +106,7 @@ RUS_TARGETS = {
 
 def refresh_catalog() -> dict:
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "RUS", "--out", str(CATALOG)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "RUS", "--out", str(CATALOG)],
         cwd=ROOT,
         check=True,
     )

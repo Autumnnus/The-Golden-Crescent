@@ -19,7 +19,7 @@ COUNTRIES={
 }
 TARGETS={'STATE_ARIZONA':'APC','STATE_BAJA_CALIFORNIA':'VBP','STATE_CALIFORNIA':'VCL','STATE_CHIHUAHUA':'VNP','STATE_DURANGO':'VDR','STATE_GUERRERO':'VGR','STATE_JALISCO':'VJL','STATE_NEVADA':'BNN','STATE_NEW_MEXICO':'APC','STATE_OAXACA':'VOA','STATE_RIO_GRANDE':'VSR','STATE_SINALOA':'VSO','STATE_SONORA':'VSO','STATE_TEXAS':'COM','STATE_UTAH':'UTE','STATE_ZACATECAS':'VZA'}
 def main():
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','MEX','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','MEX','--out',str(CATALOG)],cwd=ROOT,check=True);by={x['id']:x for x in json.loads(CATALOG.read_text())['states']};states={}
  for sid,target in TARGETS.items():
   s=by[sid];local={p for e in s['owners'] if e['tag']!='MEX' for p in e['provinces']};parts=[];found=False
   for e in s['owners']:

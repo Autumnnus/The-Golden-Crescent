@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[3];OUT=Path(__file__).with_name('card43.js
 TARGETS={'STATE_AL_RIF':'MOR','STATE_CANARY_ISLANDS':'VAN'}
 def main():
  p=ROOT/'build/political-card43-spa-catalog.json'
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','SPA','--out',str(p)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','SPA','--out',str(p)],cwd=ROOT,check=True)
  by={s['id']:s for s in json.loads(p.read_text())['states']}; states={}
  for sid,target in TARGETS.items():
   st=by[sid]

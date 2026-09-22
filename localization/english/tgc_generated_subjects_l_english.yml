@@ -1,0 +1,43 @@
+﻿# OTOMATIK URETILDI - ELLE DUZENLEME
+# Kaynak: world/scenario.yml
+# Ureten: python3 scripts/tools.py atlas build
+# Bu dosyayi degistirmek istiyorsan world/ altindaki YAML'i degistir ve
+# yeniden uret; build kendi ciktisini her calismada siler.
+
+l_english:
+ ve_contractual_vassal:0 "Contractual Vassal"
+ subject_type_ve_contractual_vassal:0 "Contractual Vassal"
+ ve_contractual_vassal_action_name:0 "Contractual Vassal"
+ ve_contractual_vassal_desc:0 "Contractual Vassal"
+ ve_limited_protection:0 "Limited Protection Compact"
+ subject_type_ve_limited_protection:0 "Limited Protection Compact"
+ ve_limited_protection_action_name:0 "Limited Protection Compact"
+ ve_limited_protection_desc:0 "Limited Protection Compact"
+ ve_emirate_compact:0 "Emirate Compact"
+ subject_type_ve_emirate_compact:0 "Emirate Compact"
+ ve_emirate_compact_action_name:0 "Emirate Compact"
+ ve_emirate_compact_desc:0 "Emirate Compact"
+ ve_hajj_protection:0 "Hajj Protection Compact"
+ subject_type_ve_hajj_protection:0 "Hajj Protection Compact"
+ ve_hajj_protection_action_name:0 "Hajj Protection Compact"
+ ve_hajj_protection_desc:0 "Hajj Protection Compact"
+ ve_mandala_autonomy:0 "Mandala Autonomy Compact"
+ subject_type_ve_mandala_autonomy:0 "Mandala Autonomy Compact"
+ ve_mandala_autonomy_action_name:0 "Mandala Autonomy Compact"
+ ve_mandala_autonomy_desc:0 "Mandala Autonomy Compact"
+ ve_japanese_domain:0 "Japanese Domain Compact"
+ subject_type_ve_japanese_domain:0 "Japanese Domain Compact"
+ ve_japanese_domain_action_name:0 "Japanese Domain Compact"
+ ve_japanese_domain_desc:0 "Japanese Domain Compact"
+ ve_autonomous_compact:0 "Autonomous Compact"
+ subject_type_ve_autonomous_compact:0 "Autonomous Compact"
+ ve_autonomous_compact_action_name:0 "Autonomous Compact"
+ ve_autonomous_compact_desc:0 "Autonomous Compact"
+ ve_colonial_charter:0 "Colonial Charter"
+ subject_type_ve_colonial_charter:0 "Colonial Charter"
+ ve_colonial_charter_action_name:0 "Colonial Charter"
+ ve_colonial_charter_desc:0 "Colonial Charter"
+ ve_tributary_compact:0 "Limited Tributary Compact"
+ subject_type_ve_tributary_compact:0 "Limited Tributary Compact"
+ ve_tributary_compact_action_name:0 "Limited Tributary Compact"
+ ve_tributary_compact_desc:0 "Limited Tributary Compact"

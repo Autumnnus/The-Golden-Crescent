@@ -61,7 +61,7 @@ def final_owner(state_id: str, tag: str, province: str) -> str:
 def main() -> None:
     catalog = ROOT / "build/political-fra-final-catalog.json"
     subprocess.run(
-        [sys.executable, "scripts/tools.py", "atlas", "catalog", "--region", "FRA", "--out", str(catalog)],
+        [sys.executable, "scenarios/atlas/world_political/catalog_vanilla.py", "atlas", "catalog", "--baseline", "vanilla", "--region", "FRA", "--out", str(catalog)],
         cwd=ROOT,
         check=True,
     )

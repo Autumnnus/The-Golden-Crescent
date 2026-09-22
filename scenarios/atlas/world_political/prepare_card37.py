@@ -11,7 +11,7 @@ COUNTRIES={
 }
 def main():
  p=ROOT/'build/political-card37-catalog.json'
- subprocess.run([sys.executable,'scripts/tools.py','atlas','catalog','--region','BEL','--out',str(p)],cwd=ROOT,check=True)
+ subprocess.run([sys.executable,'scenarios/atlas/world_political/catalog_vanilla.py','atlas','catalog','--baseline','vanilla','--region','BEL','--out',str(p)],cwd=ROOT,check=True)
  by={s['id']:s for s in json.loads(p.read_text())['states']}
  states={}
  for sid,target in TARGETS.items():

@@ -1,0 +1,221 @@
+{
+  "phase": "1B.3",
+  "parent_scenario_sha256": "89b8131a31cbb6e99c1b382fa19f992182aa7cb2cffb6b49bbe690f90a4f78e5",
+  "parent_report_sha256": "1f7fea968bc6bc4850f05ace558f19bb96d6d920d14d1f4ccae8b0d1d048fe19",
+  "government": {
+    "ruling_interest_groups": [
+      "ig_landowners",
+      "ig_armed_forces",
+      "ig_intelligentsia"
+    ],
+    "interpretation": {
+      "ig_landowners": "hanedan sarayı ve merkezle uzlaşmış mülk sahibi seçkinler",
+      "ig_armed_forces": "merkez profesyonel ordusu",
+      "ig_intelligentsia": "meslek bürokrasisi, hukukçu ve teknik reform kadroları",
+      "ig_industrialists": "gümrük koruması karşılığında dışarıdan destek; başlangıç kabinesinde değil"
+    },
+    "strength_modifiers": "none; Atlas absolute clout does not simulate POP wealth, ownership or leaders"
+  },
+  "military": {
+    "formations": [
+      {
+        "name": "Balkan Ordusu",
+        "type": "army",
+        "hq_region": "region_balkans",
+        "units": [
+          {
+            "type": "combat_unit_type_skirmish_infantry",
+            "state": "STATE_EASTERN_THRACE",
+            "count": 50
+          },
+          {
+            "type": "combat_unit_type_hussars",
+            "state": "STATE_EASTERN_THRACE",
+            "count": 8
+          },
+          {
+            "type": "combat_unit_type_mobile_artillery",
+            "state": "STATE_EASTERN_THRACE",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "name": "Anadolu Ordusu",
+        "type": "army",
+        "hq_region": "region_near_east",
+        "units": [
+          {
+            "type": "combat_unit_type_skirmish_infantry",
+            "state": "STATE_HUDAVENDIGAR",
+            "count": 44
+          },
+          {
+            "type": "combat_unit_type_hussars",
+            "state": "STATE_HUDAVENDIGAR",
+            "count": 7
+          },
+          {
+            "type": "combat_unit_type_mobile_artillery",
+            "state": "STATE_HUDAVENDIGAR",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "name": "Irak ve Levant Ordusu",
+        "type": "army",
+        "hq_region": "region_near_east",
+        "units": [
+          {
+            "type": "combat_unit_type_skirmish_infantry",
+            "state": "STATE_BAGHDAD",
+            "count": 26
+          },
+          {
+            "type": "combat_unit_type_hussars",
+            "state": "STATE_BAGHDAD",
+            "count": 5
+          },
+          {
+            "type": "combat_unit_type_mobile_artillery",
+            "state": "STATE_BAGHDAD",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "name": "Marmara Donanmasi",
+        "type": "fleet",
+        "hq_region": "region_balkans",
+        "ships": [
+          {
+            "type": "ship_type_ship_of_the_line",
+            "state": "STATE_EASTERN_THRACE",
+            "count": 12
+          },
+          {
+            "type": "ship_type_frigate",
+            "state": "STATE_EASTERN_THRACE",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "name": "Ege ve Levant Donanmasi",
+        "type": "fleet",
+        "hq_region": "region_near_east",
+        "ships": [
+          {
+            "type": "ship_type_ship_of_the_line",
+            "state": "STATE_HUDAVENDIGAR",
+            "count": 8
+          },
+          {
+            "type": "ship_type_frigate",
+            "state": "STATE_HUDAVENDIGAR",
+            "count": 14
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "battalions": 160,
+      "ships": 48,
+      "army_composition": {
+        "combat_unit_type_skirmish_infantry": 120,
+        "combat_unit_type_hussars": 20,
+        "combat_unit_type_mobile_artillery": 20
+      },
+      "fleet_composition": {
+        "ship_type_ship_of_the_line": 20,
+        "ship_type_frigate": 28
+      }
+    },
+    "vanilla_comparisons_from_parent_report": {
+      "EGY": {
+        "population": 6529232,
+        "battalions": 83,
+        "ships": 14
+      },
+      "AUS": {
+        "population": 20748330,
+        "battalions": 129,
+        "ships": 5
+      },
+      "PRU": {
+        "population": 14062517,
+        "battalions": 128,
+        "ships": 0
+      },
+      "FRA": {
+        "population": 34586675,
+        "battalions": 187,
+        "ships": 74
+      },
+      "GBR": {
+        "population": 25831663,
+        "battalions": 121,
+        "ships": 196
+      }
+    }
+  },
+  "industry_changes": {
+    "STATE_EASTERN_THRACE": {
+      "building_chemical_plant": {
+        "level": 8,
+        "production_methods": [
+          "pm_artificial_fertilizers"
+        ]
+      },
+      "building_explosives_factory": {
+        "level": 3,
+        "production_methods": [
+          "pm_leblanc_process"
+        ]
+      },
+      "building_artillery_foundry": {
+        "level": 3,
+        "production_methods": [
+          "pm_cannons",
+          "pm_automation_disabled"
+        ]
+      },
+      "building_munition_plant": {
+        "level": 5,
+        "production_methods": [
+          "pm_percussion_caps",
+          "pm_automation_disabled"
+        ]
+      }
+    },
+    "STATE_SKOPIA": {
+      "building_iron_mine": {
+        "level": 32
+      }
+    }
+  },
+  "technology_additions": [
+    "general_staff",
+    "napoleonic_warfare"
+  ],
+  "fiscal_pressure": {
+    "represented": [
+      "standing formation manpower and ship crews",
+      "military wages and materiel demanded by the engine",
+      "domestic arms, ammunition, artillery and explosive production capacity"
+    ],
+    "not_represented": [
+      "opening debt principal",
+      "opening treasury balance",
+      "interest rate or scripted repayment schedule"
+    ],
+    "reason": "Atlas V2 country schema has no treasury, debt, budget or raw-effect field"
+  },
+  "engine_gates": [
+    "measure employment, military wages, goods prices and opening budget",
+    "measure legitimacy and clout produced by the three-IG government",
+    "confirm formation names, headquarters and naval readiness in the current game build",
+    "decide whether Atlas needs an explicit safe starting-debt contract"
+  ]
+}

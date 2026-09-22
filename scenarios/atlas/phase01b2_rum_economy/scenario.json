@@ -1,0 +1,3683 @@
+{
+  "version": 2,
+  "title": "The Golden Crescent - Phase 1B.2: Rum Emancipation and Economic Backbone",
+  "description": "PREVIEW ONLY. Cumulative Phase 1A/1B.1 source. RUM directly governs 27,000,000 people. All 216,325 inherited slave-status persons keep culture/religion and begin free. An explicit coal-iron-tools-steel-textile-paper-food-transport-administration backbone is distributed by resource and hub ownership. This is statically validated design data, not a runtime GDP, employment, budget or market-access guarantee.",
+  "countries": {
+    "RUM": {
+      "name": "Empire of Rum",
+      "name_tr": "Rûm İmparatorluğu",
+      "color": [
+        41,
+        125,
+        136
+      ],
+      "country_type": "recognized",
+      "tier": "empire",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_EASTERN_THRACE",
+      "phase": "1B.2",
+      "notes": "1B.2 preview: 1811 emancipation is represented in starting POP status; industrial, resource, transport, university and administration backbone is explicit. Military, IG balance, company definition and runtime budget/market behavior remain pending.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4,
+        "add": [
+          "atmospheric_engine",
+          "canneries",
+          "democracy",
+          "dialectics",
+          "empiricism",
+          "intensive_agriculture",
+          "labor_movement",
+          "lathe",
+          "law_enforcement",
+          "manufacturies",
+          "mechanical_tools",
+          "mechanized_workshops",
+          "medical_degrees",
+          "military_drill",
+          "railways",
+          "rationalism",
+          "rifling",
+          "screw_frigate",
+          "stock_exchange"
+        ]
+      },
+      "history_mode": "replace",
+      "laws": {
+        "mode": "replace",
+        "values": [
+          "law_monarchy",
+          "law_wealth_voting",
+          "law_appointed_bureaucrats",
+          "law_subjecthood",
+          "law_freedom_of_conscience",
+          "law_professional_army",
+          "law_professional_navy",
+          "law_interventionism",
+          "law_protectionism",
+          "law_land_based_taxation",
+          "law_tenant_farmers",
+          "law_no_colonial_affairs",
+          "law_dedicated_police",
+          "law_no_home_affairs",
+          "law_public_schools",
+          "law_charitable_health_system",
+          "law_no_workers_rights",
+          "law_restricted_child_labor",
+          "law_women_own_property",
+          "law_no_social_security",
+          "law_no_migration_controls",
+          "law_censorship",
+          "law_anti_strike_laws",
+          "law_slavery_banned"
+        ]
+      },
+      "institutions": {
+        "institution_schools": 2,
+        "institution_health_system": 1,
+        "institution_police": 1
+      }
+    },
+    "BOS": {
+      "name": "Bosnia Emirate",
+      "name_tr": "Bosna Emirliği",
+      "color": [
+        219,
+        151,
+        78
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "bosniak"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BOSNIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ALB": {
+      "name": "Albania Emirate",
+      "name_tr": "Arnavutluk Emirliği",
+      "color": [
+        185,
+        96,
+        107
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "albanian"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ALBANIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "BUL": {
+      "name": "Danube Emirate",
+      "name_tr": "Tuna Emirliği",
+      "color": [
+        175,
+        156,
+        70
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "bulgarian"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BULGARIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ADA": {
+      "name": "Adana Atabegate",
+      "name_tr": "Adana Atabeyliği",
+      "color": [
+        216,
+        137,
+        89
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ADANA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "ERZ": {
+      "name": "Erzurum Atabegate",
+      "name_tr": "Erzurum Atabeyliği",
+      "color": [
+        146,
+        120,
+        182
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_ERZURUM",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "TRB": {
+      "name": "Trabzon Atabegate",
+      "name_tr": "Trabzon Atabeyliği",
+      "color": [
+        71,
+        155,
+        96
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "turkish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_TRABZON",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "KUR": {
+      "name": "Kurdistan Emirate",
+      "name_tr": "Kürdistan Emirliği",
+      "color": [
+        175,
+        185,
+        89
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "kurdish"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_MOSUL",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "BSR": {
+      "name": "Basra Republic",
+      "name_tr": "Basra Cumhuriyeti",
+      "color": [
+        84,
+        171,
+        177
+      ],
+      "country_type": "recognized",
+      "tier": "city_state",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BASRA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "SYR": {
+      "name": "Damascus Emirate",
+      "name_tr": "Şam Emirliği",
+      "color": [
+        180,
+        105,
+        92
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_SYRIA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "LEB": {
+      "name": "Mount Lebanon Emirate",
+      "name_tr": "Cebel-i Lübnan Emirliği",
+      "color": [
+        128,
+        171,
+        129
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_LEBANON",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "PAL": {
+      "name": "Jerusalem Emirate",
+      "name_tr": "Kudüs Emirliği",
+      "color": [
+        184,
+        144,
+        182
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "mashriqi"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_PALESTINE",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    },
+    "KUW": {
+      "name": "Kuwait Emirate",
+      "name_tr": "Kuveyt Emirliği",
+      "color": [
+        219,
+        179,
+        112
+      ],
+      "country_type": "recognized",
+      "tier": "city_state",
+      "cultures": [
+        "bedouin"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BASRA",
+      "phase": "1A",
+      "notes": "Geographical identity only. Religion is a state-affiliation placeholder; no population conversion. Economy/laws/military and exact institutions await phase 1B; do not install this preview. Tier 4 is a temporary compiler compatibility baseline, not the intended scenario technology level.",
+      "technology": {
+        "mode": "replace",
+        "tier": 4
+      }
+    }
+  },
+  "states": {
+    "STATE_ADANA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x39CBF7",
+            "x4DA0F1",
+            "x7DD48B",
+            "x8517E9",
+            "xCCBD19",
+            "xDAD836",
+            "xF657D8"
+          ]
+        },
+        {
+          "owner": "ADA",
+          "provinces": [
+            "x2111E0",
+            "x63E9DB",
+            "x909463",
+            "xA09060",
+            "xA4523A",
+            "xB0E060",
+            "xE8DCC5",
+            "xFA9C84"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "claims": [],
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 432000,
+            "literacy": 0.31,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.8064375
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.071671296296
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.100324074074
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.015
+              },
+              {
+                "culture": "greek",
+                "religion": "catholic",
+                "share": 0.002391203704
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.00119212963,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.002983796296,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_port": 0,
+              "building_fishing_wharf": 0,
+              "building_cotton_plantation": 0,
+              "building_livestock_ranch": 0,
+              "building_tea_plantation": 0,
+              "building_logging_camp": {
+                "level": 4,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_ALBANIA": {
+      "owner": "ALB",
+      "phase": "1A"
+    },
+    "STATE_ALEPPO": {
+      "owner": "RUM",
+      "phase": "1A",
+      "claims": [],
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1534000,
+            "literacy": 0.42,
+            "composition": [
+              {
+                "culture": "mashriqi",
+                "religion": "sunni",
+                "share": 0.290050847458
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "shiite",
+                "share": 0.141652542373
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "shiite",
+                "share": 0.013490873533
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "orthodox",
+                "share": 0.053962842243
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "orthodox",
+                "share": 0.106239243807
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.161888526728
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.048904172099
+              },
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.121416558018
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.020235984355
+              },
+              {
+                "culture": "bedouin",
+                "religion": "sunni",
+                "share": 0.020235984355
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.006745110821,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.01517731421,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 4,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 3,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 3,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_textile_mill": {
+                "level": 9,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_paper_mill": {
+                "level": 5,
+                "production_methods": [
+                  "pm_sulfite_pulping",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_food_industry": {
+                "level": 6,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_furniture_manufactory": 3,
+              "building_railway": {
+                "level": 2,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 4,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_logging_camp": {
+                "level": 6,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_no_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 10,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 8,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_ANKARA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x03F8EA",
+            "x04F350",
+            "x098D9C",
+            "x0BD6EC",
+            "x0D1D4E",
+            "x15BC1F",
+            "x17B19B",
+            "x180265",
+            "x1A75C7",
+            "x25499A",
+            "x29D9AF",
+            "x3041CC",
+            "x30A0E0",
+            "x39B060",
+            "x3E9653",
+            "x401080",
+            "x409000",
+            "x431F60",
+            "x465D69",
+            "x5D2F75",
+            "x5F00C0",
+            "x62FAA8",
+            "x66B13B",
+            "x785849",
+            "x7DD19B",
+            "x8713CE",
+            "x895D6B",
+            "x8E9935",
+            "x964F97",
+            "x967F78",
+            "xA8674E",
+            "xB556A0",
+            "xC09000",
+            "xC29DFD",
+            "xCAF12B",
+            "xCB8C83",
+            "xE17847",
+            "xEB1F97",
+            "xF470A0"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 2589000,
+            "literacy": 0.34,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.547729239088
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.063329084589
+              },
+              {
+                "culture": "turkish",
+                "religion": "shiite",
+                "share": 0.216075704905
+              },
+              {
+                "culture": "kurdish",
+                "religion": "shiite",
+                "share": 0.015478563152
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.056468520664
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.097037079954
+              },
+              {
+                "culture": "armenian",
+                "religion": "catholic",
+                "share": 0.002659714175
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.000145616068
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.000633062959,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.000190034762,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "georgian",
+                "religion": "orthodox",
+                "share": 0.000253379684,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 6,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 3,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 3,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_tooling_workshop": {
+                "level": 4,
+                "production_methods": [
+                  "pm_steel",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_food_industry": {
+                "level": 8,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_railway": {
+                "level": 2,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 9,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_no_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 20,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 12,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_ATTICA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0A645C",
+            "x465F8D",
+            "x518791",
+            "x8D7F62",
+            "xA010A0",
+            "xBF5160",
+            "xC72C61",
+            "xCA246A"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1151000,
+            "literacy": 0.43,
+            "composition": [
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 1.0
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 4,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 4,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 3,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_shipyard": {
+                "level": 5,
+                "production_methods": [
+                  "pm_complex_shipbuilding"
+                ]
+              },
+              "building_arms_industry": {
+                "level": 4,
+                "production_methods": [
+                  "pm_rifles",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_glassworks": 6,
+              "building_railway": {
+                "level": 3,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 5,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_lead_mine": {
+                "level": 10,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_lead_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_sulfur_mine": {
+                "level": 8,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_sulfur_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 7,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_wheat_farm": {
+                "level": 5,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 5,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_AYDIN": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x15CC91",
+            "x205020",
+            "x20AAE2",
+            "x6E8DF4",
+            "x95ABDB",
+            "xA090A0",
+            "xABD1D0",
+            "xB020E0",
+            "xBEA226",
+            "xC0FCA9",
+            "xE8A5DB",
+            "xFD1F86"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 2109000,
+            "literacy": 0.44,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.596175912755
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.007343764817
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.372898530109
+              },
+              {
+                "culture": "greek",
+                "religion": "catholic",
+                "share": 0.000617828355
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.014013276434
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.000239449976
+              },
+              {
+                "culture": "north_italian",
+                "religion": "catholic",
+                "share": 0.000238975818
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.002392128971,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.006080132765,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 5,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 3,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 4,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_coal_mine": {
+                "level": 25,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_coal_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_textile_mill": {
+                "level": 12,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_craftsman_sewing",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_furniture_manufactory": 6,
+              "building_food_industry": {
+                "level": 5,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_railway": {
+                "level": 4,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 6,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 5,
+              "building_wheat_farm": {
+                "level": 8,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 8,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              },
+              "building_silk_plantation": {
+                "level": 4,
+                "production_methods": [
+                  "default_building_silk_plantation",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_BAGHDAD": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0748CD",
+            "x0B769F",
+            "x0CA064",
+            "x13CEE0",
+            "x1D7CB1",
+            "x1EC145",
+            "x1EDF69",
+            "x205060",
+            "x20D060",
+            "x281DD3",
+            "x312AA2",
+            "x34A371",
+            "x396DB2",
+            "x4F90CC",
+            "x4FD1AE",
+            "x50D95C",
+            "x523252",
+            "x54DF0B",
+            "x5F9550",
+            "x679B60",
+            "x79A258",
+            "x7AD6CB",
+            "x7F8783",
+            "x803872",
+            "x81730A",
+            "x92702E",
+            "xA05060",
+            "xA4A407",
+            "xAE7D6F",
+            "xBB57AC",
+            "xC375C0",
+            "xDC55AB",
+            "xE090E0",
+            "xEE1814"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1438000,
+            "literacy": 0.47,
+            "composition": [
+              {
+                "culture": "mashriqi",
+                "religion": "sunni",
+                "share": 0.40840403338
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "shiite",
+                "share": 0.231539638387
+              },
+              {
+                "culture": "bedouin",
+                "religion": "sunni",
+                "share": 0.20759527121
+              },
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.047888734353
+              },
+              {
+                "culture": "bedouin",
+                "religion": "shiite",
+                "share": 0.039912378303
+              },
+              {
+                "culture": "armenian",
+                "religion": "catholic",
+                "share": 0.001397079277
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.00073852573
+              },
+              {
+                "culture": "assyrian",
+                "religion": "oriental_orthodox",
+                "share": 0.000639082058
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.031944367177
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.009980528512,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.019960361613,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 6,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 6,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 4,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_paper_mill": {
+                "level": 12,
+                "production_methods": [
+                  "pm_sulfite_pulping",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_textile_mill": {
+                "level": 6,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_food_industry": {
+                "level": 8,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_furniture_manufactory": 4,
+              "building_railway": {
+                "level": 3,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_rice_farm": {
+                "level": 15,
+                "production_methods": [
+                  "pm_soil_enriching_farming_building_rice_farm",
+                  "pm_no_secondary",
+                  "pm_tools_building_rice_farm"
+                ]
+              },
+              "building_tobacco_plantation": 4
+            }
+          }
+        }
+      }
+    },
+    "STATE_BASRA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x1CC9CC",
+            "x1D7F5E",
+            "x41F864",
+            "x7CAD29",
+            "x88ADC8",
+            "x93CB74",
+            "x9F9CCA",
+            "xBE6A23",
+            "xF1BF17",
+            "xFE18C1"
+          ]
+        },
+        {
+          "owner": "KUW",
+          "provinces": [
+            "x00F060",
+            "x68C89A",
+            "xDABB9C"
+          ]
+        },
+        {
+          "owner": "BSR",
+          "provinces": [
+            "x2050E0",
+            "x6CBE21",
+            "x807060",
+            "xDB6370"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 575000,
+            "literacy": 0.26,
+            "composition": [
+              {
+                "culture": "mashriqi",
+                "religion": "shiite",
+                "share": 0.63863826087
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "sunni",
+                "share": 0.031473043478
+              },
+              {
+                "culture": "bedouin",
+                "religion": "sunni",
+                "share": 0.169043478261
+              },
+              {
+                "culture": "bedouin",
+                "religion": "shiite",
+                "share": 0.122104347826
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.004693913043,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.030523478261,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.002817391304
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.000234782609
+              },
+              {
+                "culture": "armenian",
+                "religion": "catholic",
+                "share": 0.000471304348
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_trade_center": 0,
+              "building_port": 0,
+              "building_fishing_wharf": 0,
+              "building_sulfur_mine": {
+                "level": 10,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_sulfur_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_rice_farm": {
+                "level": 7,
+                "production_methods": [
+                  "pm_soil_enriching_farming_building_rice_farm",
+                  "pm_no_secondary",
+                  "pm_tools_building_rice_farm"
+                ]
+              },
+              "building_tobacco_plantation": 3
+            }
+          }
+        }
+      }
+    },
+    "STATE_BOSNIA": {
+      "owner": "BOS",
+      "phase": "1A"
+    },
+    "STATE_BULGARIA": {
+      "owner": "BUL",
+      "phase": "1A"
+    },
+    "STATE_CRETE": {
+      "owner": "RUM",
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 384000,
+            "literacy": 0.34,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.4285390625
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.5714609375
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_food_industry": {
+                "level": 2,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_port": {
+                "level": 2,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2,
+              "building_cotton_plantation": {
+                "level": 2,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_CYPRUS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x40B020",
+            "x79685E",
+            "xBF3020"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 336000,
+            "literacy": 0.36,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.294380952381
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.672735119048
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.004505952381
+              },
+              {
+                "culture": "mashriqi",
+                "religion": "catholic",
+                "share": 0.005776785714
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.002422619048,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.020178571428,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 1,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_iron_mine": {
+                "level": 4,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_iron_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_sulfur_mine": {
+                "level": 3,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_sulfur_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_port": {
+                "level": 2,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2,
+              "building_wheat_farm": {
+                "level": 3,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_DEIR_EZ_ZOR": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0D20D8",
+            "x19152C",
+            "x1B437C",
+            "x1ECFDA",
+            "x1F78F4",
+            "x205956",
+            "x246A9F",
+            "x24B968",
+            "x479916",
+            "x519F26",
+            "x56095E",
+            "x6BDF5C",
+            "x849047",
+            "x969057",
+            "x97B814",
+            "x9A097B",
+            "xA6B14C",
+            "xBD22F1",
+            "xBF549D",
+            "xC414B6",
+            "xCE5C9A",
+            "xE67DB6",
+            "xF5D646",
+            "xF98995"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 479000,
+            "literacy": 0.23,
+            "composition": [
+              {
+                "culture": "mashriqi",
+                "religion": "sunni",
+                "share": 0.566713987474
+              },
+              {
+                "culture": "assyrian",
+                "religion": "oriental_orthodox",
+                "share": 0.173146137787
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.195202505219
+              },
+              {
+                "culture": "bedouin",
+                "religion": "sunni",
+                "share": 0.06296868476
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.001181628392,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.000787056368,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_livestock_ranch": {
+                "level": 5,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_DIYARBAKIR": {
+      "owner": "KUR",
+      "phase": "1A"
+    },
+    "STATE_DOBRUDJA": {
+      "split": [
+        {
+          "owner": "BUL",
+          "provinces": [
+            "x316021",
+            "x7763F3",
+            "x7F25CD",
+            "x940C8D",
+            "xA3D7CE",
+            "xB06121",
+            "xD9E021"
+          ]
+        },
+        {
+          "owner": "RUS",
+          "provinces": [
+            "x50F5CB"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_EASTERN_SERBIA": {
+      "owner": "SER",
+      "phase": "1A"
+    },
+    "STATE_EASTERN_THRACE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x115006",
+            "x194E90",
+            "x2073F0",
+            "x608BB0",
+            "xF02082",
+            "xF0A020",
+            "xFCF160"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 2876000,
+            "literacy": 0.56,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.620255910987
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.209973574409
+              },
+              {
+                "culture": "north_italian",
+                "religion": "catholic",
+                "share": 0.005953755216
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.05957162726
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.05063038943
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.037233310153
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.004467663421,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.011913769124,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 15,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 8,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 8,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_tooling_workshop": {
+                "level": 18,
+                "production_methods": [
+                  "pm_steel",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_steel_mill": {
+                "level": 13,
+                "production_methods": [
+                  "pm_blister_steel_process",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_motor_industry": {
+                "level": 5,
+                "production_methods": [
+                  "pm_steam_engines",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_arms_industry": {
+                "level": 8,
+                "production_methods": [
+                  "pm_rifles",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_shipyard": {
+                "level": 8,
+                "production_methods": [
+                  "pm_complex_shipbuilding"
+                ]
+              },
+              "building_textile_mill": {
+                "level": 12,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_craftsman_sewing",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_paper_mill": {
+                "level": 10,
+                "production_methods": [
+                  "pm_sulfite_pulping",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_food_industry": {
+                "level": 8,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_chemical_plant": {
+                "level": 6,
+                "production_methods": [
+                  "pm_artificial_fertilizers"
+                ]
+              },
+              "building_railway": {
+                "level": 6,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 8,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_iron_mine": {
+                "level": 18,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_iron_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 4,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_no_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 5,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_silk_plantation": {
+                "level": 3,
+                "production_methods": [
+                  "default_building_silk_plantation",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_EAST_AEGEAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x2190A0",
+            "xC56452",
+            "xE011A0"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 240000,
+            "literacy": 0.42,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.095675
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.0212375
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.8830875
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_port": {
+                "level": 1,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2
+            }
+          }
+        }
+      }
+    },
+    "STATE_ERZURUM": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x25E046",
+            "x3051BD",
+            "x409080",
+            "x4F6E8F",
+            "x5C223C",
+            "xA23F9A",
+            "xC7DC49",
+            "xD0901D",
+            "xF51B98"
+          ]
+        },
+        {
+          "owner": "ERZ",
+          "provinces": [
+            "x27689E",
+            "x31B08C",
+            "x52EB9A",
+            "x59E513",
+            "x60677E",
+            "x669A31",
+            "x740ED1",
+            "x795751",
+            "x7BC870",
+            "x801080",
+            "x81F589",
+            "x895074",
+            "x8F5A6A",
+            "x90BA49",
+            "x92A943",
+            "xC01080",
+            "xC41BC3",
+            "xFDB72C"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 431000,
+            "literacy": 0.24,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.171234338747
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.188696055684
+              },
+              {
+                "culture": "turkish",
+                "religion": "shiite",
+                "share": 0.105821345708
+              },
+              {
+                "culture": "kurdish",
+                "religion": "shiite",
+                "share": 0.23169837587
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.001167053364
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.000180974478
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.290403712297
+              },
+              {
+                "culture": "armenian",
+                "religion": "catholic",
+                "share": 0.004554524362
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.004881670534,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.000568445476,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "georgian",
+                "religion": "orthodox",
+                "share": 0.00079350348,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_wheat_farm": {
+                "level": 3,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 3,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_HUDAVENDIGAR": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x13886D",
+            "x2F78D7",
+            "x3020E0",
+            "x30A060",
+            "x31CD7B",
+            "x34C810",
+            "x3F1505",
+            "x809000",
+            "xB0A060",
+            "xB4D60B",
+            "xB8FEBB"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 2876000,
+            "literacy": 0.5,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.80751216968
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.001935674548
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.060938803894
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.000896731572
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.121878998609
+              },
+              {
+                "culture": "greek",
+                "religion": "catholic",
+                "share": 0.002022253129
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.001926286509,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.002889082059,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 8,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 5,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 6,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_tooling_workshop": {
+                "level": 15,
+                "production_methods": [
+                  "pm_steel",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_steel_mill": {
+                "level": 10,
+                "production_methods": [
+                  "pm_blister_steel_process",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_motor_industry": {
+                "level": 5,
+                "production_methods": [
+                  "pm_steam_engines",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_textile_mill": {
+                "level": 18,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_craftsman_sewing",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_paper_mill": {
+                "level": 8,
+                "production_methods": [
+                  "pm_sulfite_pulping",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_furniture_manufactory": 8,
+              "building_food_industry": {
+                "level": 6,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_chemical_plant": {
+                "level": 4,
+                "production_methods": [
+                  "pm_artificial_fertilizers"
+                ]
+              },
+              "building_railway": {
+                "level": 5,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 6,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 9,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 5,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 6,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              },
+              "building_silk_plantation": {
+                "level": 4,
+                "production_methods": [
+                  "default_building_silk_plantation",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_IONIAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x405060",
+            "x4B79CA"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 288000,
+            "literacy": 0.43,
+            "composition": [
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.989302083333
+              },
+              {
+                "culture": "british",
+                "religion": "protestant",
+                "share": 8.3333333e-05
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.010614583334
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_port": {
+                "level": 2,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2,
+              "building_wheat_farm": {
+                "level": 2,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_KARS": {
+      "split": [
+        {
+          "owner": "ERZ",
+          "provinces": [
+            "x009000",
+            "x467F92",
+            "x809001",
+            "x8A9689",
+            "xB8481F"
+          ]
+        },
+        {
+          "owner": "RUS",
+          "provinces": [
+            "x327755",
+            "xC09080"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_KASTAMONU": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x1D8401",
+            "x312F4B",
+            "x415C04",
+            "x449057",
+            "x6089D1",
+            "x747BB5",
+            "x7A7E06",
+            "xB82B24",
+            "xBEBB3F",
+            "xC01000",
+            "xC1C893",
+            "xE1E090",
+            "xF040E0"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1534000,
+            "literacy": 0.38,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.972857887875
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.021200130378
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.000521512386
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.003871577575,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.001548891786,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 3,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 2,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 3,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_coal_mine": {
+                "level": 45,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_coal_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_tooling_workshop": {
+                "level": 4,
+                "production_methods": [
+                  "pm_steel",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_railway": {
+                "level": 5,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 5,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 11,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_fishing_wharf": 5,
+              "building_wheat_farm": {
+                "level": 10,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 5,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_KONYA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x02FE8B",
+            "x04C595",
+            "x0EABBE",
+            "x1D4A61",
+            "x375BA2",
+            "x401060",
+            "x472F2C",
+            "x47B8CA",
+            "x4CEBB4",
+            "x547B95",
+            "x55148F",
+            "x56087A",
+            "x601020",
+            "x602629",
+            "x65DE76",
+            "x661DB3",
+            "x669397",
+            "x6DB349",
+            "x70373E",
+            "x76099B",
+            "x76C0DF",
+            "x802F12",
+            "x8505DE",
+            "x8F7C3D",
+            "x93F78F",
+            "x9E386C",
+            "x9FFCAB",
+            "xA4ED5C",
+            "xB54481",
+            "xBACCB8",
+            "xBB0729",
+            "xBC2D46",
+            "xC0A9EB",
+            "xC1905F",
+            "xCB2093",
+            "xCCE5E0",
+            "xDE59BB",
+            "xE01020",
+            "xE090A0",
+            "xE8D503",
+            "xEB98F3",
+            "xF28CC2",
+            "xF7871B",
+            "xFA1AEF"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1534000,
+            "literacy": 0.35,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.898330508475
+              },
+              {
+                "culture": "kurdish",
+                "religion": "sunni",
+                "share": 0.025073663625
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.011250977836
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.000174706649
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.063548891786
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.000124511082,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.001496740547,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 5,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 5,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_construction_sector": {
+                "level": 4,
+                "production_methods": [
+                  "pm_iron_frame_buildings"
+                ],
+                "ownership": "government"
+              },
+              "building_tooling_workshop": {
+                "level": 8,
+                "production_methods": [
+                  "pm_steel",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_textile_mill": {
+                "level": 6,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_paper_mill": {
+                "level": 4,
+                "production_methods": [
+                  "pm_sulfite_pulping",
+                  "pm_automation_disabled"
+                ]
+              },
+              "building_food_industry": {
+                "level": 8,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_furniture_manufactory": 4,
+              "building_railway": {
+                "level": 3,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 14,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 10,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 5,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_KOSOVO": {
+      "owner": "ALB",
+      "phase": "1A"
+    },
+    "STATE_LEBANON": {
+      "owner": "LEB",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_MACEDONIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x01D060",
+            "x021374",
+            "x506020",
+            "x70A0E0",
+            "x75CAD1",
+            "x90E0A0",
+            "xBA7B5B",
+            "xD2619E",
+            "xE48F39"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1342000,
+            "literacy": 0.43,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.18829657228
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.618690014903
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.062765275708
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.128230253353
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.000448584203,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.001569299553,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 3,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 2,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_textile_mill": {
+                "level": 4,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_food_industry": {
+                "level": 5,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_railway": {
+                "level": 1,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 9,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_wheat_farm": {
+                "level": 8,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 5,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_MALTA": {
+      "owner": "RUM",
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 173000,
+            "literacy": 0.46,
+            "composition": [
+              {
+                "culture": "maltese",
+                "religion": "catholic",
+                "share": 0.976728323699
+              },
+              {
+                "culture": "british",
+                "religion": "protestant",
+                "share": 0.023271676301
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_shipyard": {
+                "level": 2,
+                "production_methods": [
+                  "pm_complex_shipbuilding"
+                ]
+              },
+              "building_port": {
+                "level": 2,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2
+            }
+          }
+        }
+      }
+    },
+    "STATE_MONTENEGRO": {
+      "split": [
+        {
+          "owner": "MON",
+          "provinces": [
+            "x446E84",
+            "x8C6292",
+            "xA12F82",
+            "xF5F6C2"
+          ]
+        },
+        {
+          "owner": "AUS",
+          "provinces": [
+            "x90A0E0"
+          ]
+        }
+      ],
+      "phase": "1A"
+    },
+    "STATE_MOSUL": {
+      "owner": "KUR",
+      "phase": "1A"
+    },
+    "STATE_NORTHERN_THRACE": {
+      "owner": "BUL",
+      "phase": "1A"
+    },
+    "STATE_PALESTINE": {
+      "owner": "PAL",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_PELOPONNESE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0055D7",
+            "x43409D",
+            "x61E57E",
+            "xBA3449",
+            "xC0D060"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 623000,
+            "literacy": 0.3,
+            "composition": [
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 1.0
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_iron_mine": {
+                "level": 15,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_iron_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 5,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_no_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_port": {
+                "level": 3,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_wheat_farm": {
+                "level": 4,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_vineyard": 3
+            }
+          }
+        }
+      }
+    },
+    "STATE_SKOPIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x11E0A0",
+            "x419E6F",
+            "x494421",
+            "x596DE2",
+            "x7CF777",
+            "x800FE7",
+            "xE0118B"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 959000,
+            "literacy": 0.27,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.213458811262
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.01085088634
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.521107403545
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.124848800834
+              },
+              {
+                "culture": "albanian",
+                "religion": "sunni",
+                "share": 0.129734098019
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 2,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_iron_mine": {
+                "level": 30,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_iron_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 14,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_railway": {
+                "level": 2,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 8,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_tobacco_plantation": 2
+            }
+          }
+        }
+      }
+    },
+    "STATE_SYRIA": {
+      "owner": "SYR",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_THESSALIA": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x01D0E0",
+            "x18C9AD",
+            "x8050E0",
+            "x80D060",
+            "xACFFA7",
+            "xE6E868"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 1438000,
+            "literacy": 0.29,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.067327538248
+              },
+              {
+                "culture": "albanian",
+                "religion": "sunni",
+                "share": 0.010601529903
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.826836578581
+              },
+              {
+                "culture": "sephardic",
+                "religion": "jewish",
+                "share": 0.003353963839
+              },
+              {
+                "culture": "albanian",
+                "religion": "orthodox",
+                "share": 0.091880389429
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 2,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_textile_mill": {
+                "level": 3,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_railway": {
+                "level": 1,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 8,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_no_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_wheat_farm": {
+                "level": 20,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 8,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              },
+              "building_cotton_plantation": {
+                "level": 6,
+                "production_methods": [
+                  "default_building_cotton_plantation",
+                  "default_labour",
+                  "pm_road_carts"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_TRABZON": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x146DD9",
+            "x288BCD",
+            "x809080"
+          ]
+        },
+        {
+          "owner": "TRB",
+          "provinces": [
+            "x001080",
+            "x009080",
+            "x1357F8",
+            "x9655BD",
+            "xA88EEC",
+            "xAE07E3",
+            "xB526B3"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 623000,
+            "literacy": 0.35,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.742889245586
+              },
+              {
+                "culture": "armenian",
+                "religion": "oriental_orthodox",
+                "share": 0.039407704655
+              },
+              {
+                "culture": "armenian",
+                "religion": "sunni",
+                "share": 0.011059390048
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.147886035313
+              },
+              {
+                "culture": "georgian",
+                "religion": "sunni",
+                "share": 0.044131621188
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.00955858748,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.000317817014,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "georgian",
+                "religion": "orthodox",
+                "share": 0.004749598716,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 2,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_food_industry": {
+                "level": 3,
+                "production_methods": [
+                  "pm_bakery",
+                  "pm_cannery",
+                  "pm_disabled_distillery",
+                  "pm_manual_dough_processing"
+                ]
+              },
+              "building_wheat_farm": {
+                "level": 5,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              },
+              "building_livestock_ranch": {
+                "level": 3,
+                "production_methods": [
+                  "pm_open_air_stockyards",
+                  "pm_sheep_farms",
+                  "pm_standard_fences",
+                  "pm_unrefrigerated"
+                ]
+              },
+              "building_tea_plantation": 2
+            }
+          }
+        }
+      }
+    },
+    "STATE_TRANSJORDAN": {
+      "owner": "SYR",
+      "phase": "1A",
+      "claims": []
+    },
+    "STATE_WESTERN_SERBIA": {
+      "owner": "SER",
+      "phase": "1A"
+    },
+    "STATE_WESTERN_THRACE": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x0261AB",
+            "x6181D2",
+            "x702020",
+            "xB2249C",
+            "xBE51B7",
+            "xEDECFB",
+            "xF02020"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 863000,
+            "literacy": 0.32,
+            "composition": [
+              {
+                "culture": "turkish",
+                "religion": "sunni",
+                "share": 0.375108922364
+              },
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 0.513235225956
+              },
+              {
+                "culture": "bulgarian",
+                "religion": "orthodox",
+                "share": 0.109199304751
+              },
+              {
+                "culture": "north_caucasian",
+                "religion": "sunni",
+                "share": 0.000409038239,
+                "pop_type": "peasants"
+              },
+              {
+                "culture": "lacustrine_bantu",
+                "religion": "animist",
+                "share": 0.00204750869,
+                "pop_type": "peasants"
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_government_administration": {
+                "level": 3,
+                "production_methods": [
+                  "pm_horizontal_drawer_cabinets",
+                  "pm_professional_bureaucrats",
+                  "pm_religious_bureaucrats"
+                ],
+                "ownership": "government"
+              },
+              "building_university": {
+                "level": 2,
+                "production_methods": [
+                  "pm_philosophy_department",
+                  "pm_religious_academia"
+                ],
+                "ownership": "government"
+              },
+              "building_textile_mill": {
+                "level": 4,
+                "production_methods": [
+                  "pm_sewing_machines",
+                  "pm_no_luxury_clothes",
+                  "pm_mechanized_looms"
+                ]
+              },
+              "building_glassworks": 6,
+              "building_iron_mine": {
+                "level": 21,
+                "production_methods": [
+                  "pm_atmospheric_engine_pump_building_iron_mine",
+                  "pm_no_explosives",
+                  "pm_no_steam_automation",
+                  "pm_road_carts"
+                ]
+              },
+              "building_logging_camp": {
+                "level": 5,
+                "production_methods": [
+                  "pm_saw_mills",
+                  "pm_hardwood",
+                  "pm_no_equipment",
+                  "pm_road_carts"
+                ]
+              },
+              "building_railway": {
+                "level": 1,
+                "production_methods": [
+                  "pm_early_trains",
+                  "pm_no_passenger_trains"
+                ]
+              },
+              "building_port": {
+                "level": 4,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 3,
+              "building_wheat_farm": {
+                "level": 6,
+                "production_methods": [
+                  "pm_soil_enriching_farming",
+                  "pm_no_secondary",
+                  "pm_tools"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "STATE_WEST_AEGEAN_ISLANDS": {
+      "split": [
+        {
+          "owner": "RUM",
+          "provinces": [
+            "x6090A0",
+            "x6960A0"
+          ]
+        }
+      ],
+      "phase": "1A",
+      "population": {
+        "by_owner": {
+          "RUM": {
+            "total": 173000,
+            "literacy": 0.4,
+            "composition": [
+              {
+                "culture": "greek",
+                "religion": "orthodox",
+                "share": 1.0
+              }
+            ]
+          }
+        }
+      },
+      "industry": {
+        "by_owner": {
+          "RUM": {
+            "mode": "merge",
+            "buildings": {
+              "building_port": {
+                "level": 1,
+                "production_methods": [
+                  "pm_basic_port"
+                ]
+              },
+              "building_fishing_wharf": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "subject_types": {
+    "ve_rum_nizam_dependency": {
+      "base": "vassal",
+      "name": "Nizam Dependency",
+      "name_tr": "Nizam Ahdi Bağlılığı",
+      "overlord_types": [
+        "recognized"
+      ],
+      "subject_types": [
+        "recognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": true,
+      "income_transfer": 0.08
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "TUR",
+      "GRE",
+      "ION",
+      "SER",
+      "WAL",
+      "RUM",
+      "BOS",
+      "ALB",
+      "BUL",
+      "ADA",
+      "ERZ",
+      "TRB",
+      "KUR",
+      "BSR",
+      "SYR",
+      "LEB",
+      "PAL",
+      "KUW"
+    ],
+    "subjects": [
+      {
+        "overlord": "RUM",
+        "subject": "BOS",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ALB",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "BUL",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ADA",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "ERZ",
+        "type": "ve_rum_nizam_dependency"
+      },
+      {
+        "overlord": "RUM",
+        "subject": "TRB",
+        "type": "ve_rum_nizam_dependency"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "title": "Kart 4E/5U — Fransız Denizaşırı Kalıntısının Kapanışı",
+  "description": "Dünya siyasi iskeleti: Fildişi Sahili'ndeki Fransız payı mevcut Akan yerel sahibine döner; Mascarene adaları yerel ada meclisine geçer; iki Küçük Antil province'i ayrı Leeward ve Windward meclislerinde kalır. FRA'nın eski başlangıç diplomasi kayıtları temizlenir.",
+  "countries": {
+    "VMB": {
+      "name": "Mascarene Island Council",
+      "name_tr": "Mascarene Ada Meclisi",
+      "color": [
+        81,
+        144,
+        166
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "afro_caribbean"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_INDIAN_OCEAN_TERRITORY"
+    },
+    "VLE": {
+      "name": "Leeward Island Council",
+      "name_tr": "Leeward Ada Meclisi",
+      "color": [
+        146,
+        108,
+        166
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "afro_caribbean"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_WEST_INDIES"
+    },
+    "VWI": {
+      "name": "Windward Island Council",
+      "name_tr": "Windward Ada Meclisi",
+      "color": [
+        166,
+        130,
+        78
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "afro_caribbean"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_WEST_INDIES"
+    }
+  },
+  "states": {
+    "STATE_IVORY_COAST": {
+      "split": [
+        {
+          "owner": "AYI",
+          "provinces": [
+            "xA0BFCF",
+            "x8E3880",
+            "x20BFCF",
+            "x5313B3",
+            "xA6C81C",
+            "x76636D",
+            "x76D5EA",
+            "xD7CBF8",
+            "x02F6E1"
+          ]
+        },
+        {
+          "owner": "BLE",
+          "provinces": [
+            "xB25210",
+            "x60C050",
+            "x7FFBEA"
+          ]
+        },
+        {
+          "owner": "KNG",
+          "provinces": [
+            "x9D72BC",
+            "x913076",
+            "xF48315",
+            "x2D0E53",
+            "x422883",
+            "xDBCD88",
+            "x68E1B3",
+            "xC70D90",
+            "xF670EF",
+            "xE0C050",
+            "x2F7E3F",
+            "x882B0E",
+            "x2341DB",
+            "x8688F2",
+            "x2E8BB3",
+            "x858A67"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_INDIAN_OCEAN_TERRITORY": {
+      "split": [
+        {
+          "owner": "VMB",
+          "provinces": [
+            "xD690E0",
+            "xD0E090",
+            "x60E0B0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WEST_INDIES": {
+      "split": [
+        {
+          "owner": "VLE",
+          "provinces": [
+            "x33895B"
+          ]
+        },
+        {
+          "owner": "VWI",
+          "provinces": [
+            "x9C52CA"
+          ]
+        },
+        {
+          "owner": "DEN",
+          "provinces": [
+            "x30F080"
+          ]
+        },
+        {
+          "owner": "GBR",
+          "provinces": [
+            "x335389",
+            "x89337A",
+            "x445B6C",
+            "x5299CA",
+            "x70F001",
+            "xF0F001",
+            "x707080",
+            "xD496B1",
+            "x446C63",
+            "x606060",
+            "x89334D"
+          ]
+        },
+        {
+          "owner": "NET",
+          "provinces": [
+            "xB03080",
+            "xECC061",
+            "x1D9B6B"
+          ]
+        },
+        {
+          "owner": "VNZ",
+          "provinces": [
+            "xF07001"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "FRA"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "title": "Kart 5B — Yeni Endülüs ve Maya Çekirdekleri",
+  "description": "Dünya siyasi iskeleti: Meksika havzası–Veracruz bağlantısı Yeni Endülüs'e, Yucatán ve Chiapas'taki MEX payları Maya Birliği'ne gider. İç Meksika sonraki yerel kartlar için geçici sahibiyle kalır.",
+  "countries": {
+    "VNE": {
+      "name": "New Andalusia",
+      "name_tr": "Yeni Endülüs",
+      "color": [
+        64,
+        140,
+        97
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "nahua"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_MEXICO"
+    },
+    "VMY": {
+      "name": "Maya League",
+      "name_tr": "Maya Birliği",
+      "color": [
+        87,
+        137,
+        128
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "mayan"
+      ],
+      "religion": "animist",
+      "capital": "STATE_YUCATAN"
+    },
+    "MEX": {
+      "name": "Unresolved Mexican Interior",
+      "name_tr": "Geçici Meksika İç Bölgesi",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "nahua"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_RIO_GRANDE",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_MEXICO": {
+      "split": [
+        {
+          "owner": "VNE",
+          "provinces": [
+            "x0A1D52",
+            "x0EBDEC",
+            "x10B040",
+            "x10B080",
+            "x204077",
+            "x3A857C",
+            "x44E6F0",
+            "x51EB34",
+            "x5A4C5B",
+            "x5A9469",
+            "x5B5167",
+            "x6BEB21",
+            "x6EFE9A",
+            "x903040",
+            "xCC93D9",
+            "xD5F2F8"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_VERACRUZ": {
+      "split": [
+        {
+          "owner": "VNE",
+          "provinces": [
+            "x067F2A",
+            "x1B2176",
+            "x1B599E",
+            "x1C69F0",
+            "x1CB3F9",
+            "x253627",
+            "x447790",
+            "x4BF28B",
+            "x5CE75E",
+            "x5ED62A",
+            "x87A6C4",
+            "x8A6294",
+            "x9030C0",
+            "x9BDCE5",
+            "xD08EE2",
+            "xD0EF80",
+            "xECF9FC",
+            "xEE1E8B"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_YUCATAN": {
+      "split": [
+        {
+          "owner": "VMY",
+          "provinces": [
+            "x1DB7A7",
+            "x23EF68",
+            "x2C4E34",
+            "x35FEEB",
+            "x40B001",
+            "x47D122",
+            "x4F7405",
+            "x5030C0",
+            "x51E4B6",
+            "x54250B",
+            "x68F271",
+            "x69E5AF",
+            "x8BE638",
+            "x90AC14",
+            "x91484C",
+            "xA59F7B",
+            "xA8DEBE",
+            "xB598B9",
+            "xCE98DE",
+            "xCE9FD1",
+            "xD1EC91",
+            "xDB85B0",
+            "xDD8B61",
+            "xE280B2",
+            "xE31B45",
+            "xE3AD92",
+            "xE68FD8",
+            "xFEE4D4"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CHIAPAS": {
+      "split": [
+        {
+          "owner": "VMY",
+          "provinces": [
+            "x10B0C0",
+            "x1521F4",
+            "x31E49A",
+            "x8E26C5",
+            "xA46BA0",
+            "xA6550F",
+            "xB70B3B",
+            "xE0AADA",
+            "xE8CFA0",
+            "xF19260"
+          ]
+        },
+        {
+          "owner": "VMY",
+          "provinces": [
+            "x1030C0",
+            "x4DBDE9",
+            "xD03040",
+            "xA087F6"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "title": "Kart 3D — Batı Java Yerel Yönetimi",
+  "description": "Batı Javadaki son DEI doğrudan payı Java yerel yönetimine aktarılır; DEI birleşik önizlemede topraksız kalır.",
+  "countries": {
+    "DEI": {
+      "name": "Residual Dutch East Indies Jurisdiction",
+      "name_tr": "Geçici Hollanda Doğu Hint Yetki Alanı",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "dutch"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_EAST_JAVA",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_WEST_JAVA": {
+      "split": [
+        {
+          "owner": "YOG",
+          "provinces": [
+            "x5CC6B6",
+            "x71D392",
+            "xA0DFEF",
+            "xB944CF",
+            "x975BCA",
+            "xCE4107",
+            "x6345B2",
+            "xD70117"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "DEI"
+    ]
+  }
+}

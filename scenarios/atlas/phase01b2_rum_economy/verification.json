@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "RUM emancipation status and economic/administrative backbone",
+  "scenario_sha256": "89b8131a31cbb6e99c1b382fa19f992182aa7cb2cffb6b49bbe690f90a4f78e5",
+  "economy_plan_sha256": "3d03a7601bbe21c3e34e07b6c6d93b968bfa95e32ad0e7606f2cc25bf648f86a",
+  "capacity_audit_sha256": "366a5a0d0ccccc2af675feef5bac8f8034864d475da9898cb5eb86a1ec6c93b7",
+  "report_sha256": "1f7fea968bc6bc4850f05ace558f19bb96d6d920d14d1f4ccae8b0d1d048fe19",
+  "population": 27000000,
+  "freed_starting_people": 216325,
+  "remaining_slave_pop_type": 0,
+  "building_levels": 1231,
+  "explicit_bureaucracy_capacity": 3450.0,
+  "explicit_innovation_capacity": 64.5,
+  "unchanged_other_countries": 452,
+  "additional_warnings": [],
+  "runtime_tested": false,
+  "playable_release": false,
+  "remaining_engine_gates": [
+    "confirm whether history activate_law emits a recent-emancipation variable during setup",
+    "measure employment, qualifications, infrastructure, prices and government budget",
+    "create military and government interest-group setup",
+    "finish the other twelve regional countries and split-state hubs"
+  ]
+}

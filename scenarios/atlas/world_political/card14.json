@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "title": "Kart 5C — İnci Adaları Çekirdeği",
+  "description": "Dünya siyasi iskeleti: Küba, Jamaika ve Porto Riko'daki doğrudan ada çekirdekleri Endülüs'ün İnci Adaları koloni sistemine geçer. Santo Domingo/Haiti, farklı yerel idaresi için ayrı sınır kartında kararlaştırılır; diplomatik sömürge şartı V2 aşamasına bırakılır.",
+  "countries": {
+    "VPI": {
+      "name": "Pearl Islands Colonial Council",
+      "name_tr": "İnci Adaları Koloni Meclisi",
+      "color": [
+        130,
+        88,
+        124
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "caribeno"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_WESTERN_CUBA"
+    }
+  },
+  "states": {
+    "STATE_WESTERN_CUBA": {
+      "split": [
+        {
+          "owner": "VPI",
+          "provinces": [
+            "x4DD008",
+            "x61FC10",
+            "xB325C7",
+            "xDCAB5D",
+            "xF3F2C9",
+            "xFCDEED"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_CENTRAL_CUBA": {
+      "split": [
+        {
+          "owner": "VPI",
+          "provinces": [
+            "x152D1C",
+            "x20EFEA",
+            "x58C211",
+            "x9957D8",
+            "xA70607",
+            "xC3EB7D",
+            "xC464AE",
+            "xD810EC",
+            "xEBE1C7",
+            "xFE4123"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_EASTERN_CUBA": {
+      "split": [
+        {
+          "owner": "VPI",
+          "provinces": [
+            "x0DA38C",
+            "x30B001",
+            "x519343",
+            "x69C041",
+            "xB48FF1",
+            "xE70FA4"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_JAMAICA": {
+      "split": [
+        {
+          "owner": "VPI",
+          "provinces": [
+            "x535B49",
+            "x7070B8",
+            "x1E761E"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_PUERTO_RICO": {
+      "split": [
+        {
+          "owner": "VPI",
+          "provinces": [
+            "xB07080",
+            "x2160B9"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

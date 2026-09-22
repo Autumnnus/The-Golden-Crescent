@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "title": "Kart 1J — Alçak Ülkeler ve Hannover",
+  "description": "Tarihsel Belçika yerine Brabant kent birliği ile Liège yönetimi; Hannover ise Büyük Britanya kişisel birliğinden bağımsız bir Alman aktör olarak kalır. State ölçeği nedeniyle Flanders ve Gelre’deki bütün eski BEL payı Brabant’a, Wallonia’daki pay Liège’e gider.",
+  "countries": {
+    "VBT": {
+      "name": "Brabant City League",
+      "name_tr": "Brabant Kent Birliği",
+      "color": [
+        184,
+        137,
+        68
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "dutch"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_FLANDERS"
+    },
+    "VLG": {
+      "name": "Liege",
+      "name_tr": "Liège Yönetimi",
+      "color": [
+        117,
+        117,
+        155
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "wallonian"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_WALLONIA"
+    }
+  },
+  "states": {
+    "STATE_FLANDERS": {
+      "split": [
+        {
+          "owner": "VBT",
+          "provinces": [
+            "x93FB2E",
+            "x018061",
+            "x0141A0",
+            "x8041A0",
+            "x800060",
+            "x808061"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WALLONIA": {
+      "split": [
+        {
+          "owner": "LUX",
+          "provinces": [
+            "xD001A0"
+          ]
+        },
+        {
+          "owner": "VLG",
+          "provinces": [
+            "xB0A0C0",
+            "x916574",
+            "x2D32D7",
+            "x8080A0",
+            "xEF2040",
+            "x3A5FB9",
+            "x5180A0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_GELRE": {
+      "split": [
+        {
+          "owner": "NET",
+          "provinces": [
+            "xC0C0A0",
+            "x4C4894",
+            "xAF3A54",
+            "x41C0A0"
+          ]
+        },
+        {
+          "owner": "VBT",
+          "provinces": [
+            "x0000DF"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "BEL",
+      "HAN"
+    ]
+  }
+}

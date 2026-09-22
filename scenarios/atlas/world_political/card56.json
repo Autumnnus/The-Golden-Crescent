@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "title": "Kart 2D — Lahor ve Peşaver sınırı",
+  "description": "S4'teki Lahor kararını gerçek STATE_PUNJAB province bloğuna uygular: eski PAN payı Gurkanî'ye geçer; Bahavalpur'un ayrı alt-Pencap payı korunur. Peşaver'deki PAN kalıntısı Kabil'e döner; Sih çekirdeği yalnız kart02'deki Pencap tepelerindedir.",
+  "countries": {},
+  "states": {
+    "STATE_PUNJAB": {
+      "split": [
+        {
+          "owner": "MUG",
+          "provinces": [
+            "x9CEEC1",
+            "xF58253",
+            "x713583",
+            "xE3CCA0",
+            "xA6DAD0",
+            "x3631C3",
+            "x80F0E0",
+            "x50D414",
+            "xE03121",
+            "xD921CB",
+            "x91DEAB",
+            "xAA60D3",
+            "xE2230E",
+            "x918140",
+            "x9B38C0",
+            "xCD3942",
+            "x67DD93",
+            "xCD3E9A",
+            "xB94359",
+            "xE0C4D2",
+            "x4E722C",
+            "x0EC528",
+            "x9AB208",
+            "xA0B0A0",
+            "xCA5BC1",
+            "x97232F",
+            "x051899",
+            "xDB08EC",
+            "x1D3609",
+            "x7074E3",
+            "xD458B6",
+            "x61F7C9",
+            "x767A66",
+            "x36E637",
+            "x12D43A",
+            "xA1CA4A",
+            "xF8614B",
+            "x6C44CE",
+            "x8F5440",
+            "x402C84",
+            "x94A5A8",
+            "xCEAF5E"
+          ]
+        },
+        {
+          "owner": "BHW",
+          "provinces": [
+            "x022D2B",
+            "xD597DC",
+            "x30122F",
+            "xCF602F",
+            "x706940",
+            "x2DBD82",
+            "x19E5C0",
+            "xEFC3B4",
+            "xCA516D",
+            "xB4E322"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_PASHTUNISTAN": {
+      "split": [
+        {
+          "owner": "KAB",
+          "provinces": [
+            "xE9EA78",
+            "x7436D6",
+            "xEC3398",
+            "x69B8C7",
+            "x076502",
+            "x76933F",
+            "x20B0A0",
+            "x54D767",
+            "x54228F",
+            "xAAE0FA",
+            "x783680",
+            "xB843AB",
+            "xC0234F",
+            "xB943AF",
+            "xE19C79"
+          ]
+        },
+        {
+          "owner": "CHT",
+          "provinces": [
+            "xA96256",
+            "x9DA767",
+            "x15A4E6",
+            "xF8FE8B",
+            "xB8051E",
+            "x4C120A",
+            "xAFD189",
+            "x8C9774"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "PAN"
+    ]
+  }
+}

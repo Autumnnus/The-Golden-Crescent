@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "title": "Kart 3E — Malay Boğazında Yerel Egemenlik",
+  "description": "Dünya siyasi iskeleti: Malaya’daki üç Britanya doğrudan liman province’i Johor’un mevcut yerel Malay boğaz ağına döner. Mısır/Umman şirketleri için ticaret, borç veya koruma ilişkisi bu harita kartında doğrudan toprak sayılmaz.",
+  "countries": {},
+  "states": {
+    "STATE_MALAYA": {
+      "split": [
+        {
+          "owner": "JOH",
+          "provinces": [
+            "x76546D",
+            "x0080B0",
+            "x374A68",
+            "xAF3737",
+            "x66170B",
+            "x660411",
+            "xB6B53D",
+            "x6CFA94",
+            "xFCBAFC",
+            "xC00130",
+            "x8080B0",
+            "x08673B"
+          ]
+        },
+        {
+          "owner": "SIA",
+          "provinces": [
+            "xF9F87A",
+            "x80C0B0",
+            "xCAB9F2"
+          ]
+        },
+        {
+          "owner": "PRK",
+          "provinces": [
+            "xAA2287",
+            "x78EF92",
+            "xCF3E8D",
+            "xD8E596",
+            "xE87C53"
+          ]
+        },
+        {
+          "owner": "SEL",
+          "provinces": [
+            "x23578B",
+            "x8E3305",
+            "xC84C4C"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

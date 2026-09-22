@@ -1,6 +1,6 @@
 # 1836 diplomasi sözleşmesi
 
-Bu belge siyasi ilişki türünü tanımlar; herhangi bir oyun subject_type anahtarı değildir. Gerçek temsil sonraki aşamada seçilecek. Aynı iki ülke arasında birbirini dışlayan statüler bulunmaz. Başlangıçta büyük güçler arası etkin savaş yoktur; aşağıdaki krizler savaşın nedenlerini verir, başlangıç savaşını zorunlu kılmaz.
+Bu belge siyasi ilişki türünü tanımlar; Atlas'taki somut karşılığı Kart 6C'deki dar subject sözleşmeleri ve ilişki kayıtlarıdır. Ortak taçlar/konfederasyonlar tek bir sahte overlord'a çevrilmez; onlar eşit taraflar arasındaki ilişki göstergeleriyle temsil edilir. Aynı iki ülke arasında birbirini dışlayan statüler bulunmaz. Başlangıçta büyük güçler arası etkin savaş yoktur; aşağıdaki krizler savaşın nedenlerini verir, başlangıç savaşını zorunlu kılmaz.
 
 ## 1. İlişki türleri
 
@@ -22,11 +22,12 @@ Bu belge siyasi ilişki türünü tanımlar; herhangi bir oyun subject_type anah
 | Rûm | Bosna, Arnavutluk, Tuna Emirliği | Özerk bağlılık; 1827'de sabitlenen katkı ve sınırlı dış politika | Yeni kadastro ve asker kotası |
 | Rûm | Adana, Erzurum, Trabzon | Özerk bağlılık; geçit/liman tarifesinin bir kısmı yerelde | Merkezîn savaş borcunu bağlılara yayma isteği |
 | Rûm | Yeni Bursa | Sömürge şartı; sivil meclis, metropol savunması | Filo gideri, gıda ve temsil; bağımsızlık başlangıçta en güçlü seçenek değil |
-| Mısır | Hicaz | Koruma antlaşması; hac yolu masrafı ve Cidde gelirinden kararlaştırılmış pay | Ulema/şeriflik yetkileri, koruma maliyetinin dağılımı |
+| Mısır | Hicaz | Hac koruma antlaşması; %5 hedef katkı, otomatik sefer yok; Cidde geliri ayrıca pazarlık konusu | Ulema/şeriflik yetkileri, koruma maliyetinin dağılımı |
 | İran ortak meclisi | İsfahan, Tebriz, Horasan, Mazenderan, Kirman, Luristan, Huzistan | Yedi eşit imzacı; İsfahan toplantı başkanı, mutlak üst devlet değil | Ortak tarife, borç paylaşımı ve askerî karar vetosu |
 | Londra ortak tacı | İngiltere–Galler, İskoçya, İrlanda | 1708 Taçlar Ahdi; ayrı maliye ve hukuk; dış kurul Londra'da | Vergi/temsil ağırlığı ve farklı kilise hakları |
-| Kalmar ortak tacı | Danimarka, İsveç, Norveç | 1755 Deniz Ahdi ile yenilenmiş birlik; dış kurul Kopenhag'da | İsveç sanayi vergisi, Norveç gemicilik payı, taç meclisi temsili |
-| Kalmar tacı | Schleswig–Holstein düklükleri | Ayrı diyetli hanedan bağı; dış savunma ortak | Alman imparatorluk hukuku ile taç yükümlülükleri |
+| Londra ortak tacı | Bahamalar, Bermuda, Güney Atlantik ve Batı Hint Adaları'ndaki kalan küçük idareler | Doğrudan taç bağımlılıkları; ayrı kıtasal sömürge programı veya yerel meclislerin üstünde sınırsız yetki değildir | Liman geliri, yerel temsil ve donanma ikmalinin finansmanı |
+| Kalmar ortak tacı | Danimarka, İsveç, Norveç | 1755 Deniz Ahdi ile yenilenmiş birlik; dış kurul Kopenhag'da. Atlas'ta üç eşit taç arasında +50 ilişki, hiyerarşik olmayan oyun göstergesidir | İsveç sanayi vergisi, Norveç gemicilik payı, taç meclisi temsili |
+| Kalmar tacı | Schleswig–Holstein düklükleri | Ayrı diyetli hanedan bağı; dış savunma ortak. Atlas'ta Denmark ile +30 ilişki, subject olmayan dar gösterimdir | Alman imparatorluk hukuku ile taç yükümlülükleri |
 | Lehistan–Litvanya | Boğdan | Koruma antlaşması, 1827 sonrası yenilenmiş | Tahıl transit resmi ve yerel hanedan seçimi |
 | Gurkanî | Keşmir; Jaipur ve Udaipur ile ayrı sözleşmeler | Keşmir özerk bağlı; iki Racput devleti sınırlı koruma/katkı antlaşmasında | Askerî standardizasyon ve verginin nakde çevrilmesi |
 | Maratha ortak konseyi | Pune, Gwalior, Indore, Nagpur | Ayrı hazineler, ortak sefer ve dış müzakere | Ticaret ve komuta payı; Pune bütün üyelerin sahibi değil |
@@ -38,9 +39,13 @@ Bu belge siyasi ilişki türünü tanımlar; herhangi bir oyun subject_type anah
 | Hollanda | Yeni Hollanda, Guyana yerleşimleri | Ayrı sömürge şartları; küçük Karayip ticaret istasyonları bağlı idari mülk | Kölelik ve ticaret imtiyazı ayrımı |
 | Kalmar dış kurulu | Vinland | Ortak taç adına özerk kıyı kolonisi | Hangi tacın bütçeye ne vereceği, yerli antlaşmalar |
 | Umman | Zanzibar | Tacın denizaşırı özerk eyaleti; ayrı vali/divan, ayrı egemen devlet değil | Maskat/Zanzibar gelir ve hanedan rekabeti |
-| Massina | Timbuktu | Yerel ilmî/ticari meclisi koruyan özerk kent şartı | Nehir–Sahra transit geliri ve yargı sınırı |
-| Sokoto ortak makamı | Hausa emirlikleri | İç hukuk ve vergi yetkisini koruyan emirlikler birliği; yerel birim kartları kesinleştirilecek | Ortak hukuk ve katkı payı |
+| Massina | Timbuktu | Massina'nın yerel state payında ilmî/ticari meclisi koruyan kent şartı; komşu Tuareg/Bidan aktörleri bağımsız | Nehir–Sahra transit geliri ve yargı sınırı |
+| Sokoto ortak makamı | Gobir emirliği; kendi doğrudan Hausa payları | Gobir sınırlı katkı veren emirlik sözleşmesinde; Bornu ve Borgu bağımsız | Ortak hukuk ve katkı payı |
 | Ryukyu | Japon makamları ve Yue ile ayrı törensel/ticari ilişkiler | Çifte haraç; tam askerî tabiiyet değil | İki tarafın töreni egemenlik iddiasına çevirmesi |
+| Mısır | Aceh; Makassar | 1824 ikmal/ambar ve 1821 tamir/ambar sözleşmeleri; ev sahibi bütün iç ve dış egemenliğini korur | İkmal kira bedeli, liman yargısı ve savaş zamanında tarafsızlık |
+| Umman | Johor; Sulu; Mombasa | 1828 konvoy/tarife, 1829 silah/geçiş ve Mombasa liman sözleşmeleri; hiçbirinde subject ya da doğrudan koloni yoktur | Tarife tekelinin sınırı, silah sevki ve yerel mahkeme yetkisi |
+
+Atlas temsili denetlenebilir bir sözleşmedir: Rûm'un altı özerk bağlısı ve Yeni Bursa, Lehistan–Boğdan, Gurkanî sözleşmeleri, Sokoto–Gobir, Güneydoğu Asya mandalaları, Japonya–Ezo ve bütün yazılı koloni şartları Kart 6C'de subject olarak bulunur. Londra/Kalmar ortak taçları ile Ryukyu'nun çifte haraç dili tek overlord üretmeye elverişli olmadığından karşılıklı ilişki değerleriyle gösterilir. Umman–Zanzibar aynı tacın doğrudan state düzenidir; ikinci bir ülke yaratılmaz. `diplomacy_contract_audit.py` bu 27 overlord ve 19 ilişki kaydının tamamını rapora karşı sınar.
 
 Finlandiya İsveç tacının, İzlanda Norveç tacının iç düzenidir. Nya Norrland bağımsız koloni devleti değil Vinland'ın kuzey ticaret bölgesidir. Fas Plata'sı bağımsız bir koloni ülkesi olarak kurulmaz; yerel antlaşmalı ticaret noktaları vardır. Bu unsurlar ikinci kez bağlı ülke listesine eklenmez.
 
@@ -81,7 +86,7 @@ Bağımsızlık garantileri sonsuz otomatik savaş sözleri değildir; ilgili ü
 
 Kullanıcı kararıyla bölgenin dış sömürgecilik etkeni Batılı Hristiyan güçlerden Müslüman denizci güçlere kayar. Yapımcı tasarımında Mısır ve Umman başlıca dış rakiplerdir; ortak tek bir İslam sömürge siyaseti yürütmezler. Yerel sultanlıkların aynı dini paylaşması onları bu güçlere bağlı kılmaz.
 
-Üç ilişki ayrı kaydedilecek: ev sahibi egemenliğini koruyan liman sözleşmesi; dış politika veya gelir üzerinde zorlayıcı koruma/tekel düzeni; dış egemenliğin açıkça devredildiği sınırlı kıyı kolonisi. Her biri için dış taraf, yerel muhatap, yer, haklar ve başlangıç tarihi belirlenecek. **Bu yön kararı kesin başlangıç koloni kaydı değildir; taraf ve yer listesi hâlâ eksiktir.** Mevcut bağlılık tablosuna belirsiz ülkeler eklenmez.
+Üç ilişki ayrı kaydedilir: ev sahibi egemenliğini koruyan liman sözleşmesi; dış politika veya gelir üzerinde zorlayıcı koruma/tekel düzeni; dış egemenliğin açıkça devredildiği sınırlı kıyı kolonisi. 1836'da seçilmiş portföy yalnız Aceh–Mısır (1824 ikmal/ambar), Makassar–Mısır (1821 tamir/ambar), Johor–Umman (1828 konvoy/tarife), Sulu–Umman (1829 silah/geçiş) ve Mombasa–Umman liman sözleşmesidir. Hepsi ilk türdedir: ilişki değeri Atlas'ta görünür, ayrıntılı kira/yargı şartı Flavor ve sonraki mekanik katmanına kalır. Başlangıçta yeni doğrudan kıyı kolonisi veya belirsiz subject eklenmez.
 
 Japonya ve Kore bu değişiklikle bir sömürge ilişkisine sokulmaz. Temel iç düzenleri korunur; Çin ve deniz ticaretiyle ilişkileri yerel tercihleri üzerinden ele alınır.
 

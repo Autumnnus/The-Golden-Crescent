@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "title": "Kart 1D — Milano ve Venedik",
+  "description": "Dünya siyasi iskeleti: Lombardiya ve Venetia'daki doğrudan Avusturya egemenliği iki bağımsız İtalyan aktöre ayrılır; mekanik başlangıç verisi üretmez.",
+  "countries": {
+    "VMI": {
+      "name": "Milanese Republic",
+      "name_tr": "Milano Cumhuriyeti",
+      "color": [
+        110,
+        140,
+        151
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "north_italian"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_LOMBARDY"
+    },
+    "VVE": {
+      "name": "Venetian Republic",
+      "name_tr": "Venedik Cumhuriyeti",
+      "color": [
+        154,
+        117,
+        78
+      ],
+      "country_type": "recognized",
+      "tier": "kingdom",
+      "cultures": [
+        "north_italian"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_VENETIA"
+    }
+  },
+  "states": {
+    "STATE_LOMBARDY": {
+      "split": [
+        {
+          "owner": "VMI",
+          "provinces": [
+            "x3F1E38",
+            "xD04060",
+            "x9AC196",
+            "x867A90",
+            "xA40CE9",
+            "x50C060",
+            "x70B8A9",
+            "x4713EE"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_VENETIA": {
+      "split": [
+        {
+          "owner": "VVE",
+          "provinces": [
+            "xB001A0",
+            "x3083C8",
+            "x3080A0",
+            "x8EEB7A",
+            "xB080A0",
+            "x5141E0",
+            "x605424",
+            "x6984B4",
+            "x554866",
+            "xC02A3F"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

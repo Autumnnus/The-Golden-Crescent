@@ -23,6 +23,7 @@ Bunlar kullanıcının belirlediği yönlerdir. Belgelerde bu yönleri açıklay
 |---|---|
 | [Ana senaryo](senaryo.md) | Dünyanın kimliği, nedensel tarih ve 1836'nın büyük meselesi |
 | [Yazılı dünya atlası](dunya_atlasi.md) | Siyasi coğrafya, doğrudan egemenlik ve sınır ihtilafları |
+| [Siyasi state karar defteri](SIYASI_STATE_KARAR_DEFTERI.md) | 675 state'in doğrulanmış province sahibi; siyasi sınırın kesin uygulama kaydı |
 | [Sınır ve birlik ekleri](sinir_ve_birlik_ekleri.md) | Kritik sınırlar, ortak fonlar ve taç/konfederasyon karar usulleri |
 | [Ülke dosyaları](ulke_dosyalari.md) | Öncelikli oynanabilir ülkelerin yönetimi, iç koalisyonu ve çıkmazları |
 | [Ekonomi ve toplum](ekonomi_ve_toplum.md) | Sanayi zincirleri, nüfus/eğitim hedefleri, kültür-din yaklaşımı |
@@ -36,9 +37,9 @@ Bunlar kullanıcının belirlediği yönlerdir. Belgelerde bu yönleri açıklay
 
 Bir sınır değişikliği önce atlası, bir bağlılık değişikliği önce diplomasi belgesini değiştirir; ülke dosyası bunların özeti olarak güncellenir. Ekonomik hedefi değiştirmeden ülkeye yeni sanayi/okuryazarlık ayrıcalığı eklenmez. Her yeni devlet için yer, geçim kaynağı, yönetim ve dış ilişki birlikte yazılır.
 
-## Atlas uygulama aşaması — 13 Eylül 2026
+## Atlas uygulama aşaması — 19 Eylül 2026
 
-Kullanıcı fazlar halinde Atlas üretimini başlattı. Güncel uygulama ve devam kaydı [ATLAS_FAZLARI.md](ATLAS_FAZLARI.md); ilk paket [Rûm önizlemesidir](../../scenarios/atlas/phase01_rum/README.md). Yazılı kararlar tasarım kaynağı olmaya devam eder.
+Kullanıcı dünya sınırlarını, devletleri ve bağlılıkları önce kurmaya karar verdi. Yeni tek iş akışı [dünya siyasi inşa planıdır](SIYASI_INSA_PLANI.md). Atlas kartları [world_political](../../scenarios/atlas/world_political/README.md) altında hazırlanır; tamamlanmış kartlar etkin olmayan tek dünya önizlemesinde birleşir. İlk paket [Rûm önizlemesidir](../../scenarios/atlas/phase01_rum/README.md); yazılı kararlar tasarım kaynağı olmaya devam eder.
 
 ## Bu sürümün statüsü
 
@@ -46,10 +47,12 @@ Kullanıcı fazlar halinde Atlas üretimini başlattı. Güncel uygulama ve deva
 - [Eski yeniden kurulum belgesi](../archive/YENIDEN_KURULUM.md) teknik sorunların tarihsel kaydıdır. Oradaki 171 ülke, eski tag/state listeleri, mezhep dağılımları ve faz takvimi yeni senaryoya emir vermez.
 - Önceki yazılı hazırlık aşaması sona erdi; Atlas ayrı önizleme paketlerinde çalıştırılabilir. Etkin dünya henüz kurulmadı. Flavor için kesin diyagram onayı gerekliliği sürer.
 - Yazılı atlas genel dünyayı tarif eder; faz paketleri doğrulanmış il kimlikleriyle bölgesel harita üretir. Sayısal hedefler tasarım girdisidir; motor sonucu değildir.
-- Ana ülkeler için yazılı altyapı ayrıntılandırılmıştır. Küçük ülkelerin tek tek hükümdarları, her eyaletin nüfus yüzdeleri ve kesin province sınırları henüz uygulama için kilitlenmiş değildir. Bunları bitmiş gibi göstermiyoruz.
+- Ana ülkeler için yazılı altyapı ayrıntılandırılmıştır. Siyasi province sınırları
+  artık karar defterinde kilitlidir. Küçük ülkelerin tek tek hükümdarları ile
+  nüfus, kültür-din ve ekonomi verileri ise sonraki mekanik aşamanın konusudur.
 
 **İlk inceleme:** ana senaryo → ülke dosyaları → atlas/diplomasi. Kullanıcı dünyayı değiştirmek istediğinde önce bu yazılı taslak güncellenir; sonraki üretim aşaması bu metinlere dayanır.
 
-### Atlas güncel uygulama
+### Önceki Atlas mekanik çalışması
 
-[Faz 1B.1 — Rûm nüfus, eğitim ve kurum önizlemesi](../../scenarios/atlas/phase01b_rum_demography/README.md) üretildi. Sonraki iş ve açık kabul kapıları [faz kaydında](ATLAS_FAZLARI.md). Henüz etkin/oynanabilir dünya değildir.
+[Faz 1B.5 — Rûm statik entegrasyon denetimi](../../scenarios/atlas/phase01b5_integration_audit/README.md) tamamlandı. Bölgenin Faz 1B.4B nüfus, kültür–din, hukuk, ekonomi ve kuvvet çıktıları korunur. Üretilmiş history temizdir; buna karşılık Atlas replace path kapsamı dışında kalan 10 vanilla başlangıç dosyasında eski TUR/GRE/ION davranışı ve 30 runtime dosyasında doğrudan referans bulundu. Nizam prototipinin altı bağı doğru olsa da yazılı katkı, levy, pazar ve fesih şartlarını tam karşılamadığı doğrulandı. Bu paketler korunur; dünya siyasi iskeleti tamamlanıp mekanik sıra yeniden başlayana kadar etkin/oynanabilir dünya değildir.

@@ -1,0 +1,139 @@
+{
+  "version": 2,
+  "title": "Kart 1N — Prusya Kalıntısının Kapanışı",
+  "description": "Dünya siyasi iskeleti: Prusya birleşmesi gerçekleşmez. Batı Prusya Lehistan-Litvanya Baltık koridoruna, Doğu Prusya bağımsız Baltık Prusya Dükalığına, Silezya Bohemya’ya ve Brunswick’teki küçük pay yerel Brunswick yönetimine gider. PRU miras diplomasisi temizlenir.",
+  "countries": {
+    "VPD": {
+      "name": "Baltic Prussian Duchy",
+      "name_tr": "Baltık Prusya Dükalığı",
+      "color": [
+        102,
+        130,
+        151
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "north_german"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_EAST_PRUSSIA"
+    }
+  },
+  "states": {
+    "STATE_BRUNSWICK": {
+      "split": [
+        {
+          "owner": "HAN",
+          "provinces": [
+            "x2180E0"
+          ]
+        },
+        {
+          "owner": "BRA",
+          "provinces": [
+            "xA61E6E",
+            "x43D537",
+            "x4C16EA",
+            "xA001E0"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_EAST_PRUSSIA": {
+      "split": [
+        {
+          "owner": "VPD",
+          "provinces": [
+            "x1E73B9",
+            "x2399A2",
+            "x40A0A0",
+            "x4121A0",
+            "x47C900",
+            "x5428E6",
+            "x6E8875",
+            "x72FDF3",
+            "x7A6061",
+            "x7D6DC3",
+            "x975566",
+            "x981EBE",
+            "x9FD037",
+            "xABC4AE",
+            "xAEA6D6",
+            "xBF9F20",
+            "xC020A0",
+            "xC04521",
+            "xEEF586"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WEST_PRUSSIA": {
+      "split": [
+        {
+          "owner": "VPL",
+          "provinces": [
+            "x178C99",
+            "x374AC3",
+            "x41A021",
+            "x55FD02",
+            "x611F2F",
+            "x7CB839",
+            "x80A0A0",
+            "x945000",
+            "xBAF66D"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_LOWER_SILESIA": {
+      "split": [
+        {
+          "owner": "VBO",
+          "provinces": [
+            "x1B72C9",
+            "x272E48",
+            "x614121",
+            "x6E617F",
+            "x732DC0",
+            "x94D624",
+            "xC00121",
+            "xC108EA",
+            "xCE74AB"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_UPPER_SILESIA": {
+      "split": [
+        {
+          "owner": "VBO",
+          "provinces": [
+            "x5E9091",
+            "x7B2F62",
+            "x821F52",
+            "x90B12B",
+            "xAF9F20",
+            "x88194B"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "PRU"
+    ]
+  }
+}

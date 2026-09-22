@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "title": "Kart 5I — Bajío Kent Birliği",
+  "description": "Bajío iç havzasındaki son MEX doğrudan payı kent birliğine aktarılır; birleşik önizlemede MEX topraksız kalır.",
+  "countries": {
+    "VBJ": {
+      "name": "Bajio City League",
+      "name_tr": "Bajío Kent Birliği",
+      "color": [
+        123,
+        126,
+        153
+      ],
+      "country_type": "unrecognized",
+      "tier": "principality",
+      "cultures": [
+        "nahua"
+      ],
+      "religion": "animist",
+      "capital": "STATE_BAJIO"
+    },
+    "MEX": {
+      "name": "Residual Mexican Interior",
+      "name_tr": "Geçici Meksika İç Bölgesi",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "nahua"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_DURANGO",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_BAJIO": {
+      "split": [
+        {
+          "owner": "VBJ",
+          "provinces": [
+            "x2214C5",
+            "x34ABA3",
+            "x44B0D0",
+            "x4606C7",
+            "x4BFB55",
+            "x503080",
+            "x5F1A07",
+            "x6B4C3A",
+            "x6FBC1A",
+            "x70C1FF",
+            "x71F349",
+            "x725961",
+            "x732A81",
+            "x749EC2",
+            "x75E1C3",
+            "x9BAC78",
+            "xC0B001",
+            "xD03080",
+            "xD0B080",
+            "xD6EED0",
+            "xE3628B",
+            "xEC946F"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "MEX"
+    ]
+  }
+}

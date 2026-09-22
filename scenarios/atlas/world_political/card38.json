@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "title": "Kart 3C — Filipinler yerel üçlüsü",
+  "description": "İspanyol Filipinler yerine Tondo (Luzon), Visaya liman birliği (orta adalar) ve Sulu (güney) yerel siyasi alanları. Batı Mikronezya’daki PHI payı yerel MCR’ye döner; mevcut Mindanao yerel sahipleri korunur.",
+  "countries": {
+    "VTD": {
+      "name": "Tondo League",
+      "name_tr": "Tondo Birliği",
+      "color": [
+        161,
+        81,
+        62
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "tagalog"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_LUZON"
+    },
+    "VVS": {
+      "name": "Visayan Port League",
+      "name_tr": "Visaya Liman Birliği",
+      "color": [
+        58,
+        122,
+        160
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "visayan"
+      ],
+      "religion": "catholic",
+      "capital": "STATE_VISAYAS"
+    }
+  },
+  "states": {
+    "STATE_LUZON": {
+      "split": [
+        {
+          "owner": "VTD",
+          "provinces": [
+            "x51BC8C",
+            "x33B5F8",
+            "x0D8236",
+            "xB0F0E0",
+            "x5C0D4C",
+            "xB08546",
+            "x1C8BCF",
+            "x95102A",
+            "x63FA56",
+            "xEB310E",
+            "xECF5E9",
+            "x795BD8",
+            "x707061",
+            "xF4CD9C",
+            "x5ED347",
+            "xCDE626",
+            "xD2AEEB",
+            "xE173C4",
+            "x31F0E0",
+            "x2291B3",
+            "x6D44B5",
+            "xB0F0B0",
+            "x97B9E0",
+            "x1B9953"
+          ]
+        },
+        {
+          "owner": "SUL",
+          "provinces": [
+            "x946A22"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_VISAYAS": {
+      "split": [
+        {
+          "owner": "VVS",
+          "provinces": [
+            "xE2086C",
+            "x46EA60",
+            "x8ABD23",
+            "x8001F0",
+            "x48B8C8",
+            "x591034",
+            "x223245",
+            "xB4699E",
+            "x05FD19",
+            "xCFAFEE",
+            "x90F80A",
+            "xF001E2",
+            "xB971C4",
+            "xD2CA4A",
+            "x02E634"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_MINDANAO": {
+      "split": [
+        {
+          "owner": "SUL",
+          "provinces": [
+            "xCAFE73",
+            "xF0014A",
+            "x7B364D"
+          ]
+        },
+        {
+          "owner": "SUL",
+          "provinces": [
+            "x0180F0",
+            "x99D030"
+          ]
+        },
+        {
+          "owner": "MND",
+          "provinces": [
+            "x62D16D",
+            "xAA1CA3",
+            "x585200",
+            "x2D5E65",
+            "x988CCA",
+            "xC3EC2D",
+            "xBC5002"
+          ]
+        },
+        {
+          "owner": "MGD",
+          "provinces": [
+            "x355FBE",
+            "x4C67A7",
+            "x678557",
+            "xE90347",
+            "xE804B7"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    },
+    "STATE_WEST_MICRONESIA": {
+      "split": [
+        {
+          "owner": "MCR",
+          "provinces": [
+            "x414170",
+            "x71414D",
+            "xEF50C0"
+          ]
+        },
+        {
+          "owner": "MCR",
+          "provinces": [
+            "xA7F7E3",
+            "x6E4206"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "PHI"
+    ]
+  }
+}

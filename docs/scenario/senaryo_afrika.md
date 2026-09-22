@@ -78,6 +78,7 @@ H8 varsayılanları yerel emek/inanç kartıyla kesinleştirilecek. Yukarıdaki 
 | Mısır | Massava ve Dahlak'taki yerel yönetimler | Donanma ikmali, kira ve hac güvenliği | Eritre/Habeş yaylası egemenliği |
 | Mısır tüccarları | Kilwa ve Mozambik kıyı kentleri | Ticaret, ortak gemi/ambar yatırımı | Zanzibar veya bütün Mozambik'in yönetimi |
 | Britanya/Hollanda | Yerel güney kıyı kurullarıyla süreli sözleşmeler | Burnu dolaşan gemilere su, tamir, ticari ikamet | Cape Kolonisi, Boer cumhuriyetleri veya içeriye sınırsız yerleşim hakkı |
+| Mascarene Ada Meclisi | Eski Fransız/Britanya Hint Okyanusu ada payları | Yerel liman, iş rejimi ve adalar arası geçiş yönetimi | Mısır, Umman veya Avrupa metropolünün açık egemenliği |
 
 1836'da bu erişimlerin çoğu yabancı ülke rengiyle boyanacak toprak değildir. Sonraki haritada gerekirse simge/etiketle gösterilir. Yerel egemenliğin ihlal edilmesi olay nedeni olabilir; başlangıçta bütün hakların ihlal edilmiş olduğu varsayılmaz.
 

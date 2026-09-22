@@ -1,0 +1,1147 @@
+{
+  "phase": "1B.4A",
+  "parent_scenario_sha256": "9764919e0105aece671810023e1beaa21a8b5b03c90964ab6d7dd8ce352148b4",
+  "parent_pops_sha256": "2907020327b6cd0a8838bc2225115e6f3ec1b2feebba44db3c53d54d66c82a59",
+  "countries": {
+    "BOS": {
+      "population": 950000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_armed_forces"
+      ],
+      "formations": [
+        {
+          "name": "Bosna Muhafizlari",
+          "type": "army",
+          "hq_region": "region_balkans",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_BOSNIA",
+              "count": 7
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_BOSNIA",
+              "count": 2
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_BOSNIA",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    },
+    "ALB": {
+      "population": 1450000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_armed_forces"
+      ],
+      "formations": [
+        {
+          "name": "Arnavutluk Kuvveti",
+          "type": "army",
+          "hq_region": "region_balkans",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_ALBANIA",
+              "count": 8
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_KOSOVO",
+              "count": 3
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_ALBANIA",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Iskodra Filosu",
+          "type": "fleet",
+          "hq_region": "region_balkans",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_ALBANIA",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    },
+    "BUL": {
+      "population": 2100000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_devout"
+      ],
+      "formations": [
+        {
+          "name": "Tuna Ordusu",
+          "type": "army",
+          "hq_region": "region_balkans",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_BULGARIA",
+              "count": 12
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_NORTHERN_THRACE",
+              "count": 3
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_BULGARIA",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "name": "Tuna Filosu",
+          "type": "fleet",
+          "hq_region": "region_balkans",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_DOBRUDJA",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    },
+    "ADA": {
+      "population": 550000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_industrialists"
+      ],
+      "formations": [
+        {
+          "name": "Cukurova Kuvveti",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_ADANA",
+              "count": 5
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_ADANA",
+              "count": 2
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_ADANA",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Mersin Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_ADANA",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    },
+    "ERZ": {
+      "population": 800000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_armed_forces"
+      ],
+      "formations": [
+        {
+          "name": "Serhad Ordusu",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_ERZURUM",
+              "count": 6
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_KARS",
+              "count": 3
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_ERZURUM",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    },
+    "TRB": {
+      "population": 700000,
+      "ruling_interest_groups": [
+        "ig_landowners",
+        "ig_petty_bourgeoisie"
+      ],
+      "formations": [
+        {
+          "name": "Karadeniz Serhad Kuvveti",
+          "type": "army",
+          "hq_region": "region_near_east",
+          "units": [
+            {
+              "type": "combat_unit_type_line_infantry",
+              "state": "STATE_TRABZON",
+              "count": 6
+            },
+            {
+              "type": "combat_unit_type_hussars",
+              "state": "STATE_TRABZON",
+              "count": 1
+            },
+            {
+              "type": "combat_unit_type_cannon_artillery",
+              "state": "STATE_TRABZON",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "Trabzon Filosu",
+          "type": "fleet",
+          "hq_region": "region_near_east",
+          "ships": [
+            {
+              "type": "ship_type_frigate",
+              "state": "STATE_TRABZON",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "laws": [
+        "law_monarchy",
+        "law_wealth_voting",
+        "law_appointed_bureaucrats",
+        "law_subjecthood",
+        "law_freedom_of_conscience",
+        "law_professional_army",
+        "law_merchant_navy",
+        "law_agrarianism",
+        "law_mercantilism",
+        "law_land_based_taxation",
+        "law_tenant_farmers",
+        "law_no_colonial_affairs",
+        "law_local_police",
+        "law_no_home_affairs",
+        "law_religious_schools",
+        "law_charitable_health_system",
+        "law_no_workers_rights",
+        "law_restricted_child_labor",
+        "law_women_own_property",
+        "law_no_social_security",
+        "law_migration_controls",
+        "law_censorship",
+        "law_anti_strike_laws",
+        "law_slavery_banned"
+      ]
+    }
+  },
+  "population_by_state": {
+    "STATE_BOSNIA": {
+      "BOS": {
+        "total": 950000,
+        "literacy": 0.31
+      }
+    },
+    "STATE_ALBANIA": {
+      "ALB": {
+        "total": 1165000,
+        "literacy": 0.27
+      }
+    },
+    "STATE_KOSOVO": {
+      "ALB": {
+        "total": 285000,
+        "literacy": 0.22
+      }
+    },
+    "STATE_BULGARIA": {
+      "BUL": {
+        "total": 950000,
+        "literacy": 0.34
+      }
+    },
+    "STATE_NORTHERN_THRACE": {
+      "BUL": {
+        "total": 900000,
+        "literacy": 0.3
+      }
+    },
+    "STATE_DOBRUDJA": {
+      "BUL": {
+        "total": 250000,
+        "literacy": 0.27
+      }
+    },
+    "STATE_ADANA": {
+      "ADA": {
+        "total": 550000,
+        "literacy": 0.32
+      }
+    },
+    "STATE_ERZURUM": {
+      "ERZ": {
+        "total": 630000,
+        "literacy": 0.27
+      }
+    },
+    "STATE_KARS": {
+      "ERZ": {
+        "total": 170000,
+        "literacy": 0.24
+      }
+    },
+    "STATE_TRABZON": {
+      "TRB": {
+        "total": 700000,
+        "literacy": 0.38
+      }
+    }
+  },
+  "freed_inherited_slave_status": 17806,
+  "industry": {
+    "STATE_BOSNIA": {
+      "BOS": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 3,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_artillery_foundry": {
+          "level": 1,
+          "production_methods": [
+            "pm_cannons",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_lead_mine": {
+          "level": 3,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_lead_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 6,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_ALBANIA": {
+      "ALB": {
+        "building_government_administration": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 5,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 5,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 6,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 5,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_KOSOVO": {
+      "ALB": {
+        "building_coal_mine": {
+          "level": 4,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_lead_mine": {
+          "level": 3,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_lead_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 2,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 4,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        }
+      }
+    },
+    "STATE_BULGARIA": {
+      "BUL": {
+        "building_government_administration": {
+          "level": 4,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 2,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 3,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_artillery_foundry": {
+          "level": 1,
+          "production_methods": [
+            "pm_cannons",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_furniture_manufactory": 4,
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 8,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 7,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_vineyard": 2
+      }
+    },
+    "STATE_NORTHERN_THRACE": {
+      "BUL": {
+        "building_textile_mill": {
+          "level": 4,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_furniture_manufactory": 3,
+        "building_iron_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 6,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 6,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_tobacco_plantation": 4,
+        "building_vineyard": 1
+      }
+    },
+    "STATE_DOBRUDJA": {
+      "BUL": {
+        "building_port": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 2,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        }
+      }
+    },
+    "STATE_ADANA": {
+      "ADA": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_construction_sector": {
+          "level": 1,
+          "production_methods": [
+            "pm_wooden_buildings"
+          ],
+          "ownership": "government"
+        },
+        "building_textile_mill": {
+          "level": 3,
+          "production_methods": [
+            "pm_handsewn_clothes",
+            "pm_no_luxury_clothes",
+            "pm_traditional_looms"
+          ]
+        },
+        "building_food_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_bakery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_coal_mine": {
+          "level": 8,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_coal_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 3,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 3,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_cotton_plantation": {
+          "level": 5,
+          "production_methods": [
+            "default_building_cotton_plantation",
+            "default_labour",
+            "pm_road_carts"
+          ]
+        }
+      }
+    },
+    "STATE_ERZURUM": {
+      "ERZ": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 2,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 6,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_lead_mine": {
+          "level": 4,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_lead_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 5,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_livestock_ranch": 0,
+        "building_tea_plantation": 0
+      }
+    },
+    "STATE_KARS": {
+      "ERZ": {
+        "building_port": {
+          "level": 1,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 2,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_no_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_wheat_farm": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_farming",
+            "pm_no_secondary",
+            "pm_tools_disabled"
+          ]
+        },
+        "building_livestock_ranch": {
+          "level": 2,
+          "production_methods": [
+            "pm_open_air_stockyards",
+            "pm_simple_ranch",
+            "pm_standard_fences",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_tea_plantation": 0
+      }
+    },
+    "STATE_TRABZON": {
+      "TRB": {
+        "building_government_administration": {
+          "level": 2,
+          "production_methods": [
+            "pm_simple_organization",
+            "pm_professional_bureaucrats",
+            "pm_religious_bureaucrats"
+          ],
+          "ownership": "government"
+        },
+        "building_university": {
+          "level": 1,
+          "production_methods": [
+            "pm_scholastic_education",
+            "pm_religious_academia"
+          ],
+          "ownership": "government"
+        },
+        "building_tooling_workshop": {
+          "level": 1,
+          "production_methods": [
+            "pm_pig_iron",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_arms_industry": {
+          "level": 1,
+          "production_methods": [
+            "pm_muskets",
+            "pm_automation_disabled"
+          ]
+        },
+        "building_shipyard": {
+          "level": 2,
+          "production_methods": [
+            "pm_basic_shipbuilding"
+          ]
+        },
+        "building_food_industry": {
+          "level": 2,
+          "production_methods": [
+            "pm_bakery",
+            "pm_disabled_distillery",
+            "pm_manual_dough_processing"
+          ]
+        },
+        "building_iron_mine": {
+          "level": 6,
+          "production_methods": [
+            "pm_atmospheric_engine_pump_building_iron_mine",
+            "pm_no_explosives",
+            "pm_no_steam_automation",
+            "pm_road_carts"
+          ]
+        },
+        "building_logging_camp": {
+          "level": 5,
+          "production_methods": [
+            "pm_saw_mills",
+            "pm_hardwood",
+            "pm_no_equipment",
+            "pm_road_carts"
+          ]
+        },
+        "building_port": {
+          "level": 3,
+          "production_methods": [
+            "pm_basic_port"
+          ]
+        },
+        "building_fishing_wharf": {
+          "level": 3,
+          "production_methods": [
+            "pm_simple_fishing",
+            "pm_unrefrigerated"
+          ]
+        },
+        "building_livestock_ranch": 0,
+        "building_tea_plantation": 0
+      }
+    }
+  },
+  "hub_correction": {
+    "state": "STATE_TRABZON",
+    "province": "x146DD9",
+    "hub": "city",
+    "from": "RUM",
+    "to": "TRB",
+    "reason": "Trabzon is the written and country-definition capital of TRB"
+  },
+  "design_limits": {
+    "nizam": "income transfer and war joining remain the Phase 1A base-vassal prototype; fixed contribution and limited levy are not yet modeled",
+    "market": "local capacity and dependencies are directional; customs separation and prices need engine testing",
+    "politics": "ruling IG membership is explicit; clout and legitimacy are runtime outcomes",
+    "characters": "rulers and commanders are Flavor/character work and are not invented by Atlas"
+  }
+}

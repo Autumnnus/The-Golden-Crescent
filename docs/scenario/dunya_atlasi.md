@@ -28,8 +28,8 @@ Bu belge **siyasi coğrafyanın tasarım kaynağıdır**. Şehirler ve doğal b�
 | Mısır Sultanlığı | Kahire | Nil deltası, Nil vadisi, Sina; güneyde Dongola'ya uzanan nehir koridoru | Bütün Sudan veya Eritre Mısır sayılmaz. Nil yönetimi ile kıyı ticaret imtiyazları farklıdır. |
 | Hicaz Şerifliği | Mekke; Cidde limanı | Hicaz kıyısı ve kutsal kentler | Mısır'la koruma antlaşması; doğrudan Mısır eyaleti değil. |
 | Cebel Şammar / Necid | Hail / Riyad | İç Arabistan'ın iki ayrı çekirdeği | İkisi de bağımsız; vahalar arası etki sınırları tek tip dolu renk olarak düşünülmez. |
-| Yemen İmamlığı | Sana | Yemen yaylaları ve yerel anlaşmalı kıyılar | Bağımsız; Zeydi gelenek, Aden'e yerel ticari özerklik. |
-| Umman Sultanlığı | Maskat | Umman kıyısı, iç bölgelerle anlaşmalı bağ; Zanzibar tacın denizaşırı merkezi | İbadi yönetim; Kahire'nin tabiisi değil. |
+| Yemen İmamlığı ve kıyı yönetimleri | Sana; Aden, el-Mukalla ve el-Mehre ayrı liman merkezleri | Zeydi imamlık Yemen yaylalarında; Lahic Aden kıyısında, Mahra ve Kathîr doğu kıyı ağlarında | Hepsi bağımsız yerel yönetimlerdir; Hicaz'ın Yemen'de toprağı yoktur. Aden'in ticari özerkliği Lahic sahibiyle temsil edilir. |
+| Umman Sultanlığı | Maskat | Umman kıyısı, Laristan kıyı bağı ve iç bölgelerle anlaşmalı bağ; Zanzibar tacın denizaşırı merkezi | İbadi yönetim; Kahire'nin tabiisi değil. Abu Dabi, Makran/Bampur ve Mombasa'da sözleşmeli liman erişimi vardır, doğrudan toprağı yoktur. |
 | Körfez emirlikleri | Kuveyt, Manama, Abu Dabi ayrı merkezler | Liman ve vaha hinterlantları | Bağımsız küçük aktörler; Basra, İran ve Umman arasında ticari rekabet. |
 
 ### İran'ın yedi üyesi
@@ -66,7 +66,7 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 | Kırgız birlikleri | Tanrı Dağları'nın yüksek geçitleri | Hanlığa göre değişen sözleşmeler; ortak tek otomatik üst devlet yok. |
 | Herat / Kabil / Kandahar | Horasan sınırı / Kabil havzası / güney Afgan geçitleri | Üç bağımsız Afganistan aktörü; Gurkanî–Horasan pazarlığına açık. |
 | Beluç hanlıkları | Kelat ve Makran'ın ayrı iç/kıyı ağları | Liman hakları egemenlik devri sayılmaz. |
-| Sibirya ve kuzeydoğu halkları | Ob–Yenisey, Baykal ve uzak kuzeydoğuda yerel siyasi alanlar | Haritada “Moskova yoksa boş” kabul edilmez; adlandırma ve temsil birimleri sonraki ayrıntı çalışmasıdır. |
+| Sibirya ve kuzeydoğu halkları | Ob–Yenisey, Baykal ve uzak kuzeydoğuda yerel siyasi alanlar | Haritada “Moskova yoksa boş” kabul edilmez; kesin oyun sahibi `SIYASI_STATE_KARAR_DEFTERI.md` ve Kart 0/6B ile belirlenir. |
 
 ## 3. Avrupa ve Akdeniz
 
@@ -76,19 +76,19 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 | Kuzey İberya | Kastilya: Burgos–kuzey iç yayla; Aragon: Zaragoza–Barcelona/doğu kuzey kıyı; Galiçya: kuzeybatı ve Porto çevresi; Navarra: Pamplona/Bask geçitleri | İspanya ve Portekiz adında birleşik devlet yok. Portekizce konuşan topluluklar yaşamaya devam eder. |
 | Fransız ülkeleri | Paris: Seine–Loire'ın merkez/kuzey çekirdeği; Burgonya: Dijon–Saône; Bretonya: yarımada; Akitanya: Bordeaux–Garonne/Gaskonya; Oksitanya: Toulouse–Languedoc; Provence: Rhône ağzı–Marseille | **Altı bağımsız devlet.** Paris'in unvan iddiası diğer beşini vassal yapmaz. Lyon/Rhône tarifeleri Burgonya–Provence anlaşmazlığıdır. |
 | Alçak Ülkeler | Hollanda denizci birlik; Brabant kentleri ve Liège ayrı yönetimler | Tarihsel Belçika kuruluşu otomatik korunmaz. Hollanda'nın yüksek ticaret kapasitesi bütün hinterlandın sanayileşmesi değildir. |
-| Alman İmparatorluğu | Bavyera imparatorluk tacını taşır. Avusturya, Bohemya, Brandenburg, Saksonya, Hannover, Ren kent birliği, Hessen, Baden, Württemberg, Anhalt, Mecklenburg, Pomeranya ayrı siyasal aktörler | Bavyera bunların üst devleti değildir. Prusya birleşmesi gerçekleşmedi. Schleswig–Holstein, Kalmar tahtına bağlı özerk düklüklerdir; hem Alman bağımsız ülke hem doğrudan Kalmar eyaleti sayılmaz. |
+| Alman İmparatorluğu | Bavyera imparatorluk tacını taşır. Avusturya, Bohemya, Brandenburg, Saksonya, Hannover, Ren kent birliği, Hessen, Baden, Württemberg, Anhalt, Mecklenburg, Pomeranya ve Baltık Prusya Dükalığı ayrı siyasal aktörler | Bavyera bunların üst devleti değildir. Prusya birleşmesi gerçekleşmedi: Batı Prusya Lehistan-Litvanya'nın Baltık koridorudur; Doğu Prusya bağımsız dükalıktır; Silezya Bohemya'dadır. Schleswig–Holstein, Kalmar tahtına bağlı özerk düklüklerdir; hem Alman bağımsız ülke hem doğrudan Kalmar eyaleti sayılmaz. |
 | İsviçre | Kanton konfederasyonu | Karma mezhep ve farklı kent/kır çıkarları; bütünü Katolik veya bütünü demokratik değil. |
 | Kuzey İtalya | Savoy–Piyemonte, Milano, Venedik, Ceneviz; küçük kent/prenslik kuşağı | Denizci cumhuriyetlerin gücü doğu ticaretinin “bitmesi” yüzünden sıfırlanmaz; güçlü rakip ve ayrıcalık kaybıyla sınırlanır. |
 | Orta/güney İtalya | Toskana/Floransa, Papalık Devleti, Napoli; Sicilya–Sardinya ortak tacı | Sardinya Rûm'a verilmez. Malta Rûm'dadır. Rûm'un Napoli'de adı belirsiz egemen limanları yok; yalnız ticari erişim vardır. |
 | Britanya | İngiltere–Galler tacı Londra'da; İskoçya Edinburgh meclisiyle aynı hükümdarı tanır; İrlanda kendi alt tacı ve meclisiyle aynı düzene bağlı | “Britanya” birleşme projesi/ortak dış politika adıdır. İskoçya aynı anda ilhak edilmiş ve bağımsız rakip sayılmaz. Kolonilerin üst makamı Londra'dır. |
 | Kalmar | Danimarka, Norveç ve İsveç'in kalıcı ortak tacı; merkezî dış kurul Kopenhag'da | İsveç, Danimarka'nın koloni tipi tabiisi değildir. Finlandiya İsveç tacı içinde özel diyet; İzlanda Norveç tacında. |
-| Lehistan–Litvanya | Varşova ortak sejm; Leh, Litvan ve doğu Ruthen bölgeleri | Avrupa’nın gecikmesinden en az etkilenen Hristiyan devlet; Rûm’la çatışma ve teknik aktarım sayesinde güçlüdür. Boğdan ayrı koruma devletidir; bu güç tanımı yeni toprak ilhakı değildir. |
+| Lehistan–Litvanya | Varşova ortak sejm; Leh, Litvan, Doğu Galiçya ve doğu Ruthen bölgeleri | Avrupa’nın gecikmesinden en az etkilenen Hristiyan devlet; Rûm’la çatışma ve teknik aktarım sayesinde güçlüdür. Batı Galiçya Kraków şehir devleti çevresinde ayrı kalır; Boğdan ayrı koruma devletidir. |
 
 **Kuzey Avrupa'nın gelişmişliği:** Kalmar taçları denizcilik, metal ve temel okul ağlarında Avrupa'nın görece güçlü kesimidir. Teknik eğitim ve makineleşme birkaç merkezle sınırlı, kırsal yükümlülükler ve lonca hakları etkilidir. Danimarka, İsveç ve Norveç'in mevcut coğrafi/kurumsal karakterleri korunur; yeni bir büyük kuzey tarih kırılması eklenmez.
 
 **Alman dinî düzeni:** Bavyera, Avusturya, Bohemya, Baden ve Württemberg Katolik makamları; Brandenburg, Saksonya, Hannover, Anhalt, Mecklenburg ve Pomeranya reform kilisesi makamları taşır. Hessen ve Ren kentlerinde karma kamusal uzlaşma vardır. Bu resmî düzenler halkın tamamına tek din atamak değildir.
 
-**Küçük Alman/İtalyan birimler:** yukarıdaki kuşaklar onların silinmesi talimatı değildir. Dünya taslağı ana aktörlerini ve hukuki çerçevelerini tanımlar; kesin küçük prenslik listesi, ülke kimlikleri ve sınırları ayrı harita ayrıntı çalışması ister. Arşivdeki “171” sayısını tutturmak için devlet icat edilmez veya silinmez.
+**Küçük Alman/İtalyan birimler:** yukarıdaki kuşaklar onların silinmesi talimatı değildir. Dünya taslağı ana aktörlerini ve hukuki çerçevelerini tanımlar; kesin küçük prenslik listesi, ülke kimlikleri ve province sınırları [siyasi state karar defterinde](SIYASI_STATE_KARAR_DEFTERI.md) kilitlidir. Arşivdeki “171” sayısını tutturmak için devlet icat edilmez veya silinmez.
 
 ## 4. Hindistan
 
@@ -131,7 +131,7 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 | Aotearoa | Māori iwi/hapū ağları; kuzeyde gelişmekte olan dış ticaret meclisi | Bütün adaları erken tarihte birleştirmiş tek Māori devleti yok. |
 | Pasifik adaları | Hawaii, Tonga, Samoa, Tahiti ve diğer yerel siyasi alanlar | Yerel devlet ve topluluklar korunur; tarihsiz otomatik Avrupa ilhakı yok. |
 
-**Güneydoğu Asya'da sömürge katmanı:** yerli Müslüman sultanlıkların varlığı tek başına “Müslüman kolonicilik” değildir. Dış güç olarak Mısır ve Umman'ın desteklediği filolar/şirketler öne çıkar; yerel Müslüman, Budist, Hindu ve diğer yönetimlerle eşitsiz ilişkiler kurabilirler. Tasarım, ticaret tekelinden koruma baskısına ve sınırlı kıyı kolonisine kadar farklı statüler içerir. Hangi limanın hangi dış güce ait olduğu henüz kararlaştırılmadı; bu paragraf haritaya uygulanmış koloni listesi değildir. Batılı Hristiyan sömürgecilik ana etken olarak çıkarılır; yerel Hristiyan toplulukların sırf bu yüzden silinmesi istenmez.
+**Güneydoğu Asya'da sömürge katmanı:** yerli Müslüman sultanlıkların varlığı tek başına “Müslüman kolonicilik” değildir. Dış güç olarak Mısır ve Umman'ın desteklediği filolar/şirketler öne çıkar; yerel Müslüman, Budist, Hindu ve diğer yönetimlerle eşitsiz ilişkiler kurabilirler. 1836 portföyü sınırlıdır: Mısır'ın Aceh'te (1824) ikmal/ambar, Makassar'da (1821) tamir/ambar sözleşmesi; Umman'ın Johor'da (1828) konvoy/tarife, Sulu'da (1829) silah/geçiş sözleşmesi vardır. Bunların hiçbiri state sahipliği, subject veya ada çapında koloni değildir. Batılı Hristiyan sömürgecilik ana etken olarak çıkarılır; yerel Hristiyan toplulukların sırf bu yüzden silinmesi istenmez.
 
 Afrika ve Amerika'nın egemen çekirdekleri kendi [Afrika](senaryo_afrika.md) ve [Amerika](senaryo_amerika.md) belgelerindedir. Bu atlas onları tekrar çizmez.
 
@@ -164,8 +164,8 @@ flowchart LR
 
 “Ara kuşak” gerçek bir ittifak veya ülke değildir; bağımsız aktörleri şemada gruplayan başlıktır.
 
-## 7. Harita çizimine geçmeden önce doldurulacak ayrıntılar
+## 7. Siyasi harita kilidi
 
-Her tartışmalı sınır için iki komşunun kabul edilmiş son çizgisi, iddia edilen alan, ticaret yolu ve yerel topluluklar ayrı kaydedilecek. Öncelik: Halep–Şam–Adana; Erzurum–Erevan–Kürdistan; Lahor–Sih devleti; Endülüs–kuzey İberya; Yeni Endülüs–Maya; Kalmar–yerli kuzey ticaret alanları.
+Her tartışmalı sınırın son province çizgisi artık [siyasi state karar defterinde](SIYASI_STATE_KARAR_DEFTERI.md) ve onu üreten Atlas kartlarında kayıtlıdır. Halep–Şam–Adana, Erzurum–Erevan–Kürdistan, Lahor–Sih devleti, Endülüs–kuzey İberya, Yeni Endülüs–Maya ve Kalmar–yerli kuzey ticaret alanları bu kayıtla tek doğrudan sahibine bağlanır. Ticaret yolu, liman hakkı ve yerel toplum bağları sınırın ikinci sahibi değildir.
 
-Bu belge kıtasal boşlukları tasarım düzeyinde kapatır. Her küçük prenslik, vaha ve adanın tek tek ülke kaydı ile oyun haritasında kesin çizim **henüz tamamlanmış değildir**. Eski state numaralarını sırf elde oldukları için geri kullanmayacağız.
+Bu belge kıtasal neden-sonucu; karar defteri ise oyun haritasındaki kesin çizimi taşır. Sınır değişikliği iki belgeyi, komşu kartları ve diplomasiyi birlikte güncellemeden yapılamaz.

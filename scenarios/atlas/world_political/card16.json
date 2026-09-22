@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "title": "Kart 5E — Potomac Kent Bölgesi",
+  "description": "ABD sonrası son federal başkent alanı, hiçbir geniş kıta devleti yaratmadan küçük Potomac kent yönetimine geçer.",
+  "countries": {
+    "VDC": {
+      "name": "Potomac Civic District",
+      "name_tr": "Potomac Kent Bölgesi",
+      "color": [
+        135,
+        135,
+        135
+      ],
+      "country_type": "recognized",
+      "tier": "city_state",
+      "cultures": [
+        "yankee"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_DISTRICT_OF_COLUMBIA"
+    },
+    "USA": {
+      "name": "Residual United States Jurisdiction",
+      "name_tr": "Geçici ABD Yetki Alanı",
+      "color": [
+        125,
+        125,
+        125
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "yankee"
+      ],
+      "religion": "protestant",
+      "capital": "STATE_ALABAMA",
+      "companies": {
+        "mode": "replace",
+        "add": [],
+        "remove": []
+      }
+    }
+  },
+  "states": {
+    "STATE_DISTRICT_OF_COLUMBIA": {
+      "split": [
+        {
+          "owner": "VDC",
+          "provinces": [
+            "x700080",
+            "x44578C"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "USA"
+    ]
+  }
+}

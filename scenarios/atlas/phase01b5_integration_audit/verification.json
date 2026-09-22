@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "audit_sha256": "17fe806f29bc65cdb2daf88845679511172e35e8015c1f61e8db07f6044f9471",
+  "parent_scenario_sha256": "094281708576c8fe8748b76fb13a40dc6ff40f6b2e24623fb18f440d46d2d917",
+  "unmasked_startup_files": 10,
+  "unmasked_startup_references": 29,
+  "runtime_definition_files": 30,
+  "runtime_definition_references": 253,
+  "nizam_pacts": 6,
+  "confirmed_static_crash": false,
+  "runtime_tested": false,
+  "playable_release": false
+}

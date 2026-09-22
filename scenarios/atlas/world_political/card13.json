@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "title": "Kart 4C — Sennaar",
+  "description": "Dünya siyasi iskeleti: Mısır'ın doğrudan nehir yönetimi Dongola'da biter; Mavi Nil havzası bağımsız Sennaar Sultanlığı'dır. Kordofan ve Eritre, yazılı kaynak tek bir doğrudan owner belirlemediği için bu karta alınmaz.",
+  "countries": {
+    "VSN": {
+      "name": "Sultanate of Sennaar",
+      "name_tr": "Sennaar Sultanlığı",
+      "color": [
+        126,
+        106,
+        69
+      ],
+      "country_type": "recognized",
+      "tier": "principality",
+      "cultures": [
+        "sudanese"
+      ],
+      "religion": "sunni",
+      "capital": "STATE_BLUE_NILE"
+    }
+  },
+  "states": {
+    "STATE_BLUE_NILE": {
+      "split": [
+        {
+          "owner": "VSN",
+          "provinces": [
+            "xD35B56",
+            "x058803",
+            "x7E0600",
+            "xE8E92A",
+            "x81160E",
+            "x06007E",
+            "x1C4271",
+            "x517433",
+            "x562EFC",
+            "x2C750A",
+            "xE53ACB",
+            "x808221",
+            "xA3CA85",
+            "x4D7EAD",
+            "x6FE98F",
+            "x4A3631",
+            "xCF2126",
+            "x729E50",
+            "x2DE57E",
+            "x3E70FF",
+            "x240F36",
+            "xB4B090",
+            "xBBA32C",
+            "x9B9266",
+            "x06C449",
+            "x424711",
+            "x15DB9C",
+            "x5EF146",
+            "x484A75",
+            "xE4297F",
+            "x533C5E",
+            "x0F7EE3",
+            "xDFDE9B",
+            "x714535",
+            "x9A504A",
+            "x7E7A63",
+            "xFE3C3F",
+            "xDAD386",
+            "xD25051",
+            "xF47F03",
+            "x6BEF7F",
+            "x8154A6",
+            "x450DB6",
+            "x9BAA9B",
+            "x206A2D",
+            "x17A459",
+            "xA91158",
+            "xE55E00",
+            "xD36817",
+            "x58F15D",
+            "xFC0FEA",
+            "x8281B5",
+            "x7379D7",
+            "x8091D6",
+            "x13E4B8",
+            "xF7B5CB",
+            "x6A5420",
+            "x725B86",
+            "xD42E9B",
+            "x16A922",
+            "xE0A090",
+            "xFAD09B",
+            "xC356F5",
+            "xEE4B02",
+            "x4AB4A0",
+            "x225C9E",
+            "x8CA984",
+            "xD07ADF",
+            "x680B5B",
+            "xC0D1A9",
+            "x51CD3D",
+            "xEF7C3C"
+          ]
+        }
+      ],
+      "pops": "drop",
+      "buildings": "drop"
+    }
+  }
+}

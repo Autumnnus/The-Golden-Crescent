@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "title": "Kart 2B — Gurkanî sözleşme ağı",
+  "description": "Keşmir, vanilla Pencap vasallığından çıkarılır ve Gurkanî’ye sözleşmeli bağlı devlet olur. Jaipur ve Mewar, iç egemenliklerini koruyarak yalnız sınırlı koruma/katkı düzenine girer. Harita sahibi değiştirilmez.",
+  "countries": {},
+  "states": {},
+  "subject_types": {
+    "ve_contractual_vassal": {
+      "base": "vassal",
+      "name": "Contractual Vassal",
+      "name_tr": "Sözleşmeli Bağlı",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": true,
+      "income_transfer": 0.1
+    },
+    "ve_limited_protection": {
+      "base": "protectorate",
+      "name": "Limited Protection Compact",
+      "name_tr": "Sınırlı Koruma Antlaşması",
+      "overlord_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "subject_types": [
+        "recognized",
+        "unrecognized"
+      ],
+      "can_have_subjects": false,
+      "join_overlord_wars": false,
+      "income_transfer": 0.03
+    }
+  },
+  "diplomacy": {
+    "mode": "inherit",
+    "reset_countries": [
+      "KAS",
+      "JAI",
+      "MEW"
+    ],
+    "subjects": [
+      {
+        "overlord": "MUG",
+        "subject": "KAS",
+        "type": "ve_contractual_vassal",
+        "liberty_desire": 35
+      },
+      {
+        "overlord": "MUG",
+        "subject": "JAI",
+        "type": "ve_limited_protection",
+        "liberty_desire": 45
+      },
+      {
+        "overlord": "MUG",
+        "subject": "MEW",
+        "type": "ve_limited_protection",
+        "liberty_desire": 45
+      }
+    ]
+  }
+}

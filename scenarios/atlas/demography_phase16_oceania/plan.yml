@@ -1,0 +1,409 @@
+version: 1
+policy: Preserve indigenous country and province ownership throughout Oceania. Split Samoa from the inherited Tonga state
+  using the installed Samoa-named hub provinces. Replace large colonial settler POP residues in self-governed Aboriginal and
+  Maori land with local groups while retaining small traders; preserve explicit occupations and all other joint groups unless
+  listed. These are political/demographic starting inputs, not simulated GDP or engine literacy.
+countries:
+  ARH:
+    population: 37000
+    literacy_range:
+    - 0.03
+    - 0.07
+  ARR:
+    population: 15000
+    literacy_range:
+    - 0.03
+    - 0.07
+  BLA:
+    population: 55000
+    literacy_range:
+    - 0.05
+    - 0.09
+  FJI:
+    population: 85000
+    literacy_range:
+    - 0.09
+    - 0.13
+  GRW:
+    population: 17000
+    literacy_range:
+    - 0.03
+    - 0.07
+  HAW:
+    population: 200000
+    literacy_range:
+    - 0.2
+    - 0.24
+  HLA:
+    population: 50000
+    literacy_range:
+    - 0.05
+    - 0.09
+  KAU:
+    population: 95000
+    literacy_range:
+    - 0.08
+    - 0.12
+  KLN:
+    population: 100000
+    literacy_range:
+    - 0.06
+    - 0.1
+  KNC:
+    population: 175000
+    literacy_range:
+    - 0.06
+    - 0.1
+  KNK:
+    population: 58000
+    literacy_range:
+    - 0.05
+    - 0.09
+  KRI:
+    population: 11500
+    literacy_range:
+    - 0.04
+    - 0.08
+  KTU:
+    population: 10500
+    literacy_range:
+    - 0.03
+    - 0.07
+  KYN:
+    population: 13500
+    literacy_range:
+    - 0.03
+    - 0.07
+  LRR:
+    population: 16000
+    literacy_range:
+    - 0.03
+    - 0.07
+  MCR:
+    population: 60000
+    literacy_range:
+    - 0.07
+    - 0.11
+  MRA:
+    population: 42000
+    literacy_range:
+    - 0.05
+    - 0.09
+  MRN:
+    population: 12500
+    literacy_range:
+    - 0.03
+    - 0.07
+  NNG:
+    population: 45000
+    literacy_range:
+    - 0.06
+    - 0.1
+  NRU:
+    population: 1300
+    literacy_range:
+    - 0.05
+    - 0.09
+  NTO:
+    population: 52000
+    literacy_range:
+    - 0.08
+    - 0.12
+  NTU:
+    population: 65000
+    literacy_range:
+    - 0.07
+    - 0.11
+  NYP:
+    population: 10500
+    literacy_range:
+    - 0.03
+    - 0.07
+  PAA:
+    population: 10000
+    literacy_range:
+    - 0.03
+    - 0.07
+  PLY:
+    population: 170000
+    literacy_range:
+    - 0.14
+    - 0.18
+  PMA:
+    population: 26000
+    literacy_range:
+    - 0.04
+    - 0.08
+  TNG:
+    population: 30000
+    literacy_range:
+    - 0.11
+    - 0.15
+  UNT:
+    population: 56000
+    literacy_range:
+    - 0.15
+    - 0.19
+  VNT:
+    population: 95000
+    literacy_range:
+    - 0.05
+    - 0.09
+  VSM:
+    population: 30000
+    literacy_range:
+    - 0.1
+    - 0.14
+  VTL:
+    population: 42000
+    literacy_range:
+    - 0.05
+    - 0.09
+  WDJ:
+    population: 48000
+    literacy_range:
+    - 0.04
+    - 0.08
+  WKB:
+    population: 13500
+    literacy_range:
+    - 0.03
+    - 0.07
+  WRR:
+    population: 23500
+    literacy_range:
+    - 0.03
+    - 0.07
+  WTI:
+    population: 28000
+    literacy_range:
+    - 0.03
+    - 0.07
+  YGU:
+    population: 16000
+    literacy_range:
+    - 0.04
+    - 0.08
+  YUR:
+    population: 11000
+    literacy_range:
+    - 0.04
+    - 0.08
+country_religion_overrides: {}
+states:
+  STATE_BOUGAINVILLE/HLA:
+    owner: HLA
+    literacy: 0.07
+  STATE_EAST_MICRONESIA/MCR:
+    owner: MCR
+    literacy: 0.1
+  STATE_FIJI/FJI:
+    owner: FJI
+    literacy: 0.11
+  STATE_HAWAIIAN_ISLANDS/HAW:
+    owner: HAW
+    literacy: 0.22
+  STATE_KANAK/KNK:
+    owner: KNK
+    literacy: 0.07
+  STATE_NAURU/NRU:
+    owner: NRU
+    literacy: 0.07
+  STATE_NEW_SOUTH_WALES/KNC:
+    owner: KNC
+    literacy: 0.09
+  STATE_NEW_SOUTH_WALES/KLN:
+    owner: KLN
+    literacy: 0.07
+  STATE_NEW_SOUTH_WALES/KRI:
+    owner: KRI
+    literacy: 0.06
+  STATE_NEW_SOUTH_WALES/WDJ:
+    owner: WDJ
+    literacy: 0.06
+  STATE_NEW_SOUTH_WALES/YUR:
+    owner: YUR
+    literacy: 0.06
+  STATE_NEW_SOUTH_WALES/PAA:
+    owner: PAA
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/YGU:
+    owner: YGU
+    literacy: 0.06
+  STATE_NORTHERN_TERRITORY/KNC:
+    owner: KNC
+    literacy: 0.06
+  STATE_NORTHERN_TERRITORY/WTI:
+    owner: WTI
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/NYP:
+    owner: NYP
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/GRW:
+    owner: GRW
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/ARH:
+    owner: ARH
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/LRR:
+    owner: LRR
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/WRR:
+    owner: WRR
+    literacy: 0.05
+  STATE_NORTHERN_TERRITORY/ARR:
+    owner: ARR
+    literacy: 0.05
+  STATE_NORTH_ISLAND/UNT:
+    owner: UNT
+    literacy: 0.17
+  STATE_NORTH_ISLAND/NTO:
+    owner: NTO
+    literacy: 0.11
+  STATE_QUEENSLAND/MRA:
+    owner: MRA
+    literacy: 0.07
+  STATE_QUEENSLAND/ARR:
+    owner: ARR
+    literacy: 0.05
+  STATE_QUEENSLAND/KNC:
+    owner: KNC
+    literacy: 0.07
+  STATE_QUEENSLAND/PMA:
+    owner: PMA
+    literacy: 0.06
+  STATE_QUEENSLAND/WKB:
+    owner: WKB
+    literacy: 0.05
+  STATE_QUEENSLAND/GRW:
+    owner: GRW
+    literacy: 0.05
+  STATE_QUEENSLAND/PAA:
+    owner: PAA
+    literacy: 0.05
+  STATE_QUEENSLAND/WDJ:
+    owner: WDJ
+    literacy: 0.06
+  STATE_SOLOMON_ISLANDS/BLA:
+    owner: BLA
+    literacy: 0.07
+  STATE_SOUTH_AUSTRALIA/KAU:
+    owner: KAU
+    literacy: 0.1
+  STATE_SOUTH_AUSTRALIA/WTI:
+    owner: WTI
+    literacy: 0.05
+  STATE_SOUTH_AUSTRALIA/KNC:
+    owner: KNC
+    literacy: 0.07
+  STATE_SOUTH_AUSTRALIA/YUR:
+    owner: YUR
+    literacy: 0.06
+  STATE_SOUTH_AUSTRALIA/PAA:
+    owner: PAA
+    literacy: 0.05
+  STATE_SOUTH_AUSTRALIA/MRN:
+    owner: MRN
+    literacy: 0.05
+  STATE_SOUTH_AUSTRALIA/KLN:
+    owner: KLN
+    literacy: 0.07
+  STATE_SOUTH_ISLAND/NTO:
+    owner: NTO
+    literacy: 0.08
+  STATE_SOUTH_ISLAND/NTU:
+    owner: NTU
+    literacy: 0.09
+  STATE_TAHITI/PLY:
+    owner: PLY
+    literacy: 0.16
+  STATE_TASMANIA/VTL:
+    owner: VTL
+    literacy: 0.07
+  STATE_TONGA/TNG:
+    owner: TNG
+    literacy: 0.13
+  STATE_TONGA/VSM:
+    owner: VSM
+    literacy: 0.12
+  STATE_VANUATU/VNT:
+    owner: VNT
+    literacy: 0.07
+  STATE_VICTORIA/KLN:
+    owner: KLN
+    literacy: 0.08
+  STATE_VICTORIA/KRI:
+    owner: KRI
+    literacy: 0.06
+  STATE_WESTERN_AUSTRALIA/NNG:
+    owner: NNG
+    literacy: 0.08
+  STATE_WESTERN_AUSTRALIA/WTI:
+    owner: WTI
+    literacy: 0.05
+  STATE_WESTERN_AUSTRALIA/KTU:
+    owner: KTU
+    literacy: 0.05
+  STATE_WESTERN_AUSTRALIA/KYN:
+    owner: KYN
+    literacy: 0.05
+  STATE_WESTERN_AUSTRALIA/WRR:
+    owner: WRR
+    literacy: 0.05
+  STATE_WESTERN_AUSTRALIA/NYP:
+    owner: NYP
+    literacy: 0.05
+  STATE_WESTERN_AUSTRALIA/MRN:
+    owner: MRN
+    literacy: 0.05
+  STATE_WEST_MICRONESIA/MCR:
+    owner: MCR
+    literacy: 0.08
+joint_mix_overrides:
+  STATE_NEW_SOUTH_WALES/KNC:
+    aborigine/animist: 950
+    australian/protestant: 25
+    irish/catholic: 20
+    scottish/protestant: 5
+  STATE_QUEENSLAND/MRA:
+    aborigine/animist: 960
+    australian/protestant: 25
+    irish/catholic: 10
+    scottish/protestant: 5
+  STATE_SOUTH_AUSTRALIA/KAU:
+    aborigine/animist: 970
+    australian/protestant: 20
+    irish/catholic: 8
+    scottish/protestant: 2
+  STATE_VICTORIA/KLN:
+    aborigine/animist: 960
+    australian/protestant: 25
+    irish/catholic: 12
+    scottish/protestant: 3
+  STATE_WESTERN_AUSTRALIA/NNG:
+    aborigine/animist: 970
+    australian/protestant: 20
+    irish/catholic: 8
+    scottish/protestant: 2
+  STATE_NORTHERN_TERRITORY/YGU:
+    aborigine/animist: 995
+    australian/protestant: 5
+  STATE_TASMANIA/VTL:
+    aborigine/animist: 980
+    australian/protestant: 15
+    irish/catholic: 5
+  STATE_NORTH_ISLAND/UNT:
+    maori/animist: 700
+    maori/protestant: 300
+  STATE_HAWAIIAN_ISLANDS/HAW:
+    hawaiian/animist: 700
+    hawaiian/protestant: 260
+    hawaiian/catholic: 30
+    han/confucian: 10
+  STATE_WEST_MICRONESIA/MCR:
+    micronesian/animist: 930
+    micronesian/catholic: 30
+    polynesian/animist: 20
+    visayan/catholic: 15
+    filipino_mestizo/catholic: 3
+    spanish/catholic: 2

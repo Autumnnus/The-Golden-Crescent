@@ -1,0 +1,700 @@
+{
+  "STATE_AGRA": {
+    "MUG": [
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 17962075
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 2373401
+      },
+      {
+        "culture": "hindustani",
+        "religion": "shiite",
+        "pop_type": null,
+        "size": 158858
+      },
+      {
+        "culture": "pathan",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 425012
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sikh",
+        "pop_type": null,
+        "size": 1612
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "capitalists",
+        "size": 200
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 9012
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 1812
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 801
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 200
+      },
+      {
+        "culture": "armenian",
+        "religion": "oriental_orthodox",
+        "pop_type": null,
+        "size": 451
+      }
+    ]
+  },
+  "STATE_DELHI": {
+    "MUG": [
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 1881169
+      },
+      {
+        "culture": "panjabi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 152527
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 706490
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 57283
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sikh",
+        "pop_type": null,
+        "size": 74401
+      },
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 16764
+      },
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 355557
+      },
+      {
+        "culture": "panjabi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 27341
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 116506
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 8960
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sikh",
+        "pop_type": null,
+        "size": 220
+      },
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 5794
+      }
+    ]
+  },
+  "STATE_PUNJAB": {
+    "MUG": [
+      {
+        "culture": "panjabi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 3491500
+      },
+      {
+        "culture": "pashtun",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 231520
+      },
+      {
+        "culture": "panjabi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 1201001
+      },
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 84000
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sikh",
+        "pop_type": null,
+        "size": 428000
+      },
+      {
+        "culture": "sindi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 37120
+      },
+      {
+        "culture": "baluchi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 7110
+      }
+    ]
+  },
+  "STATE_BIHAR": {
+    "BGL": [
+      {
+        "culture": "bihari",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 9969689
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 192
+      },
+      {
+        "culture": "bihari",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 1442941
+      },
+      {
+        "culture": "bihari",
+        "religion": "theravada",
+        "pop_type": null,
+        "size": 102011
+      },
+      {
+        "culture": "bihari",
+        "religion": "hindu",
+        "pop_type": "slaves",
+        "size": 597575
+      },
+      {
+        "culture": "bihari",
+        "religion": "sunni",
+        "pop_type": "slaves",
+        "size": 128903
+      }
+    ]
+  },
+  "STATE_EAST_BENGAL": {
+    "BGL": [
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 5692400
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 14617600
+      },
+      {
+        "culture": "pashtun",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 20102
+      },
+      {
+        "culture": "bengali",
+        "religion": "theravada",
+        "pop_type": null,
+        "size": 154080
+      },
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "pop_type": "slaves",
+        "size": 299600
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "pop_type": "slaves",
+        "size": 770400
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 2191
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 301
+      }
+    ]
+  },
+  "STATE_WEST_BENGAL": {
+    "BGL": [
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 12621021
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 3572012
+      },
+      {
+        "culture": "pashtun",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 40102
+      },
+      {
+        "culture": "nepali",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 30120
+      },
+      {
+        "culture": "bengali",
+        "religion": "theravada",
+        "pop_type": null,
+        "size": 360213
+      },
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "pop_type": "slaves",
+        "size": 420100
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "pop_type": "slaves",
+        "size": 210002
+      },
+      {
+        "culture": "armenian",
+        "religion": "oriental_orthodox",
+        "pop_type": null,
+        "size": 901
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 12292
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "capitalists",
+        "size": 800
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 1712
+      }
+    ]
+  },
+  "STATE_BOMBAY": {
+    "MAR": [
+      {
+        "culture": "marathi",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 364858
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 75852
+      },
+      {
+        "culture": "portuguese",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 5681
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 7146020
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 1048019
+      },
+      {
+        "culture": "marathi",
+        "religion": "shiite",
+        "pop_type": null,
+        "size": 185972
+      },
+      {
+        "culture": "kannada",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 351181
+      },
+      {
+        "culture": "kannada",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 1419448
+      },
+      {
+        "culture": "kannada",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 207742
+      },
+      {
+        "culture": "kannada",
+        "religion": "shiite",
+        "pop_type": null,
+        "size": 36217
+      },
+      {
+        "culture": "deccani",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 408102
+      },
+      {
+        "culture": "deccani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 62819
+      },
+      {
+        "culture": "deccani",
+        "religion": "shiite",
+        "pop_type": null,
+        "size": 10989
+      },
+      {
+        "culture": "kannada",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 69482
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 3212
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "capitalists",
+        "size": 700
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "capitalists",
+        "size": 100
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "bureaucrats",
+        "size": 21211
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 2012
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 710
+      },
+      {
+        "culture": "sindi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 203012
+      },
+      {
+        "culture": "gujarati",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 409975
+      },
+      {
+        "culture": "sephardic",
+        "religion": "jewish",
+        "pop_type": null,
+        "size": 6012
+      },
+      {
+        "culture": "gujarati",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 102012
+      },
+      {
+        "culture": "marathi",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 98608
+      },
+      {
+        "culture": "persian",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 8910
+      }
+    ]
+  },
+  "STATE_MALWA": {
+    "GWA": [
+      {
+        "culture": "bundeli",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 467598
+      },
+      {
+        "culture": "rajput",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 311932
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 222666
+      },
+      {
+        "culture": "bundeli",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 36674
+      },
+      {
+        "culture": "rajput",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 311932
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 26196
+      },
+      {
+        "culture": "rajput",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 27505
+      },
+      {
+        "culture": "bundeli",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 18337
+      }
+    ],
+    "IND": [
+      {
+        "culture": "rajput",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 267199
+      },
+      {
+        "culture": "bundeli",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 55071
+      },
+      {
+        "culture": "rajput",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 50100
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 133599
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 25050
+      },
+      {
+        "culture": "rajput",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 16701
+      }
+    ]
+  },
+  "STATE_CENTRAL_PROVINCES": {
+    "NAG": [
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 751839
+      },
+      {
+        "culture": "oriya",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 201021
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 98212
+      },
+      {
+        "culture": "chhattisgarhi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 1059159
+      },
+      {
+        "culture": "deccani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 341201
+      },
+      {
+        "culture": "gondi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 225180
+      },
+      {
+        "culture": "gondi",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 300180
+      },
+      {
+        "culture": "bageli",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 172011
+      },
+      {
+        "culture": "bundeli",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 281175
+      },
+      {
+        "culture": "bageli",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 211175
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 196470
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "aristocrats",
+        "size": 96
+      },
+      {
+        "culture": "gondi",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 38235
+      },
+      {
+        "culture": "gondi",
+        "religion": "animist",
+        "pop_type": null,
+        "size": 30235
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 147352
+      }
+    ]
+  }
+}

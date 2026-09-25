@@ -1,0 +1,14 @@
+version: 1
+reason: >-
+  Align eight verified Victoria 3 hub provinces with the already-written
+  political owners of their named cities. Every source and destination owner
+  already holds other provinces in the same state; no tag is added or removed.
+moves:
+  - {state: STATE_HILL_PUNJAB, hub: Amritsar, province: xA0F0A0, from: PTA, to: PNJ}
+  - {state: STATE_KASHMIR, hub: Srinagar, province: x6326A6, from: LAD, to: KAS}
+  - {state: STATE_GUJARAT, hub: Surat, province: xB3D1CD, from: JUN, to: GJT}
+  - {state: STATE_RAJPUTANA, hub: Jodhpur, province: x6E01FB, from: MEW, to: JOD}
+  - {state: STATE_RAJPUTANA, hub: Udaipur, province: x53A30A, from: BIK, to: MEW}
+  - {state: STATE_MALWA, hub: Indore, province: x746A39, from: GWA, to: IND}
+  - {state: STATE_ASSAM, hub: Imphal, province: x30B15A, from: NGA, to: MNP}
+  - {state: STATE_ASSAM, hub: Jorhat, province: x9A1864, from: MGH, to: ASM}

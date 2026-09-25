@@ -1,0 +1,409 @@
+version: 1
+policy: 'Southern and Eastern Europe: Italy''s states, the northern Iberian kingdoms, the Balkan emirates and kingdoms,
+  independent Hungary and Transylvania, the Danubian principalities, Silesia, East Prussia and Krakow. Inherited
+  populations already fit the written design and keep their scale. Narrow corrections: Habsburg-era Danube Swabian
+  colonisation is reduced in independent Hungary''s Banat, Backa, Bekes and Transdanubia; Russian-era colonists
+  leave Bessarabia, where Budjak Nogais remain; without the Spanish expulsions northern Iberia keeps Sephardic and
+  Mudejar Muslim communities; Venice, Livorno, Naples and Sicily keep small Rum, Greek, Armenian and Maghrebi merchant
+  groups. Wallachian and Moldavian slave POPs (the installed stand-in for Romani bondage) stay under the vanilla
+  legacy-slavery law. Weights are per mille.'
+countries:
+  ALB:
+    literacy_range:
+    - 0.09
+    - 0.1
+  AUS:
+    literacy_range:
+    - 0.21
+    - 0.22
+  BOS:
+    literacy_range:
+    - 0.1
+    - 0.1
+  BUL:
+    literacy_range:
+    - 0.14
+    - 0.15
+  CRO:
+    literacy_range:
+    - 0.18
+    - 0.18
+  FPR:
+    literacy_range:
+    - 0.16
+    - 0.16
+  HUN:
+    literacy_range:
+    - 0.25
+    - 0.26
+  KRA:
+    literacy_range:
+    - 0.36
+    - 0.36
+  LUC:
+    literacy_range:
+    - 0.28
+    - 0.29
+  MOD:
+    literacy_range:
+    - 0.26
+    - 0.26
+  MOL:
+    literacy_range:
+    - 0.12
+    - 0.12
+  MON:
+    literacy_range:
+    - 0.06
+    - 0.06
+  PAP:
+    literacy_range:
+    - 0.2
+    - 0.21
+  PAR:
+    literacy_range:
+    - 0.26
+    - 0.26
+  SAR:
+    literacy_range:
+    - 0.23
+    - 0.24
+  SER:
+    literacy_range:
+    - 0.1
+    - 0.1
+  SIC:
+    literacy_range:
+    - 0.12
+    - 0.12
+  TRS:
+    literacy_range:
+    - 0.22
+    - 0.22
+  TUS:
+    literacy_range:
+    - 0.28
+    - 0.29
+  VAR:
+    literacy_range:
+    - 0.25
+    - 0.26
+  VBO:
+    literacy_range:
+    - 0.34
+    - 0.34
+  VCA:
+    literacy_range:
+    - 0.2
+    - 0.2
+  VGL:
+    literacy_range:
+    - 0.15
+    - 0.16
+  VMI:
+    literacy_range:
+    - 0.32
+    - 0.32
+  VNV:
+    literacy_range:
+    - 0.22
+    - 0.22
+  VPD:
+    literacy_range:
+    - 0.38
+    - 0.38
+  VVE:
+    literacy_range:
+    - 0.3
+    - 0.3
+  WAL:
+    literacy_range:
+    - 0.1
+    - 0.1
+partial_countries:
+- AUS
+- FPR
+- SAR
+- VBO
+country_culture_overrides: {}
+country_religion_overrides: {}
+country_laws: {}
+release_slaves: []
+replace_planned: []
+homeland_rule:
+  new_share: 0.1
+  keep_share: 0.0
+  settler_keep_share: 0.1
+  settler_cultures:
+  - russian
+  - east_german
+
+shares:
+  STATE_ALBANIA/ALB:
+    population: 1263200
+    literacy: 0.1
+  STATE_KOSOVO/ALB:
+    population: 308900
+    literacy: 0.08
+  STATE_BUKOVINA/AUS:
+    population: 372400
+    literacy: 0.14
+  STATE_DALMATIA/AUS:
+    population: 397800
+    literacy: 0.24
+  STATE_ISTRIA/AUS:
+    population: 680100
+    literacy: 0.24
+  STATE_MONTENEGRO/AUS:
+    population: 22700
+    literacy: 0.12
+  STATE_SLOVENIA/AUS:
+    population: 485800
+    literacy: 0.24
+  STATE_BOSNIA/BOS:
+    population: 864500
+    literacy: 0.1
+  STATE_BULGARIA/BUL:
+    population: 874400
+    literacy: 0.14
+  STATE_DOBRUDJA/BUL:
+    population: 253600
+    literacy: 0.14
+  STATE_NORTHERN_THRACE/BUL:
+    population: 853600
+    literacy: 0.14
+  STATE_CROATIA/CRO:
+    population: 828000
+    literacy: 0.18
+  STATE_SLAVONIA/CRO:
+    population: 366200
+    literacy: 0.18
+  STATE_CORSICA/FPR:
+    population: 207900
+    literacy: 0.16
+  STATE_BANAT/HUN:
+    population: 1189700
+    literacy: 0.26
+    mix:
+      romanian/orthodox: 420
+      serb/orthodox: 260
+      hungarian/catholic: 110
+      hungarian/protestant: 60
+      croat/catholic: 60
+      south_german/catholic: 70
+      bulgarian/catholic: 10
+      ashkenazi/jewish: 5
+      hungarian/jewish: 5
+  STATE_BEKES/HUN:
+    population: 1524500
+    literacy: 0.26
+    mix:
+      romanian/orthodox: 480
+      hungarian/protestant: 230
+      hungarian/catholic: 150
+      serb/orthodox: 70
+      south_german/catholic: 30
+      ashkenazi/jewish: 13
+      hungarian/jewish: 11
+      croat/catholic: 16
+  STATE_CENTRAL_HUNGARY/HUN:
+    population: 1199000
+    literacy: 0.26
+  STATE_DELVIDEK/HUN:
+    population: 761400
+    literacy: 0.26
+    mix:
+      serb/orthodox: 430
+      hungarian/catholic: 310
+      south_german/catholic: 80
+      slovak/catholic: 50
+      croat/catholic: 80
+      romanian/orthodox: 50
+  STATE_RUTHENIA/HUN:
+    population: 342200
+    literacy: 0.12
+  STATE_SLOVAKIA/HUN:
+    population: 2046600
+    literacy: 0.26
+  STATE_TRANSDANUBIA/HUN:
+    population: 2356500
+    literacy: 0.26
+    mix:
+      hungarian/catholic: 648
+      hungarian/protestant: 145
+      south_german/catholic: 80
+      slovak/catholic: 55
+      croat/catholic: 30
+      slovene/catholic: 27
+      hungarian/jewish: 15
+  STATE_WEST_GALICIA/KRA:
+    population: 2280400
+    literacy: 0.36
+  STATE_EMILIA/LUC:
+    population: 108400
+    literacy: 0.28
+  STATE_EMILIA/MOD:
+    population: 648400
+    literacy: 0.26
+  STATE_BESSARABIA/MOL:
+    population: 500000
+    literacy: 0.12
+    mix:
+      romanian/orthodox: 700
+      ukrainian/orthodox: 150
+      ashkenazi/jewish: 70
+      tatar/sunni: 50
+      bulgarian/orthodox: 15
+      turkish/orthodox: 15
+  STATE_MOLDAVIA/MOL:
+    population: 1358400
+    literacy: 0.12
+  STATE_MONTENEGRO/MON:
+    population: 291400
+    literacy: 0.06
+  STATE_LAZIO/PAP:
+    population: 1339500
+    literacy: 0.22
+  STATE_ROMAGNA/PAP:
+    population: 803600
+    literacy: 0.18
+  STATE_UMBRIA/PAP:
+    population: 451000
+    literacy: 0.18
+  STATE_EMILIA/PAR:
+    population: 472000
+    literacy: 0.26
+  STATE_PIEDMONT/SAR:
+    population: 2464000
+    literacy: 0.26
+  STATE_SARDINIA/SAR:
+    population: 524100
+    literacy: 0.1
+  STATE_SAVOY/SAR:
+    population: 468800
+    literacy: 0.26
+  STATE_EASTERN_SERBIA/SER:
+    population: 535800
+    literacy: 0.1
+  STATE_WESTERN_SERBIA/SER:
+    population: 512300
+    literacy: 0.1
+  STATE_ABRUZZO/SIC:
+    population: 660400
+    literacy: 0.12
+  STATE_APULIA/SIC:
+    population: 1284400
+    literacy: 0.12
+  STATE_CALABRIA/SIC:
+    population: 882800
+    literacy: 0.12
+  STATE_CAMPANIA/SIC:
+    population: 2557400
+    literacy: 0.12
+    mix:
+      south_italian/catholic: 990
+      maghrebi/sunni: 4
+      turkish/sunni: 3
+      greek/orthodox: 3
+  STATE_SICILY/SIC:
+    population: 1647600
+    literacy: 0.12
+    mix:
+      south_italian/catholic: 985
+      maghrebi/sunni: 8
+      albanian/catholic: 5
+      sephardic/jewish: 2
+  STATE_NORTHERN_TRANSYLVANIA/TRS:
+    population: 1015800
+    literacy: 0.22
+  STATE_SOUTHERN_TRANSYLVANIA/TRS:
+    population: 1046600
+    literacy: 0.22
+  STATE_TUSCANY/TUS:
+    population: 1632400
+    literacy: 0.28
+    mix:
+      north_italian/catholic: 978
+      north_italian/jewish: 8
+      sephardic/jewish: 6
+      maghrebi/sunni: 4
+      turkish/sunni: 4
+  STATE_ARAGON/VAR:
+    population: 734700
+    literacy: 0.24
+    mix:
+      spanish/catholic: 640
+      aragonese/catholic: 280
+      catalan/catholic: 40
+      spanish/sunni: 25
+      sephardic/jewish: 15
+  STATE_BALEARIC_ISLANDS/VAR:
+    population: 231300
+    literacy: 0.24
+  STATE_CATALONIA/VAR:
+    population: 1050600
+    literacy: 0.28
+    mix:
+      catalan/catholic: 930
+      spanish/catholic: 45
+      sephardic/jewish: 15
+      maghrebi/sunni: 10
+  STATE_VALENCIA/VAR:
+    population: 965800
+    literacy: 0.24
+    mix:
+      catalan/catholic: 720
+      spanish/catholic: 190
+      spanish/sunni: 70
+      sephardic/jewish: 20
+  STATE_LOWER_SILESIA/VBO:
+    population: 1919200
+    literacy: 0.34
+  STATE_UPPER_SILESIA/VBO:
+    population: 735900
+    literacy: 0.34
+  STATE_LEON/VCA:
+    population: 642900
+    literacy: 0.2
+  STATE_NEW_CASTILE/VCA:
+    population: 1578900
+    literacy: 0.2
+    mix:
+      spanish/catholic: 970
+      sephardic/jewish: 15
+      spanish/sunni: 10
+      ve_andalusi/sunni: 5
+  STATE_OLD_CASTILE/VCA:
+    population: 1274100
+    literacy: 0.2
+  STATE_ASTURIAS/VGL:
+    population: 438600
+    literacy: 0.14
+  STATE_ENTRE_DOURO_E_MINHO/VGL:
+    population: 1203000
+    literacy: 0.18
+  STATE_GALICIA/VGL:
+    population: 1485300
+    literacy: 0.14
+  STATE_LOMBARDY/VMI:
+    population: 2377400
+    literacy: 0.32
+  STATE_BASQUE_COUNTRY/VNV:
+    population: 523100
+    literacy: 0.22
+  STATE_EAST_PRUSSIA/VPD:
+    population: 859800
+    literacy: 0.38
+  STATE_VENETIA/VVE:
+    population: 1857200
+    literacy: 0.3
+    mix:
+      north_italian/catholic: 975
+      north_italian/jewish: 5
+      greek/orthodox: 8
+      turkish/sunni: 5
+      armenian/oriental_orthodox: 4
+      sephardic/jewish: 3
+  STATE_WALLACHIA/WAL:
+    population: 2227900
+    literacy: 0.1

@@ -19,6 +19,14 @@
 
 Tunus'un hukuk ve ticaret mektepleri, Cezayir'in denizcilik/onarım kapasitesi, Fas'ın deri-dokuma ve Atlantik ağı farklı kalkınma temelleridir. Sahara'nın tümü kıyı devletlerinin etkin bürokratik kontrolünde gösterilmez.
 
+[Etkin Mağrip–Sahra demografi dilimi](../../scenarios/atlas/demography_phase17_maghreb_sahara/README.md) bu ayrımı 16 state ve 40 doğrudan payda nüfus, ortak kültür–din ve okuryazarlık girdileriyle kurar. Tuareg nüfusunun dar kimlik düzeltmesi dışında siyasi sınırlar, bağlılıklar ve kıyı anlaşmaları değişmez. Sahra'dan Senegal/Timbuktu/Niger/Çad'a uzanan yedi ülkenin burada yalnız kısmi payı hesaplanır.
+
+[Etkin Sahel–Batı Afrika dilimi](../../scenarios/atlas/demography_phase18_sahel_west_africa/README.md) komşu 23 state'teki 56 payı, 41 ayrı ülkenin nüfus ve okuryazarlık girdileriyle tamamlar. Eski payların ortak kültür–din kimlikleri ve siyasi ayrımlar korunur; kıtanın diğer bölgeleri sonraki dilimlere kalır.
+
+[Etkin Nil–Boynuz–Doğu Afrika dilimi](../../scenarios/atlas/demography_phase19_nile_horn_east_africa/README.md) 16 state'teki 57 payı işler. Habeş yaylasındaki yanlış Kikuyu köle POP etiketleri dar kapsamda Oromo/Sidama olarak düzeltilir; Sennaar'ın mevcut köle POP'larıyla tutarlı bir başlangıç kanunu tanımlanır. Kongo, Orta ve Güney Afrika bu dilimin dışında tutulup aşağıdaki dilimde tamamlanmıştır.
+
+[Etkin Orta–Güney Afrika dilimi](../../scenarios/atlas/demography_phase20_rest_africa/README.md) kalan 30 state ve 72 payı işler; böylece Afrika'nın iki teknik bölgesindeki bütün nüfus paylarının açık planı vardır. Dar siyasi düzeltme Oranje/Transvaal Boer egemenliklerini Basotho/Ndebele yerel yönetimlerine devreder. Cape, Doğu Cape, Kuzey Cape ve Basotho paylarındaki aşırı yabancı yerleşimci oranları küçük topluluklara indirilir. Güney kentlerinin bazı vanilla hub adları ile Ndebele'ye geçen bölgedeki beş bina seviyesinin sonucu ayrı açık iş olarak kalır.
+
 ### Sahel ve Sahra
 
 Gelişen Sahra ticareti tahıl, tuz, tekstil, hayvan, metal ve insan ticaretini içerir. Mali havzasındaki kentler ve Hausa bölgesi yerel eğitim ve yazışma ağlarına sahiptir. Bütün bu gelişmenin kaynağı Kahire'den gelen emirler değildir.

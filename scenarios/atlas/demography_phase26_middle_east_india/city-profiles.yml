@@ -1,0 +1,584 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Weights follow each share's planned culture/faith groups (groups >= 2%). Oil-era foundations
+# (Dammam, Dhahran, Abqaiq) are left unprofiled.
+version: 1
+cities:
+  Adana:
+    state: STATE_ADANA
+    owner: ADA
+    hub: city
+    population: 25000
+    weights:
+      turkish/sunni: 846
+      armenian/oriental_orthodox: 95
+      kurdish/sunni: 59
+  Mersin:
+    state: STATE_ADANA
+    owner: ADA
+    hub: port
+    population: 8000
+    weights:
+      turkish/sunni: 846
+      armenian/oriental_orthodox: 95
+      kurdish/sunni: 59
+  Erzurum:
+    state: STATE_ERZURUM
+    owner: ERZ
+    hub: city
+    population: 40000
+    weights:
+      armenian/oriental_orthodox: 294
+      kurdish/shiite: 235
+      kurdish/sunni: 191
+      turkish/sunni: 173
+      turkish/shiite: 107
+  Erzincan:
+    state: STATE_ERZURUM
+    owner: ERZ
+    hub: mine
+    population: 15000
+    weights:
+      armenian/oriental_orthodox: 294
+      kurdish/shiite: 235
+      kurdish/sunni: 191
+      turkish/sunni: 173
+      turkish/shiite: 107
+  Muş:
+    state: STATE_ERZURUM
+    owner: ERZ
+    hub: wood
+    population: 8000
+    weights:
+      armenian/oriental_orthodox: 294
+      kurdish/shiite: 235
+      kurdish/sunni: 191
+      turkish/sunni: 173
+      turkish/shiite: 107
+  Kars:
+    state: STATE_KARS
+    owner: ERZ
+    hub: city
+    population: 15000
+    weights:
+      turkish/sunni: 326
+      armenian/oriental_orthodox: 211
+      georgian/sunni: 144
+      kurdish/sunni: 117
+      azerbaijani/shiite: 91
+      greek/orthodox: 80
+      georgian/orthodox: 31
+  Batum:
+    state: STATE_KARS
+    owner: ERZ
+    hub: port
+    population: 6000
+    weights:
+      turkish/sunni: 326
+      armenian/oriental_orthodox: 211
+      georgian/sunni: 144
+      kurdish/sunni: 117
+      azerbaijani/shiite: 91
+      greek/orthodox: 80
+      georgian/orthodox: 31
+  Trabzon:
+    state: STATE_TRABZON
+    owner: TRB
+    hub: wood
+    population: 45000
+    weights:
+      turkish/sunni: 763
+      greek/orthodox: 152
+      georgian/sunni: 45
+      armenian/oriental_orthodox: 40
+  Giresun:
+    state: STATE_TRABZON
+    owner: TRB
+    hub: port
+    population: 10000
+    weights:
+      turkish/sunni: 763
+      greek/orthodox: 152
+      georgian/sunni: 45
+      armenian/oriental_orthodox: 40
+  Rize:
+    state: STATE_TRABZON
+    owner: TRB
+    hub: mine
+    population: 8000
+    weights:
+      turkish/sunni: 763
+      greek/orthodox: 152
+      georgian/sunni: 45
+      armenian/oriental_orthodox: 40
+  Ordu:
+    state: STATE_TRABZON
+    owner: TRB
+    hub: city
+    population: 8000
+    weights:
+      turkish/sunni: 763
+      greek/orthodox: 152
+      georgian/sunni: 45
+      armenian/oriental_orthodox: 40
+  Diyarbakır:
+    state: STATE_DIYARBAKIR
+    owner: KUR
+    hub: wood
+    population: 45000
+    weights:
+      kurdish/sunni: 369
+      armenian/oriental_orthodox: 311
+      kurdish/shiite: 129
+      turkish/sunni: 108
+      assyrian/oriental_orthodox: 42
+      mashriqi/sunni: 41
+  Urfa:
+    state: STATE_DIYARBAKIR
+    owner: KUR
+    hub: farm
+    population: 30000
+    weights:
+      kurdish/sunni: 369
+      armenian/oriental_orthodox: 311
+      kurdish/shiite: 129
+      turkish/sunni: 108
+      assyrian/oriental_orthodox: 42
+      mashriqi/sunni: 41
+  Malatya:
+    state: STATE_DIYARBAKIR
+    owner: KUR
+    hub: city
+    population: 20000
+    weights:
+      kurdish/sunni: 369
+      armenian/oriental_orthodox: 311
+      kurdish/shiite: 129
+      turkish/sunni: 108
+      assyrian/oriental_orthodox: 42
+      mashriqi/sunni: 41
+  Musul:
+    state: STATE_MOSUL
+    owner: KUR
+    hub: city
+    population: 60000
+    weights:
+      kurdish/sunni: 351
+      mashriqi/sunni: 336
+      turkish/sunni: 195
+      assyrian/oriental_orthodox: 90
+      bedouin/sunni: 28
+  Erbil:
+    state: STATE_MOSUL
+    owner: KUR
+    hub: farm
+    population: 15000
+    weights:
+      kurdish/sunni: 351
+      mashriqi/sunni: 336
+      turkish/sunni: 195
+      assyrian/oriental_orthodox: 90
+      bedouin/sunni: 28
+  Kerkük:
+    state: STATE_MOSUL
+    owner: KUR
+    hub: mine
+    population: 15000
+    weights:
+      kurdish/sunni: 351
+      mashriqi/sunni: 336
+      turkish/sunni: 195
+      assyrian/oriental_orthodox: 90
+      bedouin/sunni: 28
+  Süleymaniye:
+    state: STATE_MOSUL
+    owner: KUR
+    hub: wood
+    population: 10000
+    weights:
+      kurdish/sunni: 351
+      mashriqi/sunni: 336
+      turkish/sunni: 195
+      assyrian/oriental_orthodox: 90
+      bedouin/sunni: 28
+  Şam:
+    state: STATE_SYRIA
+    owner: SYR
+    hub: city
+    population: 100000
+    weights:
+      mashriqi/sunni: 604
+      mashriqi/orthodox: 286
+      mashriqi/shiite: 110
+  Humus:
+    state: STATE_SYRIA
+    owner: SYR
+    hub: farm
+    population: 20000
+    weights:
+      mashriqi/sunni: 604
+      mashriqi/orthodox: 286
+      mashriqi/shiite: 110
+  Hama:
+    state: STATE_SYRIA
+    owner: SYR
+    hub: mine
+    population: 20000
+    weights:
+      mashriqi/sunni: 604
+      mashriqi/orthodox: 286
+      mashriqi/shiite: 110
+  Es Salt:
+    state: STATE_TRANSJORDAN
+    owner: SYR
+    hub: city
+    population: 4000
+    weights:
+      bedouin/sunni: 465
+      mashriqi/sunni: 344
+      mashriqi/orthodox: 131
+      mashriqi/shiite: 40
+      bedouin/orthodox: 20
+  Kerek:
+    state: STATE_TRANSJORDAN
+    owner: SYR
+    hub: farm
+    population: 3000
+    weights:
+      bedouin/sunni: 465
+      mashriqi/sunni: 344
+      mashriqi/orthodox: 131
+      mashriqi/shiite: 40
+      bedouin/orthodox: 20
+  Beyrut:
+    state: STATE_LEBANON
+    owner: LEB
+    hub: city
+    population: 40000
+    weights:
+      mashriqi/catholic: 346
+      mashriqi/shiite: 262
+      mashriqi/sunni: 256
+      mashriqi/orthodox: 136
+  Trablusşam:
+    state: STATE_LEBANON
+    owner: LEB
+    hub: port
+    population: 18000
+    weights:
+      mashriqi/catholic: 346
+      mashriqi/shiite: 262
+      mashriqi/sunni: 256
+      mashriqi/orthodox: 136
+  Sayda:
+    state: STATE_LEBANON
+    owner: LEB
+    hub: wood
+    population: 10000
+    weights:
+      mashriqi/catholic: 346
+      mashriqi/shiite: 262
+      mashriqi/sunni: 256
+      mashriqi/orthodox: 136
+  Zahle:
+    state: STATE_LEBANON
+    owner: LEB
+    hub: mine
+    population: 8000
+    weights:
+      mashriqi/catholic: 346
+      mashriqi/shiite: 262
+      mashriqi/sunni: 256
+      mashriqi/orthodox: 136
+  Kudüs:
+    state: STATE_PALESTINE
+    owner: PAL
+    hub: city
+    population: 30000
+    weights:
+      mashriqi/sunni: 678
+      mashriqi/orthodox: 159
+      mashriqi/shiite: 92
+      sephardic/jewish: 49
+      bedouin/sunni: 22
+  Yafa:
+    state: STATE_PALESTINE
+    owner: PAL
+    hub: port
+    population: 10000
+    weights:
+      mashriqi/sunni: 678
+      mashriqi/orthodox: 159
+      mashriqi/shiite: 92
+      sephardic/jewish: 49
+      bedouin/sunni: 22
+  Gazze:
+    state: STATE_PALESTINE
+    owner: PAL
+    hub: farm
+    population: 15000
+    weights:
+      mashriqi/sunni: 678
+      mashriqi/orthodox: 159
+      mashriqi/shiite: 92
+      sephardic/jewish: 49
+      bedouin/sunni: 22
+  Akka:
+    state: STATE_PALESTINE
+    owner: PAL
+    hub: wood
+    population: 10000
+    weights:
+      mashriqi/sunni: 678
+      mashriqi/orthodox: 159
+      mashriqi/shiite: 92
+      sephardic/jewish: 49
+      bedouin/sunni: 22
+  Hebron:
+    state: STATE_PALESTINE
+    owner: PAL
+    hub: mine
+    population: 8000
+    weights:
+      mashriqi/sunni: 678
+      mashriqi/orthodox: 159
+      mashriqi/shiite: 92
+      sephardic/jewish: 49
+      bedouin/sunni: 22
+  Basra:
+    state: STATE_BASRA
+    owner: BSR
+    hub: city
+    population: 45000
+    weights:
+      mashriqi/shiite: 660
+      bedouin/sunni: 175
+      bedouin/shiite: 124
+      mashriqi/sunni: 41
+  Kuveyt:
+    state: STATE_BASRA
+    owner: KUW
+    hub: port
+    population: 15000
+    weights:
+      mashriqi/shiite: 644
+      bedouin/sunni: 171
+      bedouin/shiite: 123
+      mashriqi/sunni: 32
+      lacustrine_bantu/animist: 30
+  Abu Dabi:
+    state: STATE_ABU_DHABI
+    owner: ABU
+    hub: port
+    population: 5000
+    weights:
+      bedouin/sunni: 863
+      sudanese/animist: 50
+      bedouin/shiite: 31
+      persian/shiite: 31
+      bedouin/ibadi: 25
+  Manama:
+    state: STATE_ABU_DHABI
+    owner: BHN
+    hub: city
+    population: 8000
+    weights:
+      bedouin/shiite: 414
+      bedouin/sunni: 324
+      persian/shiite: 179
+      sudanese/animist: 83
+  Doha:
+    state: STATE_ABU_DHABI
+    owner: BHN
+    hub: mine
+    population: 3000
+    weights:
+      bedouin/shiite: 414
+      bedouin/sunni: 324
+      persian/shiite: 179
+      sudanese/animist: 83
+  Maskat:
+    state: STATE_OMAN
+    owner: OMA
+    hub: city
+    population: 30000
+    weights:
+      bedouin/ibadi: 689
+      bedouin/sunni: 166
+      baluchi/sunni: 40
+      lacustrine_bantu/animist: 39
+      swahili/sunni: 36
+      sudanese/animist: 30
+  Sur:
+    state: STATE_OMAN
+    owner: OMA
+    hub: wood
+    population: 10000
+    weights:
+      bedouin/ibadi: 689
+      bedouin/sunni: 166
+      baluchi/sunni: 40
+      lacustrine_bantu/animist: 39
+      swahili/sunni: 36
+      sudanese/animist: 30
+  Nizva:
+    state: STATE_OMAN
+    owner: OMA
+    hub: mine
+    population: 10000
+    weights:
+      bedouin/ibadi: 689
+      bedouin/sunni: 166
+      baluchi/sunni: 40
+      lacustrine_bantu/animist: 39
+      swahili/sunni: 36
+      sudanese/animist: 30
+  Bandar Lengeh:
+    state: STATE_LARISTAN
+    owner: OMA
+    hub: port
+    population: 5000
+    weights:
+      persian/shiite: 634
+      lacustrine_bantu/animist: 128
+      bedouin/ibadi: 127
+      baluchi/sunni: 79
+      bedouin/sunni: 32
+  Mekke:
+    state: STATE_HEDJAZ
+    owner: HDJ
+    hub: city
+    population: 60000
+    weights:
+      mashriqi/sunni: 543
+      bedouin/sunni: 309
+      yemenite/sunni: 88
+      sudanese/animist: 60
+  Medine:
+    state: STATE_HEDJAZ
+    owner: HDJ
+    hub: mine
+    population: 25000
+    weights:
+      mashriqi/sunni: 543
+      bedouin/sunni: 309
+      yemenite/sunni: 88
+      sudanese/animist: 60
+  Cidde:
+    state: STATE_HEDJAZ
+    owner: HDJ
+    hub: wood
+    population: 25000
+    weights:
+      mashriqi/sunni: 543
+      bedouin/sunni: 309
+      yemenite/sunni: 88
+      sudanese/animist: 60
+  Riyad:
+    state: STATE_NEJD
+    owner: NEJ
+    hub: city
+    population: 10000
+    weights:
+      bedouin/sunni: 765
+      bedouin/shiite: 179
+      sudanese/animist: 56
+  Hail:
+    state: STATE_HAIL
+    owner: JAB
+    hub: mine
+    population: 6000
+    weights:
+      bedouin/sunni: 841
+      bedouin/shiite: 109
+      sudanese/sunni: 50
+  San'a:
+    state: STATE_YEMEN
+    owner: ZAI
+    hub: mine
+    population: 40000
+    weights:
+      yemenite/shiite: 676
+      yemenite/sunni: 237
+      bedouin/sunni: 52
+      sudanese/animist: 35
+  Taiz:
+    state: STATE_YEMEN
+    owner: ZAI
+    hub: wood
+    population: 20000
+    weights:
+      yemenite/shiite: 676
+      yemenite/sunni: 237
+      bedouin/sunni: 52
+      sudanese/animist: 35
+  Aden:
+    state: STATE_YEMEN
+    owner: LAH
+    hub: city
+    population: 10000
+    weights:
+      yemenite/sunni: 524
+      bedouin/sunni: 207
+      yemenite/shiite: 124
+      sudanese/animist: 116
+      sephardic/jewish: 29
+  El Hudeyde:
+    state: STATE_YEMEN
+    owner: LAH
+    hub: port
+    population: 15000
+    weights:
+      yemenite/sunni: 524
+      bedouin/sunni: 207
+      yemenite/shiite: 124
+      sudanese/animist: 116
+      sephardic/jewish: 29
+  El Mukelle:
+    state: STATE_YEMEN
+    owner: KAT
+    hub: farm
+    population: 5000
+    weights:
+      bedouin/sunni: 889
+      sudanese/animist: 111
+  Bempur:
+    state: STATE_SISTAN
+    owner: MAK
+    hub: city
+    population: 5000
+    weights:
+      baluchi/sunni: 862
+      persian/shiite: 60
+      lacustrine_bantu/animist: 40
+      kurdish/sunni: 38
+  Çabahar:
+    state: STATE_SISTAN
+    owner: MAK
+    hub: port
+    population: 3000
+    weights:
+      baluchi/sunni: 862
+      persian/shiite: 60
+      lacustrine_bantu/animist: 40
+      kurdish/sunni: 38
+  Saint-Denis:
+    state: STATE_INDIAN_OCEAN_TERRITORY
+    owner: VMB
+    hub: city
+    population: 15000
+    weights:
+      afro_antillean/catholic: 787
+      french/catholic: 155
+      afro_antillean/animist: 29
+      afro_caribbean/protestant: 29
+  Port Louis:
+    state: STATE_INDIAN_OCEAN_TERRITORY
+    owner: VMB
+    hub: port
+    population: 20000
+    weights:
+      afro_antillean/catholic: 787
+      french/catholic: 155
+      afro_antillean/animist: 29
+      afro_caribbean/protestant: 29

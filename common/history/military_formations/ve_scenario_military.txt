@@ -31,7 +31,6 @@ c:AIT ?= {}
 c:AJJ ?= {}
 c:AJR ?= {}
 c:ALB ?= {}
-c:ALK ?= {}
 c:ALW ?= {
 	create_military_formation = {
 		type = army
@@ -941,196 +940,7 @@ c:GAR ?= {
 		}
 	}
 }
-c:GBR ?= {
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_western_europe
-		name = Home_Army
-		save_scope_as = home_army_army
-	}
-	create_character = {
-		template = GBR_john_colborne
-		save_scope_as = colborne_gen
-	}
-	scope:colborne_gen = {
-		transfer_to_formation = scope:home_army_army
-	}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_western_europe
-		name = royal_marine_corps
-	}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_southern_europe
-		name = Army_of_the_Mediterranean
-		save_scope_as = army_med_army
-	}
-	create_character = {
-		template = GBR_matthew_whitworth_aylmer
-		save_scope_as = aylmer_gen
-	}
-	scope:aylmer_gen = {
-		transfer_to_formation = scope:army_med_army
-	}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_central_america
-		name = Army_of_the_West_Indies
-		save_scope_as = west_indies_army
-	}
-	create_character = {
-		template = GBR_henry_hardinge
-		save_scope_as = hardinge_gen
-	}
-	scope:hardinge_gen = {
-		transfer_to_formation = scope:west_indies_army
-	}
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_indochina
-		name = Army_of_India
-		save_scope_as = army_india_army
-	}
-	create_character = {
-		template = GBR_hugh_gough
-		save_scope_as = gough_gen
-	}
-	scope:gough_gen = {
-		transfer_to_formation = scope:army_india_army
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_southern_europe
-		name = Mediterranean_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 7
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 5
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_southern_europe
-		name = Lisbon_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 7
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 2
-		}
-		save_scope_as = med_fleet_gbr
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_atlantic_coast
-		name = North_America_and_West_Indies_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 1
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 7
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_east_africa
-		name = Cape_of_Good_Hope_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 1
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 3
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_indochina
-		name = East_Indies_and_China_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 1
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 7
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_la_plata
-		name = South_America_Station
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 5
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_western_europe
-		name = Portsmouth_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 29
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 23
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_western_europe
-		name = Plymouth_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 20
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 25
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_western_europe
-		name = Sheerness_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 17
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 21
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_western_europe
-		name = Chatham_Station
-		ship = {
-			type = ship_type:ship_type_ship_of_the_line
-			count = 3
-		}
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 12
-		}
-	}
-	activate_production_method = {
-		building_type = building_barrack
-		production_method = pm_general_training
-	}
-}
+c:GBR ?= {}
 c:GGO ?= {}
 c:GJM ?= {}
 c:GJT ?= {}
@@ -2569,7 +2379,6 @@ c:OMA ?= {
 	}
 }
 c:OMO ?= {}
-c:ORA ?= {}
 c:ORG ?= {}
 c:ORI ?= {}
 c:ORM ?= {}
@@ -3229,23 +3038,6 @@ c:TAM ?= {}
 c:TBI ?= {}
 c:TBR ?= {}
 c:TEK ?= {}
-c:TEX ?= {
-	create_military_formation = {
-		type = army
-		hq_region = sr:region_great_plains
-		name = Texian_Army
-		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
-			state_region = s:STATE_TEXAS
-			count = 4
-		}
-		combat_unit = {
-			type = unit_type:combat_unit_type_dragoons
-			state_region = s:STATE_TEXAS
-			count = 1
-		}
-	}
-}
 c:TGI ?= {}
 c:TGR ?= {}
 c:THL ?= {}
@@ -3291,7 +3083,6 @@ c:TRB ?= {}
 c:TRI ?= {}
 c:TRK ?= {}
 c:TRM ?= {}
-c:TRN ?= {}
 c:TRS ?= {
 	create_military_formation = {
 		type = army
@@ -3438,6 +3229,7 @@ c:VBT ?= {}
 c:VBU ?= {}
 c:VBY ?= {}
 c:VCA ?= {}
+c:VCD ?= {}
 c:VCE ?= {}
 c:VCH ?= {}
 c:VCI ?= {}
@@ -3548,6 +3340,7 @@ c:VSA ?= {}
 c:VSB ?= {}
 c:VSC ?= {}
 c:VSI ?= {}
+c:VSM ?= {}
 c:VSN ?= {}
 c:VSO ?= {}
 c:VSR ?= {}
@@ -3558,6 +3351,7 @@ c:VTA ?= {}
 c:VTC ?= {}
 c:VTD ?= {}
 c:VTL ?= {}
+c:VTU ?= {}
 c:VUR ?= {}
 c:VUT ?= {}
 c:VVA ?= {}

@@ -1,0 +1,41 @@
+version: 1
+policy: >-
+  Preserve Tokugawa Japan, Joseon Korea, autonomous Ryukyu, Ezo and the
+  indigenous Sakhalin polities. Adjust direct populations only modestly;
+  keep inherited joint culture/religion groups and fixed professions.
+  Mahayana is the game's single POP-faith representation for Japan's
+  historically intertwined Buddhist and kami practice; it is not a claim
+  that kami worship disappeared. No political, diplomatic or legal change.
+countries:
+  JAP: {population: 32600000, literacy_range: [0.30, 0.36]}
+  KOR: {population: 16250000, literacy_range: [0.19, 0.24]}
+  RYU: {population: 195000, literacy_range: [0.22, 0.25]}
+  EZO: {population: 34000, literacy_range: [0.07, 0.10]}
+  AIN: {population: 7281, literacy_range: [0.05, 0.07]}
+  SKH: {population: 5193, literacy_range: [0.04, 0.06]}
+  ULT: {population: 4242, literacy_range: [0.04, 0.06]}
+country_religion_overrides: {}
+states:
+  STATE_HOKKAIDO/JAP: {owner: JAP, literacy: 0.30}
+  STATE_TOHOKU/JAP: {owner: JAP, literacy: 0.30}
+  STATE_KANTO/JAP: {owner: JAP, literacy: 0.36}
+  STATE_TOKAI/JAP: {owner: JAP, literacy: 0.33}
+  STATE_HOKUSHINETSU/JAP: {owner: JAP, literacy: 0.31}
+  STATE_KANSAI/JAP: {owner: JAP, literacy: 0.35}
+  STATE_KYOTO/JAP: {owner: JAP, literacy: 0.36}
+  STATE_KYUSHU/JAP: {owner: JAP, literacy: 0.31}
+  STATE_RYUKYU_ISLANDS/JAP: {owner: JAP, literacy: 0.29}
+  STATE_CHUGOKU/JAP: {owner: JAP, literacy: 0.32}
+  STATE_SHIKOKU/JAP: {owner: JAP, literacy: 0.30}
+  STATE_SEOUL/KOR: {owner: KOR, literacy: 0.24}
+  STATE_BUSAN/KOR: {owner: KOR, literacy: 0.21}
+  STATE_YANGHO/KOR: {owner: KOR, literacy: 0.20}
+  STATE_SARIWON/KOR: {owner: KOR, literacy: 0.20}
+  STATE_PYONGYANG/KOR: {owner: KOR, literacy: 0.22}
+  STATE_RYUKYU_ISLANDS/RYU: {owner: RYU, literacy: 0.23}
+  STATE_HOKKAIDO/EZO: {owner: EZO, literacy: 0.09}
+  STATE_SAKHALIN/EZO: {owner: EZO, literacy: 0.07}
+  STATE_SAKHALIN/AIN: {owner: AIN, literacy: 0.06}
+  STATE_SAKHALIN/SKH: {owner: SKH, literacy: 0.05}
+  STATE_SAKHALIN/ULT: {owner: ULT, literacy: 0.05}
+joint_mix_overrides: {}

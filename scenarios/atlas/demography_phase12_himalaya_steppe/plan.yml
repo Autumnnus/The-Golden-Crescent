@@ -1,0 +1,34 @@
+version: 1
+policy: >-
+  Preserve the independent Tibetan, Dzungar, Mongol, Nepalese, Bhutanese and
+  Sikkimese borders. Set modest population and literacy inputs. Correct only
+  inherited joint culture/religion pairs that contradict the written atlas;
+  retain the other inherited pairs and all explicit professions.
+countries:
+  TIB: {population: 2950000, literacy_range: [0.16, 0.22]}
+  DZH: {population: 320000, literacy_range: [0.19, 0.23]}
+  MGL: {population: 2900000, literacy_range: [0.16, 0.19]}
+  NEP: {population: 4300000, literacy_range: [0.16, 0.18]}
+  BHU: {population: 125000, literacy_range: [0.13, 0.15]}
+  SIK: {population: 85000, literacy_range: [0.14, 0.16]}
+states:
+  STATE_LHASA: {owner: TIB, literacy: 0.21}
+  STATE_NGARI: {owner: TIB, literacy: 0.15}
+  STATE_EASTERN_HIMALAYAS/TIB: {owner: TIB, literacy: 0.13}
+  STATE_DZUNGARIA: {owner: DZH, literacy: 0.22}
+  STATE_ALTAI: {owner: DZH, literacy: 0.16}
+  STATE_ALXA: {owner: MGL, literacy: 0.16}
+  STATE_HINGGAN: {owner: MGL, literacy: 0.17}
+  STATE_TUVA: {owner: MGL, literacy: 0.14}
+  STATE_ULIASTAI: {owner: MGL, literacy: 0.15}
+  STATE_URGA: {owner: MGL, literacy: 0.21}
+  STATE_HIMALAYAS: {owner: NEP, literacy: 0.17}
+  STATE_EASTERN_HIMALAYAS/BHU: {owner: BHU, literacy: 0.14}
+  STATE_EASTERN_HIMALAYAS/SIK: {owner: SIK, literacy: 0.15}
+composition_overrides:
+  STATE_LHASA/TIB: {tibetan/gelugpa: 960, tibetan/animist: 10, han/mahayana: 30}
+  STATE_NGARI/TIB: {tibetan/gelugpa: 950, tibetan/animist: 20, han/mahayana: 20, kachin/animist: 10}
+  STATE_EASTERN_HIMALAYAS/TIB: {tibetan/gelugpa: 850, nepali/hindu: 50, naga/animist: 40, kachin/animist: 40, assamese/hindu: 20}
+  STATE_DZUNGARIA/DZH: {mongol/gelugpa: 450, kazak/sunni: 200, uighur/sunni: 200, han/confucian: 100, han/sunni: 30, manchu/confucian: 20}
+  STATE_ALTAI/DZH: {mongol/gelugpa: 600, mongol/animist: 140, tatar/sunni: 110, russian/orthodox: 150}
+  STATE_HIMALAYAS/NEP: {nepali/hindu: 710, bihari/hindu: 150, tibetan/gelugpa: 120, nepali/animist: 20}

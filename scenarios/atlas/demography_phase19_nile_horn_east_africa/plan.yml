@@ -1,0 +1,482 @@
+version: 1
+policy: Keep Nile, Horn and East African polities separate. Preserve inherited joint POP cultures and religions, minority
+  faiths and fixed professions except a narrow correction of misplaced Kikuyu slave POP cultures in Ethiopian highland shares.
+  Keep the same profession and headcount, relabel to Oromo or Sidama. Add Sennaar debt slavery law to match its inherited
+  slave POPs. Modest regional population changes and differentiated literacy; no borders or diplomacy change. Country totals
+  marked partial cover only listed shares.
+partial_countries:
+- BOR
+- OMA
+- WAD
+countries:
+  ACH:
+    population: 217200
+    literacy_range:
+    - 0.125
+    - 0.135
+  AJR:
+    population: 43300
+    literacy_range:
+    - 0.135
+    - 0.145
+  ANK:
+    population: 251700
+    literacy_range:
+    - 0.125
+    - 0.135
+  ANU:
+    population: 82600
+    literacy_range:
+    - 0.115
+    - 0.125
+  ARS:
+    population: 275800
+    literacy_range:
+    - 0.175
+    - 0.185
+  AUL:
+    population: 38100
+    literacy_range:
+    - 0.135
+    - 0.145
+  AWS:
+    population: 299100
+    literacy_range:
+    - 0.187
+    - 0.197
+  BGI:
+    population: 144200
+    literacy_range:
+    - 0.135
+    - 0.145
+  BGM:
+    population: 780700
+    literacy_range:
+    - 0.235
+    - 0.245
+  BNY:
+    population: 255800
+    literacy_range:
+    - 0.145
+    - 0.155
+  BOR:
+    population: 29900
+    literacy_range:
+    - 0.145
+    - 0.155
+  BRD:
+    population: 482000
+    literacy_range:
+    - 0.125
+    - 0.135
+  BRN:
+    population: 445600
+    literacy_range:
+    - 0.135
+    - 0.145
+  BUG:
+    population: 797900
+    literacy_range:
+    - 0.155
+    - 0.165
+  DFR:
+    population: 783700
+    literacy_range:
+    - 0.164
+    - 0.174
+  DFT:
+    population: 349700
+    literacy_range:
+    - 0.085
+    - 0.095
+  DNK:
+    population: 347200
+    literacy_range:
+    - 0.095
+    - 0.105
+  GGO:
+    population: 94800
+    literacy_range:
+    - 0.105
+    - 0.115
+  GJM:
+    population: 926600
+    literacy_range:
+    - 0.205
+    - 0.215
+  GLD:
+    population: 228900
+    literacy_range:
+    - 0.185
+    - 0.195
+  HAR:
+    population: 376100
+    literacy_range:
+    - 0.225
+    - 0.235
+  HDY:
+    population: 503500
+    literacy_range:
+    - 0.135
+    - 0.145
+  HHE:
+    population: 374800
+    literacy_range:
+    - 0.105
+    - 0.115
+  ISQ:
+    population: 131800
+    literacy_range:
+    - 0.175
+    - 0.185
+  KFA:
+    population: 464200
+    literacy_range:
+    - 0.155
+    - 0.165
+  KKY:
+    population: 317600
+    literacy_range:
+    - 0.155
+    - 0.165
+  KRG:
+    population: 127300
+    literacy_range:
+    - 0.105
+    - 0.115
+  LUO:
+    population: 111700
+    literacy_range:
+    - 0.095
+    - 0.105
+  MBS:
+    population: 93600
+    literacy_range:
+    - 0.195
+    - 0.205
+  MJK:
+    population: 77200
+    literacy_range:
+    - 0.135
+    - 0.145
+  MJT:
+    population: 374300
+    literacy_range:
+    - 0.175
+    - 0.185
+  MSI:
+    population: 70700
+    literacy_range:
+    - 0.089
+    - 0.099
+  NUE:
+    population: 248900
+    literacy_range:
+    - 0.085
+    - 0.095
+  NYM:
+    population: 609000
+    literacy_range:
+    - 0.125
+    - 0.135
+  OGD:
+    population: 404000
+    literacy_range:
+    - 0.175
+    - 0.185
+  OMA:
+    population: 1235000
+    literacy_range:
+    - 0.245
+    - 0.255
+  OMO:
+    population: 109200
+    literacy_range:
+    - 0.115
+    - 0.125
+  ORM:
+    population: 21600
+    literacy_range:
+    - 0.135
+    - 0.145
+  QWR:
+    population: 608900
+    literacy_range:
+    - 0.205
+    - 0.215
+  RWD:
+    population: 527400
+    literacy_range:
+    - 0.125
+    - 0.135
+  SDM:
+    population: 167900
+    literacy_range:
+    - 0.135
+    - 0.145
+  SHW:
+    population: 704000
+    literacy_range:
+    - 0.215
+    - 0.225
+  SKM:
+    population: 245100
+    literacy_range:
+    - 0.105
+    - 0.115
+  SKY:
+    population: 50800
+    literacy_range:
+    - 0.135
+    - 0.145
+  SNG:
+    population: 115400
+    literacy_range:
+    - 0.105
+    - 0.115
+  TGR:
+    population: 674700
+    literacy_range:
+    - 0.235
+    - 0.245
+  TPS:
+    population: 81600
+    literacy_range:
+    - 0.075
+    - 0.085
+  TRK:
+    population: 207200
+    literacy_range:
+    - 0.085
+    - 0.095
+  VSN:
+    population: 1195600
+    literacy_range:
+    - 0.235
+    - 0.245
+  WAD:
+    population: 191600
+    literacy_range:
+    - 0.155
+    - 0.165
+  WLG:
+    population: 415700
+    literacy_range:
+    - 0.135
+    - 0.145
+  WLT:
+    population: 256100
+    literacy_range:
+    - 0.135
+    - 0.145
+  WSG:
+    population: 93400
+    literacy_range:
+    - 0.165
+    - 0.175
+  WTU:
+    population: 20700
+    literacy_range:
+    - 0.135
+    - 0.145
+country_religion_overrides: {}
+country_culture_overrides: {}
+country_law_additions:
+  VSN:
+  - law_debt_slavery
+states:
+  STATE_ERITREA/AWS:
+    owner: AWS
+    literacy: 0.19
+  STATE_KORDOFAN/DFR:
+    owner: DFR
+    literacy: 0.16
+  STATE_DARFUR/DFR:
+    owner: DFR
+    literacy: 0.19
+  STATE_BLUE_NILE/VSN:
+    owner: VSN
+    literacy: 0.24
+  STATE_WADDAI/WAD:
+    owner: WAD
+    literacy: 0.16
+  STATE_WADDAI/BGI:
+    owner: BGI
+    literacy: 0.14
+  STATE_WADDAI/BOR:
+    owner: BOR
+    literacy: 0.15
+  STATE_EQUATORIA/DNK:
+    owner: DNK
+    literacy: 0.1
+  STATE_EQUATORIA/NUE:
+    owner: NUE
+    literacy: 0.09
+  STATE_EQUATORIA/DFT:
+    owner: DFT
+    literacy: 0.09
+  STATE_EQUATORIA/TPS:
+    owner: TPS
+    literacy: 0.08
+  STATE_GONDER/QWR:
+    owner: QWR
+    literacy: 0.21
+  STATE_GONDER/BGM:
+    owner: BGM
+    literacy: 0.24
+  STATE_GONDER/AWS:
+    owner: AWS
+    literacy: 0.2
+  STATE_GONDER/TGR:
+    owner: TGR
+    literacy: 0.24
+  STATE_GONDER/GJM:
+    owner: GJM
+    literacy: 0.21
+  STATE_AMHARA/WLG:
+    owner: WLG
+    literacy: 0.14
+  STATE_AMHARA/HDY:
+    owner: HDY
+    literacy: 0.14
+  STATE_AMHARA/BRN:
+    owner: BRN
+    literacy: 0.14
+  STATE_AMHARA/KFA:
+    owner: KFA
+    literacy: 0.16
+  STATE_AMHARA/ANU:
+    owner: ANU
+    literacy: 0.12
+  STATE_AMHARA/OMO:
+    owner: OMO
+    literacy: 0.12
+  STATE_AMHARA/WLT:
+    owner: WLT
+    literacy: 0.14
+  STATE_AMHARA/SDM:
+    owner: SDM
+    literacy: 0.14
+  STATE_OROMIA/HAR:
+    owner: HAR
+    literacy: 0.23
+  STATE_OROMIA/SHW:
+    owner: SHW
+    literacy: 0.22
+  STATE_OROMIA/ARS:
+    owner: ARS
+    literacy: 0.18
+  STATE_OROMIA/OGD:
+    owner: OGD
+    literacy: 0.18
+  STATE_SOMALILAND/ISQ:
+    owner: ISQ
+    literacy: 0.18
+  STATE_SOMALILAND/WSG:
+    owner: WSG
+    literacy: 0.17
+  STATE_SOMALILAND/GLD:
+    owner: GLD
+    literacy: 0.19
+  STATE_SOMALILAND/MJT:
+    owner: MJT
+    literacy: 0.18
+  STATE_KENYA/KKY:
+    owner: KKY
+    literacy: 0.16
+  STATE_KENYA/WTU:
+    owner: WTU
+    literacy: 0.14
+  STATE_KENYA/MBS:
+    owner: MBS
+    literacy: 0.2
+  STATE_KENYA/SKY:
+    owner: SKY
+    literacy: 0.14
+  STATE_KENYA/MJK:
+    owner: MJK
+    literacy: 0.14
+  STATE_KENYA/ORM:
+    owner: ORM
+    literacy: 0.14
+  STATE_KENYA/AJR:
+    owner: AJR
+    literacy: 0.14
+  STATE_KENYA/AUL:
+    owner: AUL
+    literacy: 0.14
+  STATE_RIFT_VALLEY/MSI:
+    owner: MSI
+    literacy: 0.09
+  STATE_RIFT_VALLEY/LUO:
+    owner: LUO
+    literacy: 0.1
+  STATE_RIFT_VALLEY/TRK:
+    owner: TRK
+    literacy: 0.09
+  STATE_UGANDA/BUG:
+    owner: BUG
+    literacy: 0.16
+  STATE_UGANDA/BNY:
+    owner: BNY
+    literacy: 0.15
+  STATE_UGANDA/ANK:
+    owner: ANK
+    literacy: 0.13
+  STATE_UGANDA/ACH:
+    owner: ACH
+    literacy: 0.13
+  STATE_TANGANYIKA/NYM:
+    owner: NYM
+    literacy: 0.13
+  STATE_TANGANYIKA/SKM:
+    owner: SKM
+    literacy: 0.11
+  STATE_TANGANYIKA/MSI:
+    owner: MSI
+    literacy: 0.1
+  STATE_TANGANYIKA/KRG:
+    owner: KRG
+    literacy: 0.11
+  STATE_TANGANYIKA/RWD:
+    owner: RWD
+    literacy: 0.13
+  STATE_TANGANYIKA/BRD:
+    owner: BRD
+    literacy: 0.13
+  STATE_ZANZIBAR/OMA:
+    owner: OMA
+    literacy: 0.25
+  STATE_LINDI/HHE:
+    owner: HHE
+    literacy: 0.11
+  STATE_LINDI/GGO:
+    owner: GGO
+    literacy: 0.11
+  STATE_LINDI/SNG:
+    owner: SNG
+    literacy: 0.11
+joint_mix_overrides: {}
+fixed_group_relabels:
+  STATE_GONDER/AWS:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_GONDER/BGM:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_GONDER/GJM:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_GONDER/QWR:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_GONDER/TGR:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_AMHARA/BRN:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_AMHARA/KFA:
+    kikuyu/animist/slaves: sidama/animist/slaves
+  STATE_AMHARA/SDM:
+    kikuyu/animist/slaves: sidama/animist/slaves
+  STATE_AMHARA/WLT:
+    kikuyu/animist/slaves: sidama/animist/slaves
+  STATE_OROMIA/ARS:
+    kikuyu/animist/slaves: oromo/animist/slaves
+  STATE_OROMIA/SHW:
+    kikuyu/animist/slaves: oromo/animist/slaves

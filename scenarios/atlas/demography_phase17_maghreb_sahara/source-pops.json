@@ -1,0 +1,1006 @@
+{
+  "STATE_ALGIERS/MAS": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 541914
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 703830
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1023
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2606
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 24012
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 84722
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40143
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2701
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 7849
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1201
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3401
+    }
+  ],
+  "STATE_AL_RIF/MOR": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 374188
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 12800
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 71800
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 34000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 751
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9123
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 341
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 576
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5612
+    }
+  ],
+  "STATE_CONSTANTINE/AIT": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18124
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 262139
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 304
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9281
+    }
+  ],
+  "STATE_CONSTANTINE/CON": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 245953
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1204215
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1401
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4646
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 32020
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18830
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11020
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 301
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1778
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 351
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1209
+    }
+  ],
+  "STATE_EAST_SAHARA/ADG": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_EAST_SAHARA/AHG": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 22600
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2400
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4004
+    }
+  ],
+  "STATE_EAST_SAHARA/AJJ": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_EAST_SAHARA/CMB": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_EAST_SAHARA/TUG": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16020
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29991
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 389
+    }
+  ],
+  "STATE_FEZ/MOR": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 878696
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 116004
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 70504
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 62000
+    }
+  ],
+  "STATE_INNER_MAURITANIA/ADR": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 600
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1300
+    }
+  ],
+  "STATE_INNER_MAURITANIA/OUA": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1121
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4400
+    }
+  ],
+  "STATE_INNER_MAURITANIA/RGB": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8102
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1214
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1300
+    }
+  ],
+  "STATE_INNER_MOROCCO/MOR": [
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 322000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27008
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 222396
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 24000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10109
+    },
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 14612
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_LIBYA/TBI": [
+    {
+      "culture": "teda",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_LIBYA/TRI": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 153396
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 55000
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 173132
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2996
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_LIBYA/ZWY": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_LIBYAN_DESERT/AJJ": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_LIBYAN_DESERT/FZN": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 34000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_LIBYAN_DESERT/TBI": [
+    {
+      "culture": "teda",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_LIBYAN_DESERT/ZWY": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_MARRAKECH/MOR": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 686700
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 42500
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 243996
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 56000
+    }
+  ],
+  "STATE_MAURITANIA/BRK": [
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12510
+    }
+  ],
+  "STATE_MAURITANIA/DLM": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15510
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1231
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5030
+    }
+  ],
+  "STATE_MAURITANIA/FTR": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_MAURITANIA/OUA": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 52000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 22000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12500
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3030
+    }
+  ],
+  "STATE_MAURITANIA/TRZ": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 80000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_ORAN/MAS": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 612178
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100234
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2084
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2910
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 18401
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 41020
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3012
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 612
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2604
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 681
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1041
+    }
+  ],
+  "STATE_SAHARA/CMB": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10300
+    }
+  ],
+  "STATE_SAHARA/MZB": [
+    {
+      "culture": "berber",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "berber",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 991
+    }
+  ],
+  "STATE_SAHARA/RGB": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_SAHARA/TEK": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12021
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4012
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1251
+    }
+  ],
+  "STATE_SAHARA/TUA": [
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_TRIPOLI/FZN": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28800
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 67200
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9600
+    },
+    {
+      "culture": "berber",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 19200
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3840
+    }
+  ],
+  "STATE_TRIPOLI/TRI": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 139628
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 203796
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5996
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12800
+    },
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1200
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2800
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 400
+    },
+    {
+      "culture": "berber",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 160
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_TRIPOLI/ZWY": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_TUNISIA/TUN": [
+    {
+      "culture": "maghrebi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1165804
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 19204
+    },
+    {
+      "culture": "maltese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 11000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 13000
+    }
+  ],
+  "STATE_WEST_SAHARA/DLM": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_WEST_SAHARA/RGB": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_WEST_SAHARA/TEK": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 17001
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7030
+    },
+    {
+      "culture": "haratin",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3105
+    }
+  ]
+}

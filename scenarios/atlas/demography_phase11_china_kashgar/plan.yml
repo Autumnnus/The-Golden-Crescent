@@ -1,0 +1,52 @@
+version: 1
+policy: >-
+  Preserve the five separate Chinese governments and their direct political
+  borders. Give Kashgar only its Tianshan oasis population, not Dzungaria or
+  Mongol lands. Retain inherited joint culture/religion groups and professions;
+  set explicit state literacy inputs, not GDP or simulated literacy outcomes.
+countries:
+  JNG: {population: 150000000, literacy_range: [0.34, 0.43]}
+  NCH: {population: 102000000, literacy_range: [0.20, 0.30]}
+  YUE: {population: 57000000, literacy_range: [0.25, 0.36]}
+  SHU: {population: 45000000, literacy_range: [0.20, 0.30]}
+  MCH: {population: 14300000, literacy_range: [0.17, 0.27]}
+  KSG: {population: 850000, literacy_range: [0.25, 0.34]}
+jiangnan_lower_yangtze_core: [STATE_ZHEJIANG, STATE_JIANGSU, STATE_NANJING, STATE_NORTHERN_ANHUI, STATE_SOUTHERN_ANHUI, STATE_SUZHOU]
+jiangnan_core_range: [80000000, 100000000]
+country_primary_culture_additions:
+  YUE: [yue]
+states:
+  STATE_ZHEJIANG: {owner: JNG, literacy: 0.39}
+  STATE_JIANGSU: {owner: JNG, literacy: 0.37}
+  STATE_NANJING: {owner: JNG, literacy: 0.43}
+  STATE_JIANGXI: {owner: JNG, literacy: 0.34}
+  STATE_SOUTHERN_ANHUI: {owner: JNG, literacy: 0.35}
+  STATE_NORTHERN_ANHUI: {owner: JNG, literacy: 0.32}
+  STATE_WESTERN_HUBEI: {owner: JNG, literacy: 0.33}
+  STATE_EASTERN_HUBEI: {owner: JNG, literacy: 0.35}
+  STATE_HUNAN: {owner: JNG, literacy: 0.32}
+  STATE_SUZHOU: {owner: JNG, literacy: 0.42}
+  STATE_BEIJING: {owner: NCH, literacy: 0.30}
+  STATE_SHANXI: {owner: NCH, literacy: 0.24}
+  STATE_NINGXIA: {owner: NCH, literacy: 0.21}
+  STATE_GANSU: {owner: NCH, literacy: 0.19}
+  STATE_XIAN: {owner: NCH, literacy: 0.25}
+  STATE_QINGHAI: {owner: NCH, literacy: 0.13}
+  STATE_HENAN: {owner: NCH, literacy: 0.22}
+  STATE_ZHILI: {owner: NCH, literacy: 0.25}
+  STATE_SHANDONG: {owner: NCH, literacy: 0.24}
+  STATE_SHAOZHOU: {owner: YUE, literacy: 0.31}
+  STATE_GUANGXI: {owner: YUE, literacy: 0.23}
+  STATE_GUANGDONG: {owner: YUE, literacy: 0.34}
+  STATE_FUJIAN: {owner: YUE, literacy: 0.34}
+  STATE_FORMOSA: {owner: YUE, literacy: 0.23}
+  STATE_SICHUAN: {owner: SHU, literacy: 0.27}
+  STATE_YUNNAN: {owner: SHU, literacy: 0.20}
+  STATE_GUIZHOU: {owner: SHU, literacy: 0.19}
+  STATE_CHONGQING: {owner: SHU, literacy: 0.29}
+  STATE_SHENGJING: {owner: MCH, literacy: 0.23}
+  STATE_OUTER_MANCHURIA: {owner: MCH, literacy: 0.16}
+  STATE_SOUTHERN_MANCHURIA: {owner: MCH, literacy: 0.22}
+  STATE_NORTHERN_MANCHURIA: {owner: MCH, literacy: 0.18}
+  STATE_AMUR: {owner: MCH, literacy: 0.16}
+  STATE_TIANSHAN: {owner: KSG, literacy: 0.30}

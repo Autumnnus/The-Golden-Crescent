@@ -1,0 +1,160 @@
+# Estimates are subsets of the matching state/owner POP share, not extra POPs.
+# Hub labels follow the installed Victoria 3 Turkish localization.
+version: 1
+cities:
+  Agra:
+    state: STATE_AGRA
+    owner: MUG
+    hub: city
+    population: 700000
+    weights: {hindustani/hindu: 700, hindustani/sunni: 230, pathan/sunni: 40, hindustani/shiite: 20, panjabi/sikh: 10}
+  Kanpur:
+    state: STATE_AGRA
+    owner: MUG
+    hub: farm
+    population: 500000
+    weights: {hindustani/hindu: 760, hindustani/sunni: 190, pathan/sunni: 30, hindustani/shiite: 10, panjabi/hindu: 10}
+  Meerut:
+    state: STATE_AGRA
+    owner: MUG
+    hub: wood
+    population: 300000
+    weights: {hindustani/hindu: 740, hindustani/sunni: 220, pathan/sunni: 20, panjabi/sikh: 10, hindustani/shiite: 10}
+  Delhi:
+    state: STATE_DELHI
+    owner: MUG
+    hub: city
+    population: 900000
+    weights: {hindustani/hindu: 570, hindustani/sunni: 300, panjabi/hindu: 50, panjabi/sikh: 50, panjabi/sunni: 30}
+  Ambala:
+    state: STATE_DELHI
+    owner: MUG
+    hub: wood
+    population: 160000
+    weights: {hindustani/hindu: 550, hindustani/sunni: 250, panjabi/hindu: 90, panjabi/sikh: 80, panjabi/sunni: 30}
+  Lahor:
+    state: STATE_PUNJAB
+    owner: MUG
+    hub: city
+    population: 650000
+    weights: {panjabi/sunni: 500, panjabi/hindu: 250, panjabi/sikh: 180, pashtun/sunni: 60, hindustani/hindu: 10}
+  Multan:
+    state: STATE_PUNJAB
+    owner: MUG
+    hub: mine
+    population: 300000
+    weights: {panjabi/sunni: 640, panjabi/hindu: 200, panjabi/sikh: 80, pashtun/sunni: 60, sindi/sunni: 20}
+  Patna:
+    state: STATE_BIHAR
+    owner: BGL
+    hub: city
+    population: 650000
+    weights: {bihari/hindu: 800, bihari/sunni: 180, bihari/theravada: 20}
+  Muzaffarpur:
+    state: STATE_BIHAR
+    owner: BGL
+    hub: farm
+    population: 300000
+    weights: {bihari/hindu: 850, bihari/sunni: 140, bihari/theravada: 10}
+  Dhanbad:
+    state: STATE_BIHAR
+    owner: BGL
+    hub: mine
+    population: 200000
+    weights: {bihari/hindu: 780, bihari/sunni: 200, bihari/theravada: 20}
+  Dakka:
+    state: STATE_EAST_BENGAL
+    owner: BGL
+    hub: city
+    population: 1000000
+    weights: {bengali/sunni: 670, bengali/hindu: 300, bengali/theravada: 30}
+  Chittagong:
+    state: STATE_EAST_BENGAL
+    owner: BGL
+    hub: port
+    population: 350000
+    weights: {bengali/sunni: 680, bengali/hindu: 280, bengali/theravada: 40}
+  Mymensingh:
+    state: STATE_EAST_BENGAL
+    owner: BGL
+    hub: farm
+    population: 250000
+    weights: {bengali/sunni: 700, bengali/hindu: 280, bengali/theravada: 20}
+  Khulna:
+    state: STATE_EAST_BENGAL
+    owner: BGL
+    hub: wood
+    population: 250000
+    weights: {bengali/sunni: 600, bengali/hindu: 360, bengali/theravada: 40}
+  Kalküta:
+    state: STATE_WEST_BENGAL
+    owner: BGL
+    hub: city
+    population: 1200000
+    weights: {bengali/hindu: 690, bengali/sunni: 260, bengali/theravada: 50}
+  Asansol:
+    state: STATE_WEST_BENGAL
+    owner: BGL
+    hub: mine
+    population: 300000
+    weights: {bengali/hindu: 750, bengali/sunni: 220, bengali/theravada: 30}
+  Burdwan:
+    state: STATE_WEST_BENGAL
+    owner: BGL
+    hub: farm
+    population: 250000
+    weights: {bengali/hindu: 790, bengali/sunni: 180, bengali/theravada: 30}
+  Diamond_Harbour:
+    state: STATE_WEST_BENGAL
+    owner: BGL
+    hub: port
+    population: 180000
+    weights: {bengali/hindu: 650, bengali/sunni: 300, bengali/theravada: 50}
+  Bombay:
+    state: STATE_BOMBAY
+    owner: MAR
+    hub: city
+    population: 650000
+    weights: {marathi/hindu: 500, marathi/sunni: 130, kannada/hindu: 150, marathi/catholic: 80, gujarati/hindu: 100, gujarati/sunni: 20, sephardic/jewish: 5, kannada/protestant: 15}
+  Pune:
+    state: STATE_BOMBAY
+    owner: MAR
+    hub: farm
+    population: 400000
+    weights: {marathi/hindu: 700, marathi/sunni: 100, kannada/hindu: 100, deccani/hindu: 60, marathi/catholic: 40}
+  Ratnagiri:
+    state: STATE_BOMBAY
+    owner: MAR
+    hub: mine
+    population: 120000
+    weights: {marathi/hindu: 600, marathi/sunni: 120, kannada/hindu: 130, marathi/catholic: 60, sindi/sunni: 90}
+  Gwalior:
+    state: STATE_MALWA
+    owner: GWA
+    hub: city
+    population: 230000
+    weights: {bundeli/hindu: 320, rajput/hindu: 280, marathi/hindu: 200, rajput/sunni: 150, bundeli/sunni: 50}
+  Ujjain:
+    state: STATE_MALWA
+    owner: IND
+    hub: farm
+    population: 120000
+    weights: {rajput/hindu: 470, marathi/hindu: 280, bundeli/hindu: 140, rajput/sunni: 80, marathi/sunni: 30}
+  Nagpur:
+    state: STATE_CENTRAL_PROVINCES
+    owner: NAG
+    hub: city
+    population: 350000
+    weights: {marathi/hindu: 400, chhattisgarhi/hindu: 200, gondi/hindu: 100, gondi/animist: 80, deccani/sunni: 80, bageli/hindu: 70, bundeli/hindu: 70}
+  Raipur:
+    state: STATE_CENTRAL_PROVINCES
+    owner: NAG
+    hub: mine
+    population: 150000
+    weights: {chhattisgarhi/hindu: 400, marathi/hindu: 150, gondi/hindu: 120, gondi/animist: 150, deccani/sunni: 100, bageli/hindu: 80}
+  Jabalpur:
+    state: STATE_CENTRAL_PROVINCES
+    owner: NAG
+    hub: wood
+    population: 130000
+    weights: {chhattisgarhi/hindu: 250, marathi/hindu: 250, gondi/hindu: 100, gondi/animist: 100, bageli/hindu: 160, bundeli/hindu: 100, deccani/sunni: 40}

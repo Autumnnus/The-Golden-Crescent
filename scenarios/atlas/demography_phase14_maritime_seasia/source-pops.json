@@ -1,0 +1,1358 @@
+{
+  "STATE_ACEH/ACE": [
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 255996
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 9800
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 62309
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 14002
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12040
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 200
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32788
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2300
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3287
+    },
+    {
+      "culture": "batak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 160
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 210
+    }
+  ],
+  "STATE_ACEH/SAK": [
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 116019
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3600
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22012
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6800
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8402
+    }
+  ],
+  "STATE_CELEBES/BTN": [
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19678
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28511
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8378
+    }
+  ],
+  "STATE_CELEBES/SLW": [
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 101200
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 347996
+    },
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11000
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 29263
+    },
+    {
+      "culture": "moluccan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2500
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6830
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 270
+    }
+  ],
+  "STATE_CELEBES/TID": [
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1700
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 600
+    }
+  ],
+  "STATE_CENTRAL_JAVA/SRK": [
+    {
+      "culture": "javan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32890
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 547
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6585
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3409
+    }
+  ],
+  "STATE_CENTRAL_JAVA/YOG": [
+    {
+      "culture": "javan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1772712
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 20400
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 288804
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 19000
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1900
+    },
+    {
+      "culture": "javan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 43021
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 890
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 5400
+    }
+  ],
+  "STATE_EASTERN_NEW_GUINEA/PPU": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 400102
+    }
+  ],
+  "STATE_EAST_BORNEO/BLG": [
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 42000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 34000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8000
+    }
+  ],
+  "STATE_EAST_BORNEO/BNJ": [
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 107592
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 30000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11200
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10200
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "dayak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 500
+    }
+  ],
+  "STATE_EAST_BORNEO/KTI": [
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 80000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 70000
+    }
+  ],
+  "STATE_EAST_JAVA/SRK": [
+    {
+      "culture": "javan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1873792
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 30400
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 152804
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 21000
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2400
+    }
+  ],
+  "STATE_LUZON/SUL": [
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 31000
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 230
+    }
+  ],
+  "STATE_LUZON/VTD": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 942
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 47548
+    },
+    {
+      "culture": "tagalog",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 862014
+    },
+    {
+      "culture": "ilocano",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 378006
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20301
+    },
+    {
+      "culture": "tagalog",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7694
+    },
+    {
+      "culture": "ilocano",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 117951
+    }
+  ],
+  "STATE_MALAYA/JOH": [
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 399600
+    },
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 11000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 27404
+    },
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "tamil",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 4400
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 17000
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2796
+    }
+  ],
+  "STATE_MALAYA/PRK": [
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 136000
+    },
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 9000
+    }
+  ],
+  "STATE_MALAYA/SEL": [
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 209000
+    },
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 7000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 22000
+    }
+  ],
+  "STATE_MINDANAO/MGD": [
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 206000
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5800
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 50311
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10020
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20004
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 56414
+    },
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6265
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 600
+    }
+  ],
+  "STATE_MINDANAO/MND": [
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 394897
+    },
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 43858
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4201
+    }
+  ],
+  "STATE_MINDANAO/SUL": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 286
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 50323
+    },
+    {
+      "culture": "lumad",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6002
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 41463
+    },
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60400
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9600
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 17200
+    },
+    {
+      "culture": "lumad",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6300
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_MOLUCCAS/TID": [
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 96808
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 388
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 102128
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 32866
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14778
+    },
+    {
+      "culture": "moluccan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7323
+    },
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 96508
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 79213
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 35676
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12078
+    }
+  ],
+  "STATE_NORTH_BORNEO/BLG": [
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 300
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1000
+    }
+  ],
+  "STATE_NORTH_BORNEO/BRU": [
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 75000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 18000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 7196
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100196
+    }
+  ],
+  "STATE_NORTH_BORNEO/SUL": [
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14000
+    },
+    {
+      "culture": "moro",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3231
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15200
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 400
+    }
+  ],
+  "STATE_NORTH_SUMATRA/JMB": [
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 77021
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6000
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7032
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1928
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1004
+    }
+  ],
+  "STATE_NORTH_SUMATRA/SAK": [
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 130123
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 12422
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 34978
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10928
+    },
+    {
+      "culture": "batak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5200
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5120
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 360120
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 26000
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10200
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3928
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 15200
+    }
+  ],
+  "STATE_SOUTH_SUMATRA/JMB": [
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 90122
+    },
+    {
+      "culture": "sumatran",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 12212
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 300
+    },
+    {
+      "culture": "batak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18072
+    },
+    {
+      "culture": "batak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6388
+    },
+    {
+      "culture": "batak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2200
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3400
+    }
+  ],
+  "STATE_SUNDA_ISLANDS/BAL": [
+    {
+      "culture": "balinese",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 555992
+    },
+    {
+      "culture": "balinese",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "balinese",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 61504
+    },
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 144400
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 55996
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "melanesian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 196
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "melanesian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "moluccan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3996
+    },
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 450800
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 388
+    },
+    {
+      "culture": "moluccan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 155996
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 50000
+    }
+  ],
+  "STATE_VISAYAS/VVS": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 475
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 26724
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 839006
+    },
+    {
+      "culture": "tagalog",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 30001
+    },
+    {
+      "culture": "visayan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 137537
+    }
+  ],
+  "STATE_WESTERN_NEW_GUINEA/PPU": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 351996
+    }
+  ],
+  "STATE_WESTERN_NEW_GUINEA/TID": [
+    {
+      "culture": "moluccan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20404
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 61000
+    },
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_WEST_BORNEO/LAN": [
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6700
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 26000
+    }
+  ],
+  "STATE_WEST_BORNEO/PON": [
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 39660
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "dayak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 78000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6100
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4900
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_WEST_BORNEO/SMB": [
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1000
+    }
+  ],
+  "STATE_WEST_BORNEO/STG": [
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "bornean",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1400
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 21000
+    },
+    {
+      "culture": "dayak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "dayak",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2100
+    }
+  ],
+  "STATE_WEST_JAVA/YOG": [
+    {
+      "culture": "javan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3432000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 60400
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 304208
+    },
+    {
+      "culture": "javan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 41000
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 23604
+    }
+  ]
+}

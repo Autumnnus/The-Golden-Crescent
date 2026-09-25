@@ -1,0 +1,24 @@
+# Estimates inside state/owner POP totals, not extra POPs or buildings.
+# Only installed Turkish hub names with a verified political hub owner appear.
+version: 1
+cities:
+  Edo: {state: STATE_KANTO, owner: JAP, hub: city, population: 500000, weights: {japanese/mahayana: 1000}}
+  Osaka: {state: STATE_KANSAI, owner: JAP, hub: city, population: 300000, weights: {japanese/mahayana: 1000}}
+  Kyoto: {state: STATE_KYOTO, owner: JAP, hub: city, population: 200000, weights: {japanese/mahayana: 1000}}
+  Nagoya: {state: STATE_TOKAI, owner: JAP, hub: city, population: 180000, weights: {japanese/mahayana: 1000}}
+  Kanazawa: {state: STATE_HOKUSHINETSU, owner: JAP, hub: city, population: 100000, weights: {japanese/mahayana: 1000}}
+  Sendai: {state: STATE_TOHOKU, owner: JAP, hub: city, population: 90000, weights: {japanese/mahayana: 1000}}
+  Hiroşima: {state: STATE_CHUGOKU, owner: JAP, hub: city, population: 110000, weights: {japanese/mahayana: 1000}}
+  Takamatsu: {state: STATE_SHIKOKU, owner: JAP, hub: city, population: 70000, weights: {japanese/mahayana: 1000}}
+  Hakata: {state: STATE_KYUSHU, owner: JAP, hub: city, population: 120000, weights: {japanese/mahayana: 995, ryukyuan/mahayana: 3, han/confucian: 2}}
+  Hakodate: {state: STATE_HOKKAIDO, owner: JAP, hub: port, population: 10000, weights: {japanese/mahayana: 995, ainu/animist: 5}}
+  Ishikari: {state: STATE_HOKKAIDO, owner: EZO, hub: city, population: 8000, weights: {ainu/animist: 940, japanese/mahayana: 60}}
+  Shuri: {state: STATE_RYUKYU_ISLANDS, owner: RYU, hub: city, population: 45000, weights: {ryukyuan/mahayana: 850, ryukyuan/confucian: 150}}
+  Hanseong: {state: STATE_SEOUL, owner: KOR, hub: city, population: 250000, weights: {korean/confucian: 700, korean/mahayana: 300}}
+  Daegu: {state: STATE_BUSAN, owner: KOR, hub: city, population: 100000, weights: {korean/confucian: 680, korean/mahayana: 320}}
+  Jeonju: {state: STATE_YANGHO, owner: KOR, hub: city, population: 70000, weights: {korean/confucian: 650, korean/mahayana: 350}}
+  Hamhung: {state: STATE_SARIWON, owner: KOR, hub: city, population: 70000, weights: {korean/confucian: 650, korean/mahayana: 350}}
+  Pyongyang: {state: STATE_PYONGYANG, owner: KOR, hub: city, population: 100000, weights: {korean/confucian: 700, korean/mahayana: 300}}
+  Ai: {state: STATE_SAKHALIN, owner: AIN, hub: city, population: 1000, weights: {ainu/animist: 900, siberian/animist: 100}}
+  Okhe: {state: STATE_SAKHALIN, owner: SKH, hub: farm, population: 1000, weights: {siberian/animist: 1000}}
+  Sistukari: {state: STATE_SAKHALIN, owner: ULT, hub: mine, population: 800, weights: {siberian/animist: 850, ainu/animist: 150}}

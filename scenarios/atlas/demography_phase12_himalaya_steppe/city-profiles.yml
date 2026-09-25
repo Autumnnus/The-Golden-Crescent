@@ -1,0 +1,18 @@
+# Estimates inside state/owner POP totals, not additional game POPs.
+# Names and hub types come from installed Turkish hub localization.
+version: 1
+cities:
+  Lhasa: {state: STATE_LHASA, owner: TIB, hub: city, population: 130000, weights: {tibetan/gelugpa: 940, tibetan/animist: 10, han/mahayana: 50}}
+  Ngari: {state: STATE_NGARI, owner: TIB, hub: city, population: 40000, weights: {tibetan/gelugpa: 950, tibetan/animist: 20, han/mahayana: 20, kachin/animist: 10}}
+  Urumçi: {state: STATE_DZUNGARIA, owner: DZH, hub: city, population: 60000, weights: {mongol/gelugpa: 450, kazak/sunni: 200, uighur/sunni: 200, han/confucian: 100, han/sunni: 30, manchu/confucian: 20}}
+  Ili: {state: STATE_DZUNGARIA, owner: DZH, hub: farm, population: 40000, weights: {mongol/gelugpa: 500, kazak/sunni: 250, uighur/sunni: 200, han/confucian: 50}}
+  Ulala: {state: STATE_ALTAI, owner: DZH, hub: city, population: 10000, weights: {mongol/gelugpa: 600, mongol/animist: 140, tatar/sunni: 110, russian/orthodox: 150}}
+  Wuda: {state: STATE_ALXA, owner: MGL, hub: city, population: 10000, weights: {mongol/gelugpa: 950, han/confucian: 50}}
+  Ordos: {state: STATE_HINGGAN, owner: MGL, hub: city, population: 80000, weights: {mongol/gelugpa: 520, han/confucian: 380, han/mahayana: 100}}
+  Belotsarsk: {state: STATE_TUVA, owner: MGL, hub: city, population: 10000, weights: {tuvan/gelugpa: 900, mongol/gelugpa: 100}}
+  Bayanhongor: {state: STATE_ULIASTAI, owner: MGL, hub: city, population: 20000, weights: {mongol/gelugpa: 950, kazak/sunni: 50}}
+  Urga: {state: STATE_URGA, owner: MGL, hub: city, population: 50000, weights: {mongol/gelugpa: 990, han/confucian: 10}}
+  Maimaicheng: {state: STATE_URGA, owner: MGL, hub: wood, population: 15000, weights: {mongol/gelugpa: 980, han/confucian: 20}}
+  Katmandu: {state: STATE_HIMALAYAS, owner: NEP, hub: city, population: 300000, weights: {nepali/hindu: 820, bihari/hindu: 100, tibetan/gelugpa: 60, nepali/animist: 20}}
+  Bharatpur: {state: STATE_HIMALAYAS, owner: NEP, hub: farm, population: 130000, weights: {nepali/hindu: 700, bihari/hindu: 250, tibetan/gelugpa: 30, nepali/animist: 20}}
+  Punakha: {state: STATE_EASTERN_HIMALAYAS, owner: BHU, hub: city, population: 20000, weights: {tibetan/gelugpa: 900, nepali/hindu: 100}}

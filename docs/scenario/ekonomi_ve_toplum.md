@@ -53,23 +53,45 @@ Diyagramda tek bir kutu yeterli değildir. Örneğin İsfahan bilgi üretiminde 
 
 | Ülke | Nüfus hedefi | Okuryazarlık | Kent payı | Başlangıç mali konumu |
 |---|---:|---:|---:|---|
-| Rûm çekirdeği | 25–29 | %38–44 | %20–25 | Yüksek toplam gelir; faiz ve ordu yüzünden yatırım alanı dar |
-| Mısır, Dongola koridoru dahil | 10–13 | %34–40 | %18–24 | Liman/sulama geliri güçlü; gıda, filo ve vakıf muafiyetleri baskı yaratır |
-| İsfahan | 7–9 | %48–56 | %24–30 | Akademiler zengin; merkez hazinesi aynı ölçüde zengin değil |
-| Tebriz | 4–5 | %43–51 | %23–29 | Üretim iyi; ortak borç ve sınır tarifesi ihtilaflı |
-| İran'ın diğer beş üyesi toplamı | 9–12 | %20–35 | %10–18 | Üyeye göre farklı; tek hazine değildir |
-| Endülüs ana yurdu | 16–19 | %46–54 | %25–31 | Yüksek ticari gelir ve yüksek denizaşırı yükümlülük |
-| İngiltere–Galler | 12–15 | %30–38 | %17–23 | Sanayi yatırımı büyüyor; dış açık ve eski toprak ayrıcalıkları var |
-| İskoçya | 2–3 | %42–50 | %15–22 | Eğitim güçlü; ölçek ve yatırım sermayesi sınırlı |
-| İrlanda | 4–6 | %20–30 | %8–13 | Tarımsal kira transferi; kamu hizmetleri zayıf |
-| Lehistan–Litvanya | 28–33 | %32–40 | %14–20 | Tahıl ihracı ve yerli teknik imalat güçlü; soylu muafiyetleri ortak altyapı bütçesini sınırlar |
-| Kaşgar | 3,5–4,5 | %25–34 | %14–22 | Gümrüğe bağımlı, kötü ticaret yılında kırılgan |
-| Gurkanî | 48–58 | %20–28 | %12–18 | Büyük gelir potansiyeli; toprak aracılarında gelir kaçağı |
-| Bengal | 25–31 | %20–28 | %14–21 | Tekstil ve ticaret fazla verir; sel ve gıda fiyatına duyarlı |
-| Maratha üye devletleri toplamı | 30–38 | %15–23 | %10–16 | Ortak vergi değil, ayrı bütçeler ve sefer katkıları |
-| Jiangnan | 80–100 | %34–43 | %17–25 | Büyük ticari üretim; nehir bakımı ve iç pazara erişim pahalı |
+| Rûm çekirdeği | 25–29 | %33–36 | %20–25 | Yüksek toplam gelir; faiz ve ordu yüzünden yatırım alanı dar |
+| Mısır, Dongola koridoru dahil | 10–13 | %30–34 | %18–24 | Liman/sulama geliri güçlü; gıda, filo ve vakıf muafiyetleri baskı yaratır |
+| İsfahan | 7–9 | %45–50 | %24–30 | Akademiler zengin; merkez hazinesi aynı ölçüde zengin değil |
+| Tebriz | 4–5 | %34–37 | %23–29 | Üretim iyi; ortak borç ve sınır tarifesi ihtilaflı |
+| İran'ın diğer beş üyesi toplamı | 9–12 | %26–33 | %10–18 | Üyeye göre farklı; tek hazine değildir |
+| Endülüs ana yurdu | 16–19 | %32–35 | %25–31 | Yüksek ticari gelir ve yüksek denizaşırı yükümlülük |
+| İngiltere–Galler | 12–15 | %18–20 | %17–23 | Sanayi yatırımı büyüyor; dış açık ve eski toprak ayrıcalıkları var |
+| İskoçya | 2–3 | %24–26 | %15–22 | Eğitim güçlü; ölçek ve yatırım sermayesi sınırlı |
+| İrlanda | 4–6 | %15–17 | %8–13 | Tarımsal kira transferi; kamu hizmetleri zayıf |
+| Lehistan–Litvanya | 28–33 | %23–25 | %14–20 | Tahıl ihracı ve yerli teknik imalat güçlü; soylu muafiyetleri ortak altyapı bütçesini sınırlar |
+| Kaşgar, tek Tianshan state'i | 0,75–1,05 | %24–27 | %14–22 | Gümrüğe bağımlı, kötü ticaret yılında kırılgan; vaha taşıma kapasitesi sınırlı |
+| Gurkanî | 33–39 | %23–26 | %12–18 | Büyük gelir potansiyeli; toprak aracılarında gelir kaçağı |
+| Bengal, Bihar dahil | 46–53 | %23–25 | %14–21 | Tekstil ve ticaret fazla verir; sel ve gıda fiyatına duyarlı |
+| Maratha üye devletleri toplamı | 21–25 | %8–10 | %10–16 | Ortak vergi değil, ayrı bütçeler ve sefer katkıları |
+| Jiangnan doğrudan ülkesi | 140–155 | %17–19 | %17–25 | Aşağı Yangtze çekirdeği 80–100 milyon; Jiangxi, Hunan ve Hubei'nin doğrudan payları ayrıca dahil. Nehir bakımı ve iç pazara erişim pahalı |
+
+**25 Eylül 2026 okuryazarlık kararı** (24 Eylül'deki "belirgin İslam üstünlüğü" kararının yerine): Ortadoğu'nun gelişmiş devletleri önde, ama aralarında uçurum yok. Değerler oyunun açılış ekranında beklenen okuryazarlıktır: İsfahan %45–50 (en yüksek); Rûm, Tebriz, Mısır, Endülüs ve Basra %30–36; İran üyeleri, Levant, Hicaz, Mağrip, Türkistan hanlıkları, Bengal ve Gurkanî %20–30; az gelişmiş Müslüman devletler %15–20 (çöl/bozkır toplulukları %13–15); Kalmar, İskoçya, Yeni İngiltere ve Lehistan %22–25; Batı ve orta Avrupa %15–20; güney/doğu Avrupa ve Moskova %8–14; Jiangnan ve Japonya %18, Kore %16, diğer Çin %10–14; geri kalan %2–10. Aynı gün yapılan ince ayarla İran'ın, Rûm'un ve Mısır'ın çevresindeki devletler ile Endülüs'ün karşı kıyısındaki Fas birkaç puan yükseltildi (İran üyeleri %26–33, Levant %30–32, Fas %29). Ülke başı değerler [M1b hedeflerindedir](../../scenarios/atlas/mechanics_m1b_literacy/targets.yml).
 
 İran hedefinin toplamı, İsfahan + Tebriz + diğer beş üyedir; ayrı bir “konfederasyon nüfusu” yeniden eklenmez. Britanya ve Maratha gibi ortak yapılarda da aynı çift sayım yasağı geçerlidir. Bu tablo dünya nüfusu toplamı iddiası değildir; diğer ülkeler için nüfus kartı tamamlanacak.
+
+**Hint hedeflerinin sınır düzeltmesi:** Önceki Gurkanî 48–58, Bengal 25–31 ve Maratha 30–38 milyon aralıkları kesin siyasi state paylarıyla uyuşmadı. Bengal'in Bihar'ı da doğrudan yönetmesi eski hedefi özellikle eksik bırakıyordu; Gurkanî'nin üç doğrudan state payı ile Maratha'nın dört ayrı üyesi ise eski üst hedefleri sırf nüfus çarpanıyla doldurmayı gerektiriyordu. [Hint çekirdeği demografi kaydı](../../scenarios/atlas/demography_phase08_indian_core/README.md) bu sınırla seçilen 36, 50 ve toplam 22,5 milyonluk başlangıcı belgeler. Bu revizyon yeni bir toprak veya ortak hazine yaratmaz.
+
+**Çin/Kaşgar hedeflerinin sınır düzeltmesi:** Jiangnan'ın eski 80–100 milyonluk değeri doğrudan ülke toplamı olarak yazılmıştı; mevcut siyasi harita bu devlete on state ve yaklaşık 147 milyon devralınmış kişi verir. Zhejiang, Jiangsu, Nanjing, kuzey/güney Anhui ve Suzhou'dan oluşan altı state'lik aşağı Yangtze çekirdeği yaklaşık 82,8 milyondur. Eski aralık bu çekirdeğin hedefi olarak korunur; doğrudan ülke hedefi 140–155 milyona çevrilir. Kaşgar'ın 3,5–4,5 milyon eski hedefi ise yalnız kendisine ait Tianshan state'i ve kurulu oyundaki 40 arable land ile uyuşmaz. Tek state için 0,75–1,05 milyon seçilir; değişen sınır veya Dzungaria nüfusu Kaşgar'a gizlice eklenmez. Bunlar oyunun kesin taşıma kapasitesi ya da GDP hesabı değildir.
+
+[Diğer büyük Hint devletleri](../../scenarios/atlas/demography_phase09_indian_states/README.md) için 15 ayrı doğrudan nüfus toplamı ve okuryazarlık girdisi ayrıca seçildi. Haydarabad'ın dört state payı tek ülke toplamında birleşir; Gurkanî'ye sözleşmeli Keşmir ve Racput ülkeleri Gurkanî'nin 36 milyonuna katılmaz. Bunlar bina, istihdam, GDP veya fiilî eğitim çıktısı değildir.
+
+[Küçük Hint devletleri](../../scenarios/atlas/demography_phase10_minor_india/README.md) için 37 ayrı doğrudan toplam seçildi. Chitral'ın Keşmir ve Pashtunistan payları tek ülke toplamında birleşir; önceki büyük ülkeler değişmez. Bu ek 13,555 milyon kişi tarım, geçit ve yerel ticaret nüfusudur; tamamının kentte ücretli sanayi işçisi olduğu varsayılmaz.
+
+[Himalaya–bozkır kuşağında](../../scenarios/atlas/demography_phase12_himalaya_steppe/README.md) Tibet 2,95; Cungarya 0,32; Moğol hanlıkları 2,90; Nepal 4,30; Bhutan 0,125; Sikkim 0,085 milyon **doğrudan** nüfus girdisi alır. Bu ölçülü artışlar devralınan eyalet ağırlıklarına dayanır; dağ/otlak kapasitesini veya gerçek oyun GDP'sini hesaplamaz. Cungarya ile Moğol hanlıklarının etkin Atlas raporunda bina seviyesi sıfırdır: nüfus ve okuryazarlık rakamları henüz ekonomik veya askerî denge olarak yorumlanamaz.
+
+[Güneydoğu Asya anakarasında](../../scenarios/atlas/demography_phase13_mainland_seasia/README.md) Burma 4,30; Siyam 4,05; Đại Nam 6,70 milyon doğrudan nüfus girdisi alır. Diğer dokuz ülke ayrı toplamlarla 3,057 milyon kişidir. Pegu'daki 9.102 kişi Danimarka'dan Burma'ya egemenlik aktarımıdır, dünya nüfusuna ikinci kez eklenmez. Kent profilleri yeni işçi veya bina üretmez; küçük Şan, Kuki ve yükseklandaki ülkelerin sıfır bina başlangıcı ekonomik dengeleme açığı olarak kalır.
+
+[Malay takımadaları, Yeni Gine ve Filipinler](../../scenarios/atlas/demography_phase14_maritime_seasia/README.md) için 26 ülkenin doğrudan toplamı 19,304 milyon kişidir; nüfus artışı 0,721 milyonla sınırlıdır. Cava saraylarının 8,4 milyonu tek devlet hazinesi değildir. 31 hub profili yeni şehir nüfusu veya istihdam yaratmaz. Tondo, Visaya, Papua, Sulawesi ve Mindanao'nun kimi ülkelerinde sıfır bina seviyesi bulunduğundan demografik girdi ekonomi/yaşam standardı sonucu sayılmaz.
+
+[Japonya–Kore ve Ezo–Sahalin kuşağında](../../scenarios/atlas/demography_phase15_japan_korea/README.md) Japonya 32,6; Kore 16,25; Ryukyu 0,195 milyon doğrudan nüfusa sahiptir. Ezo ve Sahalin'deki üç yerli ülke daha küçük ayrı toplamlardır. Toplam artış 0,105 milyon kişiyle sınırlıdır; Japonya ve Kore'nin iç ekonomileri bu demografi dilimiyle sanayileşmiş sayılmaz. Edo/Osaka/Hanseong hub profilleri state içi tahmindir, yeni bina veya istihdam yaratmaz. Okuryazarlık girdileri Atlas raporundadır; oyun açılışındaki eğitim çıktısı değildir.
+
+[Okyanusya diliminde](../../scenarios/atlas/demography_phase16_oceania/README.md) 37 ülkenin 56 doğrudan payı toplam 1,8258 milyon kişi alır; önceki kapsam toplamına göre artış 59.485 kişidir. Avustralya'daki yedi state'in büyük sömürgeci yerleşimci POP kalıntıları yerel siyasi egemenlikle uyumlu çoğunluklara çevrilir; küçük tüccar toplulukları kalır. Tonga ve Samoa aynı oyun state'inin beş arable land kapasitesini paylaşır. Bu kaynak sınırı, şehir profilindeki kişileri ayrıca üretim işçisi veya yeni bina olarak saymamayı gerektirir; istihdam ve yaşam standardı motor dengelemesi henüz yapılmadı.
+
+[Mağrip–Sahra diliminde](../../scenarios/atlas/demography_phase17_maghreb_sahara/README.md) 16 state'teki 24 ülke payı toplam 10,4696 milyon kişidir; artış 208.418 kişiyle sınırlıdır. Fes, Tunus ve Cezayir kentlerindeki daha yüksek okuryazarlık girdileri çöl/vaha topluluklarına genellenmez. Yedi ülkenin burada yalnız **kısmi** nüfusu sayılır; Senegal, Timbuktu, Niger ve Çad payları daha sonraki Sahel paketine aittir. Devralınan 378.451 açık köle mesleği korunmuştur; başlangıç kanunları, emek piyasası ve yaşam standardı dengesi için ayrı değerlendirme gerekir.
 
 ### Nüfusun daha yüksek olmasının gerekçesi ve bedeli
 

@@ -1,0 +1,964 @@
+{
+  "STATE_MALTA": [
+    {
+      "culture": "maltese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 117192
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2792
+    }
+  ],
+  "STATE_EASTERN_THRACE": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 832996
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 281992
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 7996
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 80004
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 67996
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 50004
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 16000
+    }
+  ],
+  "STATE_CRETE": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 59992
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 80000
+    }
+  ],
+  "STATE_WEST_AEGEAN_ISLANDS": [
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 80404
+    }
+  ],
+  "STATE_EAST_AEGEAN_ISLANDS": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8992
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1996
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 82996
+    }
+  ],
+  "STATE_ATTICA": [
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 637592
+    }
+  ],
+  "STATE_THESSALIA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 76208
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 935900
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3796
+    },
+    {
+      "culture": "albanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 104000
+    }
+  ],
+  "STATE_SKOPIA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 157296
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 7996
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 384000
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 92000
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 95600
+    }
+  ],
+  "STATE_MACEDONIA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 84000
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 276000
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 57204
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 200
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 700
+    }
+  ],
+  "STATE_WESTERN_THRACE": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 274808
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 376000
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 80000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 300
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 1500
+    }
+  ],
+  "STATE_IONIAN_ISLANDS": [
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 186404
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_PELOPONNESE": [
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 221996
+    }
+  ],
+  "STATE_CYPRUS": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 43764
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 100012
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 670
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 859
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 360
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_ALEPPO": [
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 172000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 84000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 63000
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 96000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 29000
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 72000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9000
+    }
+  ],
+  "STATE_BAGHDAD": [
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 204608
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 116000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 104004
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 23992
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 19996
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 700
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 370
+    },
+    {
+      "culture": "assyrian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 320
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 16004
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_DEIR_EZ_ZOR": [
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 144000
+    },
+    {
+      "culture": "assyrian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 43996
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 49600
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 300
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 200
+    }
+  ],
+  "STATE_BASRA": [
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 160000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7885
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42351
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 30591
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1176
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 7647
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 706
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 59
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 118
+    }
+  ],
+  "STATE_HUDAVENDIGAR": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 838494
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2010
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 63277
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 931
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 126555
+    },
+    {
+      "culture": "greek",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2100
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_AYDIN": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 598129
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 7368
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 374120
+    },
+    {
+      "culture": "greek",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 620
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 14059
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 240
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 240
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2400
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6100
+    }
+  ],
+  "STATE_KONYA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 720204
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20102
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 9020
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 140
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 50948
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 100
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 1200
+    }
+  ],
+  "STATE_KASTAMONU": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 753786
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 16426
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 404
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 1200
+    }
+  ],
+  "STATE_ADANA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 157536
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 14001
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 19598
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2930
+    },
+    {
+      "culture": "greek",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 467
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 233
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 583
+    }
+  ],
+  "STATE_TRABZON": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 135742
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 7201
+    },
+    {
+      "culture": "armenian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2021
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 27022
+    },
+    {
+      "culture": "georgian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8064
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1746
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 58
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 868
+    }
+  ],
+  "STATE_ERZURUM": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 50277
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 55404
+    },
+    {
+      "culture": "turkish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 31071
+    },
+    {
+      "culture": "kurdish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 68030
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 343
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 53
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 85267
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1337
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1433
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 167
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 233
+    }
+  ],
+  "STATE_ANKARA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 865092
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100023
+    },
+    {
+      "culture": "turkish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 341273
+    },
+    {
+      "culture": "kurdish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 24447
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 89187
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 153262
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4201
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 230
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 300
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 400
+    }
+  ]
+}

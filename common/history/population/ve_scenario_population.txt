@@ -895,10 +895,6 @@ c:OMO ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:ORA ?= {
-	effect_starting_pop_wealth_medium = yes
-	effect_starting_pop_literacy_very_low = yes
-}
 c:ORG ?= {
 	effect_starting_pop_wealth_medium = yes
 	effect_starting_pop_literacy_low = yes
@@ -1135,10 +1131,6 @@ c:TBI ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:TEX ?= {
-	effect_starting_pop_wealth_medium = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:TGI ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -1182,10 +1174,6 @@ c:TRK ?= {
 c:TRM ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
-}
-c:TRN ?= {
-	effect_starting_pop_wealth_medium = yes
-	effect_starting_pop_literacy_very_low = yes
 }
 c:TRZ ?= {
 	effect_starting_pop_wealth_low = yes
@@ -1322,5 +1310,9419 @@ c:ZND ?= {
 c:ZUL ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
+}
+s:STATE_ABRUZZO = {
+	region_state:SIC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_ABU_DHABI = {
+	region_state:ABU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_ABU_DHABI = {
+	region_state:BHN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_ACEH = {
+	region_state:ACE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_ACEH = {
+	region_state:SAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_ACRE = {
+	region_state:VAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ADANA = {
+	region_state:ADA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.28
+			}
+		}
+	}
+}
+s:STATE_ADANA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.231
+			}
+		}
+	}
+}
+s:STATE_AGRA = {
+	region_state:GAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_AGRA = {
+	region_state:MUG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.216
+			}
+		}
+	}
+}
+s:STATE_AKMOLINSK = {
+	region_state:OZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_AKTOBE = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_ALABAMA = {
+	region_state:VMC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_ALAND = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_ALASKA = {
+	region_state:ATB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALASKA = {
+	region_state:VTU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALBANIA = {
+	region_state:ALB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.182
+			}
+		}
+	}
+}
+s:STATE_ALBERTA = {
+	region_state:BLF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALBERTA = {
+	region_state:IRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALBERTA = {
+	region_state:VFC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALENTEJO = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.248
+			}
+		}
+	}
+}
+s:STATE_ALEPPO = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.314
+			}
+		}
+	}
+}
+s:STATE_ALGIERS = {
+	region_state:MAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.256
+			}
+		}
+	}
+}
+s:STATE_ALSACE_LORRAINE = {
+	region_state:FBG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_ALTAI = {
+	region_state:DZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.075
+			}
+		}
+	}
+}
+s:STATE_ALTO_PARAGUAY = {
+	region_state:GNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ALXA = {
+	region_state:MGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.093
+			}
+		}
+	}
+}
+s:STATE_AL_RIF = {
+	region_state:MOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.224
+			}
+		}
+	}
+}
+s:STATE_AMAZONAS = {
+	region_state:PRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_AMAZONAS = {
+	region_state:VAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:ANU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:BRN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:HDY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:KFA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:OMO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:SDM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:WLG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_AMHARA = {
+	region_state:WLT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_AMUR = {
+	region_state:MCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_ANHALT = {
+	region_state:ANH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_ANKARA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.254
+			}
+		}
+	}
+}
+s:STATE_ANNAM = {
+	region_state:DAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_ANTIOQUIA = {
+	region_state:VSI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_ANTOFAGASTA = {
+	region_state:VAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_APULIA = {
+	region_state:SIC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_AQUITAINE = {
+	region_state:FAQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_ARAGON = {
+	region_state:VAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.118
+			}
+		}
+	}
+}
+s:STATE_ARAKAN = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_ARAKAN = {
+	region_state:KKI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_ARAUCANIA = {
+	region_state:SLK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ARAUCANIA = {
+	region_state:THL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_AREQUIPA = {
+	region_state:VCU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_ARIZONA = {
+	region_state:APC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_ARIZONA = {
+	region_state:NVJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_ARKANSAS = {
+	region_state:VMR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_ARKHANGELSK = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_ARMENIA = {
+	region_state:VER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:ASM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:KKI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:MGH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:MNP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:NGA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_ASSAM = {
+	region_state:TIP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_ASTRAKHAN = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.221
+			}
+		}
+	}
+}
+s:STATE_ASTURIAS = {
+	region_state:VGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_ATTICA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.321
+			}
+		}
+	}
+}
+s:STATE_AUSTRIA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_AUVERGNE_LIMOUSIN = {
+	region_state:FOC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_AWADH = {
+	region_state:AWA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_AYDIN = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.329
+			}
+		}
+	}
+}
+s:STATE_AZERBAIJAN = {
+	region_state:VBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.267
+			}
+		}
+	}
+}
+s:STATE_AZORES = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.271
+			}
+		}
+	}
+}
+s:STATE_BADEN = {
+	region_state:BAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_BAGHDAD = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.351
+			}
+		}
+	}
+}
+s:STATE_BAHAMAS = {
+	region_state:GBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_BAHIA = {
+	region_state:VFB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_BAJA_CALIFORNIA = {
+	region_state:VBP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_BAJIO = {
+	region_state:VBJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_BAJO_PARAGUAY = {
+	region_state:PRG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_BALEARIC_ISLANDS = {
+	region_state:VAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.118
+			}
+		}
+	}
+}
+s:STATE_BALKH = {
+	region_state:BUK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_BALKH = {
+	region_state:KUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_BALKH = {
+	region_state:MAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_BALUCHISTAN = {
+	region_state:KAL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_BALUCHISTAN = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_BALUCHISTAN = {
+	region_state:MAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_BANAT = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_BANGKOK = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.115
+			}
+		}
+	}
+}
+s:STATE_BASQUE_COUNTRY = {
+	region_state:VNV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.117
+			}
+		}
+	}
+}
+s:STATE_BASRA = {
+	region_state:BSR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.29
+			}
+		}
+	}
+}
+s:STATE_BASRA = {
+	region_state:KUW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_BASRA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.194
+			}
+		}
+	}
+}
+s:STATE_BAS_CONGO = {
+	region_state:KON = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_BAS_CONGO = {
+	region_state:YKA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_BAVARIA = {
+	region_state:BAV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_BEIJING = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_BEIRA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.266
+			}
+		}
+	}
+}
+s:STATE_BEKES = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_BENIN = {
+	region_state:BEN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_BERMUDA = {
+	region_state:GBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.063
+			}
+		}
+	}
+}
+s:STATE_BESSARABIA = {
+	region_state:MOL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_BIHAR = {
+	region_state:BGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.177
+			}
+		}
+	}
+}
+s:STATE_BLUE_NILE = {
+	region_state:VSN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.195
+			}
+		}
+	}
+}
+s:STATE_BOHEMIA = {
+	region_state:VBO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_BOLIVAR = {
+	region_state:VNZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_BOMBAY = {
+	region_state:KHP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_BOMBAY = {
+	region_state:MAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_BOMBAY = {
+	region_state:SAT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_BORNU = {
+	region_state:BOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_BOSNIA = {
+	region_state:BOS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.195
+			}
+		}
+	}
+}
+s:STATE_BOTSWANA = {
+	region_state:LZO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_BOTSWANA = {
+	region_state:SAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_BOTSWANA = {
+	region_state:TSW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_BOUGAINVILLE = {
+	region_state:HLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_BRANDENBURG = {
+	region_state:VBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_BREST = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.212
+			}
+		}
+	}
+}
+s:STATE_BRITISH_COLUMBIA = {
+	region_state:ATB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_BRITISH_COLUMBIA = {
+	region_state:SLS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_BRITTANY = {
+	region_state:FBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_BRUNSWICK = {
+	region_state:BRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_BRUNSWICK = {
+	region_state:HAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_BUENOS_AIRES = {
+	region_state:PAT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_BUENOS_AIRES = {
+	region_state:VBC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_BUKOVINA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.065
+			}
+		}
+	}
+}
+s:STATE_BULGARIA = {
+	region_state:BUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.215
+			}
+		}
+	}
+}
+s:STATE_BUNDELKHAND = {
+	region_state:BAG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_BUNDELKHAND = {
+	region_state:BUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_BUNDELKHAND = {
+	region_state:JHN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_BUNDELKHAND = {
+	region_state:SUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_BURGUNDY = {
+	region_state:FBG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_BURYATIA = {
+	region_state:VBY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_BUSAN = {
+	region_state:KOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.157
+			}
+		}
+	}
+}
+s:STATE_CAJAMARCA = {
+	region_state:VCU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_CALABRIA = {
+	region_state:SIC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_CALIFORNIA = {
+	region_state:VCL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_CAMBODIA = {
+	region_state:CAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_CAMBODIA = {
+	region_state:KLO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_CAMBODIA = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_CAMPANIA = {
+	region_state:SIC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_CANARY_ISLANDS = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.254
+			}
+		}
+	}
+}
+s:STATE_CAPE_COLONY = {
+	region_state:NAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_CAPE_VERDE = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.196
+			}
+		}
+	}
+}
+s:STATE_CATALONIA = {
+	region_state:VAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.138
+			}
+		}
+	}
+}
+s:STATE_CAUCA = {
+	region_state:VCQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_CEARA = {
+	region_state:VNR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_CELEBES = {
+	region_state:BTN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_CELEBES = {
+	region_state:SLW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_CELEBES = {
+	region_state:TID = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.086
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_CUBA = {
+	region_state:VPI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.098
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_HIGHLANDS = {
+	region_state:HER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.132
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_HIGHLANDS = {
+	region_state:KAB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_HIGHLANDS = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_HUNGARY = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_JAVA = {
+	region_state:SRK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_JAVA = {
+	region_state:YOG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.174
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_PROVINCES = {
+	region_state:BAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_PROVINCES = {
+	region_state:HYD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.152
+			}
+		}
+	}
+}
+s:STATE_CENTRAL_PROVINCES = {
+	region_state:NAG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_CEYLON = {
+	region_state:VKN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_CHACO = {
+	region_state:GNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_CHACO = {
+	region_state:VGN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_CHAD = {
+	region_state:BOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_CHAD = {
+	region_state:TBI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.134
+			}
+		}
+	}
+}
+s:STATE_CHAD = {
+	region_state:WAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_CHAMPAGNE = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_CHELYABINSK = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_CHELYABINSK = {
+	region_state:OZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_CHERNIHIV = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.199
+			}
+		}
+	}
+}
+s:STATE_CHERSON = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_CHIANG_MAI = {
+	region_state:CMI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_CHIAPAS = {
+	region_state:VMY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_CHIHUAHUA = {
+	region_state:VNP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_CHONGQING = {
+	region_state:SHU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_CHUGOKU = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.127
+			}
+		}
+	}
+}
+s:STATE_CHUKOTKA = {
+	region_state:VCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_CHUVASHIA = {
+	region_state:VMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_CIRCARS = {
+	region_state:HYD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.188
+			}
+		}
+	}
+}
+s:STATE_CIRCARS = {
+	region_state:JEY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_COLORADO = {
+	region_state:ARP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_COLORADO = {
+	region_state:UTE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_COLORADO = {
+	region_state:VUT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_CONGO = {
+	region_state:BOB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_CONGO = {
+	region_state:LNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_CONGO = {
+	region_state:TKE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_CONGO_ORIENTALE = {
+	region_state:HMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_CONGO_ORIENTALE = {
+	region_state:LBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_CONGO_ORIENTALE = {
+	region_state:LGA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_CONGO_ORIENTALE = {
+	region_state:MNB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_CONGO_ORIENTALE = {
+	region_state:ZND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_CONNAUGHT = {
+	region_state:VIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_CONNECTICUT = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.229
+			}
+		}
+	}
+}
+s:STATE_CONSTANTINE = {
+	region_state:AIT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_CONSTANTINE = {
+	region_state:CON = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.23
+			}
+		}
+	}
+}
+s:STATE_CORRIENTES = {
+	region_state:VGN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_CORSICA = {
+	region_state:FPR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.095
+			}
+		}
+	}
+}
+s:STATE_COSTA_RICA = {
+	region_state:VKR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_COURLAND = {
+	region_state:UBD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_CRETE = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.254
+			}
+		}
+	}
+}
+s:STATE_CRIMEA = {
+	region_state:VCR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.257
+			}
+		}
+	}
+}
+s:STATE_CROATIA = {
+	region_state:CRO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_CUNDINAMARCA = {
+	region_state:VMU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_CYPRUS = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.269
+			}
+		}
+	}
+}
+s:STATE_DAGESTAN = {
+	region_state:CHC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_DAGESTAN = {
+	region_state:VDA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.204
+			}
+		}
+	}
+}
+s:STATE_DAHOMEY = {
+	region_state:BRG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_DAHOMEY = {
+	region_state:DAH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_DALMATIA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_DARFUR = {
+	region_state:DFR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_DEIR_EZ_ZOR = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.172
+			}
+		}
+	}
+}
+s:STATE_DELAWARE = {
+	region_state:VPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_DELHI = {
+	region_state:MUG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.261
+			}
+		}
+	}
+}
+s:STATE_DELHI = {
+	region_state:PTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_DELVIDEK = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_DISTRICT_OF_COLUMBIA = {
+	region_state:VDC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_DIYARBAKIR = {
+	region_state:KUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.215
+			}
+		}
+	}
+}
+s:STATE_DOBRUDJA = {
+	region_state:BUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.215
+			}
+		}
+	}
+}
+s:STATE_DONGOLA = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.172
+			}
+		}
+	}
+}
+s:STATE_DURANGO = {
+	region_state:VDR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_DZUNGARIA = {
+	region_state:DZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.103
+			}
+		}
+	}
+}
+s:STATE_EASTERN_CAPE = {
+	region_state:XHO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_EASTERN_CUBA = {
+	region_state:VPI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.098
+			}
+		}
+	}
+}
+s:STATE_EASTERN_HIMALAYAS = {
+	region_state:BHU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_EASTERN_HIMALAYAS = {
+	region_state:SIK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_EASTERN_HIMALAYAS = {
+	region_state:TIB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.07
+			}
+		}
+	}
+}
+s:STATE_EASTERN_HUBEI = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.16
+			}
+		}
+	}
+}
+s:STATE_EASTERN_MALI = {
+	region_state:MSN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_EASTERN_NEW_GUINEA = {
+	region_state:PPU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EASTERN_NORWAY = {
+	region_state:NOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.213
+			}
+		}
+	}
+}
+s:STATE_EASTERN_SERBIA = {
+	region_state:SER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_EASTERN_THRACE = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.418
+			}
+		}
+	}
+}
+s:STATE_EAST_AEGEAN_ISLANDS = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.314
+			}
+		}
+	}
+}
+s:STATE_EAST_ANGLIA = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.172
+			}
+		}
+	}
+}
+s:STATE_EAST_ANGOLA = {
+	region_state:CHK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EAST_ANGOLA = {
+	region_state:KSN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EAST_ANGOLA = {
+	region_state:LND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_EAST_ANGOLA = {
+	region_state:LZO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EAST_BENGAL = {
+	region_state:BGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.202
+			}
+		}
+	}
+}
+s:STATE_EAST_BORNEO = {
+	region_state:BLG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_EAST_BORNEO = {
+	region_state:BNJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_EAST_BORNEO = {
+	region_state:KTI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_EAST_GALICIA = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_EAST_HAUSALAND = {
+	region_state:SOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_EAST_JAVA = {
+	region_state:SRK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.185
+			}
+		}
+	}
+}
+s:STATE_EAST_KARELIA = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_EAST_MICRONESIA = {
+	region_state:MCR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_EAST_PRUSSIA = {
+	region_state:VPD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_EAST_SAHARA = {
+	region_state:ADG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.051
+			}
+		}
+	}
+}
+s:STATE_EAST_SAHARA = {
+	region_state:AHG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_EAST_SAHARA = {
+	region_state:AJJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_EAST_SAHARA = {
+	region_state:CMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_EAST_SAHARA = {
+	region_state:TUG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.145
+			}
+		}
+	}
+}
+s:STATE_EAST_SWITZERLAND = {
+	region_state:SWI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_ECUADOR = {
+	region_state:VQU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_EGYPTIAN_DESERT = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.136
+			}
+		}
+	}
+}
+s:STATE_ELBE = {
+	region_state:BRE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_ELBE = {
+	region_state:HAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_ELBE = {
+	region_state:HAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_ELIZAVETPOL = {
+	region_state:VBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.231
+			}
+		}
+	}
+}
+s:STATE_EMILIA = {
+	region_state:LUC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_EMILIA = {
+	region_state:MOD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_EMILIA = {
+	region_state:PAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_ENTRE_DOURO_E_MINHO = {
+	region_state:VGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_EQUATEUR = {
+	region_state:BNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_EQUATEUR = {
+	region_state:BOB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EQUATORIA = {
+	region_state:DFT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EQUATORIA = {
+	region_state:DNK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_EQUATORIA = {
+	region_state:NUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_EQUATORIA = {
+	region_state:TPS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_ERITREA = {
+	region_state:AWS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.153
+			}
+		}
+	}
+}
+s:STATE_ERZURUM = {
+	region_state:ERZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.24
+			}
+		}
+	}
+}
+s:STATE_ERZURUM = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_ESTREMADURA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.323
+			}
+		}
+	}
+}
+s:STATE_EXTREMADURA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.26
+			}
+		}
+	}
+}
+s:STATE_FARS = {
+	region_state:ISF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.387
+			}
+		}
+	}
+}
+s:STATE_FERGANA = {
+	region_state:KOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.252
+			}
+		}
+	}
+}
+s:STATE_FEZ = {
+	region_state:MOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.322
+			}
+		}
+	}
+}
+s:STATE_FIJI = {
+	region_state:FJI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_FLANDERS = {
+	region_state:VBT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_FLORIDA = {
+	region_state:SML = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_FLORIDA = {
+	region_state:VBU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.23
+			}
+		}
+	}
+}
+s:STATE_FORMOSA = {
+	region_state:YUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_FRANCHE_COMTE = {
+	region_state:FBG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_FRANCONIA = {
+	region_state:BAV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_FRENCH_LOW_COUNTRIES = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_FRIESLAND = {
+	region_state:NET = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.153
+			}
+		}
+	}
+}
+s:STATE_FUJIAN = {
+	region_state:YUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.142
+			}
+		}
+	}
+}
+s:STATE_GABON = {
+	region_state:FNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.079
+			}
+		}
+	}
+}
+s:STATE_GABON = {
+	region_state:LNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_GALICH = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.212
+			}
+		}
+	}
+}
+s:STATE_GALICIA = {
+	region_state:VGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_GANSU = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.095
+			}
+		}
+	}
+}
+s:STATE_GELRE = {
+	region_state:NET = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.153
+			}
+		}
+	}
+}
+s:STATE_GELRE = {
+	region_state:VBT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_GEORGIA = {
+	region_state:VCE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_GOIAS = {
+	region_state:VGC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_GOLD_COAST = {
+	region_state:ASH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.106
+			}
+		}
+	}
+}
+s:STATE_GONDER = {
+	region_state:AWS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_GONDER = {
+	region_state:BGM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GONDER = {
+	region_state:GJM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GONDER = {
+	region_state:QWR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GONDER = {
+	region_state:TGR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GOTALAND = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.211
+			}
+		}
+	}
+}
+s:STATE_GOTLAND = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.211
+			}
+		}
+	}
+}
+s:STATE_GREATER_CAUCASUS = {
+	region_state:VGE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_GREATER_POLAND = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.268
+			}
+		}
+	}
+}
+s:STATE_GREENLAND = {
+	region_state:DEN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_GUANGDONG = {
+	region_state:YUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.142
+			}
+		}
+	}
+}
+s:STATE_GUANGXI = {
+	region_state:YUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_GUATEMALA = {
+	region_state:VGA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_GUAVIARE = {
+	region_state:VOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_GUAYANA = {
+	region_state:NET = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_GUERRERO = {
+	region_state:VGR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_GUINEA = {
+	region_state:FTJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_GUINEA = {
+	region_state:KBU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUINEA = {
+	region_state:MDK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.159
+			}
+		}
+	}
+}
+s:STATE_GUINEA = {
+	region_state:SSU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_GUIZHOU = {
+	region_state:SHU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:BER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:BHV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:DHA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:GJT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.21
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:IDA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:JUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:KUT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:NAW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_GUJARAT = {
+	region_state:PLP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_GUYENNE = {
+	region_state:FAQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_HAIL = {
+	region_state:JAB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_HAIL = {
+	region_state:NEJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_HAITI = {
+	region_state:HAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_HANNOVER = {
+	region_state:HAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_HANNOVER = {
+	region_state:OLD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_HAUSALAND = {
+	region_state:BRG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_HAUSALAND = {
+	region_state:SOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.197
+			}
+		}
+	}
+}
+s:STATE_HAWAIIAN_ISLANDS = {
+	region_state:HAW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_HEDJAZ = {
+	region_state:HDJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.27
+			}
+		}
+	}
+}
+s:STATE_HENAN = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.11
+			}
+		}
+	}
+}
+s:STATE_HERAT = {
+	region_state:HER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.265
+			}
+		}
+	}
+}
+s:STATE_HEREROLAND = {
+	region_state:HRO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_HEREROLAND = {
+	region_state:OVB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_HEREROLAND = {
+	region_state:SAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_HESSE = {
+	region_state:FRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_HESSE = {
+	region_state:HEK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.157
+			}
+		}
+	}
+}
+s:STATE_HESSE = {
+	region_state:HES = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.157
+			}
+		}
+	}
+}
+s:STATE_HESSE = {
+	region_state:NAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_HESSE = {
+	region_state:WLD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_HIGHLANDS = {
+	region_state:VSC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.191
+			}
+		}
+	}
+}
+s:STATE_HILL_PUNJAB = {
+	region_state:GAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_HILL_PUNJAB = {
+	region_state:PNJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_HILL_PUNJAB = {
+	region_state:PTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_HIMALAYAS = {
+	region_state:NEP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_HINGGAN = {
+	region_state:MGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.099
+			}
+		}
+	}
+}
+s:STATE_HOKKAIDO = {
+	region_state:EZO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_HOKKAIDO = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.119
+			}
+		}
+	}
+}
+s:STATE_HOKUSHINETSU = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.123
+			}
+		}
+	}
+}
+s:STATE_HOLLAND = {
+	region_state:NET = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.164
+			}
+		}
+	}
+}
+s:STATE_HOME_COUNTIES = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.243
+			}
+		}
+	}
+}
+s:STATE_HONDURAS = {
+	region_state:VHN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_HUDAVENDIGAR = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.373
+			}
+		}
+	}
+}
+s:STATE_HUNAN = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.147
+			}
+		}
+	}
+}
+s:STATE_HYDERABAD = {
+	region_state:HYD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.197
+			}
+		}
+	}
+}
+s:STATE_ICA = {
+	region_state:IQU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_ICA = {
+	region_state:SPU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_ICELAND = {
+	region_state:NOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.254
+			}
+		}
+	}
+}
+s:STATE_IDAHO = {
+	region_state:BNN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_IDAHO = {
+	region_state:NZP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_ILE_DE_FRANCE = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.171
+			}
+		}
+	}
+}
+s:STATE_ILLINOIS = {
+	region_state:VGT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_INDIANA = {
+	region_state:VMR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_INDIAN_OCEAN_TERRITORY = {
+	region_state:VMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_INGRIA = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_INNER_MAURITANIA = {
+	region_state:ADR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.073
+			}
+		}
+	}
+}
+s:STATE_INNER_MAURITANIA = {
+	region_state:OUA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.113
+			}
+		}
+	}
+}
+s:STATE_INNER_MAURITANIA = {
+	region_state:RGB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.085
+			}
+		}
+	}
+}
+s:STATE_INNER_MOROCCO = {
+	region_state:MOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_IONIAN_ISLANDS = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.321
+			}
+		}
+	}
+}
+s:STATE_IOWA = {
+	region_state:VPW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_IRAKAJEMI = {
+	region_state:ISF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.41
+			}
+		}
+	}
+}
+s:STATE_IRKUTSK = {
+	region_state:VBY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_ISFAHAN = {
+	region_state:ISF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.45
+			}
+		}
+	}
+}
+s:STATE_ISTRIA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_IVORY_COAST = {
+	region_state:AYI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_IVORY_COAST = {
+	region_state:BLE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_IVORY_COAST = {
+	region_state:KNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_JALISCO = {
+	region_state:VJL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_JAMAICA = {
+	region_state:VPI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.087
+			}
+		}
+	}
+}
+s:STATE_JETISY = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_JIANGSU = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.169
+			}
+		}
+	}
+}
+s:STATE_JIANGXI = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.156
+			}
+		}
+	}
+}
+s:STATE_JUJUY = {
+	region_state:VKC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_JUTLAND = {
+	region_state:DEN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.208
+			}
+		}
+	}
+}
+s:STATE_KABUL = {
+	region_state:KAB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.223
+			}
+		}
+	}
+}
+s:STATE_KABUL = {
+	region_state:KAF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_KACHIN = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.074
+			}
+		}
+	}
+}
+s:STATE_KALMYKIA = {
+	region_state:VKM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_KAMCHATKA = {
+	region_state:VKA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_KANAK = {
+	region_state:KNK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_KANDAHAR = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.186
+			}
+		}
+	}
+}
+s:STATE_KANSAI = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.139
+			}
+		}
+	}
+}
+s:STATE_KANSAS = {
+	region_state:COM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_KANSAS = {
+	region_state:PWN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_KANSAS = {
+	region_state:VPW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_KANTO = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_KARS = {
+	region_state:ERZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.24
+			}
+		}
+	}
+}
+s:STATE_KASAI = {
+	region_state:KBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_KASAI = {
+	region_state:LBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_KASHMIR = {
+	region_state:CHT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_KASHMIR = {
+	region_state:KAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_KASHMIR = {
+	region_state:LAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_KASTAMONU = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.284
+			}
+		}
+	}
+}
+s:STATE_KATANGA = {
+	region_state:KZM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_KATANGA = {
+	region_state:LBA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_KATANGA = {
+	region_state:LND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.077
+			}
+		}
+	}
+}
+s:STATE_KAUNAS = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.224
+			}
+		}
+	}
+}
+s:STATE_KAZAN = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.252
+			}
+		}
+	}
+}
+s:STATE_KAZEMBE = {
+	region_state:BMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_KAZEMBE = {
+	region_state:KZM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_KAZEMBE = {
+	region_state:MRV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_KENTUCKY = {
+	region_state:VMR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:AJR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:AUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:KKY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:MBS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:MJK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:ORM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:SKY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_KENYA = {
+	region_state:WTU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_KERMAN = {
+	region_state:KRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.279
+			}
+		}
+	}
+}
+s:STATE_KHARKOV = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.212
+			}
+		}
+	}
+}
+s:STATE_KHIVA = {
+	region_state:KHI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.219
+			}
+		}
+	}
+}
+s:STATE_KHIVA = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_KHIVA = {
+	region_state:TRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_KHORASAN = {
+	region_state:KHO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.3
+			}
+		}
+	}
+}
+s:STATE_KHUZESTAN = {
+	region_state:HUZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.26
+			}
+		}
+	}
+}
+s:STATE_KIEV = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.23
+			}
+		}
+	}
+}
+s:STATE_KIRGHIZIA = {
+	region_state:KIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_KIRGHIZIA = {
+	region_state:KOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_KOLA = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_KOLYMA = {
+	region_state:VKL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_KONYA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.261
+			}
+		}
+	}
+}
+s:STATE_KORDOFAN = {
+	region_state:DFR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.156
+			}
+		}
+	}
+}
+s:STATE_KOSOVO = {
+	region_state:ALB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_KRASNOYARSK = {
+	region_state:VYE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_KUBAN = {
+	region_state:CIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_KUBAN = {
+	region_state:VCR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.206
+			}
+		}
+	}
+}
+s:STATE_KUOPIO = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_KURNOOL = {
+	region_state:HYD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_KURNOOL = {
+	region_state:KNO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_KURSK = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.071
+			}
+		}
+	}
+}
+s:STATE_KYOTO = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_KYUSHU = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.123
+			}
+		}
+	}
+}
+s:STATE_LANCASHIRE = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.172
+			}
+		}
+	}
+}
+s:STATE_LANGUEDOC = {
+	region_state:FOC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_LAOS = {
+	region_state:CHP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_LAOS = {
+	region_state:DAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.071
+			}
+		}
+	}
+}
+s:STATE_LAOS = {
+	region_state:LUA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_LAOS = {
+	region_state:SCT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_LAOS = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.075
+			}
+		}
+	}
+}
+s:STATE_LARISTAN = {
+	region_state:BHN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_LARISTAN = {
+	region_state:KRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.219
+			}
+		}
+	}
+}
+s:STATE_LARISTAN = {
+	region_state:OMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.121
+			}
+		}
+	}
+}
+s:STATE_LAZIO = {
+	region_state:PAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.115
+			}
+		}
+	}
+}
+s:STATE_LA_PAMPA = {
+	region_state:VPT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_LA_PAZ = {
+	region_state:VLP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_LEBANON = {
+	region_state:LEB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.29
+			}
+		}
+	}
+}
+s:STATE_LEINSTER = {
+	region_state:VIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.153
+			}
+		}
+	}
+}
+s:STATE_LEON = {
+	region_state:VCA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_LESSER_POLAND = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.237
+			}
+		}
+	}
+}
+s:STATE_LHASA = {
+	region_state:TIB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.113
+			}
+		}
+	}
+}
+s:STATE_LIBERIA = {
+	region_state:KRU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.073
+			}
+		}
+	}
+}
+s:STATE_LIBERIA = {
+	region_state:LIB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_LIBERIA = {
+	region_state:MDK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_LIBYA = {
+	region_state:TBI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.085
+			}
+		}
+	}
+}
+s:STATE_LIBYA = {
+	region_state:TRI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_LIBYA = {
+	region_state:ZWY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_LIBYAN_DESERT = {
+	region_state:AJJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_LIBYAN_DESERT = {
+	region_state:FZN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.115
+			}
+		}
+	}
+}
+s:STATE_LIBYAN_DESERT = {
+	region_state:TBI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.085
+			}
+		}
+	}
+}
+s:STATE_LIBYAN_DESERT = {
+	region_state:ZWY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.101
+			}
+		}
+	}
+}
+s:STATE_LIMA = {
+	region_state:NPU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_LINDI = {
+	region_state:GGO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_LINDI = {
+	region_state:HHE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_LINDI = {
+	region_state:SNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_LOMBARDY = {
+	region_state:VMI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_LORRAINE = {
+	region_state:FBG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_LOS_RIOS = {
+	region_state:VRI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_LOUISIANA = {
+	region_state:VMR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_LOURENCO_MARQUES = {
+	region_state:GZA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_LOWER_ANDALUSIA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.318
+			}
+		}
+	}
+}
+s:STATE_LOWER_EGYPT = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.309
+			}
+		}
+	}
+}
+s:STATE_LOWER_SILESIA = {
+	region_state:VBO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.171
+			}
+		}
+	}
+}
+s:STATE_LOWLANDS = {
+	region_state:VSC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.253
+			}
+		}
+	}
+}
+s:STATE_LURISTAN = {
+	region_state:LUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.241
+			}
+		}
+	}
+}
+s:STATE_LUZON = {
+	region_state:SUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.141
+			}
+		}
+	}
+}
+s:STATE_LUZON = {
+	region_state:VTD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_MACEDONIA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.321
+			}
+		}
+	}
+}
+s:STATE_MADEIRA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.266
+			}
+		}
+	}
+}
+s:STATE_MADRAS = {
+	region_state:PUD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_MADRAS = {
+	region_state:TAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_MAINE = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.216
+			}
+		}
+	}
+}
+s:STATE_MAINE_ANJOU = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_MALAYA = {
+	region_state:JOH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_MALAYA = {
+	region_state:PRK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_MALAYA = {
+	region_state:SEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_MALAYA = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.085
+			}
+		}
+	}
+}
+s:STATE_MALTA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.343
+			}
+		}
+	}
+}
+s:STATE_MALWA = {
+	region_state:BHO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_MALWA = {
+	region_state:GWA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.101
+			}
+		}
+	}
+}
+s:STATE_MALWA = {
+	region_state:IND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.101
+			}
+		}
+	}
+}
+s:STATE_MANDALAY = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.116
+			}
+		}
+	}
+}
+s:STATE_MANDALAY = {
+	region_state:KKI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_MANITOBA = {
+	region_state:IRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MANITOBA = {
+	region_state:VCI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_MARANHAO = {
+	region_state:VNR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_MARRAKECH = {
+	region_state:MOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.259
+			}
+		}
+	}
+}
+s:STATE_MARYLAND = {
+	region_state:VVA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.163
+			}
+		}
+	}
+}
+s:STATE_MASSACHUSETTS = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.234
+			}
+		}
+	}
+}
+s:STATE_MATO_GROSSO = {
+	region_state:PRG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.018
+			}
+		}
+	}
+}
+s:STATE_MATO_GROSSO = {
+	region_state:VMT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MATRUH = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.144
+			}
+		}
+	}
+}
+s:STATE_MAURITANIA = {
+	region_state:BRK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_MAURITANIA = {
+	region_state:DLM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_MAURITANIA = {
+	region_state:FTR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.117
+			}
+		}
+	}
+}
+s:STATE_MAURITANIA = {
+	region_state:OUA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_MAURITANIA = {
+	region_state:TRZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_MAZANDARAN = {
+	region_state:MAZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.3
+			}
+		}
+	}
+}
+s:STATE_MAZOVIA = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.23
+			}
+		}
+	}
+}
+s:STATE_MECKLENBURG = {
+	region_state:MEC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_MECKLENBURG = {
+	region_state:MST = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_MEKONG = {
+	region_state:DAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_MEKONG = {
+	region_state:DGR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_MERZ = {
+	region_state:BUK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.137
+			}
+		}
+	}
+}
+s:STATE_MERZ = {
+	region_state:KHI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.132
+			}
+		}
+	}
+}
+s:STATE_MERZ = {
+	region_state:TRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_MEXICO = {
+	region_state:VNE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.193
+			}
+		}
+	}
+}
+s:STATE_MICHIGAN = {
+	region_state:VGT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_MIDDLE_EGYPT = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.259
+			}
+		}
+	}
+}
+s:STATE_MIDLANDS = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.177
+			}
+		}
+	}
+}
+s:STATE_MINAS_GERAIS = {
+	region_state:VMG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MINDANAO = {
+	region_state:MGD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_MINDANAO = {
+	region_state:MND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_MINDANAO = {
+	region_state:SUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.159
+			}
+		}
+	}
+}
+s:STATE_MINNESOTA = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MINNESOTA = {
+	region_state:VGT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_MINSK = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.218
+			}
+		}
+	}
+}
+s:STATE_MIRANDA = {
+	region_state:VNZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_MISSISSIPPI = {
+	region_state:VCO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_MISSOURI = {
+	region_state:VMR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_MOCAMBIQUE = {
+	region_state:AGC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_MOCAMBIQUE = {
+	region_state:MRV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_MOCAMBIQUE = {
+	region_state:TGI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_MOGILEV = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.199
+			}
+		}
+	}
+}
+s:STATE_MOLDAVIA = {
+	region_state:MOL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_MOLUCCAS = {
+	region_state:TID = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.103
+			}
+		}
+	}
+}
+s:STATE_MONTANA = {
+	region_state:ABS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MONTANA = {
+	region_state:BLF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MONTANA = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MONTANA = {
+	region_state:SLS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_MONTANA = {
+	region_state:VLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_MONTENEGRO = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.055
+			}
+		}
+	}
+}
+s:STATE_MONTENEGRO = {
+	region_state:MON = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_MORAVIA = {
+	region_state:VBO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_MOSCOW = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.102
+			}
+		}
+	}
+}
+s:STATE_MOSUL = {
+	region_state:KUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.215
+			}
+		}
+	}
+}
+s:STATE_MUNSTER = {
+	region_state:VIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.105
+			}
+		}
+	}
+}
+s:STATE_MURCIA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.283
+			}
+		}
+	}
+}
+s:STATE_MYSORE = {
+	region_state:MYS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_NAKHON_RATCHASIMA = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_NAMAQUALAND = {
+	region_state:NAM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_NAMAQUALAND = {
+	region_state:SAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NANJING = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.197
+			}
+		}
+	}
+}
+s:STATE_NAURU = {
+	region_state:NRU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_NEBRASKA = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NEBRASKA = {
+	region_state:PWN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_NEBRASKA = {
+	region_state:VPW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_NEJD = {
+	region_state:NEJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_NENETSIA = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NEVADA = {
+	region_state:BNN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NEWFOUNDLAND = {
+	region_state:VIN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_NEW_BRUNSWICK = {
+	region_state:VWM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_NEW_CASTILE = {
+	region_state:VCA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_NEW_HAMPSHIRE = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.22
+			}
+		}
+	}
+}
+s:STATE_NEW_JERSEY = {
+	region_state:VNH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.211
+			}
+		}
+	}
+}
+s:STATE_NEW_MEXICO = {
+	region_state:APC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_NEW_MEXICO = {
+	region_state:COM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NEW_MEXICO = {
+	region_state:NVJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:KLN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:KNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:KRI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:PAA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:WDJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NEW_SOUTH_WALES = {
+	region_state:YUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NEW_YORK = {
+	region_state:VNH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.216
+			}
+		}
+	}
+}
+s:STATE_NGARI = {
+	region_state:TIB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_NICARAGUA = {
+	region_state:VNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_NIGER = {
+	region_state:AIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_NIGER = {
+	region_state:AJJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.169
+			}
+		}
+	}
+}
+s:STATE_NIGER = {
+	region_state:DIN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_NIGER = {
+	region_state:TBI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_NIGERIA = {
+	region_state:SOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.144
+			}
+		}
+	}
+}
+s:STATE_NIGER_DELTA = {
+	region_state:IBO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_NINGXIA = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.105
+			}
+		}
+	}
+}
+s:STATE_NIZHNY_NOVGOROD = {
+	region_state:VMO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_NORMANDY = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_NORRLAND = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.193
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_ANHUI = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.147
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_BALUCHISTAN = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_CAPE = {
+	region_state:SAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_CAPE = {
+	region_state:TSW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_CAPE = {
+	region_state:WBL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_MANCHURIA = {
+	region_state:MCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_NORWAY = {
+	region_state:NOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.194
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:ARH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:ARR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:GRW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:KNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:LRR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:NYP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:WRR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:WTI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TERRITORY = {
+	region_state:YGU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_THRACE = {
+	region_state:BUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.215
+			}
+		}
+	}
+}
+s:STATE_NORTHERN_TRANSYLVANIA = {
+	region_state:TRS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.132
+			}
+		}
+	}
+}
+s:STATE_NORTHWEST_TERRITORIES = {
+	region_state:VDE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NORTH_ANGOLA = {
+	region_state:KON = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_NORTH_BORNEO = {
+	region_state:BLG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_NORTH_BORNEO = {
+	region_state:BRU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_NORTH_BORNEO = {
+	region_state:SUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAMEROON = {
+	region_state:BMM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAMEROON = {
+	region_state:SOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.137
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAROLINA = {
+	region_state:VVA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.134
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAUCASUS = {
+	region_state:CHC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAUCASUS = {
+	region_state:CIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_NORTH_CAUCASUS = {
+	region_state:VDA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.153
+			}
+		}
+	}
+}
+s:STATE_NORTH_DAKOTA = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NORTH_DAKOTA = {
+	region_state:VLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_NORTH_ISLAND = {
+	region_state:NTO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_NORTH_ISLAND = {
+	region_state:UNT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_NORTH_MADAGASCAR = {
+	region_state:MAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.114
+			}
+		}
+	}
+}
+s:STATE_NORTH_RHINE = {
+	region_state:VRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_NORTH_SUMATRA = {
+	region_state:JMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_NORTH_SUMATRA = {
+	region_state:SAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.161
+			}
+		}
+	}
+}
+s:STATE_NOVGOROD = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_NUNAVUT = {
+	region_state:VNU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_OAXACA = {
+	region_state:VOA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_OB = {
+	region_state:VOB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_OHIO = {
+	region_state:VHD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_OKHOTSK = {
+	region_state:VOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_OKLAHOMA = {
+	region_state:COM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_OKLAHOMA = {
+	region_state:SEQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_OLD_CASTILE = {
+	region_state:VCA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_OMAN = {
+	region_state:OMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_ONTARIO = {
+	region_state:VAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_ORAN = {
+	region_state:MAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.24
+			}
+		}
+	}
+}
+s:STATE_OREGON = {
+	region_state:ORG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_ORISSA = {
+	region_state:MYB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_ORISSA = {
+	region_state:NAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_ORISSA = {
+	region_state:ORI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_ORISSA = {
+	region_state:PTN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_ORLEANS = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_OROMIA = {
+	region_state:ARS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_OROMIA = {
+	region_state:HAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_OROMIA = {
+	region_state:OGD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_OROMIA = {
+	region_state:SHW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_ORYOL = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.082
+			}
+		}
+	}
+}
+s:STATE_OSTROBOTHNIA = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_OULU = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_OUTER_HAUSALAND = {
+	region_state:BOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.144
+			}
+		}
+	}
+}
+s:STATE_OUTER_HAUSALAND = {
+	region_state:HAU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_OUTER_HAUSALAND = {
+	region_state:SOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.159
+			}
+		}
+	}
+}
+s:STATE_OUTER_MANCHURIA = {
+	region_state:MCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_PALESTINE = {
+	region_state:PAL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.27
+			}
+		}
+	}
+}
+s:STATE_PANAMA = {
+	region_state:VIT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_PARA = {
+	region_state:PRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_PARAIBA = {
+	region_state:VNR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_PARANA = {
+	region_state:VPS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_PASHTUNISTAN = {
+	region_state:CHT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_PASHTUNISTAN = {
+	region_state:KAB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.191
+			}
+		}
+	}
+}
+s:STATE_PASTAZA = {
+	region_state:NPU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_PASTAZA = {
+	region_state:VQU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_PATAGONIA = {
+	region_state:PAT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_PATAGONIA = {
+	region_state:THL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_PEGU = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_PELOPONNESE = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.224
+			}
+		}
+	}
+}
+s:STATE_PENNSYLVANIA = {
+	region_state:VPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.217
+			}
+		}
+	}
+}
+s:STATE_PERM = {
+	region_state:VUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_PERNAMBUCO = {
+	region_state:VFB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_PERSIAN_KURDISTAN = {
+	region_state:LUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.221
+			}
+		}
+	}
+}
+s:STATE_PIAUI = {
+	region_state:VNR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_PICARDY = {
+	region_state:FPA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_PIEDMONT = {
+	region_state:SAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.121
+			}
+		}
+	}
+}
+s:STATE_POITOU = {
+	region_state:FAQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_POMERANIA = {
+	region_state:VPM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_POSEN = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.249
+			}
+		}
+	}
+}
+s:STATE_POTOSI = {
+	region_state:VKC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_PROVENCE = {
+	region_state:FPR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_PROVENCE = {
+	region_state:SAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.121
+			}
+		}
+	}
+}
+s:STATE_PSKOV = {
+	region_state:VNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_PUERTO_RICO = {
+	region_state:VPI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.109
+			}
+		}
+	}
+}
+s:STATE_PUNJAB = {
+	region_state:BHW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_PUNJAB = {
+	region_state:MUG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.207
+			}
+		}
+	}
+}
+s:STATE_PYONGYANG = {
+	region_state:KOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_QINGHAI = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.065
+			}
+		}
+	}
+}
+s:STATE_QUEBEC = {
+	region_state:VIN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_QUEBEC = {
+	region_state:VQC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:ARR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:GRW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:KNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:MRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:PAA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:PMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:WDJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_QUEENSLAND = {
+	region_state:WKB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_QUETTA = {
+	region_state:KAB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.128
+			}
+		}
+	}
+}
+s:STATE_QUETTA = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.148
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:ALW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:BIK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:GWA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.067
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:IND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:JAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:JAS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:JOD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:KOT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:MEW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RHINELAND = {
+	region_state:BAV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_RHINELAND = {
+	region_state:VRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_RHODE_ISLAND = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.225
+			}
+		}
+	}
+}
+s:STATE_RHONE = {
+	region_state:FBG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_RIFT_VALLEY = {
+	region_state:LUO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_RIFT_VALLEY = {
+	region_state:MSI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_RIFT_VALLEY = {
+	region_state:TRK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_RIGA = {
+	region_state:UBD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_RIO_DE_JANEIRO = {
+	region_state:VFB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_RIO_GRANDE = {
+	region_state:VSR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_RIO_GRANDE_DO_NORTE = {
+	region_state:VNR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_RIO_GRANDE_DO_SUL = {
+	region_state:PNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_RIO_NEGRO = {
+	region_state:PAT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_RIO_NEGRO = {
+	region_state:VPT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_ROMAGNA = {
+	region_state:PAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.094
+			}
+		}
+	}
+}
+s:STATE_ROSTOV = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_RUHR = {
+	region_state:VRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_RUTHENIA = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_RYAZAN = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.082
+			}
+		}
+	}
+}
+s:STATE_RYUKYU_ISLANDS = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.115
+			}
+		}
+	}
+}
+s:STATE_RYUKYU_ISLANDS = {
+	region_state:RYU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_SAHARA = {
+	region_state:CMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SAHARA = {
+	region_state:MZB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SAHARA = {
+	region_state:RGB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.097
+			}
+		}
+	}
+}
+s:STATE_SAHARA = {
+	region_state:TEK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SAHARA = {
+	region_state:TUA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SAKHALIN = {
+	region_state:AIN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_SAKHALIN = {
+	region_state:EZO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_SAKHALIN = {
+	region_state:SKH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SAKHALIN = {
+	region_state:ULT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SAMARA = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_SAMARA = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_SANTA_CATARINA = {
+	region_state:VPS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SANTA_CRUZ = {
+	region_state:VSB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_SANTA_FE = {
+	region_state:GNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SANTA_FE = {
+	region_state:VGN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SANTIAGO = {
+	region_state:VCS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_SANTO_DOMINGO = {
+	region_state:HAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_SAN_SALVADOR = {
+	region_state:VSS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_SAO_PAULO = {
+	region_state:VSV = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_SARDINIA = {
+	region_state:SAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.046
+			}
+		}
+	}
+}
+s:STATE_SARIWON = {
+	region_state:KOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_SASKATCHEWAN = {
+	region_state:IRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SASKATCHEWAN = {
+	region_state:VPC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SAVOY = {
+	region_state:SAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.121
+			}
+		}
+	}
+}
+s:STATE_SAXONY = {
+	region_state:COB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_SAXONY = {
+	region_state:MEI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_SAXONY = {
+	region_state:SAX = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_SAXONY = {
+	region_state:SCW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_SAXONY = {
+	region_state:WEI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_SCANIA = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.211
+			}
+		}
+	}
+}
+s:STATE_SCHLESWIG_HOLSTEIN = {
+	region_state:HOL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_SCHLESWIG_HOLSTEIN = {
+	region_state:LUB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_SCHLESWIG_HOLSTEIN = {
+	region_state:SCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_SEMIRECHE = {
+	region_state:OZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_SEMNAN = {
+	region_state:ISF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.339
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:BND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:CAY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:DIO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:FTR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.184
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:JLF = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:KBU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_SENEGAL = {
+	region_state:SRR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_SEOUL = {
+	region_state:KOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.18
+			}
+		}
+	}
+}
+s:STATE_SHANDONG = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_SHANXI = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_SHAN_STATES = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.079
+			}
+		}
+	}
+}
+s:STATE_SHAN_STATES = {
+	region_state:SHS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_SHAOZHOU = {
+	region_state:YUE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_SHENGJING = {
+	region_state:MCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.115
+			}
+		}
+	}
+}
+s:STATE_SHIKOKU = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.119
+			}
+		}
+	}
+}
+s:STATE_SICHUAN = {
+	region_state:SHU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_SICILY = {
+	region_state:SIC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_SIERRA_LEONE = {
+	region_state:MDK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.103
+			}
+		}
+	}
+}
+s:STATE_SIERRA_LEONE = {
+	region_state:TMN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_SINAI = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_SINALOA = {
+	region_state:VSO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_SINDH = {
+	region_state:SIN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SISTAN = {
+	region_state:KAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.148
+			}
+		}
+	}
+}
+s:STATE_SISTAN = {
+	region_state:MAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_SKOPIA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.202
+			}
+		}
+	}
+}
+s:STATE_SLAVONIA = {
+	region_state:CRO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.108
+			}
+		}
+	}
+}
+s:STATE_SLOVAKIA = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_SLOVENIA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.111
+			}
+		}
+	}
+}
+s:STATE_SMOLENSK = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.082
+			}
+		}
+	}
+}
+s:STATE_SOLOMON_ISLANDS = {
+	region_state:BLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_SOMALILAND = {
+	region_state:GLD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SOMALILAND = {
+	region_state:ISQ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SOMALILAND = {
+	region_state:MJT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SOMALILAND = {
+	region_state:WSG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SONORA = {
+	region_state:VSO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_SOUTHERN_ANHUI = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.16
+			}
+		}
+	}
+}
+s:STATE_SOUTHERN_MANCHURIA = {
+	region_state:MCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.11
+			}
+		}
+	}
+}
+s:STATE_SOUTHERN_TRANSYLVANIA = {
+	region_state:TRS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.132
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ANGOLA = {
+	region_state:HRO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ANGOLA = {
+	region_state:OVB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ANGOLA = {
+	region_state:OVM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+	region_state:GBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:KAU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:KLN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:KNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:MRN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:PAA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:WTI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_SOUTH_AUSTRALIA = {
+	region_state:YUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_SOUTH_CAMEROON = {
+	region_state:DLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_SOUTH_CAMEROON = {
+	region_state:FNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_SOUTH_CAROLINA = {
+	region_state:VVA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.109
+			}
+		}
+	}
+}
+s:STATE_SOUTH_DAKOTA = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SOUTH_DAKOTA = {
+	region_state:VLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ISLAND = {
+	region_state:NTO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_SOUTH_ISLAND = {
+	region_state:NTU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_SOUTH_MADAGASCAR = {
+	region_state:MAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_SOUTH_SUMATRA = {
+	region_state:JMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.159
+			}
+		}
+	}
+}
+s:STATE_SOUTH_TYROL = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_STAVROPOL = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.173
+			}
+		}
+	}
+}
+s:STATE_STYRIA = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_SUNDA_ISLANDS = {
+	region_state:BAL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_SURGUT = {
+	region_state:VOB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_SUZHOU = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.192
+			}
+		}
+	}
+}
+s:STATE_SVEALAND = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.211
+			}
+		}
+	}
+}
+s:STATE_SYRDARYA = {
+	region_state:KOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_SYRDARYA = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_SYRDARYA = {
+	region_state:OZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_SYRDARYA = {
+	region_state:UZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_SYRIA = {
+	region_state:SYR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.289
+			}
+		}
+	}
+}
+s:STATE_TABRIZ = {
+	region_state:TBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.324
+			}
+		}
+	}
+}
+s:STATE_TAHITI = {
+	region_state:PLY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_TAJIKISTAN = {
+	region_state:BUK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.228
+			}
+		}
+	}
+}
+s:STATE_TAJIKISTAN = {
+	region_state:KOK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_TALINN = {
+	region_state:UBD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_TAMBOV = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.071
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:BRD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:KRG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:MSI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:NYM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:RWD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_TANGANYIKA = {
+	region_state:SKM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_TARAPACA = {
+	region_state:VCU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_TARTARIA = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.205
+			}
+		}
+	}
+}
+s:STATE_TARTU = {
+	region_state:UBD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_TASMANIA = {
+	region_state:VTL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_TAURIDA = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_TENASSERIM = {
+	region_state:BUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.095
+			}
+		}
+	}
+}
+s:STATE_TENASSERIM = {
+	region_state:SIA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_TENNESSEE = {
+	region_state:VCE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_TEXAS = {
+	region_state:COM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_TEXAS = {
+	region_state:VCD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_THESSALIA = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.217
+			}
+		}
+	}
+}
+s:STATE_TIANSHAN = {
+	region_state:KSG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.23
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:ADG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:ADR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.191
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:ATR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:MSN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:OUA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.249
+			}
+		}
+	}
+}
+s:STATE_TIMBUKTU = {
+	region_state:RGB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.256
+			}
+		}
+	}
+}
+s:STATE_TOBOLSK = {
+	region_state:VST = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.145
+			}
+		}
+	}
+}
+s:STATE_TOGO = {
+	region_state:ASH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.092
+			}
+		}
+	}
+}
+s:STATE_TOGO = {
+	region_state:EWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_TOHOKU = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.119
+			}
+		}
+	}
+}
+s:STATE_TOKAI = {
+	region_state:JAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.131
+			}
+		}
+	}
+}
+s:STATE_TOMSK = {
+	region_state:VST = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.145
+			}
+		}
+	}
+}
+s:STATE_TONGA = {
+	region_state:TNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_TONGA = {
+	region_state:VSM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_TONKIN = {
+	region_state:DAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.109
+			}
+		}
+	}
+}
+s:STATE_TONKIN = {
+	region_state:SCT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_TRABZON = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.261
+			}
+		}
+	}
+}
+s:STATE_TRABZON = {
+	region_state:TRB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.28
+			}
+		}
+	}
+}
+s:STATE_TRANSDANUBIA = {
+	region_state:HUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.143
+			}
+		}
+	}
+}
+s:STATE_TRANSJORDAN = {
+	region_state:SYR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_TRANSVAAL = {
+	region_state:MTB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_TRANSVAAL = {
+	region_state:PDI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_TRANSVAAL = {
+	region_state:SWZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_TRANSVAAL = {
+	region_state:VND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_TRANS_BAIKAL = {
+	region_state:VBY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_TRAVANCORE = {
+	region_state:COC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_TRAVANCORE = {
+	region_state:TRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_TRIPOLI = {
+	region_state:FZN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.168
+			}
+		}
+	}
+}
+s:STATE_TRIPOLI = {
+	region_state:TRI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.242
+			}
+		}
+	}
+}
+s:STATE_TRIPOLI = {
+	region_state:ZWY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_TUCUMAN = {
+	region_state:VTC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_TUNISIA = {
+	region_state:TUN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.24
+			}
+		}
+	}
+}
+s:STATE_TURKMENIA = {
+	region_state:KHI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.132
+			}
+		}
+	}
+}
+s:STATE_TURKMENIA = {
+	region_state:TRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_TUSCANY = {
+	region_state:TUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_TUVA = {
+	region_state:MGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.081
+			}
+		}
+	}
+}
+s:STATE_TVER = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.082
+			}
+		}
+	}
+}
+s:STATE_TYROL = {
+	region_state:AUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.129
+			}
+		}
+	}
+}
+s:STATE_UBANGI_SHARI = {
+	region_state:DAK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_UBANGI_SHARI = {
+	region_state:ZND = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_UFA = {
+	region_state:VTA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.189
+			}
+		}
+	}
+}
+s:STATE_UGANDA = {
+	region_state:ACH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_UGANDA = {
+	region_state:ANK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_UGANDA = {
+	region_state:BNY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_UGANDA = {
+	region_state:BUG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.096
+			}
+		}
+	}
+}
+s:STATE_ULIASTAI = {
+	region_state:MGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.087
+			}
+		}
+	}
+}
+s:STATE_ULSTER = {
+	region_state:VIR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.174
+			}
+		}
+	}
+}
+s:STATE_UMBRIA = {
+	region_state:PAP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.094
+			}
+		}
+	}
+}
+s:STATE_UPPER_ANDALUSIA = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.294
+			}
+		}
+	}
+}
+s:STATE_UPPER_EGYPT = {
+	region_state:EGY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.201
+			}
+		}
+	}
+}
+s:STATE_UPPER_SILESIA = {
+	region_state:VBO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.171
+			}
+		}
+	}
+}
+s:STATE_UPPER_YENISEYSK = {
+	region_state:VYE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_URAL = {
+	region_state:VUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_URALSK = {
+	region_state:KZH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.135
+			}
+		}
+	}
+}
+s:STATE_URALSK = {
+	region_state:TRM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_URGA = {
+	region_state:MGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.122
+			}
+		}
+	}
+}
+s:STATE_URMIA = {
+	region_state:TBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.278
+			}
+		}
+	}
+}
+s:STATE_URUGUAY = {
+	region_state:URU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_UTAH = {
+	region_state:NVJ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_UTAH = {
+	region_state:UTE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_UUSIMAA = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_UZBEKIA = {
+	region_state:BUK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.297
+			}
+		}
+	}
+}
+s:STATE_VALENCIA = {
+	region_state:VAR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.118
+			}
+		}
+	}
+}
+s:STATE_VANUATU = {
+	region_state:VNT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.042
+			}
+		}
+	}
+}
+s:STATE_VENETIA = {
+	region_state:VVE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_VERACRUZ = {
+	region_state:VNE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.172
+			}
+		}
+	}
+}
+s:STATE_VERMONT = {
+	region_state:VNI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.212
+			}
+		}
+	}
+}
+s:STATE_VICTORIA = {
+	region_state:KLN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_VICTORIA = {
+	region_state:KRI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.036
+			}
+		}
+	}
+}
+s:STATE_VILNIUS = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.243
+			}
+		}
+	}
+}
+s:STATE_VIRGINIA = {
+	region_state:VVA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.148
+			}
+		}
+	}
+}
+s:STATE_VISAYAS = {
+	region_state:VVS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_VITEBSK = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.193
+			}
+		}
+	}
+}
+s:STATE_VOLHYNIA = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.193
+			}
+		}
+	}
+}
+s:STATE_VOLTA = {
+	region_state:KNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_VOLTA = {
+	region_state:MOS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.09
+			}
+		}
+	}
+}
+s:STATE_VRYSTAAT = {
+	region_state:BST = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_VRYSTAAT = {
+	region_state:PHL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.045
+			}
+		}
+	}
+}
+s:STATE_VYATKA = {
+	region_state:VMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WADDAI = {
+	region_state:BGI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_WADDAI = {
+	region_state:BOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.114
+			}
+		}
+	}
+}
+s:STATE_WADDAI = {
+	region_state:WAD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.149
+			}
+		}
+	}
+}
+s:STATE_WALES = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.157
+			}
+		}
+	}
+}
+s:STATE_WALLACHIA = {
+	region_state:WAL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_WALLONIA = {
+	region_state:LUX = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.154
+			}
+		}
+	}
+}
+s:STATE_WALLONIA = {
+	region_state:VLG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.139
+			}
+		}
+	}
+}
+s:STATE_WASHINGTON = {
+	region_state:SLS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:KTU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:KYN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:MRN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:NNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:NYP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:WRR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_AUSTRALIA = {
+	region_state:WTI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.03
+			}
+		}
+	}
+}
+s:STATE_WESTERN_CUBA = {
+	region_state:VPI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.109
+			}
+		}
+	}
+}
+s:STATE_WESTERN_HUBEI = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.151
+			}
+		}
+	}
+}
+s:STATE_WESTERN_MALI = {
+	region_state:KRT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WESTERN_MALI = {
+	region_state:SGU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WESTERN_NEW_GUINEA = {
+	region_state:PPU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_WESTERN_NEW_GUINEA = {
+	region_state:TID = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.086
+			}
+		}
+	}
+}
+s:STATE_WESTERN_NORWAY = {
+	region_state:NOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.213
+			}
+		}
+	}
+}
+s:STATE_WESTERN_SERBIA = {
+	region_state:SER = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_WESTERN_THRACE = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.239
+			}
+		}
+	}
+}
+s:STATE_WESTPHALIA = {
+	region_state:LIP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.157
+			}
+		}
+	}
+}
+s:STATE_WESTPHALIA = {
+	region_state:SCM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_WESTPHALIA = {
+	region_state:VRC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.183
+			}
+		}
+	}
+}
+s:STATE_WEST_AEGEAN_ISLANDS = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.299
+			}
+		}
+	}
+}
+s:STATE_WEST_BENGAL = {
+	region_state:BGL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.244
+			}
+		}
+	}
+}
+s:STATE_WEST_BENGAL = {
+	region_state:COO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_WEST_BORNEO = {
+	region_state:LAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WEST_BORNEO = {
+	region_state:PON = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WEST_BORNEO = {
+	region_state:SMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WEST_BORNEO = {
+	region_state:STG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WEST_COUNTRY = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.162
+			}
+		}
+	}
+}
+s:STATE_WEST_GALICIA = {
+	region_state:KRA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.175
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:DEN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:GBR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:NET = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.102
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:VLE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:VNZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_WEST_INDIES = {
+	region_state:VWI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_WEST_JAVA = {
+	region_state:YOG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.191
+			}
+		}
+	}
+}
+s:STATE_WEST_KARELIA = {
+	region_state:SWE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.198
+			}
+		}
+	}
+}
+s:STATE_WEST_MICRONESIA = {
+	region_state:MCR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_WEST_PRUSSIA = {
+	region_state:VPL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.243
+			}
+		}
+	}
+}
+s:STATE_WEST_SAHARA = {
+	region_state:DLM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_WEST_SAHARA = {
+	region_state:RGB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.097
+			}
+		}
+	}
+}
+s:STATE_WEST_SAHARA = {
+	region_state:TEK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_WEST_SWITZERLAND = {
+	region_state:SWI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_WEST_VIRGINIA = {
+	region_state:VVA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.124
+			}
+		}
+	}
+}
+s:STATE_WINDWARD_COAST = {
+	region_state:BLE = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_WINDWARD_COAST = {
+	region_state:KBD = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_WINDWARD_COAST = {
+	region_state:KRU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_WISCONSIN = {
+	region_state:VGT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.048
+			}
+		}
+	}
+}
+s:STATE_WURTTEMBERG = {
+	region_state:HOH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.146
+			}
+		}
+	}
+}
+s:STATE_WURTTEMBERG = {
+	region_state:WUR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.17
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:ABS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:ARP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:BNN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:LKT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:SLS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.024
+			}
+		}
+	}
+}
+s:STATE_WYOMING = {
+	region_state:VLA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_XIAN = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_YAKUTSK = {
+	region_state:VSA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_YANGHO = {
+	region_state:KOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.15
+			}
+		}
+	}
+}
+s:STATE_YAROSLAVL = {
+	region_state:VMS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.082
+			}
+		}
+	}
+}
+s:STATE_YEMEN = {
+	region_state:KAT = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_YEMEN = {
+	region_state:LAH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.165
+			}
+		}
+	}
+}
+s:STATE_YEMEN = {
+	region_state:MAH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_YEMEN = {
+	region_state:ZAI = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.2
+			}
+		}
+	}
+}
+s:STATE_YORKSHIRE = {
+	region_state:VEL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.167
+			}
+		}
+	}
+}
+s:STATE_YORUBA_STATES = {
+	region_state:OYO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_YUCATAN = {
+	region_state:VMY = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_YUKON_TERRITORY = {
+	region_state:ATB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.02
+			}
+		}
+	}
+}
+s:STATE_YUNNAN = {
+	region_state:SHU = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.089
+			}
+		}
+	}
+}
+s:STATE_ZACATECAS = {
+	region_state:VZA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZI = {
+	region_state:MNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZI = {
+	region_state:MSH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZI = {
+	region_state:MTP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.066
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZIA = {
+	region_state:GZA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZIA = {
+	region_state:MNC = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZIA = {
+	region_state:MSK = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.084
+			}
+		}
+	}
+}
+s:STATE_ZAMBEZIA = {
+	region_state:MTP = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_ZAMBIA = {
+	region_state:BMB = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.06
+			}
+		}
+	}
+}
+s:STATE_ZAMBIA = {
+	region_state:LZO = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.054
+			}
+		}
+	}
+}
+s:STATE_ZANZIBAR = {
+	region_state:OMA = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.202
+			}
+		}
+	}
+}
+s:STATE_ZEALAND = {
+	region_state:DEN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.208
+			}
+		}
+	}
+}
+s:STATE_ZHEJIANG = {
+	region_state:JNG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.179
+			}
+		}
+	}
+}
+s:STATE_ZHILI = {
+	region_state:NCH = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.125
+			}
+		}
+	}
+}
+s:STATE_ZULIA = {
+	region_state:VNZ = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.072
+			}
+		}
+	}
+}
+s:STATE_ZULULAND = {
+	region_state:BST = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
+}
+s:STATE_ZULULAND = {
+	region_state:ZUL = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.078
+			}
+		}
+	}
 }
 }

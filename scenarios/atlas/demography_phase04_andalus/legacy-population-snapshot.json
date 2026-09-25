@@ -1,0 +1,156 @@
+{
+  "STATE_ALENTEJO": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 457012
+    }
+  ],
+  "STATE_AZORES": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 210532
+    }
+  ],
+  "STATE_BEIRA": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1106122
+    }
+  ],
+  "STATE_CANARY_ISLANDS": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 231268
+    }
+  ],
+  "STATE_CAPE_VERDE": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 600
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1192
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 65015
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 12012
+    }
+  ],
+  "STATE_ESTREMADURA": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 791012
+    }
+  ],
+  "STATE_EXTREMADURA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 508179
+    },
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 44189
+    }
+  ],
+  "STATE_LOWER_ANDALUSIA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1215991
+    }
+  ],
+  "STATE_MADEIRA": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 110202
+    }
+  ],
+  "STATE_MURCIA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 464203
+    },
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10103
+    }
+  ],
+  "STATE_UPPER_ANDALUSIA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1188141
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4510
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3010
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2210
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2244
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1401
+    },
+    {
+      "culture": "maltese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 410
+    }
+  ]
+}

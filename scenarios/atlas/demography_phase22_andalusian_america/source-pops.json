@@ -1,0 +1,876 @@
+{
+  "STATE_BAHAMAS/GBR": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 19200
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 100400
+    }
+  ],
+  "STATE_BAJA_CALIFORNIA/VBP": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8264
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13300
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1300
+    }
+  ],
+  "STATE_BAJIO/VBJ": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 594909
+    },
+    {
+      "culture": "nahua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 266461
+    },
+    {
+      "culture": "tarascan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 85162
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3801
+    }
+  ],
+  "STATE_CENTRAL_CUBA/VPI": [
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 100616
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 32104
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 137198
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_CHIAPAS/VMY": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 57846
+    },
+    {
+      "culture": "mayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 72164
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5562
+    },
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1854
+    },
+    {
+      "culture": "mayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9251
+    }
+  ],
+  "STATE_CHIHUAHUA/VNP": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 139895
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "apache",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_COSTA_RICA/VKR": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 83992
+    }
+  ],
+  "STATE_DURANGO/VDR": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 136199
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 800
+    }
+  ],
+  "STATE_EASTERN_CUBA/VPI": [
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 78491
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 39122
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 91777
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_GUATEMALA/VGA": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 164404
+    },
+    {
+      "culture": "mayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 312000
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7104
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 104
+    }
+  ],
+  "STATE_GUERRERO/VGR": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 114874
+    },
+    {
+      "culture": "zapotec",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 13183
+    },
+    {
+      "culture": "tarascan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 60846
+    },
+    {
+      "culture": "nahua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 27381
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15036
+    }
+  ],
+  "STATE_HAITI/HAI": [
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 830824
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8060
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 13543
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5120
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 121
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 390
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 212
+    }
+  ],
+  "STATE_HONDURAS/VHN": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 385204
+    },
+    {
+      "culture": "miskito",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_JALISCO/VJL": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1011710
+    },
+    {
+      "culture": "oodham",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 152078
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 26373
+    }
+  ],
+  "STATE_JAMAICA/VPI": [
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 358596
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 23040
+    }
+  ],
+  "STATE_MEXICO/VNE": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 763486
+    },
+    {
+      "culture": "mixtec",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 39996
+    },
+    {
+      "culture": "nahua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 689604
+    },
+    {
+      "culture": "zapotec",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 264004
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 54000
+    }
+  ],
+  "STATE_NICARAGUA/VNC": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 284000
+    },
+    {
+      "culture": "miskito",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "miskito",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "miskito",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_OAXACA/VOA": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 143903
+    },
+    {
+      "culture": "zapotec",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 40532
+    },
+    {
+      "culture": "tarascan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 187073
+    },
+    {
+      "culture": "nahua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 84182
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 23984
+    }
+  ],
+  "STATE_PANAMA/VIT": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 87792
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28300
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 4100
+    },
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "cariban",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_PUERTO_RICO/VPI": [
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 136653
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 120109
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5904
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 32002
+    }
+  ],
+  "STATE_RIO_GRANDE/VSR": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 121499
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27000
+    },
+    {
+      "culture": "oodham",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 70004
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_SANTO_DOMINGO/HAI": [
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4007
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 84126
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": "clergymen",
+      "size": 2000
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": "bureaucrats",
+      "size": 2000
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": "soldiers",
+      "size": 10000
+    },
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": "clerks",
+      "size": 2500
+    },
+    {
+      "culture": "caribeno",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1013
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 14896
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "soldiers",
+      "size": 5000
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1034
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": "bureaucrats",
+      "size": 1000
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 700
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": "officers",
+      "size": 600
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": "clergymen",
+      "size": 500
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2154
+    }
+  ],
+  "STATE_SAN_SALVADOR/VSS": [
+    {
+      "culture": "central_american",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 428204
+    }
+  ],
+  "STATE_SINALOA/VSO": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 113841
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1100
+    }
+  ],
+  "STATE_SONORA/VSO": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 69087
+    },
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 43637
+    }
+  ],
+  "STATE_VERACRUZ/VNE": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 251061
+    }
+  ],
+  "STATE_WESTERN_CUBA/VPI": [
+    {
+      "culture": "caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 159612
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 39122
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 179536
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "galician",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "basque",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_WEST_INDIES/DEN": [
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3992
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 39996
+    }
+  ],
+  "STATE_WEST_INDIES/GBR": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 34704
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 234768
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 396
+    }
+  ],
+  "STATE_WEST_INDIES/NET": [
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10212
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8312
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1112
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1202
+    }
+  ],
+  "STATE_WEST_INDIES/VLE": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11100
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 108052
+    }
+  ],
+  "STATE_WEST_INDIES/VNZ": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 17123
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1310
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 1012
+    }
+  ],
+  "STATE_WEST_INDIES/VWI": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11100
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 108052
+    }
+  ],
+  "STATE_YUCATAN/VMY": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 226764
+    },
+    {
+      "culture": "mayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 388804
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1400
+    }
+  ],
+  "STATE_ZACATECAS/VZA": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 137347
+    },
+    {
+      "culture": "nahua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 175961
+    }
+  ]
+}

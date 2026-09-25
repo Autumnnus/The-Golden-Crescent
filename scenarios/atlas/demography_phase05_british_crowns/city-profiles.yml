@@ -1,0 +1,173 @@
+# City estimates sit inside each crown's state POP totals, never on top of them.
+version: 1
+cities:
+  Londra:
+    state: STATE_HOME_COUNTIES
+    owner: VEL
+    population: 750000
+    weights:
+      british/catholic: 500
+      british/protestant: 390
+      british/jewish: 30
+      irish/catholic: 50
+      irish/protestant: 20
+      welsh/catholic: 10
+  Manchester:
+    state: STATE_LANCASHIRE
+    owner: VEL
+    population: 350000
+    weights:
+      british/catholic: 480
+      british/protestant: 420
+      irish/catholic: 80
+      irish/protestant: 10
+      welsh/catholic: 10
+  Liverpool:
+    state: STATE_LANCASHIRE
+    owner: VEL
+    population: 180000
+    weights:
+      british/catholic: 430
+      british/protestant: 430
+      irish/catholic: 110
+      irish/protestant: 20
+      welsh/catholic: 10
+  Cardiff:
+    state: STATE_WALES
+    owner: VEL
+    population: 150000
+    weights:
+      welsh/catholic: 400
+      welsh/protestant: 350
+      british/catholic: 140
+      british/protestant: 100
+      irish/catholic: 10
+  Birmingham:
+    state: STATE_MIDLANDS
+    owner: VEL
+    population: 300000
+    weights:
+      british/catholic: 520
+      british/protestant: 410
+      irish/catholic: 45
+      welsh/catholic: 25
+  York:
+    state: STATE_YORKSHIRE
+    owner: VEL
+    population: 160000
+    weights:
+      british/catholic: 520
+      british/protestant: 430
+      irish/catholic: 30
+      welsh/catholic: 20
+  Leeds:
+    state: STATE_YORKSHIRE
+    owner: VEL
+    population: 140000
+    weights:
+      british/catholic: 530
+      british/protestant: 420
+      irish/catholic: 30
+      welsh/catholic: 20
+  Cambridge:
+    state: STATE_EAST_ANGLIA
+    owner: VEL
+    population: 110000
+    weights:
+      british/catholic: 450
+      british/protestant: 520
+      irish/catholic: 20
+      british/jewish: 10
+  Bristol:
+    state: STATE_WEST_COUNTRY
+    owner: VEL
+    population: 200000
+    weights:
+      british/catholic: 500
+      british/protestant: 450
+      irish/catholic: 30
+      welsh/catholic: 20
+  Plymouth:
+    state: STATE_WEST_COUNTRY
+    owner: VEL
+    population: 100000
+    weights:
+      british/catholic: 480
+      british/protestant: 470
+      irish/catholic: 30
+      welsh/catholic: 20
+  Edinburgh:
+    state: STATE_LOWLANDS
+    owner: VSC
+    population: 160000
+    weights:
+      scottish/protestant: 620
+      scottish/catholic: 270
+      scottish_gaelic/protestant: 40
+      scottish_gaelic/catholic: 30
+      irish/catholic: 20
+      british/catholic: 20
+  Glasgow:
+    state: STATE_LOWLANDS
+    owner: VSC
+    population: 170000
+    weights:
+      scottish/protestant: 600
+      scottish/catholic: 230
+      scottish_gaelic/protestant: 50
+      scottish_gaelic/catholic: 40
+      irish/catholic: 50
+      british/catholic: 30
+  Inverness:
+    state: STATE_HIGHLANDS
+    owner: VSC
+    population: 50000
+    weights:
+      scottish_gaelic/protestant: 500
+      scottish_gaelic/catholic: 330
+      scottish/protestant: 120
+      scottish/catholic: 30
+      irish/catholic: 20
+  Dublin:
+    state: STATE_LEINSTER
+    owner: VIR
+    population: 230000
+    weights:
+      irish/catholic: 650
+      irish/protestant: 100
+      british/protestant: 110
+      british/catholic: 70
+      scottish/protestant: 30
+      sephardic/jewish: 40
+  Belfast:
+    state: STATE_ULSTER
+    owner: VIR
+    population: 120000
+    weights:
+      irish/catholic: 330
+      irish/protestant: 120
+      scottish/protestant: 260
+      scottish/catholic: 40
+      british/protestant: 180
+      british/catholic: 70
+  Cork:
+    state: STATE_MUNSTER
+    owner: VIR
+    population: 90000
+    weights:
+      irish/catholic: 800
+      irish/protestant: 90
+      british/protestant: 40
+      british/catholic: 40
+      scottish/protestant: 10
+      sephardic/jewish: 20
+  Galway:
+    state: STATE_CONNAUGHT
+    owner: VIR
+    population: 45000
+    weights:
+      irish/catholic: 850
+      irish/protestant: 80
+      british/protestant: 40
+      scottish/protestant: 20
+      british/catholic: 10

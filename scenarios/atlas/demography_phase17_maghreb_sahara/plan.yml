@@ -1,0 +1,266 @@
+version: 1
+policy: Keep Morocco, Algiers, Constantine, Tunis, Tripoli and Sahara/Mauritania polities separate. Choose modest direct population
+  changes and differentiated literacy, preserving inherited joint culture/religion groups and explicit professions. Add the
+  installed Tuareg culture to the Tuareg polity and its Sahara POP; this does not change the unrelated Berber or Mzab communities.
+  Listed totals for seven cross-region countries cover only the 16 states in this phase.
+partial_countries:
+- ADG
+- ADR
+- AJJ
+- FTR
+- OUA
+- RGB
+- TBI
+countries:
+  ADG:
+    population: 8000
+    literacy_range:
+    - 0.06
+    - 0.14
+  ADR:
+    population: 11000
+    literacy_range:
+    - 0.04
+    - 0.12
+  AHG:
+    population: 30000
+    literacy_range:
+    - 0.04
+    - 0.12
+  AIT:
+    population: 295000
+    literacy_range:
+    - 0.12
+    - 0.2
+  AJJ:
+    population: 18000
+    literacy_range:
+    - 0.03
+    - 0.11
+  BRK:
+    population: 12600
+    literacy_range:
+    - 0.05
+    - 0.13
+  CMB:
+    population: 24500
+    literacy_range:
+    - 0.04
+    - 0.12
+  CON:
+    population: 1550000
+    literacy_range:
+    - 0.26
+    - 0.34
+  DLM:
+    population: 41000
+    literacy_range:
+    - 0.05
+    - 0.13
+  FTR:
+    population: 81000
+    literacy_range:
+    - 0.1
+    - 0.18
+  FZN:
+    population: 170000
+    literacy_range:
+    - 0.13
+    - 0.21
+  MAS:
+    population: 2250000
+    literacy_range:
+    - 0.27
+    - 0.35
+  MOR:
+    population: 3350000
+    literacy_range:
+    - 0.25
+    - 0.33
+  MZB:
+    population: 11000
+    literacy_range:
+    - 0.15
+    - 0.23
+  OUA:
+    population: 142000
+    literacy_range:
+    - 0.07
+    - 0.15
+  RGB:
+    population: 36000
+    literacy_range:
+    - 0.04
+    - 0.12
+  TBI:
+    population: 16000
+    literacy_range:
+    - 0.03
+    - 0.11
+  TEK:
+    population: 45000
+    literacy_range:
+    - 0.06
+    - 0.14
+  TRI:
+    population: 800000
+    literacy_range:
+    - 0.23
+    - 0.31
+  TRZ:
+    population: 125000
+    literacy_range:
+    - 0.07
+    - 0.15
+  TUA:
+    population: 12000
+    literacy_range:
+    - 0.04
+    - 0.12
+  TUG:
+    population: 47000
+    literacy_range:
+    - 0.16
+    - 0.24
+  TUN:
+    population: 1350000
+    literacy_range:
+    - 0.35
+    - 0.43
+  ZWY:
+    population: 44500
+    literacy_range:
+    - 0.08
+    - 0.16
+country_religion_overrides: {}
+country_culture_overrides:
+  TUA:
+    from:
+    - berber
+    to:
+    - berber
+    - tuareg
+states:
+  STATE_MARRAKECH/MOR:
+    owner: MOR
+    literacy: 0.29
+  STATE_FEZ/MOR:
+    owner: MOR
+    literacy: 0.36
+  STATE_AL_RIF/MOR:
+    owner: MOR
+    literacy: 0.25
+  STATE_INNER_MOROCCO/MOR:
+    owner: MOR
+    literacy: 0.2
+  STATE_ALGIERS/MAS:
+    owner: MAS
+    literacy: 0.32
+  STATE_CONSTANTINE/CON:
+    owner: CON
+    literacy: 0.3
+  STATE_CONSTANTINE/AIT:
+    owner: AIT
+    literacy: 0.16
+  STATE_ORAN/MAS:
+    owner: MAS
+    literacy: 0.3
+  STATE_TUNISIA/TUN:
+    owner: TUN
+    literacy: 0.39
+  STATE_TRIPOLI/TRI:
+    owner: TRI
+    literacy: 0.29
+  STATE_TRIPOLI/FZN:
+    owner: FZN
+    literacy: 0.19
+  STATE_TRIPOLI/ZWY:
+    owner: ZWY
+    literacy: 0.13
+  STATE_LIBYA/TRI:
+    owner: TRI
+    literacy: 0.24
+  STATE_LIBYA/ZWY:
+    owner: ZWY
+    literacy: 0.12
+  STATE_LIBYA/TBI:
+    owner: TBI
+    literacy: 0.07
+  STATE_LIBYAN_DESERT/FZN:
+    owner: FZN
+    literacy: 0.13
+  STATE_LIBYAN_DESERT/ZWY:
+    owner: ZWY
+    literacy: 0.09
+  STATE_LIBYAN_DESERT/AJJ:
+    owner: AJJ
+    literacy: 0.07
+  STATE_LIBYAN_DESERT/TBI:
+    owner: TBI
+    literacy: 0.07
+  STATE_SAHARA/TUA:
+    owner: TUA
+    literacy: 0.08
+  STATE_SAHARA/MZB:
+    owner: MZB
+    literacy: 0.19
+  STATE_SAHARA/TEK:
+    owner: TEK
+    literacy: 0.1
+  STATE_SAHARA/RGB:
+    owner: RGB
+    literacy: 0.08
+  STATE_SAHARA/CMB:
+    owner: CMB
+    literacy: 0.08
+  STATE_EAST_SAHARA/AHG:
+    owner: AHG
+    literacy: 0.08
+  STATE_EAST_SAHARA/TUG:
+    owner: TUG
+    literacy: 0.2
+  STATE_EAST_SAHARA/CMB:
+    owner: CMB
+    literacy: 0.08
+  STATE_EAST_SAHARA/AJJ:
+    owner: AJJ
+    literacy: 0.07
+  STATE_EAST_SAHARA/ADG:
+    owner: ADG
+    literacy: 0.08
+  STATE_WEST_SAHARA/TEK:
+    owner: TEK
+    literacy: 0.1
+  STATE_WEST_SAHARA/DLM:
+    owner: DLM
+    literacy: 0.09
+  STATE_WEST_SAHARA/RGB:
+    owner: RGB
+    literacy: 0.08
+  STATE_MAURITANIA/OUA:
+    owner: OUA
+    literacy: 0.11
+  STATE_MAURITANIA/TRZ:
+    owner: TRZ
+    literacy: 0.11
+  STATE_MAURITANIA/FTR:
+    owner: FTR
+    literacy: 0.14
+  STATE_MAURITANIA/DLM:
+    owner: DLM
+    literacy: 0.09
+  STATE_MAURITANIA/BRK:
+    owner: BRK
+    literacy: 0.09
+  STATE_INNER_MAURITANIA/OUA:
+    owner: OUA
+    literacy: 0.1
+  STATE_INNER_MAURITANIA/RGB:
+    owner: RGB
+    literacy: 0.07
+  STATE_INNER_MAURITANIA/ADR:
+    owner: ADR
+    literacy: 0.08
+joint_mix_overrides:
+  STATE_SAHARA/TUA:
+    tuareg/sunni: 1000

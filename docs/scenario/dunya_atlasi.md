@@ -121,6 +121,8 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 | Yunnan–Guizhou / Hunan–Hubei / Gansu sınır kuşakları | Yerel yönetimler sırasıyla Shu / Jiangnan / Kuzey Çin dış çatısı altında geniş özerklikle | Çin'in kalan içi sahipsiz bırakılmaz; fiilî egemenlik ile bütün Çin taht iddiası ayrılır. |
 | Moğol hanlıkları | Cungarya dışı batı/orta/doğu otlak ittifakları | Kuzey Çin ve Mançurya ile farklı bağlar; topluca Kaşgar'a verilmez. |
 | Tibet | Lhasa ve yüksek plato | Bağımsız dinî-siyasi yönetim; Çin devletlerinin iddiası fiilî sahiplik değildir. |
+
+Jiangnan'ın yazılı “aşağı Yangtze” çekirdeği siyasi haritada Hunan, Hubei ve Jiangxi'yi de **doğrudan** yöneten ülkenin tümü değildir. Bu dış bölgelerin geniş yerel özerkliği ayrı egemen tag veya ikinci hazine yaratmaz. Kaşgar'ın tek doğrudan state'i Tianshan'dır; Dzungaria ve Moğol otlakları Kaşgar nüfusuna katılmaz.
 | Japonya / Kore | Tokugawa bakufusu ve hanlar / Joseon | İç düzenlerinde büyük alternatif dönüşüm yok; değişen Çin yönetimleri ve denizci muhataplara uyum var. Batılı müdahaleye bağlı tarihsel olaylar otomatik tekrarlanmaz. |
 | Ryukyu | Naha ve ada zinciri | Japon ve Yue ticaret heyetlerine çifte haraç geleneği; tek bir askerî üst devlet yok. |
 | Vietnam / Siam / Burma | Bölgesel hanedanlar; Lao, Khmer ve Şan yönetimleriyle eşitsiz anlaşmalar | Yerel düzen büyük ölçüde korunur. Dış sömürge baskısının kaynağı Batılı Hristiyan güçler yerine Müslüman denizci güçlerdir. |
@@ -131,7 +133,15 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 | Aotearoa | Māori iwi/hapū ağları; kuzeyde gelişmekte olan dış ticaret meclisi | Bütün adaları erken tarihte birleştirmiş tek Māori devleti yok. |
 | Pasifik adaları | Hawaii, Tonga, Samoa, Tahiti ve diğer yerel siyasi alanlar | Yerel devlet ve topluluklar korunur; tarihsiz otomatik Avrupa ilhakı yok. |
 
+**Samoa'nın etkin sınırı:** [Okyanusya diliminde](../../scenarios/atlas/demography_phase16_oceania/README.md) kurulu `STATE_TONGA` içindeki Tafuna ve Apia/Salelologa hub province'leri `VSM` Samoa Meclisi'ne ayrılır; Tonga diğer iki province'i tutar. Bu, aynı state'in kaynaklarını paylaşan iki bağımsız yerel siyasi alandır, Tonga'ya yeni bir vasallık bağı değildir.
+
 **Güneydoğu Asya'da sömürge katmanı:** yerli Müslüman sultanlıkların varlığı tek başına “Müslüman kolonicilik” değildir. Dış güç olarak Mısır ve Umman'ın desteklediği filolar/şirketler öne çıkar; yerel Müslüman, Budist, Hindu ve diğer yönetimlerle eşitsiz ilişkiler kurabilirler. 1836 portföyü sınırlıdır: Mısır'ın Aceh'te (1824) ikmal/ambar, Makassar'da (1821) tamir/ambar sözleşmesi; Umman'ın Johor'da (1828) konvoy/tarife, Sulu'da (1829) silah/geçiş sözleşmesi vardır. Bunların hiçbiri state sahipliği, subject veya ada çapında koloni değildir. Batılı Hristiyan sömürgecilik ana etken olarak çıkarılır; yerel Hristiyan toplulukların sırf bu yüzden silinmesi istenmez.
+
+**Pegu düzeltmesi:** Kurulu oyundan siyasi karta taşınmış tek province'lik Danimarka (`DEN`) Pegu payı, bu ilkeye aykırı kalan eski bir egemenlikti. [Anakara demografi diliminde](../../scenarios/atlas/demography_phase13_mainland_seasia/README.md) province ve 9.102 Mon/animist sakin Burma'ya geçirildi. Bu, Mısır/Umman liman sözleşmelerini toprak devrine çevirmez.
+
+**Tranquebar düzeltmesi:** Aynı ilkeyle Madras'taki tek province'lik Danimarka payı [Ortadoğu–Hindistan demografi diliminde](../../scenarios/atlas/demography_phase26_middle_east_india/README.md) Tamil krallığına katıldı; 34.313 sakin ve küçük Danimarkalı tüccar topluluğu korunur.
+
+**Filipin kimlik düzeltmesi:** [Deniz demografi dilimi](../../scenarios/atlas/demography_phase14_maritime_seasia/README.md) Tondo ve Visaya birliklerinin devralınmış Katolik resmî dinini yerel inançların oyun karşılığına geçirir; başlangıç halkında yerel inanç çoğunluğu ile daha küçük Katolik cemaatler birlikte yaşar. Sulu/Maguindanao'nun Müslümanlığı diğer Filipin halklarına otomatik yayılmaz. Siyasi sınır veya Mısır/Umman liman sözleşmesi değişmez.
 
 Afrika ve Amerika'nın egemen çekirdekleri kendi [Afrika](senaryo_afrika.md) ve [Amerika](senaryo_amerika.md) belgelerindedir. Bu atlas onları tekrar çizmez.
 

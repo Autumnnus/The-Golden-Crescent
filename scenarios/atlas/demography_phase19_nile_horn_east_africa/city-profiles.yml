@@ -1,0 +1,273 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and hub province owners are verified by verify.py.
+version: 1
+cities:
+  Massava:
+    state: STATE_ERITREA
+    owner: AWS
+    hub: city
+    population: 30000
+    weights:
+      tigray/oriental_orthodox: 345
+      tigray/sunni: 327
+      bedouin/sunni: 72
+      afar/sunni: 182
+      sudanese/sunni: 19
+      somali/sunni: 55
+  Asmara:
+    state: STATE_ERITREA
+    owner: AWS
+    hub: mine
+    population: 20000
+    weights:
+      tigray/oriental_orthodox: 345
+      tigray/sunni: 327
+      bedouin/sunni: 72
+      afar/sunni: 182
+      sudanese/sunni: 19
+      somali/sunni: 55
+  El Ubeyd:
+    state: STATE_KORDOFAN
+    owner: DFR
+    hub: city
+    population: 45000
+    weights:
+      sudanese/sunni: 428
+      nuba/animist: 297
+      dinka/animist: 275
+  El Fasher:
+    state: STATE_DARFUR
+    owner: DFR
+    hub: city
+    population: 25000
+    weights:
+      fur/sunni: 844
+      dinka/animist: 122
+      bedouin/sunni: 34
+  Hartum:
+    state: STATE_BLUE_NILE
+    owner: VSN
+    hub: city
+    population: 150000
+    weights:
+      sudanese/sunni: 466
+      misri/sunni: 2
+      nuba/animist: 299
+      dinka/animist: 111
+      bedouin/sunni: 56
+      nuer/animist: 52
+      beja/sunni: 14
+  Vad Medeni:
+    state: STATE_BLUE_NILE
+    owner: VSN
+    hub: farm
+    population: 80000
+    weights:
+      sudanese/sunni: 466
+      misri/sunni: 2
+      nuba/animist: 299
+      dinka/animist: 111
+      bedouin/sunni: 56
+      nuer/animist: 52
+      beja/sunni: 14
+  Ndjamena:
+    state: STATE_WADDAI
+    owner: BGI
+    hub: city
+    population: 15000
+    weights:
+      baguirmi/sunni: 229
+      equatorial_bantu/animist: 229
+      sara/animist: 542
+  Rafina:
+    state: STATE_WADDAI
+    owner: WAD
+    hub: mine
+    population: 15000
+    weights:
+      fur/sunni: 581
+      bedouin/sunni: 86
+      equatorial_bantu/animist: 333
+  Juba:
+    state: STATE_EQUATORIA
+    owner: DNK
+    hub: city
+    population: 35000
+    weights:
+      nilotic/animist: 248
+      sudanese/sunni: 24
+      luo/animist: 153
+      dinka/animist: 434
+      fur/sunni: 82
+      nuba/animist: 59
+  Gonder:
+    state: STATE_GONDER
+    owner: BGM
+    hub: city
+    population: 70000
+    weights:
+      amhara/oriental_orthodox: 614
+      oromo/animist: 173
+      oromo/sunni: 181
+      amhara/jewish: 32
+  Mekelle:
+    state: STATE_GONDER
+    owner: TGR
+    hub: farm
+    population: 60000
+    weights:
+      amhara/oriental_orthodox: 401
+      amhara/jewish: 37
+      tigray/oriental_orthodox: 463
+      oromo/animist: 99
+  Bahir Dar:
+    state: STATE_GONDER
+    owner: GJM
+    hub: wood
+    population: 45000
+    weights:
+      amhara/oriental_orthodox: 405
+      oromo/oriental_orthodox: 292
+      oromo/animist: 303
+  Jimma:
+    state: STATE_AMHARA
+    owner: KFA
+    hub: city
+    population: 40000
+    weights:
+      oromo/oriental_orthodox: 711
+      amhara/oriental_orthodox: 134
+      sidama/oriental_orthodox: 111
+      sidama/animist: 44
+  Irgalem:
+    state: STATE_AMHARA
+    owner: SDM
+    hub: farm
+    population: 18000
+    weights:
+      sidama/oriental_orthodox: 982
+      sidama/animist: 18
+  Ankober:
+    state: STATE_OROMIA
+    owner: SHW
+    hub: city
+    population: 50000
+    weights:
+      amhara/oriental_orthodox: 373
+      oromo/oriental_orthodox: 600
+      oromo/animist: 27
+  Dire Dawa:
+    state: STATE_OROMIA
+    owner: HAR
+    hub: mine
+    population: 35000
+    weights:
+      amhara/sunni: 276
+      oromo/sunni: 376
+      somali/sunni: 348
+  Muqdisho:
+    state: STATE_SOMALILAND
+    owner: GLD
+    hub: city
+    population: 30000
+    weights:
+      somali/sunni: 748
+      oromo/animist: 72
+      swahili/sunni: 180
+  Berbera:
+    state: STATE_SOMALILAND
+    owner: ISQ
+    hub: port
+    population: 20000
+    weights:
+      somali/sunni: 969
+      oromo/animist: 31
+  Mombasa:
+    state: STATE_KENYA
+    owner: MBS
+    hub: port
+    population: 25000
+    weights:
+      swahili/sunni: 733
+      bedouin/ibadi: 73
+      somali/sunni: 80
+      lacustrine_bantu/animist: 114
+  Malindi:
+    state: STATE_KENYA
+    owner: MBS
+    hub: farm
+    population: 15000
+    weights:
+      swahili/sunni: 733
+      bedouin/ibadi: 73
+      somali/sunni: 80
+      lacustrine_bantu/animist: 114
+  Embu:
+    state: STATE_KENYA
+    owner: KKY
+    hub: city
+    population: 30000
+    weights:
+      kikuyu/animist: 493
+      lacustrine_bantu/animist: 455
+      maasai/animist: 52
+  Kampala:
+    state: STATE_UGANDA
+    owner: BUG
+    hub: city
+    population: 75000
+    weights:
+      lacustrine_bantu/animist: 619
+      baganda/animist: 381
+  Kigali:
+    state: STATE_TANGANYIKA
+    owner: RWD
+    hub: city
+    population: 45000
+    weights:
+      ruanda/animist: 1000
+  Mwanza:
+    state: STATE_TANGANYIKA
+    owner: SKM
+    hub: farm
+    population: 30000
+    weights:
+      sukuma/animist: 937
+      nyamwezi/animist: 63
+  Zanzibar:
+    state: STATE_ZANZIBAR
+    owner: OMA
+    hub: city
+    population: 110000
+    weights:
+      swahili/sunni: 351
+      sukuma/animist: 10
+      lacustrine_bantu/animist: 435
+      sukuma/sunni: 48
+      lacustrine_bantu/sunni: 71
+      bedouin/ibadi: 7
+      nyamwezi/animist: 78
+  Darüsselam:
+    state: STATE_ZANZIBAR
+    owner: OMA
+    hub: port
+    population: 75000
+    weights:
+      swahili/sunni: 351
+      sukuma/animist: 10
+      lacustrine_bantu/animist: 435
+      sukuma/sunni: 48
+      lacustrine_bantu/sunni: 71
+      bedouin/ibadi: 7
+      nyamwezi/animist: 78
+  Dodoma:
+    state: STATE_LINDI
+    owner: HHE
+    hub: city
+    population: 30000
+    weights:
+      yao/animist: 595
+      chewa/animist: 22
+      nyamwezi/animist: 163
+      makua/animist: 176
+      lacustrine_bantu/sunni: 44

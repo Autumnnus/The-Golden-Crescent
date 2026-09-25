@@ -1,0 +1,298 @@
+{
+  "STATE_DONGOLA": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 156000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40004
+    },
+    {
+      "culture": "beja",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 82000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 46000
+    },
+    {
+      "culture": "beja",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 40000
+    }
+  ],
+  "STATE_EGYPTIAN_DESERT": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10948
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 2184
+    },
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13206
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8123
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1589
+    }
+  ],
+  "STATE_LOWER_EGYPT": [
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2318347
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 132050
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "aristocrats",
+      "size": 20755
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "bureaucrats",
+      "size": 7591
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "officers",
+      "size": 520
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 20590
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28588
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 7126
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 26410
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 2741
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15500
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11056
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 79230
+    }
+  ],
+  "STATE_MATRUH": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7801
+    },
+    {
+      "culture": "berber",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2165
+    },
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10982
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 1102
+    }
+  ],
+  "STATE_MIDDLE_EGYPT": [
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 942937
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 176001
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "aristocrats",
+      "size": 4030
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "bureaucrats",
+      "size": 502
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13020
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2602
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2601
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 16210
+    }
+  ],
+  "STATE_SINAI": [
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8012
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 512
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11120
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 871
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 101
+    }
+  ],
+  "STATE_UPPER_EGYPT": [
+    {
+      "culture": "misri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 320008
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27996
+    },
+    {
+      "culture": "misri",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 37215
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "aristocrats",
+      "size": 1001
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": "bureaucrats",
+      "size": 402
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1021
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4102
+    }
+  ]
+}

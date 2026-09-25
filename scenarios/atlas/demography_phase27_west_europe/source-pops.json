@@ -1,0 +1,1898 @@
+{
+  "STATE_ALSACE_LORRAINE/FBG": [
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 719210
+    },
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 220778
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 236987
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4571
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 215063
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 39519
+    }
+  ],
+  "STATE_ANHALT/ANH": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1196400
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 183996
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2996
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 180008
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_AQUITAINE/FAQ": [
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1703916
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 18784
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 58129
+    },
+    {
+      "culture": "basque",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 60145
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3203
+    }
+  ],
+  "STATE_AUSTRIA/AUS": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1964404
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1996
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_AUVERGNE_LIMOUSIN/FOC": [
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1949056
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 369270
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 9298
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 263
+    }
+  ],
+  "STATE_BADEN/BAD": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 905246
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 251000
+    },
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 143154
+    }
+  ],
+  "STATE_BAVARIA/BAV": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1682000
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 55000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5004
+    }
+  ],
+  "STATE_BOHEMIA/VBO": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1499608
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "shopkeepers",
+      "size": 20000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 5000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "clerks",
+      "size": 15000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "laborers",
+      "size": 30000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "soldiers",
+      "size": 30000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "clerks",
+      "size": 20000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2504808
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 25996
+    }
+  ],
+  "STATE_BRANDENBURG/VBR": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1558704
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 8800
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 44000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_BRITTANY/FBR": [
+    {
+      "culture": "breton",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1599083
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1018017
+    },
+    {
+      "culture": "breton",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3030
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 148
+    }
+  ],
+  "STATE_BRUNSWICK/BRA": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 220400
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 112000
+    }
+  ],
+  "STATE_BRUNSWICK/HAN": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 180000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_BURGUNDY/FBG": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1561366
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2607
+    },
+    {
+      "culture": "francoprovencal",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12350
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 595
+    }
+  ],
+  "STATE_CHAMPAGNE/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1153438
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3472
+    },
+    {
+      "culture": "wallonian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4167
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 868
+    }
+  ],
+  "STATE_EASTERN_NORWAY/NOR": [
+    {
+      "culture": "norwegian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 345800
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7000
+    }
+  ],
+  "STATE_EAST_SWITZERLAND/SWI": [
+    {
+      "culture": "alemannic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 320014
+    },
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 388400
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 186786
+    }
+  ],
+  "STATE_ELBE/BRE": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 102004
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_ELBE/HAM": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 142404
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_ELBE/HAN": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 512788
+    }
+  ],
+  "STATE_FLANDERS/VBT": [
+    {
+      "culture": "flemish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2224197
+    },
+    {
+      "culture": "flemish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6013
+    },
+    {
+      "culture": "wallonian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 260733
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3361
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3185
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1131
+    }
+  ],
+  "STATE_FRANCHE_COMTE/FBG": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 770731
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 40722
+    },
+    {
+      "culture": "francoprovencal",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 121924
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1550
+    }
+  ],
+  "STATE_FRANCONIA/BAV": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1051792
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 820400
+    }
+  ],
+  "STATE_FRENCH_LOW_COUNTRIES/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1608005
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10279
+    },
+    {
+      "culture": "flemish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 70121
+    },
+    {
+      "culture": "flemish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2021
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 645
+    }
+  ],
+  "STATE_FRIESLAND/NET": [
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 528678
+    },
+    {
+      "culture": "dutch",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 134022
+    },
+    {
+      "culture": "wallonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 425
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 10947
+    }
+  ],
+  "STATE_GELRE/NET": [
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 192091
+    },
+    {
+      "culture": "dutch",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 513449
+    },
+    {
+      "culture": "wallonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 774
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5804
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15101
+    }
+  ],
+  "STATE_GELRE/VBT": [
+    {
+      "culture": "dutch",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 160440
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4100
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 901
+    }
+  ],
+  "STATE_GOTALAND/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 800208
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 100
+    }
+  ],
+  "STATE_GOTLAND/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 33208
+    }
+  ],
+  "STATE_GREENLAND/DEN": [
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 410
+    },
+    {
+      "culture": "inuit",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 9254
+    },
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1510
+    }
+  ],
+  "STATE_GUYENNE/FAQ": [
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1693584
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10362
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30094
+    }
+  ],
+  "STATE_HANNOVER/HAN": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 942208
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 195996
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4004
+    }
+  ],
+  "STATE_HANNOVER/OLD": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 219696
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 38000
+    }
+  ],
+  "STATE_HESSE/FRM": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 100872
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_HESSE/HEK": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 500688
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 129200
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3400
+    }
+  ],
+  "STATE_HESSE/HES": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 583308
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 140800
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_HESSE/NAS": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 192004
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2400
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 208000
+    }
+  ],
+  "STATE_HESSE/WLD": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 27436
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28011
+    }
+  ],
+  "STATE_HOLLAND/NET": [
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 842331
+    },
+    {
+      "culture": "dutch",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 327009
+    },
+    {
+      "culture": "flemish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 26531
+    },
+    {
+      "culture": "wallonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6542
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 34143
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2908
+    }
+  ],
+  "STATE_ICELAND/NOR": [
+    {
+      "culture": "icelandic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 63200
+    },
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 520
+    }
+  ],
+  "STATE_ILE_DE_FRANCE/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1852741
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20393
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 9220
+    }
+  ],
+  "STATE_JUTLAND/DEN": [
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 548908
+    }
+  ],
+  "STATE_LANGUEDOC/FOC": [
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1994848
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 167963
+    },
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 145206
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 64216
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 895
+    }
+  ],
+  "STATE_LORRAINE/FBG": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1133731
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12130
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 7240
+    }
+  ],
+  "STATE_MAINE_ANJOU/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1608973
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1161
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 60
+    }
+  ],
+  "STATE_MECKLENBURG/MEC": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 490002
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3996
+    }
+  ],
+  "STATE_MECKLENBURG/MST": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 85002
+    }
+  ],
+  "STATE_MORAVIA/VBO": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 10000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 3500
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 1000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "clerks",
+      "size": 2000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "laborers",
+      "size": 10000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "shopkeepers",
+      "size": 10000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "soldiers",
+      "size": 30000
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": "clerks",
+      "size": 5000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 470408
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1158496
+    },
+    {
+      "culture": "czech",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5062
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 21896
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 181679
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1777
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 131778
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 55800
+    }
+  ],
+  "STATE_NORMANDY/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2670494
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 14169
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 469
+    }
+  ],
+  "STATE_NORRLAND/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 289400
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "sami",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 18000
+    }
+  ],
+  "STATE_NORTHERN_NORWAY/NOR": [
+    {
+      "culture": "norwegian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 284860
+    },
+    {
+      "culture": "sami",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12400
+    }
+  ],
+  "STATE_NORTH_RHINE/VRC": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 830379
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 179847
+    },
+    {
+      "culture": "wallonian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1502
+    }
+  ],
+  "STATE_ORLEANS/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1375047
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4355
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 91
+    }
+  ],
+  "STATE_PICARDY/FPA": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1470989
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7307
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 146
+    }
+  ],
+  "STATE_POITOU/FAQ": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1680062
+    },
+    {
+      "culture": "french",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 65087
+    },
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3001
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 44
+    }
+  ],
+  "STATE_POMERANIA/VPM": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1018800
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 104000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_PROVENCE/FPR": [
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1038678
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12115
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 37612
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2440
+    }
+  ],
+  "STATE_PROVENCE/SAR": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 131100
+    },
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 41100
+    }
+  ],
+  "STATE_RHINELAND/BAV": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 251600
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1996
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 303996
+    }
+  ],
+  "STATE_RHINELAND/VRC": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 424000
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8400
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 323992
+    }
+  ],
+  "STATE_RHONE/FBG": [
+    {
+      "culture": "francoprovencal",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1709209
+    },
+    {
+      "culture": "francoprovencal",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7736
+    },
+    {
+      "culture": "occitan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 711985
+    },
+    {
+      "culture": "occitan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 78428
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 96520
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 889
+    }
+  ],
+  "STATE_RUHR/VRC": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 702629
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 152157
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1502
+    }
+  ],
+  "STATE_SAXONY/COB": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 154000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2035
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 502
+    }
+  ],
+  "STATE_SAXONY/MEI": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 133000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 312
+    }
+  ],
+  "STATE_SAXONY/SAX": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1453212
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 13004
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5072
+    },
+    {
+      "culture": "sorb",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 150106
+    },
+    {
+      "culture": "sorb",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 50106
+    }
+  ],
+  "STATE_SAXONY/SCW": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 110000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1539
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 293
+    }
+  ],
+  "STATE_SAXONY/WEI": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 230000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 840
+    }
+  ],
+  "STATE_SCANIA/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 512860
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 200
+    }
+  ],
+  "STATE_SCHLESWIG_HOLSTEIN/HOL": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 374604
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_SCHLESWIG_HOLSTEIN/LUB": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 82396
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_SCHLESWIG_HOLSTEIN/SCH": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 200000
+    },
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 136404
+    }
+  ],
+  "STATE_SOUTH_TYROL/AUS": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 183000
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 308000
+    }
+  ],
+  "STATE_STYRIA/AUS": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 664796
+    },
+    {
+      "culture": "slovene",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 72000
+    }
+  ],
+  "STATE_SVEALAND/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1081208
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1000
+    }
+  ],
+  "STATE_TYROL/AUS": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 429286
+    },
+    {
+      "culture": "alemannic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 130018
+    }
+  ],
+  "STATE_WALLONIA/LUX": [
+    {
+      "culture": "wallonian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 103992
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 71996
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 572
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 210
+    }
+  ],
+  "STATE_WALLONIA/VLG": [
+    {
+      "culture": "wallonian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1413476
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 27847
+    },
+    {
+      "culture": "flemish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 40207
+    },
+    {
+      "culture": "flemish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1355
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 317
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 205
+    }
+  ],
+  "STATE_WESTERN_NORWAY/NOR": [
+    {
+      "culture": "norwegian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 546800
+    }
+  ],
+  "STATE_WESTPHALIA/LIP": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 50210
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 27336
+    }
+  ],
+  "STATE_WESTPHALIA/SCM": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15775
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8045
+    }
+  ],
+  "STATE_WESTPHALIA/VRC": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 771111
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1004
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 506715
+    }
+  ],
+  "STATE_WEST_SWITZERLAND/SWI": [
+    {
+      "culture": "francoprovencal",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 129756
+    },
+    {
+      "culture": "francoprovencal",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 283138
+    },
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 451436
+    },
+    {
+      "culture": "alemannic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 206634
+    }
+  ],
+  "STATE_WURTTEMBERG/HOH": [
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 40310
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 21024
+    }
+  ],
+  "STATE_WURTTEMBERG/WUR": [
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 926509
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 604068
+    },
+    {
+      "culture": "alemannic",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 189173
+    }
+  ],
+  "STATE_ZEALAND/DEN": [
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 647996
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4400
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4400
+    }
+  ]
+}

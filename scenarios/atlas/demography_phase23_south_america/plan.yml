@@ -1,0 +1,409 @@
+version: 1
+policy: >-
+  South America without an Iberian conquest. The Andean kingdoms (Quito, Cusco, Charcas) and
+  the Muisca, Guarani, Mapuche, Pampa and Amazon polities start with their own peoples and
+  local faiths; the installed Hispanophone/Lusophone settler cultures remain only as small
+  creole trader communities tied to Andalusian and Moroccan commerce. Moroccan Brazil and New
+  Ishbiliya keep legal slavery with preserved slave counts re-identified across Muslim, local
+  and Christian Africans; Rio de Janeiro's Portuguese-capital slave count is reduced to the
+  smaller separate settlement network of the written design. Dutch Guiana gains the enslaved
+  population that its written H10 exception implies. Venezuela and Lima keep their inherited
+  creole identity and slavery law. Local (H9) polities release slave POPs.
+  Weights are per mille of the non-fixed remainder; slave_mix re-identifies preserved slaves.
+countries:
+  VAM: {literacy_range: [0.03, 0.03]}
+  PRA: {literacy_range: [0.04, 0.04]}
+  VNR: {literacy_range: [0.04, 0.04]}
+  VGC: {literacy_range: [0.03, 0.03]}
+  VMG: {literacy_range: [0.03, 0.03]}
+  VSV: {literacy_range: [0.04, 0.04]}
+  VPS: {literacy_range: [0.03, 0.03]}
+  VMT: {literacy_range: [0.03, 0.03]}
+  PRG: {literacy_range: [0.05, 0.06]}
+  PNI: {literacy_range: [0.04, 0.04]}
+  GNI: {literacy_range: [0.03, 0.03]}
+  VGN: {literacy_range: [0.05, 0.05]}
+  VBC: {literacy_range: [0.15, 0.15]}
+  PAT: {literacy_range: [0.03, 0.03]}
+  THL: {literacy_range: [0.03, 0.03]}
+  SLK: {literacy_range: [0.03, 0.03]}
+  VPT: {literacy_range: [0.04, 0.04]}
+  VTC: {literacy_range: [0.05, 0.05]}
+  VKC: {literacy_range: [0.07, 0.07]}
+  VLP: {literacy_range: [0.07, 0.07]}
+  VSB: {literacy_range: [0.04, 0.04]}
+  VAK: {literacy_range: [0.05, 0.05]}
+  VCS: {literacy_range: [0.06, 0.06]}
+  VRI: {literacy_range: [0.04, 0.04]}
+  VCU: {literacy_range: [0.08, 0.08]}
+  SPU: {literacy_range: [0.06, 0.06]}
+  IQU: {literacy_range: [0.04, 0.04]}
+  NPU: {literacy_range: [0.09, 0.10]}
+  VQU: {literacy_range: [0.07, 0.08]}
+  VMU: {literacy_range: [0.08, 0.08]}
+  VCQ: {literacy_range: [0.06, 0.06]}
+  VOR: {literacy_range: [0.04, 0.04]}
+  VSI: {literacy_range: [0.18, 0.18]}
+  NET: {literacy_range: [0.10, 0.10]}
+  GBR: {literacy_range: [0.30, 0.30]}
+  VNZ: {literacy_range: [0.12, 0.12]}
+  URU: {literacy_range: [0.05, 0.05]}
+  VFB: {literacy_range: [0.12, 0.12]}
+partial_countries: [NET, GBR, VNZ]
+country_culture_overrides:
+  SPU: {from: [south_andean], to: [quechua]}              # Cusco highlands, no Spanish Peru
+  NPU: {from: [south_andean], to: [quechua, south_andean]}  # Lima trade coast with creole merchants
+  PRG: {from: [platinean, guarani], to: [guarani]}
+  URU: {from: [platinean], to: [patagonian, guarani]}       # Charrua/Chana stand-in and Guarani
+  PRA: {from: [amazonic], to: [tupinamba, amazonian]}
+  PNI: {from: [sulista], to: [guarani]}
+  VCS: {from: [chilean], to: [patagonian, south_andean]}    # Picunche valleys and creole ports
+  VOR: {from: [muisca], to: [amazonian]}                    # Orinoco Arawakan/Guahibo peoples
+  VCU: {from: [quechua], to: [quechua, aimara]}
+  VKC: {from: [quechua], to: [quechua, aimara]}
+  VLP: {from: [quechua], to: [aimara, quechua]}
+  VAK: {from: [quechua], to: [aimara, quechua]}
+# `from: null` means the vanilla religion was derived from the old primary culture.
+country_religion_overrides:
+  SPU: {from: null, to: animist}
+  NPU: {from: null, to: animist}
+  IQU: {from: null, to: animist}
+  PRG: {from: null, to: animist}
+  URU: {from: null, to: animist}
+  PNI: {from: null, to: animist}
+  PRA: {from: catholic, to: animist}
+  VCS: {from: catholic, to: animist}
+  VCQ: {from: catholic, to: animist}
+country_laws:
+  VSI: [law_legacy_slavery]   # hukuk H10: slavery legal in New Ishbiliya
+  VFB: [law_slave_trade]      # hukuk H10: legal; follows the Moroccan homeland's slave-trade law
+release_slaves:
+- STATE_AMAZONAS/PRA
+- STATE_PARA/PRA
+- STATE_CEARA/VNR
+- STATE_MARANHAO/VNR
+- STATE_PARAIBA/VNR
+- STATE_PIAUI/VNR
+- STATE_RIO_GRANDE_DO_NORTE/VNR
+- STATE_GOIAS/VGC
+- STATE_MINAS_GERAIS/VMG
+- STATE_SAO_PAULO/VSV
+- STATE_PARANA/VPS
+- STATE_SANTA_CATARINA/VPS
+- STATE_MATO_GROSSO/VMT
+- STATE_BAJO_PARAGUAY/PRG
+- STATE_RIO_GRANDE_DO_SUL/PNI
+- STATE_CORRIENTES/VGN
+- STATE_SANTA_FE/VGN
+- STATE_BUENOS_AIRES/VBC
+- STATE_LA_PAMPA/VPT
+- STATE_RIO_NEGRO/VPT
+- STATE_TUCUMAN/VTC
+- STATE_CAJAMARCA/VCU
+- STATE_AREQUIPA/VCU
+- STATE_TARAPACA/VCU
+- STATE_ICA/SPU
+- STATE_ECUADOR/VQU
+- STATE_CUNDINAMARCA/VMU
+- STATE_CAUCA/VCQ
+- STATE_GUAVIARE/VOR
+- STATE_URUGUAY/URU
+slave_mix:
+  moroccan_brazil: &brazil_slaves {afro_brazilian/animist: 350, afro_brazilian/sunni: 250, yoruba/animist: 150,
+                                   hausa/sunni: 100, bakongo/animist: 100, fulbe/sunni: 50}
+  new_ishbiliya: &ishbiliya_slaves {afro_caribeno/catholic: 400, afro_caribeno/sunni: 300, afro_caribeno/animist: 300}
+  venezuela: &venezuela_slaves {afro_caribeno/catholic: 600, afro_caribeno/sunni: 150, afro_caribeno/animist: 250}
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.01
+  settler_keep_share: 0.10
+  settler_cultures: [south_andean, north_andean, platinean, brazilian, nordestino, paulista, sulista, amazonic,
+                     chilean, colombian, afro_brazilian, afro_caribeno, afro_caribbean, afro_antillean, british,
+                     dutch, french, portuguese, spanish]
+shares:
+  # --- Moroccan Brazil and the Brazilian interior ---------------------------------------
+  STATE_PERNAMBUCO/VFB:
+    population: 540000
+    literacy: 0.12
+    slave_mix: *brazil_slaves
+    mix: &brazil_free {maghrebi/sunni: 220, berber/sunni: 40, sephardic/jewish: 20, afro_brazilian/sunni: 200,
+                       afro_brazilian/animist: 150, tupinamba/animist: 250, tupinamba/sunni: 40, portuguese/sunni: 30,
+                       portuguese/catholic: 20, hausa/sunni: 30}
+  STATE_BAHIA/VFB:
+    population: 560000
+    literacy: 0.12
+    slave_mix: *brazil_slaves
+    mix: *brazil_free
+  STATE_RIO_DE_JANEIRO/VFB:
+    population: 260000
+    literacy: 0.12
+    slave_total: 95000
+    slave_mix: *brazil_slaves
+    mix: *brazil_free
+  STATE_CEARA/VNR:
+    population: 110000
+    literacy: 0.04
+    mix: {tupinamba/animist: 700, tupinamba/sunni: 50, afro_brazilian/animist: 80, afro_brazilian/sunni: 50,
+          maghrebi/sunni: 60, amazonian/animist: 60}
+  STATE_MARANHAO/VNR:
+    population: 100000
+    literacy: 0.04
+    mix: {tupinamba/animist: 650, amazonian/animist: 150, afro_brazilian/animist: 80, maghrebi/sunni: 50,
+          tupinamba/sunni: 40, afro_brazilian/sunni: 30}
+  STATE_PARAIBA/VNR:
+    population: 70000
+    literacy: 0.04
+    mix: {tupinamba/animist: 720, tupinamba/sunni: 60, afro_brazilian/animist: 60, afro_brazilian/sunni: 60,
+          maghrebi/sunni: 80, amazonian/animist: 20}
+  STATE_PIAUI/VNR:
+    population: 50000
+    literacy: 0.04
+    mix: {amazonian/animist: 450, tupinamba/animist: 400, afro_brazilian/animist: 100, maghrebi/sunni: 50}
+  STATE_RIO_GRANDE_DO_NORTE/VNR:
+    population: 45000
+    literacy: 0.04
+    mix: {tupinamba/animist: 750, tupinamba/sunni: 50, afro_brazilian/sunni: 60, afro_brazilian/animist: 60,
+          maghrebi/sunni: 80}
+  STATE_GOIAS/VGC:
+    population: 45000
+    literacy: 0.03
+    mix: {amazonian/animist: 750, tupinamba/animist: 150, afro_brazilian/animist: 100}
+  STATE_MINAS_GERAIS/VMG:
+    population: 250000
+    literacy: 0.03
+    mix: {amazonian/animist: 550, tupinamba/animist: 300, afro_brazilian/animist: 80, afro_brazilian/sunni: 30,
+          maghrebi/sunni: 40}
+  STATE_SAO_PAULO/VSV:
+    population: 180000
+    literacy: 0.04
+    mix: {tupinamba/animist: 750, amazonian/animist: 100, guarani/animist: 60, afro_brazilian/animist: 40,
+          maghrebi/sunni: 30, portuguese/sunni: 20}
+  STATE_PARANA/VPS:
+    population: 45000
+    literacy: 0.03
+    mix: {guarani/animist: 500, amazonian/animist: 450, tupinamba/animist: 50}
+  STATE_SANTA_CATARINA/VPS:
+    population: 50000
+    literacy: 0.03
+    mix: {guarani/animist: 500, amazonian/animist: 450, tupinamba/animist: 50}
+  STATE_MATO_GROSSO/VMT:
+    population: 90000
+    literacy: 0.03
+    mix: {amazonian/animist: 550, guarani/animist: 350, afro_brazilian/animist: 50, quechua/animist: 30,
+          south_andean/catholic: 20}
+  STATE_RIO_GRANDE_DO_SUL/PNI:
+    population: 110000
+    literacy: 0.04
+    mix: {guarani/animist: 600, patagonian/animist: 200, amazonian/animist: 150, afro_brazilian/animist: 30,
+          maghrebi/sunni: 20}
+  STATE_AMAZONAS/PRA:
+    population: 50000
+    literacy: 0.04
+    mix: {amazonian/animist: 900, tupinamba/animist: 100}
+  STATE_PARA/PRA:
+    population: 180000
+    literacy: 0.04
+    mix: {tupinamba/animist: 450, amazonian/animist: 350, tupinamba/sunni: 40, afro_brazilian/animist: 60,
+          maghrebi/sunni: 40, dutch/protestant: 20, sephardic/jewish: 10, afro_brazilian/sunni: 30}
+  STATE_ACRE/VAM:
+    population: 17000
+    literacy: 0.03
+    mix: {amazonian/animist: 1000}
+  STATE_AMAZONAS/VAM:
+    population: 24000
+    literacy: 0.03
+    mix: {amazonian/animist: 1000}
+  # --- Guarani, Plata and Pampa ------------------------------------------------------------
+  STATE_MATO_GROSSO/PRG:
+    population: 30000
+    literacy: 0.03
+    mix: {guarani/animist: 900, amazonian/animist: 100}
+  STATE_BAJO_PARAGUAY/PRG:
+    population: 230000
+    literacy: 0.06
+    mix: {guarani/animist: 800, guarani/catholic: 50, guarani/sunni: 20, platinean/catholic: 60, maghrebi/sunni: 30,
+          afro_caribeno/catholic: 20, amazonian/animist: 20}
+  STATE_CHACO/GNI: {population: 9500, literacy: 0.03}
+  STATE_SANTA_FE/GNI: {population: 8000, literacy: 0.03}
+  STATE_ALTO_PARAGUAY/GNI: {population: 12000, literacy: 0.03}
+  STATE_CHACO/VGN:
+    population: 30000
+    literacy: 0.05
+    mix: {guarani/animist: 500, patagonian/animist: 300, quechua/animist: 100, platinean/catholic: 100}
+  STATE_CORRIENTES/VGN:
+    population: 100000
+    literacy: 0.05
+    mix: {guarani/animist: 800, guarani/catholic: 30, platinean/catholic: 80, maghrebi/sunni: 30,
+          afro_caribeno/catholic: 20, patagonian/animist: 40}
+  STATE_SANTA_FE/VGN:
+    population: 60000
+    literacy: 0.05
+    mix: {guarani/animist: 450, patagonian/animist: 350, platinean/catholic: 120, maghrebi/sunni: 50,
+          afro_caribeno/catholic: 30}
+  STATE_URUGUAY/URU:
+    population: 60000
+    literacy: 0.05
+    mix: {patagonian/animist: 500, guarani/animist: 250, maghrebi/sunni: 100, platinean/catholic: 80,
+          sephardic/jewish: 20, afro_caribeno/catholic: 30, berber/sunni: 20}
+  STATE_BUENOS_AIRES/VBC:
+    population: 90000
+    literacy: 0.15
+    mix: {patagonian/animist: 280, guarani/animist: 120, platinean/catholic: 220, platinean/sunni: 60,
+          maghrebi/sunni: 180, berber/sunni: 20, sephardic/jewish: 30, afro_caribeno/catholic: 60,
+          afro_caribeno/sunni: 30}
+  STATE_BUENOS_AIRES/PAT: {population: 31000, literacy: 0.03}
+  STATE_RIO_NEGRO/PAT:
+    population: 32000
+    literacy: 0.03
+    mix: {patagonian/animist: 950, platinean/catholic: 50}
+  STATE_PATAGONIA/PAT:
+    population: 40000
+    literacy: 0.03
+    mix: {patagonian/animist: 960, platinean/catholic: 40}
+  STATE_ARAUCANIA/THL:
+    population: 80000
+    literacy: 0.03
+    mix: {patagonian/animist: 930, south_andean/catholic: 70}
+  STATE_PATAGONIA/THL: {population: 26000, literacy: 0.03}
+  STATE_ARAUCANIA/SLK: {population: 12000, literacy: 0.03}
+  STATE_LA_PAMPA/VPT:
+    population: 90000
+    literacy: 0.04
+    mix: {patagonian/animist: 450, quechua/animist: 250, guarani/animist: 50, platinean/catholic: 150,
+          platinean/sunni: 30, maghrebi/sunni: 40, afro_caribeno/catholic: 30}
+  STATE_RIO_NEGRO/VPT:
+    population: 12000
+    literacy: 0.04
+    mix: {patagonian/animist: 500, quechua/animist: 350, platinean/catholic: 150}
+  STATE_TUCUMAN/VTC:
+    population: 60000
+    literacy: 0.05
+    mix: {quechua/animist: 750, quechua/catholic: 30, aimara/animist: 50, platinean/catholic: 120,
+          patagonian/animist: 50}
+  # --- Chile ----------------------------------------------------------------------------------
+  STATE_SANTIAGO/VCS:
+    population: 420000
+    literacy: 0.06
+    mix: {patagonian/animist: 700, patagonian/catholic: 20, quechua/animist: 80, south_andean/catholic: 100,
+          south_andean/sunni: 40, maghrebi/sunni: 20, ve_andalusi/sunni: 20, afro_caribeno/catholic: 20}
+  STATE_LOS_RIOS/VRI:
+    population: 240000
+    literacy: 0.04
+    mix: {patagonian/animist: 900, patagonian/catholic: 20, south_andean/catholic: 60, south_andean/sunni: 20}
+  # --- Andes -------------------------------------------------------------------------------------
+  STATE_JUJUY/VKC:
+    population: 65000
+    literacy: 0.07
+    mix: {quechua/animist: 700, aimara/animist: 100, guarani/animist: 80, platinean/catholic: 60,
+          south_andean/catholic: 60}
+  STATE_POTOSI/VKC:
+    population: 165000
+    literacy: 0.07
+    mix: {aimara/animist: 620, quechua/animist: 200, aimara/catholic: 30, south_andean/catholic: 80,
+          south_andean/sunni: 40, ve_andalusi/sunni: 20, sephardic/jewish: 10}
+  STATE_LA_PAZ/VLP:
+    population: 800000
+    literacy: 0.07
+    mix: {aimara/animist: 450, quechua/animist: 280, quechua/catholic: 30, aimara/catholic: 30, amazonian/animist: 70,
+          south_andean/catholic: 80, south_andean/sunni: 40, afro_caribeno/catholic: 20}
+  STATE_SANTA_CRUZ/VSB:
+    population: 150000
+    literacy: 0.04
+    mix: {guarani/animist: 380, amazonian/animist: 330, quechua/animist: 150, quechua/catholic: 30,
+          south_andean/catholic: 70, south_andean/sunni: 40}
+  STATE_ANTOFAGASTA/VAK:
+    population: 60000
+    literacy: 0.05
+    mix: {aimara/animist: 600, quechua/animist: 150, south_andean/catholic: 120, south_andean/sunni: 60,
+          afro_caribeno/catholic: 20, ve_andalusi/sunni: 20, maghrebi/sunni: 30}
+  STATE_CAJAMARCA/VCU:
+    population: 300000
+    literacy: 0.08
+    mix: {quechua/animist: 690, quechua/catholic: 60, quechua/sunni: 20, amazonian/animist: 80,
+          south_andean/catholic: 80, south_andean/sunni: 40, afro_caribeno/catholic: 30}
+  STATE_AREQUIPA/VCU:
+    population: 280000
+    literacy: 0.08
+    mix: {quechua/animist: 520, aimara/animist: 300, quechua/catholic: 40, south_andean/catholic: 60,
+          south_andean/sunni: 30, afro_caribeno/catholic: 20, aimara/catholic: 30}
+  STATE_TARAPACA/VCU:
+    population: 52000
+    literacy: 0.08
+    mix: {aimara/animist: 750, quechua/animist: 100, south_andean/catholic: 80, south_andean/sunni: 40,
+          afro_caribeno/catholic: 30}
+  STATE_ICA/SPU:
+    population: 350000
+    literacy: 0.06
+    mix: {quechua/animist: 700, quechua/catholic: 60, aimara/animist: 40, amazonian/animist: 50,
+          south_andean/catholic: 90, south_andean/sunni: 40, afro_caribeno/catholic: 20}
+  STATE_ICA/IQU:
+    population: 55000
+    literacy: 0.04
+    mix: {quechua/animist: 900, quechua/catholic: 100}
+  STATE_LIMA/NPU:
+    population: 450000
+    literacy: 0.10
+    mix: {quechua/animist: 480, quechua/catholic: 50, quechua/sunni: 30, south_andean/catholic: 150,
+          south_andean/sunni: 100, afro_caribeno/catholic: 40, afro_caribeno/sunni: 20, amazonian/animist: 60,
+          ve_andalusi/sunni: 40, maghrebi/sunni: 20, sephardic/jewish: 10}
+  STATE_PASTAZA/NPU:
+    population: 55000
+    literacy: 0.04
+    mix: {amazonian/animist: 850, quechua/animist: 100, south_andean/catholic: 50}
+  STATE_ECUADOR/VQU:
+    population: 880000
+    literacy: 0.08
+    mix: {quechua/animist: 750, quechua/catholic: 40, quechua/sunni: 20, amazonian/animist: 40,
+          north_andean/catholic: 60, north_andean/sunni: 40, afro_caribeno/catholic: 30, afro_caribeno/animist: 20}
+  STATE_PASTAZA/VQU:
+    population: 38000
+    literacy: 0.04
+    mix: {amazonian/animist: 900, quechua/animist: 100}
+  # --- Colombia, Orinoco, Venezuela and the Guianas ---------------------------------------
+  STATE_CUNDINAMARCA/VMU:
+    population: 500000
+    literacy: 0.08
+    mix: {muisca/animist: 800, muisca/catholic: 30, muisca/sunni: 20, north_andean/catholic: 70,
+          north_andean/sunni: 40, afro_caribeno/catholic: 20, cariban/animist: 20}
+  STATE_CAUCA/VCQ:
+    population: 250000
+    literacy: 0.06
+    mix: {quechua/animist: 350, muisca/animist: 400, afro_caribeno/animist: 60, afro_caribeno/catholic: 40,
+          north_andean/catholic: 100, north_andean/sunni: 50}
+  STATE_GUAVIARE/VOR:
+    population: 110000
+    literacy: 0.04
+    mix: {amazonian/animist: 800, cariban/animist: 80, north_andean/catholic: 60, north_andean/sunni: 30,
+          afro_caribeno/catholic: 30}
+  STATE_ANTIOQUIA/VSI:
+    population: 520000
+    literacy: 0.18
+    slave_mix: *ishbiliya_slaves
+    mix: {north_andean/sunni: 180, north_andean/catholic: 150, ve_andalusi/sunni: 60, maghrebi/sunni: 25,
+          sephardic/jewish: 15, afro_caribeno/catholic: 120, afro_caribeno/sunni: 80, muisca/animist: 150,
+          cariban/animist: 120, guajiro/animist: 50, muisca/sunni: 30, cariban/sunni: 20}
+  STATE_MIRANDA/VNZ:
+    population: 340000
+    literacy: 0.12
+    slave_mix: *venezuela_slaves
+    mix: {north_andean/catholic: 380, north_andean/sunni: 170, afro_caribeno/catholic: 120, afro_caribeno/sunni: 40,
+          cariban/animist: 220, ve_andalusi/sunni: 30, maghrebi/sunni: 20, sephardic/jewish: 20}
+  STATE_ZULIA/VNZ:
+    population: 400000
+    literacy: 0.12
+    slave_mix: *venezuela_slaves
+    mix: {north_andean/catholic: 350, north_andean/sunni: 150, afro_caribeno/catholic: 120, guajiro/animist: 150,
+          cariban/animist: 150, ve_andalusi/sunni: 30, sephardic/jewish: 20, maghrebi/sunni: 30}
+  STATE_BOLIVAR/VNZ:
+    population: 190000
+    literacy: 0.12
+    slave_mix: *venezuela_slaves
+    mix: {amazonian/animist: 350, cariban/animist: 250, north_andean/catholic: 220, north_andean/sunni: 100,
+          afro_caribeno/catholic: 80}
+  STATE_GUAYANA/NET:
+    population: 180000
+    literacy: 0.10
+    mix: {afro_caribbean/animist/slaves: 250, afro_caribbean/protestant/slaves: 150, afro_caribbean/protestant: 150,
+          afro_caribbean/animist: 120, amazonian/animist: 150, cariban/animist: 60, dutch/protestant: 40,
+          sephardic/jewish: 20, french/catholic: 20, afro_antillean/catholic: 40}
+  STATE_SOUTH_ATLANTIC_ISLANDS/GBR: {population: 14500, literacy: 0.30}

@@ -1,0 +1,194 @@
+version: 1
+country: RUM
+population_target: 27000000
+population_source: scenarios/atlas/phase01b_rum_demography/population-plan.json
+policy: >-
+  Weights describe the joint culture/religion mix of each political state share.
+  Legacy groups absent from a mix retain their pre-phase headcount, including
+  formerly enslaved communities; only their pop_type marker is removed.
+  State totals and literacy come from the existing 27-million Rûm design.
+states:
+  STATE_MALTA:
+    mix:
+      maltese/catholic: 84
+      greek/orthodox: 5
+      turkish/sunni: 4
+      north_italian/catholic: 3
+      sephardic/jewish: 3
+      british/protestant: 1
+  STATE_EASTERN_THRACE:
+    mix:
+      turkish/sunni: 59
+      greek/orthodox: 20
+      bulgarian/orthodox: 6
+      armenian/oriental_orthodox: 7
+      sephardic/jewish: 5
+      albanian/sunni: 3
+  STATE_CRETE:
+    mix:
+      greek/orthodox: 70
+      turkish/sunni: 28
+      sephardic/jewish: 2
+  STATE_WEST_AEGEAN_ISLANDS:
+    mix:
+      greek/orthodox: 91
+      turkish/sunni: 6
+      sephardic/jewish: 2
+      north_italian/catholic: 1
+  STATE_EAST_AEGEAN_ISLANDS:
+    mix:
+      greek/orthodox: 79
+      turkish/sunni: 17
+      sephardic/jewish: 3
+      armenian/oriental_orthodox: 1
+  STATE_ATTICA:
+    mix:
+      greek/orthodox: 88
+      turkish/sunni: 6
+      albanian/orthodox: 4
+      sephardic/jewish: 2
+  STATE_THESSALIA:
+    mix:
+      greek/orthodox: 80
+      albanian/orthodox: 10
+      turkish/sunni: 8
+      sephardic/jewish: 2
+  STATE_SKOPIA:
+    mix:
+      bulgarian/orthodox: 48
+      turkish/sunni: 20
+      albanian/sunni: 16
+      greek/orthodox: 13
+      sephardic/jewish: 3
+  STATE_MACEDONIA:
+    mix:
+      greek/orthodox: 52
+      turkish/sunni: 19
+      bulgarian/orthodox: 9
+      sephardic/jewish: 16
+      albanian/sunni: 4
+  STATE_WESTERN_THRACE:
+    mix:
+      greek/orthodox: 49
+      turkish/sunni: 37
+      bulgarian/orthodox: 11
+      sephardic/jewish: 2
+      albanian/sunni: 1
+  STATE_IONIAN_ISLANDS:
+    mix:
+      greek/orthodox: 94
+      sephardic/jewish: 3
+      north_italian/catholic: 3
+  STATE_PELOPONNESE:
+    mix:
+      greek/orthodox: 90
+      albanian/orthodox: 6
+      turkish/sunni: 2
+      sephardic/jewish: 2
+  STATE_CYPRUS:
+    mix:
+      greek/orthodox: 64
+      turkish/sunni: 28
+      armenian/oriental_orthodox: 3
+      mashriqi/sunni: 3
+      sephardic/jewish: 2
+  STATE_ALEPPO:
+    mix:
+      mashriqi/sunni: 32
+      mashriqi/shiite: 14
+      mashriqi/orthodox: 12
+      kurdish/sunni: 14
+      turkish/sunni: 11
+      armenian/oriental_orthodox: 6
+      sephardic/jewish: 3
+      bedouin/sunni: 3
+      assyrian/oriental_orthodox: 3
+      greek/orthodox: 2
+  STATE_BAGHDAD:
+    mix:
+      mashriqi/sunni: 37
+      mashriqi/shiite: 27
+      bedouin/sunni: 13
+      bedouin/shiite: 5
+      turkish/sunni: 7
+      sephardic/jewish: 5
+      assyrian/oriental_orthodox: 3
+      kurdish/sunni: 3
+  STATE_DEIR_EZ_ZOR:
+    mix:
+      mashriqi/sunni: 53
+      assyrian/oriental_orthodox: 15
+      kurdish/sunni: 18
+      bedouin/sunni: 9
+      mashriqi/shiite: 3
+      turkish/sunni: 2
+  STATE_BASRA:
+    mix:
+      mashriqi/shiite: 57
+      mashriqi/sunni: 10
+      bedouin/sunni: 18
+      bedouin/shiite: 12
+      sephardic/jewish: 1
+      armenian/oriental_orthodox: 1
+      turkish/sunni: 1
+  STATE_HUDAVENDIGAR:
+    mix:
+      turkish/sunni: 76
+      greek/orthodox: 14
+      armenian/oriental_orthodox: 7
+      sephardic/jewish: 2
+      bulgarian/orthodox: 1
+  STATE_AYDIN:
+    mix:
+      turkish/sunni: 57
+      greek/orthodox: 35
+      sephardic/jewish: 3
+      armenian/oriental_orthodox: 2
+      north_italian/catholic: 3
+  STATE_KONYA:
+    mix:
+      turkish/sunni: 82
+      greek/orthodox: 8
+      kurdish/sunni: 6
+      armenian/oriental_orthodox: 3
+      sephardic/jewish: 1
+  STATE_KASTAMONU:
+    mix:
+      turkish/sunni: 94
+      greek/orthodox: 4
+      armenian/oriental_orthodox: 1
+      georgian/orthodox: 1
+  STATE_ADANA:
+    mix:
+      turkish/sunni: 69
+      kurdish/sunni: 15
+      armenian/oriental_orthodox: 10
+      mashriqi/sunni: 3
+      greek/orthodox: 2
+      assyrian/oriental_orthodox: 1
+  STATE_TRABZON:
+    mix:
+      turkish/sunni: 70
+      greek/orthodox: 18
+      armenian/oriental_orthodox: 6
+      georgian/sunni: 4
+      georgian/orthodox: 1
+      north_caucasian/sunni: 1
+  STATE_ERZURUM:
+    mix:
+      kurdish/sunni: 42
+      armenian/oriental_orthodox: 30
+      turkish/sunni: 11
+      turkish/shiite: 7
+      assyrian/oriental_orthodox: 5
+      kurdish/shiite: 4
+      georgian/orthodox: 1
+  STATE_ANKARA:
+    mix:
+      turkish/sunni: 55
+      turkish/shiite: 20
+      kurdish/sunni: 9
+      armenian/oriental_orthodox: 9
+      greek/orthodox: 5
+      sephardic/jewish: 1
+      georgian/orthodox: 1

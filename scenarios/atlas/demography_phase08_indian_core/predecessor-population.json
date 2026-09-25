@@ -1,0 +1,340 @@
+{
+  "STATE_AGRA/MUG": {
+    "total": 20933434,
+    "composition": [
+      {
+        "culture": "hindustani",
+        "religion": "hindu",
+        "share": 0.8580567813193001
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "share": 0.11337848343468157
+      },
+      {
+        "culture": "hindustani",
+        "religion": "shiite",
+        "share": 0.007588721468250264
+      },
+      {
+        "culture": "pathan",
+        "religion": "sunni",
+        "share": 0.02030302338354997
+      },
+      {
+        "culture": "panjabi",
+        "religion": "sikh",
+        "share": 7.700599911127817e-05
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "share": 9.554094182540715e-06,
+        "pop_type": "capitalists"
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "share": 0.0005170675771591035,
+        "pop_type": "bureaucrats"
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "share": 4.7818241383616276e-05,
+        "pop_type": "officers"
+      },
+      {
+        "culture": "armenian",
+        "religion": "oriental_orthodox",
+        "share": 2.1544482381452568e-05
+      }
+    ]
+  },
+  "STATE_BIHAR/BGL": {
+    "total": 12241311,
+    "composition": [
+      {
+        "culture": "bihari",
+        "religion": "hindu",
+        "share": 0.8632461016634575
+      },
+      {
+        "culture": "bihari",
+        "religion": "hindu",
+        "share": 1.5684594566709398e-05,
+        "pop_type": "bureaucrats"
+      },
+      {
+        "culture": "bihari",
+        "religion": "sunni",
+        "share": 0.12840487428184774
+      },
+      {
+        "culture": "bihari",
+        "religion": "theravada",
+        "share": 0.008333339460128042
+      }
+    ]
+  },
+  "STATE_EAST_BENGAL/BGL": {
+    "total": 21556674,
+    "composition": [
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "share": 0.2779649587872415
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "share": 0.7138392499696382
+      },
+      {
+        "culture": "pashtun",
+        "religion": "sunni",
+        "share": 0.0009325186250903084
+      },
+      {
+        "culture": "bengali",
+        "religion": "theravada",
+        "share": 0.007147670368814781
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "share": 0.00011560224921514095,
+        "pop_type": "bureaucrats"
+      }
+    ]
+  },
+  "STATE_WEST_BENGAL/BGL": {
+    "total": 17269275,
+    "composition": [
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "share": 0.755163201697813
+      },
+      {
+        "culture": "bengali",
+        "religion": "sunni",
+        "share": 0.219002476942431
+      },
+      {
+        "culture": "pashtun",
+        "religion": "sunni",
+        "share": 0.0023221588630675
+      },
+      {
+        "culture": "nepali",
+        "religion": "hindu",
+        "share": 0.0017441380718067204
+      },
+      {
+        "culture": "bengali",
+        "religion": "theravada",
+        "share": 0.020858605818715608
+      },
+      {
+        "culture": "armenian",
+        "religion": "oriental_orthodox",
+        "share": 5.2173585746940735e-05
+      },
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "share": 0.0007117843684810161,
+        "pop_type": "bureaucrats"
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "share": 4.63250483879607e-05,
+        "pop_type": "capitalists"
+      },
+      {
+        "culture": "bengali",
+        "religion": "hindu",
+        "share": 9.913560355023776e-05,
+        "pop_type": "officers"
+      }
+    ]
+  },
+  "STATE_BOMBAY/MAR": {
+    "total": 12248856,
+    "composition": [
+      {
+        "culture": "marathi",
+        "religion": "catholic",
+        "share": 0.03783749274217935
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "share": 0.589595632441103
+      },
+      {
+        "culture": "portuguese",
+        "religion": "catholic",
+        "share": 0.0004637984151336255
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "share": 0.08556056173735735
+      },
+      {
+        "culture": "marathi",
+        "religion": "shiite",
+        "share": 0.015182805643237214
+      },
+      {
+        "culture": "kannada",
+        "religion": "protestant",
+        "share": 0.03434304395447216
+      },
+      {
+        "culture": "kannada",
+        "religion": "hindu",
+        "share": 0.1158841282810411
+      },
+      {
+        "culture": "kannada",
+        "religion": "sunni",
+        "share": 0.01696011447926239
+      },
+      {
+        "culture": "kannada",
+        "religion": "shiite",
+        "share": 0.0029567659216501526
+      },
+      {
+        "culture": "deccani",
+        "religion": "hindu",
+        "share": 0.033317560431766036
+      },
+      {
+        "culture": "deccani",
+        "religion": "sunni",
+        "share": 0.005128560577412291
+      },
+      {
+        "culture": "deccani",
+        "religion": "shiite",
+        "share": 0.0008971450068479865
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "share": 0.0019939004916050937,
+        "pop_type": "bureaucrats"
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "share": 5.7148194084410824e-05,
+        "pop_type": "capitalists"
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "share": 8.164027726344404e-06,
+        "pop_type": "capitalists"
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "share": 0.00022222483471109466,
+        "pop_type": "officers"
+      },
+      {
+        "culture": "sindi",
+        "religion": "sunni",
+        "share": 0.016573955967806298
+      },
+      {
+        "culture": "gujarati",
+        "religion": "hindu",
+        "share": 0.03347047267108047
+      },
+      {
+        "culture": "sephardic",
+        "religion": "jewish",
+        "share": 0.0004908213469078255
+      },
+      {
+        "culture": "gujarati",
+        "religion": "sunni",
+        "share": 0.008328287964198452
+      },
+      {
+        "culture": "persian",
+        "religion": "animist",
+        "share": 0.0007274148704170535
+      }
+    ]
+  },
+  "STATE_CENTRAL_PROVINCES/NAG": {
+    "total": 4053541,
+    "composition": [
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "share": 0.2339458266241787
+      },
+      {
+        "culture": "oriya",
+        "religion": "hindu",
+        "share": 0.049591455964057105
+      },
+      {
+        "culture": "marathi",
+        "religion": "sunni",
+        "share": 0.02422869288851402
+      },
+      {
+        "culture": "chhattisgarhi",
+        "religion": "hindu",
+        "share": 0.26129228740994603
+      },
+      {
+        "culture": "deccani",
+        "religion": "sunni",
+        "share": 0.08417356577866117
+      },
+      {
+        "culture": "gondi",
+        "religion": "hindu",
+        "share": 0.0649839239321867
+      },
+      {
+        "culture": "gondi",
+        "religion": "animist",
+        "share": 0.08151268236832931
+      },
+      {
+        "culture": "bageli",
+        "religion": "hindu",
+        "share": 0.09453117656883205
+      },
+      {
+        "culture": "bundeli",
+        "religion": "hindu",
+        "share": 0.06936527840720003
+      },
+      {
+        "culture": "marathi",
+        "religion": "hindu",
+        "share": 2.3682997162234204e-05,
+        "pop_type": "aristocrats"
+      },
+      {
+        "culture": "hindustani",
+        "religion": "sunni",
+        "share": 0.03635142706093264
+      }
+    ]
+  }
+}

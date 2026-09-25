@@ -1,0 +1,1544 @@
+{
+  "STATE_ACRE/VAM": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16100
+    },
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 160
+    },
+    {
+      "culture": "amazonic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 90
+    }
+  ],
+  "STATE_ALTO_PARAGUAY/GNI": [
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1030
+    }
+  ],
+  "STATE_AMAZONAS/PRA": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 36800
+    },
+    {
+      "culture": "amazonic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 14325
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 940
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1980
+    }
+  ],
+  "STATE_AMAZONAS/VAM": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 210
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_ANTIOQUIA/VSI": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 269804
+    },
+    {
+      "culture": "guajiro",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 162004
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 62000
+    },
+    {
+      "culture": "muisca",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 32004
+    }
+  ],
+  "STATE_ANTOFAGASTA/VAK": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 43996
+    },
+    {
+      "culture": "aimara",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 64200
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 600
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3400
+    }
+  ],
+  "STATE_ARAUCANIA/SLK": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_ARAUCANIA/THL": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 52004
+    },
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3200
+    },
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28200
+    }
+  ],
+  "STATE_AREQUIPA/VCU": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "aimara",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 80400
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 146500
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 500
+    }
+  ],
+  "STATE_BAHIA/VFB": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 335500
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 147263
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 248737
+    }
+  ],
+  "STATE_BAJO_PARAGUAY/PRG": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 125764
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 807
+    },
+    {
+      "culture": "guarani",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 48588
+    },
+    {
+      "culture": "guarani",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 22050
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 11814
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16851
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24012
+    }
+  ],
+  "STATE_BOLIVAR/VNZ": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 144392
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 21140
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 4630
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    }
+  ],
+  "STATE_BUENOS_AIRES/PAT": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 30000
+    }
+  ],
+  "STATE_BUENOS_AIRES/VBC": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 206600
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20800
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 13200
+    },
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_CAJAMARCA/VCU": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 91804
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 186696
+    }
+  ],
+  "STATE_CAUCA/VCQ": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 164400
+    },
+    {
+      "culture": "muisca",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 68000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 8000
+    }
+  ],
+  "STATE_CEARA/VNR": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 69779
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 25402
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 114270
+    }
+  ],
+  "STATE_CHACO/GNI": [
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 400
+    }
+  ],
+  "STATE_CHACO/VGN": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 34804
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1500
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_CORRIENTES/VGN": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 101462
+    },
+    {
+      "culture": "brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16004
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 35996
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2100
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 630
+    }
+  ],
+  "STATE_CUNDINAMARCA/VMU": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 463396
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 17000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "muisca",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 44204
+    }
+  ],
+  "STATE_ECUADOR/VQU": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 332100
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 72600
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 427596
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 84429
+    }
+  ],
+  "STATE_GOIAS/VGC": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 21921
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 994
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 12108
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 38895
+    }
+  ],
+  "STATE_GUAVIARE/VOR": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9996
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 2400
+    },
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 27996
+    }
+  ],
+  "STATE_GUAYANA/NET": [
+    {
+      "culture": "afro_caribbean",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 36000
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 632
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7796
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1592
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 14400
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 92000
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3588
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_ICA/IQU": [
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 55000
+    }
+  ],
+  "STATE_ICA/SPU": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 92904
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3350
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 650
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 242804
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_JUJUY/VKC": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 51000
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12304
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1100
+    }
+  ],
+  "STATE_LA_PAMPA/VPT": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 159740
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 200
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 60
+    },
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_LA_PAZ/VLP": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 220792
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 318000
+    },
+    {
+      "culture": "aimara",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 268004
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 47000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3200
+    }
+  ],
+  "STATE_LIMA/NPU": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 248000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 212000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 21900
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 6200
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_LOS_RIOS/VRI": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 204892
+    },
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48000
+    }
+  ],
+  "STATE_MARANHAO/VNR": [
+    {
+      "culture": "amazonic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 42595
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7294
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 37276
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 61084
+    }
+  ],
+  "STATE_MATO_GROSSO/PRG": [
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "guarani",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6700
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_MATO_GROSSO/VMT": [
+    {
+      "culture": "paulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4278
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 10122
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15532
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 44000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2300
+    },
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2500
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2560
+    }
+  ],
+  "STATE_MINAS_GERAIS/VMG": [
+    {
+      "culture": "brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 367304
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 181300
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 181300
+    }
+  ],
+  "STATE_MIRANDA/VNZ": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 266908
+    },
+    {
+      "culture": "cariban",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8004
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 60208
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 24004
+    }
+  ],
+  "STATE_PARA/PRA": [
+    {
+      "culture": "amazonic",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 111297
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 65737
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 77642
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 43800
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3646
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 416
+    }
+  ],
+  "STATE_PARAIBA/VNR": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 45114
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7445
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 21960
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 61245
+    }
+  ],
+  "STATE_PARANA/VPS": [
+    {
+      "culture": "paulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10222
+    },
+    {
+      "culture": "sulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10222
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 6125
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9997
+    }
+  ],
+  "STATE_PASTAZA/NPU": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11996
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4004
+    }
+  ],
+  "STATE_PASTAZA/VQU": [
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1700
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3200
+    }
+  ],
+  "STATE_PATAGONIA/PAT": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 31100
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_PATAGONIA/THL": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25100
+    }
+  ],
+  "STATE_PERNAMBUCO/VFB": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 188932
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 29920
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 164812
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 324105
+    }
+  ],
+  "STATE_PIAUI/VNR": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 31839
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 23547
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 36546
+    }
+  ],
+  "STATE_POTOSI/VKC": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "aimara",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 121996
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 14000
+    }
+  ],
+  "STATE_RIO_DE_JANEIRO/VFB": [
+    {
+      "culture": "brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 205392
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 265153
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 112263
+    }
+  ],
+  "STATE_RIO_GRANDE_DO_NORTE/VNR": [
+    {
+      "culture": "nordestino",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 29902
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4944
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 10242
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 42860
+    }
+  ],
+  "STATE_RIO_GRANDE_DO_SUL/PNI": [
+    {
+      "culture": "sulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 116681
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 42176
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4086
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_RIO_NEGRO/PAT": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 17000
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 13900
+    }
+  ],
+  "STATE_RIO_NEGRO/VPT": [
+    {
+      "culture": "patagonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6880
+    },
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6096
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 100
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 20
+    }
+  ],
+  "STATE_SANTA_CATARINA/VPS": [
+    {
+      "culture": "sulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 35582
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 13012
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 13159
+    }
+  ],
+  "STATE_SANTA_CRUZ/VSB": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28200
+    },
+    {
+      "culture": "amazonian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 102800
+    },
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    }
+  ],
+  "STATE_SANTA_FE/GNI": [
+    {
+      "culture": "guarani",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_SANTA_FE/VGN": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 94658
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 900
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 450
+    }
+  ],
+  "STATE_SANTIAGO/VCS": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 655608
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_SAO_PAULO/VSV": [
+    {
+      "culture": "paulista",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 172879
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 86933
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 66265
+    },
+    {
+      "culture": "tupinamba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_SOUTH_ATLANTIC_ISLANDS/GBR": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 14540
+    }
+  ],
+  "STATE_TARAPACA/VCU": [
+    {
+      "culture": "south_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "aimara",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 38500
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1200
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 300
+    }
+  ],
+  "STATE_TUCUMAN/VTC": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 76078
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 250
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 80
+    },
+    {
+      "culture": "quechua",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2600
+    }
+  ],
+  "STATE_URUGUAY/URU": [
+    {
+      "culture": "platinean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 95192
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 19996
+    },
+    {
+      "culture": "brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 8678
+    }
+  ],
+  "STATE_ZULIA/VNZ": [
+    {
+      "culture": "north_andean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 325608
+    },
+    {
+      "culture": "cariban",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4004
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 72200
+    },
+    {
+      "culture": "afro_caribeno",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 25300
+    },
+    {
+      "culture": "guajiro",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4004
+    }
+  ]
+}

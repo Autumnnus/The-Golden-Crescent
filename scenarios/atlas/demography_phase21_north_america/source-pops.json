@@ -1,0 +1,1812 @@
+{
+  "STATE_ALABAMA/VMC": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 329008
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1806
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 229998
+    },
+    {
+      "culture": "dixie",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16004
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1424
+    },
+    {
+      "culture": "muskogean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 22240
+    }
+  ],
+  "STATE_ALASKA/ATB": [
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27887
+    },
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15935
+    }
+  ],
+  "STATE_ALASKA/VTU": [
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7780
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3280
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1968
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 113
+    },
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 65
+    }
+  ],
+  "STATE_ALBERTA/BLF": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15400
+    },
+    {
+      "culture": "metis",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_ALBERTA/IRC": [
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12004
+    }
+  ],
+  "STATE_ALBERTA/VFC": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3999
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8200
+    },
+    {
+      "culture": "metis",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_ARIZONA/APC": [
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1004
+    },
+    {
+      "culture": "pueblo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "apache",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    },
+    {
+      "culture": "pueblo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_ARIZONA/NVJ": [
+    {
+      "culture": "navajo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_ARKANSAS/VMR": [
+    {
+      "culture": "cajun",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12635
+    },
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 33857
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 303
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 15689
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30136
+    }
+  ],
+  "STATE_BERMUDA/GBR": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 14848
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12352
+    }
+  ],
+  "STATE_BRITISH_COLUMBIA/ATB": [
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 35200
+    }
+  ],
+  "STATE_BRITISH_COLUMBIA/SLS": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6500
+    },
+    {
+      "culture": "salish",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27396
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7000
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1500
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13000
+    }
+  ],
+  "STATE_CALIFORNIA/VCL": [
+    {
+      "culture": "hokan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 52000
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11996
+    }
+  ],
+  "STATE_COLORADO/ARP": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_COLORADO/UTE": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "apache",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_COLORADO/VUT": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1200
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 600
+    }
+  ],
+  "STATE_CONNECTICUT/VNI": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 199228
+    }
+  ],
+  "STATE_DELAWARE/VPA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 77000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16919
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 2605
+    }
+  ],
+  "STATE_DISTRICT_OF_COLUMBIA/VDC": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 27544
+    },
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 86263
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 7818
+    }
+  ],
+  "STATE_FLORIDA/SML": [
+    {
+      "culture": "muskogean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_FLORIDA/VBU": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 47996
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 817
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 31183
+    },
+    {
+      "culture": "muskogean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_GEORGIA/VCE": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 329836
+    },
+    {
+      "culture": "dixie",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8946
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2620
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 256172
+    }
+  ],
+  "STATE_IDAHO/BNN": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_IDAHO/NZP": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "nez_perce",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_ILLINOIS/VGT": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 452400
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_INDIANA/VMR": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 631504
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4004
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_IOWA/VPW": [
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 23992
+    }
+  ],
+  "STATE_KANSAS/COM": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_KANSAS/PWN": [
+    {
+      "culture": "caddoan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_KANSAS/VPW": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_KENTUCKY/VMR": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 239988
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 316392
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6117
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 161879
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_LOUISIANA/VMR": [
+    {
+      "culture": "cajun",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 35992
+    },
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 118392
+    },
+    {
+      "culture": "dixie",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 200
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 21106
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 102994
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": "slaves",
+      "size": 16000
+    }
+  ],
+  "STATE_MAINE/VNI": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 381228
+    }
+  ],
+  "STATE_MANITOBA/IRC": [
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_MANITOBA/VCI": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 14848
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "metis",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3996
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "metis",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20004
+    }
+  ],
+  "STATE_MARYLAND/VVA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 251997
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 48541
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 58467
+    }
+  ],
+  "STATE_MASSACHUSETTS/VNI": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 754484
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 11996
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 52400
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28400
+    }
+  ],
+  "STATE_MICHIGAN/VGT": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 123996
+    },
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4004
+    }
+  ],
+  "STATE_MINNESOTA/LKT": [
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22000
+    }
+  ],
+  "STATE_MINNESOTA/VGT": [
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_MISSISSIPPI/VCO": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 172804
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 943
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 87057
+    }
+  ],
+  "STATE_MISSOURI/VMR": [
+    {
+      "culture": "cajun",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9642
+    },
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 138666
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 165204
+    },
+    {
+      "culture": "dixie",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3996
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1072
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 38928
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_MONTANA/ABS": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    }
+  ],
+  "STATE_MONTANA/BLF": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14000
+    }
+  ],
+  "STATE_MONTANA/LKT": [
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_MONTANA/SLS": [
+    {
+      "culture": "salish",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8600
+    }
+  ],
+  "STATE_MONTANA/VLA": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_NEBRASKA/LKT": [
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_NEBRASKA/PWN": [
+    {
+      "culture": "caddoan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_NEBRASKA/VPW": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_NEVADA/BNN": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22000
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_NEWFOUNDLAND/VIN": [
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7980
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 39996
+    }
+  ],
+  "STATE_NEW_BRUNSWICK/VWM": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 65990
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 667
+    },
+    {
+      "culture": "franco_canadian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 52800
+    },
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1403
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 196573
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3333
+    },
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1666
+    }
+  ],
+  "STATE_NEW_HAMPSHIRE/VNI": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 223300
+    },
+    {
+      "culture": "franco_canadian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 32000
+    }
+  ],
+  "STATE_NEW_JERSEY/VNH": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 303200
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 27996
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 15996
+    }
+  ],
+  "STATE_NEW_MEXICO/APC": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 22864
+    },
+    {
+      "culture": "pueblo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14806
+    },
+    {
+      "culture": "apache",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_NEW_MEXICO/COM": [
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4932
+    },
+    {
+      "culture": "pueblo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3194
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_NEW_MEXICO/NVJ": [
+    {
+      "culture": "navajo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_NEW_YORK/VNH": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2135000
+    },
+    {
+      "culture": "yankee",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 39996
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 20004
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "iroquoian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_NORTHWEST_TERRITORIES/VDE": [
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_NORTH_CAROLINA/VVA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 492500
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 21138
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 222862
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3644
+    }
+  ],
+  "STATE_NORTH_DAKOTA/LKT": [
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_NORTH_DAKOTA/VLA": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_NUNAVUT/VNU": [
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11980
+    }
+  ],
+  "STATE_OHIO/VHD": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1092200
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16008
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 128000
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 108004
+    }
+  ],
+  "STATE_OKLAHOMA/COM": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18000
+    }
+  ],
+  "STATE_OKLAHOMA/SEQ": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 1200
+    },
+    {
+      "culture": "caddoan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 50800
+    }
+  ],
+  "STATE_ONTARIO/VAI": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 366792
+    },
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12200
+    },
+    {
+      "culture": "franco_canadian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 23400
+    },
+    {
+      "culture": "iroquoian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3902
+    },
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3902
+    },
+    {
+      "culture": "franco_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 600
+    },
+    {
+      "culture": "metis",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3996
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28200
+    }
+  ],
+  "STATE_OREGON/ORG": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4848
+    },
+    {
+      "culture": "salish",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "nez_perce",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_PENNSYLVANIA/VPA": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1250496
+    },
+    {
+      "culture": "yankee",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "yankee",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 144008
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 59800
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 43996
+    }
+  ],
+  "STATE_QUEBEC/VIN": [
+    {
+      "culture": "franco_canadian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 547200
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_QUEBEC/VQC": [
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18204
+    },
+    {
+      "culture": "franco_canadian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 19200
+    },
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_RHODE_ISLAND/VNI": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 104820
+    }
+  ],
+  "STATE_SASKATCHEWAN/IRC": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "cree",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24000
+    }
+  ],
+  "STATE_SASKATCHEWAN/VPC": [
+    {
+      "culture": "anglo_canadian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4200
+    },
+    {
+      "culture": "metis",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_SOUTH_CAROLINA/VVA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 253836
+    },
+    {
+      "culture": "dixie",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6960
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8099
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 318693
+    }
+  ],
+  "STATE_SOUTH_DAKOTA/LKT": [
+    {
+      "culture": "dakota",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 34000
+    }
+  ],
+  "STATE_SOUTH_DAKOTA/VLA": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_TENNESSEE/VCE": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 369604
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7200
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 204800
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5040
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 142960
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 39996
+    },
+    {
+      "culture": "cherokee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2528
+    }
+  ],
+  "STATE_TEXAS/COM": [
+    {
+      "culture": "oodham",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "comanche",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18000
+    },
+    {
+      "culture": "apache",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_TEXAS/VCD": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 42224
+    },
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1996
+    },
+    {
+      "culture": "caddoan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 6040
+    },
+    {
+      "culture": "mexican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2004
+    }
+  ],
+  "STATE_UTAH/NVJ": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "navajo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_UTAH/UTE": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_VERMONT/VNI": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 282848
+    }
+  ],
+  "STATE_VIRGINIA/VVA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 423597
+    },
+    {
+      "culture": "dixie",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 35120
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 312079
+    }
+  ],
+  "STATE_WASHINGTON/SLS": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "nez_perce",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "salish",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_WEST_VIRGINIA/VVA": [
+    {
+      "culture": "dixie",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 160916
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": "slaves",
+      "size": 18081
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1808
+    },
+    {
+      "culture": "dixie",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28000
+    }
+  ],
+  "STATE_WISCONSIN/VGT": [
+    {
+      "culture": "algonquian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 28004
+    }
+  ],
+  "STATE_WYOMING/ABS": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6500
+    }
+  ],
+  "STATE_WYOMING/ARP": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_WYOMING/BNN": [
+    {
+      "culture": "paiute",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_WYOMING/LKT": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_WYOMING/SLS": [
+    {
+      "culture": "salish",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5600
+    }
+  ],
+  "STATE_WYOMING/VLA": [
+    {
+      "culture": "siouan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_YUKON_TERRITORY/ATB": [
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 75
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5425
+    },
+    {
+      "culture": "athabaskan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6500
+    }
+  ]
+}

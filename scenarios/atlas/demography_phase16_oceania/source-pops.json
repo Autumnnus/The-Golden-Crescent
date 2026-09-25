@@ -1,0 +1,738 @@
+{
+  "STATE_BOUGAINVILLE/HLA": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48000
+    }
+  ],
+  "STATE_EAST_MICRONESIA/MCR": [
+    {
+      "culture": "micronesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 23840
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 24
+    },
+    {
+      "culture": "polynesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 360
+    }
+  ],
+  "STATE_FIJI/FJI": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 82000
+    }
+  ],
+  "STATE_HAWAIIAN_ISLANDS/HAW": [
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": "clergymen",
+      "size": 100
+    },
+    {
+      "culture": "yankee",
+      "religion": "protestant",
+      "pop_type": "capitalists",
+      "size": 450
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": "capitalists",
+      "size": 500
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": "capitalists",
+      "size": 250
+    },
+    {
+      "culture": "hawaiian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 132304
+    },
+    {
+      "culture": "hawaiian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8500
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 50000
+    }
+  ],
+  "STATE_KANAK/KNK": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 56004
+    }
+  ],
+  "STATE_NAURU/NRU": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1251
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/KLN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1650
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/KNC": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27756
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 77117
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 57604
+    },
+    {
+      "culture": "scottish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 128
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1431
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/KRI": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 650
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/PAA": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4290
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/WDJ": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 42321
+    }
+  ],
+  "STATE_NEW_SOUTH_WALES/YUR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 341
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/ARH": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 36430
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/ARR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11500
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/GRW": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14000
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/KNC": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2500
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/LRR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15600
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/NYP": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/WRR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2800
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/WTI": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2804
+    }
+  ],
+  "STATE_NORTHERN_TERRITORY/YGU": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2165
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3600
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10200
+    }
+  ],
+  "STATE_NORTH_ISLAND/NTO": [
+    {
+      "culture": "maori",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1004
+    },
+    {
+      "culture": "maori",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    }
+  ],
+  "STATE_NORTH_ISLAND/UNT": [
+    {
+      "culture": "maori",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "maori",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25000
+    }
+  ],
+  "STATE_QUEENSLAND/ARR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3340
+    }
+  ],
+  "STATE_QUEENSLAND/GRW": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2750
+    }
+  ],
+  "STATE_QUEENSLAND/KNC": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5200
+    }
+  ],
+  "STATE_QUEENSLAND/MRA": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3746
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10452
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5628
+    },
+    {
+      "culture": "scottish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 34
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20315
+    }
+  ],
+  "STATE_QUEENSLAND/PAA": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_QUEENSLAND/PMA": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25710
+    }
+  ],
+  "STATE_QUEENSLAND/WDJ": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4800
+    }
+  ],
+  "STATE_QUEENSLAND/WKB": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13400
+    }
+  ],
+  "STATE_SOLOMON_ISLANDS/BLA": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 52400
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/KAU": [
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6467
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3436
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "scottish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 300
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 300
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 51000
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/KLN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8609
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/KNC": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1512
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/MRN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2500
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/PAA": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3790
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/WTI": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12500
+    }
+  ],
+  "STATE_SOUTH_AUSTRALIA/YUR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10425
+    }
+  ],
+  "STATE_SOUTH_ISLAND/NTO": [
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 428
+    },
+    {
+      "culture": "maori",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_SOUTH_ISLAND/NTU": [
+    {
+      "culture": "maori",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 64000
+    }
+  ],
+  "STATE_TAHITI/PLY": [
+    {
+      "culture": "polynesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 169004
+    },
+    {
+      "culture": "polynesian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 160
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 400
+    }
+  ],
+  "STATE_TASMANIA/VTL": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 200
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 41200
+    }
+  ],
+  "STATE_TONGA/TNG": [
+    {
+      "culture": "polynesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_TONGA/VSM": [
+    {
+      "culture": "polynesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_VANUATU/VNT": [
+    {
+      "culture": "melanesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 92000
+    }
+  ],
+  "STATE_VICTORIA/KLN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 21783
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 32824
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16578
+    },
+    {
+      "culture": "scottish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 52
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 16697
+    }
+  ],
+  "STATE_VICTORIA/KRI": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10781
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/KTU": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10500
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/KYN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13500
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/MRN": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/NNG": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4014
+    },
+    {
+      "culture": "australian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 11703
+    },
+    {
+      "culture": "irish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6301
+    },
+    {
+      "culture": "scottish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 484
+    },
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 21100
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/NYP": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7500
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/WRR": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20300
+    }
+  ],
+  "STATE_WESTERN_AUSTRALIA/WTI": [
+    {
+      "culture": "aborigine",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12500
+    }
+  ],
+  "STATE_WEST_MICRONESIA/MCR": [
+    {
+      "culture": "micronesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 23840
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 24
+    },
+    {
+      "culture": "polynesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 360
+    },
+    {
+      "culture": "micronesian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2612
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1007
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2612
+    },
+    {
+      "culture": "micronesian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 923
+    },
+    {
+      "culture": "micronesian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1432
+    },
+    {
+      "culture": "filipino_mestizo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 62
+    },
+    {
+      "culture": "visayan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 341
+    }
+  ]
+}

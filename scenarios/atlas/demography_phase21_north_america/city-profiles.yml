@@ -1,0 +1,209 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Only hub names plausible in this world are profiled: early coastal colony names and
+# names taken from local languages. US-era or French/Russian colonial names (New York,
+# Washington, St. Louis, New Orleans, New Archangel, Montreal...) are left unprofiled.
+version: 1
+cities:
+  Boston:
+    state: STATE_MASSACHUSETTS
+    owner: VNI
+    hub: city
+    population: 90000
+    weights: {yankee/protestant: 820, irish/catholic: 90, yankee/catholic: 40, afro_american/protestant: 30,
+              sephardic/jewish: 10, dutch/protestant: 10}
+  Providence:
+    state: STATE_RHODE_ISLAND
+    owner: VNI
+    hub: city
+    population: 25000
+    weights: {yankee/protestant: 880, irish/catholic: 40, afro_american/protestant: 50, sephardic/jewish: 10,
+              yankee/catholic: 20}
+  Newport:
+    state: STATE_RHODE_ISLAND
+    owner: VNI
+    hub: port
+    population: 12000
+    weights: {yankee/protestant: 880, sephardic/jewish: 30, afro_american/protestant: 70, irish/catholic: 20}
+  Hartford:
+    state: STATE_CONNECTICUT
+    owner: VNI
+    hub: city
+    population: 15000
+    weights: {yankee/protestant: 950, afro_american/protestant: 30, irish/catholic: 20}
+  New Haven:
+    state: STATE_CONNECTICUT
+    owner: VNI
+    hub: port
+    population: 14000
+    weights: {yankee/protestant: 950, afro_american/protestant: 30, irish/catholic: 20}
+  Portsmouth:
+    state: STATE_NEW_HAMPSHIRE
+    owner: VNI
+    hub: port
+    population: 9000
+    weights: {yankee/protestant: 950, yankee/catholic: 50}
+  Brooklyn:
+    state: STATE_NEW_YORK
+    owner: VNH
+    hub: port
+    population: 40000
+    weights: {dutch/protestant: 520, yankee/protestant: 300, afro_american/protestant: 60, french/protestant: 40,
+              sephardic/jewish: 20, north_german/protestant: 40, irish/catholic: 20}
+  Philadelphia:
+    state: STATE_PENNSYLVANIA
+    owner: VPA
+    hub: city
+    population: 110000
+    weights: {yankee/protestant: 600, north_german/protestant: 180, irish/catholic: 50, yankee/catholic: 30,
+              afro_american/protestant: 80, ashkenazi/jewish: 20, scottish/protestant: 40}
+  Richmond:
+    state: STATE_VIRGINIA
+    owner: VVA
+    hub: city
+    population: 20000
+    weights: {dixie/protestant: 540, dixie/catholic: 60, afro_american/protestant: 400}
+  Norfolk:
+    state: STATE_VIRGINIA
+    owner: VVA
+    hub: port
+    population: 12000
+    weights: {dixie/protestant: 560, dixie/catholic: 40, afro_american/protestant: 400}
+  Baltimore:
+    state: STATE_MARYLAND
+    owner: VVA
+    hub: city
+    population: 90000
+    weights: {dixie/protestant: 620, dixie/catholic: 130, afro_american/protestant: 250}
+  Annapolis:
+    state: STATE_MARYLAND
+    owner: VVA
+    hub: port
+    population: 3000
+    weights: {dixie/protestant: 600, dixie/catholic: 150, afro_american/protestant: 250}
+  Charleston:
+    state: STATE_SOUTH_CAROLINA
+    owner: VVA
+    hub: port
+    population: 30000
+    weights: {dixie/protestant: 440, afro_american/protestant: 540, dixie/jewish: 20}
+  Wilmington:
+    state: STATE_NORTH_CAROLINA
+    owner: VVA
+    hub: port
+    population: 5000
+    weights: {dixie/protestant: 600, afro_american/protestant: 400}
+  Quebec:
+    state: STATE_QUEBEC
+    owner: VIN
+    hub: port
+    population: 20000
+    weights: {norwegian/protestant: 350, swedish/protestant: 200, danish/protestant: 170, icelandic/protestant: 30,
+              finnish/protestant: 30, algonquian/animist: 120, iroquoian/animist: 70, algonquian/protestant: 30}
+  Sheshatshiu:
+    state: STATE_NEWFOUNDLAND
+    owner: VIN
+    hub: mine
+    population: 1000
+    weights: {algonquian/animist: 900, norwegian/protestant: 100}
+  Tallahassee:
+    state: STATE_FLORIDA
+    owner: VBU
+    hub: city
+    population: 8000
+    weights: {turkish/sunni: 200, mashriqi/sunni: 200, greek/orthodox: 100, afro_american/sunni: 150,
+              afro_american/protestant: 100, muskogean/animist: 200, muskogean/sunni: 50}
+  Tampa:
+    state: STATE_FLORIDA
+    owner: VBU
+    hub: port
+    population: 12000
+    weights: {turkish/sunni: 220, mashriqi/sunni: 220, greek/orthodox: 150, maghrebi/sunni: 80, sephardic/jewish: 30,
+              armenian/oriental_orthodox: 20, afro_american/sunni: 100, afro_american/protestant: 100,
+              muskogean/animist: 50, dixie/protestant: 30}
+  St.George's:
+    state: STATE_BERMUDA
+    owner: GBR
+    hub: city
+    population: 3000
+    weights: {british/protestant: 550, afro_caribbean/protestant: 450}
+  Hamilton:
+    state: STATE_BERMUDA
+    owner: GBR
+    hub: port
+    population: 2000
+    weights: {british/protestant: 550, afro_caribbean/protestant: 450}
+  Chicago:
+    state: STATE_ILLINOIS
+    owner: VGT
+    hub: city
+    population: 12000
+    weights: {algonquian/animist: 700, siouan/animist: 100, yankee/protestant: 80, dutch/protestant: 60,
+              afro_american/protestant: 30, algonquian/protestant: 30}
+  Milwaukee:
+    state: STATE_WISCONSIN
+    owner: VGT
+    hub: city
+    population: 5000
+    weights: {algonquian/animist: 750, siouan/animist: 150, yankee/protestant: 60, dutch/protestant: 40}
+  Toronto:
+    state: STATE_ONTARIO
+    owner: VAI
+    hub: farm
+    population: 6000
+    weights: {iroquoian/animist: 450, algonquian/animist: 400, norwegian/protestant: 50, yankee/protestant: 50,
+              dutch/protestant: 50}
+  Mobile:
+    state: STATE_ALABAMA
+    owner: VMC
+    hub: port
+    population: 6000
+    weights: {muskogean/animist: 600, muskogean/sunni: 100, afro_american/protestant: 200, dixie/protestant: 100}
+  Biloxi:
+    state: STATE_MISSISSIPPI
+    owner: VCO
+    hub: port
+    population: 3000
+    weights: {muskogean/animist: 800, afro_american/protestant: 100, dixie/protestant: 100}
+  Chattanooga:
+    state: STATE_TENNESSEE
+    owner: VCE
+    hub: wood
+    population: 5000
+    weights: {cherokee/animist: 700, cherokee/protestant: 200, muskogean/animist: 100}
+  Omaha:
+    state: STATE_NEBRASKA
+    owner: VPW
+    hub: city
+    population: 3000
+    weights: {siouan/animist: 600, caddoan/animist: 400}
+  Wichita:
+    state: STATE_KANSAS
+    owner: VPW
+    hub: city
+    population: 3000
+    weights: {caddoan/animist: 600, siouan/animist: 400}
+  Walla Walla:
+    state: STATE_WASHINGTON
+    owner: SLS
+    hub: farm
+    population: 3000
+    weights: {nez_perce/animist: 700, salish/animist: 300}
+  Spokane:
+    state: STATE_WASHINGTON
+    owner: SLS
+    hub: wood
+    population: 2000
+    weights: {salish/animist: 800, nez_perce/animist: 200}
+  Tucson:
+    state: STATE_ARIZONA
+    owner: APC
+    hub: city
+    population: 3000
+    weights: {oodham/animist: 600, apache/animist: 200, pueblo/animist: 100, mexican/catholic: 100}
+  Arviat:
+    state: STATE_NUNAVUT
+    owner: VNU
+    hub: farm
+    population: 1000
+    weights: {inuit/animist: 1000}

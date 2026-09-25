@@ -1,0 +1,14 @@
+version: 1
+policy: >-
+  The independent Bengal Sultanate uses H7 law: inherited slaves become free
+  people of the same culture and religion. British and Scottish civil/military
+  officials in independent Indian polities are replaced by local officials of
+  identical profession and headcount. Foreign capitalists can remain private
+  merchants. All country and state totals, borders and other POPs stay intact.
+shares:
+  STATE_AGRA: {owner: MUG, local_culture: hindustani, local_religion: sunni}
+  STATE_BIHAR: {owner: BGL, local_culture: bihari, local_religion: hindu}
+  STATE_EAST_BENGAL: {owner: BGL, local_culture: bengali, local_religion: sunni}
+  STATE_WEST_BENGAL: {owner: BGL, local_culture: bengali, local_religion: hindu}
+  STATE_BOMBAY: {owner: MAR, local_culture: marathi, local_religion: hindu}
+  STATE_CENTRAL_PROVINCES: {owner: NAG, local_culture: marathi, local_religion: hindu}

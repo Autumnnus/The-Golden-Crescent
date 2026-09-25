@@ -1,0 +1,760 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Sizes are 1836 design estimates slightly below real history for a delayed Europe; Berlin is a
+# Brandenburg margrave capital without a Prussian state. Weights follow the share's planned groups
+# (>= 2%), with the small Islamic-world and Jewish merchant groups of trade cities kept explicit.
+version: 1
+cities:
+  Paris:
+    state: STATE_ILE_DE_FRANCE
+    owner: FPA
+    hub: city
+    population: 800000
+    weights:
+      french/catholic: 949
+      french/protestant: 25
+      ashkenazi/jewish: 10
+      ve_andalusi/sunni: 5
+      turkish/sunni: 3
+      mashriqi/sunni: 3
+      sephardic/jewish: 5
+  Amiens:
+    state: STATE_PICARDY
+    owner: FPA
+    hub: city
+    population: 45000
+    weights:
+      french/catholic: 1000
+  Rouen:
+    state: STATE_NORMANDY
+    owner: FPA
+    hub: city
+    population: 85000
+    weights:
+      french/catholic: 1000
+  Le Havre:
+    state: STATE_NORMANDY
+    owner: FPA
+    hub: port
+    population: 25000
+    weights:
+      french/catholic: 1000
+  Reims:
+    state: STATE_CHAMPAGNE
+    owner: FPA
+    hub: city
+    population: 35000
+    weights:
+      french/catholic: 1000
+  Orléans:
+    state: STATE_ORLEANS
+    owner: FPA
+    hub: city
+    population: 40000
+    weights:
+      french/catholic: 1000
+  Angers:
+    state: STATE_MAINE_ANJOU
+    owner: FPA
+    hub: city
+    population: 35000
+    weights:
+      french/catholic: 1000
+  Lille:
+    state: STATE_FRENCH_LOW_COUNTRIES
+    owner: FPA
+    hub: city
+    population: 65000
+    weights:
+      french/catholic: 958
+      flemish/catholic: 42
+  Dunkirk:
+    state: STATE_FRENCH_LOW_COUNTRIES
+    owner: FPA
+    hub: port
+    population: 25000
+    weights:
+      french/catholic: 958
+      flemish/catholic: 42
+  Dijon:
+    state: STATE_BURGUNDY
+    owner: FBG
+    hub: city
+    population: 25000
+    weights:
+      french/catholic: 1000
+  Besançon:
+    state: STATE_FRANCHE_COMTE
+    owner: FBG
+    hub: city
+    population: 28000
+    weights:
+      french/catholic: 826
+      francoprovencal/catholic: 130
+      french/protestant: 44
+  Nancy:
+    state: STATE_LORRAINE
+    owner: FBG
+    hub: city
+    population: 30000
+    weights:
+      french/catholic: 1000
+  Strazburg:
+    state: STATE_ALSACE_LORRAINE
+    owner: FBG
+    hub: city
+    population: 55000
+    weights:
+      alemannic/catholic: 506
+      alemannic/protestant: 253
+      french/catholic: 152
+      south_german/catholic: 61
+      ashkenazi/jewish: 28
+  Metz:
+    state: STATE_ALSACE_LORRAINE
+    owner: FBG
+    hub: farm
+    population: 40000
+    weights:
+      alemannic/catholic: 506
+      alemannic/protestant: 253
+      french/catholic: 152
+      south_german/catholic: 61
+      ashkenazi/jewish: 28
+  Lyon:
+    state: STATE_RHONE
+    owner: FBG
+    hub: city
+    population: 140000
+    weights:
+      francoprovencal/catholic: 659
+      occitan/catholic: 274
+      french/catholic: 37
+      occitan/protestant: 30
+  Nant:
+    state: STATE_BRITTANY
+    owner: FBR
+    hub: city
+    population: 70000
+    weights:
+      breton/catholic: 611
+      french/catholic: 389
+  Brest:
+    state: STATE_BRITTANY
+    owner: FBR
+    hub: port
+    population: 30000
+    weights:
+      breton/catholic: 611
+      french/catholic: 389
+  Rennes:
+    state: STATE_BRITTANY
+    owner: FBR
+    hub: wood
+    population: 30000
+    weights:
+      breton/catholic: 611
+      french/catholic: 389
+  Bordo:
+    state: STATE_AQUITAINE
+    owner: FAQ
+    hub: city
+    population: 95000
+    weights:
+      occitan/catholic: 868
+      basque/catholic: 32
+      french/catholic: 31
+      occitan/protestant: 29
+      ve_andalusi/sunni: 15
+      sephardic/jewish: 15
+      maghrebi/sunni: 10
+  Bayonne:
+    state: STATE_AQUITAINE
+    owner: FAQ
+    hub: port
+    population: 15000
+    weights:
+      occitan/catholic: 904
+      basque/catholic: 34
+      french/catholic: 32
+      occitan/protestant: 30
+  Poitiers:
+    state: STATE_POITOU
+    owner: FAQ
+    hub: city
+    population: 22000
+    weights:
+      french/catholic: 935
+      french/protestant: 65
+  La Rochelle:
+    state: STATE_POITOU
+    owner: FAQ
+    hub: port
+    population: 15000
+    weights:
+      french/catholic: 935
+      french/protestant: 65
+  Toulouse:
+    state: STATE_LANGUEDOC
+    owner: FOC
+    hub: city
+    population: 70000
+    weights:
+      occitan/catholic: 814
+      occitan/protestant: 101
+      catalan/catholic: 60
+      french/catholic: 25
+  Montpellier:
+    state: STATE_LANGUEDOC
+    owner: FOC
+    hub: port
+    population: 35000
+    weights:
+      occitan/catholic: 814
+      occitan/protestant: 101
+      catalan/catholic: 60
+      french/catholic: 25
+  Limoges:
+    state: STATE_AUVERGNE_LIMOUSIN
+    owner: FOC
+    hub: city
+    population: 30000
+    weights:
+      occitan/catholic: 841
+      french/catholic: 159
+  Clermont-Ferrand:
+    state: STATE_AUVERGNE_LIMOUSIN
+    owner: FOC
+    hub: farm
+    population: 28000
+    weights:
+      occitan/catholic: 841
+      french/catholic: 159
+  Marsilya:
+    state: STATE_PROVENCE
+    owner: FPR
+    hub: city
+    population: 140000
+    weights:
+      occitan/catholic: 867
+      maghrebi/sunni: 40
+      french/catholic: 33
+      turkish/sunni: 20
+      mashriqi/sunni: 15
+      ve_andalusi/sunni: 15
+      greek/orthodox: 10
+  Toulon:
+    state: STATE_PROVENCE
+    owner: FPR
+    hub: port
+    population: 30000
+    weights:
+      occitan/catholic: 943
+      french/catholic: 36
+      maghrebi/sunni: 21
+  Berlin:
+    state: STATE_BRANDENBURG
+    owner: VBR
+    hub: city
+    population: 170000
+    weights:
+      north_german/protestant: 973
+      north_german/catholic: 27
+  Stettin:
+    state: STATE_POMERANIA
+    owner: VPM
+    hub: city
+    population: 30000
+    weights:
+      north_german/protestant: 907
+      north_german/catholic: 93
+  Köln:
+    state: STATE_NORTH_RHINE
+    owner: VRC
+    hub: city
+    population: 65000
+    weights:
+      north_german/catholic: 822
+      north_german/protestant: 178
+  Düsseldorf:
+    state: STATE_RUHR
+    owner: VRC
+    hub: city
+    population: 30000
+    weights:
+      north_german/catholic: 822
+      north_german/protestant: 178
+  Münster:
+    state: STATE_WESTPHALIA
+    owner: VRC
+    hub: farm
+    population: 20000
+    weights:
+      north_german/catholic: 603
+      north_german/protestant: 397
+  Magdeburg:
+    state: STATE_ANHALT
+    owner: ANH
+    hub: city
+    population: 40000
+    weights:
+      north_german/protestant: 873
+      north_german/catholic: 127
+  Dessau:
+    state: STATE_ANHALT
+    owner: ANH
+    hub: farm
+    population: 12000
+    weights:
+      north_german/protestant: 873
+      north_german/catholic: 127
+  Reykjavík:
+    state: STATE_ICELAND
+    owner: NOR
+    hub: city
+    population: 1000
+    weights:
+      icelandic/protestant: 1000
+  Prag:
+    state: STATE_BOHEMIA
+    owner: VBO
+    hub: city
+    population: 100000
+    weights:
+      czech/catholic: 632
+      south_german/catholic: 368
+  Pilsen:
+    state: STATE_BOHEMIA
+    owner: VBO
+    hub: wood
+    population: 10000
+    weights:
+      czech/catholic: 632
+      south_german/catholic: 368
+  Brno:
+    state: STATE_MORAVIA
+    owner: VBO
+    hub: city
+    population: 40000
+    weights:
+      czech/catholic: 587
+      south_german/catholic: 234
+      polish/catholic: 88
+      north_german/catholic: 64
+      north_german/protestant: 27
+  Brüksel:
+    state: STATE_FLANDERS
+    owner: VBT
+    hub: city
+    population: 95000
+    weights:
+      flemish/catholic: 895
+      wallonian/catholic: 105
+  Anvers:
+    state: STATE_FLANDERS
+    owner: VBT
+    hub: farm
+    population: 70000
+    weights:
+      flemish/catholic: 895
+      wallonian/catholic: 105
+  Ghent:
+    state: STATE_FLANDERS
+    owner: VBT
+    hub: wood
+    population: 75000
+    weights:
+      flemish/catholic: 895
+      wallonian/catholic: 105
+  Lüksemburg:
+    state: STATE_WALLONIA
+    owner: VLG
+    hub: city
+    population: 12000
+    weights:
+      wallonian/catholic: 972
+      flemish/catholic: 28
+  Liège:
+    state: STATE_WALLONIA
+    owner: VLG
+    hub: mine
+    population: 55000
+    weights:
+      wallonian/catholic: 972
+      flemish/catholic: 28
+  Brunswick:
+    state: STATE_BRUNSWICK
+    owner: BRA
+    hub: city
+    population: 35000
+    weights:
+      north_german/protestant: 1000
+  Viyana:
+    state: STATE_AUSTRIA
+    owner: AUS
+    hub: city
+    population: 300000
+    weights:
+      south_german/catholic: 1000
+  Linz:
+    state: STATE_AUSTRIA
+    owner: AUS
+    hub: farm
+    population: 20000
+    weights:
+      south_german/catholic: 1000
+  Karlsruhe:
+    state: STATE_BADEN
+    owner: BAD
+    hub: city
+    population: 20000
+    weights:
+      south_german/catholic: 697
+      south_german/protestant: 193
+      alemannic/protestant: 110
+  Freiburg:
+    state: STATE_BADEN
+    owner: BAD
+    hub: farm
+    population: 15000
+    weights:
+      south_german/catholic: 697
+      south_german/protestant: 193
+      alemannic/protestant: 110
+  Münih:
+    state: STATE_BAVARIA
+    owner: BAV
+    hub: city
+    population: 85000
+    weights:
+      south_german/catholic: 968
+      south_german/protestant: 32
+  Augsburg:
+    state: STATE_BAVARIA
+    owner: BAV
+    hub: wood
+    population: 35000
+    weights:
+      south_german/catholic: 968
+      south_german/protestant: 32
+  Christiania:
+    state: STATE_EASTERN_NORWAY
+    owner: NOR
+    hub: city
+    population: 25000
+    weights:
+      norwegian/protestant: 1000
+  Zürih:
+    state: STATE_EAST_SWITZERLAND
+    owner: SWI
+    hub: city
+    population: 15000
+    weights:
+      alemannic/protestant: 434
+      alemannic/catholic: 357
+      north_italian/catholic: 209
+  Hamburg:
+    state: STATE_ELBE
+    owner: HAM
+    hub: city
+    population: 120000
+    weights:
+      north_german/protestant: 938
+      ashkenazi/jewish: 50
+      turkish/sunni: 6
+      sephardic/jewish: 6
+  Bremen:
+    state: STATE_ELBE
+    owner: BRE
+    hub: farm
+    population: 40000
+    weights:
+      north_german/protestant: 962
+      north_german/catholic: 38
+  Nürnberg:
+    state: STATE_FRANCONIA
+    owner: BAV
+    hub: city
+    population: 45000
+    weights:
+      south_german/catholic: 562
+      south_german/protestant: 438
+  Würzburg:
+    state: STATE_FRANCONIA
+    owner: BAV
+    hub: wood
+    population: 25000
+    weights:
+      south_german/catholic: 562
+      south_german/protestant: 438
+  Groningen:
+    state: STATE_FRIESLAND
+    owner: NET
+    hub: city
+    population: 30000
+    weights:
+      dutch/protestant: 798
+      dutch/catholic: 202
+  Göteborg:
+    state: STATE_GOTALAND
+    owner: SWE
+    hub: port
+    population: 25000
+    weights:
+      swedish/protestant: 1000
+  Visby:
+    state: STATE_GOTLAND
+    owner: SWE
+    hub: port
+    population: 4000
+    weights:
+      swedish/protestant: 1000
+  Hannover:
+    state: STATE_HANNOVER
+    owner: HAN
+    hub: city
+    population: 30000
+    weights:
+      north_german/protestant: 828
+      north_german/catholic: 172
+  Frankfurt:
+    state: STATE_HESSE
+    owner: FRM
+    hub: city
+    population: 50000
+    weights:
+      north_german/protestant: 894
+      north_german/catholic: 71
+      ashkenazi/jewish: 35
+  Mainz:
+    state: STATE_HESSE
+    owner: HES
+    hub: farm
+    population: 30000
+    weights:
+      north_german/protestant: 806
+      north_german/catholic: 194
+  Amsterdam:
+    state: STATE_HOLLAND
+    owner: NET
+    hub: city
+    population: 190000
+    weights:
+      dutch/protestant: 663
+      dutch/catholic: 258
+      ashkenazi/jewish: 27
+      flemish/catholic: 20
+      turkish/sunni: 10
+      sephardic/jewish: 10
+      mashriqi/sunni: 6
+      ve_andalusi/sunni: 6
+  Rotterdam:
+    state: STATE_HOLLAND
+    owner: NET
+    hub: port
+    population: 70000
+    weights:
+      dutch/protestant: 685
+      dutch/catholic: 266
+      ashkenazi/jewish: 28
+      flemish/catholic: 21
+  Utrecht:
+    state: STATE_HOLLAND
+    owner: NET
+    hub: farm
+    population: 45000
+    weights:
+      dutch/protestant: 685
+      dutch/catholic: 266
+      ashkenazi/jewish: 28
+      flemish/catholic: 21
+  Aarhus:
+    state: STATE_JUTLAND
+    owner: DEN
+    hub: port
+    population: 7000
+    weights:
+      danish/protestant: 1000
+  Schwerin:
+    state: STATE_MECKLENBURG
+    owner: MEC
+    hub: city
+    population: 15000
+    weights:
+      north_german/protestant: 1000
+  Rostock:
+    state: STATE_MECKLENBURG
+    owner: MEC
+    hub: port
+    population: 20000
+    weights:
+      north_german/protestant: 1000
+  Trondhjem:
+    state: STATE_NORTHERN_NORWAY
+    owner: NOR
+    hub: city
+    population: 12000
+    weights:
+      norwegian/protestant: 845
+      sami/protestant: 118
+      finnish/protestant: 37
+  Dresden:
+    state: STATE_SAXONY
+    owner: SAX
+    hub: city
+    population: 65000
+    weights:
+      north_german/protestant: 879
+      sorb/catholic: 91
+      sorb/protestant: 30
+  Leipzig:
+    state: STATE_SAXONY
+    owner: SAX
+    hub: mine
+    population: 45000
+    weights:
+      north_german/protestant: 879
+      sorb/catholic: 91
+      sorb/protestant: 30
+  Malmö:
+    state: STATE_SCANIA
+    owner: SWE
+    hub: port
+    population: 8000
+    weights:
+      swedish/protestant: 1000
+  Kiel:
+    state: STATE_SCHLESWIG_HOLSTEIN
+    owner: HOL
+    hub: city
+    population: 12000
+    weights:
+      north_german/protestant: 949
+      danish/protestant: 51
+  Lübeck:
+    state: STATE_SCHLESWIG_HOLSTEIN
+    owner: LUB
+    hub: port
+    population: 25000
+    weights:
+      north_german/protestant: 976
+      north_german/catholic: 24
+  Flensburg:
+    state: STATE_SCHLESWIG_HOLSTEIN
+    owner: SCH
+    hub: farm
+    population: 15000
+    weights:
+      north_german/protestant: 595
+      danish/protestant: 405
+  Trento:
+    state: STATE_SOUTH_TYROL
+    owner: AUS
+    hub: city
+    population: 13000
+    weights:
+      north_italian/catholic: 627
+      south_german/catholic: 373
+  Bolzano:
+    state: STATE_SOUTH_TYROL
+    owner: AUS
+    hub: wood
+    population: 9000
+    weights:
+      north_italian/catholic: 627
+      south_german/catholic: 373
+  Graz:
+    state: STATE_STYRIA
+    owner: AUS
+    hub: city
+    population: 45000
+    weights:
+      south_german/catholic: 902
+      slovene/catholic: 98
+  Stokholm:
+    state: STATE_SVEALAND
+    owner: SWE
+    hub: city
+    population: 80000
+    weights:
+      swedish/protestant: 971
+      finnish/protestant: 29
+  Innsbruck:
+    state: STATE_TYROL
+    owner: AUS
+    hub: city
+    population: 12000
+    weights:
+      south_german/catholic: 768
+      alemannic/catholic: 232
+  Salzburg:
+    state: STATE_TYROL
+    owner: AUS
+    hub: farm
+    population: 15000
+    weights:
+      south_german/catholic: 768
+      alemannic/catholic: 232
+  Bergen:
+    state: STATE_WESTERN_NORWAY
+    owner: NOR
+    hub: port
+    population: 22000
+    weights:
+      norwegian/protestant: 1000
+  Bern:
+    state: STATE_WEST_SWITZERLAND
+    owner: SWI
+    hub: city
+    population: 20000
+    weights:
+      alemannic/protestant: 422
+      francoprovencal/protestant: 264
+      alemannic/catholic: 193
+      francoprovencal/catholic: 121
+  Lozan:
+    state: STATE_WEST_SWITZERLAND
+    owner: SWI
+    hub: farm
+    population: 15000
+    weights:
+      alemannic/protestant: 422
+      francoprovencal/protestant: 264
+      alemannic/catholic: 193
+      francoprovencal/catholic: 121
+  Basel:
+    state: STATE_WEST_SWITZERLAND
+    owner: SWI
+    hub: mine
+    population: 20000
+    weights:
+      alemannic/protestant: 422
+      francoprovencal/protestant: 264
+      alemannic/catholic: 193
+      francoprovencal/catholic: 121
+  Cenevre:
+    state: STATE_WEST_SWITZERLAND
+    owner: SWI
+    hub: wood
+    population: 30000
+    weights:
+      alemannic/protestant: 422
+      francoprovencal/protestant: 264
+      alemannic/catholic: 193
+      francoprovencal/catholic: 121
+  Stuttgart:
+    state: STATE_WURTTEMBERG
+    owner: WUR
+    hub: city
+    population: 35000
+    weights:
+      south_german/protestant: 539
+      south_german/catholic: 351
+      alemannic/protestant: 110
+  Kopenhag:
+    state: STATE_ZEALAND
+    owner: DEN
+    hub: city
+    population: 115000
+    weights:
+      danish/protestant: 1000

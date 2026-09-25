@@ -1,0 +1,35 @@
+# Estimates inside state/owner POP totals, not additional game POPs or buildings.
+# Names and hub types come from the installed Turkish localization.
+version: 1
+cities:
+  Singapur: {state: STATE_MALAYA, owner: JOH, hub: port, population: 80000, weights: {malay/sunni: 850, yue/confucian: 100, tamil/hindu: 30, british/protestant: 20}}
+  Kelang: {state: STATE_MALAYA, owner: SEL, hub: city, population: 35000, weights: {malay/sunni: 850, yue/confucian: 150}}
+  Bruney: {state: STATE_NORTH_BORNEO, owner: BRU, hub: city, population: 35000, weights: {bornean/sunni: 500, dayak/animist: 400, dayak/sunni: 100}}
+  Sandakan: {state: STATE_NORTH_BORNEO, owner: SUL, hub: mine, population: 8000, weights: {bornean/sunni: 400, dayak/animist: 350, dayak/sunni: 200, moro/sunni: 50}}
+  Tarakan: {state: STATE_EAST_BORNEO, owner: BLG, hub: mine, population: 12000, weights: {dayak/animist: 450, bornean/sunni: 350, dayak/sunni: 200}}
+  Mandor: {state: STATE_WEST_BORNEO, owner: LAN, hub: mine, population: 15000, weights: {hakka/confucian: 700, bornean/sunni: 200, dayak/animist: 100}}
+  Pontianak: {state: STATE_WEST_BORNEO, owner: PON, hub: city, population: 30000, weights: {bornean/sunni: 700, dayak/animist: 200, hakka/confucian: 20, dayak/sunni: 80}}
+  Pemangkat: {state: STATE_WEST_BORNEO, owner: SMB, hub: wood, population: 12000, weights: {bornean/sunni: 750, dayak/animist: 200, hakka/confucian: 50}}
+  Sintang: {state: STATE_WEST_BORNEO, owner: STG, hub: farm, population: 10000, weights: {bornean/sunni: 400, dayak/animist: 500, dayak/sunni: 100}}
+  Banjarmasin: {state: STATE_EAST_BORNEO, owner: BNJ, hub: city, population: 40000, weights: {bornean/sunni: 800, dayak/animist: 100, dayak/sunni: 100}}
+  Balikpapan: {state: STATE_EAST_BORNEO, owner: KTI, hub: port, population: 20000, weights: {bornean/sunni: 550, dayak/animist: 400, dayak/sunni: 50}}
+  Batavia: {state: STATE_WEST_JAVA, owner: YOG, hub: city, population: 300000, weights: {javan/sunni: 870, javan/animist: 90, yue/confucian: 35, dutch/protestant: 5}}
+  Yogyakarta: {state: STATE_CENTRAL_JAVA, owner: YOG, hub: city, population: 180000, weights: {javan/sunni: 850, javan/animist: 140, yue/confucian: 10}}
+  Surabaya: {state: STATE_EAST_JAVA, owner: SRK, hub: port, population: 170000, weights: {javan/sunni: 900, javan/animist: 80, yue/confucian: 20}}
+  Surakarta: {state: STATE_CENTRAL_JAVA, owner: SRK, hub: wood, population: 20000, weights: {javan/sunni: 750, javan/animist: 250}}
+  Padang: {state: STATE_NORTH_SUMATRA, owner: SAK, hub: port, population: 70000, weights: {sumatran/sunni: 850, batak/animist: 100, yue/confucian: 50}}
+  Medan: {state: STATE_ACEH, owner: SAK, hub: city, population: 60000, weights: {sumatran/sunni: 800, batak/animist: 100, batak/sunni: 50, yue/confucian: 50}}
+  Jambi: {state: STATE_NORTH_SUMATRA, owner: JMB, hub: city, population: 22000, weights: {sumatran/sunni: 800, batak/animist: 100, batak/sunni: 60, yue/confucian: 40}}
+  Kuta Raja: {state: STATE_ACEH, owner: ACE, hub: port, population: 55000, weights: {sumatran/sunni: 700, batak/animist: 250, yue/confucian: 20, batak/sunni: 30}}
+  Port Moresby: {state: STATE_EASTERN_NEW_GUINEA, owner: PPU, hub: city, population: 25000, weights: {melanesian/animist: 1000}}
+  Fakfak: {state: STATE_WESTERN_NEW_GUINEA, owner: TID, hub: city, population: 15000, weights: {melanesian/animist: 700, moluccan/sunni: 300}}
+  Ambon: {state: STATE_MOLUCCAS, owner: TID, hub: city, population: 50000, weights: {moluccan/sunni: 450, moluccan/animist: 450, melanesian/animist: 100}}
+  Macassar: {state: STATE_CELEBES, owner: SLW, hub: city, population: 65000, weights: {moluccan/sunni: 600, moluccan/animist: 400}}
+  Bolio: {state: STATE_CELEBES, owner: BTN, hub: wood, population: 9000, weights: {moluccan/sunni: 400, moluccan/animist: 600}}
+  Denpasar: {state: STATE_SUNDA_ISLANDS, owner: BAL, hub: port, population: 110000, weights: {balinese/hindu: 900, moluccan/sunni: 50, moluccan/animist: 50}}
+  Kupang: {state: STATE_SUNDA_ISLANDS, owner: BAL, hub: city, population: 70000, weights: {moluccan/sunni: 500, moluccan/animist: 250, melanesian/animist: 150, balinese/hindu: 100}}
+  Cotabato: {state: STATE_MINDANAO, owner: MGD, hub: mine, population: 55000, weights: {moro/sunni: 750, lumad/animist: 200, bornean/sunni: 50}}
+  Davao: {state: STATE_MINDANAO, owner: MND, hub: city, population: 35000, weights: {lumad/animist: 900, moro/sunni: 100}}
+  Zamboanga: {state: STATE_MINDANAO, owner: SUL, hub: port, population: 40000, weights: {moro/sunni: 400, lumad/animist: 300, visayan/animist: 200, visayan/catholic: 100}}
+  Manila: {state: STATE_LUZON, owner: VTD, hub: city, population: 150000, weights: {tagalog/animist: 620, tagalog/catholic: 150, ilocano/animist: 150, ilocano/catholic: 50, filipino_mestizo/catholic: 20, spanish/catholic: 10}}
+  Cebu: {state: STATE_VISAYAS, owner: VVS, hub: city, population: 100000, weights: {visayan/animist: 780, visayan/catholic: 180, tagalog/animist: 20, filipino_mestizo/catholic: 10, spanish/catholic: 10}}

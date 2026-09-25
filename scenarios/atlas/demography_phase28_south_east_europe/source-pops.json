@@ -1,0 +1,1750 @@
+{
+  "STATE_ABRUZZO/SIC": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 660448
+    }
+  ],
+  "STATE_ALBANIA/ALB": [
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1004808
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "albanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 127200
+    },
+    {
+      "culture": "albanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 91200
+    }
+  ],
+  "STATE_APULIA/SIC": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1284392
+    }
+  ],
+  "STATE_ARAGON/VAR": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 389486
+    },
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 30202
+    },
+    {
+      "culture": "aragonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 214874
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 100123
+    }
+  ],
+  "STATE_ASTURIAS/VGL": [
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 364438
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 36123
+    },
+    {
+      "culture": "galician",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 38002
+    }
+  ],
+  "STATE_BALEARIC_ISLANDS/VAR": [
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 211167
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20101
+    }
+  ],
+  "STATE_BANAT/HUN": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 312640
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 444620
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 57228
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 62296
+    },
+    {
+      "culture": "hungarian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 732
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1932
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 245256
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 64956
+    }
+  ],
+  "STATE_BASQUE_COUNTRY/VNV": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 229003
+    },
+    {
+      "culture": "basque",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 294137
+    }
+  ],
+  "STATE_BEKES/HUN": [
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 12000
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 176292
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 19996
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 288000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 144796
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 728400
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 117004
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 16004
+    }
+  ],
+  "STATE_BESSARABIA/MOL": [
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 303466
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 81600
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 43520
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 54400
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 28832
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16864
+    },
+    {
+      "culture": "turkish",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15776
+    }
+  ],
+  "STATE_BOSNIA/BOS": [
+    {
+      "culture": "bosniak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 304908
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3196
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 372400
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 183996
+    }
+  ],
+  "STATE_BUKOVINA/AUS": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20008
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 144000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 20004
+    },
+    {
+      "culture": "szekely",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10012
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1986
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 144400
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 32000
+    }
+  ],
+  "STATE_BULGARIA/BUL": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 210404
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 660000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4004
+    }
+  ],
+  "STATE_CALABRIA/SIC": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 882848
+    }
+  ],
+  "STATE_CAMPANIA/SIC": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2557396
+    }
+  ],
+  "STATE_CATALONIA/VAR": [
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 926100
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 50010
+    },
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 74512
+    }
+  ],
+  "STATE_CENTRAL_HUNGARY/HUN": [
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 18000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 4000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 927400
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 145596
+    },
+    {
+      "culture": "hungarian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 71996
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 31996
+    }
+  ],
+  "STATE_CORSICA/FPR": [
+    {
+      "culture": "corsican",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 190540
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 502
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16723
+    },
+    {
+      "culture": "corsican",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 124
+    }
+  ],
+  "STATE_CROATIA/CRO": [
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 563592
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20004
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 40396
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 176000
+    }
+  ],
+  "STATE_DALMATIA/AUS": [
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 297796
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 80000
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20004
+    }
+  ],
+  "STATE_DELVIDEK/HUN": [
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 197200
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 160000
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 284196
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 36000
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 44000
+    }
+  ],
+  "STATE_DOBRUDJA/BUL": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 59044
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 90004
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3900
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 76000
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2560
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 100
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_EASTERN_SERBIA/SER": [
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 203567
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 75573
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2031
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 201
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 175355
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 43839
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29226
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5845
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 120
+    }
+  ],
+  "STATE_EAST_PRUSSIA/VPD": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 5000
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 625796
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2600
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 117196
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 81200
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 26000
+    }
+  ],
+  "STATE_EMILIA/LUC": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 108408
+    }
+  ],
+  "STATE_EMILIA/MOD": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 648400
+    }
+  ],
+  "STATE_EMILIA/PAR": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 472004
+    }
+  ],
+  "STATE_ENTRE_DOURO_E_MINHO/VGL": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1194781
+    },
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8231
+    }
+  ],
+  "STATE_GALICIA/VGL": [
+    {
+      "culture": "galician",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1331476
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 133677
+    },
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20102
+    }
+  ],
+  "STATE_ISTRIA/AUS": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 197800
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "slovene",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 344504
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9792
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 124000
+    }
+  ],
+  "STATE_KOSOVO/ALB": [
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 167012
+    },
+    {
+      "culture": "albanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 23010
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 85010
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21020
+    },
+    {
+      "culture": "bosniak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7912
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4929
+    }
+  ],
+  "STATE_LAZIO/PAP": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1333868
+    },
+    {
+      "culture": "south_italian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5596
+    }
+  ],
+  "STATE_LEON/VCA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 260024
+    },
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 372894
+    },
+    {
+      "culture": "galician",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10003
+    }
+  ],
+  "STATE_LOMBARDY/VMI": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2376996
+    },
+    {
+      "culture": "north_italian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 396
+    }
+  ],
+  "STATE_LOWER_SILESIA/VBO": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 251922
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1427561
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 45402
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 102388
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5389
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 7875
+    },
+    {
+      "culture": "czech",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2625
+    },
+    {
+      "culture": "sorb",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 7600
+    },
+    {
+      "culture": "sorb",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 68400
+    }
+  ],
+  "STATE_MOLDAVIA/MOL": [
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1241552
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 116857
+    }
+  ],
+  "STATE_MONTENEGRO/AUS": [
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15662
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5261
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1281
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 524
+    }
+  ],
+  "STATE_MONTENEGRO/MON": [
+    {
+      "culture": "bosniak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 23196
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 124000
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 23800
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 114396
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2200
+    },
+    {
+      "culture": "bosniak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3800
+    }
+  ],
+  "STATE_NEW_CASTILE/VCA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1578858
+    }
+  ],
+  "STATE_NORTHERN_THRACE/BUL": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 273408
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 497600
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 40004
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 35600
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 6996
+    }
+  ],
+  "STATE_NORTHERN_TRANSYLVANIA/TRS": [
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 188760
+    },
+    {
+      "culture": "szekely",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 97240
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 388000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3008
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 164000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 93720
+    },
+    {
+      "culture": "szekely",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 48280
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 32800
+    }
+  ],
+  "STATE_OLD_CASTILE/VCA": [
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1254058
+    },
+    {
+      "culture": "asturleonese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20040
+    }
+  ],
+  "STATE_PIEDMONT/SAR": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2367188
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 93996
+    },
+    {
+      "culture": "north_italian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2804
+    }
+  ],
+  "STATE_ROMAGNA/PAP": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 803600
+    }
+  ],
+  "STATE_RUTHENIA/HUN": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 102035
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 68023
+    },
+    {
+      "culture": "slovak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1267
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5068
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8013
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5342
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 2800
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 48701
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 47501
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 12296
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 40687
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 421
+    }
+  ],
+  "STATE_SARDINIA/SAR": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 524084
+    }
+  ],
+  "STATE_SAVOY/SAR": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 92032
+    },
+    {
+      "culture": "francoprovencal",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 195568
+    },
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 181200
+    }
+  ],
+  "STATE_SICILY/SIC": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1647596
+    }
+  ],
+  "STATE_SLAVONIA/CRO": [
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 282048
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 48040
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20140
+    }
+  ],
+  "STATE_SLOVAKIA/HUN": [
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 15000
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 3000
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1090041
+    },
+    {
+      "culture": "slovak",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 273012
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 186040
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 126302
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 123031
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 84020
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 105072
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12021
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 22035
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5012
+    }
+  ],
+  "STATE_SLOVENIA/AUS": [
+    {
+      "culture": "slovene",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 464400
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 21388
+    }
+  ],
+  "STATE_SOUTHERN_TRANSYLVANIA/TRS": [
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 99003
+    },
+    {
+      "culture": "szekely",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 33001
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 45003
+    },
+    {
+      "culture": "szekely",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 15001
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 732000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 32800
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 77788
+    }
+  ],
+  "STATE_TRANSDANUBIA/HUN": [
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 18000
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 4000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1357796
+    },
+    {
+      "culture": "croat",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 316400
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 375204
+    },
+    {
+      "culture": "south_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1100
+    },
+    {
+      "culture": "slovak",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 128000
+    },
+    {
+      "culture": "hungarian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 35996
+    },
+    {
+      "culture": "slovene",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 59996
+    }
+  ],
+  "STATE_TUSCANY/TUS": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1625400
+    },
+    {
+      "culture": "north_italian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 6996
+    }
+  ],
+  "STATE_UMBRIA/PAP": [
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 451000
+    }
+  ],
+  "STATE_UPPER_SILESIA/VBO": [
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 157662
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 128996
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 13153
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 403318
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 21227
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8053
+    },
+    {
+      "culture": "czech",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3452
+    }
+  ],
+  "STATE_VALENCIA/VAR": [
+    {
+      "culture": "catalan",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 764685
+    },
+    {
+      "culture": "spanish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 201104
+    }
+  ],
+  "STATE_VENETIA/VVE": [
+    {
+      "culture": "north_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1855196
+    },
+    {
+      "culture": "north_italian",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_WALLACHIA/WAL": [
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2107689
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 120176
+    }
+  ],
+  "STATE_WESTERN_SERBIA/SER": [
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 436604
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1021
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 912
+    },
+    {
+      "culture": "bosniak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 36010
+    },
+    {
+      "culture": "albanian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10102
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3201
+    },
+    {
+      "culture": "serb",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 23101
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1201
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 102
+    }
+  ],
+  "STATE_WEST_GALICIA/KRA": [
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 500
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "clerks",
+      "size": 2000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "laborers",
+      "size": 5000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1740004
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 152000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 128500
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 1000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "clerks",
+      "size": 2000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 15000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 172396
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 14004
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 16000
+    }
+  ]
+}

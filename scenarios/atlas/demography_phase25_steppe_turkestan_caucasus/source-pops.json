@@ -1,0 +1,1934 @@
+{
+  "STATE_AKMOLINSK/OZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 113348
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5408
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21500
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 16451
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3581
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5004
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2240
+    }
+  ],
+  "STATE_AKTOBE/KZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 126349
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1352
+    }
+  ],
+  "STATE_ARMENIA/VER": [
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 135345
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4888
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 75112
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 21000
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 14894
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 433
+    },
+    {
+      "culture": "assyrian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 891
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 401
+    }
+  ],
+  "STATE_AZERBAIJAN/VBA": [
+    {
+      "culture": "azerbaijani",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 90245
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2866
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 79604
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 18294
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21014
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1187
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 27208
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 44865
+    }
+  ],
+  "STATE_BALKH/BUK": [
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18300
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 6300
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 9122
+    },
+    {
+      "culture": "hazara",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1111
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 4031
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8410
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3012
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4012
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9022
+    }
+  ],
+  "STATE_BALKH/KUN": [
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 82021
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25102
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12042
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10002
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1020
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 2031
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 4031
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 3021
+    }
+  ],
+  "STATE_BALKH/MAI": [
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 31022
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15021
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6410
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4102
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 1029
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 3029
+    }
+  ],
+  "STATE_BALUCHISTAN/KAL": [
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 512392
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 34000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 21000
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_BALUCHISTAN/KAN": [
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28100
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3185
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 300
+    }
+  ],
+  "STATE_BALUCHISTAN/MAK": [
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 440296
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 14800
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 7000
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4100
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 300
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 160
+    }
+  ],
+  "STATE_CENTRAL_HIGHLANDS/HER": [
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 7200
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 4200
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 22100
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1021
+    }
+  ],
+  "STATE_CENTRAL_HIGHLANDS/KAB": [
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 41200
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 41200
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12100
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7021
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4221
+    }
+  ],
+  "STATE_CENTRAL_HIGHLANDS/KAN": [
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 18012
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6010
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 4200
+    }
+  ],
+  "STATE_CHELYABINSK/KZH": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 27045
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 34132
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 39601
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9149
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4978
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5785
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1346
+    }
+  ],
+  "STATE_CHELYABINSK/OZH": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 22140
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 34440
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3780
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 420
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 710
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 278355
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 46034
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1218
+    }
+  ],
+  "STATE_DAGESTAN/CHC": [
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 198000
+    },
+    {
+      "culture": "chechen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6309
+    }
+  ],
+  "STATE_DAGESTAN/VDA": [
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 56100
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 7078
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 42200
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 2440
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19615
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 32156
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2777
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 4454
+    }
+  ],
+  "STATE_ELIZAVETPOL/VBA": [
+    {
+      "culture": "azerbaijani",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 91660
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 55000
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12999
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2909
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 92855
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 681
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4691
+    }
+  ],
+  "STATE_FERGANA/KOK": [
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 540592
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 201520
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 71600
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1805
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 11021
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 12221
+    }
+  ],
+  "STATE_GREATER_CAUCASUS/VGE": [
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 832950
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 9459
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6306
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 112000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 261189
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29996
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 59335
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 56244
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 36377
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19534
+    }
+  ],
+  "STATE_HERAT/HER": [
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 482012
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 20005
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 20025
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 182012
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 101220
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60120
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20192
+    }
+  ],
+  "STATE_JETISY/KZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 50642
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 43000
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_KABUL/KAB": [
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 631236
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18600
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 304400
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 40996
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 32000
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_KABUL/KAF": [
+    {
+      "culture": "kho",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 20344
+    },
+    {
+      "culture": "kho",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4404
+    }
+  ],
+  "STATE_KANDAHAR/KAN": [
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 70172
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25356
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5123
+    },
+    {
+      "culture": "hazara",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12400
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 714404
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 15004
+    },
+    {
+      "culture": "hazara",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 11000
+    }
+  ],
+  "STATE_KHIVA/KHI": [
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 428468
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 180427
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 61010
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 8030
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 20102
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 223100
+    }
+  ],
+  "STATE_KHIVA/KZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9021
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 385
+    }
+  ],
+  "STATE_KHIVA/TRM": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12222
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 2010
+    }
+  ],
+  "STATE_KIRGHIZIA/KIR": [
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 30150
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16002
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11000
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6100
+    }
+  ],
+  "STATE_KIRGHIZIA/KOK": [
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 182150
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 130196
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 3500
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16002
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11600
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_KUBAN/CIR": [
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8278
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1222
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 578
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6356
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6933
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 533
+    },
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 540000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 50000
+    }
+  ],
+  "STATE_MERZ/BUK": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 45120
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2005
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 9621
+    }
+  ],
+  "STATE_MERZ/KHI": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32001
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 1021
+    }
+  ],
+  "STATE_MERZ/TRM": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 151020
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 3020
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 9021
+    }
+  ],
+  "STATE_NORTHERN_BALUCHISTAN/KAN": [
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21400
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2404
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 1404
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5312
+    }
+  ],
+  "STATE_NORTH_CAUCASUS/CHC": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 7841
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2055
+    },
+    {
+      "culture": "chechen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2650
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9879
+    },
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 631
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1926
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 314
+    },
+    {
+      "culture": "chechen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 85000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21000
+    }
+  ],
+  "STATE_NORTH_CAUCASUS/CIR": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 23524
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6166
+    },
+    {
+      "culture": "chechen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7949
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29636
+    },
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1894
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5777
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 942
+    },
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 57809
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13000
+    }
+  ],
+  "STATE_NORTH_CAUCASUS/VDA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 31366
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 8222
+    },
+    {
+      "culture": "chechen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10598
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 39515
+    },
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2525
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7702
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1257
+    }
+  ],
+  "STATE_PASHTUNISTAN/KAB": [
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100040
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32185
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 106869
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 11002
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 21002
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 555572
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 362076
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 25260
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sikh",
+      "pop_type": null,
+      "size": 7630
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20005
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 369023
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 76313
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 30004
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10483
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sikh",
+      "pop_type": null,
+      "size": 10003
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 137028
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5128
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 15228
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 111779
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11453
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 10008
+    }
+  ],
+  "STATE_QUETTA/KAB": [
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 75779
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40315
+    },
+    {
+      "culture": "sindi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25012
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 25022
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12312
+    }
+  ],
+  "STATE_QUETTA/KAN": [
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 47972
+    },
+    {
+      "culture": "panjabi",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 7177
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20012
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10012
+    },
+    {
+      "culture": "panjabi",
+      "religion": "sikh",
+      "pop_type": null,
+      "size": 6001
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 22312
+    }
+  ],
+  "STATE_SAMARA/KZH": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 85000
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 31000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42000
+    }
+  ],
+  "STATE_SEMIRECHE/OZH": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 23130
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 216124
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3420
+    }
+  ],
+  "STATE_SYRDARYA/KOK": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 125000
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 31005
+    }
+  ],
+  "STATE_SYRDARYA/KZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 55000
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4100
+    }
+  ],
+  "STATE_SYRDARYA/OZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 36500
+    }
+  ],
+  "STATE_SYRDARYA/UZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 170120
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 21520
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5105
+    }
+  ],
+  "STATE_TAJIKISTAN/BUK": [
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 181004
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 125200
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 19000
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3001
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3230
+    }
+  ],
+  "STATE_TAJIKISTAN/KOK": [
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 191004
+    },
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9124
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8020
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5030
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 23070
+    }
+  ],
+  "STATE_TURKMENIA/KHI": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 48004
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 30004
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 1221
+    }
+  ],
+  "STATE_TURKMENIA/TRM": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 246004
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 33020
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 44021
+    }
+  ],
+  "STATE_URALSK/KZH": [
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 61200
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 32112
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4260
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 115489
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 10990
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1400
+    }
+  ],
+  "STATE_URALSK/TRM": [
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9607
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 40
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 140
+    }
+  ],
+  "STATE_UZBEKIA/BUK": [
+    {
+      "culture": "uzbek",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 692396
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 38000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 80004
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 68204
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 100291
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 2500
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4700
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 5000
+    }
+  ]
+}

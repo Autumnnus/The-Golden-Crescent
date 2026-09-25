@@ -1,0 +1,1632 @@
+{
+  "STATE_BENIN/BEN": [
+    {
+      "culture": "edo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 493792
+    },
+    {
+      "culture": "ibo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 312000
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 231996
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 268000
+    },
+    {
+      "culture": "tiv",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 186000
+    },
+    {
+      "culture": "tiv",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 186000
+    }
+  ],
+  "STATE_BORNU/BOR": [
+    {
+      "culture": "kanuri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 423988
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 119000
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 13000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 72000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_CHAD/BOR": [
+    {
+      "culture": "kanuri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 7000
+    }
+  ],
+  "STATE_CHAD/TBI": [
+    {
+      "culture": "teda",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 108904
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "teda",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_CHAD/WAD": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 49000
+    },
+    {
+      "culture": "fur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32060
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8000
+    }
+  ],
+  "STATE_DAHOMEY/BRG": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 129704
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42924
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27460
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 7000
+    }
+  ],
+  "STATE_DAHOMEY/DAH": [
+    {
+      "culture": "fon",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 287988
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 34472
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 37352
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 13000
+    }
+  ],
+  "STATE_EASTERN_MALI/MSN": [
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 435108
+    },
+    {
+      "culture": "senufo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 375996
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 111996
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 25000
+    }
+  ],
+  "STATE_EAST_HAUSALAND/SOK": [
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1260202
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 347950
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 376796
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 100190
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 200190
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 100050
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_GOLD_COAST/ASH": [
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 85204
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 272
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 54572
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 172
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25001
+    },
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 17512
+    },
+    {
+      "culture": "danish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 172
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 436308
+    },
+    {
+      "culture": "mossi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 43996
+    },
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88996
+    },
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    }
+  ],
+  "STATE_GUINEA/FTJ": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 296360
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_GUINEA/KBU": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3412
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1021
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 71
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 601
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 50400
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_GUINEA/MDK": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 158836
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 41000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 11000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_GUINEA/SSU": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 316000
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 16000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_HAUSALAND/BRG": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_HAUSALAND/SOK": [
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 538523
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 322412
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 180400
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 144400
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 112400
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 63169
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 40000
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_IVORY_COAST/AYI": [
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 79200
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8800
+    }
+  ],
+  "STATE_IVORY_COAST/BLE": [
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_IVORY_COAST/KNG": [
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 52004
+    },
+    {
+      "culture": "senufo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96000
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 64004
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20004
+    }
+  ],
+  "STATE_LIBERIA/KRU": [
+    {
+      "culture": "kru",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 200100
+    },
+    {
+      "culture": "bassa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10031
+    }
+  ],
+  "STATE_LIBERIA/LIB": [
+    {
+      "culture": "kru",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 214200
+    },
+    {
+      "culture": "bassa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "bassa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13300
+    },
+    {
+      "culture": "kissi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8800
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "afro_american",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 4510
+    },
+    {
+      "culture": "kru",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16400
+    }
+  ],
+  "STATE_LIBERIA/MDK": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 152020
+    },
+    {
+      "culture": "bassa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13300
+    },
+    {
+      "culture": "kissi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 79200
+    }
+  ],
+  "STATE_NIGER/AIR": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 64000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4200
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_NIGER/AJJ": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_NIGER/DIN": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_NIGER/TBI": [
+    {
+      "culture": "teda",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_NIGERIA/SOK": [
+    {
+      "culture": "tiv",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 173200
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28400
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 98600
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 118100
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 52004
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 47004
+    },
+    {
+      "culture": "tiv",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "hausa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_NIGER_DELTA/IBO": [
+    {
+      "culture": "ibo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1048000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 728000
+    },
+    {
+      "culture": "ibibio",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 420000
+    },
+    {
+      "culture": "ibo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 100000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "ibibio",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_OUTER_HAUSALAND/BOR": [
+    {
+      "culture": "kanuri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20304
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3302
+    }
+  ],
+  "STATE_OUTER_HAUSALAND/HAU": [
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 168948
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15960
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 95534
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 36478
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 30212
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 24505
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 11400
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8550
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8550
+    }
+  ],
+  "STATE_OUTER_HAUSALAND/SOK": [
+    {
+      "culture": "hausa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12752
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12040
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 72070
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27518
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 22792
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18487
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8600
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6450
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6450
+    }
+  ],
+  "STATE_SENEGAL/BND": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 96000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 64400
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 34000
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_SENEGAL/CAY": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 95992
+    },
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12400
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 82000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8000
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 42
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 142
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9412
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2312
+    },
+    {
+      "culture": "fulbe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1235
+    },
+    {
+      "culture": "fulbe",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 345
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 34
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 91540
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 38000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 22860
+    }
+  ],
+  "STATE_SENEGAL/DIO": [
+    {
+      "culture": "fulbe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 44123
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4310
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3121
+    }
+  ],
+  "STATE_SENEGAL/FTR": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 80004
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 6396
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_SENEGAL/JLF": [
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 107600
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_SENEGAL/KBU": [
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 23121
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2341
+    }
+  ],
+  "STATE_SENEGAL/SRR": [
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 80400
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8000
+    }
+  ],
+  "STATE_SIERRA_LEONE/MDK": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 51021
+    },
+    {
+      "culture": "kissi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5320
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3012
+    }
+  ],
+  "STATE_SIERRA_LEONE/TMN": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 175
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 15012
+    },
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8120
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12010
+    },
+    {
+      "culture": "kissi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5102
+    },
+    {
+      "culture": "kissi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 45420
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4102
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7102
+    }
+  ],
+  "STATE_TIMBUKTU/ADG": [
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40396
+    }
+  ],
+  "STATE_TIMBUKTU/ADR": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_TIMBUKTU/ATR": [
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "tuareg",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_TIMBUKTU/MSN": [
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 149000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 76400
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "songhai",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 17000
+    }
+  ],
+  "STATE_TIMBUKTU/OUA": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_TIMBUKTU/RGB": [
+    {
+      "culture": "bidan",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_TOGO/ASH": [
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 448000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "fon",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 64004
+    },
+    {
+      "culture": "fon",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 64004
+    }
+  ],
+  "STATE_TOGO/EWE": [
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 355996
+    },
+    {
+      "culture": "ewe",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 28000
+    }
+  ],
+  "STATE_VOLTA/KNG": [
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19996
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 44000
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    }
+  ],
+  "STATE_VOLTA/MOS": [
+    {
+      "culture": "mossi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 828400
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 170000
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 242396
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 80400
+    },
+    {
+      "culture": "mande",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 18000
+    }
+  ],
+  "STATE_WESTERN_MALI/KRT": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 140000
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 68000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 14000
+    }
+  ],
+  "STATE_WESTERN_MALI/SGU": [
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40004
+    },
+    {
+      "culture": "bambara",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 67996
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 112000
+    }
+  ],
+  "STATE_WINDWARD_COAST/BLE": [
+    {
+      "culture": "akan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 99996
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11100
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 11100
+    }
+  ],
+  "STATE_WINDWARD_COAST/KBD": [
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 70000
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27000
+    },
+    {
+      "culture": "mande",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 7800
+    },
+    {
+      "culture": "dyula",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_WINDWARD_COAST/KRU": [
+    {
+      "culture": "kru",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 215004
+    },
+    {
+      "culture": "kru",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 17000
+    }
+  ],
+  "STATE_YORUBA_STATES/OYO": [
+    {
+      "culture": "yoruba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1548008
+    },
+    {
+      "culture": "fon",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 27996
+    }
+  ]
+}

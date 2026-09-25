@@ -1,0 +1,142 @@
+version: 1
+policy: >-
+  Match demographic scale to the reviewed direct borders. Keep separate Mughal,
+  Bengal and four Maratha treasuries; do not count dependent Kashmir or Rajput
+  states as Mughal POPs. Bengal includes Bihar and therefore needs a revised
+  direct-population range. Retain every inherited profession, liberated Bengal
+  POP and small unlisted community from the previous identity cleanup.
+countries:
+  MUG: {population: 36000000, literacy_range: [0.20, 0.28]}
+  BGL: {population: 50000000, literacy_range: [0.20, 0.28]}
+  MAR: {population: 15000000, literacy_range: [0.15, 0.23]}
+  GWA: {population: 1800000, literacy_range: [0.15, 0.23]}
+  IND: {population: 700000, literacy_range: [0.15, 0.23]}
+  NAG: {population: 5000000, literacy_range: [0.15, 0.23]}
+maratha_member_total: 22500000
+states:
+  STATE_AGRA:
+    MUG:
+      population: 25000000
+      literacy: 0.24
+      reason: Upper Ganges farms and craft towns support the largest core share; fiscal intermediaries still drain revenue.
+      mix:
+        hindustani/hindu: 745
+        hindustani/sunni: 175
+        hindustani/shiite: 15
+        pathan/sunni: 35
+        panjabi/sikh: 10
+        panjabi/hindu: 10
+        panjabi/sunni: 10
+  STATE_DELHI:
+    MUG:
+      population: 4500000
+      literacy: 0.29
+      reason: Court, military workshops and schools raise urban literacy without making all villagers literate.
+      mix:
+        hindustani/hindu: 650
+        hindustani/sunni: 240
+        panjabi/hindu: 45
+        panjabi/sunni: 25
+        panjabi/sikh: 35
+        hindustani/sikh: 5
+  STATE_PUNJAB:
+    MUG:
+      population: 6500000
+      literacy: 0.23
+      reason: Lahore stays Mughal; Sikh, Hindu and Muslim Punjabis remain distinct across the border.
+      mix:
+        panjabi/sunni: 600
+        panjabi/hindu: 230
+        panjabi/sikh: 100
+        pashtun/sunni: 50
+        hindustani/hindu: 15
+        sindi/sunni: 5
+  STATE_BIHAR:
+    BGL:
+      population: 12000000
+      literacy: 0.21
+      reason: Bihar is directly in Bengal's political map, not a separate Mughal or Company treasury.
+      mix:
+        bihari/hindu: 840
+        bihari/sunni: 145
+        bihari/theravada: 15
+  STATE_EAST_BENGAL:
+    BGL:
+      population: 21000000
+      literacy: 0.24
+      reason: Delta villages and Dhaka textile networks; Muslim majority with a substantial Hindu minority.
+      mix:
+        bengali/sunni: 700
+        bengali/hindu: 280
+        bengali/theravada: 19
+        pashtun/sunni: 1
+  STATE_WEST_BENGAL:
+    BGL:
+      population: 17000000
+      literacy: 0.29
+      reason: Calcutta and river trade lift the state input; rural Hindu and Muslim communities remain separate.
+      mix:
+        bengali/hindu: 761
+        bengali/sunni: 210
+        bengali/theravada: 25
+        pashtun/sunni: 2
+        nepali/hindu: 2
+  STATE_BOMBAY:
+    MAR:
+      population: 15000000
+      literacy: 0.20
+      reason: Pune and the western coast are a heterogeneous direct member, not the whole confederation.
+      mix:
+        marathi/hindu: 600
+        marathi/sunni: 95
+        marathi/shiite: 15
+        marathi/catholic: 25
+        kannada/hindu: 135
+        kannada/sunni: 18
+        kannada/protestant: 5
+        deccani/hindu: 40
+        deccani/sunni: 8
+        gujarati/hindu: 30
+        gujarati/sunni: 9
+        sindi/sunni: 20
+  STATE_MALWA:
+    GWA:
+      population: 1772221
+      literacy: 0.18
+      reason: Gwalior is the city hub and a separate Maratha treasury; its tiny Rajputana share remains unchanged.
+      mix:
+        bundeli/hindu: 340
+        rajput/hindu: 220
+        marathi/hindu: 180
+        rajput/sunni: 140
+        bundeli/sunni: 40
+        marathi/sunni: 25
+        rajput/animist: 30
+        bundeli/animist: 25
+    IND:
+      population: 668967
+      literacy: 0.17
+      reason: Indore's member share is independent of Gwalior and the Bombay treasury.
+      mix:
+        rajput/hindu: 500
+        marathi/hindu: 250
+        bundeli/hindu: 120
+        rajput/sunni: 80
+        marathi/sunni: 35
+        rajput/animist: 15
+  STATE_CENTRAL_PROVINCES:
+    NAG:
+      population: 5000000
+      literacy: 0.18
+      reason: Nagpur's own treasury and mixed Marathi, Chhattisgarhi and Gondi countryside.
+      mix:
+        marathi/hindu: 300
+        chhattisgarhi/hindu: 260
+        gondi/hindu: 100
+        gondi/animist: 100
+        bageli/hindu: 80
+        bundeli/hindu: 60
+        deccani/sunni: 55
+        marathi/sunni: 20
+        oriya/hindu: 20
+        hindustani/sunni: 5

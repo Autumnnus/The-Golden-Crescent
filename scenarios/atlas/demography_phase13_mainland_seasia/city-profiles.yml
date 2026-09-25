@@ -1,0 +1,26 @@
+# Estimates inside state/owner POP totals, never extra game POPs or buildings.
+# Hub labels come from the installed Turkish localization.
+version: 1
+cities:
+  Sittwe: {state: STATE_ARAKAN, owner: BUR, hub: city, population: 40000, weights: {burmese/theravada: 600, burmese/sunni: 300, bengali/sunni: 100}}
+  Yangon: {state: STATE_PEGU, owner: BUR, hub: city, population: 180000, weights: {burmese/theravada: 750, mon/theravada: 100, karen/animist: 100, karen/theravada: 50}}
+  Tavoy: {state: STATE_TENASSERIM, owner: BUR, hub: port, population: 35000, weights: {karen/theravada: 600, burmese/theravada: 300, thai/theravada: 100}}
+  Sagaing: {state: STATE_KACHIN, owner: BUR, hub: city, population: 90000, weights: {burmese/theravada: 750, shan/theravada: 100, kachin/animist: 100, kachin/theravada: 50}}
+  Mandalay: {state: STATE_MANDALAY, owner: BUR, hub: city, population: 180000, weights: {burmese/theravada: 900, shan/theravada: 100}}
+  Lashio: {state: STATE_SHAN_STATES, owner: BUR, hub: city, population: 45000, weights: {shan/theravada: 700, shan/animist: 150, kachin/animist: 150}}
+  Paletwa: {state: STATE_ARAKAN, owner: KKI, hub: wood, population: 10000, weights: {lushai/animist: 1000}}
+  Keng-Tung: {state: STATE_SHAN_STATES, owner: SHS, hub: farm, population: 55000, weights: {shan/theravada: 850, shan/animist: 100, karen/animist: 50}}
+  Bangkok: {state: STATE_BANGKOK, owner: SIA, hub: city, population: 260000, weights: {thai/theravada: 880, yue/confucian: 120}}
+  Nakhon Ratchasima: {state: STATE_NAKHON_RATCHASIMA, owner: SIA, hub: city, population: 110000, weights: {thai/theravada: 500, lao/theravada: 450, khmer/theravada: 50}}
+  Prachuap Khiri Khan: {state: STATE_TENASSERIM, owner: SIA, hub: city, population: 35000, weights: {malay/sunni: 600, thai/theravada: 200, karen/theravada: 150, burmese/theravada: 50}}
+  Battambang: {state: STATE_CAMBODIA, owner: SIA, hub: farm, population: 30000, weights: {khmer/theravada: 850, yue/confucian: 100, thai/theravada: 50}}
+  Vientiane: {state: STATE_LAOS, owner: SIA, hub: mine, population: 24000, weights: {lao/theravada: 600, thai/theravada: 250, shan/theravada: 150}}
+  Kuala Kelantan: {state: STATE_MALAYA, owner: SIA, hub: wood, population: 30000, weights: {malay/sunni: 950, yue/confucian: 50}}
+  Chiang Mai: {state: STATE_CHIANG_MAI, owner: CMI, hub: city, population: 100000, weights: {thai/theravada: 600, shan/theravada: 300, lao/theravada: 100}}
+  Luang Prabang: {state: STATE_LAOS, owner: LUA, hub: city, population: 60000, weights: {lao/theravada: 750, khmu/animist: 200, miao/animist: 50}}
+  Pakse: {state: STATE_LAOS, owner: CHP, hub: farm, population: 25000, weights: {lao/theravada: 600, miao/animist: 300, shan/theravada: 100}}
+  Phnom Penh: {state: STATE_CAMBODIA, owner: CAM, hub: city, population: 100000, weights: {khmer/theravada: 850, yue/confucian: 50, vietnamese/mahayana: 50, champa/sunni: 50}}
+  Huế: {state: STATE_ANNAM, owner: DAI, hub: city, population: 180000, weights: {vietnamese/mahayana: 700, vietnamese/confucian: 200, vietnamese/catholic: 80, yue/confucian: 20}}
+  Hanoi: {state: STATE_TONKIN, owner: DAI, hub: city, population: 220000, weights: {vietnamese/mahayana: 600, vietnamese/confucian: 250, vietnamese/catholic: 100, miao/animist: 30, yue/confucian: 20}}
+  Saigon: {state: STATE_MEKONG, owner: DAI, hub: city, population: 180000, weights: {vietnamese/mahayana: 600, khmer/theravada: 100, vietnamese/confucian: 100, vietnamese/catholic: 80, champa/sunni: 70, vietnamese/animist: 50}}
+  Pleiku: {state: STATE_MEKONG, owner: DGR, hub: mine, population: 15000, weights: {champa/animist: 900, khmer/animist: 100}}

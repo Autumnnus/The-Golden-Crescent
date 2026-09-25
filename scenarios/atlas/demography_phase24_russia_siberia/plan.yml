@@ -1,0 +1,261 @@
+version: 1
+policy: >-
+  The Russian forest, Volga, Baltic, Finland and Siberia without a Russian empire. Moscow and
+  Novgorod keep their Russian Orthodox cores; Ingria has no St Petersburg. The Great Tatar
+  Khanate, the Mari, Mordvin and Ural councils, Crimea and the Siberian and far-eastern
+  polities replace the inherited Russian/Ukrainian/German colonisation with their own peoples at
+  the user's chosen moderate level (about 9 million), keeping small Russian merchant, captive,
+  old Vyatka and Don Cossack communities. Traditional Chuvash, Mari, Udmurt, Mordvin, Siberian and
+  Yakut faiths are restored where Orthodoxy came from imperial missions. Baltic and Finnish shares
+  keep their Lutheran majorities with fewer Russians. Weights are per mille of each share.
+countries:
+  VMS: {literacy_range: [0.07, 0.08]}
+  VNG: {literacy_range: [0.17, 0.19]}
+  UBD: {literacy_range: [0.40, 0.40]}
+  SWE: {literacy_range: [0.45, 0.45]}
+  VTA: {literacy_range: [0.13, 0.14]}
+  VCR: {literacy_range: [0.13, 0.14]}
+  VKM: {literacy_range: [0.08, 0.08]}
+  VMA: {literacy_range: [0.05, 0.05]}
+  VMO: {literacy_range: [0.06, 0.06]}
+  VUR: {literacy_range: [0.05, 0.05]}
+  VST: {literacy_range: [0.08, 0.08]}
+  VYE: {literacy_range: [0.03, 0.03]}
+  VBY: {literacy_range: [0.10, 0.10]}
+  VSA: {literacy_range: [0.03, 0.03]}
+  VKL: {literacy_range: [0.02, 0.02]}
+  VOB: {literacy_range: [0.02, 0.02]}
+  VOK: {literacy_range: [0.02, 0.02]}
+  VKA: {literacy_range: [0.02, 0.02]}
+  VCH: {literacy_range: [0.02, 0.02]}
+  AIN: {literacy_range: [0.06, 0.06]}
+partial_countries: [SWE]
+country_culture_overrides:
+  VKM: {from: [mongol], to: [kalmyk]}     # the installed Kalmyk culture, not Khalkha Mongol
+country_religion_overrides: {}
+country_laws: {}
+release_slaves: []
+# Existing numeric plans that this package deliberately replaces.
+replace_planned:
+- STATE_SAKHALIN/AIN      # absorbs the 793 people of the former ALK share
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.01
+  settler_keep_share: 0.10
+  settler_cultures: [russian, ukrainian, east_german, byelorussian]
+shares:
+  # --- Moscow, Novgorod and the Baltic ------------------------------------------------------
+  STATE_MOSCOW/VMS:
+    population: 1200000
+    literacy: 0.10
+    mix: {russian/orthodox: 950, tatar/sunni: 25, east_german/protestant: 15, greek/orthodox: 10}
+  STATE_RYAZAN/VMS:
+    population: 1210000
+    literacy: 0.08
+    mix: {russian/orthodox: 910, tatar/sunni: 70, mordvin/orthodox: 20}
+  STATE_TVER/VMS: {population: 1195000, literacy: 0.08}
+  STATE_YAROSLAVL/VMS: {population: 2920000, literacy: 0.08}
+  STATE_TAMBOV/VMS: {population: 2565000, literacy: 0.07}
+  STATE_ORYOL/VMS: {population: 3255000, literacy: 0.08}
+  STATE_KURSK/VMS: {population: 2125000, literacy: 0.07}
+  STATE_SMOLENSK/VMS: {population: 1000000, literacy: 0.08}
+  STATE_NOVGOROD/VNG: {population: 820000, literacy: 0.20}
+  STATE_PSKOV/VNG: {population: 700000, literacy: 0.18}
+  STATE_INGRIA/VNG:
+    population: 500000
+    literacy: 0.18
+    mix: {russian/orthodox: 720, karelian/orthodox: 80, finnish/protestant: 100, estonian/protestant: 30,
+          east_german/protestant: 40, swedish/protestant: 20, latvian/protestant: 10}
+  STATE_ARKHANGELSK/VNG:
+    population: 200000
+    literacy: 0.15
+    mix: {russian/orthodox: 800, ugrian/animist: 150, karelian/orthodox: 50}
+  STATE_EAST_KARELIA/VNG:
+    population: 150000
+    literacy: 0.12
+    mix: {karelian/orthodox: 600, russian/orthodox: 300, finnish/protestant: 50, ugrian/orthodox: 50}
+  STATE_NENETSIA/VNG:
+    population: 25000
+    literacy: 0.05
+    mix: {ugrian/animist: 800, russian/orthodox: 200}
+  STATE_KOLA/VNG:
+    population: 6000
+    literacy: 0.08
+    mix: {sami/animist: 500, russian/orthodox: 250, karelian/orthodox: 150, finnish/protestant: 50,
+          norwegian/protestant: 50}
+  STATE_COURLAND/UBD:
+    population: 467000
+    literacy: 0.40
+    mix: {latvian/protestant: 790, east_german/protestant: 80, ashkenazi/jewish: 55, lithuanian/catholic: 30,
+          polish/catholic: 20, russian/orthodox: 10, byelorussian/orthodox: 10, ugrian/protestant: 5}
+  STATE_RIGA/UBD:
+    population: 650000
+    literacy: 0.40
+    mix: {latvian/protestant: 720, east_german/protestant: 90, ashkenazi/jewish: 55, polish/catholic: 50,
+          russian/orthodox: 30, byelorussian/orthodox: 20, estonian/protestant: 20, lithuanian/catholic: 10,
+          swedish/protestant: 5}
+  STATE_TALINN/UBD:
+    population: 312000
+    literacy: 0.40
+    mix: {estonian/protestant: 890, east_german/protestant: 45, swedish/protestant: 30, russian/orthodox: 25,
+          ashkenazi/jewish: 10}
+  STATE_TARTU/UBD:
+    population: 311000
+    literacy: 0.40
+    mix: {estonian/protestant: 930, east_german/protestant: 30, latvian/protestant: 10, russian/orthodox: 20,
+          ashkenazi/jewish: 10}
+  # --- Swedish crown Finland (special diet) ------------------------------------------------
+  STATE_ALAND/SWE: {population: 27000, literacy: 0.45}
+  STATE_KUOPIO/SWE: {population: 303000, literacy: 0.45}
+  STATE_OSTROBOTHNIA/SWE: {population: 202000, literacy: 0.45}
+  STATE_OULU/SWE: {population: 125000, literacy: 0.45}
+  STATE_UUSIMAA/SWE: {population: 538000, literacy: 0.45}
+  STATE_WEST_KARELIA/SWE: {population: 249000, literacy: 0.45}
+  # --- Great Tatar Khanate, Crimea and the Kalmyks ------------------------------------------
+  STATE_KAZAN/VTA:
+    population: 1000000
+    literacy: 0.16
+    mix: {tatar/sunni: 600, chuvash/animist: 50, chuvash/sunni: 30, chuvash/orthodox: 40, russian/orthodox: 100,
+          tatar/orthodox: 20, bashkir/sunni: 50, mari/animist: 50, mordvin/orthodox: 20, udmurt/animist: 20,
+          uzbek/sunni: 10, persian/shiite: 10}
+  STATE_UFA/VTA:
+    population: 450000
+    literacy: 0.12
+    mix: {bashkir/sunni: 550, tatar/sunni: 250, chuvash/animist: 40, mari/animist: 50, udmurt/animist: 20,
+          russian/orthodox: 50, kazak/sunni: 40}
+  STATE_SAMARA/VTA:
+    population: 750000
+    literacy: 0.13
+    mix: {tatar/sunni: 470, mordvin/orthodox: 100, mordvin/animist: 60, chuvash/animist: 60, chuvash/sunni: 30,
+          bashkir/sunni: 80, kazak/sunni: 60, russian/orthodox: 120, kalmyk/gelugpa: 20}
+  STATE_TARTARIA/VTA:
+    population: 550000
+    literacy: 0.13
+    mix: {tatar/sunni: 550, mordvin/orthodox: 80, chuvash/animist: 40, kazak/sunni: 100, kalmyk/gelugpa: 50,
+          russian/orthodox: 120, bashkir/sunni: 40, armenian/oriental_orthodox: 20}
+  STATE_ASTRAKHAN/VTA:
+    population: 250000
+    literacy: 0.14
+    mix: {tatar/sunni: 450, kazak/sunni: 150, kalmyk/gelugpa: 120, russian/orthodox: 80,
+          armenian/oriental_orthodox: 60, persian/shiite: 60, uzbek/sunni: 40, azerbaijani/shiite: 40}
+  STATE_ROSTOV/VTA:
+    population: 350000
+    literacy: 0.12
+    mix: {tatar/sunni: 350, russian/orthodox: 350, ukrainian/orthodox: 100, kalmyk/gelugpa: 60,
+          armenian/oriental_orthodox: 60, greek/orthodox: 40, circassian/sunni: 40}
+  STATE_STAVROPOL/VTA:
+    population: 250000
+    literacy: 0.11
+    mix: {tatar/sunni: 400, circassian/sunni: 150, kalmyk/gelugpa: 100, turkmen/sunni: 100, russian/orthodox: 150,
+          armenian/oriental_orthodox: 50, north_caucasian/sunni: 50}
+  STATE_TAURIDA/VTA:
+    population: 600000
+    literacy: 0.12
+    mix: {tatar/sunni: 500, ukrainian/orthodox: 300, greek/orthodox: 60, russian/orthodox: 40,
+          armenian/oriental_orthodox: 40, ashkenazi/jewish: 40, romanian/orthodox: 20}
+  STATE_CRIMEA/VCR:
+    population: 250000
+    literacy: 0.15
+    mix: {tatar/sunni: 700, greek/orthodox: 80, armenian/oriental_orthodox: 60, ashkenazi/jewish: 30,
+          ukrainian/orthodox: 30, russian/orthodox: 20, north_italian/catholic: 20, circassian/sunni: 20,
+          turkish/sunni: 40}
+  STATE_KUBAN/VCR:
+    population: 280000
+    literacy: 0.12
+    mix: {circassian/sunni: 600, tatar/sunni: 250, north_caucasian/sunni: 50, greek/orthodox: 30,
+          armenian/oriental_orthodox: 40, ukrainian/orthodox: 30}
+  STATE_KALMYKIA/VKM:
+    population: 125000
+    literacy: 0.08
+    mix: {kalmyk/gelugpa: 950, tatar/sunni: 30, russian/orthodox: 20}
+  # --- Middle Volga and Ural councils ------------------------------------------------------
+  STATE_CHUVASHIA/VMA:
+    population: 500000
+    literacy: 0.05
+    mix: {chuvash/animist: 250, chuvash/orthodox: 150, chuvash/sunni: 80, mari/animist: 180, mari/orthodox: 30,
+          tatar/sunni: 150, mordvin/orthodox: 40, russian/orthodox: 120}
+  STATE_VYATKA/VMA:
+    population: 900000
+    literacy: 0.05
+    mix: {udmurt/animist: 350, udmurt/orthodox: 60, mari/animist: 150, russian/orthodox: 280, tatar/sunni: 100,
+          ugrian/animist: 60}
+  STATE_NIZHNY_NOVGOROD/VMO:
+    population: 1000000
+    literacy: 0.06
+    mix: {mordvin/orthodox: 350, mordvin/animist: 200, russian/orthodox: 280, tatar/sunni: 100, chuvash/animist: 40,
+          mari/animist: 30}
+  STATE_PERM/VUR:
+    population: 450000
+    literacy: 0.05
+    mix: {ugrian/animist: 200, ugrian/orthodox: 100, udmurt/animist: 150, bashkir/sunni: 150, tatar/sunni: 120,
+          russian/orthodox: 250, mari/animist: 30}
+  STATE_URAL/VUR:
+    population: 250000
+    literacy: 0.05
+    mix: {bashkir/sunni: 400, ugrian/animist: 200, tatar/sunni: 180, russian/orthodox: 120, kazak/sunni: 100}
+  # --- Siberia and the far east -----------------------------------------------------------
+  STATE_TOBOLSK/VST:
+    population: 180000
+    literacy: 0.08
+    mix: {tatar/sunni: 550, ugrian/animist: 250, kazak/sunni: 50, russian/orthodox: 80, uzbek/sunni: 40,
+          siberian/animist: 30}
+  STATE_TOMSK/VST:
+    population: 150000
+    literacy: 0.08
+    mix: {tatar/sunni: 400, tatar/animist: 100, siberian/animist: 250, kazak/sunni: 80, russian/orthodox: 80,
+          uzbek/sunni: 40, ugrian/animist: 50}
+  STATE_KRASNOYARSK/VYE:
+    population: 80000
+    literacy: 0.03
+    mix: {siberian/animist: 650, tatar/sunni: 100, tatar/animist: 150, russian/orthodox: 50, tuvan/gelugpa: 50}
+  STATE_UPPER_YENISEYSK/VYE:
+    population: 25000
+    literacy: 0.03
+    mix: {siberian/animist: 850, russian/orthodox: 50, tuvan/gelugpa: 100}
+  STATE_BURYATIA/VBY:
+    population: 170000
+    literacy: 0.10
+    mix: {buryat/gelugpa: 650, buryat/animist: 150, siberian/animist: 80, mongol/gelugpa: 50, russian/orthodox: 50,
+          han/confucian: 20}
+  STATE_IRKUTSK/VBY:
+    population: 150000
+    literacy: 0.10
+    mix: {buryat/animist: 400, buryat/gelugpa: 250, siberian/animist: 200, russian/orthodox: 100, han/confucian: 30,
+          mongol/gelugpa: 20}
+  STATE_TRANS_BAIKAL/VBY:
+    population: 130000
+    literacy: 0.10
+    mix: {buryat/gelugpa: 450, siberian/animist: 300, mongol/gelugpa: 100, russian/orthodox: 80, manchu/mahayana: 50,
+          han/confucian: 20}
+  STATE_YAKUTSK/VSA:
+    population: 140000
+    literacy: 0.03
+    mix: {yakut/animist: 850, siberian/animist: 100, russian/orthodox: 30, yakut/orthodox: 20}
+  STATE_KOLYMA/VKL:
+    population: 40000
+    literacy: 0.02
+    mix: {yakut/animist: 600, siberian/animist: 400}
+  STATE_OB/VOB:
+    population: 6000
+    literacy: 0.02
+    mix: {ugrian/animist: 900, siberian/animist: 50, tatar/sunni: 50}
+  STATE_SURGUT/VOB:
+    population: 12000
+    literacy: 0.02
+    mix: {ugrian/animist: 900, siberian/animist: 50, tatar/sunni: 50}
+  STATE_OKHOTSK/VOK:
+    population: 12000
+    literacy: 0.02
+    mix: {siberian/animist: 950, yakut/animist: 50}
+  STATE_KAMCHATKA/VKA:
+    population: 8000
+    literacy: 0.02
+    mix: {siberian/animist: 1000}
+  STATE_CHUKOTKA/VCH:
+    population: 13000
+    literacy: 0.02
+    mix: {siberian/animist: 880, inuit/animist: 120}
+  STATE_SAKHALIN/AIN:
+    population: 8074
+    literacy: 0.06
+    mix: {ainu/animist: 895, siberian/animist: 105}

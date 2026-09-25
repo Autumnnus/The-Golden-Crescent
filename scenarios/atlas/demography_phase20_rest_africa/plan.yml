@@ -1,0 +1,488 @@
+version: 1
+policy: After the separately verified Oranje/Transvaal owner transfer, keep separate Kongo, Luba-Lunda, Madagascar, Mozambique,
+  Zulu, Xhosa, Tswana and southwestern polities. Apply modest 2-4% population targets and differentiated literacy. Preserve
+  inherited joint faith/culture groups and explicit professions, except four southern state-owner mixes where inherited British/Boer
+  settler shares imply a colonial state absent from the scenario; retain small foreign and local Protestant communities. No
+  further border or diplomacy changes. Partial country totals cover only listed shares.
+partial_countries:
+- SOK
+countries:
+  AGC:
+    population: 38300
+    literacy_range:
+    - 0.135
+    - 0.145
+  BMB:
+    population: 217700
+    literacy_range:
+    - 0.11
+    - 0.12
+  BMM:
+    population: 126100
+    literacy_range:
+    - 0.135
+    - 0.145
+  BNG:
+    population: 644000
+    literacy_range:
+    - 0.095
+    - 0.105
+  BOB:
+    population: 305100
+    literacy_range:
+    - 0.088
+    - 0.098
+  BST:
+    population: 183600
+    literacy_range:
+    - 0.121
+    - 0.131
+  CHK:
+    population: 214400
+    literacy_range:
+    - 0.085
+    - 0.095
+  DAK:
+    population: 309500
+    literacy_range:
+    - 0.075
+    - 0.085
+  DLA:
+    population: 723300
+    literacy_range:
+    - 0.115
+    - 0.125
+  FNG:
+    population: 752800
+    literacy_range:
+    - 0.109
+    - 0.119
+  GZA:
+    population: 1412900
+    literacy_range:
+    - 0.135
+    - 0.145
+  HMB:
+    population: 346100
+    literacy_range:
+    - 0.085
+    - 0.095
+  HRO:
+    population: 492300
+    literacy_range:
+    - 0.088
+    - 0.098
+  KBA:
+    population: 828100
+    literacy_range:
+    - 0.095
+    - 0.105
+  KON:
+    population: 1036500
+    literacy_range:
+    - 0.146
+    - 0.156
+  KSN:
+    population: 169100
+    literacy_range:
+    - 0.085
+    - 0.095
+  KZM:
+    population: 485400
+    literacy_range:
+    - 0.125
+    - 0.135
+  LBA:
+    population: 637200
+    literacy_range:
+    - 0.096
+    - 0.106
+  LGA:
+    population: 247200
+    literacy_range:
+    - 0.085
+    - 0.095
+  LND:
+    population: 465000
+    literacy_range:
+    - 0.118
+    - 0.128
+  LNG:
+    population: 235200
+    literacy_range:
+    - 0.132
+    - 0.142
+  LZO:
+    population: 134800
+    literacy_range:
+    - 0.084
+    - 0.094
+  MAD:
+    population: 2011600
+    literacy_range:
+    - 0.162
+    - 0.172
+  MNB:
+    population: 482000
+    literacy_range:
+    - 0.095
+    - 0.105
+  MNC:
+    population: 339900
+    literacy_range:
+    - 0.112
+    - 0.122
+  MRV:
+    population: 1312700
+    literacy_range:
+    - 0.133
+    - 0.143
+  MSH:
+    population: 206000
+    literacy_range:
+    - 0.105
+    - 0.115
+  MSK:
+    population: 613700
+    literacy_range:
+    - 0.135
+    - 0.145
+  MTB:
+    population: 379000
+    literacy_range:
+    - 0.105
+    - 0.115
+  MTP:
+    population: 200900
+    literacy_range:
+    - 0.108
+    - 0.118
+  NAM:
+    population: 527400
+    literacy_range:
+    - 0.12
+    - 0.13
+  OVB:
+    population: 79800
+    literacy_range:
+    - 0.081
+    - 0.091
+  OVM:
+    population: 222500
+    literacy_range:
+    - 0.075
+    - 0.085
+  PDI:
+    population: 329600
+    literacy_range:
+    - 0.105
+    - 0.115
+  PHL:
+    population: 32200
+    literacy_range:
+    - 0.095
+    - 0.105
+  SAN:
+    population: 38100
+    literacy_range:
+    - 0.065
+    - 0.075
+  SOK:
+    population: 818000
+    literacy_range:
+    - 0.175
+    - 0.185
+  SWZ:
+    population: 66300
+    literacy_range:
+    - 0.095
+    - 0.105
+  TGI:
+    population: 26000
+    literacy_range:
+    - 0.125
+    - 0.135
+  TKE:
+    population: 45300
+    literacy_range:
+    - 0.115
+    - 0.125
+  TSW:
+    population: 285400
+    literacy_range:
+    - 0.11
+    - 0.12
+  VND:
+    population: 91700
+    literacy_range:
+    - 0.095
+    - 0.105
+  WBL:
+    population: 65900
+    literacy_range:
+    - 0.105
+    - 0.115
+  XHO:
+    population: 276400
+    literacy_range:
+    - 0.115
+    - 0.125
+  YKA:
+    population: 361900
+    literacy_range:
+    - 0.125
+    - 0.135
+  ZND:
+    population: 474800
+    literacy_range:
+    - 0.084
+    - 0.094
+  ZUL:
+    population: 311000
+    literacy_range:
+    - 0.125
+    - 0.135
+country_religion_overrides: {}
+country_culture_overrides: {}
+states:
+  STATE_KAZEMBE/BMB:
+    owner: BMB
+    literacy: 0.12
+  STATE_KAZEMBE/KZM:
+    owner: KZM
+    literacy: 0.13
+  STATE_KAZEMBE/MRV:
+    owner: MRV
+    literacy: 0.12
+  STATE_SOUTH_MADAGASCAR/MAD:
+    owner: MAD
+    literacy: 0.14
+  STATE_NORTH_MADAGASCAR/MAD:
+    owner: MAD
+    literacy: 0.19
+  STATE_MOCAMBIQUE/MRV:
+    owner: MRV
+    literacy: 0.14
+  STATE_MOCAMBIQUE/TGI:
+    owner: TGI
+    literacy: 0.13
+  STATE_MOCAMBIQUE/AGC:
+    owner: AGC
+    literacy: 0.14
+  STATE_NORTH_CAMEROON/SOK:
+    owner: SOK
+    literacy: 0.18
+  STATE_NORTH_CAMEROON/BMM:
+    owner: BMM
+    literacy: 0.14
+  STATE_SOUTH_CAMEROON/DLA:
+    owner: DLA
+    literacy: 0.12
+  STATE_SOUTH_CAMEROON/FNG:
+    owner: FNG
+    literacy: 0.11
+  STATE_UBANGI_SHARI/DAK:
+    owner: DAK
+    literacy: 0.08
+  STATE_UBANGI_SHARI/ZND:
+    owner: ZND
+    literacy: 0.08
+  STATE_CONGO/BOB:
+    owner: BOB
+    literacy: 0.11
+  STATE_CONGO/LNG:
+    owner: LNG
+    literacy: 0.13
+  STATE_CONGO/TKE:
+    owner: TKE
+    literacy: 0.12
+  STATE_CONGO_ORIENTALE/MNB:
+    owner: MNB
+    literacy: 0.1
+  STATE_CONGO_ORIENTALE/ZND:
+    owner: ZND
+    literacy: 0.09
+  STATE_CONGO_ORIENTALE/LGA:
+    owner: LGA
+    literacy: 0.09
+  STATE_CONGO_ORIENTALE/HMB:
+    owner: HMB
+    literacy: 0.09
+  STATE_CONGO_ORIENTALE/LBA:
+    owner: LBA
+    literacy: 0.1
+  STATE_KASAI/KBA:
+    owner: KBA
+    literacy: 0.1
+  STATE_KASAI/LBA:
+    owner: LBA
+    literacy: 0.1
+  STATE_BAS_CONGO/KON:
+    owner: KON
+    literacy: 0.16
+  STATE_BAS_CONGO/YKA:
+    owner: YKA
+    literacy: 0.13
+  STATE_EQUATEUR/BNG:
+    owner: BNG
+    literacy: 0.1
+  STATE_EQUATEUR/BOB:
+    owner: BOB
+    literacy: 0.09
+  STATE_NORTH_ANGOLA/KON:
+    owner: KON
+    literacy: 0.14
+  STATE_SOUTH_ANGOLA/HRO:
+    owner: HRO
+    literacy: 0.09
+  STATE_SOUTH_ANGOLA/OVM:
+    owner: OVM
+    literacy: 0.08
+  STATE_SOUTH_ANGOLA/OVB:
+    owner: OVB
+    literacy: 0.08
+  STATE_EAST_ANGOLA/CHK:
+    owner: CHK
+    literacy: 0.09
+  STATE_EAST_ANGOLA/LND:
+    owner: LND
+    literacy: 0.11
+  STATE_EAST_ANGOLA/KSN:
+    owner: KSN
+    literacy: 0.09
+  STATE_EAST_ANGOLA/LZO:
+    owner: LZO
+    literacy: 0.09
+  STATE_KATANGA/KZM:
+    owner: KZM
+    literacy: 0.13
+  STATE_KATANGA/LND:
+    owner: LND
+    literacy: 0.13
+  STATE_KATANGA/LBA:
+    owner: LBA
+    literacy: 0.12
+  STATE_GABON/FNG:
+    owner: FNG
+    literacy: 0.13
+  STATE_GABON/LNG:
+    owner: LNG
+    literacy: 0.14
+  STATE_ZAMBIA/LZO:
+    owner: LZO
+    literacy: 0.09
+  STATE_ZAMBIA/BMB:
+    owner: BMB
+    literacy: 0.1
+  STATE_ZAMBEZIA/MSK:
+    owner: MSK
+    literacy: 0.14
+  STATE_ZAMBEZIA/GZA:
+    owner: GZA
+    literacy: 0.14
+  STATE_ZAMBEZIA/MTP:
+    owner: MTP
+    literacy: 0.12
+  STATE_ZAMBEZIA/MNC:
+    owner: MNC
+    literacy: 0.12
+  STATE_ZAMBEZI/MSH:
+    owner: MSH
+    literacy: 0.11
+  STATE_ZAMBEZI/MTP:
+    owner: MTP
+    literacy: 0.11
+  STATE_ZAMBEZI/MNC:
+    owner: MNC
+    literacy: 0.11
+  STATE_NAMAQUALAND/NAM:
+    owner: NAM
+    literacy: 0.09
+  STATE_NAMAQUALAND/SAN:
+    owner: SAN
+    literacy: 0.06
+  STATE_HEREROLAND/HRO:
+    owner: HRO
+    literacy: 0.1
+  STATE_HEREROLAND/OVB:
+    owner: OVB
+    literacy: 0.09
+  STATE_HEREROLAND/SAN:
+    owner: SAN
+    literacy: 0.07
+  STATE_ZULULAND/ZUL:
+    owner: ZUL
+    literacy: 0.13
+  STATE_ZULULAND/BST:
+    owner: BST
+    literacy: 0.13
+  STATE_VRYSTAAT/BST:
+    owner: BST
+    literacy: 0.12
+  STATE_VRYSTAAT/PHL:
+    owner: PHL
+    literacy: 0.1
+  STATE_TRANSVAAL/MTB:
+    owner: MTB
+    literacy: 0.11
+  STATE_TRANSVAAL/PDI:
+    owner: PDI
+    literacy: 0.11
+  STATE_TRANSVAAL/SWZ:
+    owner: SWZ
+    literacy: 0.1
+  STATE_TRANSVAAL/VND:
+    owner: VND
+    literacy: 0.1
+  STATE_EASTERN_CAPE/XHO:
+    owner: XHO
+    literacy: 0.12
+  STATE_CAPE_COLONY/NAM:
+    owner: NAM
+    literacy: 0.13
+  STATE_NORTHERN_CAPE/TSW:
+    owner: TSW
+    literacy: 0.12
+  STATE_NORTHERN_CAPE/WBL:
+    owner: WBL
+    literacy: 0.11
+  STATE_NORTHERN_CAPE/SAN:
+    owner: SAN
+    literacy: 0.08
+  STATE_BOTSWANA/TSW:
+    owner: TSW
+    literacy: 0.1
+  STATE_BOTSWANA/LZO:
+    owner: LZO
+    literacy: 0.08
+  STATE_BOTSWANA/SAN:
+    owner: SAN
+    literacy: 0.06
+  STATE_LOURENCO_MARQUES/GZA:
+    owner: GZA
+    literacy: 0.14
+joint_mix_overrides:
+  STATE_CAPE_COLONY/NAM:
+    khoisan/animist: 650
+    sotho/animist: 150
+    khoisan/protestant: 120
+    griqua/protestant: 45
+    british/protestant: 15
+    boer/protestant: 20
+  STATE_EASTERN_CAPE/XHO:
+    xhosa/animist: 780
+    nguni/animist: 80
+    khoisan/animist: 125
+    british/protestant: 15
+  STATE_NORTHERN_CAPE/TSW:
+    tswana/animist: 645
+    griqua/protestant: 165
+    khoisan/animist: 100
+    sotho/animist: 50
+    xhosa/animist: 10
+    british/protestant: 5
+    boer/protestant: 25
+  STATE_VRYSTAAT/BST:
+    sotho/animist: 650
+    nguni/animist: 330
+    boer/protestant: 20

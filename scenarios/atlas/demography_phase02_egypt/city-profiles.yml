@@ -1,0 +1,68 @@
+# Settlement estimates are subsets of Atlas state-region POP totals, not game city POP blocks.
+# Hub names/locations are checked against the installed game's hub localization.
+version: 1
+cities:
+  Kahire:
+    state: STATE_LOWER_EGYPT
+    population: 1100000
+    weights:
+      misri/sunni: 760
+      misri/oriental_orthodox: 130
+      sephardic/jewish: 20
+      turkish/sunni: 35
+      greek/orthodox: 10
+      sudanese/sunni: 30
+      armenian/oriental_orthodox: 5
+      mashriqi/shiite: 5
+      north_caucasian/sunni: 5
+  Iskenderiye:
+    state: STATE_LOWER_EGYPT
+    population: 600000
+    weights:
+      misri/sunni: 570
+      misri/oriental_orthodox: 130
+      greek/orthodox: 70
+      sephardic/jewish: 85
+      turkish/sunni: 70
+      sudanese/sunni: 40
+      armenian/oriental_orthodox: 15
+      north_caucasian/sunni: 10
+      mashriqi/shiite: 10
+  Beni_Suef:
+    state: STATE_MIDDLE_EGYPT
+    population: 200000
+    weights:
+      misri/sunni: 730
+      misri/oriental_orthodox: 170
+      sudanese/sunni: 50
+      bedouin/sunni: 20
+      turkish/sunni: 20
+      sephardic/jewish: 10
+  Asyut:
+    state: STATE_MIDDLE_EGYPT
+    population: 250000
+    weights:
+      misri/sunni: 700
+      misri/oriental_orthodox: 210
+      sudanese/sunni: 40
+      bedouin/sunni: 20
+      turkish/sunni: 20
+      sephardic/jewish: 10
+  Uksur:
+    state: STATE_UPPER_EGYPT
+    population: 150000
+    weights:
+      misri/sunni: 720
+      misri/oriental_orthodox: 160
+      sudanese/sunni: 80
+      bedouin/sunni: 40
+  Haiya:
+    state: STATE_DONGOLA
+    population: 50000
+    weights:
+      sudanese/sunni: 350
+      beja/sunni: 250
+      bedouin/sunni: 190
+      sudanese/oriental_orthodox: 120
+      sudanese/animist: 60
+      beja/animist: 30

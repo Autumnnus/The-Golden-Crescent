@@ -72,7 +72,14 @@ Kart önizlemesi `build/` altında kalır. Etkin oyun kaynağı artık
 `world/scenario.yml`dir; [siyasi oyun kurulumu](../../../docs/scenario/SIYASI_OYUN_KURULUMU.md)
 geçici nüfus/bina köprüsünü ve motor doğrulama kapısını açıklar. Kartlarda
 sınır değiştirilirse etkin kaynak da güncellenir ve `active_political_audit.py`
-ile eşitlik doğrulanır.
+ile eşitlik doğrulanır. Denetim, ilk kart önizlemesinden sonraki sekiz Hint
+hub düzeltmesini, [Pegu'daki tek Danimarka province devrini](../demography_phase13_mainland_seasia/README.md)
+ve [Samoa'nın Tonga state'indeki iki yerel province'ini](../demography_phase16_oceania/README.md)
+ayrı, kesin province hareketleri olarak uygular. [Filipin demografi dilimindeki](../demography_phase14_maritime_seasia/README.md)
+Tondo ve Visaya resmî din düzeltmesini de yalnız bu iki ülke için kesin
+istisna olarak doğrular; ülke sınırlarını değiştirmez.
+[Mağrip–Sahra demografi dilimindeki](../demography_phase17_maghreb_sahara/README.md)
+`TUA` birincil kültür eklemesi de yalnız bu ülkenin tanımına dar istisnadır.
 
 ## Bölgesel karar kayıtları
 

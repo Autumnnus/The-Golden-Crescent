@@ -1,0 +1,495 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Weights follow each share's planned culture/faith groups (groups >= 2%). Names of Russian
+# imperial forts and renamings (Verny, Grozny, Vladikavkaz, Petrovsk, Orenburg, Akmola,
+# Elizavetpol, Chelyabinsk...) are left unprofiled.
+version: 1
+cities:
+  Semerkand:
+    state: STATE_UZBEKIA
+    owner: BUK
+    hub: city
+    population: 60000
+    weights:
+      uzbek/sunni: 697
+      persian/shiite: 100
+      tajik/sunni: 84
+      kazak/sunni: 81
+      turkmen/sunni: 38
+  Buhara:
+    state: STATE_UZBEKIA
+    owner: BUK
+    hub: farm
+    population: 70000
+    weights:
+      uzbek/sunni: 697
+      persian/shiite: 100
+      tajik/sunni: 84
+      kazak/sunni: 81
+      turkmen/sunni: 38
+  Karşı:
+    state: STATE_UZBEKIA
+    owner: BUK
+    hub: wood
+    population: 15000
+    weights:
+      uzbek/sunni: 697
+      persian/shiite: 100
+      tajik/sunni: 84
+      kazak/sunni: 81
+      turkmen/sunni: 38
+  Duşanbe:
+    state: STATE_TAJIKISTAN
+    owner: BUK
+    hub: city
+    population: 5000
+    weights:
+      tajik/sunni: 615
+      uzbek/sunni: 385
+  Merv:
+    state: STATE_MERZ
+    owner: BUK
+    hub: mine
+    population: 8000
+    weights:
+      turkmen/sunni: 796
+      persian/shiite: 169
+      uzbek/sunni: 35
+  Hive:
+    state: STATE_KHIVA
+    owner: KHI
+    hub: city
+    population: 20000
+    weights:
+      uzbek/sunni: 462
+      persian/shiite: 255
+      turkmen/sunni: 217
+      kazak/sunni: 66
+  Taşkent:
+    state: STATE_FERGANA
+    owner: KOK
+    hub: city
+    population: 70000
+    weights:
+      uzbek/sunni: 655
+      kirgiz/sunni: 244
+      tajik/sunni: 101
+  Hokand:
+    state: STATE_FERGANA
+    owner: KOK
+    hub: farm
+    population: 40000
+    weights:
+      uzbek/sunni: 655
+      kirgiz/sunni: 244
+      tajik/sunni: 101
+  Hucend:
+    state: STATE_FERGANA
+    owner: KOK
+    hub: mine
+    population: 20000
+    weights:
+      uzbek/sunni: 655
+      kirgiz/sunni: 244
+      tajik/sunni: 101
+  Andijan:
+    state: STATE_FERGANA
+    owner: KOK
+    hub: wood
+    population: 15000
+    weights:
+      uzbek/sunni: 655
+      kirgiz/sunni: 244
+      tajik/sunni: 101
+  Oş:
+    state: STATE_KIRGHIZIA
+    owner: KOK
+    hub: farm
+    population: 12000
+    weights:
+      kirgiz/sunni: 472
+      uzbek/sunni: 390
+      uighur/sunni: 46
+      kazak/sunni: 41
+      tajik/sunni: 30
+      kirgiz/animist: 21
+  Bişkek:
+    state: STATE_KIRGHIZIA
+    owner: KOK
+    hub: city
+    population: 3000
+    weights:
+      kirgiz/sunni: 472
+      uzbek/sunni: 390
+      uighur/sunni: 46
+      kazak/sunni: 41
+      tajik/sunni: 30
+      kirgiz/animist: 21
+  Çimkent:
+    state: STATE_SYRDARYA
+    owner: KOK
+    hub: mine
+    population: 5000
+    weights:
+      kazak/sunni: 801
+      uzbek/sunni: 199
+  Çarçou:
+    state: STATE_MERZ
+    owner: TRM
+    hub: city
+    population: 5000
+    weights:
+      turkmen/sunni: 927
+      persian/shiite: 73
+  Aşkabat:
+    state: STATE_TURKMENIA
+    owner: TRM
+    hub: city
+    population: 3000
+    weights:
+      turkmen/sunni: 762
+      persian/shiite: 238
+  Türkistan:
+    state: STATE_SYRDARYA
+    owner: UZH
+    hub: farm
+    population: 8000
+    weights:
+      kazak/sunni: 865
+      kirgiz/sunni: 109
+      uzbek/sunni: 26
+  Herat:
+    state: STATE_HERAT
+    owner: HER
+    hub: city
+    population: 50000
+    weights:
+      persian/shiite: 567
+      pashtun/sunni: 228
+      tajik/sunni: 114
+      uzbek/sunni: 68
+      turkmen/sunni: 23
+  Farah:
+    state: STATE_HERAT
+    owner: HER
+    hub: farm
+    population: 8000
+    weights:
+      persian/shiite: 567
+      pashtun/sunni: 228
+      tajik/sunni: 114
+      uzbek/sunni: 68
+      turkmen/sunni: 23
+  Kabil:
+    state: STATE_KABUL
+    owner: KAB
+    hub: city
+    population: 60000
+    weights:
+      pashtun/sunni: 600
+      tajik/sunni: 289
+      hazara/shiite: 58
+      panjabi/hindu: 30
+      uzbek/sunni: 23
+  Gazne:
+    state: STATE_KABUL
+    owner: KAB
+    hub: farm
+    population: 10000
+    weights:
+      pashtun/sunni: 600
+      tajik/sunni: 289
+      hazara/shiite: 58
+      panjabi/hindu: 30
+      uzbek/sunni: 23
+  Celalabad:
+    state: STATE_KABUL
+    owner: KAB
+    hub: wood
+    population: 8000
+    weights:
+      pashtun/sunni: 600
+      tajik/sunni: 289
+      hazara/shiite: 58
+      panjabi/hindu: 30
+      uzbek/sunni: 23
+  Peşaver:
+    state: STATE_PASHTUNISTAN
+    owner: KAB
+    hub: farm
+    population: 60000
+    weights:
+      pashtun/sunni: 659
+      panjabi/sunni: 285
+      panjabi/hindu: 56
+  Kohat:
+    state: STATE_PASHTUNISTAN
+    owner: KAB
+    hub: city
+    population: 8000
+    weights:
+      pashtun/sunni: 659
+      panjabi/sunni: 285
+      panjabi/hindu: 56
+  Bannu:
+    state: STATE_PASHTUNISTAN
+    owner: KAB
+    hub: wood
+    population: 5000
+    weights:
+      pashtun/sunni: 659
+      panjabi/sunni: 285
+      panjabi/hindu: 56
+  Bamian:
+    state: STATE_CENTRAL_HIGHLANDS
+    owner: KAB
+    hub: city
+    population: 3000
+    weights:
+      hazara/shiite: 779
+      tajik/sunni: 115
+      pashtun/sunni: 66
+      uzbek/sunni: 40
+  Kandahar:
+    state: STATE_KANDAHAR
+    owner: KAN
+    hub: city
+    population: 40000
+    weights:
+      pashtun/sunni: 851
+      tajik/sunni: 83
+      hazara/shiite: 36
+      uzbek/sunni: 30
+  Girishk:
+    state: STATE_KANDAHAR
+    owner: KAN
+    hub: wood
+    population: 5000
+    weights:
+      pashtun/sunni: 851
+      tajik/sunni: 83
+      hazara/shiite: 36
+      uzbek/sunni: 30
+  Ketta:
+    state: STATE_QUETTA
+    owner: KAN
+    hub: city
+    population: 5000
+    weights:
+      pashtun/sunni: 423
+      baluchi/sunni: 264
+      lacustrine_bantu/animist: 197
+      panjabi/hindu: 63
+      panjabi/sikh: 53
+  Zaranj:
+    state: STATE_NORTHERN_BALUCHISTAN
+    owner: KAN
+    hub: wood
+    population: 2000
+    weights:
+      baluchi/sunni: 875
+      pashtun/sunni: 79
+      persian/shiite: 46
+  Kalat:
+    state: STATE_BALUCHISTAN
+    owner: MAK
+    hub: city
+    population: 8000
+    weights:
+      baluchi/sunni: 968
+      lacustrine_bantu/animist: 32
+  Gvadr:
+    state: STATE_BALUCHISTAN
+    owner: MAK
+    hub: port
+    population: 5000
+    weights:
+      baluchi/sunni: 968
+      lacustrine_bantu/animist: 32
+  Bela:
+    state: STATE_BALUCHISTAN
+    owner: MAK
+    hub: farm
+    population: 5000
+    weights:
+      baluchi/sunni: 968
+      lacustrine_bantu/animist: 32
+  Sibi:
+    state: STATE_BALUCHISTAN
+    owner: MAK
+    hub: wood
+    population: 5000
+    weights:
+      baluchi/sunni: 968
+      lacustrine_bantu/animist: 32
+  Çıldır:
+    state: STATE_GREATER_CAUCASUS
+    owner: VGE
+    hub: city
+    population: 3000
+    weights:
+      georgian/orthodox: 602
+      armenian/oriental_orthodox: 184
+      north_caucasian/orthodox: 82
+      azerbaijani/shiite: 51
+      greek/orthodox: 31
+      north_caucasian/sunni: 25
+      azerbaijani/sunni: 25
+  Poti:
+    state: STATE_GREATER_CAUCASUS
+    owner: VGE
+    hub: port
+    population: 5000
+    weights:
+      georgian/orthodox: 602
+      armenian/oriental_orthodox: 184
+      north_caucasian/orthodox: 82
+      azerbaijani/shiite: 51
+      greek/orthodox: 31
+      north_caucasian/sunni: 25
+      azerbaijani/sunni: 25
+  Sukhum:
+    state: STATE_GREATER_CAUCASUS
+    owner: VGE
+    hub: farm
+    population: 8000
+    weights:
+      georgian/orthodox: 602
+      armenian/oriental_orthodox: 184
+      north_caucasian/orthodox: 82
+      azerbaijani/shiite: 51
+      greek/orthodox: 31
+      north_caucasian/sunni: 25
+      azerbaijani/sunni: 25
+  Telavi:
+    state: STATE_GREATER_CAUCASUS
+    owner: VGE
+    hub: wood
+    population: 5000
+    weights:
+      georgian/orthodox: 602
+      armenian/oriental_orthodox: 184
+      north_caucasian/orthodox: 82
+      azerbaijani/shiite: 51
+      greek/orthodox: 31
+      north_caucasian/sunni: 25
+      azerbaijani/sunni: 25
+  Erivan:
+    state: STATE_ARMENIA
+    owner: VER
+    hub: city
+    population: 20000
+    weights:
+      armenian/oriental_orthodox: 566
+      azerbaijani/sunni: 252
+      azerbaijani/shiite: 81
+      kurdish/sunni: 81
+      persian/shiite: 20
+  Nahçıvan:
+    state: STATE_ARMENIA
+    owner: VER
+    hub: wood
+    population: 8000
+    weights:
+      armenian/oriental_orthodox: 566
+      azerbaijani/sunni: 252
+      azerbaijani/shiite: 81
+      kurdish/sunni: 81
+      persian/shiite: 20
+  Bakü:
+    state: STATE_AZERBAIJAN
+    owner: VBA
+    hub: mine
+    population: 25000
+    weights:
+      azerbaijani/shiite: 424
+      azerbaijani/sunni: 303
+      persian/shiite: 162
+      north_caucasian/sunni: 61
+      armenian/oriental_orthodox: 50
+  Şamahı:
+    state: STATE_AZERBAIJAN
+    owner: VBA
+    hub: farm
+    population: 15000
+    weights:
+      azerbaijani/shiite: 424
+      azerbaijani/sunni: 303
+      persian/shiite: 162
+      north_caucasian/sunni: 61
+      armenian/oriental_orthodox: 50
+  Quba:
+    state: STATE_AZERBAIJAN
+    owner: VBA
+    hub: wood
+    population: 8000
+    weights:
+      azerbaijani/shiite: 424
+      azerbaijani/sunni: 303
+      persian/shiite: 162
+      north_caucasian/sunni: 61
+      armenian/oriental_orthodox: 50
+  Nukha:
+    state: STATE_ELIZAVETPOL
+    owner: VBA
+    hub: farm
+    population: 10000
+    weights:
+      armenian/oriental_orthodox: 360
+      azerbaijani/shiite: 360
+      azerbaijani/sunni: 210
+      kurdish/sunni: 50
+      north_caucasian/sunni: 20
+  Shusha:
+    state: STATE_ELIZAVETPOL
+    owner: VBA
+    hub: wood
+    population: 8000
+    weights:
+      armenian/oriental_orthodox: 360
+      azerbaijani/shiite: 360
+      azerbaijani/sunni: 210
+      kurdish/sunni: 50
+      north_caucasian/sunni: 20
+  Derbent:
+    state: STATE_DAGESTAN
+    owner: VDA
+    hub: mine
+    population: 12000
+    weights:
+      north_caucasian/sunni: 715
+      kazak/sunni: 120
+      persian/shiite: 50
+      sephardic/jewish: 45
+      russian/orthodox: 30
+      armenian/oriental_orthodox: 20
+      chechen/sunni: 20
+  Kızılyar:
+    state: STATE_DAGESTAN
+    owner: VDA
+    hub: wood
+    population: 5000
+    weights:
+      north_caucasian/sunni: 715
+      kazak/sunni: 120
+      persian/shiite: 50
+      sephardic/jewish: 45
+      russian/orthodox: 30
+      armenian/oriental_orthodox: 20
+      chechen/sunni: 20
+  Maykop:
+    state: STATE_KUBAN
+    owner: CIR
+    hub: mine
+    population: 3000
+    weights:
+      circassian/sunni: 908
+      north_caucasian/sunni: 92
+  Soçi:
+    state: STATE_KUBAN
+    owner: CIR
+    hub: farm
+    population: 3000
+    weights:
+      circassian/sunni: 908
+      north_caucasian/sunni: 92

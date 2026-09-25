@@ -1,0 +1,61 @@
+version: 1
+scope: >-
+  Thirty-seven landed minor Indian states in the 1836 political map, including
+  both Chitral shares (Kashmir and Central Asian Pashtunistan), and excluding
+  Burmese border polities (BUR, SHS, SIA, KKI, DEN) and Mascarene VMB. The
+  six core and fifteen larger Indian countries keep their earlier exact plans.
+policy: >-
+  Set modest direct-country totals from the reviewed political borders; keep
+  each inherited local joint culture/religion community and exact bonded
+  profession count. No court faith is imposed on the population. Literacy is
+  a state-owner preparation input, not measured engine literacy. Do not merge
+  autonomous members into Mughal, Bengal, Maratha or Hyderabad treasuries.
+countries:
+  # Gujarat–Kathiawar: inland agriculture, courts and coast-linked merchants.
+  BER: {population: 1120000, literacy: 0.20}
+  BHV: {population: 300000, literacy: 0.19}
+  DHA: {population: 110000, literacy: 0.16}
+  IDA: {population: 235000, literacy: 0.18}
+  JUN: {population: 230000, literacy: 0.19}
+  KUT: {population: 270000, literacy: 0.18}
+  NAW: {population: 235000, literacy: 0.20}
+  PLP: {population: 150000, literacy: 0.17}
+  # Bundelkhand, Malwa and eastern plateau: no automatic city/industry bonus.
+  BAG: {population: 900000, literacy: 0.16}
+  BUN: {population: 780000, literacy: 0.17}
+  JHN: {population: 355000, literacy: 0.16}
+  SUR: {population: 485000, literacy: 0.15}
+  BAS: {population: 535000, literacy: 0.14}
+  JEY: {population: 245000, literacy: 0.17}
+  BHO: {population: 315000, literacy: 0.19}
+  # Punjab, western Himalaya and Rajput country remain separate treasuries.
+  PTA: {population: 550000, literacy: 0.20}
+  GAR: {population: 520000, literacy: 0.16}
+  CHT: {population: 290000, literacy: 0.16}
+  LAD: {population: 350000, literacy: 0.16}
+  BHW: {population: 230000, literacy: 0.18}
+  ALW: {population: 540000, literacy: 0.18}
+  BIK: {population: 350000, literacy: 0.15}
+  JAS: {population: 50000, literacy: 0.14}
+  KOT: {population: 320000, literacy: 0.18}
+  # Odisha, Bengal fringe, western/southern principalities.
+  MYB: {population: 250000, literacy: 0.16}
+  NAR: {population: 50000, literacy: 0.15}
+  ORI: {population: 880000, literacy: 0.21}
+  PTN: {population: 150000, literacy: 0.16}
+  COO: {population: 245000, literacy: 0.18}
+  SAT: {population: 750000, literacy: 0.18}
+  KHP: {population: 520000, literacy: 0.19}
+  KNO: {population: 370000, literacy: 0.17}
+  PUD: {population: 245000, literacy: 0.18}
+  # Assam/Manipur frontier. Naga is the installed game's temporary Khasi proxy.
+  MNP: {population: 420000, literacy: 0.16}
+  NGA: {population: 115000, literacy: 0.12}
+  MGH: {population: 50000, literacy: 0.13}
+  TIP: {population: 45000, literacy: 0.13}
+protected_countries: [MUG, BGL, HYD, MAR, TAM, AWA, NAG, MYS, VKN, GJT, TRA, JAI, SIN, GWA, ASM, PNJ, JOD, KAS, IND, MEW, COC]
+deferred_border_countries: [BUR, SHS, SIA, KKI, DEN, VMB]
+joint_mix_overrides:
+  # Installed vanilla transfer would make Kho-ruled Chitral's main share
+  # predominantly Pashtun; keep the border minority without erasing Kho.
+  STATE_PASHTUNISTAN/CHT: {kho/sunni: 650, kho/animist: 70, pashtun/sunni: 220, panjabi/sunni: 60}

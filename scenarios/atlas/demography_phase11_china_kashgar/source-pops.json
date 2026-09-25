@@ -1,0 +1,1168 @@
+{
+  "STATE_AMUR/MCH": [
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 81123
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1040
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 450
+    }
+  ],
+  "STATE_BEIJING/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 11597600
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3001021
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 348400
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 81994
+    }
+  ],
+  "STATE_CHONGQING/SHU": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 10546404
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 9546404
+    }
+  ],
+  "STATE_EASTERN_HUBEI/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 9222096
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4000096
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 6308
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 160400
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 135996
+    }
+  ],
+  "STATE_FORMOSA/YUE": [
+    {
+      "culture": "min",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1000000
+    },
+    {
+      "culture": "min",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 480000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 492
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 605504
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 215504
+    },
+    {
+      "culture": "yuanzhumin",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 600000
+    }
+  ],
+  "STATE_FUJIAN/YUE": [
+    {
+      "culture": "min",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3210004
+    },
+    {
+      "culture": "min",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 6010004
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2408
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3690204
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1090204
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1096000
+    },
+    {
+      "culture": "hakka",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1006000
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 120004
+    },
+    {
+      "culture": "miao",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 100004
+    }
+  ],
+  "STATE_GANSU/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3633588
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 606085
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4408
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1735900
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 401660
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 48000
+    }
+  ],
+  "STATE_GUANGDONG/YUE": [
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4008000
+    },
+    {
+      "culture": "yue",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 5748000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5200
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 774792
+    },
+    {
+      "culture": "min",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 483996
+    },
+    {
+      "culture": "min",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 403996
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 356004
+    },
+    {
+      "culture": "miao",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 306004
+    },
+    {
+      "culture": "zhuang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 107000
+    },
+    {
+      "culture": "zhuang",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 117000
+    },
+    {
+      "culture": "han",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 204400
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 78000
+    },
+    {
+      "culture": "hakka",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 70000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 186000
+    },
+    {
+      "culture": "yue",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 156000
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 996
+    },
+    {
+      "culture": "yue",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_GUANGXI/YUE": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5306504
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2006504
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1508
+    },
+    {
+      "culture": "zhuang",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3212000
+    },
+    {
+      "culture": "zhuang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1002000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 551996
+    },
+    {
+      "culture": "yue",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2551996
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 53200
+    },
+    {
+      "culture": "miao",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 253200
+    }
+  ],
+  "STATE_GUIZHOU/SHU": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1688452
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1500000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1248
+    },
+    {
+      "culture": "zhuang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 892020
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 304000
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 236408
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "STATE_HENAN/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 15338400
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 5000400
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5992
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 589596
+    },
+    {
+      "culture": "han",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 1996
+    }
+  ],
+  "STATE_HUNAN/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 8000400
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4513400
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4200
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 291996
+    },
+    {
+      "culture": "yue",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 201996
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 184000
+    },
+    {
+      "culture": "miao",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 204000
+    }
+  ],
+  "STATE_JIANGSU/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 7985904
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3000904
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 6800
+    }
+  ],
+  "STATE_JIANGXI/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 12549900
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4000900
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3500
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2000000
+    },
+    {
+      "culture": "hakka",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2954600
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2212596
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 256000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 236000
+    }
+  ],
+  "STATE_NANJING/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 8080192
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3000092
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 52000
+    }
+  ],
+  "STATE_NINGXIA/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4637392
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2000392
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2604
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1688000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 492200
+    }
+  ],
+  "STATE_NORTHERN_ANHUI/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 7312000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3002000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 348000
+    }
+  ],
+  "STATE_NORTHERN_MANCHURIA/MCH": [
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2821200
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 236404
+    }
+  ],
+  "STATE_OUTER_MANCHURIA/MCH": [
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 67800
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 8200
+    }
+  ],
+  "STATE_QINGHAI/NCH": [
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 819404
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 596
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 264000
+    },
+    {
+      "culture": "kazak",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 56000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8004
+    }
+  ],
+  "STATE_SHANDONG/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 10088000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 5088000
+    }
+  ],
+  "STATE_SHANXI/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 11377592
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3300092
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 160000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2400
+    }
+  ],
+  "STATE_SHAOZHOU/YUE": [
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 3781992
+    },
+    {
+      "culture": "yue",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1000000
+    },
+    {
+      "culture": "hakka",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1000000
+    },
+    {
+      "culture": "hakka",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 564000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2068000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 500000
+    }
+  ],
+  "STATE_SHENGJING/MCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1091006
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 201006
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 80000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 801994
+    }
+  ],
+  "STATE_SICHUAN/SHU": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4479900
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 5000000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4096
+    },
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1703796
+    },
+    {
+      "culture": "yi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1480000
+    },
+    {
+      "culture": "han",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1336004
+    }
+  ],
+  "STATE_SOUTHERN_ANHUI/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 17473408
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4000408
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2592
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1051996
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 304004
+    }
+  ],
+  "STATE_SOUTHERN_MANCHURIA/MCH": [
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5210800
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2511992
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 511992
+    },
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 504000
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 80412
+    }
+  ],
+  "STATE_SUZHOU/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 10836004
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 6836004
+    }
+  ],
+  "STATE_TIANSHAN/KSG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1300
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 400
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 340000
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "kirgiz",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "tajik",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_WESTERN_HUBEI/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 8116000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4006000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 144000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 884000
+    }
+  ],
+  "STATE_XIAN/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 6351000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2000000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1122488
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 216304
+    }
+  ],
+  "STATE_YUNNAN/SHU": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2000000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1778092
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1904
+    },
+    {
+      "culture": "han",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1416000
+    },
+    {
+      "culture": "zhuang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 85796
+    },
+    {
+      "culture": "yi",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 608596
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 188000
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 120000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40000
+    }
+  ],
+  "STATE_ZHEJIANG/JNG": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4664400
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2004400
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2492
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2293708
+    },
+    {
+      "culture": "min",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 352000
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 156000
+    }
+  ],
+  "STATE_ZHILI/NCH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 7000040
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1446940
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1613
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 54528
+    }
+  ]
+}

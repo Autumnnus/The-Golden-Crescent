@@ -81,9 +81,6 @@ c:EGY ?= {
 	}
 }
 c:HAI ?= {}
-c:IQU ?= {
-	add_liberty_desire = -10
-}
 c:JAP ?= {
 	create_diplomatic_pact = {
 		country = c:EZO
@@ -111,9 +108,6 @@ c:KAN ?= {
 	}
 }
 c:KTI ?= {}
-c:KZH ?= {
-	add_liberty_desire = 10
-}
 c:LAN ?= {}
 c:MAS ?= {
 	set_relations = {
@@ -173,9 +167,6 @@ c:NOR ?= {
 		value = 35
 	}
 }
-c:NPU ?= {
-	add_liberty_desire = 30
-}
 c:OMA ?= {
 	set_relations = {
 		country = c:JOH
@@ -189,31 +180,6 @@ c:OMA ?= {
 		country = c:MBS
 		value = 10
 	}
-}
-c:ORA ?= {
-	set_relations = {
-		country = c:TRN
-		value = 50
-	}
-	set_relations = {
-		country = c:BST
-		value = 25
-	}
-	set_relations = {
-		country = c:ZUL
-		value = 10
-	}
-	set_relations = {
-		country = c:WBL
-		value = 20
-	}
-	set_relations = {
-		country = c:PHL
-		value = 20
-	}
-}
-c:OZH ?= {
-	add_liberty_desire = 10
 }
 c:PAP ?= {
 	set_relations = {
@@ -270,12 +236,6 @@ c:SAR ?= {
 		value = -20
 	}
 }
-c:SEQ ?= {
-	add_liberty_desire = 10
-}
-c:SER ?= {
-	add_liberty_desire = 20
-}
 c:SIA ?= {
 	create_diplomatic_pact = {
 		country = c:CHP
@@ -310,20 +270,6 @@ c:SWE ?= {
 		value = 35
 	}
 }
-c:TRN ?= {
-	set_relations = {
-		country = c:SWZ
-		value = -25
-	}
-	set_relations = {
-		country = c:SWZ
-		value = -10
-	}
-	set_relations = {
-		country = c:GZA
-		value = -25
-	}
-}
 c:TUS ?= {
 	set_relations = {
 		country = c:SIC
@@ -331,9 +277,6 @@ c:TUS ?= {
 	}
 }
 c:URU ?= {}
-c:UZH ?= {
-	add_liberty_desire = 10
-}
 c:VAN ?= {
 	create_diplomatic_pact = {
 		country = c:VNE
@@ -388,7 +331,6 @@ c:WAL ?= {
 		country = c:SER
 		value = 20
 	}
-	add_liberty_desire = 20
 }
 c:WTU ?= {
 	set_relations = {

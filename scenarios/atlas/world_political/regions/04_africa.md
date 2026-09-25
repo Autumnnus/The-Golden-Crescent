@@ -1,6 +1,6 @@
 # Kart 4 — Afrika
 
-**Durum: 4A–4G siyasi sahiplik, kıyı ve emirlik sözleşmesi kapanışı doğrulama için hazır. Avrupa kıta sömürge payları ile dört Omani liman enclave'i yerel sahiplere devredildi; Zanzibar'ın ayrı denizaşırı divanı ve Sokoto–Gobir emirlik sözleşmesi korunur.**
+**Durum: 4A–4H siyasi sahiplik, kıyı ve emirlik sözleşmesi kapanışı doğrulama için hazır. Avrupa kıta sömürge payları ile dört Omani liman enclave'i yerel sahiplere devredildi; Zanzibar'ın ayrı denizaşırı divanı ve Sokoto–Gobir emirlik sözleşmesi korunur.**
 
 ## Korunmuş state kararı
 
@@ -72,3 +72,7 @@ emirlik değildir. Timbuktu oyun ölçeğinde Massina'nın payı ile Kel Adagh, 
 Ataram, Adrar, Tagant ve Reguibat yerel paylarına bölünür. Massina–Timbuktu
 ilmî/ticari şartı şehir hukuku olduğundan ikinci bir ülke veya sahte subject
 yaratmaz.
+
+## 4H — Güneyde kalan iki Boer siyasi payı
+
+[Demografi 20 siyasi düzeltmesi](../../demography_phase20_rest_africa/README.md), yazılı atlasın “Boer cumhuriyetleri yok” kararına rağmen `STATE_VRYSTAAT` ve `STATE_TRANSVAAL` içinde kalmış `ORA`/`TRN` doğrudan paylarını sırasıyla `BST` ve `MTB` yerel yönetimlerine aktarır. Nüfus ile diplomasi korunur; dört state'teki Boer homeland kaydı kaldırılır. Önizleme kartı eskidir; etkin denetim bu dar son aktarımı ayrıca doğrular.

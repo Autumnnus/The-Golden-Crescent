@@ -1,0 +1,251 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Profiled names come from local languages (Nahuatl, Purepecha, Maya, Taino...), from the
+# Andalusian Arabic toponymy (Guadalajara), or from the colonial power that actually holds the
+# place in this world (French Antilles, Nassau, Willemstad, Christiansted). Castilian saint and
+# English names in Andalusian or local territory (Veracruz, San Juan, Kingston...) are skipped.
+version: 1
+cities:
+  Meksika Şehri:
+    state: STATE_MEXICO
+    owner: VNE
+    hub: city
+    population: 180000
+    weights: {nahua/sunni: 250, nahua/catholic: 150, nahua/animist: 50, mexican/sunni: 230, mexican/catholic: 150,
+              ve_andalusi/sunni: 80, maghrebi/sunni: 30, sephardic/jewish: 30, zapotec/catholic: 10,
+              afro_caribeno/catholic: 20}
+  Toluca:
+    state: STATE_MEXICO
+    owner: VNE
+    hub: mine
+    population: 20000
+    weights: {nahua/animist: 400, nahua/sunni: 250, nahua/catholic: 150, mexican/sunni: 120, mexican/catholic: 80}
+  Xalapa:
+    state: STATE_VERACRUZ
+    owner: VNE
+    hub: wood
+    population: 12000
+    weights: {nahua/animist: 300, nahua/sunni: 150, mexican/sunni: 250, mexican/catholic: 200, ve_andalusi/sunni: 50,
+              afro_caribeno/catholic: 50}
+  Coatzacoalcos:
+    state: STATE_VERACRUZ
+    owner: VNE
+    hub: port
+    population: 6000
+    weights: {nahua/animist: 350, mexican/sunni: 200, mexican/catholic: 150, maghrebi/sunni: 100,
+              afro_caribeno/catholic: 100, ve_andalusi/sunni: 100}
+  Campeche:
+    state: STATE_YUCATAN
+    owner: VMY
+    hub: wood
+    population: 15000
+    weights: {mayan/animist: 600, mayan/sunni: 100, mayan/catholic: 100, mexican/catholic: 120, mexican/sunni: 80}
+  Tuxtla:
+    state: STATE_CHIAPAS
+    owner: VMY
+    hub: city
+    population: 6000
+    weights: {mayan/animist: 700, zapotec/animist: 100, mexican/catholic: 150, mexican/sunni: 50}
+  Querétaro:
+    state: STATE_BAJIO
+    owner: VBJ
+    hub: farm
+    population: 25000
+    weights: {nahua/animist: 250, tarascan/animist: 150, nahua/sunni: 150, mexican/sunni: 200, mexican/catholic: 200,
+              ve_andalusi/sunni: 50}
+  Guanajuato:
+    state: STATE_BAJIO
+    owner: VBJ
+    hub: mine
+    population: 35000
+    weights: {tarascan/animist: 250, nahua/animist: 200, nahua/sunni: 100, mexican/sunni: 200, mexican/catholic: 200,
+              ve_andalusi/sunni: 30, afro_caribeno/catholic: 20}
+  Zacatecas:
+    state: STATE_ZACATECAS
+    owner: VZA
+    hub: city
+    population: 30000
+    weights: {nahua/animist: 250, nahua/sunni: 200, mexican/sunni: 250, mexican/catholic: 200, ve_andalusi/sunni: 50,
+              sephardic/jewish: 30, afro_caribeno/catholic: 20}
+  Guadalajara:
+    state: STATE_JALISCO
+    owner: VJL
+    hub: city
+    population: 50000
+    weights: {nahua/animist: 300, nahua/sunni: 200, nahua/catholic: 100, mexican/sunni: 200, mexican/catholic: 150,
+              ve_andalusi/sunni: 30, oodham/animist: 20}
+  Tepic:
+    state: STATE_JALISCO
+    owner: VJL
+    hub: farm
+    population: 6000
+    weights: {oodham/animist: 500, nahua/animist: 300, mexican/sunni: 100, mexican/catholic: 100}
+  Colima:
+    state: STATE_JALISCO
+    owner: VJL
+    hub: wood
+    population: 5000
+    weights: {nahua/animist: 600, mexican/sunni: 200, mexican/catholic: 200}
+  Acapulco:
+    state: STATE_GUERRERO
+    owner: VGR
+    hub: port
+    population: 8000
+    weights: {nahua/animist: 300, mexican/sunni: 250, mexican/catholic: 200, afro_caribeno/catholic: 150,
+              ve_andalusi/sunni: 100}
+  Chilpancingo:
+    state: STATE_GUERRERO
+    owner: VGR
+    hub: city
+    population: 5000
+    weights: {nahua/animist: 700, mixtec/animist: 200, mexican/sunni: 100}
+  Oaxaca:
+    state: STATE_OAXACA
+    owner: VOA
+    hub: city
+    population: 20000
+    weights: {zapotec/animist: 450, zapotec/catholic: 150, mixtec/animist: 150, mexican/sunni: 120, mexican/catholic: 130}
+  Chihuahua:
+    state: STATE_CHIHUAHUA
+    owner: VNP
+    hub: city
+    population: 8000
+    weights: {oodham/animist: 350, apache/animist: 150, mexican/sunni: 250, mexican/catholic: 250}
+  Culiacán:
+    state: STATE_SINALOA
+    owner: VSO
+    hub: city
+    population: 6000
+    weights: {oodham/animist: 650, mexican/sunni: 150, mexican/catholic: 150, ve_andalusi/sunni: 50}
+  Mazatlan:
+    state: STATE_SINALOA
+    owner: VSO
+    hub: port
+    population: 4000
+    weights: {oodham/animist: 500, mexican/sunni: 200, mexican/catholic: 200, afro_caribeno/catholic: 100}
+  Guaymas:
+    state: STATE_SONORA
+    owner: VSO
+    hub: port
+    population: 3000
+    weights: {oodham/animist: 700, hokan/animist: 100, mexican/sunni: 100, mexican/catholic: 100}
+  Tampico:
+    state: STATE_RIO_GRANDE
+    owner: VSR
+    hub: port
+    population: 5000
+    weights: {nahua/animist: 300, oodham/animist: 200, mexican/sunni: 200, mexican/catholic: 200,
+              afro_caribeno/catholic: 100}
+  Guatemala:
+    state: STATE_GUATEMALA
+    owner: VGA
+    hub: mine
+    population: 30000
+    weights: {mayan/animist: 500, mayan/catholic: 100, central_american/catholic: 250, central_american/sunni: 100,
+              afro_caribeno/catholic: 50}
+  Tegucigalpa:
+    state: STATE_HONDURAS
+    owner: VHN
+    hub: city
+    population: 10000
+    weights: {mayan/animist: 450, central_american/catholic: 400, central_american/sunni: 150}
+  Acajutla:
+    state: STATE_SAN_SALVADOR
+    owner: VSS
+    hub: port
+    population: 3000
+    weights: {nahua/animist: 600, central_american/catholic: 300, central_american/sunni: 100}
+  Managua:
+    state: STATE_NICARAGUA
+    owner: VNC
+    hub: city
+    population: 12000
+    weights: {nahua/animist: 550, central_american/catholic: 300, central_american/sunni: 100, mayan/animist: 50}
+  Matagalpa:
+    state: STATE_NICARAGUA
+    owner: VNC
+    hub: wood
+    population: 5000
+    weights: {nahua/animist: 400, mayan/animist: 300, muisca/animist: 100, central_american/catholic: 200}
+  Panama:
+    state: STATE_PANAMA
+    owner: VIT
+    hub: city
+    population: 20000
+    weights: {central_american/catholic: 350, central_american/sunni: 150, afro_caribeno/catholic: 200,
+              afro_caribeno/sunni: 50, muisca/animist: 100, ve_andalusi/sunni: 60, maghrebi/sunni: 40,
+              sephardic/jewish: 20, north_andean/catholic: 30}
+  Havana:
+    state: STATE_WESTERN_CUBA
+    owner: VPI
+    hub: city
+    population: 110000
+    weights: {caribeno/catholic: 250, caribeno/sunni: 200, afro_caribeno/catholic: 200, afro_caribeno/sunni: 80,
+              ve_andalusi/sunni: 120, spanish/catholic: 50, spanish/sunni: 40, maghrebi/sunni: 40,
+              sephardic/jewish: 20}
+  Bayamo:
+    state: STATE_EASTERN_CUBA
+    owner: VPI
+    hub: farm
+    population: 8000
+    weights: {caribeno/catholic: 400, caribeno/sunni: 200, afro_caribeno/catholic: 300, cariban/animist: 100}
+  Baracoa:
+    state: STATE_EASTERN_CUBA
+    owner: VPI
+    hub: wood
+    population: 3000
+    weights: {caribeno/catholic: 400, afro_caribeno/catholic: 300, cariban/animist: 300}
+  Mayaguez:
+    state: STATE_PUERTO_RICO
+    owner: VPI
+    hub: farm
+    population: 10000
+    weights: {caribeno/catholic: 400, caribeno/sunni: 200, afro_caribeno/catholic: 300, cariban/animist: 100}
+  Port au Prince:
+    state: STATE_HAITI
+    owner: HAI
+    hub: city
+    population: 40000
+    weights: {afro_antillean/catholic: 900, afro_caribeno/catholic: 50, caribeno/catholic: 50}
+  Cape Haytien:
+    state: STATE_HAITI
+    owner: HAI
+    hub: farm
+    population: 15000
+    weights: {afro_antillean/catholic: 1000}
+  Saint-Pierre:
+    state: STATE_WEST_INDIES
+    owner: VWI
+    hub: city
+    population: 15000
+    weights: {afro_antillean/catholic: 800, french/catholic: 150, afro_caribbean/protestant: 50}
+  Basse-Terre:
+    state: STATE_WEST_INDIES
+    owner: VLE
+    hub: wood
+    population: 8000
+    weights: {afro_antillean/catholic: 850, french/catholic: 120, sephardic/jewish: 30}
+  Nassau:
+    state: STATE_BAHAMAS
+    owner: GBR
+    hub: port
+    population: 8000
+    weights: {afro_caribbean/protestant: 800, british/protestant: 200}
+  Kingstown:
+    state: STATE_WEST_INDIES
+    owner: GBR
+    hub: mine
+    population: 4000
+    weights: {afro_caribbean/protestant: 900, british/protestant: 100}
+  Willemstad:
+    state: STATE_WEST_INDIES
+    owner: NET
+    hub: port
+    population: 8000
+    weights: {afro_brazilian/catholic: 780, sephardic/jewish: 110, dutch/protestant: 110}
+  Christiansted:
+    state: STATE_WEST_INDIES
+    owner: DEN
+    hub: farm
+    population: 5000
+    weights: {afro_caribbean/protestant: 850, danish/protestant: 150}

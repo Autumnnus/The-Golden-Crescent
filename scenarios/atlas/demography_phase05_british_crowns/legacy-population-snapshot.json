@@ -1,0 +1,450 @@
+{
+  "STATE_CONNAUGHT": {
+    "VIR": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 700
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "soldiers",
+        "size": 6000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": "soldiers",
+        "size": 7000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 1312428
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 21763
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 33413
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 4007
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 5170
+      }
+    ]
+  },
+  "STATE_EAST_ANGLIA": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 1565208
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 8000
+      }
+    ]
+  },
+  "STATE_HIGHLANDS": {
+    "VSC": [
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 434886
+      },
+      {
+        "culture": "scottish_gaelic",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 237510
+      },
+      {
+        "culture": "scottish_gaelic",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 79170
+      }
+    ]
+  },
+  "STATE_HOME_COUNTIES": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 2657596
+      },
+      {
+        "culture": "british",
+        "religion": "jewish",
+        "pop_type": null,
+        "size": 20000
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 100000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 28400
+      }
+    ]
+  },
+  "STATE_LANCASHIRE": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 1986404
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 85700
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 80700
+      }
+    ]
+  },
+  "STATE_LEINSTER": {
+    "VIR": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 4500
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "soldiers",
+        "size": 26000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": "soldiers",
+        "size": 30000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 1647581
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 130489
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 68994
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 14385
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 4300
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 8007
+      },
+      {
+        "culture": "british",
+        "religion": "jewish",
+        "pop_type": null,
+        "size": 237
+      }
+    ]
+  },
+  "STATE_LOWLANDS": {
+    "VSC": [
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 1348072
+      },
+      {
+        "culture": "scottish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 188000
+      },
+      {
+        "culture": "scottish_gaelic",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 49128
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 52400
+      }
+    ]
+  },
+  "STATE_MIDLANDS": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 2543604
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 24400
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 12000
+      }
+    ]
+  },
+  "STATE_MUNSTER": {
+    "VIR": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 1400
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "soldiers",
+        "size": 8000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": "soldiers",
+        "size": 8000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 2206388
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 62456
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 47904
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 10049
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 4040
+      }
+    ]
+  },
+  "STATE_ULSTER": {
+    "VIR": [
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "aristocrats",
+        "size": 15000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": "aristocrats",
+        "size": 10000
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "farmers",
+        "size": 15000
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 2000
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "officers",
+        "size": 2500
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": "soldiers",
+        "size": 20000
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": "soldiers",
+        "size": 20000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": "soldiers",
+        "size": 25000
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 1173122
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 385111
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 71843
+      },
+      {
+        "culture": "scottish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 510084
+      },
+      {
+        "culture": "irish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 101485
+      }
+    ]
+  },
+  "STATE_WALES": {
+    "VEL": [
+      {
+        "culture": "welsh",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 778557
+      },
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 194639
+      }
+    ]
+  },
+  "STATE_WEST_COUNTRY": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 1969600
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 12400
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 4400
+      }
+    ]
+  },
+  "STATE_YORKSHIRE": {
+    "VEL": [
+      {
+        "culture": "british",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 2026592
+      },
+      {
+        "culture": "irish",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 16000
+      },
+      {
+        "culture": "british",
+        "religion": "catholic",
+        "pop_type": null,
+        "size": 48000
+      }
+    ]
+  }
+}

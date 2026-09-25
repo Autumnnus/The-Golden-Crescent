@@ -1,0 +1,526 @@
+version: 1
+policy: 'Western Europe: the six French states, the German imperial princes without a Prussian union, Bohemia, Austria,
+  the Low Countries, Switzerland and the Kalmar crowns. The inherited European populations already fit the written
+  design and keep their scale and joint culture/faith groups. Literacy follows the delayed-Europe canon: Kalmar
+  crowns and Protestant north German and city states highest, Catholic south and France middling, Brittany and Occitania
+  lowest. Narrow mix corrections: Catholic majority restored in Alsace, larger Huguenot minorities in Poitou and
+  Languedoc without a Revocation, and small Maghrebi, Andalusi, Rum and Levantine merchant communities in Marseille,
+  Bordeaux, Paris, Amsterdam and Hamburg reflecting the Islamic world''s trade weight. Weights are per mille.'
+countries:
+  ANH:
+    literacy_range:
+    - 0.38
+    - 0.38
+  AUS:
+    literacy_range:
+    - 0.28
+    - 0.29
+  BAD:
+    literacy_range:
+    - 0.36
+    - 0.36
+  BAV:
+    literacy_range:
+    - 0.3
+    - 0.3
+  BRA:
+    literacy_range:
+    - 0.4
+    - 0.4
+  BRE:
+    literacy_range:
+    - 0.45
+    - 0.45
+  COB:
+    literacy_range:
+    - 0.4
+    - 0.4
+  DEN:
+    literacy_range:
+    - 0.47
+    - 0.48
+  FAQ:
+    literacy_range:
+    - 0.2
+    - 0.2
+  FBG:
+    literacy_range:
+    - 0.31
+    - 0.32
+  FBR:
+    literacy_range:
+    - 0.14
+    - 0.15
+  FOC:
+    literacy_range:
+    - 0.18
+    - 0.18
+  FPA:
+    literacy_range:
+    - 0.31
+    - 0.32
+  FPR:
+    literacy_range:
+    - 0.24
+    - 0.24
+  FRM:
+    literacy_range:
+    - 0.44
+    - 0.44
+  HAM:
+    literacy_range:
+    - 0.45
+    - 0.45
+  HAN:
+    literacy_range:
+    - 0.36
+    - 0.36
+  HEK:
+    literacy_range:
+    - 0.34
+    - 0.34
+  HES:
+    literacy_range:
+    - 0.34
+    - 0.34
+  HOH:
+    literacy_range:
+    - 0.32
+    - 0.32
+  HOL:
+    literacy_range:
+    - 0.42
+    - 0.42
+  LIP:
+    literacy_range:
+    - 0.34
+    - 0.34
+  LUB:
+    literacy_range:
+    - 0.45
+    - 0.45
+  LUX:
+    literacy_range:
+    - 0.28
+    - 0.29
+  MEC:
+    literacy_range:
+    - 0.3
+    - 0.3
+  MEI:
+    literacy_range:
+    - 0.4
+    - 0.4
+  MST:
+    literacy_range:
+    - 0.3
+    - 0.3
+  NAS:
+    literacy_range:
+    - 0.32
+    - 0.32
+  NET:
+    literacy_range:
+    - 0.43
+    - 0.44
+  NOR:
+    literacy_range:
+    - 0.45
+    - 0.46
+  OLD:
+    literacy_range:
+    - 0.36
+    - 0.36
+  SAR:
+    literacy_range:
+    - 0.26
+    - 0.26
+  SAX:
+    literacy_range:
+    - 0.4
+    - 0.4
+  SCH:
+    literacy_range:
+    - 0.4
+    - 0.4
+  SCM:
+    literacy_range:
+    - 0.32
+    - 0.32
+  SCW:
+    literacy_range:
+    - 0.4
+    - 0.4
+  SWE:
+    literacy_range:
+    - 0.47
+    - 0.48
+  SWI:
+    literacy_range:
+    - 0.42
+    - 0.42
+  VBO:
+    literacy_range:
+    - 0.3
+    - 0.3
+  VBR:
+    literacy_range:
+    - 0.36
+    - 0.36
+  VBT:
+    literacy_range:
+    - 0.3
+    - 0.3
+  VLG:
+    literacy_range:
+    - 0.28
+    - 0.29
+  VPM:
+    literacy_range:
+    - 0.3
+    - 0.3
+  VRC:
+    literacy_range:
+    - 0.36
+    - 0.36
+  WEI:
+    literacy_range:
+    - 0.42
+    - 0.42
+  WLD:
+    literacy_range:
+    - 0.32
+    - 0.32
+  WUR:
+    literacy_range:
+    - 0.38
+    - 0.38
+partial_countries:
+- AUS
+- VBO
+- SAR
+- FPR
+- DEN
+- NET
+- SWE
+country_culture_overrides: {}
+country_religion_overrides: {}
+country_laws: {}
+release_slaves: []
+replace_planned: []
+homeland_rule:
+  new_share: 0.1
+  keep_share: 0.0
+  settler_keep_share: 0.1
+  settler_cultures: []
+shares:
+  STATE_ANHALT/ANH:
+    population: 1579400
+    literacy: 0.38
+  STATE_AUSTRIA/AUS:
+    population: 2014400
+    literacy: 0.28
+  STATE_SOUTH_TYROL/AUS:
+    population: 491000
+    literacy: 0.28
+  STATE_STYRIA/AUS:
+    population: 736800
+    literacy: 0.28
+  STATE_TYROL/AUS:
+    population: 559300
+    literacy: 0.28
+  STATE_BADEN/BAD:
+    population: 1301400
+    literacy: 0.36
+  STATE_BAVARIA/BAV:
+    population: 1742000
+    literacy: 0.3
+  STATE_FRANCONIA/BAV:
+    population: 1876200
+    literacy: 0.3
+  STATE_RHINELAND/BAV:
+    population: 557600
+    literacy: 0.3
+  STATE_BRUNSWICK/BRA:
+    population: 336400
+    literacy: 0.4
+  STATE_ELBE/BRE:
+    population: 106000
+    literacy: 0.45
+  STATE_SAXONY/COB:
+    population: 156500
+    literacy: 0.4
+  STATE_GREENLAND/DEN:
+    population: 11200
+    literacy: 0.3
+  STATE_JUTLAND/DEN:
+    population: 548900
+    literacy: 0.48
+  STATE_ZEALAND/DEN:
+    population: 656800
+    literacy: 0.48
+  STATE_AQUITAINE/FAQ:
+    population: 1844200
+    literacy: 0.2
+    mix:
+      occitan/catholic: 890
+      basque/catholic: 33
+      french/catholic: 32
+      occitan/protestant: 30
+      sephardic/jewish: 5
+      ve_andalusi/sunni: 5
+      maghrebi/sunni: 5
+  STATE_GUYENNE/FAQ:
+    population: 1734000
+    literacy: 0.2
+  STATE_POITOU/FAQ:
+    population: 1748200
+    literacy: 0.2
+    mix:
+      french/catholic: 930
+      french/protestant: 65
+      occitan/catholic: 5
+  STATE_ALSACE_LORRAINE/FBG:
+    population: 1436100
+    literacy: 0.34
+    mix:
+      alemannic/catholic: 500
+      alemannic/protestant: 250
+      south_german/catholic: 60
+      french/catholic: 150
+      ashkenazi/jewish: 28
+      south_german/protestant: 12
+  STATE_BURGUNDY/FBG:
+    population: 1576900
+    literacy: 0.3
+  STATE_FRANCHE_COMTE/FBG:
+    population: 934900
+    literacy: 0.3
+  STATE_LORRAINE/FBG:
+    population: 1153100
+    literacy: 0.34
+  STATE_RHONE/FBG:
+    population: 2604800
+    literacy: 0.3
+  STATE_BRITTANY/FBR:
+    population: 2620300
+    literacy: 0.14
+  STATE_AUVERGNE_LIMOUSIN/FOC:
+    population: 2327900
+    literacy: 0.18
+  STATE_LANGUEDOC/FOC:
+    population: 2373100
+    literacy: 0.18
+    mix:
+      occitan/catholic: 810
+      occitan/protestant: 100
+      catalan/catholic: 60
+      french/catholic: 25
+      sephardic/jewish: 5
+  STATE_CHAMPAGNE/FPA:
+    population: 1161900
+    literacy: 0.3
+  STATE_FRENCH_LOW_COUNTRIES/FPA:
+    population: 1691100
+    literacy: 0.3
+  STATE_ILE_DE_FRANCE/FPA:
+    population: 1882400
+    literacy: 0.34
+    mix:
+      french/catholic: 970
+      french/protestant: 15
+      ashkenazi/jewish: 5
+      ve_andalusi/sunni: 3
+      turkish/sunni: 2
+      mashriqi/sunni: 2
+      sephardic/jewish: 3
+  STATE_MAINE_ANJOU/FPA:
+    population: 1610200
+    literacy: 0.3
+  STATE_NORMANDY/FPA:
+    population: 2685100
+    literacy: 0.32
+  STATE_ORLEANS/FPA:
+    population: 1379500
+    literacy: 0.3
+  STATE_PICARDY/FPA:
+    population: 1478400
+    literacy: 0.3
+  STATE_PROVENCE/FPR:
+    population: 1090800
+    literacy: 0.24
+    mix:
+      occitan/catholic: 900
+      french/catholic: 34
+      occitan/protestant: 11
+      sephardic/jewish: 5
+      maghrebi/sunni: 20
+      turkish/sunni: 10
+      mashriqi/sunni: 8
+      ve_andalusi/sunni: 7
+      greek/orthodox: 5
+  STATE_HESSE/FRM:
+    population: 112900
+    literacy: 0.44
+  STATE_ELBE/HAM:
+    population: 150400
+    literacy: 0.45
+    mix:
+      north_german/protestant: 940
+      ashkenazi/jewish: 50
+      turkish/sunni: 5
+      sephardic/jewish: 5
+  STATE_BRUNSWICK/HAN:
+    population: 184000
+    literacy: 0.36
+  STATE_ELBE/HAN:
+    population: 512800
+    literacy: 0.36
+  STATE_HANNOVER/HAN:
+    population: 1150200
+    literacy: 0.36
+  STATE_HESSE/HEK:
+    population: 633300
+    literacy: 0.34
+  STATE_HESSE/HES:
+    population: 729100
+    literacy: 0.34
+  STATE_WURTTEMBERG/HOH:
+    population: 61300
+    literacy: 0.32
+  STATE_SCHLESWIG_HOLSTEIN/HOL:
+    population: 404600
+    literacy: 0.42
+  STATE_WESTPHALIA/LIP:
+    population: 77500
+    literacy: 0.34
+  STATE_SCHLESWIG_HOLSTEIN/LUB:
+    population: 84400
+    literacy: 0.45
+  STATE_WALLONIA/LUX:
+    population: 176800
+    literacy: 0.28
+  STATE_MECKLENBURG/MEC:
+    population: 494000
+    literacy: 0.3
+  STATE_SAXONY/MEI:
+    population: 135300
+    literacy: 0.4
+  STATE_MECKLENBURG/MST:
+    population: 85000
+    literacy: 0.3
+  STATE_HESSE/NAS:
+    population: 402400
+    literacy: 0.32
+  STATE_FRIESLAND/NET:
+    population: 674100
+    literacy: 0.42
+  STATE_GELRE/NET:
+    population: 727200
+    literacy: 0.42
+  STATE_HOLLAND/NET:
+    population: 1239500
+    literacy: 0.45
+    mix:
+      dutch/protestant: 675
+      dutch/catholic: 262
+      ashkenazi/jewish: 27
+      flemish/catholic: 21
+      wallonian/protestant: 5
+      sephardic/jewish: 3
+      turkish/sunni: 3
+      mashriqi/sunni: 2
+      ve_andalusi/sunni: 2
+  STATE_EASTERN_NORWAY/NOR:
+    population: 352800
+    literacy: 0.46
+  STATE_ICELAND/NOR:
+    population: 63700
+    literacy: 0.55
+  STATE_NORTHERN_NORWAY/NOR:
+    population: 337300
+    literacy: 0.42
+  STATE_WESTERN_NORWAY/NOR:
+    population: 546800
+    literacy: 0.46
+  STATE_HANNOVER/OLD:
+    population: 257700
+    literacy: 0.36
+  STATE_PROVENCE/SAR:
+    population: 172200
+    literacy: 0.26
+  STATE_SAXONY/SAX:
+    population: 1671500
+    literacy: 0.4
+  STATE_SCHLESWIG_HOLSTEIN/SCH:
+    population: 336400
+    literacy: 0.4
+  STATE_WESTPHALIA/SCM:
+    population: 23800
+    literacy: 0.32
+  STATE_SAXONY/SCW:
+    population: 111800
+    literacy: 0.4
+  STATE_GOTALAND/SWE:
+    population: 809300
+    literacy: 0.48
+  STATE_GOTLAND/SWE:
+    population: 33200
+    literacy: 0.48
+  STATE_NORRLAND/SWE:
+    population: 327400
+    literacy: 0.44
+  STATE_SCANIA/SWE:
+    population: 513100
+    literacy: 0.48
+  STATE_SVEALAND/SWE:
+    population: 1114200
+    literacy: 0.48
+  STATE_EAST_SWITZERLAND/SWI:
+    population: 895200
+    literacy: 0.42
+  STATE_WEST_SWITZERLAND/SWI:
+    population: 1071000
+    literacy: 0.42
+  STATE_BOHEMIA/VBO:
+    population: 4150400
+    literacy: 0.3
+  STATE_MORAVIA/VBO:
+    population: 2098400
+    literacy: 0.3
+  STATE_BRANDENBURG/VBR:
+    population: 1631500
+    literacy: 0.36
+  STATE_FLANDERS/VBT:
+    population: 2498600
+    literacy: 0.3
+  STATE_GELRE/VBT:
+    population: 165400
+    literacy: 0.3
+  STATE_WALLONIA/VLG:
+    population: 1483400
+    literacy: 0.28
+  STATE_POMERANIA/VPM:
+    population: 1147800
+    literacy: 0.3
+  STATE_NORTH_RHINE/VRC:
+    population: 1015700
+    literacy: 0.36
+  STATE_RHINELAND/VRC:
+    population: 756400
+    literacy: 0.36
+  STATE_RUHR/VRC:
+    population: 856300
+    literacy: 0.36
+  STATE_WESTPHALIA/VRC:
+    population: 1278800
+    literacy: 0.36
+  STATE_SAXONY/WEI:
+    population: 233800
+    literacy: 0.42
+  STATE_HESSE/WLD:
+    population: 55400
+    literacy: 0.32
+  STATE_WURTTEMBERG/WUR:
+    population: 1719800
+    literacy: 0.38

@@ -1,0 +1,680 @@
+{
+  "STATE_BREST": [
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 512334
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10524
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 133659
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 22504
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 59387
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 32924
+    }
+  ],
+  "STATE_CHERNIHIV": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 949520
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 71500
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 94380
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 308880
+    }
+  ],
+  "STATE_CHERSON": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 593470
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 203300
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 86140
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 39420
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 32500
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8030
+    }
+  ],
+  "STATE_EAST_GALICIA": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 20000
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": "aristocrats",
+      "size": 6000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "shopkeepers",
+      "size": 500
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "clerks",
+      "size": 1000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": "laborers",
+      "size": 30000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 812800
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1543804
+    },
+    {
+      "culture": "south_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20004
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 14500
+    }
+  ],
+  "STATE_GALICH": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 682176
+    },
+    {
+      "culture": "ugrian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 64328
+    }
+  ],
+  "STATE_GREATER_POLAND": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 25000
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": "aristocrats",
+      "size": 2300
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1979469
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 358977
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 134245
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 58300
+    }
+  ],
+  "STATE_KAUNAS": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 4500
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 442209
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 91653
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 15387
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 1500
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 26366
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 9366
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 16056
+    }
+  ],
+  "STATE_KHARKOV": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2592964
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 87678
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 276118
+    }
+  ],
+  "STATE_KIEV": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": "aristocrats",
+      "size": 34300
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": "aristocrats",
+      "size": 6000
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2576020
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30125
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 486660
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 72740
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 81600
+    },
+    {
+      "culture": "romanian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 26316
+    }
+  ],
+  "STATE_LESSER_POLAND": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 633163
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 26000
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 117162
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 19663
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 160774
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 35435
+    }
+  ],
+  "STATE_MAZOVIA": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 12400
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 958392
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 180591
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 39499
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 53083
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 50440
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 21106
+    }
+  ],
+  "STATE_MINSK": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 29910
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 569714
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 149520
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 38883
+    }
+  ],
+  "STATE_MOGILEV": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 23216
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 514176
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 81190
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 6240
+    }
+  ],
+  "STATE_POSEN": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 12000
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 540400
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 859204
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 141160
+    }
+  ],
+  "STATE_VILNIUS": [
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 4500
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 147130
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 258
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 178882
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 40028
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 70918
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2062
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 600
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 77259
+    }
+  ],
+  "STATE_VITEBSK": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 45399
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 317823
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 37901
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5933
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3077
+    }
+  ],
+  "STATE_VOLHYNIA": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 526356
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 94529
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 44400
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 40819
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 10026
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 716
+    }
+  ],
+  "STATE_WEST_PRUSSIA": [
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": "aristocrats",
+      "size": 5000
+    },
+    {
+      "culture": "north_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 452400
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2200
+    },
+    {
+      "culture": "polish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 144000
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 183400
+    },
+    {
+      "culture": "north_german",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8004
+    }
+  ]
+}

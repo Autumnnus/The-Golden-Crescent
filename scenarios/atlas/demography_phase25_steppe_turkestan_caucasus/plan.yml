@@ -1,0 +1,173 @@
+version: 1
+policy: >-
+  Kazakh steppe, Turkestan, the Caucasus and Afghanistan-Baluchistan. The inherited Central Asian
+  and Afghan populations are already local and are kept at inherited scale. Russian and Ukrainian
+  settlement from the imperial conquest of the steppe (Orenburg, Chelyabinsk, the Yaik line,
+  Semireche) and of the Caucasus (Kizlyar, Grozny, Vladikavkaz, Tiflis, Baku garrisons) is
+  replaced at the user's moderate level by Kazakh, Bashkir, Tatar, Nogai and Caucasian peoples,
+  keeping small Cossack/merchant remnants. Khanates and emirates with the vanilla debt-slavery law
+  (H8 debt/household bondage) and the Turkmen slave-trade law keep their slave POPs; Russian captives
+  in Khiva and Kokand are re-identified because a Russian empire never reached the region.
+  Kafiristan's inherited Hindu official faith becomes the local faith. Weights are per mille.
+countries:
+  BUK: {literacy_range: [0.11, 0.12]}
+  KHI: {literacy_range: [0.09, 0.10]}
+  KOK: {literacy_range: [0.10, 0.11]}
+  TRM: {literacy_range: [0.04, 0.04]}
+  KZH: {literacy_range: [0.04, 0.04]}
+  OZH: {literacy_range: [0.04, 0.04]}
+  UZH: {literacy_range: [0.04, 0.04]}
+  KIR: {literacy_range: [0.04, 0.04]}
+  HER: {literacy_range: [0.07, 0.08]}
+  KAB: {literacy_range: [0.06, 0.07]}
+  KAN: {literacy_range: [0.04, 0.05]}
+  KAF: {literacy_range: [0.02, 0.02]}
+  KUN: {literacy_range: [0.05, 0.05]}
+  MAI: {literacy_range: [0.05, 0.05]}
+  KAL: {literacy_range: [0.04, 0.04]}
+  MAK: {literacy_range: [0.04, 0.04]}
+  VGE: {literacy_range: [0.12, 0.12]}
+  VER: {literacy_range: [0.18, 0.18]}
+  VBA: {literacy_range: [0.14, 0.15]}
+  VDA: {literacy_range: [0.07, 0.08]}
+  CHC: {literacy_range: [0.05, 0.05]}
+  CIR: {literacy_range: [0.05, 0.05]}
+partial_countries: [KAN, MAK]   # their Sistan shares belong to the Middle East package
+country_culture_overrides: {}
+country_religion_overrides:
+  KAF: {from: hindu, to: animist}   # Kafir/Kalash polytheism is not Hinduism
+country_laws: {}
+release_slaves: []
+replace_planned: []
+slave_mix:
+  khiva: &khiva_slaves {persian/shiite: 900, turkmen/sunni: 80, russian/orthodox: 20}
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.01
+  settler_keep_share: 0.10
+  settler_cultures: [russian, ukrainian, east_german, mordvin, chuvash]
+shares:
+  # --- Bukhara, Khiva, Kokand and the Turkmen -------------------------------------------------
+  STATE_UZBEKIA/BUK: {population: 1030000, literacy: 0.13}
+  STATE_TAJIKISTAN/BUK: {population: 335000, literacy: 0.10}
+  STATE_BALKH/BUK: {population: 66000, literacy: 0.08}
+  STATE_MERZ/BUK: {population: 57000, literacy: 0.06}
+  STATE_KHIVA/KHI:
+    population: 930000
+    literacy: 0.10
+    slave_mix: *khiva_slaves
+  STATE_MERZ/KHI: {population: 33000, literacy: 0.06}
+  STATE_TURKMENIA/KHI: {population: 79000, literacy: 0.06}
+  STATE_FERGANA/KOK: {population: 845000, literacy: 0.12}
+  STATE_KIRGHIZIA/KOK:
+    population: 385000
+    literacy: 0.09
+    slave_mix: {uzbek/sunni: 700, uighur/sunni: 200, persian/shiite: 80, russian/orthodox: 20}
+  STATE_SYRDARYA/KOK: {population: 156000, literacy: 0.08}
+  STATE_TAJIKISTAN/KOK: {population: 236000, literacy: 0.09}
+  STATE_KHIVA/TRM: {population: 14000, literacy: 0.04}
+  STATE_MERZ/TRM: {population: 165000, literacy: 0.04}
+  STATE_TURKMENIA/TRM: {population: 325000, literacy: 0.04}
+  STATE_URALSK/TRM: {population: 9800, literacy: 0.04}
+  # --- Kazakh hordes and Kirghiz -------------------------------------------------------------
+  STATE_AKTOBE/KZH:
+    population: 127000
+    literacy: 0.04
+    mix: {kazak/sunni: 990, tatar/sunni: 10}
+  STATE_CHELYABINSK/KZH:
+    population: 95000
+    literacy: 0.04
+    mix: {kazak/sunni: 450, bashkir/sunni: 400, tatar/sunni: 120, russian/orthodox: 30}
+  STATE_JETISY/KZH: {population: 134000, literacy: 0.04}
+  STATE_KHIVA/KZH: {population: 9400, literacy: 0.04}
+  STATE_SAMARA/KZH:
+    population: 110000
+    literacy: 0.04
+    mix: {kazak/sunni: 450, bashkir/sunni: 300, tatar/sunni: 200, russian/orthodox: 50}
+  STATE_SYRDARYA/KZH: {population: 59000, literacy: 0.04}
+  STATE_URALSK/KZH:
+    population: 185000
+    literacy: 0.04
+    mix: {kazak/sunni: 900, tatar/sunni: 50, russian/orthodox: 30, kalmyk/gelugpa: 20}
+  STATE_AKMOLINSK/OZH:
+    population: 140000
+    literacy: 0.04
+    mix: {kazak/sunni: 970, tatar/sunni: 30}
+  STATE_CHELYABINSK/OZH:
+    population: 150000
+    literacy: 0.04
+    mix: {bashkir/sunni: 550, kazak/sunni: 250, tatar/sunni: 150, russian/orthodox: 50}
+  STATE_SEMIRECHE/OZH:
+    population: 220000
+    literacy: 0.04
+    mix: {kazak/sunni: 960, tatar/sunni: 20, uighur/sunni: 20}
+  STATE_SYRDARYA/OZH: {population: 36500, literacy: 0.04}
+  STATE_SYRDARYA/UZH: {population: 197000, literacy: 0.04}
+  STATE_KIRGHIZIA/KIR: {population: 88000, literacy: 0.04}
+  # --- Afghanistan and Baluchistan -----------------------------------------------------------
+  STATE_HERAT/HER: {population: 900000, literacy: 0.08}
+  STATE_CENTRAL_HIGHLANDS/HER: {population: 34500, literacy: 0.04}
+  STATE_KABUL/KAB: {population: 1055000, literacy: 0.07}
+  STATE_PASHTUNISTAN/KAB: {population: 2030000, literacy: 0.06}
+  STATE_CENTRAL_HIGHLANDS/KAB: {population: 106000, literacy: 0.03}
+  STATE_QUETTA/KAB: {population: 178000, literacy: 0.04}
+  STATE_KANDAHAR/KAN: {population: 870000, literacy: 0.05}
+  STATE_QUETTA/KAN: {population: 113500, literacy: 0.04}
+  STATE_BALUCHISTAN/KAN: {population: 31500, literacy: 0.03}
+  STATE_CENTRAL_HIGHLANDS/KAN: {population: 28000, literacy: 0.03}
+  STATE_NORTHERN_BALUCHISTAN/KAN: {population: 30500, literacy: 0.03}
+  STATE_KABUL/KAF:
+    population: 27000
+    literacy: 0.02
+    slave_mix: {kho/animist: 1000}
+    mix: {kho/animist: 830, pashtun/sunni: 170}
+  STATE_BALKH/KUN: {population: 139000, literacy: 0.05}
+  STATE_BALKH/MAI: {population: 60500, literacy: 0.05}
+  STATE_BALUCHISTAN/KAL: {population: 577000, literacy: 0.04}
+  STATE_BALUCHISTAN/MAK: {population: 467000, literacy: 0.04}
+  # --- Caucasus ----------------------------------------------------------------------------
+  STATE_GREATER_CAUCASUS/VGE:
+    population: 1400000
+    literacy: 0.12
+    mix: {georgian/orthodox: 590, armenian/oriental_orthodox: 180, north_caucasian/orthodox: 80,
+          north_caucasian/sunni: 25, azerbaijani/shiite: 50, azerbaijani/sunni: 25, greek/orthodox: 30,
+          turkish/sunni: 15, sephardic/jewish: 5}
+  STATE_ARMENIA/VER:
+    population: 250000
+    literacy: 0.18
+    mix: {armenian/oriental_orthodox: 560, azerbaijani/sunni: 250, azerbaijani/shiite: 80, kurdish/sunni: 80,
+          assyrian/oriental_orthodox: 10, persian/shiite: 20}
+  STATE_AZERBAIJAN/VBA:
+    population: 280000
+    literacy: 0.15
+    mix: {azerbaijani/shiite: 420, azerbaijani/sunni: 300, persian/shiite: 160, north_caucasian/sunni: 60,
+          armenian/oriental_orthodox: 50, sephardic/jewish: 10}
+  STATE_ELIZAVETPOL/VBA:
+    population: 258000
+    literacy: 0.13
+    mix: {armenian/oriental_orthodox: 360, azerbaijani/shiite: 360, azerbaijani/sunni: 210, kurdish/sunni: 50,
+          north_caucasian/sunni: 20}
+  STATE_DAGESTAN/VDA:
+    population: 140000
+    literacy: 0.08
+    mix: {north_caucasian/sunni: 715, kazak/sunni: 120, sephardic/jewish: 45, persian/shiite: 50,
+          armenian/oriental_orthodox: 20, chechen/sunni: 20, russian/orthodox: 30}
+  STATE_NORTH_CAUCASUS/VDA:
+    population: 80000
+    literacy: 0.06
+    mix: {north_caucasian/sunni: 550, north_caucasian/orthodox: 120, chechen/sunni: 170, kazak/sunni: 80,
+          russian/orthodox: 40, circassian/sunni: 40}
+  STATE_DAGESTAN/CHC: {population: 204000, literacy: 0.05}
+  STATE_NORTH_CAUCASUS/CHC:
+    population: 125000
+    literacy: 0.05
+    mix: {chechen/sunni: 700, north_caucasian/sunni: 250, kazak/sunni: 30, circassian/sunni: 20}
+  STATE_KUBAN/CIR:
+    population: 610000
+    literacy: 0.05
+    mix: {circassian/sunni: 890, north_caucasian/sunni: 90, greek/orthodox: 10, armenian/oriental_orthodox: 10}
+  STATE_NORTH_CAUCASUS/CIR:
+    population: 135000
+    literacy: 0.05
+    mix: {circassian/sunni: 450, north_caucasian/sunni: 350, north_caucasian/orthodox: 80, chechen/sunni: 60,
+          kazak/sunni: 60}

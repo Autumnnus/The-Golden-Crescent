@@ -4,6 +4,24 @@
 # Bu dosyayi degistirmek istiyorsan world/ altindaki YAML'i degistir ve
 # yeniden uret; build kendi ciktisini her calismada siler.
 
+REPLACE_OR_CREATE:ABU = {
+	color = { 113 112 96 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	capital = STATE_ABU_DHABI
+	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:ACE = {
+	color = { 73 152 76 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sumatran }
+	capital = STATE_ACEH
+	is_named_from_capital = yes
+}
+
 ADA = {
 	color = { 216 137 89 }
 	country_type = recognized
@@ -13,12 +31,28 @@ ADA = {
 	capital = STATE_ADANA
 }
 
+REPLACE_OR_CREATE:AGC = {
+	color = { 255 180 0 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili }
+	capital = STATE_MOCAMBIQUE
+}
+
 REPLACE_OR_CREATE:AIN = {
 	color = { 201 197 124 }
 	country_type = decentralized
 	tier = principality
 	cultures = { ainu }
 	capital = STATE_SAKHALIN
+}
+
+REPLACE_OR_CREATE:AIT = {
+	color = { 255 255 153 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { berber }
+	capital = STATE_CONSTANTINE
 }
 
 REPLACE_OR_CREATE:ALB = {
@@ -39,6 +73,23 @@ REPLACE_OR_CREATE:ANH = {
 	religion = protestant
 	capital = STATE_ANHALT
 	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:ARP = {
+	color = { 223 204 125 }
+	country_type = decentralized
+	tier = principality
+	cultures = { algonquian }
+	capital = STATE_COLORADO
+}
+
+REPLACE_OR_CREATE:ARS = {
+	color = { 255 197 179 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { oromo }
+	religion = sunni
+	capital = STATE_OROMIA
 }
 
 REPLACE_OR_CREATE:ASM = {
@@ -67,6 +118,22 @@ REPLACE_OR_CREATE:AWA = {
 	capital = STATE_AWADH
 }
 
+REPLACE_OR_CREATE:AWS = {
+	color = { 125 125 100 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { afar }
+	capital = STATE_GONDER
+}
+
+REPLACE_OR_CREATE:BAL = {
+	color = { 201 97 74 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { balinese moluccan }
+	capital = STATE_SUNDA_ISLANDS
+}
+
 REPLACE_OR_CREATE:BGL = {
 	color = { 74 143 140 }
 	country_type = recognized
@@ -84,6 +151,47 @@ REPLACE_OR_CREATE:BGM = {
 	capital = STATE_GONDER
 }
 
+REPLACE_OR_CREATE:BHN = {
+	color = { 169 51 51 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	capital = STATE_ABU_DHABI
+}
+
+REPLACE_OR_CREATE:BHW = {
+	color = { 93 148 107 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { panjabi sindi }
+	religion = sunni
+	capital = STATE_PUNJAB
+}
+
+REPLACE_OR_CREATE:BLF = {
+	color = hsv{ 0.63 0.68 0.60 }
+	country_type = decentralized
+	tier = principality
+	cultures = { algonquian }
+	capital = STATE_ALBERTA
+}
+
+REPLACE_OR_CREATE:BNJ = {
+	color = { 171 175 40 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bornean }
+	capital = STATE_EAST_BORNEO
+}
+
+REPLACE_OR_CREATE:BOR = {
+	color = { 30 131 162 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kanuri }
+	capital = STATE_BORNU
+}
+
 REPLACE_OR_CREATE:BOS = {
 	color = { 219 151 78 }
 	country_type = recognized
@@ -94,6 +202,22 @@ REPLACE_OR_CREATE:BOS = {
 	is_named_from_capital = yes
 }
 
+REPLACE_OR_CREATE:BRG = {
+	color = { 218 231 235 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { mande fulbe }
+	capital = STATE_HAUSALAND
+}
+
+REPLACE_OR_CREATE:BRU = {
+	color = { 41 89 174 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+
 BSR = {
 	color = { 84 171 177 }
 	country_type = recognized
@@ -101,6 +225,14 @@ BSR = {
 	cultures = { mashriqi }
 	religion = sunni
 	capital = STATE_BASRA
+}
+
+REPLACE_OR_CREATE:BUK = {
+	color = { 147 82 173 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { uzbek }
+	capital = STATE_UZBEKIA
 }
 
 REPLACE_OR_CREATE:BUL = {
@@ -121,6 +253,30 @@ REPLACE_OR_CREATE:BUR = {
 	capital = STATE_MANDALAY
 }
 
+REPLACE_OR_CREATE:CHC = {
+	color = { 35 52 48 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { chechen }
+	capital = STATE_NORTH_CAUCASUS
+}
+
+REPLACE_OR_CREATE:CHT = {
+	color = { 96 193 182 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kho }
+	capital = STATE_PASHTUNISTAN
+}
+
+REPLACE_OR_CREATE:CIR = {
+	color = { 75 96 55 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { circassian }
+	capital = STATE_KUBAN
+}
+
 REPLACE_OR_CREATE:CON = {
 	color = { 228 3 16 }
 	country_type = recognized
@@ -137,6 +293,14 @@ REPLACE_OR_CREATE:COO = {
 	cultures = { bengali }
 	religion = hindu
 	capital = STATE_WEST_BENGAL
+}
+
+REPLACE_OR_CREATE:DFR = {
+	color = { 44 160 70 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { fur bedouin }
+	capital = STATE_DARFUR
 }
 
 REPLACE_OR_CREATE:DGR = {
@@ -164,6 +328,14 @@ DZH = {
 	cultures = { mongol }
 	religion = gelugpa
 	capital = STATE_DZUNGARIA
+}
+
+REPLACE_OR_CREATE:EGY = {
+	color = { 255 205 155 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { misri }
+	capital = STATE_LOWER_EGYPT
 }
 
 ERZ = {
@@ -229,6 +401,30 @@ FPR = {
 	capital = STATE_PROVENCE
 }
 
+REPLACE_OR_CREATE:FTJ = {
+	color = { 230 125 127 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { fulbe }
+	capital = STATE_GUINEA
+}
+
+REPLACE_OR_CREATE:FTR = {
+	color = { 115 204 102 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { fulbe wolof }
+	capital = STATE_SENEGAL
+}
+
+REPLACE_OR_CREATE:FZN = {
+	color = { 231 0 19 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { maghrebi }
+	capital = STATE_LIBYAN_DESERT
+}
+
 REPLACE_OR_CREATE:GBR = {
 	color = { 125 125 125 }
 	country_type = recognized
@@ -255,6 +451,57 @@ GJT = {
 	capital = STATE_GUJARAT
 }
 
+REPLACE_OR_CREATE:GLD = {
+	color = { 38 160 67 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+REPLACE_OR_CREATE:HAR = {
+	color = { 175 75 15 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { amhara }
+	religion = sunni
+	capital = STATE_OROMIA
+}
+
+REPLACE_OR_CREATE:HAU = {
+	color = { 225 185 85 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { hausa }
+	capital = STATE_OUTER_HAUSALAND
+}
+
+REPLACE_OR_CREATE:HDJ = {
+	color = { 121 229 215 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	religion = sunni
+	capital = STATE_HEDJAZ
+}
+
+REPLACE_OR_CREATE:HDY = {
+	color = { 34 128 89 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { oromo }
+	religion = sunni
+	capital = STATE_AMHARA
+}
+
+REPLACE_OR_CREATE:HER = {
+	color = { 80 135 113 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { pashtun persian }
+	capital = STATE_HERAT
+}
+
 HUZ = {
 	color = { 74 145 158 }
 	country_type = recognized
@@ -274,6 +521,15 @@ REPLACE_OR_CREATE:HYD = {
 	is_named_from_capital = yes
 }
 
+REPLACE_OR_CREATE:IQU = {
+	color = { 245 210 80 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { quechua }
+	religion = animist
+	capital = STATE_ICA
+}
+
 ISF = {
 	color = { 112 86 176 }
 	country_type = recognized
@@ -281,6 +537,22 @@ ISF = {
 	cultures = { persian }
 	religion = shiite
 	capital = STATE_ISFAHAN
+}
+
+REPLACE_OR_CREATE:ISQ = {
+	color = { 224 255 182 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+REPLACE_OR_CREATE:JAB = {
+	color = { 183 62 62 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	capital = STATE_HAIL
 }
 
 REPLACE_OR_CREATE:JAI = {
@@ -300,6 +572,14 @@ REPLACE_OR_CREATE:JEY = {
 	capital = STATE_CIRCARS
 }
 
+REPLACE_OR_CREATE:JMB = {
+	color = { 223 228 192 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
 JNG = {
 	color = { 73 142 152 }
 	country_type = recognized
@@ -307,6 +587,80 @@ JNG = {
 	cultures = { han }
 	religion = confucian
 	capital = STATE_NANJING
+}
+
+REPLACE_OR_CREATE:JOH = {
+	color = { 165 151 80 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+REPLACE_OR_CREATE:JUN = {
+	color = { 200 229 237 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { gujarati pathan }
+	religion = sunni
+	capital = STATE_GUJARAT
+}
+
+REPLACE_OR_CREATE:KAB = {
+	color = { 95 95 109 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { pashtun tajik }
+	capital = STATE_KABUL
+}
+
+REPLACE_OR_CREATE:KAF = {
+	color = { 195 82 20 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kho pashtun }
+	religion = animist
+	capital = STATE_KABUL
+}
+
+REPLACE_OR_CREATE:KAL = {
+	color = { 97 98 195 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { baluchi }
+	capital = STATE_BALUCHISTAN
+}
+
+REPLACE_OR_CREATE:KAN = {
+	color = { 71 113 193 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { pashtun tajik }
+	capital = STATE_KANDAHAR
+}
+
+REPLACE_OR_CREATE:KAS = {
+	color = { 63 150 30 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kashmiri }
+	capital = STATE_KASHMIR
+}
+
+REPLACE_OR_CREATE:KAT = {
+	color = { 79 152 64 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin yemenite }
+	capital = STATE_YEMEN
+}
+
+REPLACE_OR_CREATE:KHI = {
+	color = { 188 123 103 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { uzbek }
+	capital = STATE_KHIVA
 }
 
 KHO = {
@@ -327,6 +681,23 @@ KIR = {
 	capital = STATE_KIRGHIZIA
 }
 
+REPLACE_OR_CREATE:KNO = {
+	color = { 187 1 99 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { pathan deccani telegu }
+	religion = sunni
+	capital = STATE_KURNOOL
+}
+
+REPLACE_OR_CREATE:KOK = {
+	color = { 119 130 145 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kirgiz }
+	capital = STATE_FERGANA
+}
+
 KRM = {
 	color = { 187 122 154 }
 	country_type = recognized
@@ -336,6 +707,14 @@ KRM = {
 	capital = STATE_KERMAN
 }
 
+REPLACE_OR_CREATE:KRT = {
+	color = { 127 28 45 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bambara }
+	capital = STATE_WESTERN_MALI
+}
+
 KSG = {
 	color = { 166 136 71 }
 	country_type = recognized
@@ -343,6 +722,14 @@ KSG = {
 	cultures = { uighur }
 	religion = sunni
 	capital = STATE_TIANSHAN
+}
+
+REPLACE_OR_CREATE:KUN = {
+	color = { 153 76 0 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { uzbek tajik }
+	capital = STATE_BALKH
 }
 
 REPLACE_OR_CREATE:KUR = {
@@ -372,6 +759,23 @@ REPLACE_OR_CREATE:KZH = {
 	capital = STATE_JETISY
 }
 
+REPLACE_OR_CREATE:LAH = {
+	color = { 209 41 41 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin yemenite }
+	religion = sunni
+	capital = STATE_YEMEN
+}
+
+REPLACE_OR_CREATE:LAN = {
+	color = { 141 89 174 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { hakka }
+	capital = STATE_WEST_BORNEO
+}
+
 REPLACE_OR_CREATE:LEB = {
 	color = { 128 171 129 }
 	country_type = recognized
@@ -388,6 +792,30 @@ REPLACE_OR_CREATE:LUR = {
 	cultures = { luri }
 	religion = shiite
 	capital = STATE_LURISTAN
+}
+
+REPLACE_OR_CREATE:MAH = {
+	color = { 0 153 76 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin yemenite }
+	capital = STATE_YEMEN
+}
+
+REPLACE_OR_CREATE:MAI = {
+	color = { 204 210 3 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { uzbek turkmen tajik }
+	capital = STATE_BALKH
+}
+
+REPLACE_OR_CREATE:MAK = {
+	color = { 219 146 162 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { baluchi }
+	capital = STATE_BALUCHISTAN
 }
 
 MAR = {
@@ -417,6 +845,16 @@ REPLACE_OR_CREATE:MAZ = {
 	capital = STATE_MAZANDARAN
 }
 
+REPLACE_OR_CREATE:MBS = {
+	color = { 127 177 72 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili }
+	religion = ibadi
+	capital = STATE_KENYA
+	is_named_from_capital = yes
+}
+
 REPLACE_OR_CREATE:MCH = {
 	color = { 115 99 148 }
 	country_type = recognized
@@ -427,6 +865,14 @@ REPLACE_OR_CREATE:MCH = {
 	is_named_from_capital = yes
 }
 
+REPLACE_OR_CREATE:MGD = {
+	color = { 119 32 29 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+
 REPLACE_OR_CREATE:MGL = {
 	color = { 125 154 119 }
 	country_type = recognized
@@ -434,6 +880,30 @@ REPLACE_OR_CREATE:MGL = {
 	cultures = { mongol }
 	religion = gelugpa
 	capital = STATE_URGA
+}
+
+REPLACE_OR_CREATE:MJT = {
+	color = { 220 200 100 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+REPLACE_OR_CREATE:MOR = {
+	color = { 224 146 113 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { maghrebi berber }
+	capital = STATE_FEZ
+}
+
+REPLACE_OR_CREATE:MSN = {
+	color = { 230 231 62 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { fulbe }
+	capital = STATE_EASTERN_MALI
 }
 
 REPLACE_OR_CREATE:MTB = {
@@ -482,6 +952,34 @@ NCH = {
 	capital = STATE_BEIJING
 }
 
+REPLACE_OR_CREATE:NEJ = {
+	color = { 209 219 116 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bedouin }
+	capital = STATE_NEJD
+	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:NPU = {
+	color = { 157 55 55 }
+	country_type = recognized
+	tier = principality
+	cultures = { quechua south_andean }
+	religion = animist
+	capital = STATE_LIMA
+}
+
+REPLACE_OR_CREATE:OMA = {
+	color = { 98 134 153 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { bedouin }
+	religion = ibadi
+	capital = STATE_OMAN
+	is_named_from_capital = yes
+}
+
 REPLACE_OR_CREATE:ORG = {
 	color = { 91 134 139 }
 	country_type = unrecognized
@@ -501,6 +999,14 @@ REPLACE_OR_CREATE:ORI = {
 	is_named_from_capital = yes
 }
 
+REPLACE_OR_CREATE:OZH = {
+	color = { 80 80 100 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { kazak }
+	capital = STATE_SEMIRECHE
+}
+
 REPLACE_OR_CREATE:PAL = {
 	color = { 184 144 182 }
 	country_type = recognized
@@ -508,6 +1014,24 @@ REPLACE_OR_CREATE:PAL = {
 	cultures = { mashriqi }
 	religion = sunni
 	capital = STATE_PALESTINE
+}
+
+REPLACE_OR_CREATE:PLP = {
+	color = { 222 222 222 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { gujarati pathan }
+	religion = sunni
+	capital = STATE_GUJARAT
+}
+
+REPLACE_OR_CREATE:PNI = {
+	color = hsv360{ 120 75 61 }
+	country_type = recognized
+	tier = principality
+	cultures = { guarani }
+	religion = animist
+	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
 PNJ = {
@@ -519,6 +1043,40 @@ PNJ = {
 	capital = STATE_HILL_PUNJAB
 }
 
+REPLACE_OR_CREATE:PON = {
+	color = { 255 102 102 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+REPLACE_OR_CREATE:PRA = {
+	color = { 128 202 129 }
+	country_type = recognized
+	tier = principality
+	cultures = { tupinamba amazonian }
+	religion = animist
+	capital = STATE_PARA
+}
+
+REPLACE_OR_CREATE:PRG = {
+	color = { 177 44 29 }
+	country_type = recognized
+	tier = principality
+	cultures = { guarani }
+	religion = animist
+	capital = STATE_BAJO_PARAGUAY
+}
+
+REPLACE_OR_CREATE:PRK = {
+	color = { 76 122 117 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
 RUM = {
 	color = { 41 125 136 }
 	country_type = recognized
@@ -528,6 +1086,38 @@ RUM = {
 	capital = STATE_EASTERN_THRACE
 }
 
+REPLACE_OR_CREATE:SAK = {
+	color = { 21 196 68 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
+REPLACE_OR_CREATE:SEL = {
+	color = { 249 215 61 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+REPLACE_OR_CREATE:SEQ = {
+	color = { 86 120 117 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { caddoan siouan cherokee }
+	capital = STATE_OKLAHOMA
+}
+
+REPLACE_OR_CREATE:SGU = {
+	color = { 27 28 145 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bambara }
+	capital = STATE_WESTERN_MALI
+}
+
 SHU = {
 	color = { 137 130 73 }
 	country_type = recognized
@@ -535,6 +1125,64 @@ SHU = {
 	cultures = { han }
 	religion = confucian
 	capital = STATE_SICHUAN
+}
+
+REPLACE_OR_CREATE:SIN = {
+	color = { 135 104 85 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { sindi }
+	capital = STATE_SINDH
+	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:SMB = {
+	color = { 102 102 255 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+REPLACE_OR_CREATE:SOK = {
+	color = { 0 135 81 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { hausa fulbe }
+	capital = STATE_HAUSALAND
+}
+
+REPLACE_OR_CREATE:SPU = {
+	color = { 55 167 77 }
+	country_type = recognized
+	tier = principality
+	cultures = { quechua }
+	religion = animist
+	capital = STATE_ICA
+}
+
+REPLACE_OR_CREATE:SRK = {
+	color = { 239 51 64 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
+REPLACE_OR_CREATE:STG = {
+	color = { 255 255 0 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+REPLACE_OR_CREATE:SUL = {
+	color = { 89 164 144 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { moro }
+	capital = STATE_MINDANAO
 }
 
 REPLACE_OR_CREATE:SYR = {
@@ -572,6 +1220,14 @@ REPLACE_OR_CREATE:TEK = {
 	capital = STATE_WEST_SAHARA
 }
 
+REPLACE_OR_CREATE:TGI = {
+	color = { 72 92 12 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili }
+	capital = STATE_MOCAMBIQUE
+}
+
 REPLACE_OR_CREATE:TGR = {
 	color = { 167 218 207 }
 	country_type = unrecognized
@@ -599,6 +1255,50 @@ TRB = {
 	capital = STATE_TRABZON
 }
 
+REPLACE_OR_CREATE:TRI = {
+	color = { 180 137 148 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { maghrebi }
+	capital = STATE_TRIPOLI
+	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:TUA = {
+	color = { 66 98 114 }
+	country_type = decentralized
+	tier = principality
+	cultures = { berber tuareg }
+	capital = STATE_SAHARA
+}
+
+REPLACE_OR_CREATE:TUG = {
+	color = { 90 140 190 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { berber }
+	capital = STATE_EAST_SAHARA
+}
+
+REPLACE_OR_CREATE:TUN = {
+	color = { 131 101 85 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { maghrebi }
+	capital = STATE_TUNISIA
+	is_named_from_capital = yes
+}
+
+REPLACE_OR_CREATE:URU = {
+	color = { 131 101 85 }
+	country_type = recognized
+	tier = principality
+	cultures = { patagonian guarani }
+	religion = animist
+	capital = STATE_URUGUAY
+	is_named_from_capital = yes
+}
+
 REPLACE_OR_CREATE:UZH = {
 	color = { 70 100 80 }
 	country_type = unrecognized
@@ -620,7 +1320,7 @@ VAK = {
 	color = { 139 117 84 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { quechua }
+	cultures = { aimara quechua }
 	religion = animist
 	capital = STATE_ANTOFAGASTA
 }
@@ -638,7 +1338,7 @@ VAN = {
 	color = { 63 137 95 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { spanish }
+	cultures = { ve_andalusi spanish portuguese }
 	religion = sunni
 	capital = STATE_LOWER_ANDALUSIA
 }
@@ -674,7 +1374,7 @@ VBJ = {
 	color = { 123 126 153 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { nahua tarascan }
 	religion = animist
 	capital = STATE_BAJIO
 }
@@ -692,7 +1392,7 @@ VBP = {
 	color = { 92 132 151 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { hokan }
 	religion = animist
 	capital = STATE_BAJA_CALIFORNIA
 }
@@ -742,6 +1442,15 @@ VCA = {
 	capital = STATE_NEW_CASTILE
 }
 
+VCD = {
+	color = { 132 92 60 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { caddoan }
+	religion = animist
+	capital = STATE_TEXAS
+}
+
 VCE = {
 	color = { 130 115 77 }
 	country_type = unrecognized
@@ -773,7 +1482,7 @@ VCL = {
 	color = { 110 142 109 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { hokan }
 	religion = animist
 	capital = STATE_CALIFORNIA
 }
@@ -792,7 +1501,7 @@ VCQ = {
 	country_type = recognized
 	tier = principality
 	cultures = { muisca }
-	religion = catholic
+	religion = animist
 	capital = STATE_CAUCA
 }
 
@@ -809,8 +1518,8 @@ VCS = {
 	color = { 137 110 108 }
 	country_type = recognized
 	tier = principality
-	cultures = { chilean }
-	religion = catholic
+	cultures = { patagonian south_andean }
+	religion = animist
 	capital = STATE_SANTIAGO
 }
 
@@ -818,7 +1527,7 @@ VCU = {
 	color = { 135 109 137 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { quechua }
+	cultures = { quechua aimara }
 	religion = animist
 	capital = STATE_AREQUIPA
 }
@@ -854,7 +1563,7 @@ VDR = {
 	color = { 119 126 104 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { oodham }
 	religion = animist
 	capital = STATE_DURANGO
 }
@@ -1025,7 +1734,7 @@ VKC = {
 	color = { 142 111 131 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { quechua }
+	cultures = { quechua aimara }
 	religion = animist
 	capital = STATE_POTOSI
 }
@@ -1043,7 +1752,7 @@ VKM = {
 	color = { 129 147 92 }
 	country_type = recognized
 	tier = principality
-	cultures = { mongol }
+	cultures = { kalmyk }
 	religion = gelugpa
 	capital = STATE_KALMYKIA
 }
@@ -1061,7 +1770,7 @@ VKR = {
 	color = { 128 139 97 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { mayan }
+	cultures = { muisca }
 	religion = animist
 	capital = STATE_COSTA_RICA
 }
@@ -1079,7 +1788,7 @@ VLE = {
 	color = { 146 108 166 }
 	country_type = recognized
 	tier = principality
-	cultures = { afro_caribbean }
+	cultures = { afro_antillean }
 	religion = catholic
 	capital = STATE_WEST_INDIES
 }
@@ -1097,7 +1806,7 @@ VLP = {
 	color = { 119 125 151 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { quechua }
+	cultures = { aimara quechua }
 	religion = animist
 	capital = STATE_LA_PAZ
 }
@@ -1115,7 +1824,7 @@ VMB = {
 	color = { 81 144 166 }
 	country_type = recognized
 	tier = principality
-	cultures = { afro_caribbean }
+	cultures = { afro_antillean }
 	religion = catholic
 	capital = STATE_INDIAN_OCEAN_TERRITORY
 }
@@ -1205,7 +1914,7 @@ VNC = {
 	color = { 122 121 151 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { mayan }
+	cultures = { nahua miskito }
 	religion = animist
 	capital = STATE_NICARAGUA
 }
@@ -1214,7 +1923,7 @@ VNE = {
 	color = { 64 140 97 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { nahua }
+	cultures = { nahua mexican }
 	religion = sunni
 	capital = STATE_MEXICO
 }
@@ -1250,7 +1959,7 @@ VNP = {
 	color = { 133 116 88 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { apache }
+	cultures = { apache oodham }
 	religion = animist
 	capital = STATE_CHIHUAHUA
 }
@@ -1313,7 +2022,7 @@ VOR = {
 	color = { 94 133 150 }
 	country_type = recognized
 	tier = principality
-	cultures = { muisca }
+	cultures = { amazonian }
 	religion = animist
 	capital = STATE_GUAVIARE
 }
@@ -1471,6 +2180,15 @@ VSI = {
 	capital = STATE_ANTIOQUIA
 }
 
+VSM = {
+	color = { 151 71 128 }
+	country_type = decentralized
+	tier = principality
+	cultures = { polynesian }
+	religion = animist
+	capital = STATE_TONGA
+}
+
 VSN = {
 	color = { 126 106 69 }
 	country_type = recognized
@@ -1484,7 +2202,7 @@ VSO = {
 	color = { 146 121 80 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { oodham }
 	religion = animist
 	capital = STATE_SONORA
 }
@@ -1493,7 +2211,7 @@ VSR = {
 	color = { 99 130 149 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { nahua }
+	cultures = { nahua oodham }
 	religion = animist
 	capital = STATE_RIO_GRANDE
 }
@@ -1502,7 +2220,7 @@ VSS = {
 	color = { 142 110 100 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { mayan }
+	cultures = { nahua }
 	religion = animist
 	capital = STATE_SAN_SALVADOR
 }
@@ -1548,7 +2266,7 @@ VTD = {
 	country_type = recognized
 	tier = principality
 	cultures = { tagalog }
-	religion = catholic
+	religion = animist
 	capital = STATE_LUZON
 }
 
@@ -1559,6 +2277,15 @@ VTL = {
 	cultures = { aborigine }
 	religion = animist
 	capital = STATE_TASMANIA
+}
+
+VTU = {
+	color = { 70 110 140 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { athabaskan inuit }
+	religion = animist
+	capital = STATE_ALASKA
 }
 
 VUR = {
@@ -1602,7 +2329,7 @@ VVS = {
 	country_type = recognized
 	tier = principality
 	cultures = { visayan }
-	religion = catholic
+	religion = animist
 	capital = STATE_VISAYAS
 }
 
@@ -1610,7 +2337,7 @@ VWI = {
 	color = { 166 130 78 }
 	country_type = recognized
 	tier = principality
-	cultures = { afro_caribbean }
+	cultures = { afro_antillean }
 	religion = catholic
 	capital = STATE_WEST_INDIES
 }
@@ -1642,11 +2369,51 @@ VZA = {
 	capital = STATE_ZACATECAS
 }
 
+REPLACE_OR_CREATE:WAD = {
+	color = { 194 66 41 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { fur }
+	capital = STATE_WADDAI
+}
+
+REPLACE_OR_CREATE:WSG = {
+	color = { 18 97 128 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+REPLACE_OR_CREATE:WTU = {
+	color = { 255 164 7 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili }
+	capital = STATE_KENYA
+}
+
+REPLACE_OR_CREATE:YOG = {
+	color = { 201 28 54 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
 REPLACE_OR_CREATE:YUE = {
 	color = { 82 151 105 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { han zhuang }
+	cultures = { han zhuang yue }
 	religion = confucian
 	capital = STATE_GUANGDONG
+}
+
+REPLACE_OR_CREATE:ZAI = {
+	color = { 153 76 0 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { yemenite bedouin }
+	capital = STATE_YEMEN
 }

@@ -1,0 +1,24 @@
+﻿# Modifier types used by ve_andalusi culture static modifiers (vanilla per-culture pattern).
+state_ve_andalusi_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_ve_andalusi_cultural_acceptance_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_fervor_target_ve_andalusi_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

@@ -1,0 +1,78 @@
+version: 1
+policy: >-
+  Preserve the 26 separate sovereign polities of the Malay archipelago,
+  New Guinea and Philippines. Their Egyptian/Omani port contracts transfer
+  no territory. Retain inherited joint culture/religion groups and fixed
+  professions except three Philippine mixtures whose Spanish-colonial
+  Catholic majorities contradict this alternate world's political history.
+countries:
+  JOH: {population: 590000, literacy_range: [0.19, 0.21]}
+  PRK: {population: 155000, literacy_range: [0.16, 0.18]}
+  SEL: {population: 250000, literacy_range: [0.18, 0.20]}
+  BRU: {population: 225000, literacy_range: [0.16, 0.18]}
+  SUL: {population: 300000, literacy_range: [0.15, 0.18]}
+  BLG: {population: 118000, literacy_range: [0.12, 0.14]}
+  LAN: {population: 77000, literacy_range: [0.20, 0.22]}
+  PON: {population: 180000, literacy_range: [0.17, 0.19]}
+  SMB: {population: 84000, literacy_range: [0.15, 0.17]}
+  STG: {population: 50000, literacy_range: [0.12, 0.14]}
+  BNJ: {population: 190000, literacy_range: [0.16, 0.18]}
+  KTI: {population: 175000, literacy_range: [0.15, 0.17]}
+  YOG: {population: 6200000, literacy_range: [0.20, 0.23]}
+  SRK: {population: 2200000, literacy_range: [0.20, 0.22]}
+  SAK: {population: 800000, literacy_range: [0.18, 0.21]}
+  JMB: {population: 240000, literacy_range: [0.17, 0.19]}
+  ACE: {population: 430000, literacy_range: [0.21, 0.23]}
+  PPU: {population: 770000, literacy_range: [0.08, 0.10]}
+  TID: {population: 580000, literacy_range: [0.16, 0.19]}
+  SLW: {population: 520000, literacy_range: [0.15, 0.17]}
+  BTN: {population: 60000, literacy_range: [0.14, 0.16]}
+  BAL: {population: 1680000, literacy_range: [0.16, 0.18]}
+  MGD: {population: 370000, literacy_range: [0.14, 0.16]}
+  MND: {population: 460000, literacy_range: [0.09, 0.11]}
+  VTD: {population: 1500000, literacy_range: [0.19, 0.21]}
+  VVS: {population: 1100000, literacy_range: [0.17, 0.19]}
+country_religion_overrides:
+  VTD: {from: catholic, to: animist}
+  VVS: {from: catholic, to: animist}
+states:
+  STATE_MALAYA/JOH: {owner: JOH, literacy: 0.20}
+  STATE_MALAYA/PRK: {owner: PRK, literacy: 0.17}
+  STATE_MALAYA/SEL: {owner: SEL, literacy: 0.19}
+  STATE_NORTH_BORNEO/BRU: {owner: BRU, literacy: 0.17}
+  STATE_NORTH_BORNEO/SUL: {owner: SUL, literacy: 0.16}
+  STATE_NORTH_BORNEO/BLG: {owner: BLG, literacy: 0.12}
+  STATE_WEST_BORNEO/LAN: {owner: LAN, literacy: 0.21}
+  STATE_WEST_BORNEO/PON: {owner: PON, literacy: 0.18}
+  STATE_WEST_BORNEO/SMB: {owner: SMB, literacy: 0.16}
+  STATE_WEST_BORNEO/STG: {owner: STG, literacy: 0.13}
+  STATE_EAST_BORNEO/BNJ: {owner: BNJ, literacy: 0.17}
+  STATE_EAST_BORNEO/BLG: {owner: BLG, literacy: 0.13}
+  STATE_EAST_BORNEO/KTI: {owner: KTI, literacy: 0.16}
+  STATE_WEST_JAVA/YOG: {owner: YOG, literacy: 0.22}
+  STATE_EAST_JAVA/SRK: {owner: SRK, literacy: 0.21}
+  STATE_CENTRAL_JAVA/YOG: {owner: YOG, literacy: 0.20}
+  STATE_CENTRAL_JAVA/SRK: {owner: SRK, literacy: 0.19}
+  STATE_NORTH_SUMATRA/SAK: {owner: SAK, literacy: 0.18}
+  STATE_NORTH_SUMATRA/JMB: {owner: JMB, literacy: 0.17}
+  STATE_SOUTH_SUMATRA/JMB: {owner: JMB, literacy: 0.18}
+  STATE_ACEH/ACE: {owner: ACE, literacy: 0.22}
+  STATE_ACEH/SAK: {owner: SAK, literacy: 0.20}
+  STATE_WESTERN_NEW_GUINEA/PPU: {owner: PPU, literacy: 0.08}
+  STATE_WESTERN_NEW_GUINEA/TID: {owner: TID, literacy: 0.15}
+  STATE_MOLUCCAS/TID: {owner: TID, literacy: 0.18}
+  STATE_CELEBES/SLW: {owner: SLW, literacy: 0.16}
+  STATE_CELEBES/BTN: {owner: BTN, literacy: 0.15}
+  STATE_CELEBES/TID: {owner: TID, literacy: 0.15}
+  STATE_EASTERN_NEW_GUINEA/PPU: {owner: PPU, literacy: 0.09}
+  STATE_SUNDA_ISLANDS/BAL: {owner: BAL, literacy: 0.17}
+  STATE_MINDANAO/SUL: {owner: SUL, literacy: 0.17}
+  STATE_MINDANAO/MND: {owner: MND, literacy: 0.10}
+  STATE_MINDANAO/MGD: {owner: MGD, literacy: 0.15}
+  STATE_LUZON/VTD: {owner: VTD, literacy: 0.20}
+  STATE_LUZON/SUL: {owner: SUL, literacy: 0.15}
+  STATE_VISAYAS/VVS: {owner: VVS, literacy: 0.18}
+joint_mix_overrides:
+  STATE_LUZON/VTD: {tagalog/animist: 625, tagalog/catholic: 90, ilocano/animist: 215, ilocano/catholic: 50, visayan/animist: 12, visayan/catholic: 5, filipino_mestizo/catholic: 2, spanish/catholic: 1}
+  STATE_VISAYAS/VVS: {visayan/animist: 798, visayan/catholic: 170, tagalog/animist: 20, tagalog/catholic: 10, filipino_mestizo/catholic: 1, spanish/catholic: 1}
+  STATE_MINDANAO/SUL: {moro/sunni: 423, lumad/animist: 350, visayan/animist: 130, visayan/catholic: 40, bornean/sunni: 50, yue/confucian: 5, filipino_mestizo/catholic: 1, spanish/catholic: 1}

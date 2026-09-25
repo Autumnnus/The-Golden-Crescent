@@ -1,0 +1,65 @@
+version: 1
+policy: >-
+  Keep the independent Indian treasuries, their inherited regional culture/religion
+  communities, and H8 bonded professions. Make modest population corrections from
+  the installed source. Replace surviving European colonial administrators and
+  aristocrats with local officers of the same profession; ordinary settlers and
+  private investors are not automatically removed. City estimates are subsets of
+  the corresponding state-owner POP and are not additional population.
+countries:
+  PNJ: {population: 1650000, literacy_range: [0.20, 0.28]}
+  KAS: {population: 1300000, literacy_range: [0.17, 0.25]}
+  JAI: {population: 2100000, literacy_range: [0.14, 0.23]}
+  MEW: {population: 620000, literacy_range: [0.14, 0.23]}
+  JOD: {population: 1360000, literacy_range: [0.14, 0.23]}
+  AWA: {population: 8600000, literacy_range: [0.17, 0.25]}
+  SIN: {population: 2000000, literacy_range: [0.15, 0.23]}
+  GJT: {population: 2800000, literacy_range: [0.21, 0.29]}
+  HYD: {population: 15500000, literacy_range: [0.16, 0.25]}
+  MYS: {population: 4400000, literacy_range: [0.18, 0.26]}
+  TAM: {population: 8700000, literacy_range: [0.18, 0.26]}
+  TRA: {population: 2200000, literacy_range: [0.20, 0.28]}
+  COC: {population: 540000, literacy_range: [0.20, 0.28]}
+  ASM: {population: 1800000, literacy_range: [0.15, 0.23]}
+  VKN: {population: 1300000, literacy_range: [0.17, 0.25]}
+states:
+  STATE_HILL_PUNJAB: {PNJ: {population: 1650000, literacy: 0.24}}
+  STATE_KASHMIR: {KAS: {population: 1300000, literacy: 0.21}}
+  STATE_RAJPUTANA:
+    JAI: {population: 2100000, literacy: 0.20}
+    MEW: {population: 620000, literacy: 0.18}
+    JOD: {population: 1360000, literacy: 0.17}
+  STATE_AWADH: {AWA: {population: 8600000, literacy: 0.21}}
+  STATE_SINDH: {SIN: {population: 2000000, literacy: 0.19}}
+  STATE_GUJARAT: {GJT: {population: 2800000, literacy: 0.25}}
+  STATE_CENTRAL_PROVINCES: {HYD: {population: 2320000, literacy: 0.17}}
+  STATE_CIRCARS: {HYD: {population: 3130000, literacy: 0.21}}
+  STATE_KURNOOL: {HYD: {population: 1380000, literacy: 0.18}}
+  STATE_HYDERABAD: {HYD: {population: 8670000, literacy: 0.22}}
+  STATE_MYSORE: {MYS: {population: 4400000, literacy: 0.22}}
+  STATE_MADRAS: {TAM: {population: 8700000, literacy: 0.22}}
+  STATE_TRAVANCORE:
+    TRA: {population: 2200000, literacy: 0.24}
+    COC: {population: 540000, literacy: 0.24}
+  STATE_ASSAM: {ASM: {population: 1800000, literacy: 0.19}}
+  STATE_CEYLON: {VKN: {population: 1300000, literacy: 0.21}}
+localize_professions:
+  STATE_RAJPUTANA/JAI: {british/protestant/aristocrats: rajput/hindu/aristocrats}
+  STATE_GUJARAT/GJT:
+    british/protestant/bureaucrats: gujarati/hindu/bureaucrats
+    scottish/protestant/bureaucrats: gujarati/hindu/bureaucrats
+    british/protestant/officers: gujarati/sunni/officers
+  STATE_CIRCARS/HYD:
+    british/protestant/bureaucrats: telegu/hindu/bureaucrats
+    scottish/protestant/bureaucrats: telegu/hindu/bureaucrats
+  STATE_MADRAS/TAM:
+    british/protestant/bureaucrats: tamil/hindu/bureaucrats
+    scottish/protestant/bureaucrats: tamil/hindu/bureaucrats
+  STATE_ASSAM/ASM:
+    british/protestant/bureaucrats: assamese/hindu/bureaucrats
+    scottish/protestant/bureaucrats: assamese/hindu/bureaucrats
+  STATE_CEYLON/VKN:
+    british/protestant/aristocrats: sinhala/theravada/aristocrats
+    french/catholic/aristocrats: sinhala/theravada/aristocrats
+reclassify_communities:
+  STATE_GUJARAT/GJT: {persian/animist: persian/shiite}

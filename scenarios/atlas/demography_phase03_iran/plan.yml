@@ -1,0 +1,152 @@
+version: 1
+countries:
+  ISF: {population: 8000000, literacy_range: [0.48, 0.56]}
+  TBR: {population: 4500000, literacy_range: [0.43, 0.51]}
+  KHO: {population: 3000000, literacy_range: [0.20, 0.35]}
+  MAZ: {population: 2000000, literacy_range: [0.20, 0.35]}
+  KRM: {population: 1600000, literacy_range: [0.20, 0.35]}
+  LUR: {population: 1700000, literacy_range: [0.20, 0.35]}
+  HUZ: {population: 1900000, literacy_range: [0.20, 0.35]}
+policy: >-
+  Each confederation member owns its population; no eighth combined Iran is added.
+  Existing slave and fixed-profession POPs keep their exact group and headcount.
+  Unlisted minor legacy joint groups retain their absolute headcount. Vanilla
+  shiite is the broad gameplay proxy for Irfani institutions; the installed
+  game has no separate Zoroastrian religion, so no false substitute is added.
+states:
+  STATE_FARS:
+    owner: ISF
+    population: 1900000
+    literacy: 0.49
+    mix:
+      persian/shiite: 790
+      turkmen/shiite: 75
+      luri/shiite: 85
+      sephardic/jewish: 18
+      armenian/oriental_orthodox: 22
+      circassian/shiite: 10
+  STATE_IRAKAJEMI:
+    owner: ISF
+    population: 4500000
+    literacy: 0.52
+    mix:
+      persian/shiite: 875
+      azerbaijani/shiite: 60
+      armenian/oriental_orthodox: 20
+      sephardic/jewish: 20
+      luri/shiite: 15
+      assyrian/oriental_orthodox: 10
+  STATE_ISFAHAN:
+    owner: ISF
+    population: 1400000
+    literacy: 0.57
+    mix:
+      persian/shiite: 790
+      luri/shiite: 52
+      armenian/oriental_orthodox: 75
+      sephardic/jewish: 42
+      georgian/shiite: 16
+      circassian/shiite: 25
+  STATE_SEMNAN:
+    owner: ISF
+    population: 200000
+    literacy: 0.43
+    mix:
+      persian/shiite: 900
+      mazanderani/shiite: 85
+      circassian/shiite: 15
+  STATE_TABRIZ:
+    owner: TBR
+    population: 3150000
+    literacy: 0.49
+    mix:
+      azerbaijani/shiite: 735
+      persian/shiite: 115
+      armenian/oriental_orthodox: 85
+      luri/shiite: 20
+      sephardic/jewish: 20
+      mazanderani/shiite: 15
+      circassian/shiite: 10
+  STATE_URMIA:
+    owner: TBR
+    population: 1350000
+    literacy: 0.42
+    mix:
+      azerbaijani/shiite: 340
+      kurdish/sunni: 360
+      armenian/oriental_orthodox: 95
+      assyrian/oriental_orthodox: 145
+      assyrian/catholic: 12
+      persian/shiite: 35
+      sephardic/jewish: 13
+  STATE_KHORASAN:
+    owner: KHO
+    population: 3000000
+    literacy: 0.31
+    mix:
+      persian/shiite: 820
+      kurdish/sunni: 105
+      turkmen/sunni: 35
+      baluchi/sunni: 20
+      hazara/shiite: 10
+      sephardic/jewish: 10
+  STATE_MAZANDARAN:
+    owner: MAZ
+    population: 2000000
+    literacy: 0.33
+    mix:
+      mazanderani/shiite: 775
+      persian/shiite: 120
+      turkmen/sunni: 70
+      azerbaijani/shiite: 15
+      georgian/shiite: 12
+      sephardic/jewish: 8
+  STATE_KERMAN:
+    owner: KRM
+    population: 1350000
+    literacy: 0.28
+    mix:
+      persian/shiite: 840
+      baluchi/sunni: 105
+      sephardic/jewish: 20
+      bedouin/sunni: 35
+  STATE_LARISTAN:
+    owner: KRM
+    population: 250000
+    literacy: 0.22
+    mix:
+      persian/shiite: 520
+      bedouin/sunni: 360
+      baluchi/sunni: 120
+  STATE_LURISTAN:
+    owner: LUR
+    population: 800000
+    literacy: 0.24
+    mix:
+      luri/shiite: 705
+      kurdish/sunni: 100
+      persian/shiite: 160
+      armenian/oriental_orthodox: 15
+      sephardic/jewish: 10
+      circassian/shiite: 10
+  STATE_PERSIAN_KURDISTAN:
+    owner: LUR
+    population: 900000
+    literacy: 0.22
+    mix:
+      kurdish/sunni: 765
+      persian/shiite: 110
+      luri/shiite: 70
+      armenian/oriental_orthodox: 35
+      sephardic/jewish: 20
+  STATE_KHUZESTAN:
+    owner: HUZ
+    population: 1900000
+    literacy: 0.30
+    mix:
+      mashriqi/shiite: 730
+      mashriqi/sunni: 100
+      persian/shiite: 80
+      luri/shiite: 65
+      assyrian/oriental_orthodox: 15
+      sephardic/jewish: 10

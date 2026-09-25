@@ -1,0 +1,7 @@
+# Hint şehir merkezleri için siyasi mikrodüzeltme
+
+Kurulu Victoria 3'ün state hub province kimlikleri, [siyasi yazılı atlas](../../../docs/scenario/dunya_atlasi.md) ve [sınır dosyası](../../../docs/scenario/sinir_ve_birlik_ekleri.md) birlikte karşılaştırıldı. Sekiz adlandırılmış şehir merkezi yanlış devletin tek bir province payına düşüyordu. [Dondurulmuş plan](plan.yml) sadece bu province'leri doğru mevcut sahibe taşır: Amritsar `PNJ`, Srinagar `KAS`, Surat `GJT`, Jodhpur `JOD`, Udaipur `MEW`, Indore `IND`, Imphal `MNP`, Jorhat `ASM`. Yeni devlet, bağlılık, kültür veya din yaratılmaz.
+
+`prepare.py` eski sahibi ve yeni sahibin aynı state'te başka province tuttuğunu denetler. `verify.py` adayın yalnız sekiz province'i değiştirdiğini; ülke, diplomasi, diğer state alanları ve dünya nüfusu toplamının korunduğunu denetler. Altı state etkilenir. [Harita önizlemesi](../../../build/maps/city-anchor-candidate.html) ve [değişiklik haritası](../../../build/maps/city-anchor-changes.png) ayrı adaydan üretildi. Ardından etkin `world/scenario.yml` ve Atlas history yeniden üretildi; `atlas check` **0 hata, önceki 25 uyarı**, siyasi denetim geçti.
+
+Bu kayıt motorun şehir hub konumunu değiştirmez; kurulu oyundaki hub province'inin yeni siyasi sahibini eşler. Sınır şekli kullanıcı tarafından bu mikrodüzeltmeden sonra henüz ayrı bir oyun ekranında yeniden incelenmedi. Önceki siyasi dünya motor testi diğer sınırların genel görünümünü doğruluyordu.

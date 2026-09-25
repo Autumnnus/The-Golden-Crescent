@@ -1,0 +1,60 @@
+# Canon decisions for M1 (institutional skeleton). Every other target country uses the class
+# rules in classify.py. Keys: tier (1 = most advanced .. 7), republic (needs democracy), add (technologies),
+# church, land, economy, trade, tax, edu (education law), health, notes.
+# Sources: docs/scenario/hukuk_ve_kurumlar.md (H1-H10), ekonomi_ve_toplum.md sector table,
+# dunya_atlasi.md, ulke_dosyalari.md.
+version: 1
+countries:
+  # --- Islamic core powers (H1/H2, Rum/Iran/Andalusia) ------------------------------------
+  RUM: {tier: 1, church: law_people_of_the_book, land: law_tenant_farmers, trade: law_protectionism,
+        health: law_charitable_health_system, dist: law_landed_voting,
+        add: [canneries, mechanized_workshops, rifling],
+        notes: "H1; 1811 abolition; 1827 Nizam Ahdi assembly; add = Faz 1B.2 industrial chain (M3)"}
+  ISF: {tier: 1, church: law_freedom_of_conscience, land: law_tenant_farmers, health: law_charitable_health_system,
+        notes: "H2/H8 federation chair; academies"}
+  TBR: {tier: 1, church: law_people_of_the_book, land: law_tenant_farmers, health: law_charitable_health_system,
+        notes: "precision manufacturing"}
+  VAN: {tier: 1, church: law_freedom_of_conscience, land: law_tenant_farmers, health: law_charitable_health_system,
+        citizenship: law_cultural_exclusion, notes: "H4 federal crown, multi-faith"}
+  KHO: {tier: 2, church: law_people_of_the_book, notes: "Iran member H8"}
+  MAZ: {tier: 2, church: law_people_of_the_book, notes: "Iran member H8"}
+  KRM: {tier: 3, church: law_people_of_the_book, notes: "Iran member H8"}
+  LUR: {tier: 3, church: law_people_of_the_book, notes: "Iran member H8"}
+  HUZ: {tier: 3, church: law_people_of_the_book, notes: "Iran member H8"}
+  BSR: {tier: 2, republic: true, church: law_freedom_of_conscience, economy: law_laissez_faire, trade: law_free_trade,
+        land: law_tenant_farmers, notes: "H7 merchant republic"}
+  # --- Europe --------------------------------------------------------------------------------
+  VPL: {tier: 2, church: law_freedom_of_conscience, land: law_serfdom, edu: law_private_schools,
+        citizenship: law_cultural_exclusion, notes: "H6: serfdom with strong technical/city schools"}
+  VEL: {tier: 2, church: law_freedom_of_conscience, land: law_tenant_farmers, notes: "H5 Catholic crown, reform churches tolerated"}
+  VSC: {tier: 2, church: law_freedom_of_conscience, land: law_tenant_farmers, notes: "H5 parish schools"}
+  VIR: {tier: 3, land: law_manorialism, notes: "H8"}
+  VRC: {tier: 3, republic: true, church: law_freedom_of_conscience, economy: law_laissez_faire, land: law_tenant_farmers,
+        notes: "H7 Rhine city league"}
+  VBT: {tier: 3, republic: true, economy: law_laissez_faire, land: law_tenant_farmers, notes: "H7 Brabant cities"}
+  VVE: {tier: 3, republic: true, economy: law_laissez_faire, land: law_tenant_farmers, notes: "H7 Venice"}
+  VMI: {tier: 3, republic: true, economy: law_laissez_faire, land: law_tenant_farmers, notes: "H7 Milan"}
+  VNG: {tier: 4, republic: true, land: law_tenant_farmers, notes: "H7 Novgorod"}
+  VMS: {tier: 4, land: law_serfdom, dist: law_autocracy, notes: "Tatar-pressed principality; serfdom"}
+  VBO: {tier: 3, land: law_manorialism, notes: "Catholic crown"}
+  # --- Asia ---------------------------------------------------------------------------------
+  JNG: {tier: 1, republic: true, church: law_freedom_of_conscience, economy: law_laissez_faire, trade: law_free_trade,
+        land: law_tenant_farmers, edu: law_private_schools, notes: "H7 merchant-bureaucrat republic"}
+  YUE: {tier: 2, church: law_freedom_of_conscience, land: law_tenant_farmers, notes: "H7 confederation"}
+  BGL: {tier: 2, church: law_freedom_of_conscience, land: law_tenant_farmers, notes: "H7 sultanate, Hindu majority"}
+  GJT: {tier: 3, republic: true, church: law_freedom_of_conscience, economy: law_laissez_faire, trade: law_free_trade,
+        land: law_tenant_farmers, notes: "Gujarat port league"}
+  KSG: {tier: 3, church: law_people_of_the_book, notes: "H8 caravan khanate"}
+  # --- Colonies and settler republics (metropole tier + 1..2) --------------------------------
+  VNI: {tier: 3, church: law_freedom_of_conscience, land: law_homesteading, notes: "H10, slavery abolished"}
+  VNH: {tier: 3, church: law_freedom_of_conscience, land: law_homesteading, notes: "H10, slavery abolished"}
+  VPA: {tier: 3, republic: true, church: law_freedom_of_conscience, economy: law_laissez_faire, land: law_homesteading,
+        notes: "H7 trade republic"}
+  VIN: {tier: 3, church: law_freedom_of_conscience, land: law_homesteading, notes: "Kalmar colony"}
+  VVA: {tier: 3, land: law_latifundias, notes: "H10 plantation slavery"}
+  VDC: {tier: 3, republic: true, land: law_latifundias, notes: "Chesapeake civic district"}
+  VNE: {tier: 2, church: law_freedom_of_conscience, land: law_latifundias, notes: "H10 New Andalusia"}
+  VSI: {tier: 3, land: law_latifundias, notes: "H10"}
+  VPI: {tier: 3, land: law_latifundias, notes: "H10 plantation islands"}
+  VFB: {tier: 3, land: law_latifundias, notes: "H10 Moroccan Brazil"}
+  VBU: {tier: 2, land: law_tenant_farmers, notes: "H10 Rum colony, abolished 1820"}

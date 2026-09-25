@@ -1,0 +1,1382 @@
+{
+  "STATE_ABU_DHABI/ABU": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 52900
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3200
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 1900
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 120
+    },
+    {
+      "culture": "bedouin",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 1600
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2800
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 100
+    },
+    {
+      "culture": "baluchi",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 230
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 100
+    }
+  ],
+  "STATE_ABU_DHABI/BHN": [
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9400
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 5200
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2430
+    },
+    {
+      "culture": "bedouin",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 270
+    }
+  ],
+  "STATE_ADANA/ADA": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 112526
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10001
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 13998
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2093
+    },
+    {
+      "culture": "greek",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 334
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 167
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 417
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 30012
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 2010
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1003
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 100
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 400
+    }
+  ],
+  "STATE_BASRA/BSR": [
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 64000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3154
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16940
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 12236
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 471
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3059
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 282
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 23
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 47
+    }
+  ],
+  "STATE_BASRA/KUW": [
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2365
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12705
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 9177
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 353
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2294
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 212
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 18
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 35
+    }
+  ],
+  "STATE_DIYARBAKIR/KUR": [
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 260712
+    },
+    {
+      "culture": "kurdish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 91190
+    },
+    {
+      "culture": "assyrian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 29341
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 76381
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29129
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 219482
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 1000
+    }
+  ],
+  "STATE_ERZURUM/ERZ": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100554
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 110807
+    },
+    {
+      "culture": "turkish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 62143
+    },
+    {
+      "culture": "kurdish",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 136060
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 687
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 107
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 170533
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2673
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2867
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 333
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 467
+    }
+  ],
+  "STATE_HAIL/JAB": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 38496
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 100
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2300
+    }
+  ],
+  "STATE_HAIL/NEJ": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 31000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 38040
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 200
+    },
+    {
+      "culture": "sudanese",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3600
+    }
+  ],
+  "STATE_HEDJAZ/HDJ": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 142000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 28000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 249200
+    },
+    {
+      "culture": "yemenite",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 40600
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 300
+    }
+  ],
+  "STATE_INDIAN_OCEAN_TERRITORY/VMB": [
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 29992
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 68000
+    },
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2088
+    },
+    {
+      "culture": "afro_antillean",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 94612
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 5900
+    }
+  ],
+  "STATE_KARS/ERZ": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 61000
+    },
+    {
+      "culture": "georgian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 27000
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4500
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 28500
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2300
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 1400
+    },
+    {
+      "culture": "azerbaijani",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 17000
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_LARISTAN/BHN": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5002
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 2006
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 230
+    }
+  ],
+  "STATE_LARISTAN/OMA": [
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 40100
+    },
+    {
+      "culture": "bedouin",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 8012
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5002
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2006
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 910
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8200
+    }
+  ],
+  "STATE_LEBANON/LEB": [
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 26000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 128000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 36000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 78000
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_MADRAS/TAM": [
+    {
+      "culture": "tamil",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 7475653
+    },
+    {
+      "culture": "tamil",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 527363
+    },
+    {
+      "culture": "french",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 458
+    },
+    {
+      "culture": "tamil",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 88629
+    },
+    {
+      "culture": "tamil",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 62185
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 16160
+    },
+    {
+      "culture": "kannada",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 276606
+    },
+    {
+      "culture": "tamil",
+      "religion": "hindu",
+      "pop_type": "bureaucrats",
+      "size": 8623
+    },
+    {
+      "culture": "tamil",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 210321
+    },
+    {
+      "culture": "kannada",
+      "religion": "hindu",
+      "pop_type": "slaves",
+      "size": 34002
+    }
+  ],
+  "STATE_MOSUL/KUR": [
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 203004
+    },
+    {
+      "culture": "assyrian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 52000
+    },
+    {
+      "culture": "armenian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 7000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 194296
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 112804
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4200
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3200
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 1300
+    }
+  ],
+  "STATE_NEJD/NEJ": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 93996
+    },
+    {
+      "culture": "bedouin",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 22000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 7000
+    }
+  ],
+  "STATE_OMAN/OMA": [
+    {
+      "culture": "bedouin",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 158000
+    },
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8400
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 9200
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 38000
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 400
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 7000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9000
+    }
+  ],
+  "STATE_PALESTINE/PAL": [
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 248000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 25600
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 58000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 18000
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 1400
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1200
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2300
+    }
+  ],
+  "STATE_RAJPUTANA/GWA": [
+    {
+      "culture": "rajput",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 26010
+    },
+    {
+      "culture": "rajput",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 1769
+    }
+  ],
+  "STATE_RAJPUTANA/IND": [
+    {
+      "culture": "rajput",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 29021
+    },
+    {
+      "culture": "rajput",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2012
+    }
+  ],
+  "STATE_SISTAN/KAN": [
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 9800
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5007
+    },
+    {
+      "culture": "pashtun",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 405
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": "slaves",
+      "size": 500
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 300
+    }
+  ],
+  "STATE_SISTAN/MAK": [
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 101002
+    },
+    {
+      "culture": "persian",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 8005
+    },
+    {
+      "culture": "kurdish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5004
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 5200
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 8200
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 5102
+    },
+    {
+      "culture": "bedouin",
+      "religion": "ibadi",
+      "pop_type": null,
+      "size": 106
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 100
+    },
+    {
+      "culture": "baluchi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 213
+    }
+  ],
+  "STATE_SYRIA/SYR": [
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 25000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 312000
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 148000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8200
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 3000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_TRABZON/TRB": [
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 542970
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 28802
+    },
+    {
+      "culture": "armenian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8082
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 108088
+    },
+    {
+      "culture": "georgian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 32256
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 6986
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 233
+    },
+    {
+      "culture": "georgian",
+      "religion": "orthodox",
+      "pop_type": "slaves",
+      "size": 3473
+    }
+  ],
+  "STATE_TRANSJORDAN/SYR": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 18400
+    },
+    {
+      "culture": "bedouin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 800
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13600
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5200
+    },
+    {
+      "culture": "mashriqi",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 1600
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 100
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 300
+    }
+  ],
+  "STATE_YEMEN/KAT": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 39000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4900
+    }
+  ],
+  "STATE_YEMEN/LAH": [
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8200
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16400
+    },
+    {
+      "culture": "yemenite",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "yemenite",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "yemenite",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 44000
+    },
+    {
+      "culture": "yemenite",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8100
+    }
+  ],
+  "STATE_YEMEN/MAH": [
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3200
+    }
+  ],
+  "STATE_YEMEN/ZAI": [
+    {
+      "culture": "sudanese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 32800
+    },
+    {
+      "culture": "yemenite",
+      "religion": "shiite",
+      "pop_type": null,
+      "size": 630000
+    },
+    {
+      "culture": "yemenite",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 221000
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "sephardic",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 16000
+    }
+  ],
+  "absorbed": {
+    "STATE_MADRAS/DEN": [
+      {
+        "culture": "tamil",
+        "religion": "hindu",
+        "pop_type": null,
+        "size": 30102
+      },
+      {
+        "culture": "tamil",
+        "religion": "sunni",
+        "pop_type": null,
+        "size": 4010
+      },
+      {
+        "culture": "danish",
+        "religion": "protestant",
+        "pop_type": null,
+        "size": 201
+      }
+    ]
+  }
+}

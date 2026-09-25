@@ -1,0 +1,222 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and hub province owners are verified by verify.py.
+version: 1
+cities:
+  Ségou:
+    state: STATE_EASTERN_MALI
+    owner: MSN
+    hub: farm
+    population: 60000
+    weights:
+      bambara/animist: 469
+      senufo/animist: 33
+      mande/sunni: 384
+      fulbe/sunni: 114
+  Bamako:
+    state: STATE_WESTERN_MALI
+    owner: SGU
+    hub: farm
+    population: 25000
+    weights:
+      fulbe/sunni: 182
+      bambara/animist: 309
+      mande/sunni: 509
+  Timbuktu:
+    state: STATE_TIMBUKTU
+    owner: MSN
+    hub: farm
+    population: 35000
+    weights:
+      songhai/sunni: 621
+      mande/sunni: 286
+      fulbe/sunni: 93
+  Agadez:
+    state: STATE_NIGER
+    owner: AIR
+    hub: city
+    population: 12000
+    weights:
+      tuareg/sunni: 642
+      hausa/sunni: 264
+      fulbe/sunni: 94
+  Abéché:
+    state: STATE_CHAD
+    owner: WAD
+    hub: mine
+    population: 18000
+    weights:
+      bedouin/sunni: 313
+      equatorial_bantu/animist: 426
+      fur/sunni: 239
+      tuareg/sunni: 22
+  Saint-Louis:
+    state: STATE_SENEGAL
+    owner: CAY
+    hub: city
+    population: 50000
+    weights:
+      fulbe/sunni: 362
+      bidan/sunni: 31
+      wolof/sunni: 366
+      mande/sunni: 237
+      fulbe/animist: 4
+  Ndakaaru:
+    state: STATE_SENEGAL
+    owner: CAY
+    hub: port
+    population: 35000
+    weights:
+      fulbe/sunni: 362
+      bidan/sunni: 31
+      wolof/sunni: 366
+      mande/sunni: 237
+      fulbe/animist: 4
+  Labe:
+    state: STATE_GUINEA
+    owner: FTJ
+    hub: mine
+    population: 45000
+    weights:
+      fulbe/sunni: 715
+      mande/sunni: 285
+  Ouagadougou:
+    state: STATE_VOLTA
+    owner: MOS
+    hub: city
+    population: 70000
+    weights:
+      mossi/animist: 580
+      mande/animist: 132
+      fulbe/sunni: 62
+      mande/sunni: 170
+      bambara/animist: 56
+  Sokoto:
+    state: STATE_HAUSALAND
+    owner: SOK
+    hub: city
+    population: 90000
+    weights:
+      hausa/sunni: 411
+      songhai/sunni: 16
+      fulbe/sunni: 220
+      yoruba/animist: 137
+      hausa/animist: 126
+      equatorial_bantu/animist: 90
+  Kano:
+    state: STATE_EAST_HAUSALAND
+    owner: SOK
+    hub: mine
+    population: 120000
+    weights:
+      hausa/sunni: 649
+      hausa/animist: 186
+      fulbe/sunni: 165
+  Niamey:
+    state: STATE_OUTER_HAUSALAND
+    owner: SOK
+    hub: city
+    population: 20000
+    weights:
+      hausa/sunni: 68
+      dyula/sunni: 64
+      equatorial_bantu/animist: 386
+      tuareg/sunni: 193
+      songhai/sunni: 156
+      fulbe/sunni: 133
+  Damaturu:
+    state: STATE_BORNU
+    owner: BOR
+    hub: city
+    population: 45000
+    weights:
+      kanuri/sunni: 666
+      hausa/sunni: 208
+      fulbe/sunni: 113
+      bedouin/sunni: 13
+  Kumasi:
+    state: STATE_GOLD_COAST
+    owner: ASH
+    hub: city
+    population: 90000
+    weights:
+      akan/animist: 785
+      ewe/animist: 158
+      mossi/animist: 57
+  Accra:
+    state: STATE_GOLD_COAST
+    owner: ASH
+    hub: port
+    population: 50000
+    weights:
+      akan/animist: 785
+      ewe/animist: 158
+      mossi/animist: 57
+  Lomé:
+    state: STATE_TOGO
+    owner: EWE
+    hub: port
+    population: 35000
+    weights:
+      ewe/animist: 1000
+  Porto-Novo:
+    state: STATE_DAHOMEY
+    owner: DAH
+    hub: city
+    population: 50000
+    weights:
+      fon/animist: 715
+      yoruba/animist: 160
+      akan/animist: 93
+      fulbe/sunni: 32
+  Ibadan:
+    state: STATE_YORUBA_STATES
+    owner: OYO
+    hub: city
+    population: 100000
+    weights:
+      yoruba/animist: 982
+      fon/animist: 18
+  Lagos:
+    state: STATE_YORUBA_STATES
+    owner: OYO
+    hub: port
+    population: 75000
+    weights:
+      yoruba/animist: 982
+      fon/animist: 18
+  Benin:
+    state: STATE_BENIN
+    owner: BEN
+    hub: city
+    population: 100000
+    weights:
+      edo/animist: 294
+      ibo/animist: 186
+      yoruba/animist: 138
+      fulbe/sunni: 160
+      tiv/animist: 222
+  Calabar:
+    state: STATE_NIGER_DELTA
+    owner: IBO
+    hub: city
+    population: 100000
+    weights:
+      ibo/animist: 489
+      equatorial_bantu/animist: 319
+      ibibio/animist: 192
+  Konakiri:
+    state: STATE_GUINEA
+    owner: SSU
+    hub: port
+    population: 30000
+    weights:
+      mande/sunni: 929
+      dyula/sunni: 47
+      fulbe/sunni: 24
+  Grand-Bassam:
+    state: STATE_IVORY_COAST
+    owner: AYI
+    hub: port
+    population: 20000
+    weights:
+      akan/animist: 1000

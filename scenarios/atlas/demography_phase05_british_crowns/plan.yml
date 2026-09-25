@@ -1,0 +1,145 @@
+version: 1
+countries:
+  VEL: {population: 14200000, literacy_range: [0.30, 0.38]}
+  VSC: {population: 2400000, literacy_range: [0.42, 0.50]}
+  VIR: {population: 5200000, literacy_range: [0.20, 0.30]}
+policy: >-
+  Three crowns have separate state populations; the shared monarch is not
+  another population pool. Catholic court religion does not make every
+  English or Welsh person Catholic, and Protestant Scottish institutions do
+  not erase Highland Catholic and Gaelic communities. Ireland's reduced
+  country target preserves all inherited fixed-profession headcounts and
+  distinct Ulster settlement groups. No overseas GBR or New England POP is
+  included in these crown targets.
+states:
+  STATE_HOME_COUNTIES:
+    owner: VEL
+    population: 3000000
+    literacy: 0.48
+    mix:
+      british/catholic: 500
+      british/protestant: 420
+      british/jewish: 15
+      irish/catholic: 40
+      irish/protestant: 15
+      welsh/catholic: 10
+  STATE_LANCASHIRE:
+    owner: VEL
+    population: 2150000
+    literacy: 0.34
+    mix:
+      british/catholic: 520
+      british/protestant: 400
+      irish/catholic: 60
+      irish/protestant: 10
+      welsh/catholic: 10
+  STATE_WALES:
+    owner: VEL
+    population: 1100000
+    literacy: 0.31
+    mix:
+      welsh/catholic: 450
+      welsh/protestant: 400
+      british/catholic: 80
+      british/protestant: 60
+      irish/catholic: 10
+  STATE_YORKSHIRE:
+    owner: VEL
+    population: 2050000
+    literacy: 0.33
+    mix:
+      british/catholic: 540
+      british/protestant: 420
+      irish/catholic: 25
+      welsh/catholic: 15
+  STATE_MIDLANDS:
+    owner: VEL
+    population: 2600000
+    literacy: 0.35
+    mix:
+      british/catholic: 550
+      british/protestant: 410
+      irish/catholic: 25
+      welsh/catholic: 15
+  STATE_EAST_ANGLIA:
+    owner: VEL
+    population: 1500000
+    literacy: 0.34
+    mix:
+      british/catholic: 500
+      british/protestant: 470
+      irish/catholic: 20
+      british/jewish: 10
+  STATE_WEST_COUNTRY:
+    owner: VEL
+    population: 1800000
+    literacy: 0.32
+    mix:
+      british/catholic: 520
+      british/protestant: 440
+      irish/catholic: 25
+      welsh/catholic: 15
+  STATE_HIGHLANDS:
+    owner: VSC
+    population: 680000
+    literacy: 0.37
+    mix:
+      scottish_gaelic/protestant: 450
+      scottish_gaelic/catholic: 350
+      scottish/protestant: 140
+      scottish/catholic: 40
+      irish/catholic: 20
+  STATE_LOWLANDS:
+    owner: VSC
+    population: 1720000
+    literacy: 0.49
+    mix:
+      scottish/protestant: 650
+      scottish/catholic: 220
+      scottish_gaelic/protestant: 50
+      scottish_gaelic/catholic: 30
+      irish/catholic: 30
+      british/catholic: 20
+  STATE_ULSTER:
+    owner: VIR
+    population: 1300000
+    literacy: 0.33
+    mix:
+      irish/catholic: 450
+      irish/protestant: 100
+      scottish/protestant: 250
+      scottish/catholic: 30
+      british/protestant: 120
+      british/catholic: 50
+  STATE_MUNSTER:
+    owner: VIR
+    population: 1400000
+    literacy: 0.20
+    mix:
+      irish/catholic: 840
+      irish/protestant: 80
+      british/protestant: 40
+      british/catholic: 20
+      scottish/protestant: 10
+      sephardic/jewish: 10
+  STATE_LEINSTER:
+    owner: VIR
+    population: 1500000
+    literacy: 0.29
+    mix:
+      irish/catholic: 700
+      irish/protestant: 80
+      british/protestant: 100
+      british/catholic: 70
+      scottish/protestant: 30
+      sephardic/jewish: 20
+  STATE_CONNAUGHT:
+    owner: VIR
+    population: 1000000
+    literacy: 0.19
+    mix:
+      irish/catholic: 850
+      irish/protestant: 80
+      british/protestant: 40
+      scottish/protestant: 20
+      british/catholic: 10

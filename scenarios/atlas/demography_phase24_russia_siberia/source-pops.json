@@ -1,0 +1,1596 @@
+{
+  "STATE_ALAND/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 25800
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_ARKHANGELSK/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 238520
+    }
+  ],
+  "STATE_ASTRAKHAN/VTA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 163230
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10351
+    },
+    {
+      "culture": "kalmyk",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 3605
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 45578
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11574
+    },
+    {
+      "culture": "east_german",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 11145
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 19312
+    }
+  ],
+  "STATE_BURYATIA/VBY": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 75555
+    },
+    {
+      "culture": "buryat",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 93847
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3665
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2520
+    }
+  ],
+  "STATE_CHUKOTKA/VCH": [
+    {
+      "culture": "inuit",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1310
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11570
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 143
+    }
+  ],
+  "STATE_CHUVASHIA/VMA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 173968
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 240262
+    },
+    {
+      "culture": "mari",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 87860
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 17154
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 36199
+    }
+  ],
+  "STATE_COURLAND/UBD": [
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 354472
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 5000
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 30872
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 26432
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 17936
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 12744
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9440
+    },
+    {
+      "culture": "ugrian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2360
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 8496
+    }
+  ],
+  "STATE_CRIMEA/VCR": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 24006
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 72719
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 75704
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12010
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 9388
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2816
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6582
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 2626
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2097
+    },
+    {
+      "culture": "czech",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 239
+    },
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 318
+    },
+    {
+      "culture": "turkish",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 427
+    },
+    {
+      "culture": "south_italian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 326
+    }
+  ],
+  "STATE_EAST_KARELIA/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 114636
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 757
+    },
+    {
+      "culture": "karelian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 53619
+    }
+  ],
+  "STATE_INGRIA/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 816543
+    },
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 29910
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 29910
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 61814
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12961
+    },
+    {
+      "culture": "ugrian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4187
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 20937
+    }
+  ],
+  "STATE_IRKUTSK/VBY": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 172920
+    },
+    {
+      "culture": "buryat",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 73920
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2640
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 3960
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7920
+    }
+  ],
+  "STATE_KALMYKIA/VKM": [
+    {
+      "culture": "kalmyk",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 123512
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2250
+    }
+  ],
+  "STATE_KAMCHATKA/VKA": [
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4140
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1860
+    }
+  ],
+  "STATE_KAZAN/VTA": [
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 458719
+    },
+    {
+      "culture": "tatar",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 51351
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 462676
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 66257
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 46043
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15722
+    },
+    {
+      "culture": "mari",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 8794
+    }
+  ],
+  "STATE_KOLA/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3975
+    },
+    {
+      "culture": "sami",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1178
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 737
+    },
+    {
+      "culture": "norwegian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 126
+    },
+    {
+      "culture": "karelian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 258
+    }
+  ],
+  "STATE_KOLYMA/VKL": [
+    {
+      "culture": "yakut",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 21490
+    },
+    {
+      "culture": "yakut",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15411
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1640
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3280
+    }
+  ],
+  "STATE_KRASNOYARSK/VYE": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 169990
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 17665
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 8785
+    }
+  ],
+  "STATE_KUBAN/VCR": [
+    {
+      "culture": "circassian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 140722
+    },
+    {
+      "culture": "north_caucasian",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20778
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 9822
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 108044
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 117867
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 9067
+    }
+  ],
+  "STATE_KUOPIO/SWE": [
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 301794
+    },
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1145
+    }
+  ],
+  "STATE_KURSK/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1511408
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 678505
+    }
+  ],
+  "STATE_MOSCOW/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1220711
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 18590
+    }
+  ],
+  "STATE_NENETSIA/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 17170
+    },
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13904
+    }
+  ],
+  "STATE_NIZHNY_NOVGOROD/VMO": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1432715
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 34193
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 58187
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 57838
+    }
+  ],
+  "STATE_NOVGOROD/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 801499
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 6562
+    },
+    {
+      "culture": "karelian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3281
+    },
+    {
+      "culture": "ugrian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5495
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3281
+    }
+  ],
+  "STATE_OB/VOB": [
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4980
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 506
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 431
+    }
+  ],
+  "STATE_OKHOTSK/VOK": [
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5800
+    },
+    {
+      "culture": "siberian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4900
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1170
+    }
+  ],
+  "STATE_ORYOL/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3327590
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 23410
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 5122
+    }
+  ],
+  "STATE_OSTROBOTHNIA/SWE": [
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 135542
+    },
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 66458
+    }
+  ],
+  "STATE_OULU/SWE": [
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 116250
+    },
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1250
+    },
+    {
+      "culture": "sami",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7500
+    }
+  ],
+  "STATE_PERM/VUR": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 682318
+    },
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5002
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19124
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29880
+    },
+    {
+      "culture": "ugrian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 41453
+    }
+  ],
+  "STATE_PSKOV/VNG": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 680165
+    },
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7189
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7109
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 4739
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 2872
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2513
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2298
+    }
+  ],
+  "STATE_RIGA/UBD": [
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 3800
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 362898
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 48975
+    },
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10824
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 12963
+    },
+    {
+      "culture": "ugrian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 900
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 9009
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 32459
+    },
+    {
+      "culture": "lithuanian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4118
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 96273
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1621
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 24220
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11746
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 29584
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 11746
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 25190
+    }
+  ],
+  "STATE_ROSTOV/VTA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 427520
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 179840
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8960
+    },
+    {
+      "culture": "kalmyk",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 8320
+    },
+    {
+      "culture": "armenian",
+      "religion": "oriental_orthodox",
+      "pop_type": null,
+      "size": 7040
+    }
+  ],
+  "STATE_RYAZAN/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1235720
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7452
+    }
+  ],
+  "STATE_SAKHALIN/AIN": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6552
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 729
+    }
+  ],
+  "STATE_SAMARA/VTA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1170657
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 116076
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 145276
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 43939
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 50224
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 42970
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 24145
+    }
+  ],
+  "STATE_SMOLENSK/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 949892
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 7259
+    },
+    {
+      "culture": "polish",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4148
+    },
+    {
+      "culture": "byelorussian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 68442
+    }
+  ],
+  "STATE_STAVROPOL/VTA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 289248
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 191784
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12054
+    },
+    {
+      "culture": "turkmen",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 8908
+    },
+    {
+      "culture": "kalmyk",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 6288
+    }
+  ],
+  "STATE_SURGUT/VOB": [
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8604
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3204
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 250
+    }
+  ],
+  "STATE_TALINN/UBD": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 600
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 2000
+    },
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 280292
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15800
+    },
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3824
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10324
+    }
+  ],
+  "STATE_TAMBOV/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 2383492
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 218090
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 42697
+    }
+  ],
+  "STATE_TARTARIA/VTA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 909377
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 54224
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 62827
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 67811
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 17643
+    },
+    {
+      "culture": "east_german",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 20512
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 56900
+    }
+  ],
+  "STATE_TARTU/UBD": [
+    {
+      "culture": "estonian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 288007
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": "aristocrats",
+      "size": 2800
+    },
+    {
+      "culture": "latvian",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2207
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 11175
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 7032
+    }
+  ],
+  "STATE_TAURIDA/VTA": [
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 872404
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 270677
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 55930
+    },
+    {
+      "culture": "east_german",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 57928
+    },
+    {
+      "culture": "greek",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 20170
+    },
+    {
+      "culture": "bulgarian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 19032
+    }
+  ],
+  "STATE_TOBOLSK/VST": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 386252
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 17424
+    },
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1257
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 12111
+    }
+  ],
+  "STATE_TOMSK/VST": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 309600
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2400
+    },
+    {
+      "culture": "tatar",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10200
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10200
+    },
+    {
+      "culture": "ukrainian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 14400
+    }
+  ],
+  "STATE_TRANS_BAIKAL/VBY": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 152455
+    },
+    {
+      "culture": "buryat",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 25151
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15298
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 207
+    },
+    {
+      "culture": "ashkenazi",
+      "religion": "jewish",
+      "pop_type": null,
+      "size": 2036
+    }
+  ],
+  "STATE_TVER/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1149142
+    },
+    {
+      "culture": "karelian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 82966
+    }
+  ],
+  "STATE_UFA/VTA": [
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 156746
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 137400
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 44970
+    },
+    {
+      "culture": "mari",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 13488
+    },
+    {
+      "culture": "chuvash",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 10220
+    },
+    {
+      "culture": "mordvin",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 6711
+    }
+  ],
+  "STATE_UPPER_YENISEYSK/VYE": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 26550
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8640
+    }
+  ],
+  "STATE_URAL/VUR": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 320760
+    },
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 23760
+    },
+    {
+      "culture": "bashkir",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13484
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19800
+    }
+  ],
+  "STATE_UUSIMAA/SWE": [
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 101334
+    },
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 436941
+    }
+  ],
+  "STATE_VYATKA/VMA": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 1215648
+    },
+    {
+      "culture": "udmurt",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 211680
+    },
+    {
+      "culture": "mari",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 24192
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60480
+    }
+  ],
+  "STATE_WEST_KARELIA/SWE": [
+    {
+      "culture": "finnish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 221799
+    },
+    {
+      "culture": "finnish",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 15000
+    },
+    {
+      "culture": "swedish",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8715
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3486
+    }
+  ],
+  "STATE_YAKUTSK/VSA": [
+    {
+      "culture": "yakut",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 92805
+    },
+    {
+      "culture": "yakut",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27200
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 22343
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4410
+    }
+  ],
+  "STATE_YAROSLAVL/VMS": [
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 3005300
+    },
+    {
+      "culture": "ugrian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4795
+    }
+  ]
+}

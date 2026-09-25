@@ -1,0 +1,39 @@
+# Estimates inside state/owner POP totals, not additional game POPs.
+# Hub labels come from the installed Turkish localization.
+version: 1
+cities:
+  Nanjing: {state: STATE_NANJING, owner: JNG, hub: city, population: 1800000, weights: {han/confucian: 730, han/mahayana: 270}}
+  Şanhay: {state: STATE_SUZHOU, owner: JNG, hub: city, population: 2800000, weights: {han/confucian: 590, han/mahayana: 410}}
+  Hangzhou: {state: STATE_ZHEJIANG, owner: JNG, hub: city, population: 1200000, weights: {han/confucian: 720, han/mahayana: 250, min/animist: 30}}
+  Suqian: {state: STATE_JIANGSU, owner: JNG, hub: city, population: 500000, weights: {han/confucian: 740, han/mahayana: 260}}
+  Hefei: {state: STATE_SOUTHERN_ANHUI, owner: JNG, hub: city, population: 650000, weights: {han/confucian: 780, han/mahayana: 200, han/sunni: 20}}
+  Zhoukou: {state: STATE_NORTHERN_ANHUI, owner: JNG, hub: city, population: 450000, weights: {han/confucian: 710, han/mahayana: 260, han/sunni: 30}}
+  Nanchang: {state: STATE_JIANGXI, owner: JNG, hub: city, population: 900000, weights: {han/confucian: 600, han/mahayana: 200, hakka/confucian: 100, hakka/mahayana: 100}}
+  Wuchang: {state: STATE_EASTERN_HUBEI, owner: JNG, hub: city, population: 1000000, weights: {han/confucian: 670, han/mahayana: 300, han/sunni: 30}}
+  Yichang: {state: STATE_WESTERN_HUBEI, owner: JNG, hub: city, population: 500000, weights: {han/confucian: 680, han/mahayana: 300, han/sunni: 20}}
+  Changsha: {state: STATE_HUNAN, owner: JNG, hub: city, population: 900000, weights: {han/confucian: 610, han/mahayana: 340, yue/confucian: 30, miao/animist: 20}}
+  Pekin: {state: STATE_BEIJING, owner: NCH, hub: city, population: 1900000, weights: {han/confucian: 750, han/mahayana: 200, han/sunni: 40, manchu/confucian: 10}}
+  Tianjin: {state: STATE_BEIJING, owner: NCH, hub: port, population: 850000, weights: {han/confucian: 710, han/mahayana: 240, han/sunni: 45, manchu/confucian: 5}}
+  Taiyuan: {state: STATE_SHANXI, owner: NCH, hub: city, population: 550000, weights: {han/confucian: 750, han/mahayana: 240, han/sunni: 10}}
+  "Xi'an": {state: STATE_XIAN, owner: NCH, hub: city, population: 850000, weights: {han/confucian: 650, han/mahayana: 210, mongol/gelugpa: 110, han/sunni: 30}}
+  Zhengzhou: {state: STATE_HENAN, owner: NCH, hub: city, population: 650000, weights: {han/confucian: 700, han/mahayana: 270, han/sunni: 30}}
+  Jinan: {state: STATE_SHANDONG, owner: NCH, hub: city, population: 750000, weights: {han/confucian: 670, han/mahayana: 330}}
+  Jiuquan: {state: STATE_GANSU, owner: NCH, hub: city, population: 180000, weights: {han/confucian: 600, mongol/gelugpa: 250, han/mahayana: 100, han/sunni: 50}}
+  Delingha: {state: STATE_QINGHAI, owner: NCH, hub: city, population: 60000, weights: {tibetan/gelugpa: 650, mongol/gelugpa: 250, kazak/sunni: 100}}
+  Guangzhou: {state: STATE_GUANGDONG, owner: YUE, hub: city, population: 1400000, weights: {yue/mahayana: 400, yue/confucian: 350, han/confucian: 100, min/confucian: 50, min/mahayana: 50, miao/animist: 50}}
+  Macao: {state: STATE_GUANGDONG, owner: YUE, hub: port, population: 350000, weights: {yue/mahayana: 450, yue/confucian: 350, han/confucian: 100, min/confucian: 50, min/mahayana: 50}}
+  Nanning: {state: STATE_GUANGXI, owner: YUE, hub: city, population: 550000, weights: {zhuang/mahayana: 350, yue/mahayana: 200, han/confucian: 300, han/mahayana: 100, zhuang/animist: 50}}
+  Shaoguan: {state: STATE_SHAOZHOU, owner: YUE, hub: city, population: 450000, weights: {yue/confucian: 400, yue/mahayana: 130, han/confucian: 220, hakka/confucian: 150, hakka/mahayana: 100}}
+  Quanzhou: {state: STATE_FUJIAN, owner: YUE, hub: port, population: 650000, weights: {min/mahayana: 500, min/confucian: 250, han/confucian: 150, hakka/confucian: 50, hakka/mahayana: 50}}
+  Taipeh: {state: STATE_FORMOSA, owner: YUE, hub: city, population: 250000, weights: {min/confucian: 400, min/mahayana: 250, han/confucian: 250, yuanzhumin/animist: 100}}
+  Chengdu: {state: STATE_SICHUAN, owner: SHU, hub: city, population: 1100000, weights: {han/mahayana: 410, han/confucian: 390, tibetan/gelugpa: 80, yi/animist: 70, han/animist: 50}}
+  Chongqing: {state: STATE_CHONGQING, owner: SHU, hub: city, population: 1400000, weights: {han/confucian: 540, han/mahayana: 460}}
+  Kunming: {state: STATE_YUNNAN, owner: SHU, hub: city, population: 460000, weights: {han/confucian: 400, han/mahayana: 300, han/animist: 190, yi/animist: 90, miao/animist: 20}}
+  Guiyang: {state: STATE_GUIZHOU, owner: SHU, hub: city, population: 320000, weights: {han/confucian: 400, han/mahayana: 350, zhuang/animist: 150, yue/confucian: 70, miao/animist: 30}}
+  Mukden: {state: STATE_SHENGJING, owner: MCH, hub: city, population: 420000, weights: {manchu/confucian: 500, han/confucian: 400, han/mahayana: 100}}
+  Jilin: {state: STATE_SOUTHERN_MANCHURIA, owner: MCH, hub: city, population: 280000, weights: {manchu/confucian: 600, han/confucian: 250, han/mahayana: 100, korean/confucian: 50}}
+  Qiqihar: {state: STATE_NORTHERN_MANCHURIA, owner: MCH, hub: city, population: 180000, weights: {manchu/confucian: 900, mongol/gelugpa: 100}}
+  Hailanpao: {state: STATE_AMUR, owner: MCH, hub: city, population: 20000, weights: {siberian/animist: 970, manchu/confucian: 30}}
+  Kaşgar: {state: STATE_TIANSHAN, owner: KSG, hub: city, population: 100000, weights: {uighur/sunni: 900, kirgiz/sunni: 40, tajik/sunni: 30, tibetan/gelugpa: 10, han/confucian: 20}}
+  Aksu: {state: STATE_TIANSHAN, owner: KSG, hub: mine, population: 40000, weights: {uighur/sunni: 920, kirgiz/sunni: 50, tajik/sunni: 30}}
+  Hotan: {state: STATE_TIANSHAN, owner: KSG, hub: farm, population: 30000, weights: {uighur/sunni: 930, tajik/sunni: 50, tibetan/gelugpa: 20}}

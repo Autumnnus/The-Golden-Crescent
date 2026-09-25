@@ -1,0 +1,177 @@
+version: 1
+country: VPL
+population_target: 30500000
+literacy_target: [0.32, 0.40]
+policy: >-
+  A Catholic electoral crown and borrowed Islamic engineering do not imply
+  uniform religion. Polish, Lithuanian, Belarusian and Ukrainian areas retain
+  distinct identities; Jewish towns and a small regional Tatar Muslim network
+  remain visible. Fixed-profession POPs keep exact identity and headcount.
+states:
+  STATE_MAZOVIA:
+    population: 1800000
+    literacy: 0.37
+    mix:
+      polish/catholic: 730
+      polish/protestant: 10
+      ashkenazi/jewish: 130
+      east_german/protestant: 35
+      russian/orthodox: 40
+      byelorussian/orthodox: 35
+      ukrainian/orthodox: 20
+  STATE_GREATER_POLAND:
+    population: 3450000
+    literacy: 0.43
+    mix:
+      polish/catholic: 750
+      polish/protestant: 25
+      ashkenazi/jewish: 130
+      east_german/protestant: 70
+      russian/orthodox: 25
+  STATE_LESSER_POLAND:
+    population: 1400000
+    literacy: 0.38
+    mix:
+      polish/catholic: 650
+      polish/protestant: 25
+      ashkenazi/jewish: 130
+      ukrainian/orthodox: 145
+      east_german/protestant: 20
+      russian/orthodox: 30
+  STATE_WEST_PRUSSIA:
+    population: 1000000
+    literacy: 0.39
+    mix:
+      north_german/protestant: 500
+      polish/catholic: 270
+      polish/protestant: 180
+      north_german/catholic: 30
+      ashkenazi/jewish: 20
+  STATE_POSEN:
+    population: 2000000
+    literacy: 0.40
+    mix:
+      polish/catholic: 580
+      north_german/protestant: 300
+      north_german/catholic: 100
+      ashkenazi/jewish: 20
+  STATE_EAST_GALICIA:
+    population: 3000000
+    literacy: 0.33
+    mix:
+      ukrainian/orthodox: 620
+      polish/catholic: 310
+      ashkenazi/jewish: 60
+      south_german/catholic: 10
+  STATE_KAUNAS:
+    population: 900000
+    literacy: 0.36
+    mix:
+      lithuanian/catholic: 690
+      ashkenazi/jewish: 150
+      east_german/protestant: 40
+      polish/catholic: 50
+      byelorussian/orthodox: 30
+      russian/orthodox: 20
+      latvian/protestant: 15
+      tatar/sunni: 5
+  STATE_VILNIUS:
+    population: 850000
+    literacy: 0.39
+    mix:
+      lithuanian/catholic: 300
+      polish/catholic: 230
+      byelorussian/orthodox: 200
+      ashkenazi/jewish: 170
+      russian/orthodox: 50
+      tatar/sunni: 20
+      latvian/protestant: 15
+      east_german/protestant: 15
+  STATE_BREST:
+    population: 1000000
+    literacy: 0.34
+    mix:
+      byelorussian/orthodox: 600
+      ukrainian/orthodox: 170
+      polish/catholic: 50
+      ashkenazi/jewish: 110
+      russian/orthodox: 60
+      tatar/sunni: 10
+  STATE_VOLHYNIA:
+    population: 950000
+    literacy: 0.31
+    mix:
+      ukrainian/orthodox: 720
+      ashkenazi/jewish: 130
+      polish/catholic: 70
+      east_german/protestant: 50
+      czech/catholic: 20
+      russian/orthodox: 10
+  STATE_KIEV:
+    population: 4200000
+    literacy: 0.37
+    mix:
+      ukrainian/orthodox: 770
+      ashkenazi/jewish: 140
+      polish/catholic: 40
+      russian/orthodox: 30
+      east_german/protestant: 10
+      romanian/orthodox: 10
+  STATE_MOGILEV:
+    population: 800000
+    literacy: 0.32
+    mix:
+      byelorussian/orthodox: 800
+      ashkenazi/jewish: 130
+      russian/orthodox: 40
+      polish/catholic: 30
+  STATE_KHARKOV:
+    population: 3800000
+    literacy: 0.34
+    mix:
+      ukrainian/orthodox: 860
+      russian/orthodox: 100
+      ashkenazi/jewish: 40
+  STATE_CHERSON:
+    population: 1200000
+    literacy: 0.33
+    mix:
+      ukrainian/orthodox: 600
+      russian/orthodox: 190
+      ashkenazi/jewish: 90
+      romanian/orthodox: 50
+      east_german/protestant: 40
+      polish/catholic: 30
+  STATE_GALICH:
+    population: 950000
+    literacy: 0.34
+    mix:
+      russian/orthodox: 900
+      ugrian/orthodox: 90
+      polish/catholic: 10
+  STATE_MINSK:
+    population: 1050000
+    literacy: 0.35
+    mix:
+      byelorussian/orthodox: 700
+      ashkenazi/jewish: 200
+      russian/orthodox: 60
+      polish/catholic: 35
+      tatar/sunni: 5
+  STATE_VITEBSK:
+    population: 550000
+    literacy: 0.31
+    mix:
+      byelorussian/orthodox: 760
+      russian/orthodox: 110
+      ashkenazi/jewish: 90
+      polish/catholic: 30
+      latvian/protestant: 10
+  STATE_CHERNIHIV:
+    population: 1600000
+    literacy: 0.32
+    mix:
+      ukrainian/orthodox: 670
+      russian/orthodox: 230
+      byelorussian/orthodox: 60
+      ashkenazi/jewish: 40

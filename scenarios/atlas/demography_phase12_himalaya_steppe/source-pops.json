@@ -1,0 +1,334 @@
+{
+  "STATE_ALTAI/DZH": [
+    {
+      "culture": "mongol",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22940
+    },
+    {
+      "culture": "tatar",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3410
+    },
+    {
+      "culture": "russian",
+      "religion": "orthodox",
+      "pop_type": null,
+      "size": 4650
+    }
+  ],
+  "STATE_ALXA/MGL": [
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 42992
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 196
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1600
+    }
+  ],
+  "STATE_DZUNGARIA/DZH": [
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 9000
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 200
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 500
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1000
+    },
+    {
+      "culture": "uighur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 10000
+    }
+  ],
+  "STATE_EASTERN_HIMALAYAS/BHU": [
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 109197
+    },
+    {
+      "culture": "nepali",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 12448
+    }
+  ],
+  "STATE_EASTERN_HIMALAYAS/SIK": [
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 60301
+    },
+    {
+      "culture": "nepali",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 24091
+    }
+  ],
+  "STATE_EASTERN_HIMALAYAS/TIB": [
+    {
+      "culture": "naga",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20102
+    },
+    {
+      "culture": "kachin",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 21022
+    },
+    {
+      "culture": "assamese",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 7012
+    },
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 102010
+    },
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 31199
+    },
+    {
+      "culture": "nepali",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 3556
+    }
+  ],
+  "STATE_HIMALAYAS/NEP": [
+    {
+      "culture": "nepali",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 2786418
+    },
+    {
+      "culture": "bihari",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 688000
+    },
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 768008
+    }
+  ],
+  "STATE_HINGGAN/MGL": [
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1123002
+    },
+    {
+      "culture": "manchu",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 4412
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 797003
+    },
+    {
+      "culture": "han",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 200000
+    },
+    {
+      "culture": "han",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_LHASA/TIB": [
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 1720000
+    },
+    {
+      "culture": "han",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 100000
+    }
+  ],
+  "STATE_NGARI/TIB": [
+    {
+      "culture": "tibetan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 824000
+    },
+    {
+      "culture": "han",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 42000
+    },
+    {
+      "culture": "kachin",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24000
+    }
+  ],
+  "STATE_TUVA/MGL": [
+    {
+      "culture": "tuvan",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 43710
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 3290
+    },
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_ULIASTAI/MGL": [
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 270000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 623
+    },
+    {
+      "culture": "kazak",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 13000
+    }
+  ],
+  "STATE_URGA/MGL": [
+    {
+      "culture": "mongol",
+      "religion": "gelugpa",
+      "pop_type": null,
+      "size": 340000
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 996
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+# Hub estimates are subsets of state POP totals, not separate game POPs.
+# Kraków belongs to KRA/STATE_WEST_GALICIA and is deliberately absent.
+version: 1
+cities:
+  Varşova:
+    state: STATE_GREATER_POLAND
+    owner: VPL
+    population: 620000
+    weights: {polish/catholic: 680, ashkenazi/jewish: 190, east_german/protestant: 90, polish/protestant: 40}
+  Łódź:
+    state: STATE_GREATER_POLAND
+    owner: VPL
+    population: 250000
+    weights: {polish/catholic: 650, ashkenazi/jewish: 170, east_german/protestant: 150, polish/protestant: 30}
+  Płock:
+    state: STATE_MAZOVIA
+    owner: VPL
+    population: 100000
+    weights: {polish/catholic: 670, ashkenazi/jewish: 200, east_german/protestant: 60, russian/orthodox: 40, byelorussian/orthodox: 30}
+  Lublin:
+    state: STATE_LESSER_POLAND
+    owner: VPL
+    population: 145000
+    weights: {polish/catholic: 610, ashkenazi/jewish: 220, ukrainian/orthodox: 130, russian/orthodox: 40}
+  Danzig:
+    state: STATE_WEST_PRUSSIA
+    owner: VPL
+    population: 170000
+    weights: {north_german/protestant: 570, polish/catholic: 240, polish/protestant: 160, north_german/catholic: 20, ashkenazi/jewish: 10}
+  Posen:
+    state: STATE_POSEN
+    owner: VPL
+    population: 250000
+    weights: {polish/catholic: 510, north_german/protestant: 350, north_german/catholic: 120, ashkenazi/jewish: 20}
+  Lviv:
+    state: STATE_EAST_GALICIA
+    owner: VPL
+    population: 310000
+    weights: {ukrainian/orthodox: 400, polish/catholic: 410, ashkenazi/jewish: 170, south_german/catholic: 20}
+  Kaunas:
+    state: STATE_KAUNAS
+    owner: VPL
+    population: 85000
+    weights: {lithuanian/catholic: 600, ashkenazi/jewish: 240, polish/catholic: 100, east_german/protestant: 40, byelorussian/orthodox: 20}
+  Vilnius:
+    state: STATE_VILNIUS
+    owner: VPL
+    population: 160000
+    weights: {lithuanian/catholic: 230, polish/catholic: 250, byelorussian/orthodox: 240, ashkenazi/jewish: 240, russian/orthodox: 30, tatar/sunni: 10}
+  Hrodna:
+    state: STATE_BREST
+    owner: VPL
+    population: 100000
+    weights: {byelorussian/orthodox: 540, ukrainian/orthodox: 180, polish/catholic: 60, ashkenazi/jewish: 170, russian/orthodox: 40, tatar/sunni: 10}
+  Brest:
+    state: STATE_BREST
+    owner: VPL
+    population: 80000
+    weights: {byelorussian/orthodox: 470, ukrainian/orthodox: 190, polish/catholic: 70, ashkenazi/jewish: 220, russian/orthodox: 40, tatar/sunni: 10}
+  Lutsk:
+    state: STATE_VOLHYNIA
+    owner: VPL
+    population: 95000
+    weights: {ukrainian/orthodox: 690, ashkenazi/jewish: 190, polish/catholic: 80, east_german/protestant: 30, czech/catholic: 10}
+  Kiev:
+    state: STATE_KIEV
+    owner: VPL
+    population: 560000
+    weights: {ukrainian/orthodox: 650, ashkenazi/jewish: 200, polish/catholic: 75, russian/orthodox: 50, east_german/protestant: 15, romanian/orthodox: 10}
+  Magiliow:
+    state: STATE_MOGILEV
+    owner: VPL
+    population: 85000
+    weights: {byelorussian/orthodox: 700, ashkenazi/jewish: 200, russian/orthodox: 60, polish/catholic: 40}
+  Harkiv:
+    state: STATE_KHARKOV
+    owner: VPL
+    population: 420000
+    weights: {ukrainian/orthodox: 800, russian/orthodox: 140, ashkenazi/jewish: 60}
+  Herson:
+    state: STATE_CHERSON
+    owner: VPL
+    population: 100000
+    weights: {ukrainian/orthodox: 600, russian/orthodox: 230, ashkenazi/jewish: 100, romanian/orthodox: 40, east_german/protestant: 20, polish/catholic: 10}
+  Odesa:
+    state: STATE_CHERSON
+    owner: VPL
+    population: 240000
+    weights: {ukrainian/orthodox: 520, russian/orthodox: 240, ashkenazi/jewish: 130, romanian/orthodox: 50, east_german/protestant: 40, polish/catholic: 20}
+  Vologda:
+    state: STATE_GALICH
+    owner: VPL
+    population: 75000
+    weights: {russian/orthodox: 900, ugrian/orthodox: 100}
+  Minsk:
+    state: STATE_MINSK
+    owner: VPL
+    population: 185000
+    weights: {byelorussian/orthodox: 620, ashkenazi/jewish: 290, russian/orthodox: 60, polish/catholic: 25, tatar/sunni: 5}
+  Vitsyebsk:
+    state: STATE_VITEBSK
+    owner: VPL
+    population: 85000
+    weights: {byelorussian/orthodox: 690, russian/orthodox: 130, ashkenazi/jewish: 140, polish/catholic: 30, latvian/protestant: 10}
+  Çernihiv:
+    state: STATE_CHERNIHIV
+    owner: VPL
+    population: 125000
+    weights: {ukrainian/orthodox: 670, russian/orthodox: 240, byelorussian/orthodox: 60, ashkenazi/jewish: 30}

@@ -1,0 +1,1748 @@
+{
+  "STATE_BAS_CONGO/KON": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 252000
+    },
+    {
+      "culture": "bakongo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 42000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 184000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_BAS_CONGO/YKA": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 165000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 157500
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10500
+    }
+  ],
+  "STATE_BOTSWANA/LZO": [
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14560
+    }
+  ],
+  "STATE_BOTSWANA/SAN": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_BOTSWANA/TSW": [
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "herero",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    }
+  ],
+  "STATE_CAPE_COLONY/NAM": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 148692
+    },
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40004
+    },
+    {
+      "culture": "khoisan",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 95852
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 44100
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 95508
+    },
+    {
+      "culture": "griqua",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12148
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15300
+    }
+  ],
+  "STATE_CONGO/BOB": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20200
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 21600
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2400
+    }
+  ],
+  "STATE_CONGO/LNG": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 36200
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 19000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9000
+    }
+  ],
+  "STATE_CONGO/TKE": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 29000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_CONGO_ORIENTALE/HMB": [
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 321000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    }
+  ],
+  "STATE_CONGO_ORIENTALE/LBA": [
+    {
+      "culture": "luba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96012
+    },
+    {
+      "culture": "luba",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    }
+  ],
+  "STATE_CONGO_ORIENTALE/LGA": [
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 228000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    }
+  ],
+  "STATE_CONGO_ORIENTALE/MNB": [
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 433500
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 34500
+    }
+  ],
+  "STATE_CONGO_ORIENTALE/ZND": [
+    {
+      "culture": "azande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 381006
+    },
+    {
+      "culture": "azande",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 28506
+    }
+  ],
+  "STATE_EASTERN_CAPE/XHO": [
+    {
+      "culture": "xhosa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32200
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 48000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27996
+    },
+    {
+      "culture": "xhosa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 152200
+    }
+  ],
+  "STATE_EAST_ANGOLA/CHK": [
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 90000
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 80200
+    }
+  ],
+  "STATE_EAST_ANGOLA/KSN": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 111196
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 9000
+    }
+  ],
+  "STATE_EAST_ANGOLA/LND": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 103996
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14400
+    },
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40000
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_EAST_ANGOLA/LZO": [
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40600
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3400
+    }
+  ],
+  "STATE_EQUATEUR/BNG": [
+    {
+      "culture": "mongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 595200
+    },
+    {
+      "culture": "mongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_EQUATEUR/BOB": [
+    {
+      "culture": "mongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 240012
+    },
+    {
+      "culture": "mongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    }
+  ],
+  "STATE_GABON/FNG": [
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 56000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 60800
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_GABON/LNG": [
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 32000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 105200
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "wolof",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 1000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_HEREROLAND/HRO": [
+    {
+      "culture": "herero",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 83996
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_HEREROLAND/OVB": [
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 47440
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2000
+    }
+  ],
+  "STATE_HEREROLAND/SAN": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14000
+    }
+  ],
+  "STATE_KASAI/KBA": [
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 720000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 72000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_KASAI/LBA": [
+    {
+      "culture": "luba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 120000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 342000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_KATANGA/KZM": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 120400
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 200000
+    },
+    {
+      "culture": "fluvian_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15604
+    }
+  ],
+  "STATE_KATANGA/LBA": [
+    {
+      "culture": "luba",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2404
+    },
+    {
+      "culture": "luba",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 16000
+    }
+  ],
+  "STATE_KATANGA/LND": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 268400
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    }
+  ],
+  "STATE_KAZEMBE/BMB": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27204
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2004
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    }
+  ],
+  "STATE_KAZEMBE/KZM": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 100000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 26000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_KAZEMBE/MRV": [
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 37000
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 14000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_LOURENCO_MARQUES/GZA": [
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 66761
+    },
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 104000
+    },
+    {
+      "culture": "tonga",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 57000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 267043
+    },
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 156000
+    },
+    {
+      "culture": "tonga",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 323000
+    }
+  ],
+  "STATE_MOCAMBIQUE/AGC": [
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 29596
+    },
+    {
+      "culture": "makua",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3040
+    },
+    {
+      "culture": "makua",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4200
+    }
+  ],
+  "STATE_MOCAMBIQUE/MRV": [
+    {
+      "culture": "makua",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 250000
+    },
+    {
+      "culture": "makua",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 50996
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 35000
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3996
+    },
+    {
+      "culture": "makua",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 170000
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96004
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 68996
+    },
+    {
+      "culture": "yao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 284300
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 128000
+    },
+    {
+      "culture": "lomwe",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 60000
+    }
+  ],
+  "STATE_MOCAMBIQUE/TGI": [
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 19996
+    },
+    {
+      "culture": "makua",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 2000
+    },
+    {
+      "culture": "makua",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_NAMAQUALAND/NAM": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 53000
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_NAMAQUALAND/SAN": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    }
+  ],
+  "STATE_NORTHERN_CAPE/SAN": [
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_NORTHERN_CAPE/TSW": [
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7836
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 3500
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 21000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 13737
+    },
+    {
+      "culture": "xhosa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1137
+    },
+    {
+      "culture": "griqua",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 25790
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 120004
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    }
+  ],
+  "STATE_NORTHERN_CAPE/WBL": [
+    {
+      "culture": "griqua",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 17000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3000
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 38000
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    }
+  ],
+  "STATE_NORTH_ANGOLA/KON": [
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 3368
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 176404
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 17396
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 116004
+    },
+    {
+      "culture": "bakongo",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 160000
+    }
+  ],
+  "STATE_NORTH_CAMEROON/BMM": [
+    {
+      "culture": "equatorial_bantu",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 100400
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10020
+    }
+  ],
+  "STATE_NORTH_CAMEROON/SOK": [
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 568000
+    },
+    {
+      "culture": "kanuri",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 16004
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 89988
+    },
+    {
+      "culture": "bedouin",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 90180
+    },
+    {
+      "culture": "fulbe",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_NORTH_MADAGASCAR/MAD": [
+    {
+      "culture": "malagasy",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 900304
+    },
+    {
+      "culture": "malagasy",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "malagasy",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 97800
+    },
+    {
+      "culture": "malagasy",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "malagasy",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_SOUTH_ANGOLA/HRO": [
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 116000
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 116004
+    },
+    {
+      "culture": "herero",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 116000
+    }
+  ],
+  "STATE_SOUTH_ANGOLA/OVB": [
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28100
+    }
+  ],
+  "STATE_SOUTH_ANGOLA/OVM": [
+    {
+      "culture": "ovimbundu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 209996
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_SOUTH_CAMEROON/DLA": [
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 42
+    },
+    {
+      "culture": "fang",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 510
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 515
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4510
+    },
+    {
+      "culture": "afro_caribbean",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1021
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6020
+    },
+    {
+      "culture": "bakongo",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 5012
+    },
+    {
+      "culture": "afro_brazilian",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 4110
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 510
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 600000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 80000
+    }
+  ],
+  "STATE_SOUTH_CAMEROON/FNG": [
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 388000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 149992
+    },
+    {
+      "culture": "fang",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 28000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 13000
+    }
+  ],
+  "STATE_SOUTH_MADAGASCAR/MAD": [
+    {
+      "culture": "malagasy",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 805196
+    },
+    {
+      "culture": "malagasy",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 72604
+    },
+    {
+      "culture": "malagasy",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "malagasy",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_TRANSVAAL/MTB": [
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 156804
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 54996
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 68000
+    },
+    {
+      "culture": "zulu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 10192
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 30000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "khoisan",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    }
+  ],
+  "STATE_TRANSVAAL/PDI": [
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 320000
+    }
+  ],
+  "STATE_TRANSVAAL/SWZ": [
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 64396
+    }
+  ],
+  "STATE_TRANSVAAL/VND": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 67000
+    },
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22000
+    }
+  ],
+  "STATE_UBANGI_SHARI/DAK": [
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 283400
+    },
+    {
+      "culture": "fur",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 4000
+    },
+    {
+      "culture": "sara",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 12000
+    },
+    {
+      "culture": "baguirmi",
+      "religion": "sunni",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_UBANGI_SHARI/ZND": [
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18000
+    },
+    {
+      "culture": "azande",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "equatorial_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 6000
+    }
+  ],
+  "STATE_VRYSTAAT/BST": [
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15220
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 8000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 27100
+    }
+  ],
+  "STATE_VRYSTAAT/PHL": [
+    {
+      "culture": "griqua",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 12080
+    },
+    {
+      "culture": "tswana",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 1200
+    }
+  ],
+  "STATE_ZAMBEZI/MNC": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 56000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8000
+    }
+  ],
+  "STATE_ZAMBEZI/MSH": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 150000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 35000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 15000
+    }
+  ],
+  "STATE_ZAMBEZI/MTP": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 90000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 20000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 12000
+    }
+  ],
+  "STATE_ZAMBEZIA/GZA": [
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 183996
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8396
+    },
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96004
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12004
+    }
+  ],
+  "STATE_ZAMBEZIA/MNC": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 200000
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6000
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 8000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 2000
+    }
+  ],
+  "STATE_ZAMBEZIA/MSK": [
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 183996
+    },
+    {
+      "culture": "portuguese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 8396
+    },
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96004
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 88000
+    },
+    {
+      "culture": "swahili",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 12004
+    },
+    {
+      "culture": "nguni",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 23500
+    },
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 109900
+    },
+    {
+      "culture": "sena",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 10000
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 58996
+    },
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_ZAMBEZIA/MTP": [
+    {
+      "culture": "shona",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 63000
+    }
+  ],
+  "STATE_ZAMBIA/BMB": [
+    {
+      "culture": "lacustrine_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48136
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_ZAMBIA/LZO": [
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28092
+    },
+    {
+      "culture": "kavango_bantu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 9264
+    },
+    {
+      "culture": "lunda",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    },
+    {
+      "culture": "chewa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 3000
+    }
+  ],
+  "STATE_ZULULAND/BST": [
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 100096
+    },
+    {
+      "culture": "sotho",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 7900
+    }
+  ],
+  "STATE_ZULULAND/ZUL": [
+    {
+      "culture": "zulu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 267996
+    },
+    {
+      "culture": "boer",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 2004
+    },
+    {
+      "culture": "xhosa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 15900
+    },
+    {
+      "culture": "xhosa",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 16000
+    }
+  ]
+}

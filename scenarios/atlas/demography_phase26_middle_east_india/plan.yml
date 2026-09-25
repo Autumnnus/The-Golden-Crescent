@@ -1,0 +1,107 @@
+version: 1
+policy: >-
+  Middle East outside Rum, Egypt and Iran, plus the last Indian and Indian Ocean shares. The
+  Rum-bound atabegates, Kurdistan, the Levant emirates, Arabia, Yemen and the Gulf keep their
+  inherited local joint culture/faith groups at modestly higher Levantine/Mesopotamian scale
+  (better irrigation and storage in the written design). Lebanon's inherited faith mix is
+  corrected toward its Maronite/Druze mountain order. H8 dynasties that hold inherited household
+  slaves receive the Sennar precedent law_debt_slavery; the H7 Basra merchant republic releases its
+  slaves. Danish Tranquebar is absorbed by the Tamil kingdom; its existing plan is kept and the
+  frozen Tranquebar POPs are added. Weights are per mille.
+countries:
+  ADA: {literacy_range: [0.28, 0.28]}
+  ERZ: {literacy_range: [0.20, 0.20]}
+  TRB: {literacy_range: [0.32, 0.32]}
+  KUR: {literacy_range: [0.15, 0.15]}
+  SYR: {literacy_range: [0.27, 0.28]}
+  LEB: {literacy_range: [0.35, 0.35]}
+  PAL: {literacy_range: [0.28, 0.28]}
+  BSR: {literacy_range: [0.30, 0.30]}
+  KUW: {literacy_range: [0.15, 0.15]}
+  HDJ: {literacy_range: [0.20, 0.20]}
+  NEJ: {literacy_range: [0.08, 0.08]}
+  JAB: {literacy_range: [0.08, 0.08]}
+  ZAI: {literacy_range: [0.10, 0.10]}
+  LAH: {literacy_range: [0.14, 0.14]}
+  MAH: {literacy_range: [0.06, 0.06]}
+  KAT: {literacy_range: [0.06, 0.06]}
+  OMA: {literacy_range: [0.17, 0.18]}
+  ABU: {literacy_range: [0.10, 0.10]}
+  BHN: {literacy_range: [0.12, 0.12]}
+  KAN: {literacy_range: [0.04, 0.04]}
+  MAK: {literacy_range: [0.04, 0.04]}
+  IND: {literacy_range: [0.12, 0.12]}
+  GWA: {literacy_range: [0.12, 0.12]}
+  TAM: {literacy_range: [0.22, 0.22]}
+  VMB: {literacy_range: [0.18, 0.18]}
+partial_countries: [OMA, KAN, MAK, IND, GWA]
+country_culture_overrides:
+  VMB: {from: [afro_caribbean], to: [afro_antillean]}   # French-creole Mascarene assembly
+country_religion_overrides: {}
+country_laws:
+  ADA: [law_debt_slavery]
+  ERZ: [law_debt_slavery]
+  TRB: [law_debt_slavery]
+  KUR: [law_debt_slavery]
+  SYR: [law_debt_slavery]
+  LEB: [law_debt_slavery]
+  PAL: [law_debt_slavery]
+  KUW: [law_debt_slavery]
+  TAM: [law_debt_slavery]   # H8 default; the demography 09 plan already holds 244,323 slave POPs
+release_slaves:
+- STATE_BASRA/BSR
+replace_planned:
+- STATE_MADRAS/TAM
+# target share: absorbed pre-correction share whose frozen POPs are added to the existing plan
+absorb:
+  STATE_MADRAS/TAM: STATE_MADRAS/DEN
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.0
+  settler_keep_share: 0.10
+  settler_cultures: [danish, french, british]
+shares:
+  # --- Rum-bound atabegates and Kurdistan ---------------------------------------------------
+  STATE_ADANA/ADA: {population: 180000, literacy: 0.28}
+  STATE_ERZURUM/ERZ: {population: 600000, literacy: 0.20}
+  STATE_KARS/ERZ: {population: 195000, literacy: 0.20}
+  STATE_TRABZON/TRB: {population: 750000, literacy: 0.32}
+  STATE_DIYARBAKIR/KUR: {population: 740000, literacy: 0.15}
+  STATE_MOSUL/KUR: {population: 615000, literacy: 0.15}
+  # --- Levant ------------------------------------------------------------------------------
+  STATE_SYRIA/SYR: {population: 560000, literacy: 0.28}
+  STATE_TRANSJORDAN/SYR: {population: 41000, literacy: 0.15}
+  STATE_LEBANON/LEB:
+    population: 390000
+    literacy: 0.35
+    mix: {mashriqi/catholic: 330, mashriqi/shiite: 250, mashriqi/sunni: 245, mashriqi/orthodox: 130,
+          armenian/catholic: 15, greek/orthodox: 15, sephardic/jewish: 15}
+  STATE_PALESTINE/PAL: {population: 385000, literacy: 0.28}
+  # --- Lower Mesopotamia and the Gulf ------------------------------------------------------
+  STATE_BASRA/BSR:
+    population: 104000
+    literacy: 0.30
+    mix: {mashriqi/shiite: 640, bedouin/sunni: 170, bedouin/shiite: 120, mashriqi/sunni: 40, sephardic/jewish: 10,
+          armenian/catholic: 5, persian/shiite: 15}
+  STATE_BASRA/KUW: {population: 76000, literacy: 0.15}
+  STATE_ABU_DHABI/ABU: {population: 66000, literacy: 0.10}
+  STATE_ABU_DHABI/BHN: {population: 29500, literacy: 0.12}
+  STATE_LARISTAN/BHN: {population: 7300, literacy: 0.12}
+  STATE_LARISTAN/OMA: {population: 65000, literacy: 0.15}
+  STATE_OMAN/OMA: {population: 237000, literacy: 0.18}
+  STATE_SISTAN/MAK: {population: 133000, literacy: 0.04}
+  STATE_SISTAN/KAN: {population: 16000, literacy: 0.04}
+  # --- Arabia and Yemen ---------------------------------------------------------------------
+  STATE_HEDJAZ/HDJ: {population: 470000, literacy: 0.20}
+  STATE_NEJD/NEJ: {population: 124000, literacy: 0.08}
+  STATE_HAIL/NEJ: {population: 73000, literacy: 0.08}
+  STATE_HAIL/JAB: {population: 46000, literacy: 0.08}
+  STATE_YEMEN/ZAI: {population: 960000, literacy: 0.10}
+  STATE_YEMEN/LAH: {population: 140000, literacy: 0.14}
+  STATE_YEMEN/MAH: {population: 36500, literacy: 0.06}
+  STATE_YEMEN/KAT: {population: 44000, literacy: 0.06}
+  # --- India and the Indian Ocean ----------------------------------------------------------
+  STATE_RAJPUTANA/IND: {population: 31000, literacy: 0.12}
+  STATE_RAJPUTANA/GWA: {population: 28000, literacy: 0.12}
+  STATE_MADRAS/TAM: {population: 8734313, literacy: 0.22}
+  STATE_INDIAN_OCEAN_TERRITORY/VMB: {population: 210000, literacy: 0.18}

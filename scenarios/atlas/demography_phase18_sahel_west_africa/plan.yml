@@ -1,0 +1,394 @@
+version: 1
+policy: Preserve separate Sahel and West African polities, all inherited joint culture/religion groups, minority faiths and
+  explicit professions. Set modest +2–4% regional population targets, with differentiated urban, river, coast and pastoral
+  literacy inputs. This phase changes no borders, diplomacy, primary cultures or official religions; its country totals cover
+  only listed shares when marked partial.
+partial_countries:
+- ADG
+- ADR
+- AJJ
+- BOR
+- FTR
+- OUA
+- RGB
+- SOK
+- TBI
+- WAD
+countries:
+  ADG:
+    population: 60700
+    literacy_range:
+    - 0.215
+    - 0.225
+  ADR:
+    population: 10400
+    literacy_range:
+    - 0.205
+    - 0.215
+  AIR:
+    population: 108300
+    literacy_range:
+    - 0.155
+    - 0.165
+  AJJ:
+    population: 10200
+    literacy_range:
+    - 0.105
+    - 0.115
+  ASH:
+    population: 1420000
+    literacy_range:
+    - 0.212
+    - 0.222
+  ATR:
+    population: 15600
+    literacy_range:
+    - 0.215
+    - 0.225
+  AYI:
+    population: 181300
+    literacy_range:
+    - 0.115
+    - 0.125
+  BEN:
+    population: 1728100
+    literacy_range:
+    - 0.125
+    - 0.135
+  BLE:
+    population: 165800
+    literacy_range:
+    - 0.09
+    - 0.1
+  BND:
+    population: 212600
+    literacy_range:
+    - 0.185
+    - 0.195
+  BOR:
+    population: 860000
+    literacy_range:
+    - 0.229
+    - 0.239
+  BRG:
+    population: 254900
+    literacy_range:
+    - 0.16
+    - 0.17
+  CAY:
+    population: 412200
+    literacy_range:
+    - 0.205
+    - 0.215
+  DAH:
+    population: 414900
+    literacy_range:
+    - 0.185
+    - 0.195
+  DIN:
+    population: 21400
+    literacy_range:
+    - 0.135
+    - 0.145
+  DIO:
+    population: 53600
+    literacy_range:
+    - 0.165
+    - 0.175
+  EWE:
+    population: 395500
+    literacy_range:
+    - 0.155
+    - 0.165
+  FTJ:
+    population: 438200
+    literacy_range:
+    - 0.225
+    - 0.235
+  FTR:
+    population: 104400
+    literacy_range:
+    - 0.215
+    - 0.225
+  HAU:
+    population: 412100
+    literacy_range:
+    - 0.165
+    - 0.175
+  IBO:
+    population: 2392900
+    literacy_range:
+    - 0.115
+    - 0.125
+  JLF:
+    population: 118100
+    literacy_range:
+    - 0.205
+    - 0.215
+  KBD:
+    population: 112000
+    literacy_range:
+    - 0.085
+    - 0.095
+  KBU:
+    population: 94600
+    literacy_range:
+    - 0.195
+    - 0.205
+  KNG:
+    population: 354400
+    literacy_range:
+    - 0.122
+    - 0.132
+  KRT:
+    population: 247200
+    literacy_range:
+    - 0.175
+    - 0.185
+  KRU:
+    population: 453000
+    literacy_range:
+    - 0.099
+    - 0.109
+  LIB:
+    population: 388500
+    literacy_range:
+    - 0.145
+    - 0.155
+  MDK:
+    population: 536400
+    literacy_range:
+    - 0.159
+    - 0.169
+  MOS:
+    population: 1470000
+    literacy_range:
+    - 0.145
+    - 0.155
+  MSN:
+    population: 1297400
+    literacy_range:
+    - 0.271
+    - 0.281
+  OUA:
+    population: 10400
+    literacy_range:
+    - 0.215
+    - 0.225
+  OYO:
+    population: 1623300
+    literacy_range:
+    - 0.175
+    - 0.185
+  RGB:
+    population: 10400
+    literacy_range:
+    - 0.205
+    - 0.215
+  SGU:
+    population: 226600
+    literacy_range:
+    - 0.175
+    - 0.185
+  SOK:
+    population: 4811900
+    literacy_range:
+    - 0.25
+    - 0.26
+  SRR:
+    population: 96100
+    literacy_range:
+    - 0.175
+    - 0.185
+  SSU:
+    population: 353600
+    literacy_range:
+    - 0.185
+    - 0.195
+  TBI:
+    population: 150900
+    literacy_range:
+    - 0.106
+    - 0.116
+  TMN:
+    population: 100000
+    literacy_range:
+    - 0.115
+    - 0.125
+  WAD:
+    population: 136700
+    literacy_range:
+    - 0.145
+    - 0.155
+country_religion_overrides: {}
+country_culture_overrides: {}
+states:
+  STATE_EASTERN_MALI/MSN:
+    owner: MSN
+    literacy: 0.27
+  STATE_WESTERN_MALI/SGU:
+    owner: SGU
+    literacy: 0.18
+  STATE_WESTERN_MALI/KRT:
+    owner: KRT
+    literacy: 0.18
+  STATE_TIMBUKTU/ADG:
+    owner: ADG
+    literacy: 0.22
+  STATE_TIMBUKTU/MSN:
+    owner: MSN
+    literacy: 0.3
+  STATE_TIMBUKTU/ATR:
+    owner: ATR
+    literacy: 0.22
+  STATE_TIMBUKTU/OUA:
+    owner: OUA
+    literacy: 0.22
+  STATE_TIMBUKTU/ADR:
+    owner: ADR
+    literacy: 0.21
+  STATE_TIMBUKTU/RGB:
+    owner: RGB
+    literacy: 0.21
+  STATE_NIGER/AIR:
+    owner: AIR
+    literacy: 0.16
+  STATE_NIGER/TBI:
+    owner: TBI
+    literacy: 0.12
+  STATE_NIGER/AJJ:
+    owner: AJJ
+    literacy: 0.11
+  STATE_NIGER/DIN:
+    owner: DIN
+    literacy: 0.14
+  STATE_CHAD/WAD:
+    owner: WAD
+    literacy: 0.15
+  STATE_CHAD/TBI:
+    owner: TBI
+    literacy: 0.11
+  STATE_CHAD/BOR:
+    owner: BOR
+    literacy: 0.17
+  STATE_IVORY_COAST/AYI:
+    owner: AYI
+    literacy: 0.12
+  STATE_IVORY_COAST/BLE:
+    owner: BLE
+    literacy: 0.11
+  STATE_IVORY_COAST/KNG:
+    owner: KNG
+    literacy: 0.12
+  STATE_WINDWARD_COAST/KBD:
+    owner: KBD
+    literacy: 0.09
+  STATE_WINDWARD_COAST/BLE:
+    owner: BLE
+    literacy: 0.09
+  STATE_WINDWARD_COAST/KRU:
+    owner: KRU
+    literacy: 0.09
+  STATE_SENEGAL/CAY:
+    owner: CAY
+    literacy: 0.21
+  STATE_SENEGAL/JLF:
+    owner: JLF
+    literacy: 0.21
+  STATE_SENEGAL/FTR:
+    owner: FTR
+    literacy: 0.22
+  STATE_SENEGAL/SRR:
+    owner: SRR
+    literacy: 0.18
+  STATE_SENEGAL/BND:
+    owner: BND
+    literacy: 0.19
+  STATE_SENEGAL/KBU:
+    owner: KBU
+    literacy: 0.2
+  STATE_SENEGAL/DIO:
+    owner: DIO
+    literacy: 0.17
+  STATE_SIERRA_LEONE/TMN:
+    owner: TMN
+    literacy: 0.12
+  STATE_SIERRA_LEONE/MDK:
+    owner: MDK
+    literacy: 0.13
+  STATE_VOLTA/MOS:
+    owner: MOS
+    literacy: 0.15
+  STATE_VOLTA/KNG:
+    owner: KNG
+    literacy: 0.14
+  STATE_LIBERIA/LIB:
+    owner: LIB
+    literacy: 0.15
+  STATE_LIBERIA/KRU:
+    owner: KRU
+    literacy: 0.12
+  STATE_LIBERIA/MDK:
+    owner: MDK
+    literacy: 0.14
+  STATE_HAUSALAND/SOK:
+    owner: SOK
+    literacy: 0.26
+  STATE_HAUSALAND/BRG:
+    owner: BRG
+    literacy: 0.19
+  STATE_BENIN/BEN:
+    owner: BEN
+    literacy: 0.13
+  STATE_YORUBA_STATES/OYO:
+    owner: OYO
+    literacy: 0.18
+  STATE_NIGER_DELTA/IBO:
+    owner: IBO
+    literacy: 0.12
+  STATE_OUTER_HAUSALAND/HAU:
+    owner: HAU
+    literacy: 0.17
+  STATE_OUTER_HAUSALAND/SOK:
+    owner: SOK
+    literacy: 0.21
+  STATE_OUTER_HAUSALAND/BOR:
+    owner: BOR
+    literacy: 0.19
+  STATE_BORNU/BOR:
+    owner: BOR
+    literacy: 0.25
+  STATE_NIGERIA/SOK:
+    owner: SOK
+    literacy: 0.19
+  STATE_EAST_HAUSALAND/SOK:
+    owner: SOK
+    literacy: 0.27
+  STATE_GUINEA/MDK:
+    owner: MDK
+    literacy: 0.2
+  STATE_GUINEA/SSU:
+    owner: SSU
+    literacy: 0.19
+  STATE_GUINEA/FTJ:
+    owner: FTJ
+    literacy: 0.23
+  STATE_GUINEA/KBU:
+    owner: KBU
+    literacy: 0.2
+  STATE_GOLD_COAST/ASH:
+    owner: ASH
+    literacy: 0.23
+  STATE_TOGO/ASH:
+    owner: ASH
+    literacy: 0.2
+  STATE_TOGO/EWE:
+    owner: EWE
+    literacy: 0.16
+  STATE_DAHOMEY/DAH:
+    owner: DAH
+    literacy: 0.19
+  STATE_DAHOMEY/BRG:
+    owner: BRG
+    literacy: 0.16
+joint_mix_overrides: {}

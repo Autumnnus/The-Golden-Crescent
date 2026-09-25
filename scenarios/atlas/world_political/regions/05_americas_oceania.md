@@ -137,6 +137,10 @@ payı Māori NTO'ya döner; Kaurna ve United Tribes'ın Britanya koruma pact'lar
 kaldırılır. Mevsimlik Makassar/Mısır ticaret iskeleleri bu harita kartında
 ülke sahibi değildir.
 
+**Kart sonrası Samoa düzeltmesi:** [Okyanusya demografi dilimi](../../demography_phase16_oceania/README.md),
+`STATE_TONGA` içindeki Samoa adlı iki hub province'ini yerel `VSM` ülkesine ayırır.
+Kart 63'ün ilk Tonga kaydı ve diğer siyasi kartlar bu dar ek dışında değişmez.
+
 
 ## 5T — Guyana'da Hollanda yerleşimi
 
@@ -156,3 +160,7 @@ kaldırılır. Mevsimlik Makassar/Mısır ticaret iskeleleri bu harita kartında
 ## 5X — Kolombiya içinin yerel ayrışması
 
 `card53.json`, Antioquia’yı Yeni İşbiliye çekirdeğine, Cauca ile Guaviare’yi yerel meclislere verir; Amazonas’taki yalnız CLM payı mevcut Amazon sahibine döner. Böylece Muisca, Panama, kıyı ve nehir havzaları tek bir Kolombiya devleti altında birleştirilmez.
+
+## Demografi sonrası Alaska ve Teksas düzeltmesi
+
+[Kuzey Amerika demografi dilimi](../../demography_phase21_north_america/README.md), yazılı kanonla çelişen iki vanilla kalıntısını province listelerini değiştirmeden yerel sahiplere verir: Alaska'daki `ALK` Rus şirketi payı `VTU` Tlingit–Unangan Kıyı Meclisi'ne, Teksas'taki `TEX` payı `VCD` Caddo Konfederasyonu'na. Kart 5H'nin diğer Meksika içi kararları ve Kart 63'ün Alaska dışındaki kayıtları değişmez.

@@ -1,0 +1,57 @@
+version: 1
+policy: >-
+  Set modest direct-population and literacy inputs for mainland Southeast Asia.
+  Preserve all inherited joint culture/religion communities and explicit
+  professions. Keep Burma, Siam, Dai Nam, Shan, Lao and Khmer polities separate;
+  do not turn Egyptian/Omani port contracts into territorial ownership.
+province_transfer:
+  state: STATE_PEGU
+  province: xB030A0
+  old_owner: DEN
+  new_owner: BUR
+  reason: >-
+    The inherited Danish enclave contradicts the written atlas's removal of
+    Western Christian territorial control in Southeast Asia. Both its province
+    and 9,102 Mon/animist residents pass to Burma; Denmark elsewhere is intact.
+countries:
+  BUR: {population: 4300000, literacy_range: [0.18, 0.22]}
+  SIA: {population: 4050000, literacy_range: [0.18, 0.22]}
+  DAI: {population: 6700000, literacy_range: [0.19, 0.23]}
+  SHS: {population: 650000, literacy_range: [0.14, 0.16]}
+  KKI: {population: 90000, literacy_range: [0.10, 0.12]}
+  CMI: {population: 950000, literacy_range: [0.18, 0.20]}
+  LUA: {population: 330000, literacy_range: [0.15, 0.17]}
+  CHP: {population: 150000, literacy_range: [0.14, 0.16]}
+  CAM: {population: 740000, literacy_range: [0.16, 0.18]}
+  KLO: {population: 47000, literacy_range: [0.09, 0.11]}
+  SCT: {population: 42000, literacy_range: [0.11, 0.13]}
+  DGR: {population: 58000, literacy_range: [0.09, 0.11]}
+states:
+  STATE_ARAKAN/BUR: {owner: BUR, literacy: 0.16}
+  STATE_PEGU/BUR: {owner: BUR, literacy: 0.21}
+  STATE_TENASSERIM/BUR: {owner: BUR, literacy: 0.18}
+  STATE_KACHIN/BUR: {owner: BUR, literacy: 0.14}
+  STATE_MANDALAY/BUR: {owner: BUR, literacy: 0.22}
+  STATE_SHAN_STATES/BUR: {owner: BUR, literacy: 0.15}
+  STATE_SHAN_STATES/SHS: {owner: SHS, literacy: 0.15}
+  STATE_ARAKAN/KKI: {owner: KKI, literacy: 0.11}
+  STATE_MANDALAY/KKI: {owner: KKI, literacy: 0.11}
+  STATE_ASSAM/KKI: {owner: KKI, literacy: 0.10}
+  STATE_TENASSERIM/SIA: {owner: SIA, literacy: 0.18}
+  STATE_MALAYA/SIA: {owner: SIA, literacy: 0.17}
+  STATE_BANGKOK/SIA: {owner: SIA, literacy: 0.23}
+  STATE_CAMBODIA/SIA: {owner: SIA, literacy: 0.16}
+  STATE_LAOS/SIA: {owner: SIA, literacy: 0.15}
+  STATE_NAKHON_RATCHASIMA/SIA: {owner: SIA, literacy: 0.18}
+  STATE_CHIANG_MAI/CMI: {owner: CMI, literacy: 0.19}
+  STATE_LAOS/LUA: {owner: LUA, literacy: 0.16}
+  STATE_LAOS/CHP: {owner: CHP, literacy: 0.15}
+  STATE_CAMBODIA/CAM: {owner: CAM, literacy: 0.17}
+  STATE_CAMBODIA/KLO: {owner: KLO, literacy: 0.10}
+  STATE_ANNAM/DAI: {owner: DAI, literacy: 0.21}
+  STATE_LAOS/DAI: {owner: DAI, literacy: 0.15}
+  STATE_MEKONG/DAI: {owner: DAI, literacy: 0.19}
+  STATE_TONKIN/DAI: {owner: DAI, literacy: 0.23}
+  STATE_LAOS/SCT: {owner: SCT, literacy: 0.12}
+  STATE_TONKIN/SCT: {owner: SCT, literacy: 0.12}
+  STATE_MEKONG/DGR: {owner: DGR, literacy: 0.10}

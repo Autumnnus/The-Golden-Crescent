@@ -5,8 +5,32 @@ yeniden çizilmeyen yerel sınırların **kesin** kaydıdır. Her satırdaki
 province sahipliği `card63.json`da açık Atlas `split` kaydı olarak üretilir;
 buradaki isimler doğrulanmış kurulu oyun/önizleme ülke tanımlarından gelir.
 Bir liman hakkı, kültürel etki veya tarihî iddia ikinci bir doğrudan sahip
-oluşturmaz. Bu defter siyasi katmanı kapatır; nüfus, ekonomi, hukuk ve
-teknoloji verisi içermez.
+oluşturmaz. Hint şehir hub'larıyla ilgili sekiz kesin province düzeltmesi
+`scenarios/atlas/city_anchor_corrections/plan.yml` içinde kayıtlıdır; aşağıdaki
+Keşmir ve Malwa sayıları bu düzeltmeleri içerir. Bu defter siyasi katmanı
+kapatır; nüfus, ekonomi, hukuk ve teknoloji verisi içermez.
+
+**Sonraki tekil düzeltme:** `STATE_PEGU` burada listelenen yerel kartlardan
+değil, Hindistan kartından gelir. [13. demografi diliminde](../../scenarios/atlas/demography_phase13_mainland_seasia/README.md)
+eski `DEN` tek province'i Burma'ya verildi; etkin durumda Pegu'nun 21 province'inin
+tamamı `BUR` sahibindedir. Bu hareket ilk kart kaydının üzerine ayrıca denetlenir.
+
+**Sonraki Samoa düzeltmesi:** Aşağıdaki `STATE_TONGA` satırı Kart 63'ün
+ilk kaydıdır. [Okyanusya demografi diliminde](../../scenarios/atlas/demography_phase16_oceania/README.md)
+`xA7F8A1` ve `xC00010` Samoa Meclisi `VSM` payına ayrıldı. Etkin durumda
+`TNG` iki, `VSM` iki province sahibidir; kartın kalan yerel kararları korunur.
+
+**Alaska ve Teksas düzeltmesi:** [Kuzey Amerika demografi diliminde](../../scenarios/atlas/demography_phase21_north_america/README.md)
+kullanıcı kararıyla `STATE_ALASKA`daki 287 province'lik Rus-Amerikan şirketi
+`ALK` payı yerel `VTU` Tlingit–Unangan Kıyı Meclisi'ne, `STATE_TEXAS`taki 81
+province'lik `TEX` payı `VCD` Caddo Konfederasyonu'na geçti. Province listeleri
+aynıdır; `TEX` topraksızdır. `ALK`'nin Sahalin'deki iki province'i
+[Rusya–Sibirya diliminde](../../scenarios/atlas/demography_phase24_russia_siberia/README.md)
+Ainu Mosir'e katıldı; `ALK` de topraksızdır.
+
+**Tranquebar düzeltmesi:** [Ortadoğu–Hindistan demografi diliminde](../../scenarios/atlas/demography_phase26_middle_east_india/README.md)
+`STATE_MADRAS`taki tek province'lik Danimarka payı Tamil Krallıkları (`TAM`) payına katıldı;
+Avrupa ticarethaneleri Hindistan'da egemenlik değildir.
 
 **Kapsam:** 221 yerel state; bunlar ile diğer doğrudan kartlar birlikte 675/675 kara state'i kapsar.
 
@@ -151,11 +175,11 @@ teknoloji verisi içermez.
 | `STATE_SOUTH_MADAGASCAR` | `MAD` — Madagascar (62 province) |
 | `STATE_TANGANYIKA` | `NYM` — Unyamwezi (42 province); `MSI` — Masai (18 province); `SKM` — Usukuma (12 province); `KRG` — Karagwe (6 province); `RWD` — Rwanda (4 province); `BRD` — Burundi (3 province) |
 | `STATE_TOGO` | `ASH` — Ashanti (11 province); `EWE` — Ewe (4 province) |
-| `STATE_TRANSVAAL` | `MTB` — Ndebele (28 province); `TRN` — Transvaal (11 province); `PDI` — Pedi (11 province); `SWZ` — Swaziland (3 province); `VND` — Venda (14 province) |
+| `STATE_TRANSVAAL` | `MTB` — Ndebele (39 province; eski `TRN` 11 province'i dahil); `PDI` — Pedi (11 province); `SWZ` — Swaziland (3 province); `VND` — Venda (14 province) |
 | `STATE_UBANGI_SHARI` | `DAK` — Dar al Kuti (91 province); `ZND` — Azande (22 province) |
 | `STATE_UGANDA` | `BUG` — Buganda (15 province); `BNY` — Bunyoro (8 province); `ANK` — Ankole (3 province); `ACH` — Acholi (14 province) |
 | `STATE_VOLTA` | `MOS` — Mossi (40 province); `KNG` — Kong (12 province) |
-| `STATE_VRYSTAAT` | `ORA` — Oranje (17 province); `PHL` — Philippolis (7 province); `BST` — Basutoland (6 province) |
+| `STATE_VRYSTAAT` | `BST` — Basutoland (23 province; eski `ORA` 17 province'i dahil); `PHL` — Philippolis (7 province) |
 | `STATE_WADDAI` | `WAD` — Wadai (58 province); `BGI` — Bagirmi (20 province); `BOR` — Bornu (3 province) |
 | `STATE_WINDWARD_COAST` | `KBD` — Kabadougou (15 province); `BLE` — Baule (6 province); `KRU` — Kru (13 province) |
 | `STATE_YORUBA_STATES` | `OYO` — Oyo (12 province) |
@@ -168,7 +192,7 @@ teknoloji verisi içermez.
 
 | State | Kesin doğrudan sahiplik |
 |---|---|
-| `STATE_ALASKA` | `ALK` — Alaska (287 province); `ATB` — Athabaska (744 province) |
+| `STATE_ALASKA` | `VTU` — Tlingit–Unangan Kıyı Meclisi (287 province; eski `ALK` payı); `ATB` — Athabaska (744 province) |
 | `STATE_BERMUDA` | `GBR` — Londra Tacı Denizaşırı Bağımlılıkları (2 province) |
 | `STATE_HAWAIIAN_ISLANDS` | `HAW` — Hawaii (3 province) |
 | `STATE_OKLAHOMA` | `SEQ` — Indian Territory (32 province); `COM` — Comanche (16 province) |
@@ -233,8 +257,8 @@ teknoloji verisi içermez.
 | `STATE_BUNDELKHAND` | `BAG` — Rewah (9 province); `BUN` — Orchha (4 province); `SUR` — Surguja (7 province); `JHN` — Jhansi (4 province) |
 | `STATE_HYDERABAD` | `HYD` — Haydarabad (45 province) |
 | `STATE_KACHIN` | `BUR` — Burma (41 province) |
-| `STATE_KASHMIR` | `KAS` — Kashmir (10 province); `CHT` — Chitral (10 province); `LAD` — Ladakh (27 province) |
-| `STATE_MALWA` | `IND` — Indore (9 province); `GWA` — Gwalior (19 province); `BHO` — Bhopal (2 province) |
+| `STATE_KASHMIR` | `KAS` — Kashmir (11 province); `CHT` — Chitral (10 province); `LAD` — Ladakh (26 province) |
+| `STATE_MALWA` | `IND` — Indore (10 province); `GWA` — Gwalior (18 province); `BHO` — Bhopal (2 province) |
 | `STATE_MANDALAY` | `BUR` — Burma (15 province); `KKI` — Kuki (8 province) |
 | `STATE_SHAN_STATES` | `BUR` — Burma (15 province); `SHS` — Shan (21 province) |
 | `STATE_SINDH` | `SIN` — Sindh (32 province) |
@@ -260,7 +284,7 @@ teknoloji verisi içermez.
 | `STATE_NAKHON_RATCHASIMA` | `SIA` — Siam (39 province) |
 | `STATE_PYONGYANG` | `KOR` — Korea (19 province) |
 | `STATE_RYUKYU_ISLANDS` | `RYU` — Ryukyu (2 province); `JAP` — Japan (1 province) |
-| `STATE_SAKHALIN` | `SKH` — Evenki (12 province); `AIN` — Ainu Mosir (7 province); `ULT` — Ulta (7 province); `EZO` — Ezochi (3 province); `ALK` — Alaska (2 province) |
+| `STATE_SAKHALIN` | `SKH` — Evenki (12 province); `AIN` — Ainu Mosir (9 province; demografi 24'ten beri eski `ALK` iki province'i dahil); `ULT` — Ulta (7 province); `EZO` — Ezochi (3 province) |
 | `STATE_SARIWON` | `KOR` — Korea (14 province) |
 | `STATE_SEOUL` | `KOR` — Korea (12 province) |
 | `STATE_SHIKOKU` | `JAP` — Japan (5 province) |
@@ -315,7 +339,7 @@ kendilerine özgü province'lerini korur.
 
 | State | Kesin sahip | Çakışan eski iddia sahipleri | Province |
 |---|---|---|---:|
-| `STATE_ALASKA` | `ALK` — Alaska | `ATB` | 3 |
+| `STATE_ALASKA` | `ALK` — Alaska (demografi 21'den beri `VTU`) | `ATB` | 3 |
 | `STATE_EASTERN_HIMALAYAS` | `TIB` — Tibet | `BHU` | 2 |
 | `STATE_INNER_MOROCCO` | `MOR` — Morocco | `TEK` | 9 |
 | `STATE_MAURITANIA` | `OUA` — Tagant | `ADR` | 6 |

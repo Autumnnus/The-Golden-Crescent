@@ -1,0 +1,347 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+version: 1
+cities:
+  Kasama:
+    state: STATE_KAZEMBE
+    owner: BMB
+    hub: city
+    population: 20000
+    weights:
+      lunda/animist: 176
+      sena/animist: 13
+      lacustrine_bantu/animist: 568
+      chewa/animist: 114
+      nguni/animist: 129
+  Mzuzu:
+    state: STATE_KAZEMBE
+    owner: MRV
+    hub: farm
+    population: 12000
+    weights:
+      lacustrine_bantu/animist: 518
+      chewa/animist: 361
+      sena/animist: 121
+  Fianarantsoa:
+    state: STATE_SOUTH_MADAGASCAR
+    owner: MAD
+    hub: city
+    population: 80000
+    weights:
+      malagasy/animist: 914
+      malagasy/sunni: 86
+  Tuléar:
+    state: STATE_SOUTH_MADAGASCAR
+    owner: MAD
+    hub: port
+    population: 30000
+    weights:
+      malagasy/animist: 914
+      malagasy/sunni: 86
+  Tananarive:
+    state: STATE_NORTH_MADAGASCAR
+    owner: MAD
+    hub: city
+    population: 120000
+    weights:
+      malagasy/animist: 890
+      malagasy/catholic: 5
+      malagasy/sunni: 94
+      malagasy/protestant: 11
+  Tamatave:
+    state: STATE_NORTH_MADAGASCAR
+    owner: MAD
+    hub: port
+    population: 50000
+    weights:
+      malagasy/animist: 890
+      malagasy/catholic: 5
+      malagasy/sunni: 94
+      malagasy/protestant: 11
+  Mozambik:
+    state: STATE_MOCAMBIQUE
+    owner: MRV
+    hub: port
+    population: 50000
+    weights:
+      makua/animist: 366
+      makua/sunni: 44
+      lacustrine_bantu/animist: 91
+      portuguese/catholic: 3
+      sena/animist: 84
+      yao/animist: 248
+      chewa/animist: 112
+      lomwe/animist: 52
+  Angoche:
+    state: STATE_MOCAMBIQUE
+    owner: AGC
+    hub: city
+    population: 5000
+    weights:
+      swahili/sunni: 807
+      makua/sunni: 83
+      makua/animist: 110
+  Ngaoundéré:
+    state: STATE_NORTH_CAMEROON
+    owner: SOK
+    hub: city
+    population: 50000
+    weights:
+      equatorial_bantu/animist: 829
+      kanuri/sunni: 20
+      fulbe/sunni: 126
+      bedouin/sunni: 25
+  Douala:
+    state: STATE_SOUTH_CAMEROON
+    owner: DLA
+    hub: port
+    population: 60000
+    weights:
+      fang/protestant: 1
+      fang/animist: 9
+      equatorial_bantu/animist: 975
+      afro_caribbean/protestant: 1
+      afro_brazilian/catholic: 6
+      portuguese/catholic: 1
+      bakongo/animist: 7
+  Bertoua:
+    state: STATE_SOUTH_CAMEROON
+    owner: FNG
+    hub: mine
+    population: 40000
+    weights:
+      fang/animist: 719
+      equatorial_bantu/animist: 281
+  Bangui:
+    state: STATE_UBANGI_SHARI
+    owner: DAK
+    hub: city
+    population: 25000
+    weights:
+      equatorial_bantu/animist: 935
+      fur/sunni: 13
+      sara/animist: 39
+      baguirmi/sunni: 13
+  Nijnji:
+    state: STATE_CONGO
+    owner: LNG
+    hub: port
+    population: 8000
+    weights:
+      bakongo/animist: 567
+      fluvian_bantu/animist: 433
+  Kisangani:
+    state: STATE_CONGO_ORIENTALE
+    owner: MNB
+    hub: city
+    population: 50000
+    weights:
+      fluvian_bantu/animist: 1000
+  Kananga:
+    state: STATE_KASAI
+    owner: KBA
+    hub: city
+    population: 65000
+    weights:
+      fluvian_bantu/animist: 985
+      lunda/animist: 15
+  Kinshasa:
+    state: STATE_BAS_CONGO
+    owner: KON
+    hub: city
+    population: 70000
+    weights:
+      bakongo/animist: 534
+      bakongo/catholic: 80
+      fluvian_bantu/animist: 386
+  Muanda:
+    state: STATE_BAS_CONGO
+    owner: KON
+    hub: port
+    population: 30000
+    weights:
+      bakongo/animist: 534
+      bakongo/catholic: 80
+      fluvian_bantu/animist: 386
+  Wangata:
+    state: STATE_EQUATEUR
+    owner: BNG
+    hub: city
+    population: 60000
+    weights:
+      mongo/animist: 1000
+  Luanda:
+    state: STATE_NORTH_ANGOLA
+    owner: KON
+    hub: port
+    population: 45000
+    weights:
+      portuguese/catholic: 7
+      bakongo/animist: 373
+      kavango_bantu/catholic: 37
+      kavango_bantu/animist: 245
+      bakongo/catholic: 338
+  São Salvador:
+    state: STATE_NORTH_ANGOLA
+    owner: KON
+    hub: mine
+    population: 40000
+    weights:
+      portuguese/catholic: 7
+      bakongo/animist: 373
+      kavango_bantu/catholic: 37
+      kavango_bantu/animist: 245
+      bakongo/catholic: 338
+  Benguela:
+    state: STATE_SOUTH_ANGOLA
+    owner: HRO
+    hub: mine
+    population: 30000
+    weights:
+      ovimbundu/animist: 334
+      kavango_bantu/animist: 333
+      herero/animist: 333
+  Huambo:
+    state: STATE_SOUTH_ANGOLA
+    owner: OVM
+    hub: wood
+    population: 25000
+    weights:
+      ovimbundu/animist: 973
+      kavango_bantu/animist: 27
+  Malanje:
+    state: STATE_EAST_ANGOLA
+    owner: KSN
+    hub: city
+    population: 20000
+    weights:
+      lunda/animist: 268
+      ovimbundu/animist: 732
+  Kolwezi:
+    state: STATE_KATANGA
+    owner: KZM
+    hub: mine
+    population: 40000
+    weights:
+      lunda/animist: 359
+      fluvian_bantu/animist: 641
+  Makokou:
+    state: STATE_GABON
+    owner: FNG
+    hub: wood
+    population: 10000
+    weights:
+      fang/animist: 468
+      equatorial_bantu/animist: 532
+  Lusaka:
+    state: STATE_ZAMBIA
+    owner: LZO
+    hub: city
+    population: 10000
+    weights:
+      lunda/animist: 443
+      kavango_bantu/animist: 388
+      chewa/animist: 169
+  Quelimane:
+    state: STATE_ZAMBEZIA
+    owner: MSK
+    hub: city
+    population: 50000
+    weights:
+      sena/animist: 326
+      portuguese/catholic: 14
+      shona/animist: 346
+      lacustrine_bantu/animist: 255
+      swahili/sunni: 20
+      nguni/animist: 39
+  Bulawayo:
+    state: STATE_ZAMBEZI
+    owner: MSH
+    hub: farm
+    population: 25000
+    weights:
+      shona/animist: 752
+      lacustrine_bantu/animist: 248
+  Rehoboth:
+    state: STATE_NAMAQUALAND
+    owner: NAM
+    hub: city
+    population: 7000
+    weights:
+      khoisan/animist: 871
+      tswana/animist: 129
+  Otjiwarongo:
+    state: STATE_HEREROLAND
+    owner: OVB
+    hub: city
+    population: 10000
+    weights:
+      kavango_bantu/animist: 960
+      lunda/animist: 40
+  Ulundi:
+    state: STATE_ZULULAND
+    owner: ZUL
+    hub: city
+    population: 35000
+    weights:
+      zulu/animist: 889
+      boer/protestant: 7
+      xhosa/animist: 104
+  eThekwini:
+    state: STATE_ZULULAND
+    owner: ZUL
+    hub: port
+    population: 25000
+    weights:
+      zulu/animist: 889
+      boer/protestant: 7
+      xhosa/animist: 104
+  Mahikeng:
+    state: STATE_NORTHERN_CAPE
+    owner: TSW
+    hub: wood
+    population: 20000
+    weights:
+      tswana/animist: 665
+      griqua/protestant: 156
+      khoisan/animist: 94
+      sotho/animist: 47
+      xhosa/animist: 9
+      british/protestant: 5
+      boer/protestant: 24
+  Tlokweng:
+    state: STATE_BOTSWANA
+    owner: TSW
+    hub: city
+    population: 10000
+    weights:
+      tswana/animist: 836
+      nguni/animist: 56
+      herero/animist: 108
+  Serowe:
+    state: STATE_BOTSWANA
+    owner: TSW
+    hub: mine
+    population: 10000
+    weights:
+      tswana/animist: 836
+      nguni/animist: 56
+      herero/animist: 108
+  Maputo:
+    state: STATE_LOURENCO_MARQUES
+    owner: GZA
+    hub: port
+    population: 60000
+    weights:
+      nguni/animist: 343
+      shona/animist: 267
+      tonga/animist: 390
+  Gazze:
+    state: STATE_LOURENCO_MARQUES
+    owner: GZA
+    hub: farm
+    population: 40000
+    weights:
+      nguni/animist: 343
+      shona/animist: 267
+      tonga/animist: 390

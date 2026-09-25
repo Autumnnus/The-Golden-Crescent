@@ -1,0 +1,20 @@
+# Named hub settlement estimates inside state-owner POP totals; never extra POPs.
+# Labels follow the installed Victoria 3 Turkish hub localization.
+version: 1
+cities:
+  Vadodara: {state: STATE_GUJARAT, owner: BER, hub: farm, population: 170000, weights: {gujarati/hindu: 780, gujarati/sunni: 140, marathi/hindu: 50, rajput/hindu: 30}}
+  Rajkot: {state: STATE_GUJARAT, owner: NAW, hub: mine, population: 85000, weights: {gujarati/hindu: 850, gujarati/sunni: 100, marathi/hindu: 30, sindi/sunni: 20}}
+  Bhaunagar: {state: STATE_GUJARAT, owner: KUT, hub: wood, population: 80000, weights: {gujarati/hindu: 760, gujarati/sunni: 140, sindi/sunni: 50, marathi/hindu: 50}}
+  Rewah: {state: STATE_BUNDELKHAND, owner: BUN, hub: city, population: 110000, weights: {bundeli/hindu: 850, hindustani/sunni: 150}}
+  Bopal: {state: STATE_MALWA, owner: BHO, hub: mine, population: 75000, weights: {bundeli/hindu: 400, rajput/hindu: 300, bundeli/sunni: 120, pashtun/sunni: 100, rajput/sunni: 80}}
+  Tashigang: {state: STATE_KASHMIR, owner: LAD, hub: farm, population: 45000, weights: {tibetan/gelugpa: 940, kashmiri/sunni: 40, pahari/hindu: 20}}
+  Kargil: {state: STATE_KASHMIR, owner: LAD, hub: mine, population: 35000, weights: {tibetan/gelugpa: 900, kashmiri/sunni: 100}}
+  Leh: {state: STATE_KASHMIR, owner: LAD, hub: wood, population: 85000, weights: {tibetan/gelugpa: 945, kashmiri/sunni: 35, pahari/hindu: 20}}
+  Bahawalpur: {state: STATE_PUNJAB, owner: BHW, hub: farm, population: 85000, weights: {panjabi/sunni: 700, panjabi/hindu: 200, panjabi/sikh: 50, rajput/hindu: 50}}
+  Keunjhar: {state: STATE_ORISSA, owner: MYB, hub: mine, population: 55000, weights: {oriya/hindu: 650, chhattisgarhi/hindu: 250, oriya/animist: 100}}
+  Cuttack: {state: STATE_ORISSA, owner: ORI, hub: city, population: 150000, weights: {oriya/hindu: 1000}}
+  Balasore: {state: STATE_ORISSA, owner: ORI, hub: port, population: 80000, weights: {oriya/hindu: 1000}}
+  Sambalpur: {state: STATE_ORISSA, owner: PTN, hub: wood, population: 45000, weights: {oriya/hindu: 700, chhattisgarhi/hindu: 250, oriya/animist: 50}}
+  Jeypore: {state: STATE_CIRCARS, owner: JEY, hub: mine, population: 55000, weights: {oriya/hindu: 600, telegu/hindu: 200, gondi/animist: 100, chhattisgarhi/hindu: 100}}
+  Kolhapur: {state: STATE_BOMBAY, owner: KHP, hub: wood, population: 105000, weights: {marathi/hindu: 750, kannada/hindu: 100, deccani/sunni: 75, marathi/sunni: 75}}
+  Imphal: {state: STATE_ASSAM, owner: MNP, hub: farm, population: 100000, weights: {manipuri/hindu: 600, manipuri/animist: 250, naga/animist: 100, lushai/animist: 50}}

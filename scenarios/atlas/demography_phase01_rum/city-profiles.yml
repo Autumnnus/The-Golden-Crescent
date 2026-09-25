@@ -1,0 +1,106 @@
+# Reviewable settlement estimates inside Atlas state-region POP totals.
+# Victoria 3's starting POP history has no separate city population block.
+version: 1
+cities:
+  Konstantiniyye:
+    state: STATE_EASTERN_THRACE
+    population: 1050000
+    weights:
+      turkish/sunni: 550
+      greek/orthodox: 240
+      armenian/oriental_orthodox: 80
+      sephardic/jewish: 80
+      bulgarian/orthodox: 30
+      albanian/sunni: 10
+      north_italian/catholic: 4
+      lacustrine_bantu/animist: 4
+      north_caucasian/sunni: 2
+  Bursa:
+    state: STATE_HUDAVENDIGAR
+    population: 450000
+    weights:
+      turkish/sunni: 690
+      greek/orthodox: 140
+      armenian/oriental_orthodox: 110
+      sephardic/jewish: 35
+      bulgarian/orthodox: 15
+      lacustrine_bantu/animist: 6
+      north_caucasian/sunni: 4
+  Izmir:
+    state: STATE_AYDIN
+    population: 560000
+    weights:
+      turkish/sunni: 480
+      greek/orthodox: 360
+      sephardic/jewish: 70
+      armenian/oriental_orthodox: 30
+      north_italian/catholic: 50
+      lacustrine_bantu/animist: 10
+  Selanik:
+    state: STATE_MACEDONIA
+    population: 330000
+    weights:
+      greek/orthodox: 350
+      turkish/sunni: 200
+      sephardic/jewish: 300
+      bulgarian/orthodox: 100
+      albanian/sunni: 50
+  Atina:
+    state: STATE_ATTICA
+    population: 280000
+    weights:
+      greek/orthodox: 860
+      turkish/sunni: 60
+      albanian/orthodox: 50
+      sephardic/jewish: 30
+  Halep:
+    state: STATE_ALEPPO
+    population: 500000
+    weights:
+      mashriqi/sunni: 300
+      mashriqi/shiite: 120
+      mashriqi/orthodox: 150
+      kurdish/sunni: 100
+      turkish/sunni: 120
+      armenian/oriental_orthodox: 80
+      sephardic/jewish: 50
+      assyrian/oriental_orthodox: 40
+      greek/orthodox: 20
+      bedouin/sunni: 20
+  Bagdat:
+    state: STATE_BAGHDAD
+    population: 580000
+    weights:
+      mashriqi/sunni: 360
+      mashriqi/shiite: 260
+      bedouin/sunni: 40
+      bedouin/shiite: 20
+      turkish/sunni: 90
+      sephardic/jewish: 100
+      assyrian/oriental_orthodox: 60
+      kurdish/sunni: 50
+      armenian/catholic: 1
+      north_caucasian/sunni: 5
+      lacustrine_bantu/animist: 14
+  Ankara:
+    state: STATE_ANKARA
+    population: 360000
+    weights:
+      turkish/sunni: 530
+      turkish/shiite: 210
+      kurdish/sunni: 80
+      armenian/oriental_orthodox: 100
+      greek/orthodox: 60
+      sephardic/jewish: 10
+      georgian/orthodox: 10
+  Van:
+    state: STATE_ERZURUM
+    population: 90000
+    weights:
+      kurdish/sunni: 350
+      armenian/oriental_orthodox: 300
+      turkish/sunni: 150
+      turkish/shiite: 100
+      assyrian/oriental_orthodox: 60
+      kurdish/shiite: 30
+      georgian/orthodox: 10

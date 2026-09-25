@@ -1,0 +1,26 @@
+# Conceptual subsets of state/owner POP totals; no additional game population.
+# Hub names and province ownership are checked against the installed game and candidate.
+version: 1
+cities:
+  Sydney: {state: STATE_NEW_SOUTH_WALES, owner: KNC, hub: city, population: 30000, weights: {aborigine/animist: 950, australian/protestant: 30, irish/catholic: 20}}
+  Brisbane: {state: STATE_QUEENSLAND, owner: MRA, hub: city, population: 10000, weights: {aborigine/animist: 960, australian/protestant: 25, irish/catholic: 15}}
+  Adelaide: {state: STATE_SOUTH_AUSTRALIA, owner: KAU, hub: city, population: 15000, weights: {aborigine/animist: 970, australian/protestant: 20, irish/catholic: 10}}
+  Melbourne: {state: STATE_VICTORIA, owner: KLN, hub: city, population: 15000, weights: {aborigine/animist: 960, australian/protestant: 25, irish/catholic: 15}}
+  Perth: {state: STATE_WESTERN_AUSTRALIA, owner: NNG, hub: city, population: 10000, weights: {aborigine/animist: 970, australian/protestant: 20, irish/catholic: 10}}
+  Hobart: {state: STATE_TASMANIA, owner: VTL, hub: city, population: 5000, weights: {aborigine/animist: 980, australian/protestant: 15, irish/catholic: 5}}
+  Darwin: {state: STATE_NORTHERN_TERRITORY, owner: LRR, hub: city, population: 3000, weights: {aborigine/animist: 1000}}
+  Auckland: {state: STATE_NORTH_ISLAND, owner: UNT, hub: port, population: 8000, weights: {maori/animist: 700, maori/protestant: 300}}
+  Wellington: {state: STATE_NORTH_ISLAND, owner: NTO, hub: city, population: 8000, weights: {maori/animist: 980, australian/protestant: 20}}
+  Christchurch: {state: STATE_SOUTH_ISLAND, owner: NTU, hub: city, population: 7000, weights: {maori/animist: 1000}}
+  Honolulu: {state: STATE_HAWAIIAN_ISLANDS, owner: HAW, hub: city, population: 30000, weights: {hawaiian/animist: 680, hawaiian/protestant: 280, hawaiian/catholic: 25, han/confucian: 15}}
+  Weno: {state: STATE_WEST_MICRONESIA, owner: MCR, hub: city, population: 5000, weights: {micronesian/animist: 940, micronesian/catholic: 30, polynesian/animist: 20, visayan/catholic: 10}}
+  Palikir: {state: STATE_EAST_MICRONESIA, owner: MCR, hub: city, population: 5000, weights: {micronesian/animist: 980, polynesian/animist: 20}}
+  Anabar: {state: STATE_NAURU, owner: NRU, hub: city, population: 300, weights: {melanesian/animist: 1000}}
+  Nadi: {state: STATE_FIJI, owner: FJI, hub: city, population: 10000, weights: {melanesian/animist: 1000}}
+  Honiara: {state: STATE_SOLOMON_ISLANDS, owner: BLA, hub: city, population: 5000, weights: {melanesian/animist: 1000}}
+  Koumac: {state: STATE_KANAK, owner: KNK, hub: city, population: 5000, weights: {melanesian/animist: 1000}}
+  Arawa: {state: STATE_BOUGAINVILLE, owner: HLA, hub: city, population: 5000, weights: {melanesian/animist: 1000}}
+  Port-Vato: {state: STATE_VANUATU, owner: VNT, hub: city, population: 5000, weights: {melanesian/animist: 1000}}
+  Hao: {state: STATE_TAHITI, owner: PLY, hub: city, population: 5000, weights: {polynesian/animist: 1000}}
+  Nuku'alofa: {state: STATE_TONGA, owner: TNG, hub: city, population: 8000, weights: {polynesian/animist: 1000}}
+  Apia: {state: STATE_TONGA, owner: VSM, hub: wood, population: 8000, weights: {polynesian/animist: 1000}}

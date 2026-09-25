@@ -1,0 +1,21 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Turkish hub names and hub province owners come from the installed game.
+version: 1
+cities:
+  Fez: {state: STATE_FEZ, owner: MOR, hub: city, population: 140000, weights: {maghrebi/sunni: 790, berber/sunni: 100, sephardic/jewish: 60, bambara/animist: 50}}
+  Marakeş: {state: STATE_MARRAKECH, owner: MOR, hub: city, population: 120000, weights: {maghrebi/sunni: 700, berber/sunni: 240, sephardic/jewish: 40, bambara/animist: 20}}
+  Tanca: {state: STATE_AL_RIF, owner: MOR, hub: city, population: 60000, weights: {maghrebi/sunni: 700, berber/sunni: 150, sephardic/jewish: 80, spanish/catholic: 60, portuguese/catholic: 5, north_italian/catholic: 5}}
+  Guelmim: {state: STATE_INNER_MOROCCO, owner: MOR, hub: city, population: 40000, weights: {berber/sunni: 500, maghrebi/sunni: 400, bidan/sunni: 50, bedouin/sunni: 50}}
+  Cezayir: {state: STATE_ALGIERS, owner: MAS, hub: city, population: 200000, weights: {maghrebi/sunni: 450, berber/sunni: 500, sephardic/jewish: 20, turkish/sunni: 10, french/catholic: 5, bambara/animist: 15}}
+  Oran: {state: STATE_ORAN, owner: MAS, hub: port, population: 120000, weights: {maghrebi/sunni: 830, berber/sunni: 130, sephardic/jewish: 20, turkish/sunni: 10, french/catholic: 5, bambara/animist: 5}}
+  Konstantin: {state: STATE_CONSTANTINE, owner: CON, hub: city, population: 150000, weights: {berber/sunni: 780, maghrebi/sunni: 180, sephardic/jewish: 20, turkish/sunni: 10, bambara/animist: 10}}
+  Sétif: {state: STATE_CONSTANTINE, owner: AIT, hub: wood, population: 20000, weights: {berber/sunni: 900, maghrebi/sunni: 70, sephardic/jewish: 10, bambara/animist: 20}}
+  Tunus: {state: STATE_TUNISIA, owner: TUN, hub: city, population: 180000, weights: {maghrebi/sunni: 850, berber/sunni: 100, sephardic/jewish: 20, maltese/catholic: 10, south_italian/catholic: 10, bambara/animist: 5, equatorial_bantu/animist: 5}}
+  Mısrata: {state: STATE_TRIPOLI, owner: TRI, hub: port, population: 50000, weights: {maghrebi/sunni: 450, bedouin/sunni: 450, sephardic/jewish: 20, berber/sunni: 20, equatorial_bantu/animist: 60}}
+  Gadames: {state: STATE_TRIPOLI, owner: FZN, hub: mine, population: 15000, weights: {bedouin/sunni: 500, maghrebi/sunni: 250, berber/sunni: 100, berber/ibadi: 150}}
+  Bingazi: {state: STATE_LIBYA, owner: TRI, hub: city, population: 60000, weights: {bedouin/sunni: 420, maghrebi/sunni: 470, berber/sunni: 70, sephardic/jewish: 20, equatorial_bantu/animist: 20}}
+  Murzuq: {state: STATE_LIBYAN_DESERT, owner: FZN, hub: city, population: 15000, weights: {bedouin/sunni: 850, equatorial_bantu/animist: 150}}
+  Laayoune: {state: STATE_WEST_SAHARA, owner: TEK, hub: city, population: 8000, weights: {bidan/sunni: 700, berber/sunni: 250, haratin/sunni: 50}}
+  Nouakchott: {state: STATE_MAURITANIA, owner: TRZ, hub: port, population: 15000, weights: {bidan/sunni: 650, haratin/sunni: 350}}
+  Kaédi: {state: STATE_MAURITANIA, owner: FTR, hub: farm, population: 10000, weights: {fulbe/sunni: 200, bidan/sunni: 400, haratin/sunni: 400}}
+  Kiffa: {state: STATE_INNER_MAURITANIA, owner: OUA, hub: city, population: 8000, weights: {bidan/sunni: 550, mande/sunni: 400, haratin/sunni: 50}}

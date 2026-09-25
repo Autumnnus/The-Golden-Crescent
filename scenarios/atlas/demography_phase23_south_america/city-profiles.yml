@@ -1,0 +1,304 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Profiled names come from local languages (Quechua, Aymara, Muisca, Tupi, Mapudungun...) or
+# are used by the written Americas design itself (Recife, Rio, Buenos Aires, Montevideo,
+# Cartagena, Cusco). Castilian and Portuguese colonial foundation names in local territory
+# (Asuncion, Santiago, Belem, Sao Paulo, La Paz...) are left unprofiled.
+version: 1
+cities:
+  Quito:
+    state: STATE_ECUADOR
+    owner: VQU
+    hub: city
+    population: 50000
+    weights: {quechua/animist: 750, quechua/catholic: 60, north_andean/catholic: 100, north_andean/sunni: 60,
+              afro_caribeno/catholic: 30}
+  Guayaquil:
+    state: STATE_ECUADOR
+    owner: VQU
+    hub: farm
+    population: 15000
+    weights: {quechua/animist: 600, north_andean/catholic: 150, north_andean/sunni: 100, afro_caribeno/catholic: 150}
+  Bogotá:
+    state: STATE_CUNDINAMARCA
+    owner: VMU
+    hub: city
+    population: 40000
+    weights: {muisca/animist: 750, muisca/catholic: 50, north_andean/catholic: 120, north_andean/sunni: 60,
+              afro_caribeno/catholic: 20}
+  Tunja:
+    state: STATE_CUNDINAMARCA
+    owner: VMU
+    hub: mine
+    population: 15000
+    weights: {muisca/animist: 900, north_andean/catholic: 100}
+  Popayán:
+    state: STATE_CAUCA
+    owner: VCQ
+    hub: wood
+    population: 6000
+    weights: {quechua/animist: 300, muisca/animist: 300, north_andean/catholic: 300, afro_caribeno/catholic: 100}
+  Cartagena:
+    state: STATE_ANTIOQUIA
+    owner: VSI
+    hub: farm
+    population: 25000
+    weights: {north_andean/sunni: 250, north_andean/catholic: 150, ve_andalusi/sunni: 100, maghrebi/sunni: 50,
+              sephardic/jewish: 30, afro_caribeno/catholic: 250, afro_caribeno/sunni: 120, cariban/animist: 50}
+  Cuzco:
+    state: STATE_ICA
+    owner: SPU
+    hub: city
+    population: 40000
+    weights: {quechua/animist: 800, quechua/catholic: 60, south_andean/catholic: 100, south_andean/sunni: 40}
+  Ayacucho:
+    state: STATE_ICA
+    owner: IQU
+    hub: mine
+    population: 8000
+    weights: {quechua/animist: 900, quechua/catholic: 100}
+  Ica:
+    state: STATE_ICA
+    owner: IQU
+    hub: farm
+    population: 6000
+    weights: {quechua/animist: 900, quechua/catholic: 100}
+  Arequipa:
+    state: STATE_AREQUIPA
+    owner: VCU
+    hub: city
+    population: 30000
+    weights: {quechua/animist: 500, aimara/animist: 250, south_andean/catholic: 150, south_andean/sunni: 60,
+              quechua/catholic: 40}
+  Tacna:
+    state: STATE_AREQUIPA
+    owner: VCU
+    hub: farm
+    population: 6000
+    weights: {aimara/animist: 600, quechua/animist: 300, south_andean/catholic: 100}
+  Cajamarca:
+    state: STATE_CAJAMARCA
+    owner: VCU
+    hub: mine
+    population: 12000
+    weights: {quechua/animist: 850, south_andean/catholic: 100, quechua/catholic: 50}
+  Arica:
+    state: STATE_TARAPACA
+    owner: VCU
+    hub: farm
+    population: 3000
+    weights: {aimara/animist: 700, south_andean/catholic: 200, afro_caribeno/catholic: 100}
+  Lima:
+    state: STATE_LIMA
+    owner: NPU
+    hub: city
+    population: 60000
+    weights: {quechua/animist: 350, quechua/catholic: 50, south_andean/catholic: 250, south_andean/sunni: 150,
+              afro_caribeno/catholic: 80, ve_andalusi/sunni: 60, maghrebi/sunni: 30, sephardic/jewish: 30}
+  Huancayo:
+    state: STATE_LIMA
+    owner: NPU
+    hub: mine
+    population: 8000
+    weights: {quechua/animist: 900, south_andean/catholic: 100}
+  Cochabamba:
+    state: STATE_LA_PAZ
+    owner: VLP
+    hub: wood
+    population: 25000
+    weights: {quechua/animist: 650, aimara/animist: 150, south_andean/catholic: 150, south_andean/sunni: 50}
+  Viacha:
+    state: STATE_LA_PAZ
+    owner: VLP
+    hub: mine
+    population: 6000
+    weights: {aimara/animist: 900, south_andean/catholic: 100}
+  Potosi:
+    state: STATE_POTOSI
+    owner: VKC
+    hub: wood
+    population: 30000
+    weights: {aimara/animist: 500, quechua/animist: 250, south_andean/catholic: 120, south_andean/sunni: 60,
+              ve_andalusi/sunni: 50, sephardic/jewish: 20}
+  Oruro:
+    state: STATE_POTOSI
+    owner: VKC
+    hub: farm
+    population: 8000
+    weights: {aimara/animist: 800, quechua/animist: 150, south_andean/catholic: 50}
+  Jujuy:
+    state: STATE_JUJUY
+    owner: VKC
+    hub: mine
+    population: 5000
+    weights: {quechua/animist: 800, platinean/catholic: 100, south_andean/catholic: 100}
+  Calama:
+    state: STATE_ANTOFAGASTA
+    owner: VAK
+    hub: mine
+    population: 3000
+    weights: {aimara/animist: 800, south_andean/catholic: 200}
+  Catamarca:
+    state: STATE_TUCUMAN
+    owner: VTC
+    hub: farm
+    population: 4000
+    weights: {quechua/animist: 850, platinean/catholic: 150}
+  Rancagua:
+    state: STATE_SANTIAGO
+    owner: VCS
+    hub: wood
+    population: 5000
+    weights: {patagonian/animist: 800, south_andean/catholic: 200}
+  Copiapó:
+    state: STATE_SANTIAGO
+    owner: VCS
+    hub: mine
+    population: 4000
+    weights: {quechua/animist: 400, patagonian/animist: 400, south_andean/catholic: 200}
+  Temuco:
+    state: STATE_LOS_RIOS
+    owner: VRI
+    hub: farm
+    population: 5000
+    weights: {patagonian/animist: 1000}
+  Talca:
+    state: STATE_LOS_RIOS
+    owner: VRI
+    hub: mine
+    population: 4000
+    weights: {patagonian/animist: 900, south_andean/catholic: 100}
+  Neuquen:
+    state: STATE_PATAGONIA
+    owner: PAT
+    hub: city
+    population: 3000
+    weights: {patagonian/animist: 1000}
+  Coihaique:
+    state: STATE_ARAUCANIA
+    owner: THL
+    hub: mine
+    population: 1000
+    weights: {patagonian/animist: 1000}
+  Buenos Aires:
+    state: STATE_BUENOS_AIRES
+    owner: VBC
+    hub: city
+    population: 30000
+    weights: {platinean/catholic: 300, platinean/sunni: 80, maghrebi/sunni: 280, berber/sunni: 30, sephardic/jewish: 50,
+              afro_caribeno/catholic: 80, afro_caribeno/sunni: 40, patagonian/animist: 100, guarani/animist: 40}
+  Montevideo:
+    state: STATE_URUGUAY
+    owner: URU
+    hub: city
+    population: 10000
+    weights: {maghrebi/sunni: 350, patagonian/animist: 250, guarani/animist: 150, platinean/catholic: 150,
+              sephardic/jewish: 50, berber/sunni: 50}
+  Recife:
+    state: STATE_PERNAMBUCO
+    owner: VFB
+    hub: city
+    population: 60000
+    weights: {maghrebi/sunni: 250, berber/sunni: 30, sephardic/jewish: 30, afro_brazilian/sunni: 200,
+              afro_brazilian/animist: 250, tupinamba/animist: 100, hausa/sunni: 60, yoruba/animist: 50,
+              portuguese/sunni: 30}
+  Juàzeiro:
+    state: STATE_BAHIA
+    owner: VFB
+    hub: farm
+    population: 5000
+    weights: {tupinamba/animist: 500, afro_brazilian/animist: 300, maghrebi/sunni: 200}
+  Rio de Janeiro:
+    state: STATE_RIO_DE_JANEIRO
+    owner: VFB
+    hub: city
+    population: 40000
+    weights: {maghrebi/sunni: 250, afro_brazilian/animist: 250, afro_brazilian/sunni: 200, bakongo/animist: 100,
+              tupinamba/animist: 100, portuguese/sunni: 50, sephardic/jewish: 50}
+  Parahyba:
+    state: STATE_PARAIBA
+    owner: VNR
+    hub: port
+    population: 5000
+    weights: {tupinamba/animist: 700, maghrebi/sunni: 150, afro_brazilian/sunni: 150}
+  Iguatu:
+    state: STATE_CEARA
+    owner: VNR
+    hub: farm
+    population: 3000
+    weights: {tupinamba/animist: 900, amazonian/animist: 100}
+  Macapá:
+    state: STATE_PARA
+    owner: PRA
+    hub: port
+    population: 4000
+    weights: {tupinamba/animist: 600, amazonian/animist: 200, maghrebi/sunni: 100, dutch/protestant: 100}
+  Manaus:
+    state: STATE_AMAZONAS
+    owner: PRA
+    hub: city
+    population: 5000
+    weights: {amazonian/animist: 900, tupinamba/animist: 100}
+  Goiás:
+    state: STATE_GOIAS
+    owner: VGC
+    hub: city
+    population: 3000
+    weights: {amazonian/animist: 800, tupinamba/animist: 100, afro_brazilian/animist: 100}
+  Cuiabá:
+    state: STATE_MATO_GROSSO
+    owner: VMT
+    hub: farm
+    population: 4000
+    weights: {amazonian/animist: 700, guarani/animist: 300}
+  Curitiba:
+    state: STATE_PARANA
+    owner: VPS
+    hub: city
+    population: 3000
+    weights: {guarani/animist: 500, amazonian/animist: 500}
+  Paranaguá:
+    state: STATE_PARANA
+    owner: VPS
+    hub: port
+    population: 2000
+    weights: {guarani/animist: 600, tupinamba/animist: 400}
+  Caracas:
+    state: STATE_MIRANDA
+    owner: VNZ
+    hub: city
+    population: 40000
+    weights: {north_andean/catholic: 450, north_andean/sunni: 200, afro_caribeno/catholic: 200, afro_caribeno/sunni: 50,
+              cariban/animist: 50, ve_andalusi/sunni: 30, sephardic/jewish: 20}
+  Maracaibo:
+    state: STATE_ZULIA
+    owner: VNZ
+    hub: port
+    population: 25000
+    weights: {north_andean/catholic: 400, north_andean/sunni: 150, afro_caribeno/catholic: 150, guajiro/animist: 150,
+              cariban/animist: 100, sephardic/jewish: 50}
+  Maturín:
+    state: STATE_BOLIVAR
+    owner: VNZ
+    hub: farm
+    population: 4000
+    weights: {cariban/animist: 500, north_andean/catholic: 300, amazonian/animist: 200}
+  Paramaribo:
+    state: STATE_GUAYANA
+    owner: NET
+    hub: city
+    population: 15000
+    weights: {afro_caribbean/protestant: 400, afro_caribbean/animist: 250, dutch/protestant: 150, sephardic/jewish: 100,
+              amazonian/animist: 100}
+  Cayenne:
+    state: STATE_GUAYANA
+    owner: NET
+    hub: wood
+    population: 4000
+    weights: {afro_antillean/catholic: 400, french/catholic: 200, amazonian/animist: 200, afro_caribbean/animist: 200}
+  Stanley:
+    state: STATE_SOUTH_ATLANTIC_ISLANDS
+    owner: GBR
+    hub: city
+    population: 1000
+    weights: {british/protestant: 1000}

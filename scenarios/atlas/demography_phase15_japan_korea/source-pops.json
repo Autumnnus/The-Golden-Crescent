@@ -1,0 +1,352 @@
+{
+  "STATE_BUSAN/KOR": [
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2409741
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "shopkeepers",
+      "size": 1210
+    },
+    {
+      "culture": "korean",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1186886
+    }
+  ],
+  "STATE_CHUGOKU/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4077516
+    }
+  ],
+  "STATE_HOKKAIDO/EZO": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 29500
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1731
+    }
+  ],
+  "STATE_HOKKAIDO/JAP": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 102
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 31102
+    }
+  ],
+  "STATE_HOKUSHINETSU/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4138700
+    }
+  ],
+  "STATE_KANSAI/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3986882
+    }
+  ],
+  "STATE_KANTO/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 5004465
+    }
+  ],
+  "STATE_KYOTO/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1377948
+    }
+  ],
+  "STATE_KYUSHU/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4137366
+    },
+    {
+      "culture": "ryukyuan",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2312
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": "shopkeepers",
+      "size": 1503
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": "clerks",
+      "size": 506
+    },
+    {
+      "culture": "dutch",
+      "religion": "protestant",
+      "pop_type": "clerks",
+      "size": 20
+    }
+  ],
+  "STATE_PYONGYANG/KOR": [
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2528980
+    },
+    {
+      "culture": "korean",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1083848
+    }
+  ],
+  "STATE_RYUKYU_ISLANDS/JAP": [
+    {
+      "culture": "ryukyuan",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 100241
+    },
+    {
+      "culture": "ryukyuan",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 5021
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "farmers",
+      "size": 10201
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "bureaucrats",
+      "size": 675
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "aristocrats",
+      "size": 241
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "soldiers",
+      "size": 1021
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "officers",
+      "size": 51
+    }
+  ],
+  "STATE_RYUKYU_ISLANDS/RYU": [
+    {
+      "culture": "ryukyuan",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 162912
+    },
+    {
+      "culture": "ryukyuan",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 30201
+    },
+    {
+      "culture": "han",
+      "religion": "confucian",
+      "pop_type": "academics",
+      "size": 231
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": "bureaucrats",
+      "size": 151
+    }
+  ],
+  "STATE_SAKHALIN/AIN": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2184
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 243
+    },
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 4368
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 486
+    }
+  ],
+  "STATE_SAKHALIN/EZO": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 601
+    },
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 39
+    }
+  ],
+  "STATE_SAKHALIN/SKH": [
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1731
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3462
+    }
+  ],
+  "STATE_SAKHALIN/ULT": [
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 95
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 612
+    },
+    {
+      "culture": "ainu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 475
+    },
+    {
+      "culture": "siberian",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 3060
+    }
+  ],
+  "STATE_SARIWON/KOR": [
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1053067
+    },
+    {
+      "culture": "korean",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 567035
+    }
+  ],
+  "STATE_SEOUL/KOR": [
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 1832336
+    },
+    {
+      "culture": "korean",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 986642
+    }
+  ],
+  "STATE_SHIKOKU/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 2319419
+    }
+  ],
+  "STATE_TOHOKU/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 3157725
+    }
+  ],
+  "STATE_TOKAI/JAP": [
+    {
+      "culture": "japanese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 4192918
+    }
+  ],
+  "STATE_YANGHO/KOR": [
+    {
+      "culture": "korean",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 2685968
+    },
+    {
+      "culture": "korean",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1866519
+    }
+  ]
+}

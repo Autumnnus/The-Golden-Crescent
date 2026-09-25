@@ -1,0 +1,426 @@
+version: 1
+policy: >-
+  North America outside Andalusian Mexico. Coastal colonies keep settler majorities with modest
+  1836 totals; Vinland and New Netherland regain Nordic and Dutch settler identities instead of
+  inherited French-Canadian and US Yankee ones. Interior local polities replace the inherited
+  US/Canadian settler flood with their own peoples at the user's chosen moderate level
+  (about 4.8 million people), keeping small trader, settler and free Afro-American communities.
+  Slave POPs are kept only where the written law keeps slavery legal (Virginia; Potomac, which
+  is outside the 1808-1820 abolition list); elsewhere H7/H9/1820 abolition releases them.
+  Weights are per mille and describe the non-fixed remainder of a share.
+countries:
+  VNI: {literacy_range: [0.50, 0.52]}
+  VNH: {literacy_range: [0.45, 0.47]}
+  VPA: {literacy_range: [0.46, 0.47]}
+  VVA: {literacy_range: [0.27, 0.28]}
+  VDC: {literacy_range: [0.40, 0.40]}
+  VIN: {literacy_range: [0.29, 0.31]}
+  VQC: {literacy_range: [0.04, 0.04]}
+  VBU: {literacy_range: [0.30, 0.30]}
+  SML: {literacy_range: [0.04, 0.04]}
+  GBR: {literacy_range: [0.35, 0.35]}
+  VTU: {literacy_range: [0.03, 0.03]}
+  ATB: {literacy_range: [0.03, 0.03]}
+  VCD: {literacy_range: [0.05, 0.05]}
+  COM: {literacy_range: [0.03, 0.03]}
+  APC: {literacy_range: [0.04, 0.04]}
+  NVJ: {literacy_range: [0.03, 0.03]}
+  UTE: {literacy_range: [0.03, 0.03]}
+  VUT: {literacy_range: [0.03, 0.03]}
+  ARP: {literacy_range: [0.03, 0.03]}
+  ABS: {literacy_range: [0.03, 0.03]}
+  BLF: {literacy_range: [0.03, 0.03]}
+  BNN: {literacy_range: [0.03, 0.03]}
+  NZP: {literacy_range: [0.04, 0.04]}
+  ORG: {literacy_range: [0.04, 0.04]}
+  SLS: {literacy_range: [0.04, 0.04]}
+  IRC: {literacy_range: [0.03, 0.03]}
+  VCI: {literacy_range: [0.04, 0.04]}
+  VFC: {literacy_range: [0.03, 0.03]}
+  VPC: {literacy_range: [0.03, 0.03]}
+  VDE: {literacy_range: [0.02, 0.02]}
+  VNU: {literacy_range: [0.02, 0.02]}
+  LKT: {literacy_range: [0.03, 0.03]}
+  VLA: {literacy_range: [0.03, 0.03]}
+  PWN: {literacy_range: [0.04, 0.04]}
+  VPW: {literacy_range: [0.04, 0.04]}
+  SEQ: {literacy_range: [0.06, 0.06]}
+  VCL: {literacy_range: [0.03, 0.03]}
+  VAI: {literacy_range: [0.07, 0.07]}
+  VWM: {literacy_range: [0.07, 0.07]}
+  VGT: {literacy_range: [0.08, 0.08]}
+  VHD: {literacy_range: [0.08, 0.08]}
+  VMR: {literacy_range: [0.07, 0.08]}
+  VCE: {literacy_range: [0.14, 0.14]}
+  VMC: {literacy_range: [0.08, 0.08]}
+  VCO: {literacy_range: [0.08, 0.08]}
+# Countries whose POPs also lie outside this package.
+partial_countries: [GBR]
+# Country definition changes. `from` guards the pre-change value.
+country_culture_overrides:
+  ARP: {from: [siouan], to: [algonquian]}      # Arapaho are Algonquian speakers
+  BLF: {from: [siouan], to: [algonquian]}      # Blackfoot are Algonquian speakers
+  VCL: {from: [nahua], to: [hokan]}            # California valley peoples, not Nahua
+  SEQ: {from: [cherokee, siouan], to: [caddoan, siouan, cherokee]}  # no Trail of Tears
+country_laws:
+  VVA: [law_legacy_slavery]   # plantation slavery legal (hukuk H10 Virginia)
+  VDC: [law_legacy_slavery]   # Chesapeake civic district; not in the abolition list
+# Shares whose inherited slave POPs are released into the free design composition.
+release_slaves:
+- STATE_DELAWARE/VPA
+- STATE_FLORIDA/VBU
+- STATE_TEXAS/VCD
+- STATE_OKLAHOMA/SEQ
+- STATE_GEORGIA/VCE
+- STATE_TENNESSEE/VCE
+- STATE_ALABAMA/VMC
+- STATE_MISSISSIPPI/VCO
+- STATE_ARKANSAS/VMR
+- STATE_LOUISIANA/VMR
+- STATE_KENTUCKY/VMR
+- STATE_MISSOURI/VMR
+# Homelands: cultures >= 10% of the planned state population, plus inherited local homelands
+# whose culture remains >= 1% of it. Inherited settler/diaspora homelands stay only at >= 10%.
+# Computed by prepare.py and recorded in the audit.
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.01
+  settler_keep_share: 0.10
+  settler_cultures: [yankee, dixie, anglo_canadian, franco_canadian, cajun, afro_american, afro_antillean,
+                     mexican, metis]
+shares:
+  # --- Coastal colonies ---------------------------------------------------------------
+  STATE_MAINE/VNI:
+    population: 380000
+    literacy: 0.49
+    mix: {yankee/protestant: 900, yankee/catholic: 20, irish/catholic: 15, algonquian/animist: 40,
+          algonquian/protestant: 10, norwegian/protestant: 10, afro_american/protestant: 5}
+  STATE_NEW_HAMPSHIRE/VNI:
+    population: 265000
+    literacy: 0.50
+    mix: {yankee/protestant: 880, yankee/catholic: 60, irish/catholic: 20, algonquian/animist: 25,
+          algonquian/protestant: 10, afro_american/protestant: 5}
+  STATE_VERMONT/VNI:
+    population: 250000
+    literacy: 0.48
+    mix: {yankee/protestant: 900, yankee/catholic: 20, algonquian/animist: 60, algonquian/protestant: 15,
+          dutch/protestant: 5}
+  STATE_MASSACHUSETTS/VNI:
+    population: 840000
+    literacy: 0.53
+    mix: {yankee/protestant: 860, irish/catholic: 55, yankee/catholic: 35, afro_american/protestant: 15,
+          algonquian/protestant: 15, algonquian/animist: 10, sephardic/jewish: 5, dutch/protestant: 5}
+  STATE_CONNECTICUT/VNI:
+    population: 200000
+    literacy: 0.52
+    mix: {yankee/protestant: 925, yankee/catholic: 15, irish/catholic: 10, algonquian/animist: 20,
+          algonquian/protestant: 10, afro_american/protestant: 15, dutch/protestant: 5}
+  STATE_RHODE_ISLAND/VNI:
+    population: 105000
+    literacy: 0.51
+    mix: {yankee/protestant: 890, yankee/catholic: 15, irish/catholic: 15, sephardic/jewish: 10,
+          afro_american/protestant: 30, algonquian/animist: 25, algonquian/protestant: 15}
+  STATE_NEW_YORK/VNH:
+    population: 2100000
+    literacy: 0.46
+    mix: {dutch/protestant: 440, yankee/protestant: 330, north_german/protestant: 60, yankee/catholic: 10,
+          irish/catholic: 15, french/protestant: 20, wallonian/protestant: 15, sephardic/jewish: 8,
+          afro_american/protestant: 25, iroquoian/animist: 45, iroquoian/protestant: 10,
+          algonquian/animist: 22}
+  STATE_NEW_JERSEY/VNH:
+    population: 330000
+    literacy: 0.45
+    mix: {dutch/protestant: 400, yankee/protestant: 380, north_german/protestant: 40, yankee/catholic: 20,
+          afro_american/protestant: 40, algonquian/animist: 50, sephardic/jewish: 5, french/protestant: 15,
+          swedish/protestant: 30, irish/catholic: 20}
+  STATE_PENNSYLVANIA/VPA:
+    population: 1450000
+    literacy: 0.47
+    mix: {yankee/protestant: 520, north_german/protestant: 200, north_german/catholic: 20,
+          scottish/protestant: 50, irish/catholic: 30, yankee/catholic: 30, afro_american/protestant: 30,
+          algonquian/animist: 50, algonquian/protestant: 15, iroquoian/animist: 25, ashkenazi/jewish: 5,
+          swedish/protestant: 15, welsh/protestant: 10}
+  STATE_DELAWARE/VPA:
+    population: 90000
+    literacy: 0.40
+    mix: {yankee/protestant: 500, dixie/protestant: 200, swedish/protestant: 60, dutch/protestant: 40,
+          afro_american/protestant: 120, algonquian/animist: 50, north_german/protestant: 30}
+  STATE_VIRGINIA/VVA:
+    population: 800000
+    literacy: 0.30
+    mix: {dixie/protestant: 800, dixie/catholic: 90, afro_american/protestant: 70, algonquian/animist: 25,
+          algonquian/protestant: 10, siouan/animist: 5}
+  STATE_MARYLAND/VVA:
+    population: 350000
+    literacy: 0.33
+    mix: {dixie/protestant: 710, dixie/catholic: 120, afro_american/protestant: 150, algonquian/animist: 20}
+  STATE_NORTH_CAROLINA/VVA:
+    population: 700000
+    literacy: 0.27
+    mix: {dixie/protestant: 860, afro_american/protestant: 40, cherokee/animist: 45, cherokee/protestant: 5,
+          siouan/animist: 30, iroquoian/animist: 20}
+  STATE_SOUTH_CAROLINA/VVA:
+    population: 575000
+    literacy: 0.22
+    mix: {dixie/protestant: 855, afro_american/protestant: 35, siouan/animist: 50, cherokee/animist: 30,
+          muskogean/animist: 25, dixie/jewish: 5}
+  STATE_WEST_VIRGINIA/VVA:
+    population: 160000
+    literacy: 0.25
+    mix: {dixie/protestant: 580, dixie/catholic: 60, algonquian/animist: 200, cherokee/animist: 60,
+          iroquoian/animist: 80, afro_american/protestant: 20}
+  STATE_DISTRICT_OF_COLUMBIA/VDC:
+    population: 118000
+    literacy: 0.40
+  STATE_QUEBEC/VIN:
+    population: 260000
+    literacy: 0.30
+    mix: {norwegian/protestant: 290, swedish/protestant: 150, danish/protestant: 110, icelandic/protestant: 20,
+          finnish/protestant: 20, algonquian/animist: 190, algonquian/protestant: 40, iroquoian/animist: 110,
+          iroquoian/protestant: 20, cree/animist: 30, inuit/animist: 20}
+  STATE_NEWFOUNDLAND/VIN:
+    population: 50000
+    literacy: 0.30
+    mix: {norwegian/protestant: 330, danish/protestant: 100, icelandic/protestant: 90, swedish/protestant: 40,
+          algonquian/animist: 260, inuit/animist: 180}
+  STATE_QUEBEC/VQC:
+    population: 45000
+    literacy: 0.04
+    mix: {algonquian/animist: 600, algonquian/protestant: 40, cree/animist: 250, inuit/animist: 80,
+          norwegian/protestant: 30}
+  STATE_FLORIDA/VBU:
+    population: 70000
+    literacy: 0.30
+    mix: {turkish/sunni: 180, mashriqi/sunni: 170, greek/orthodox: 100, armenian/oriental_orthodox: 20,
+          sephardic/jewish: 20, maghrebi/sunni: 50, afro_american/protestant: 120, afro_american/sunni: 120,
+          muskogean/animist: 150, muskogean/sunni: 30, dixie/protestant: 40}
+  STATE_FLORIDA/SML:
+    population: 12000
+    literacy: 0.04
+    mix: {muskogean/animist: 850, muskogean/sunni: 70, afro_american/animist: 80}
+  STATE_BERMUDA/GBR:
+    population: 27200
+    literacy: 0.35
+  # --- Alaska, Pacific and far north --------------------------------------------------
+  STATE_ALASKA/VTU:
+    population: 34000
+    literacy: 0.03
+    mix: {athabaskan/animist: 500, inuit/animist: 500}
+  STATE_ALASKA/ATB: {population: 45000, literacy: 0.03}
+  STATE_BRITISH_COLUMBIA/ATB: {population: 36000, literacy: 0.03}
+  STATE_YUKON_TERRITORY/ATB: {population: 12000, literacy: 0.03}
+  STATE_BRITISH_COLUMBIA/SLS:
+    population: 60000
+    literacy: 0.04
+    mix: {salish/animist: 600, athabaskan/animist: 400}
+  STATE_WASHINGTON/SLS:
+    population: 24000
+    literacy: 0.04
+    mix: {salish/animist: 550, nez_perce/animist: 450}
+  STATE_MONTANA/SLS: {population: 9000, literacy: 0.04}
+  STATE_WYOMING/SLS: {population: 6000, literacy: 0.04}
+  STATE_OREGON/ORG:
+    population: 28000
+    literacy: 0.04
+    mix: {salish/animist: 450, paiute/animist: 250, nez_perce/animist: 200, athabaskan/animist: 50,
+          hokan/animist: 50}
+  STATE_IDAHO/NZP:
+    population: 45000
+    literacy: 0.04
+    mix: {nez_perce/animist: 880, paiute/animist: 80, salish/animist: 40}
+  STATE_CALIFORNIA/VCL:
+    population: 150000
+    literacy: 0.03
+    mix: {hokan/animist: 900, paiute/animist: 60, mexican/catholic: 40}
+  STATE_NORTHWEST_TERRITORIES/VDE: {population: 16500, literacy: 0.02}
+  STATE_NUNAVUT/VNU: {population: 12000, literacy: 0.02}
+  # --- Great Basin and Southwest ------------------------------------------------------
+  STATE_WYOMING/BNN: {population: 12000, literacy: 0.03}
+  STATE_NEVADA/BNN: {population: 28000, literacy: 0.03}
+  STATE_IDAHO/BNN: {population: 20000, literacy: 0.03}
+  STATE_COLORADO/UTE:
+    population: 12000
+    literacy: 0.03
+    mix: {paiute/animist: 600, apache/animist: 200, algonquian/animist: 150, mexican/catholic: 50}
+  STATE_UTAH/UTE: {population: 15000, literacy: 0.03}
+  STATE_COLORADO/VUT:
+    population: 2500
+    literacy: 0.03
+    mix: {paiute/animist: 850, algonquian/animist: 150}
+  STATE_ARIZONA/APC:
+    population: 23000
+    literacy: 0.04
+    mix: {apache/animist: 520, pueblo/animist: 250, oodham/animist: 200, mexican/catholic: 30}
+  STATE_NEW_MEXICO/APC:
+    population: 60000
+    literacy: 0.04
+    mix: {pueblo/animist: 520, apache/animist: 330, navajo/animist: 50, comanche/animist: 50,
+          mexican/catholic: 50}
+  STATE_ARIZONA/NVJ: {population: 29000, literacy: 0.03}
+  STATE_NEW_MEXICO/NVJ: {population: 8000, literacy: 0.03}
+  STATE_UTAH/NVJ: {population: 6000, literacy: 0.03}
+  STATE_KANSAS/COM:
+    population: 4000
+    literacy: 0.03
+    mix: {comanche/animist: 800, siouan/animist: 200}
+  STATE_NEW_MEXICO/COM:
+    population: 12000
+    literacy: 0.03
+    mix: {comanche/animist: 550, apache/animist: 150, pueblo/animist: 150, mexican/catholic: 150}
+  STATE_TEXAS/COM:
+    population: 38000
+    literacy: 0.03
+    mix: {comanche/animist: 650, apache/animist: 150, caddoan/animist: 120, mexican/catholic: 80}
+  STATE_OKLAHOMA/COM:
+    population: 18000
+    literacy: 0.03
+    mix: {comanche/animist: 600, caddoan/animist: 250, siouan/animist: 150}
+  STATE_TEXAS/VCD:
+    population: 60000
+    literacy: 0.05
+    mix: {caddoan/animist: 750, muskogean/animist: 50, cherokee/animist: 30, afro_american/protestant: 50,
+          mexican/catholic: 80, dixie/protestant: 40}
+  STATE_OKLAHOMA/SEQ:
+    population: 45000
+    literacy: 0.06
+    mix: {caddoan/animist: 450, siouan/animist: 300, cherokee/animist: 100, cherokee/protestant: 50,
+          muskogean/animist: 50, afro_american/protestant: 50}
+  # --- Plains and prairie ---------------------------------------------------------------
+  STATE_WYOMING/ARP:
+    population: 4500
+    literacy: 0.03
+    mix: {algonquian/animist: 1000}
+  STATE_COLORADO/ARP:
+    population: 11000
+    literacy: 0.03
+    mix: {algonquian/animist: 900, siouan/animist: 100}
+  STATE_MONTANA/ABS: {population: 29000, literacy: 0.03}
+  STATE_WYOMING/ABS: {population: 7000, literacy: 0.03}
+  STATE_MONTANA/BLF:
+    population: 15000
+    literacy: 0.03
+    mix: {algonquian/animist: 1000}
+  STATE_ALBERTA/BLF:
+    population: 21000
+    literacy: 0.03
+    mix: {algonquian/animist: 820, cree/animist: 100, siouan/animist: 50, metis/protestant: 30}
+  STATE_MANITOBA/IRC: {population: 12000, literacy: 0.03}
+  STATE_SASKATCHEWAN/IRC: {population: 33000, literacy: 0.03}
+  STATE_ALBERTA/IRC: {population: 25000, literacy: 0.03}
+  STATE_MANITOBA/VCI:
+    population: 55000
+    literacy: 0.04
+    mix: {cree/animist: 600, siouan/animist: 150, athabaskan/animist: 120, algonquian/animist: 80,
+          metis/protestant: 30, norwegian/protestant: 20}
+  STATE_ALBERTA/VFC:
+    population: 22000
+    literacy: 0.03
+    mix: {cree/animist: 450, siouan/animist: 300, athabaskan/animist: 150, algonquian/animist: 50,
+          metis/protestant: 50}
+  STATE_SASKATCHEWAN/VPC:
+    population: 22000
+    literacy: 0.03
+    mix: {cree/animist: 700, siouan/animist: 200, metis/protestant: 60, athabaskan/animist: 40}
+  STATE_MINNESOTA/LKT: {population: 22500, literacy: 0.03}
+  STATE_NORTH_DAKOTA/LKT: {population: 35000, literacy: 0.03}
+  STATE_SOUTH_DAKOTA/LKT: {population: 35000, literacy: 0.03}
+  STATE_MONTANA/LKT: {population: 6000, literacy: 0.03}
+  STATE_WYOMING/LKT: {population: 6000, literacy: 0.03}
+  STATE_NEBRASKA/LKT: {population: 4000, literacy: 0.03}
+  STATE_NORTH_DAKOTA/VLA: {population: 6000, literacy: 0.03}
+  STATE_SOUTH_DAKOTA/VLA: {population: 4000, literacy: 0.03}
+  STATE_MONTANA/VLA: {population: 7000, literacy: 0.03}
+  STATE_WYOMING/VLA: {population: 8000, literacy: 0.03}
+  STATE_KANSAS/PWN: {population: 8500, literacy: 0.04}
+  STATE_NEBRASKA/PWN: {population: 12500, literacy: 0.04}
+  STATE_IOWA/VPW:
+    population: 40000
+    literacy: 0.04
+    mix: {algonquian/animist: 500, siouan/animist: 300, dakota/animist: 150, caddoan/animist: 50}
+  STATE_KANSAS/VPW:
+    population: 12000
+    literacy: 0.04
+    mix: {siouan/animist: 700, caddoan/animist: 300}
+  STATE_NEBRASKA/VPW:
+    population: 5000
+    literacy: 0.04
+    mix: {siouan/animist: 600, caddoan/animist: 400}
+  # --- Eastern woodlands, Great Lakes and the Southeast ---------------------------------
+  STATE_ONTARIO/VAI:
+    population: 200000
+    literacy: 0.07
+    mix: {algonquian/animist: 520, algonquian/protestant: 40, iroquoian/animist: 250, iroquoian/protestant: 20,
+          cree/animist: 120, norwegian/protestant: 20, yankee/protestant: 15, dutch/protestant: 15}
+  STATE_NEW_BRUNSWICK/VWM:
+    population: 85000
+    literacy: 0.07
+    mix: {algonquian/animist: 800, algonquian/protestant: 50, norwegian/protestant: 60, yankee/protestant: 50,
+          danish/protestant: 20, afro_american/protestant: 20}
+  STATE_MICHIGAN/VGT:
+    population: 170000
+    literacy: 0.08
+    mix: {algonquian/animist: 700, algonquian/protestant: 40, iroquoian/animist: 80, siouan/animist: 30,
+          yankee/protestant: 60, dutch/protestant: 50, norwegian/protestant: 20, afro_american/protestant: 20}
+  STATE_WISCONSIN/VGT:
+    population: 110000
+    literacy: 0.08
+    mix: {algonquian/animist: 650, siouan/animist: 250, dakota/animist: 30, yankee/protestant: 40,
+          dutch/protestant: 30}
+  STATE_ILLINOIS/VGT:
+    population: 260000
+    literacy: 0.08
+    mix: {algonquian/animist: 720, siouan/animist: 150, algonquian/protestant: 30, yankee/protestant: 50,
+          dutch/protestant: 30, afro_american/protestant: 20}
+  STATE_MINNESOTA/VGT:
+    population: 50000
+    literacy: 0.08
+    mix: {algonquian/animist: 800, dakota/animist: 200}
+  STATE_OHIO/VHD:
+    population: 450000
+    literacy: 0.08
+    mix: {iroquoian/animist: 580, iroquoian/protestant: 50, algonquian/animist: 250, algonquian/protestant: 20,
+          yankee/protestant: 40, dutch/protestant: 30, afro_american/protestant: 20, north_german/protestant: 10}
+  STATE_ARKANSAS/VMR:
+    population: 110000
+    literacy: 0.07
+    mix: {siouan/animist: 400, caddoan/animist: 300, cherokee/animist: 100, muskogean/animist: 100,
+          afro_american/protestant: 50, dixie/protestant: 50}
+  STATE_LOUISIANA/VMR:
+    population: 200000
+    literacy: 0.09
+    mix: {muskogean/animist: 500, caddoan/animist: 150, siouan/animist: 50, afro_american/protestant: 100,
+          ve_andalusi/sunni: 60, maghrebi/sunni: 40, mexican/catholic: 40, dixie/protestant: 60}
+  STATE_KENTUCKY/VMR:
+    population: 300000
+    literacy: 0.07
+    mix: {algonquian/animist: 450, cherokee/animist: 150, muskogean/animist: 150, siouan/animist: 100,
+          iroquoian/animist: 50, dixie/protestant: 40, yankee/protestant: 20, afro_american/protestant: 40}
+  STATE_MISSOURI/VMR:
+    population: 220000
+    literacy: 0.07
+    mix: {siouan/animist: 550, algonquian/animist: 300, caddoan/animist: 50, yankee/protestant: 30,
+          dutch/protestant: 20, dixie/protestant: 20, afro_american/protestant: 30}
+  STATE_INDIANA/VMR:
+    population: 240000
+    literacy: 0.07
+    mix: {algonquian/animist: 850, iroquoian/animist: 50, siouan/animist: 30, yankee/protestant: 40,
+          afro_american/protestant: 30}
+  STATE_GEORGIA/VCE:
+    population: 270000
+    literacy: 0.14
+    mix: {cherokee/animist: 400, cherokee/protestant: 80, muskogean/animist: 380, muskogean/protestant: 20,
+          afro_american/protestant: 80, dixie/protestant: 40}
+  STATE_TENNESSEE/VCE:
+    population: 310000
+    literacy: 0.14
+    mix: {cherokee/animist: 520, cherokee/protestant: 100, muskogean/animist: 200, algonquian/animist: 80,
+          afro_american/protestant: 50, dixie/protestant: 50}
+  STATE_ALABAMA/VMC:
+    population: 270000
+    literacy: 0.08
+    mix: {muskogean/animist: 760, muskogean/protestant: 40, muskogean/sunni: 30, cherokee/animist: 60,
+          afro_american/protestant: 80, dixie/protestant: 30}
+  STATE_MISSISSIPPI/VCO:
+    population: 200000
+    literacy: 0.08
+    mix: {muskogean/animist: 840, muskogean/protestant: 50, afro_american/protestant: 70, dixie/protestant: 40}

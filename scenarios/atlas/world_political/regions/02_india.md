@@ -21,9 +21,9 @@ dosyaya bağlı bir korunmuş karar olarak görünür.
 | Circars, Kurnool | Haydarabad | Merkez/doğu Dekkan |
 | Gujarat | Gujarat Liman Birliği | Surat–Kathiawar tüccar düzeni |
 | Punjab Hills | Sih Devleti | Kuzey/doğu Pencap ve dağ etekleri; Lahor Gurkanî çekirdeği Kart 2E ile ayrı province sınırı olarak kilitlendi |
-| Madras | Tamil krallıkları | Tamil ovaları; Avrupa ticarethaneleri egemenlik değildir |
+| Madras | Tamil krallıkları | Tamil ovaları; Avrupa ticarethaneleri egemenlik değildir. Tek province'lik Danimarka Tranquebar payı [demografi 26'da](../../demography_phase26_middle_east_india/README.md) Tamil krallığına katıldı |
 | Orissa | Orissa Krallığı | Yerel kıyı/nehir yönetimi |
-| Arakan, Pegu, Tenasserim | Burma | BIC'nin Güneydoğu Asya payı kaldırılır; ayrıntılı yerel kart sonra gelir |
+| Arakan, Pegu, Tenasserim | Burma | BIC'nin Güneydoğu Asya payı kaldırılır; Pegu'daki tek province Danimarka kalıntısı daha sonra 13. demografi diliminde Burma'ya devredilir |
 | Rajputana'daki tek BIC payı | Jaipur | Jaipur–Udaipur koruma düzeninin ilk temsilcisi |
 
 Şirketin state içinde paylaşmadığı bütün province'ler gerçek Atlas katalogundan korunur. Kart bu nedenle BIC'nin tek bir bölgeyi “bütün state” olarak sahiplenmiş sayılmasına izin vermez.

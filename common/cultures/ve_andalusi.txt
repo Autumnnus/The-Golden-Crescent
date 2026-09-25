@@ -1,0 +1,22 @@
+﻿# Additive Andalusi culture for the Arabic-speaking Iberian communities of 1836.
+# Uses the installed heritage_iberian and language_arabic discrimination traits.
+ve_andalusi = {
+    color = rgb{ 102 144 91 }
+    religion = sunni
+    heritage = heritage_iberian
+    language = language_arabic
+    traditions = { }
+    male_common_first_names = {
+        Abd_Allah Abd_al-Rahman Ahmad Ali Hasan Ibrahim Ishaq Iskandar
+        Mahmud Muhammad Mustafa Umar Yahya Yusuf
+    }
+    female_common_first_names = { Aicha Amina Nadia }
+    noble_last_names = { ve_al_Qurtubi ve_al_Ishbili ve_al_Gharnati }
+    common_last_names = {
+        ve_al_Qurtubi ve_al_Ishbili ve_al_Gharnati ve_al_Lishbuni
+        ibn_Abd_Allah ibn_Ahmad ibn_Ali ibn_Hasan ibn_Muhammad ibn_Umar
+    }
+    ethnicities = { 1 = caucasian }
+    graphics = arabic
+    seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_iberia.dds"
+}

@@ -1,0 +1,114 @@
+# Hub estimates inside state/owner POPs; these are not separate game POP blocks.
+version: 1
+cities:
+  Isfahan:
+    state: STATE_ISFAHAN
+    owner: ISF
+    population: 650000
+    weights:
+      persian/shiite: 760
+      armenian/oriental_orthodox: 100
+      luri/shiite: 50
+      sephardic/jewish: 50
+      circassian/shiite: 20
+      georgian/shiite: 20
+  Shiraz:
+    state: STATE_FARS
+    owner: ISF
+    population: 500000
+    weights:
+      persian/shiite: 800
+      luri/shiite: 75
+      turkmen/shiite: 70
+      armenian/oriental_orthodox: 25
+      sephardic/jewish: 20
+      circassian/shiite: 10
+  Tehran:
+    state: STATE_IRAKAJEMI
+    owner: ISF
+    population: 450000
+    weights:
+      persian/shiite: 800
+      azerbaijani/shiite: 80
+      armenian/oriental_orthodox: 40
+      sephardic/jewish: 40
+      luri/shiite: 20
+      assyrian/oriental_orthodox: 20
+  Tabriz:
+    state: STATE_TABRIZ
+    owner: TBR
+    population: 850000
+    weights:
+      azerbaijani/shiite: 700
+      persian/shiite: 120
+      armenian/oriental_orthodox: 100
+      sephardic/jewish: 30
+      luri/shiite: 25
+      mazanderani/shiite: 15
+      circassian/shiite: 10
+  Urmia:
+    state: STATE_URMIA
+    owner: TBR
+    population: 280000
+    weights:
+      azerbaijani/shiite: 330
+      kurdish/sunni: 280
+      assyrian/oriental_orthodox: 220
+      armenian/oriental_orthodox: 120
+      persian/shiite: 25
+      sephardic/jewish: 15
+      assyrian/catholic: 10
+  Mashhad:
+    state: STATE_KHORASAN
+    owner: KHO
+    population: 500000
+    weights:
+      persian/shiite: 820
+      kurdish/sunni: 90
+      turkmen/sunni: 35
+      baluchi/sunni: 20
+      hazara/shiite: 15
+      sephardic/jewish: 20
+  Barfurush:
+    state: STATE_MAZANDARAN
+    owner: MAZ
+    population: 250000
+    weights:
+      mazanderani/shiite: 750
+      persian/shiite: 150
+      turkmen/sunni: 50
+      azerbaijani/shiite: 20
+      georgian/shiite: 15
+      sephardic/jewish: 10
+      kurdish/sunni: 5
+  Kerman:
+    state: STATE_KERMAN
+    owner: KRM
+    population: 240000
+    weights:
+      persian/shiite: 800
+      baluchi/sunni: 120
+      bedouin/sunni: 40
+      sephardic/jewish: 40
+  Khorramabad:
+    state: STATE_LURISTAN
+    owner: LUR
+    population: 160000
+    weights:
+      luri/shiite: 700
+      persian/shiite: 170
+      kurdish/sunni: 100
+      armenian/oriental_orthodox: 15
+      sephardic/jewish: 10
+      circassian/shiite: 5
+  Shushtar:
+    state: STATE_KHUZESTAN
+    owner: HUZ
+    population: 250000
+    weights:
+      mashriqi/shiite: 690
+      mashriqi/sunni: 120
+      persian/shiite: 80
+      luri/shiite: 70
+      assyrian/oriental_orthodox: 20
+      sephardic/jewish: 20

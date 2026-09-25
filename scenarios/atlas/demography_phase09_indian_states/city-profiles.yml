@@ -1,0 +1,26 @@
+# Estimated urban-hub subsets, not extra game POPs. Joint mix is descriptive.
+version: 1
+cities:
+  Amritsar: {state: STATE_HILL_PUNJAB, owner: PNJ, hub: farm, population: 200000, weights: {panjabi/sikh: 350, panjabi/hindu: 300, panjabi/sunni: 300, pahari/hindu: 50}}
+  Ludhiana: {state: STATE_HILL_PUNJAB, owner: PNJ, hub: city, population: 130000, weights: {panjabi/sikh: 220, panjabi/hindu: 350, panjabi/sunni: 350, hindustani/hindu: 80}}
+  Srinagar: {state: STATE_KASHMIR, owner: KAS, hub: city, population: 180000, weights: {kashmiri/sunni: 700, kashmiri/hindu: 210, panjabi/sikh: 50, pashtun/sunni: 40}}
+  Jaipur: {state: STATE_RAJPUTANA, owner: JAI, hub: city, population: 250000, weights: {rajput/hindu: 730, rajput/sunni: 130, hindustani/hindu: 90, gujarati/hindu: 50}}
+  Udaipur: {state: STATE_RAJPUTANA, owner: MEW, hub: wood, population: 90000, weights: {rajput/hindu: 700, rajput/sunni: 140, gujarati/hindu: 100, rajput/animist: 60}}
+  Jodhpur: {state: STATE_RAJPUTANA, owner: JOD, hub: mine, population: 180000, weights: {rajput/hindu: 850, rajput/sunni: 110, gujarati/hindu: 40}}
+  Lucknow: {state: STATE_AWADH, owner: AWA, hub: city, population: 550000, weights: {avadhi/hindu: 580, avadhi/sunni: 120, avadhi/shiite: 40, hindustani/sunni: 160, hindustani/hindu: 100}}
+  Varanasi: {state: STATE_AWADH, owner: AWA, hub: farm, population: 320000, weights: {avadhi/hindu: 730, bihari/hindu: 170, avadhi/sunni: 70, hindustani/sunni: 30}}
+  Haydarabad_Sind: {state: STATE_SINDH, owner: SIN, hub: city, population: 230000, weights: {sindi/sunni: 780, sindi/hindu: 190, sindi/shiite: 30}}
+  Karaçi: {state: STATE_SINDH, owner: SIN, hub: port, population: 170000, weights: {sindi/sunni: 730, sindi/hindu: 240, sindi/shiite: 30}}
+  Ahmedabad: {state: STATE_GUJARAT, owner: GJT, hub: city, population: 350000, weights: {gujarati/hindu: 825, gujarati/sunni: 150, gujarati/protestant: 10, gujarati/catholic: 10, persian/shiite: 5}}
+  Surat: {state: STATE_GUJARAT, owner: GJT, hub: port, population: 260000, weights: {gujarati/hindu: 775, gujarati/sunni: 200, gujarati/protestant: 10, gujarati/catholic: 10, persian/shiite: 5}}
+  Vizagapatam: {state: STATE_CIRCARS, owner: HYD, hub: city, population: 220000, weights: {telegu/hindu: 750, telegu/sunni: 100, tamil/hindu: 100, oriya/hindu: 50}}
+  Kurnool: {state: STATE_KURNOOL, owner: HYD, hub: city, population: 140000, weights: {telegu/hindu: 700, kannada/hindu: 240, deccani/sunni: 60}}
+  Haydarabad_Dekkan: {state: STATE_HYDERABAD, owner: HYD, hub: city, population: 650000, weights: {telegu/hindu: 300, marathi/hindu: 190, deccani/sunni: 320, deccani/shiite: 110, kannada/hindu: 80}}
+  Bangalore: {state: STATE_MYSORE, owner: MYS, hub: city, population: 280000, weights: {kannada/hindu: 800, deccani/sunni: 100, malayalam/hindu: 40, marathi/hindu: 30, kannada/sunni: 30}}
+  Madras: {state: STATE_MADRAS, owner: TAM, hub: city, population: 620000, weights: {tamil/hindu: 820, tamil/sunni: 90, kannada/hindu: 40, tamil/catholic: 30, tamil/protestant: 20}}
+  Kozhikode: {state: STATE_TRAVANCORE, owner: TRA, hub: city, population: 180000, weights: {malayalam/hindu: 650, malayalam/sunni: 240, malayalam/protestant: 80, tamil/hindu: 30}}
+  Koçi: {state: STATE_TRAVANCORE, owner: COC, hub: port, population: 115000, weights: {malayalam/hindu: 700, malayalam/sunni: 200, malayalam/protestant: 70, tamil/hindu: 30}}
+  Guwahati: {state: STATE_ASSAM, owner: ASM, hub: city, population: 115000, weights: {assamese/hindu: 670, assamese/animist: 150, bengali/sunni: 100, bengali/hindu: 80}}
+  Jorhat: {state: STATE_ASSAM, owner: ASM, hub: wood, population: 75000, weights: {assamese/hindu: 650, assamese/animist: 220, naga/animist: 80, assamese/sunni: 50}}
+  Kolombo: {state: STATE_CEYLON, owner: VKN, hub: city, population: 210000, weights: {sinhala/theravada: 680, tamil/hindu: 180, sinhala/sunni: 70, mashriqi/sunni: 40, malay/sunni: 30}}
+  Kandy: {state: STATE_CEYLON, owner: VKN, hub: farm, population: 120000, weights: {sinhala/theravada: 800, tamil/hindu: 150, sinhala/sunni: 50}}

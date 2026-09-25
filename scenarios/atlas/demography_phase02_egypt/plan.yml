@@ -1,0 +1,85 @@
+version: 1
+country: EGY
+population_target: 11500000
+literacy_target: [0.34, 0.40]
+policy: >-
+  Joint culture/religion weights apply only to free POPs without a fixed profession.
+  Every inherited slave and fixed-profession POP keeps its exact initial headcount,
+  culture, religion and pop_type. Unlisted free legacy groups also keep their
+  absolute headcount; a group over 5 percent may not be silently omitted.
+  The Sudanese game culture is a broad temporary proxy in the southern Nile;
+  vanilla nuba describes Kordofanian communities and is not used as Nubian.
+states:
+  STATE_LOWER_EGYPT:
+    population: 5900000
+    literacy: 0.43
+    reason: Delta, Kahire ve İskenderiye idare, sulama ve liman yoğunluğu.
+    mix:
+      misri/sunni: 760
+      misri/oriental_orthodox: 130
+      sudanese/sunni: 23
+      bedouin/sunni: 8
+      greek/orthodox: 12
+      sephardic/jewish: 17
+      armenian/oriental_orthodox: 5
+      mashriqi/shiite: 5
+      turkish/sunni: 15
+      north_caucasian/sunni: 10
+  STATE_MIDDLE_EGYPT:
+    population: 3200000
+    literacy: 0.36
+    reason: Orta Nil çiftçiliği, Kıpti kasabaları ve Süveyş kara aktarması.
+    mix:
+      misri/sunni: 765
+      misri/oriental_orthodox: 165
+      bedouin/sunni: 18
+      sudanese/sunni: 30
+      sephardic/jewish: 7
+      turkish/sunni: 15
+  STATE_UPPER_EGYPT:
+    population: 1650000
+    literacy: 0.28
+    reason: Yukarı Nil sulama kuşağı, Kıpti ve güney nehir toplulukları.
+    mix:
+      misri/sunni: 730
+      misri/oriental_orthodox: 120
+      bedouin/sunni: 55
+      sudanese/sunni: 95
+  STATE_DONGOLA:
+    population: 550000
+    literacy: 0.24
+    reason: Doğrudan yönetilen Dongola nehir ve Kızıldeniz koridoru; tek kültür/inanç değil.
+    mix:
+      bedouin/sunni: 270
+      sudanese/sunni: 330
+      sudanese/oriental_orthodox: 110
+      sudanese/animist: 45
+      beja/sunni: 225
+      beja/animist: 20
+  STATE_EGYPTIAN_DESERT:
+    population: 95000
+    literacy: 0.19
+    reason: Çöl ve vaha erişimi nehir yoğunluğunun çok gerisinde.
+    mix:
+      bedouin/sunni: 350
+      misri/sunni: 390
+      misri/oriental_orthodox: 65
+      sudanese/sunni: 195
+  STATE_MATRUH:
+    population: 50000
+    literacy: 0.20
+    reason: Batı çöl ve kıyı oazislerinde Bedevi/Berberi devamlılığı.
+    mix:
+      bedouin/sunni: 380
+      berber/sunni: 200
+      misri/sunni: 380
+      misri/oriental_orthodox: 40
+  STATE_SINAI:
+    population: 55000
+    literacy: 0.21
+    reason: Sınai kervan, kale ve kıyı toplulukları; büyük Süveyş kanalı yok.
+    mix:
+      bedouin/sunni: 530
+      misri/sunni: 380
+      misri/oriental_orthodox: 50
+      mashriqi/shiite: 40

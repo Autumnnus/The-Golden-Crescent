@@ -1,0 +1,558 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# 1836 design sizes; Madrid is a city of the northern Castilian kingdom beside Andalusia.
+# Weights follow the share's planned groups (>= 2%), with small merchant, Jewish and Mudejar
+# groups of port and capital cities kept explicit.
+version: 1
+cities:
+  Tiran:
+    state: STATE_ALBANIA
+    owner: ALB
+    hub: city
+    population: 10000
+    weights:
+      albanian/sunni: 795
+      albanian/catholic: 101
+      albanian/orthodox: 72
+      greek/orthodox: 32
+  İşkodra:
+    state: STATE_ALBANIA
+    owner: ALB
+    hub: mine
+    population: 25000
+    weights:
+      albanian/sunni: 795
+      albanian/catholic: 101
+      albanian/orthodox: 72
+      greek/orthodox: 32
+  Czernowitz:
+    state: STATE_BUKOVINA
+    owner: AUS
+    hub: city
+    population: 15000
+    weights:
+      ukrainian/orthodox: 390
+      romanian/orthodox: 389
+      south_german/catholic: 86
+      polish/catholic: 54
+      ashkenazi/jewish: 54
+      szekely/catholic: 27
+  Split:
+    state: STATE_DALMATIA
+    owner: AUS
+    hub: city
+    population: 10000
+    weights:
+      croat/catholic: 749
+      serb/orthodox: 201
+      north_italian/catholic: 50
+  Ragusa:
+    state: STATE_DALMATIA
+    owner: AUS
+    hub: mine
+    population: 8000
+    weights:
+      croat/catholic: 749
+      serb/orthodox: 201
+      north_italian/catholic: 50
+  Trieste:
+    state: STATE_ISTRIA
+    owner: AUS
+    hub: city
+    population: 50000
+    weights:
+      slovene/catholic: 517
+      north_italian/catholic: 297
+      croat/catholic: 186
+  Lübliyana:
+    state: STATE_SLOVENIA
+    owner: AUS
+    hub: city
+    population: 13000
+    weights:
+      slovene/catholic: 956
+      south_german/catholic: 44
+  Saraybosna:
+    state: STATE_BOSNIA
+    owner: BOS
+    hub: city
+    population: 50000
+    weights:
+      serb/orthodox: 432
+      bosniak/sunni: 354
+      croat/catholic: 214
+  Sofya:
+    state: STATE_BULGARIA
+    owner: BUL
+    hub: city
+    population: 20000
+    weights:
+      bulgarian/orthodox: 758
+      turkish/sunni: 242
+  Varna:
+    state: STATE_BULGARIA
+    owner: BUL
+    hub: port
+    population: 18000
+    weights:
+      bulgarian/orthodox: 758
+      turkish/sunni: 242
+  Tırnova:
+    state: STATE_BULGARIA
+    owner: BUL
+    hub: mine
+    population: 12000
+    weights:
+      bulgarian/orthodox: 758
+      turkish/sunni: 242
+  Filibe:
+    state: STATE_NORTHERN_THRACE
+    owner: BUL
+    hub: city
+    population: 30000
+    weights:
+      bulgarian/orthodox: 588
+      turkish/sunni: 323
+      greek/orthodox: 47
+      bulgarian/sunni: 42
+  Zagreb:
+    state: STATE_CROATIA
+    owner: CRO
+    hub: city
+    population: 15000
+    weights:
+      croat/catholic: 681
+      serb/orthodox: 212
+      south_german/catholic: 49
+      hungarian/catholic: 34
+      czech/catholic: 24
+  Ajaccio:
+    state: STATE_CORSICA
+    owner: FPR
+    hub: port
+    population: 10000
+    weights:
+      corsican/catholic: 919
+      french/catholic: 81
+  Bastia:
+    state: STATE_CORSICA
+    owner: FPR
+    hub: farm
+    population: 12000
+    weights:
+      corsican/catholic: 919
+      french/catholic: 81
+  Temeşvar:
+    state: STATE_BANAT
+    owner: HUN
+    hub: city
+    population: 15000
+    weights:
+      romanian/orthodox: 429
+      serb/orthodox: 265
+      hungarian/catholic: 112
+      south_german/catholic: 72
+      hungarian/protestant: 61
+      croat/catholic: 61
+  Budin:
+    state: STATE_CENTRAL_HUNGARY
+    owner: HUN
+    hub: city
+    population: 100000
+    weights:
+      hungarian/protestant: 785
+      south_german/catholic: 127
+      hungarian/jewish: 61
+      slovak/catholic: 27
+  Debrecen:
+    state: STATE_CENTRAL_HUNGARY
+    owner: HUN
+    hub: wood
+    population: 45000
+    weights:
+      hungarian/protestant: 785
+      south_german/catholic: 127
+      hungarian/jewish: 61
+      slovak/catholic: 27
+  Novi Sad:
+    state: STATE_DELVIDEK
+    owner: HUN
+    hub: city
+    population: 15000
+    weights:
+      serb/orthodox: 430
+      hungarian/catholic: 310
+      south_german/catholic: 80
+      croat/catholic: 80
+      slovak/catholic: 50
+      romanian/orthodox: 50
+  Pressburg:
+    state: STATE_SLOVAKIA
+    owner: HUN
+    hub: city
+    population: 35000
+    weights:
+      slovak/catholic: 544
+      slovak/protestant: 136
+      hungarian/catholic: 100
+      hungarian/protestant: 63
+      south_german/catholic: 63
+      ashkenazi/jewish: 52
+      south_german/protestant: 42
+  Kraków:
+    state: STATE_WEST_GALICIA
+    owner: KRA
+    hub: city
+    population: 40000
+    weights:
+      polish/catholic: 850
+      ukrainian/orthodox: 75
+      ashkenazi/jewish: 75
+  Lucca:
+    state: STATE_EMILIA
+    owner: LUC
+    hub: port
+    population: 25000
+    weights:
+      north_italian/catholic: 1000
+  Modena:
+    state: STATE_EMILIA
+    owner: MOD
+    hub: mine
+    population: 25000
+    weights:
+      north_italian/catholic: 1000
+  Kişinev:
+    state: STATE_BESSARABIA
+    owner: MOL
+    hub: city
+    population: 25000
+    weights:
+      romanian/orthodox: 722
+      ukrainian/orthodox: 155
+      ashkenazi/jewish: 72
+      tatar/sunni: 51
+  Yaş:
+    state: STATE_MOLDAVIA
+    owner: MOL
+    hub: city
+    population: 40000
+    weights:
+      romanian/orthodox: 1000
+  Roma:
+    state: STATE_LAZIO
+    owner: PAP
+    hub: city
+    population: 150000
+    weights:
+      south_italian/catholic: 1000
+  Bologna:
+    state: STATE_ROMAGNA
+    owner: PAP
+    hub: city
+    population: 70000
+    weights:
+      north_italian/catholic: 1000
+  Ancona:
+    state: STATE_UMBRIA
+    owner: PAP
+    hub: city
+    population: 30000
+    weights:
+      south_italian/catholic: 1000
+  Parma:
+    state: STATE_EMILIA
+    owner: PAR
+    hub: city
+    population: 35000
+    weights:
+      north_italian/catholic: 1000
+  Torino:
+    state: STATE_PIEDMONT
+    owner: SAR
+    hub: city
+    population: 115000
+    weights:
+      north_italian/catholic: 962
+      french/catholic: 38
+  Cenova:
+    state: STATE_PIEDMONT
+    owner: SAR
+    hub: port
+    population: 100000
+    weights:
+      north_italian/catholic: 962
+      french/catholic: 38
+  Cagliari:
+    state: STATE_SARDINIA
+    owner: SAR
+    hub: port
+    population: 30000
+    weights:
+      south_italian/catholic: 1000
+  Belgrad:
+    state: STATE_WESTERN_SERBIA
+    owner: SER
+    hub: city
+    population: 20000
+    weights:
+      serb/orthodox: 907
+      bosniak/sunni: 71
+      albanian/sunni: 22
+  Bari:
+    state: STATE_APULIA
+    owner: SIC
+    hub: city
+    population: 25000
+    weights:
+      south_italian/catholic: 1000
+  Napoli:
+    state: STATE_CAMPANIA
+    owner: SIC
+    hub: city
+    population: 350000
+    weights:
+      south_italian/catholic: 980
+      maghrebi/sunni: 8
+      turkish/sunni: 6
+      greek/orthodox: 6
+  Palermo:
+    state: STATE_SICILY
+    owner: SIC
+    hub: city
+    population: 170000
+    weights:
+      south_italian/catholic: 970
+      maghrebi/sunni: 25
+      sephardic/jewish: 5
+  Messina:
+    state: STATE_SICILY
+    owner: SIC
+    hub: port
+    population: 60000
+    weights:
+      south_italian/catholic: 1000
+  Catania:
+    state: STATE_SICILY
+    owner: SIC
+    hub: farm
+    population: 50000
+    weights:
+      south_italian/catholic: 1000
+  Kaloşvar:
+    state: STATE_NORTHERN_TRANSYLVANIA
+    owner: TRS
+    hub: city
+    population: 20000
+    weights:
+      romanian/orthodox: 383
+      hungarian/protestant: 186
+      south_german/protestant: 162
+      szekely/protestant: 96
+      hungarian/catholic: 93
+      szekely/catholic: 48
+      ashkenazi/jewish: 32
+  Braşov:
+    state: STATE_SOUTHERN_TRANSYLVANIA
+    owner: TRS
+    hub: city
+    population: 25000
+    weights:
+      romanian/orthodox: 718
+      hungarian/protestant: 97
+      south_german/protestant: 76
+      hungarian/catholic: 44
+      szekely/protestant: 33
+      ashkenazi/jewish: 32
+  Sibiu:
+    state: STATE_SOUTHERN_TRANSYLVANIA
+    owner: TRS
+    hub: mine
+    population: 18000
+    weights:
+      romanian/orthodox: 718
+      hungarian/protestant: 97
+      south_german/protestant: 76
+      hungarian/catholic: 44
+      szekely/protestant: 33
+      ashkenazi/jewish: 32
+  Floransa:
+    state: STATE_TUSCANY
+    owner: TUS
+    hub: city
+    population: 95000
+    weights:
+      north_italian/catholic: 1000
+  Livorno:
+    state: STATE_TUSCANY
+    owner: TUS
+    hub: port
+    population: 70000
+    weights:
+      north_italian/catholic: 905
+      sephardic/jewish: 40
+      maghrebi/sunni: 20
+      north_italian/jewish: 20
+      turkish/sunni: 15
+  Zaragoza:
+    state: STATE_ARAGON
+    owner: VAR
+    hub: city
+    population: 40000
+    weights:
+      spanish/catholic: 623
+      aragonese/catholic: 273
+      spanish/sunni: 40
+      catalan/catholic: 39
+      sephardic/jewish: 25
+  Palma:
+    state: STATE_BALEARIC_ISLANDS
+    owner: VAR
+    hub: port
+    population: 35000
+    weights:
+      catalan/catholic: 913
+      spanish/catholic: 87
+  Barselona:
+    state: STATE_CATALONIA
+    owner: VAR
+    hub: city
+    population: 120000
+    weights:
+      catalan/catholic: 911
+      spanish/catholic: 44
+      sephardic/jewish: 25
+      maghrebi/sunni: 20
+  Valensiya:
+    state: STATE_VALENCIA
+    owner: VAR
+    hub: city
+    population: 65000
+    weights:
+      catalan/catholic: 720
+      spanish/catholic: 190
+      spanish/sunni: 60
+      sephardic/jewish: 30
+  Breslau:
+    state: STATE_LOWER_SILESIA
+    owner: VBO
+    hub: city
+    population: 85000
+    weights:
+      north_german/protestant: 753
+      north_german/catholic: 133
+      polish/catholic: 54
+      sorb/protestant: 36
+      ashkenazi/jewish: 24
+  Madrid:
+    state: STATE_NEW_CASTILE
+    owner: VCA
+    hub: city
+    population: 120000
+    weights:
+      spanish/catholic: 950
+      sephardic/jewish: 25
+      spanish/sunni: 15
+      ve_andalusi/sunni: 10
+  Toledo:
+    state: STATE_NEW_CASTILE
+    owner: VCA
+    hub: farm
+    population: 15000
+    weights:
+      spanish/catholic: 1000
+  Burgos:
+    state: STATE_OLD_CASTILE
+    owner: VCA
+    hub: city
+    population: 12000
+    weights:
+      spanish/catholic: 1000
+  Valladolid:
+    state: STATE_OLD_CASTILE
+    owner: VCA
+    hub: farm
+    population: 25000
+    weights:
+      spanish/catholic: 1000
+  Oporto:
+    state: STATE_ENTRE_DOURO_E_MINHO
+    owner: VGL
+    hub: port
+    population: 60000
+    weights:
+      portuguese/catholic: 1000
+  Santiago de Compostela:
+    state: STATE_GALICIA
+    owner: VGL
+    hub: city
+    population: 25000
+    weights:
+      galician/catholic: 909
+      spanish/catholic: 91
+  Milano:
+    state: STATE_LOMBARDY
+    owner: VMI
+    hub: city
+    population: 150000
+    weights:
+      north_italian/catholic: 1000
+  Pamplona:
+    state: STATE_BASQUE_COUNTRY
+    owner: VNV
+    hub: city
+    population: 15000
+    weights:
+      basque/catholic: 562
+      spanish/catholic: 438
+  Bilbao:
+    state: STATE_BASQUE_COUNTRY
+    owner: VNV
+    hub: port
+    population: 15000
+    weights:
+      basque/catholic: 562
+      spanish/catholic: 438
+  Königsberg:
+    state: STATE_EAST_PRUSSIA
+    owner: VPD
+    hub: city
+    population: 65000
+    weights:
+      north_german/protestant: 736
+      lithuanian/protestant: 137
+      north_german/catholic: 95
+      polish/protestant: 32
+  Verona:
+    state: STATE_VENETIA
+    owner: VVE
+    hub: city
+    population: 50000
+    weights:
+      north_italian/catholic: 1000
+  Venedik:
+    state: STATE_VENETIA
+    owner: VVE
+    hub: port
+    population: 110000
+    weights:
+      north_italian/catholic: 925
+      greek/orthodox: 25
+      turkish/sunni: 15
+      north_italian/jewish: 15
+      armenian/oriental_orthodox: 10
+      sephardic/jewish: 10
+  Padua:
+    state: STATE_VENETIA
+    owner: VVE
+    hub: farm
+    population: 50000
+    weights:
+      north_italian/catholic: 1000
+  Bükreş:
+    state: STATE_WALLACHIA
+    owner: WAL
+    hub: city
+    population: 70000
+    weights:
+      romanian/orthodox: 1000

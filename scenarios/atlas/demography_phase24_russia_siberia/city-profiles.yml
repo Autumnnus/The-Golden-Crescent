@@ -1,0 +1,460 @@
+# Design subsets of verified state/owner POPs; not extra city POPs.
+# Installed Turkish hub labels and province owners are verified by verify.py.
+# Profiled names predate or do not depend on the Russian empire (Kazan, Astarhan, Kasimov,
+# Tyumen/Chimgi-Tura, Kerch, Novgorod, Baltic and Finnish towns). Imperial foundations and
+# renamings (St Petersburg, Yekaterinburg, Sevastopol, Rostov-on-Don, Omsk...) are skipped.
+version: 1
+cities:
+  Moskova:
+    state: STATE_MOSCOW
+    owner: VMS
+    hub: city
+    population: 250000
+    weights:
+      russian/orthodox: 900
+      tatar/sunni: 50
+      east_german/protestant: 30
+      greek/orthodox: 20
+  Kolomna:
+    state: STATE_MOSCOW
+    owner: VMS
+    hub: farm
+    population: 15000
+    weights:
+      russian/orthodox: 1000
+  Ryazan:
+    state: STATE_RYAZAN
+    owner: VMS
+    hub: city
+    population: 20000
+    weights:
+      russian/orthodox: 950
+      tatar/sunni: 50
+  Kasimov:
+    state: STATE_RYAZAN
+    owner: VMS
+    hub: mine
+    population: 10000
+    weights:
+      tatar/sunni: 600
+      russian/orthodox: 400
+  Tver:
+    state: STATE_TVER
+    owner: VMS
+    hub: city
+    population: 25000
+    weights:
+      russian/orthodox: 950
+      karelian/orthodox: 50
+  Yaroslavl:
+    state: STATE_YAROSLAVL
+    owner: VMS
+    hub: city
+    population: 30000
+    weights:
+      russian/orthodox: 1000
+  Vladimir:
+    state: STATE_YAROSLAVL
+    owner: VMS
+    hub: farm
+    population: 15000
+    weights:
+      russian/orthodox: 1000
+  Kostroma:
+    state: STATE_YAROSLAVL
+    owner: VMS
+    hub: wood
+    population: 12000
+    weights:
+      russian/orthodox: 1000
+  Tula:
+    state: STATE_ORYOL
+    owner: VMS
+    hub: mine
+    population: 45000
+    weights:
+      russian/orthodox: 980
+      ashkenazi/jewish: 20
+  Kaluga:
+    state: STATE_ORYOL
+    owner: VMS
+    hub: wood
+    population: 20000
+    weights:
+      russian/orthodox: 1000
+  Smolensk:
+    state: STATE_SMOLENSK
+    owner: VMS
+    hub: city
+    population: 15000
+    weights:
+      russian/orthodox: 900
+      byelorussian/orthodox: 80
+      polish/catholic: 20
+  Kursk:
+    state: STATE_KURSK
+    owner: VMS
+    hub: city
+    population: 25000
+    weights:
+      russian/orthodox: 750
+      ukrainian/orthodox: 250
+  Novgorod:
+    state: STATE_NOVGOROD
+    owner: VNG
+    hub: city
+    population: 40000
+    weights:
+      russian/orthodox: 950
+      east_german/protestant: 30
+      karelian/orthodox: 20
+  Staraya Russa:
+    state: STATE_NOVGOROD
+    owner: VNG
+    hub: farm
+    population: 8000
+    weights:
+      russian/orthodox: 1000
+  Pskov:
+    state: STATE_PSKOV
+    owner: VNG
+    hub: city
+    population: 25000
+    weights:
+      russian/orthodox: 950
+      estonian/protestant: 25
+      latvian/protestant: 25
+  Yamburg:
+    state: STATE_INGRIA
+    owner: VNG
+    hub: farm
+    population: 5000
+    weights:
+      russian/orthodox: 500
+      karelian/orthodox: 200
+      finnish/protestant: 200
+      estonian/protestant: 100
+  Arkhangelsk:
+    state: STATE_ARKHANGELSK
+    owner: VNG
+    hub: port
+    population: 12000
+    weights:
+      russian/orthodox: 900
+      ugrian/animist: 50
+      karelian/orthodox: 50
+  Kholmogory:
+    state: STATE_ARKHANGELSK
+    owner: VNG
+    hub: farm
+    population: 5000
+    weights:
+      russian/orthodox: 1000
+  Kem:
+    state: STATE_EAST_KARELIA
+    owner: VNG
+    hub: farm
+    population: 2000
+    weights:
+      karelian/orthodox: 700
+      russian/orthodox: 300
+  Kola:
+    state: STATE_KOLA
+    owner: VNG
+    hub: city
+    population: 1000
+    weights:
+      sami/animist: 400
+      russian/orthodox: 400
+      karelian/orthodox: 200
+  Riga:
+    state: STATE_RIGA
+    owner: UBD
+    hub: city
+    population: 45000
+    weights:
+      latvian/protestant: 500
+      east_german/protestant: 300
+      ashkenazi/jewish: 80
+      russian/orthodox: 50
+      polish/catholic: 50
+      swedish/protestant: 20
+  Jelgava:
+    state: STATE_COURLAND
+    owner: UBD
+    hub: city
+    population: 12000
+    weights:
+      latvian/protestant: 600
+      east_german/protestant: 250
+      ashkenazi/jewish: 150
+  Liepāja:
+    state: STATE_COURLAND
+    owner: UBD
+    hub: port
+    population: 8000
+    weights:
+      latvian/protestant: 700
+      east_german/protestant: 200
+      ashkenazi/jewish: 100
+  Tallinn:
+    state: STATE_TALINN
+    owner: UBD
+    hub: city
+    population: 18000
+    weights:
+      estonian/protestant: 600
+      east_german/protestant: 250
+      swedish/protestant: 100
+      russian/orthodox: 50
+  Narva:
+    state: STATE_TALINN
+    owner: UBD
+    hub: farm
+    population: 5000
+    weights:
+      estonian/protestant: 600
+      russian/orthodox: 200
+      east_german/protestant: 200
+  Tartu:
+    state: STATE_TARTU
+    owner: UBD
+    hub: city
+    population: 10000
+    weights:
+      estonian/protestant: 750
+      east_german/protestant: 200
+      ashkenazi/jewish: 50
+  Pärnu:
+    state: STATE_TARTU
+    owner: UBD
+    hub: port
+    population: 5000
+    weights:
+      estonian/protestant: 800
+      east_german/protestant: 200
+  Helsingfors:
+    state: STATE_UUSIMAA
+    owner: SWE
+    hub: city
+    population: 15000
+    weights:
+      swedish/protestant: 500
+      finnish/protestant: 500
+  Åbo:
+    state: STATE_UUSIMAA
+    owner: SWE
+    hub: port
+    population: 13000
+    weights:
+      swedish/protestant: 450
+      finnish/protestant: 550
+  Viipuri:
+    state: STATE_WEST_KARELIA
+    owner: SWE
+    hub: city
+    population: 5000
+    weights:
+      finnish/protestant: 700
+      swedish/protestant: 200
+      finnish/orthodox: 100
+  Vasa:
+    state: STATE_OSTROBOTHNIA
+    owner: SWE
+    hub: city
+    population: 5000
+    weights:
+      swedish/protestant: 600
+      finnish/protestant: 400
+  Oulu:
+    state: STATE_OULU
+    owner: SWE
+    hub: city
+    population: 4000
+    weights:
+      finnish/protestant: 950
+      swedish/protestant: 50
+  Kuopio:
+    state: STATE_KUOPIO
+    owner: SWE
+    hub: wood
+    population: 2000
+    weights:
+      finnish/protestant: 1000
+  Kazan:
+    state: STATE_KAZAN
+    owner: VTA
+    hub: city
+    population: 60000
+    weights:
+      tatar/sunni: 750
+      russian/orthodox: 120
+      tatar/orthodox: 30
+      chuvash/animist: 20
+      uzbek/sunni: 30
+      persian/shiite: 30
+      bashkir/sunni: 20
+  Yelabuga:
+    state: STATE_KAZAN
+    owner: VTA
+    hub: wood
+    population: 5000
+    weights:
+      tatar/sunni: 800
+      udmurt/animist: 100
+      mari/animist: 100
+  Ufa:
+    state: STATE_UFA
+    owner: VTA
+    hub: city
+    population: 15000
+    weights:
+      bashkir/sunni: 400
+      tatar/sunni: 500
+      russian/orthodox: 100
+  Saratov:
+    state: STATE_TARTARIA
+    owner: VTA
+    hub: city
+    population: 20000
+    weights:
+      tatar/sunni: 700
+      kazak/sunni: 100
+      russian/orthodox: 100
+      armenian/oriental_orthodox: 50
+      mordvin/orthodox: 50
+  Samara:
+    state: STATE_SAMARA
+    owner: VTA
+    hub: city
+    population: 15000
+    weights:
+      tatar/sunni: 650
+      mordvin/orthodox: 100
+      russian/orthodox: 150
+      chuvash/animist: 50
+      bashkir/sunni: 50
+  Astarhan:
+    state: STATE_ASTRAKHAN
+    owner: VTA
+    hub: city
+    population: 40000
+    weights:
+      tatar/sunni: 500
+      armenian/oriental_orthodox: 120
+      persian/shiite: 120
+      uzbek/sunni: 80
+      russian/orthodox: 80
+      azerbaijani/shiite: 50
+      kalmyk/gelugpa: 50
+  Kerç:
+    state: STATE_CRIMEA
+    owner: VCR
+    hub: mine
+    population: 8000
+    weights:
+      tatar/sunni: 500
+      greek/orthodox: 300
+      armenian/oriental_orthodox: 100
+      turkish/sunni: 100
+  Elista:
+    state: STATE_KALMYKIA
+    owner: VKM
+    hub: city
+    population: 3000
+    weights:
+      kalmyk/gelugpa: 1000
+  Cheboksary:
+    state: STATE_CHUVASHIA
+    owner: VMA
+    hub: city
+    population: 8000
+    weights:
+      chuvash/animist: 400
+      chuvash/orthodox: 200
+      tatar/sunni: 200
+      russian/orthodox: 200
+  Vyatka:
+    state: STATE_VYATKA
+    owner: VMA
+    hub: farm
+    population: 15000
+    weights:
+      russian/orthodox: 600
+      udmurt/animist: 200
+      mari/animist: 100
+      tatar/sunni: 100
+  Arzamas:
+    state: STATE_NIZHNY_NOVGOROD
+    owner: VMO
+    hub: farm
+    population: 8000
+    weights:
+      mordvin/orthodox: 500
+      russian/orthodox: 400
+      tatar/sunni: 100
+  Solikamsk:
+    state: STATE_PERM
+    owner: VUR
+    hub: mine
+    population: 5000
+    weights:
+      russian/orthodox: 500
+      ugrian/orthodox: 300
+      ugrian/animist: 200
+  Kungur:
+    state: STATE_PERM
+    owner: VUR
+    hub: farm
+    population: 4000
+    weights:
+      tatar/sunni: 300
+      bashkir/sunni: 300
+      russian/orthodox: 400
+  Tyumen:
+    state: STATE_TOBOLSK
+    owner: VST
+    hub: city
+    population: 8000
+    weights:
+      tatar/sunni: 700
+      uzbek/sunni: 150
+      russian/orthodox: 100
+      ugrian/animist: 50
+  Surgut:
+    state: STATE_SURGUT
+    owner: VOB
+    hub: city
+    population: 1000
+    weights:
+      ugrian/animist: 1000
+  Anadyr:
+    state: STATE_CHUKOTKA
+    owner: VCH
+    hub: port
+    population: 1000
+    weights:
+      siberian/animist: 1000
+  Naukan:
+    state: STATE_CHUKOTKA
+    owner: VCH
+    hub: farm
+    population: 1000
+    weights:
+      inuit/animist: 600
+      siberian/animist: 400
+  Ai:
+    state: STATE_SAKHALIN
+    owner: AIN
+    hub: city
+    population: 1000
+    weights:
+      ainu/animist: 1000
+  Kushunkotan:
+    state: STATE_SAKHALIN
+    owner: AIN
+    hub: port
+    population: 1000
+    weights:
+      ainu/animist: 800
+      siberian/animist: 200

@@ -1,0 +1,31 @@
+﻿# Culture static modifiers the engine expects for the mod's ve_andalusi culture (vanilla pattern:
+# 07_culture_standard_of_living, 10_culture_cultural_acceptance, 11_culture_fervor_target).
+ve_andalusi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ve_andalusi_standard_of_living_add = 1
+}
+
+ve_andalusi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ve_andalusi_standard_of_living_add = 1
+}
+
+ve_andalusi_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_ve_andalusi_cultural_acceptance_add = 1
+}
+
+ve_andalusi_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_ve_andalusi_cultural_acceptance_add = 1
+}
+
+ve_andalusi_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_ve_andalusi_add = 1
+}
+
+ve_andalusi_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_ve_andalusi_add = 1
+}

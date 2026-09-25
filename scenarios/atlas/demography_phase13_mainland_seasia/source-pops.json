@@ -1,0 +1,804 @@
+{
+  "STATE_ANNAM/DAI": [
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1640333
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 400333
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 31996
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 87900
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 216000
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": "slaves",
+      "size": 30063
+    }
+  ],
+  "STATE_ARAKAN/BUR": [
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 100888
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 432
+    },
+    {
+      "culture": "burmese",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 60000
+    },
+    {
+      "culture": "bengali",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 7996
+    },
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 19000
+    }
+  ],
+  "STATE_ARAKAN/KKI": [
+    {
+      "culture": "lushai",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 25888
+    }
+  ],
+  "STATE_ASSAM/KKI": [
+    {
+      "culture": "lushai",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 24591
+    }
+  ],
+  "STATE_BANGKOK/SIA": [
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 1534004
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 154400
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": "slaves",
+      "size": 30000
+    }
+  ],
+  "STATE_CAMBODIA/CAM": [
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 623202
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 23996
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 13002
+    },
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 40204
+    },
+    {
+      "culture": "champa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 14008
+    }
+  ],
+  "STATE_CAMBODIA/KLO": [
+    {
+      "culture": "khmer",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "lao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 7000
+    },
+    {
+      "culture": "champa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_CAMBODIA/SIA": [
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 176400
+    },
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 5000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 11996
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 3992
+    },
+    {
+      "culture": "champa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 3947
+    }
+  ],
+  "STATE_CHIANG_MAI/CMI": [
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 526096
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 12004
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 267500
+    },
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 88400
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 30200
+    }
+  ],
+  "STATE_KACHIN/BUR": [
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 480300
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 59102
+    },
+    {
+      "culture": "kachin",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 43010
+    },
+    {
+      "culture": "kachin",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 16459
+    },
+    {
+      "culture": "thai",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 18300
+    },
+    {
+      "culture": "kachin",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 21000
+    }
+  ],
+  "STATE_LAOS/CHP": [
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 86720
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 14752
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 35744
+    },
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 5000
+    }
+  ],
+  "STATE_LAOS/DAI": [
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 64918
+    },
+    {
+      "culture": "khmu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 6900
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 18334
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 2400
+    }
+  ],
+  "STATE_LAOS/LUA": [
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 216021
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 22348
+    },
+    {
+      "culture": "khmu",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 62100
+    },
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 11004
+    },
+    {
+      "culture": "khmu",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_LAOS/SCT": [
+    {
+      "culture": "lao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_LAOS/SIA": [
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 81837
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 17248
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 36009
+    },
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 16000
+    }
+  ],
+  "STATE_MALAYA/SIA": [
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 248000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 12800
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": "slaves",
+      "size": 4000
+    }
+  ],
+  "STATE_MANDALAY/BUR": [
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 840200
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 105012
+    },
+    {
+      "culture": "karen",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 31501
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 21021
+    },
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 50200
+    }
+  ],
+  "STATE_MANDALAY/KKI": [
+    {
+      "culture": "lushai",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 37012
+    }
+  ],
+  "STATE_MEKONG/DAI": [
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1002396
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 152396
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 118000
+    },
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 180000
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 116400
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "min",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 11996
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": "slaves",
+      "size": 60000
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "animist",
+      "pop_type": "slaves",
+      "size": 10000
+    },
+    {
+      "culture": "champa",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 82000
+    },
+    {
+      "culture": "champa",
+      "religion": "hindu",
+      "pop_type": null,
+      "size": 8000
+    }
+  ],
+  "STATE_MEKONG/DGR": [
+    {
+      "culture": "champa",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 50000
+    },
+    {
+      "culture": "khmer",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 5000
+    }
+  ],
+  "STATE_NAKHON_RATCHASIMA/SIA": [
+    {
+      "culture": "lao",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 588000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": "slaves",
+      "size": 15000
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 494312
+    },
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 39000
+    },
+    {
+      "culture": "khmer",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 13000
+    }
+  ],
+  "STATE_PEGU/BUR": [
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 945030
+    },
+    {
+      "culture": "mon",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 135500
+    },
+    {
+      "culture": "karen",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 135010
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 67192
+    },
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 35912
+    },
+    {
+      "culture": "mon",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 1923
+    }
+  ],
+  "STATE_PEGU/DEN": [
+    {
+      "culture": "mon",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 9102
+    }
+  ],
+  "STATE_SHAN_STATES/BUR": [
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 330123
+    },
+    {
+      "culture": "shan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 60102
+    },
+    {
+      "culture": "kachin",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48300
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 30200
+    }
+  ],
+  "STATE_SHAN_STATES/SHS": [
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 490100
+    },
+    {
+      "culture": "shan",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 40300
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 18900
+    },
+    {
+      "culture": "karen",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 48300
+    },
+    {
+      "culture": "shan",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 30200
+    }
+  ],
+  "STATE_TENASSERIM/BUR": [
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 180800
+    },
+    {
+      "culture": "british",
+      "religion": "protestant",
+      "pop_type": null,
+      "size": 96
+    },
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 112000
+    },
+    {
+      "culture": "mon",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 8796
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 36004
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 20000
+    }
+  ],
+  "STATE_TENASSERIM/SIA": [
+    {
+      "culture": "malay",
+      "religion": "sunni",
+      "pop_type": null,
+      "size": 184400
+    },
+    {
+      "culture": "burmese",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 36000
+    },
+    {
+      "culture": "mon",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 3480
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 60800
+    },
+    {
+      "culture": "karen",
+      "religion": "theravada",
+      "pop_type": "slaves",
+      "size": 20000
+    },
+    {
+      "culture": "thai",
+      "religion": "theravada",
+      "pop_type": null,
+      "size": 44020
+    }
+  ],
+  "STATE_TONKIN/DAI": [
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 1241220
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 641220
+    },
+    {
+      "culture": "miao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 96004
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "catholic",
+      "pop_type": null,
+      "size": 228000
+    },
+    {
+      "culture": "yue",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 28000
+    },
+    {
+      "culture": "min",
+      "religion": "confucian",
+      "pop_type": null,
+      "size": 16000
+    },
+    {
+      "culture": "vietnamese",
+      "religion": "mahayana",
+      "pop_type": "slaves",
+      "size": 20100
+    },
+    {
+      "culture": "zhuang",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 33000
+    },
+    {
+      "culture": "zhuang",
+      "religion": "mahayana",
+      "pop_type": null,
+      "size": 11000
+    }
+  ],
+  "STATE_TONKIN/SCT": [
+    {
+      "culture": "lao",
+      "religion": "animist",
+      "pop_type": null,
+      "size": 29000
+    }
+  ]
+}

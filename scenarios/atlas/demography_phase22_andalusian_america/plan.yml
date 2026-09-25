@@ -1,0 +1,232 @@
+version: 1
+policy: >-
+  Andalusian America: Mexico, Central America and the Caribbean. New Andalusia keeps a Nahua
+  majority under an Andalusian colonial charter; the installed Hispanophone settler cultures
+  (mexican, central_american, caribeno) stand in for the Romance/Arabic creole communities of
+  the Andalusian colonies and are split between Sunni and Catholic faiths. Local councils
+  outside the charter core (the Mexican interior, the Maya and Central American assemblies)
+  start with their own peoples, keeping smaller creole trader and miner communities. Religion
+  follows the written rule that an Andalusian flag does not make every local person Muslim:
+  local faiths remain the majority outside the core, with community-level Muslim and Christian
+  conversions. Pearl Islands slavery stays legal: the inherited slave count is preserved but
+  split between Catholic, Muslim and local-faith Africans, and Jamaica becomes an Andalusian
+  plantation island. Local councils without slavery law release their few slave POPs.
+  Weights are per mille of the non-fixed remainder; slave_mix re-identifies preserved slaves.
+countries:
+  VNE: {literacy_range: [0.27, 0.28]}
+  VMY: {literacy_range: [0.12, 0.12]}
+  VBJ: {literacy_range: [0.14, 0.14]}
+  VBP: {literacy_range: [0.06, 0.06]}
+  VDR: {literacy_range: [0.10, 0.10]}
+  VGR: {literacy_range: [0.10, 0.10]}
+  VJL: {literacy_range: [0.14, 0.14]}
+  VNP: {literacy_range: [0.08, 0.08]}
+  VOA: {literacy_range: [0.12, 0.12]}
+  VSO: {literacy_range: [0.08, 0.08]}
+  VSR: {literacy_range: [0.10, 0.10]}
+  VZA: {literacy_range: [0.14, 0.14]}
+  VGA: {literacy_range: [0.10, 0.10]}
+  VHN: {literacy_range: [0.08, 0.08]}
+  VSS: {literacy_range: [0.10, 0.10]}
+  VNC: {literacy_range: [0.08, 0.08]}
+  VKR: {literacy_range: [0.08, 0.08]}
+  VIT: {literacy_range: [0.14, 0.14]}
+  VPI: {literacy_range: [0.18, 0.20]}
+  HAI: {literacy_range: [0.06, 0.07]}
+  VLE: {literacy_range: [0.12, 0.12]}
+  VWI: {literacy_range: [0.11, 0.11]}
+  GBR: {literacy_range: [0.30, 0.30]}
+  DEN: {literacy_range: [0.30, 0.30]}
+  NET: {literacy_range: [0.28, 0.28]}
+  VNZ: {literacy_range: [0.12, 0.12]}
+partial_countries: [GBR, DEN, NET, VNZ]
+country_culture_overrides:
+  VNE: {from: [nahua], to: [nahua, mexican]}      # Nahua dynasties and the New Andalusian creoles
+  VBJ: {from: [nahua], to: [nahua, tarascan]}
+  VBP: {from: [nahua], to: [hokan]}               # Yuman/Guaycura Baja peoples
+  VDR: {from: [nahua], to: [oodham]}              # Tepehuan-speaking highlands
+  VSO: {from: [nahua], to: [oodham]}              # Yaqui, Mayo, O'odham
+  VSR: {from: [nahua], to: [nahua, oodham]}       # Nahua towns among the northern peoples
+  VNP: {from: [apache], to: [apache, oodham]}     # Raramuri beside the Apache
+  VSS: {from: [mayan], to: [nahua]}               # Pipil Cuzcatlan
+  VNC: {from: [mayan], to: [nahua, miskito]}      # Nicarao lake towns and the Miskito coast
+  VKR: {from: [mayan], to: [muisca]}              # Chibchan Bribri/Cabecar/Huetar stand-in
+  VLE: {from: [afro_caribbean], to: [afro_antillean]}  # French-creole former French islands
+  VWI: {from: [afro_caribbean], to: [afro_antillean]}
+country_laws:
+  VPI: [law_legacy_slavery]   # hukuk H10: slavery legal in the Pearl Islands
+release_slaves:
+- STATE_NICARAGUA/VNC
+- STATE_PANAMA/VIT
+slave_mix:
+  default_pearl_islands: &pearl_slaves {afro_caribeno/catholic: 500, afro_caribeno/sunni: 250,
+                                        afro_caribeno/animist: 250}
+homeland_rule:
+  new_share: 0.10
+  keep_share: 0.01
+  settler_keep_share: 0.10
+  settler_cultures: [mexican, central_american, caribeno, afro_caribeno, afro_caribbean, afro_antillean,
+                     british, french, dutch, danish, spanish, north_andean, afro_brazilian]
+shares:
+  # --- New Andalusia and the Mexican interior ------------------------------------------
+  STATE_MEXICO/VNE:
+    population: 1850000
+    literacy: 0.28
+    mix: {nahua/sunni: 210, nahua/catholic: 140, nahua/animist: 200, mexican/sunni: 150, mexican/catholic: 90,
+          ve_andalusi/sunni: 40, spanish/sunni: 10, maghrebi/sunni: 15, sephardic/jewish: 10, zapotec/catholic: 40,
+          zapotec/animist: 40, mixtec/animist: 20, afro_caribeno/catholic: 20, afro_caribeno/sunni: 15}
+  STATE_VERACRUZ/VNE:
+    population: 260000
+    literacy: 0.25
+    mix: {nahua/animist: 300, nahua/sunni: 100, nahua/catholic: 60, mayan/animist: 120, mexican/sunni: 150,
+          mexican/catholic: 100, ve_andalusi/sunni: 40, maghrebi/sunni: 30, afro_caribeno/catholic: 50,
+          afro_caribeno/sunni: 30, sephardic/jewish: 20}
+  STATE_YUCATAN/VMY:
+    population: 620000
+    literacy: 0.12
+    mix: {mayan/animist: 710, mayan/sunni: 60, mayan/catholic: 60, mexican/sunni: 60, mexican/catholic: 80,
+          ve_andalusi/sunni: 10, afro_caribeno/catholic: 20}
+  STATE_CHIAPAS/VMY:
+    population: 150000
+    literacy: 0.12
+    mix: {mayan/animist: 740, mayan/catholic: 50, zapotec/animist: 50, mexican/catholic: 90, mexican/sunni: 50,
+          central_american/catholic: 20}
+  STATE_BAJIO/VBJ:
+    population: 900000
+    literacy: 0.14
+    mix: {nahua/animist: 330, nahua/sunni: 80, nahua/catholic: 60, tarascan/animist: 200, tarascan/catholic: 40,
+          tarascan/sunni: 20, mexican/sunni: 130, mexican/catholic: 110, ve_andalusi/sunni: 20,
+          afro_caribeno/catholic: 10}
+  STATE_ZACATECAS/VZA:
+    population: 300000
+    literacy: 0.14
+    mix: {nahua/animist: 350, nahua/sunni: 120, nahua/catholic: 80, oodham/animist: 100, mexican/sunni: 150,
+          mexican/catholic: 130, ve_andalusi/sunni: 30, afro_caribeno/catholic: 20, sephardic/jewish: 20}
+  STATE_JALISCO/VJL:
+    population: 1050000
+    literacy: 0.14
+    mix: {nahua/animist: 380, nahua/sunni: 100, nahua/catholic: 70, oodham/animist: 150, oodham/catholic: 30,
+          tarascan/animist: 50, mexican/sunni: 110, mexican/catholic: 90, ve_andalusi/sunni: 10,
+          afro_caribeno/catholic: 10}
+  STATE_GUERRERO/VGR:
+    population: 240000
+    literacy: 0.10
+    mix: {nahua/animist: 380, nahua/sunni: 60, mixtec/animist: 150, tarascan/animist: 80, zapotec/animist: 30,
+          afro_caribeno/catholic: 60, afro_caribeno/sunni: 20, mexican/sunni: 110, mexican/catholic: 90,
+          ve_andalusi/sunni: 20}
+  STATE_OAXACA/VOA:
+    population: 520000
+    literacy: 0.12
+    mix: {zapotec/animist: 410, zapotec/catholic: 60, zapotec/sunni: 30, mixtec/animist: 250, mixtec/catholic: 30,
+          nahua/animist: 50, mexican/sunni: 60, mexican/catholic: 60, afro_caribeno/catholic: 40,
+          ve_andalusi/sunni: 10}
+  STATE_DURANGO/VDR:
+    population: 140000
+    literacy: 0.10
+    mix: {oodham/animist: 620, oodham/catholic: 40, nahua/animist: 60, mexican/sunni: 120, mexican/catholic: 120,
+          ve_andalusi/sunni: 20, afro_caribeno/catholic: 20}
+  STATE_CHIHUAHUA/VNP:
+    population: 120000
+    literacy: 0.08
+    mix: {oodham/animist: 480, apache/animist: 250, mexican/sunni: 90, mexican/catholic: 90, nahua/animist: 50,
+          ve_andalusi/sunni: 10, afro_caribeno/catholic: 30}
+  STATE_SINALOA/VSO:
+    population: 130000
+    literacy: 0.08
+    mix: {oodham/animist: 700, oodham/catholic: 30, nahua/animist: 50, mexican/sunni: 90, mexican/catholic: 90,
+          afro_caribeno/catholic: 20, ve_andalusi/sunni: 20}
+  STATE_SONORA/VSO:
+    population: 110000
+    literacy: 0.08
+    mix: {oodham/animist: 780, hokan/animist: 50, apache/animist: 40, mexican/sunni: 60, mexican/catholic: 60,
+          ve_andalusi/sunni: 10}
+  STATE_RIO_GRANDE/VSR:
+    population: 190000
+    literacy: 0.10
+    mix: {oodham/animist: 450, oodham/catholic: 50, nahua/animist: 120, nahua/sunni: 50, comanche/animist: 30,
+          apache/animist: 50, mexican/sunni: 90, mexican/catholic: 110, afro_caribeno/catholic: 30,
+          ve_andalusi/sunni: 20}
+  STATE_BAJA_CALIFORNIA/VBP:
+    population: 28000
+    literacy: 0.06
+    mix: {hokan/animist: 800, mexican/sunni: 60, mexican/catholic: 80, ve_andalusi/sunni: 20,
+          afro_caribeno/catholic: 40}
+  # --- Central American assemblies -----------------------------------------------------
+  STATE_GUATEMALA/VGA:
+    population: 490000
+    literacy: 0.10
+    mix: {mayan/animist: 650, mayan/catholic: 50, mayan/sunni: 20, nahua/animist: 80, central_american/catholic: 120,
+          central_american/sunni: 50, afro_caribbean/protestant: 15, afro_caribeno/catholic: 15}
+  STATE_HONDURAS/VHN:
+    population: 380000
+    literacy: 0.08
+    mix: {mayan/animist: 500, nahua/animist: 50, miskito/animist: 60, miskito/protestant: 20, muisca/animist: 60,
+          central_american/catholic: 220, central_american/sunni: 60, afro_caribeno/catholic: 30}
+  STATE_SAN_SALVADOR/VSS:
+    population: 430000
+    literacy: 0.10
+    mix: {nahua/animist: 600, nahua/catholic: 30, mayan/animist: 150, central_american/catholic: 150,
+          central_american/sunni: 50, afro_caribeno/catholic: 20}
+  STATE_NICARAGUA/VNC:
+    population: 350000
+    literacy: 0.08
+    mix: {nahua/animist: 350, muisca/animist: 100, miskito/animist: 70, miskito/protestant: 50,
+          central_american/catholic: 180, central_american/sunni: 50, afro_caribbean/protestant: 50,
+          afro_caribeno/catholic: 30, mayan/animist: 70, british/protestant: 50}
+  STATE_COSTA_RICA/VKR:
+    population: 90000
+    literacy: 0.08
+    mix: {muisca/animist: 550, nahua/animist: 150, central_american/catholic: 150, central_american/sunni: 50,
+          afro_caribeno/catholic: 50, miskito/animist: 50}
+  STATE_PANAMA/VIT:
+    population: 125000
+    literacy: 0.14
+    mix: {muisca/animist: 380, cariban/animist: 40, central_american/catholic: 220, central_american/sunni: 80,
+          afro_caribeno/catholic: 150, afro_caribeno/sunni: 40, north_andean/catholic: 30, ve_andalusi/sunni: 30,
+          maghrebi/sunni: 20, sephardic/jewish: 10}
+  # --- Caribbean --------------------------------------------------------------------------
+  STATE_WESTERN_CUBA/VPI:
+    population: 405000
+    literacy: 0.20
+    slave_mix: *pearl_slaves
+    mix: &pearl_free {caribeno/catholic: 300, caribeno/sunni: 200, afro_caribeno/catholic: 150,
+                      afro_caribeno/sunni: 60, ve_andalusi/sunni: 100, spanish/sunni: 50, spanish/catholic: 60,
+                      maghrebi/sunni: 40, sephardic/jewish: 20, cariban/animist: 20}
+  STATE_CENTRAL_CUBA/VPI:
+    population: 282000
+    literacy: 0.18
+    slave_mix: *pearl_slaves
+    mix: *pearl_free
+  STATE_EASTERN_CUBA/VPI:
+    population: 218000
+    literacy: 0.18
+    slave_mix: *pearl_slaves
+    mix: *pearl_free
+  STATE_PUERTO_RICO/VPI:
+    population: 295000
+    literacy: 0.20
+    slave_mix: *pearl_slaves
+    mix: {caribeno/catholic: 330, caribeno/sunni: 170, afro_caribeno/catholic: 240, afro_caribeno/sunni: 60,
+          ve_andalusi/sunni: 70, spanish/catholic: 50, spanish/sunni: 30, maghrebi/sunni: 20, cariban/animist: 30}
+  STATE_JAMAICA/VPI:
+    population: 380000
+    literacy: 0.16
+    mix: {afro_caribeno/catholic/slaves: 300, afro_caribeno/sunni/slaves: 100, afro_caribeno/animist/slaves: 100,
+          afro_caribeno/catholic: 170, afro_caribeno/sunni: 50, caribeno/catholic: 130, caribeno/sunni: 100,
+          ve_andalusi/sunni: 40, sephardic/jewish: 10}
+  STATE_HAITI/HAI: {population: 860000, literacy: 0.06}
+  STATE_SANTO_DOMINGO/HAI: {population: 132000, literacy: 0.07}
+  STATE_WEST_INDIES/VLE:
+    population: 115000
+    literacy: 0.12
+    mix: {afro_antillean/catholic: 850, french/catholic: 80, cariban/animist: 20, afro_caribbean/protestant: 30,
+          sephardic/jewish: 20}
+  STATE_WEST_INDIES/VWI:
+    population: 105000
+    literacy: 0.11
+    mix: {afro_antillean/catholic: 780, cariban/animist: 80, french/catholic: 70, afro_caribbean/protestant: 70}
+  STATE_WEST_INDIES/GBR: {population: 270000, literacy: 0.30}
+  STATE_BAHAMAS/GBR: {population: 119600, literacy: 0.30}
+  STATE_WEST_INDIES/DEN: {population: 44000, literacy: 0.30}
+  STATE_WEST_INDIES/NET: {population: 21000, literacy: 0.28}
+  STATE_WEST_INDIES/VNZ: {population: 19500, literacy: 0.12}

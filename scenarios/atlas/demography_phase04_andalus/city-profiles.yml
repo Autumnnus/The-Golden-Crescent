@@ -1,0 +1,163 @@
+# Settlement estimates are subsets of the state/owner POP blocks, not separate engine POPs.
+# Kurtuba is the vanilla farm hub inside Lower Andalusia; Sevilla is its city hub.
+version: 1
+cities:
+  Kurtuba:
+    state: STATE_LOWER_ANDALUSIA
+    population: 780000
+    weights:
+      ve_andalusi/sunni: 650
+      spanish/sunni: 150
+      spanish/catholic: 100
+      sephardic/jewish: 50
+      maghrebi/sunni: 30
+      portuguese/sunni: 15
+      portuguese/catholic: 5
+  Sevilla:
+    state: STATE_LOWER_ANDALUSIA
+    population: 630000
+    weights:
+      ve_andalusi/sunni: 550
+      spanish/sunni: 180
+      spanish/catholic: 130
+      sephardic/jewish: 70
+      maghrebi/sunni: 40
+      portuguese/sunni: 20
+      portuguese/catholic: 10
+  Cadiz:
+    state: STATE_LOWER_ANDALUSIA
+    population: 280000
+    weights:
+      ve_andalusi/sunni: 450
+      spanish/sunni: 180
+      spanish/catholic: 140
+      sephardic/jewish: 100
+      maghrebi/sunni: 60
+      portuguese/sunni: 40
+      portuguese/catholic: 30
+  Girnata:
+    state: STATE_UPPER_ANDALUSIA
+    population: 390000
+    weights:
+      ve_andalusi/sunni: 550
+      spanish/sunni: 180
+      spanish/catholic: 180
+      sephardic/jewish: 40
+      maghrebi/sunni: 30
+      portuguese/sunni: 10
+      portuguese/catholic: 10
+  Malaga:
+    state: STATE_UPPER_ANDALUSIA
+    population: 230000
+    weights:
+      ve_andalusi/sunni: 470
+      spanish/sunni: 210
+      spanish/catholic: 220
+      sephardic/jewish: 50
+      maghrebi/sunni: 30
+      portuguese/sunni: 15
+      portuguese/catholic: 5
+  Lizbon:
+    state: STATE_ESTREMADURA
+    population: 750000
+    weights:
+      portuguese/sunni: 380
+      portuguese/catholic: 320
+      ve_andalusi/sunni: 160
+      sephardic/jewish: 80
+      maghrebi/sunni: 40
+      spanish/sunni: 10
+      spanish/catholic: 10
+  Setubal:
+    state: STATE_ESTREMADURA
+    population: 150000
+    weights:
+      portuguese/sunni: 350
+      portuguese/catholic: 400
+      ve_andalusi/sunni: 100
+      sephardic/jewish: 70
+      maghrebi/sunni: 50
+      spanish/catholic: 30
+  Coimbra:
+    state: STATE_BEIRA
+    population: 240000
+    weights:
+      portuguese/sunni: 430
+      portuguese/catholic: 450
+      ve_andalusi/sunni: 50
+      sephardic/jewish: 35
+      spanish/catholic: 20
+      maghrebi/sunni: 15
+  Badajoz:
+    state: STATE_EXTREMADURA
+    population: 160000
+    weights:
+      ve_andalusi/sunni: 300
+      spanish/sunni: 200
+      spanish/catholic: 370
+      asturleonese/catholic: 60
+      sephardic/jewish: 40
+      portuguese/sunni: 20
+      portuguese/catholic: 10
+  Evora:
+    state: STATE_ALENTEJO
+    population: 140000
+    weights:
+      portuguese/sunni: 440
+      portuguese/catholic: 390
+      ve_andalusi/sunni: 100
+      sephardic/jewish: 30
+      maghrebi/sunni: 30
+      spanish/catholic: 10
+  Murcia:
+    state: STATE_MURCIA
+    population: 300000
+    weights:
+      ve_andalusi/sunni: 430
+      spanish/sunni: 200
+      spanish/catholic: 220
+      catalan/catholic: 90
+      catalan/sunni: 20
+      sephardic/jewish: 30
+      maghrebi/sunni: 10
+  Praia:
+    state: STATE_CAPE_VERDE
+    population: 45000
+    weights:
+      afro_brazilian/sunni: 350
+      afro_brazilian/catholic: 400
+      portuguese/sunni: 100
+      portuguese/catholic: 60
+      ve_andalusi/sunni: 40
+      sephardic/jewish: 20
+      maghrebi/sunni: 30
+  Santa_Cruz_de_Tenerife:
+    state: STATE_CANARY_ISLANDS
+    population: 75000
+    weights:
+      spanish/catholic: 500
+      spanish/sunni: 300
+      ve_andalusi/sunni: 100
+      maghrebi/sunni: 50
+      sephardic/jewish: 30
+      portuguese/sunni: 20
+  Ponta_Delgada:
+    state: STATE_AZORES
+    population: 65000
+    weights:
+      portuguese/catholic: 650
+      portuguese/sunni: 240
+      ve_andalusi/sunni: 50
+      sephardic/jewish: 30
+      maghrebi/sunni: 20
+      afro_brazilian/catholic: 10
+  Funchal:
+    state: STATE_MADEIRA
+    population: 60000
+    weights:
+      portuguese/catholic: 550
+      portuguese/sunni: 300
+      ve_andalusi/sunni: 70
+      sephardic/jewish: 30
+      maghrebi/sunni: 20
+      afro_brazilian/catholic: 30

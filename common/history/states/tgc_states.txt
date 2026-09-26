@@ -3850,9 +3850,14 @@ STATES = {
 	s:STATE_NEW_CASTILE = {
 		create_state = {
 			country = c:VCA
-			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xF44640 x88CEE5 x8010A0 xA1BEC2 }
+			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 }
+		}
+		create_state = {
+			country = c:VAN
+			owned_provinces = { x92DDDA xB0A000 xF693FD xF44640 xA1BEC2 x8010A0 x88CEE5 }
 		}
 		add_homeland = cu:spanish
+		add_claim = c:VCA
 	}
 	s:STATE_NEW_HAMPSHIRE = {
 		create_state = {
@@ -6165,11 +6170,12 @@ STATES = {
 	}
 	s:STATE_VALENCIA = {
 		create_state = {
-			country = c:VAR
+			country = c:VAN
 			owned_provinces = { x25DD5C x721583 x8FDF80 x99E5CE xCAC27C xDFEF80 xD06040 }
 		}
 		add_homeland = cu:catalan
 		add_homeland = cu:spanish
+		add_claim = c:VAR
 	}
 	s:STATE_VANUATU = {
 		create_state = {

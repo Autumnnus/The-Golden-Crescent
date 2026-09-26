@@ -58,8 +58,20 @@ Kullanıcı senaryonun yalnız haritasını değil, **oynanabilir başlangıç d
    - **P3 sonrası çökme (25 Eylül):** vanilla güç bloku geçmişi topraksız Parma'yı Avusturya bloğuna üye yapıyordu (`CCountry::JoinPowerBloc`). `vanilla_overrides.py` artık topraksız/bağlı liderli blokları ve topraksız üyeleri düşürüyor.
    - **P4** ([P4](../../scenarios/atlas/political_p4_corrections/README.md)): Uygur'a Çinghay, Chitral ve Kafiristan; Tebriz İsfahan'ın kuklası (Bakü ve Erevan İsfahan koruması); Arabistan'da Şam Cebel Şammar'ın batısını, Bahreyn el-Hasa'yı aldı, Hadramut Mahra'yı kattı; Hindistan'da yaklaşık 60 devlet 26'ya indi, Gurkanî büyüdü; Tatar Ural'ın batı yakasını aldı. Vanilla etiketlerin senaryo adları `localization/replace/` ile artık görünüyor ("Kürdistan", "Küçük Cüz" hatası). Ülke sayısı 468.
    - **M4** ([M4](../../scenarios/atlas/mechanics_m4_military/README.md)): ordular ve donanmalar. 288 örgütlü ülke; 964 → 2.807 tabur, 98 → 648 gemi; 268 general, 133 amiral. Rûm 160/54 (1B.3), Endülüs 88/60 (en büyük donanma), Lehistan 123, Mısır 77/26. Askerî tedarik (M4d) açık.
-   - Sıra: `atlas build` → `atlas scenario report` → `vanilla_overrides.py` → `diplomacy_d3_treaties/build.py` → `mechanics_m4_military/build.py`.
-   - `check` 168 hata (yalnız `localization/replace` tekrarları; araç denetleyicisi bu klasörü üstüne yazma katmanı saymıyor), 16 uyarı; siyasi denetim P3–P4 dahil geçti; araç testleri 123/123. Oyunda sınanmadı.
+   - **Denge B1–B3 (26 Eylül)** ([öneri ve kararlar](DENGE_KURULUM_ONERISI.md), [B0 ölçüm](../../scenarios/atlas/balance_b0_model/README.md), [B1](../../scenarios/atlas/balance_b1_tech_laws/README.md), [B2/B3](../../scenarios/atlas/balance_b2_economy/README.md)):
+     - **Teknoloji:** İsfahan 63, Rûm 59, Mısır 57, İslam çekirdeği 52, orta İslam 44, Avrupa üstü 36, Londra 33, Avrupa 31, güney ve doğu Avrupa 22, Jiangnan 44.
+     - **Ekonomi:** Rûm toplam katma değerde, İsfahan kişi başında birinci.
+     - **Pazar:** vanilla bandına yakın.
+     - **Altyapı:** yetmeyen state 0.
+     - **Bina sayısı:** 14.218 → 11.689.
+     - **Devlet binaları:** üniversite 157; demiryolu yalnız Rûm 12, Mısır 3, İsfahan 2, Tebriz 2.
+     - **İkinci tur (oyun testi sonrası):**
+       - [P5](../../scenarios/atlas/political_p5_andalusia/README.md): La Mancha ve Valensiya Endülüs'e geçti.
+       - Kolonicilik kanunları: Endülüs, Fas ve Umman'a sömürge sömürüsü; Londra'ya sömürge iskânı; Rûm'a sınır kolonizasyonu.
+       - B2 ikinci turu: girdi tabanı 0,9; tüketim tabanı 0,7; patlayıcı ve cephane zinciri kuruldu; bina 13.353, katma değer 6,18 M£.
+       - B2 üçüncü turu: donanma yönetimi mürettebata göre (137 filonun hepsi dolu); kopuk kıyı paylarına liman (Rûm'un Rif'i dahil); altyapı %85 tamponla, demiryolu olan yerde hat, kıyıda liman. 54 hat, 582 liman, bina 13.205, katma değer 6,05 M£. M4 artık `admiralty` olmayana donanma vermiyor.
+   - Sıra: `atlas build` → `atlas scenario report` → `vanilla_overrides.py` → `diplomacy_d3_treaties/build.py` → `mechanics_m4_military/build.py`. Teknoloji değişirse önce `mechanics_m4_military/plan.py` ve `prepare.py` yeniden çalıştırılır (birlik türleri teknolojiye bağlı).
+   - `check` 168 hata (yalnız `localization/replace` tekrarları; araç denetleyicisi bu klasörü üstüne yazma katmanı saymıyor), 0 uyarı; siyasi denetim P3–P4 ve B1 dahil geçti; araç testleri 123/123. Oyunda sınanmadı.
    - Dördüncü oyun testi bekleniyor: açılış okuryazarlığı hedeflerden birkaç puan saparsa `mechanics_m1b_literacy/prepare.py` içindeki `boost` kalibre edilir.
 
 ## Açık işler ve bilinen sınırlar

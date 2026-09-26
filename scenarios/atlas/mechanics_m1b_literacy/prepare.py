@@ -111,7 +111,7 @@ def scale_literacy(world: dict, base: dict, targets: dict, schools: dict) -> dic
     # lineage.yml lists the shares before it that a touched share's people came from. Its literacy is
     # their people-weighted literacy, resolved through the older packages down to the rerun above.
     layers = []  # newest first
-    for package in ("political_p4_corrections", "political_p3_borders"):
+    for package in ("political_p5_andalusia", "political_p4_corrections", "political_p3_borders"):
         path = HERE.parent / package / "lineage.yml"
         layers.append(yaml.safe_load(path.read_text()) if path.exists() else {})
     totals = {(state, tag): share["total"] for state, spec in world["states"].items()

@@ -1,0 +1,99 @@
+# B1 technology and law targets (hand-written). User decisions, 26 Sep 2026:
+# Europe tier 3 with a slightly stronger "Europe top"; Jiangnan 2, Yue 3, other East Asia 4;
+# Isfahan, Rum and Egypt are the protagonists (Isfahan most of all).
+# A group's technology set = installed starting tier (mechanics_m1_institutions/tier-techs.json) + add.
+# keep_extras: keep the country's current technologies outside the tier (only when the group raises it).
+
+groups:
+  isfahan:
+    tier: 1
+    add: [joint_stock_companies, psychiatry, pharmaceuticals, modern_sewerage, postal_savings, realism,
+          crystal_glass, chemical_bleaching, fractional_distillation, canneries, mechanized_workshops]
+  rum:
+    tier: 1
+    add: [canneries, mechanized_workshops, rifling, watertube_boiler, bessemer_process, logistics, shell_gun]
+  egypt:
+    tier: 1
+    add: [canneries, mechanized_workshops, fractional_distillation, hydraulic_cranes, shell_gun]
+  islam_core: {tier: 1, keep_extras: true}         # Tabriz, Andalusia, Basra
+  islam_mid: {tier: 2, keep_extras: true}
+  islam: {tier: 3, keep_extras: true}
+  europe_top:                                        # Poland-Lithuania, Kalmar crowns, Scotland, their colonies
+    tier: 3
+    add: [lathe, banking, stock_exchange, empiricism, napoleonic_warfare]
+  london:                                            # England-Wales: coal industry starting, no railways
+    tier: 3
+    add: [lathe, atmospheric_engine]
+  europe: {tier: 3}
+  europe_south: {tier: 4, add: [line_infantry]}      # southern/eastern Europe, Moscow, Hungary, Balkans; line
+                                                     # infantry as vanilla gives the tier-4 Ottomans
+  jiangnan: {tier: 2}
+  yue: {tier: 3}
+  china: {tier: 4, add: [line_infantry]}             # Northern China, Shu, Manchuria
+
+# country -> group; otherwise the M1b literacy band (targets.yml) names the group.
+countries:
+  ISF: isfahan
+  RUM: rum
+  EGY: egypt
+  VEL: london
+  JNG: jiangnan
+  YUE: yue
+  NCH: china
+  SHU: china
+  MCH: china
+  # new P3 countries without a literacy band
+  VSD: europe_south
+  VCN: europe_south
+  VGZ: islam
+  VAG: islam
+  VTB: islam
+  VFA: islam
+bands:
+  islam_lead: isfahan
+  islam_core: islam_core
+  islam_mid: islam_mid
+  islam: islam
+  europe_top: europe_top
+  europe: europe
+  europe_south: europe_south
+  # east_asia is named country by country above (Japan and Korea keep their vanilla history); rest unchanged
+
+# Egypt's inherited vanilla laws become the written H2 profile (hukuk_ve_kurumlar.md): state concessions and
+# military enterprises, existing slavery kept but the trade restricted, appointed officials, palace security,
+# pre-publication censorship, waqf health care.
+law_overrides:
+  EGY: [law_interventionism, law_legacy_slavery, law_appointed_bureaucrats, law_dedicated_police, law_censorship,
+        law_charitable_health_system]
+  # Colonial powers (user request 26 Sep 2026: the western colonizers had no colonial law). Plantation and
+  # monopoly empires exploit, settler colonies resettle; Rum's H1 profile has no large settlement programme.
+  VAN: [law_colonial_exploitation]   # H4: preferential monopoly in the colonies (New Ishbiliya, Pearl Islands...)
+  MOR: [law_colonial_exploitation]   # Moroccan Brazil, Antilles, Timbuktu
+  OMA: [law_colonial_exploitation]   # Indian Ocean coast
+  VEL: [law_colonial_resettlement]   # H5: settler coast colonies (New England, Virginia)
+  RUM: [law_frontier_colonization]   # New Bursa; H1 cannot fund a large settlement programme
+institution_overrides:
+  VAN: {institution_colonial_affairs: 2}
+  MOR: {institution_colonial_affairs: 1}
+  OMA: {institution_colonial_affairs: 1}
+  VEL: {institution_colonial_affairs: 1}
+  RUM: {institution_colonial_affairs: 1}
+
+# When a country loses the technology a law needs, the first valid law of this list replaces it.
+law_fallbacks:
+  lawgroup_trade_policy: [law_mercantilism]
+  lawgroup_taxation: [law_per_capita_based_taxation, law_land_based_taxation]
+  lawgroup_education_system: [law_religious_schools, law_no_schools]
+  lawgroup_health_system: [law_no_health_system]
+  lawgroup_policing: [law_local_police, law_no_police]
+  lawgroup_economic_system: [law_interventionism, law_traditionalism]
+  lawgroup_colonization: [law_no_colonial_affairs]
+  lawgroup_free_speech: [law_right_of_assembly]
+  lawgroup_internal_security: [law_no_home_affairs]
+  lawgroup_bureaucracy: [law_appointed_bureaucrats, law_hereditary_bureaucrats]
+  lawgroup_army_model: [law_professional_army, law_peasant_levies]
+  lawgroup_labor_rights: [law_no_workers_rights]
+  lawgroup_welfare: [law_no_social_security]
+  lawgroup_church_and_state: [law_freedom_of_conscience, law_state_religion]
+  lawgroup_governance_principles: [law_monarchy]
+  lawgroup_distribution_of_power: [law_oligarchy, law_autocracy]

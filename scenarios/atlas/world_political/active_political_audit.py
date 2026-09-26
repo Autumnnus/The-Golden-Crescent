@@ -152,7 +152,8 @@ def load_package(name: str) -> dict:
     return plan
 
 
-PACKAGES = [load_package("political_p3_borders"), load_package("political_p4_corrections")]
+PACKAGES = [load_package("political_p3_borders"), load_package("political_p4_corrections"),
+            load_package("political_p5_andalusia")]
 LIVE = []  # the packages the active world contains (set in main)
 
 
@@ -225,6 +226,22 @@ def split_d1(tag: str, spec: dict, m1: dict, mismatches: list) -> dict:
             mismatches.append(f"country {tag} D1 vanilla history")
         drop |= set(D1_VANILLA) | {"laws"}
     return {key: value for key, value in spec.items() if key not in drop}
+B1_PLAN = ROOT / "scenarios/atlas/balance_b1_tech_laws/plan.yml"
+B1 = yaml.safe_load(B1_PLAN.read_text())["countries"] if B1_PLAN.exists() else {}
+B1_LIVE = False  # set in main when the active world carries B1's technology
+
+
+def split_b1(tag: str, spec: dict, mismatches: list) -> tuple[dict, set]:
+    """B1 owns technology (and its changed laws/institutions) of its countries; check them against the plan."""
+    if not B1_LIVE or tag not in B1:
+        return spec, set()
+    row = B1[tag]
+    owned = {"technology"} | {k for k in ("laws", "institutions") if k in row}
+    if any(spec.get(k) != row[k] for k in owned):
+        mismatches.append(f"country {tag} B1 technology/laws")
+    return {key: value for key, value in spec.items() if key not in owned}, owned
+
+
 M0_LIBERTY_RESET = ["IQU", "KZH", "NPU", "OZH", "SEQ", "SER", "UZH", "WAL"]
 M0_RELATIONS = [{"actor": "MOL", "target": "WAL", "value": 50}, {"actor": "MON", "target": "SER", "value": 30},
                 {"actor": "WAL", "target": "SER", "value": 20}]
@@ -234,6 +251,7 @@ def split_m1(tag: str, spec: dict, m1: dict, mismatches: list) -> dict:
     """M1/M1b own technology, laws and institutions of their planned countries; check them against the plan."""
     spec = split_p2(tag, spec, mismatches)
     spec = split_d1(tag, spec, m1, mismatches)
+    spec, owned = split_b1(tag, spec, mismatches)
     if tag not in m1:
         return spec
     row = m1[tag]
@@ -241,8 +259,8 @@ def split_m1(tag: str, spec: dict, m1: dict, mismatches: list) -> dict:
         tech = {"mode": "merge", "tier": row["tier"], **({"add": row["add_technologies"]} if row["add_technologies"] else {})}
     else:  # M1b vanilla-history country: only missing technologies are added
         tech = {"mode": "merge", "add": row["add_technologies"]} if row["add_technologies"] else None
-    if spec.get("technology") != tech or spec.get("laws") != {"values": row["laws"]} or \
-            spec.get("institutions", {}) != row["institutions"]:
+    expected = {"technology": tech, "laws": {"values": row["laws"]}, "institutions": row["institutions"]}
+    if any((spec.get(k, {}) if k == "institutions" else spec.get(k)) != v for k, v in expected.items() if k not in owned):
         mismatches.append(f"country {tag} M1 institutions")
     return {key: value for key, value in spec.items() if key not in ("technology", "laws", "institutions")}
 
@@ -384,6 +402,8 @@ def main() -> None:
     if not any("institutions" in active["countries"].get(tag, {}) for tag in m1b):
         m1b = {}
     m1 = {**m1, **m1b}
+    global B1_LIVE
+    B1_LIVE = any(active["countries"].get(tag, {}).get("technology") == row["technology"] for tag, row in B1.items())
     expected_tags = set(preview["countries"]) | {"VSM", "TUA"} | set(POST_PREVIEW_COUNTRIES) | \
         (set(P2["new_countries"]) if p2_active else set()) | {tag for plan in LIVE for tag in plan["new_countries"]}
     for tag, spec in ((tag, spec) for plan in LIVE for tag, spec in plan["new_countries"].items()):
@@ -401,7 +421,7 @@ def main() -> None:
     # M1b adds entries for vanilla countries that carry only its education fields.
     m1b_only = set(active["countries"]) - expected_tags
     p3_fields = {tag for plan in LIVE for tag in plan["countries"]} | \
-        {tag for tag in M4 if "military" in active["countries"].get(tag, {})}
+        {tag for tag in M4 if "military" in active["countries"].get(tag, {})} | (set(B1) if B1_LIVE else set())
     if expected_tags - set(active["countries"]) or m1b_only - set(m1b) - set(P2["countries"]) - p3_fields or any(
             split_m1(tag, active["countries"][tag], m1, mismatches) for tag in m1b_only):
         mismatches.append("country tags")

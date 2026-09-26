@@ -12,7 +12,7 @@ c:ABU ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_abu_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_ABU_DHABI
 		}
@@ -34,7 +34,7 @@ c:ACE ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_ace_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_ACEH
 		}
@@ -84,7 +84,7 @@ c:AGC ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_agc_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MOCAMBIQUE
 		}
@@ -146,7 +146,7 @@ c:ANH ?= {
 			state_region = s:STATE_ANHALT
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_ANHALT
 		}
@@ -175,7 +175,7 @@ c:ARS ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_ars_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_OROMIA
 		}
@@ -233,7 +233,7 @@ c:AUS ?= {
 			state_region = s:STATE_AUSTRIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_AUSTRIA
 		}
@@ -245,7 +245,7 @@ c:AWA ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_awa_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 22
 			state_region = s:STATE_AWADH
 		}
@@ -267,7 +267,7 @@ c:AWS ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_aws_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_ERITREA
 		}
@@ -305,7 +305,7 @@ c:BAD ?= {
 			state_region = s:STATE_BADEN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_BADEN
 		}
@@ -317,7 +317,7 @@ c:BAL ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_bal_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 5
 			state_region = s:STATE_SUNDA_ISLANDS
 		}
@@ -359,7 +359,7 @@ c:BAV ?= {
 			state_region = s:STATE_FRANCONIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_FRANCONIA
 		}
@@ -501,19 +501,19 @@ c:BHN ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_bhn_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_HAIL
 		}
 	}
 	create_military_formation = {
 		type = fleet
-		hq_region = sr:region_greater_persia
+		hq_region = sr:region_arabia
 		name = "ve_m4_bhn_fleet_1"
 		ship = {
 			type = ship_type:ship_type_frigate
 			count = 1
-			state_region = s:STATE_LARISTAN
+			state_region = s:STATE_HAIL
 		}
 	}
 }
@@ -554,7 +554,7 @@ c:BNJ ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_bnj_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_EAST_BORNEO
 		}
@@ -590,7 +590,7 @@ c:BOR ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_bor_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_BORNU
 		}
@@ -631,7 +631,7 @@ c:BRG ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_brg_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_DAHOMEY
 		}
@@ -654,7 +654,7 @@ c:BRU ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_bru_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_NORTH_BORNEO
 		}
@@ -676,7 +676,7 @@ c:BSR ?= {
 		hq_region = sr:region_near_east
 		name = "ve_m4_bsr_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
+			type = unit_type:combat_unit_type_skirmish_infantry
 			count = 2
 			state_region = s:STATE_BASRA
 		}
@@ -734,7 +734,7 @@ c:BUK ?= {
 		hq_region = sr:region_central_asia
 		name = "ve_m4_buk_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 6
 			state_region = s:STATE_UZBEKIA
 		}
@@ -744,7 +744,7 @@ c:BUK ?= {
 			state_region = s:STATE_UZBEKIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_UZBEKIA
 		}
@@ -1007,7 +1007,7 @@ c:DFR ?= {
 		hq_region = sr:region_nile_basin
 		name = "ve_m4_dfr_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_KORDOFAN
 		}
@@ -1028,7 +1028,7 @@ c:EGY ?= {
 		hq_region = sr:region_nile_basin
 		name = "ve_m4_egy_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
+			type = unit_type:combat_unit_type_skirmish_infantry
 			count = 25
 			state_region = s:STATE_LOWER_EGYPT
 		}
@@ -1048,7 +1048,7 @@ c:EGY ?= {
 		hq_region = sr:region_nile_basin
 		name = "ve_m4_egy_army_2"
 		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
+			type = unit_type:combat_unit_type_skirmish_infantry
 			count = 18
 			state_region = s:STATE_MIDDLE_EGYPT
 		}
@@ -1068,7 +1068,7 @@ c:EGY ?= {
 		hq_region = sr:region_nile_basin
 		name = "ve_m4_egy_army_3"
 		combat_unit = {
-			type = unit_type:combat_unit_type_line_infantry
+			type = unit_type:combat_unit_type_skirmish_infantry
 			count = 13
 			state_region = s:STATE_UPPER_EGYPT
 		}
@@ -1366,7 +1366,7 @@ c:FTJ ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_ftj_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_GUINEA
 		}
@@ -1388,7 +1388,7 @@ c:FTR ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_ftr_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SENEGAL
 		}
@@ -1410,7 +1410,7 @@ c:FZN ?= {
 		hq_region = sr:region_north_africa
 		name = "ve_m4_fzn_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_TRIPOLI
 		}
@@ -1456,7 +1456,7 @@ c:GJT ?= {
 			state_region = s:STATE_GUJARAT
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 2
 			state_region = s:STATE_GUJARAT
 		}
@@ -1483,7 +1483,7 @@ c:GLD ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_gld_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SOMALILAND
 		}
@@ -1573,7 +1573,7 @@ c:HAN ?= {
 			state_region = s:STATE_HANNOVER
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_HANNOVER
 		}
@@ -1595,7 +1595,7 @@ c:HAR ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_har_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_OROMIA
 		}
@@ -1607,7 +1607,7 @@ c:HAU ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_hau_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_OUTER_HAUSALAND
 		}
@@ -1631,7 +1631,7 @@ c:HDJ ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_hdj_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_HEDJAZ
 		}
@@ -1658,7 +1658,7 @@ c:HDY ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_hdy_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_AMHARA
 		}
@@ -1670,7 +1670,7 @@ c:HER ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_her_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_HERAT
 		}
@@ -1680,7 +1680,7 @@ c:HER ?= {
 			state_region = s:STATE_HERAT
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_HERAT
 		}
@@ -1702,7 +1702,7 @@ c:HES ?= {
 			state_region = s:STATE_HESSE
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_HESSE
 		}
@@ -1750,7 +1750,7 @@ c:HUN ?= {
 			state_region = s:STATE_TRANSDANUBIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_TRANSDANUBIA
 		}
@@ -1772,7 +1772,7 @@ c:HUZ ?= {
 			state_region = s:STATE_KHUZESTAN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_KHUZESTAN
 		}
@@ -1794,7 +1794,7 @@ c:HYD ?= {
 		hq_region = sr:region_south_india
 		name = "ve_m4_hyd_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 24
 			state_region = s:STATE_HYDERABAD
 		}
@@ -1814,7 +1814,7 @@ c:HYD ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_hyd_army_2"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 12
 			state_region = s:STATE_CENTRAL_PROVINCES
 		}
@@ -1929,7 +1929,7 @@ c:ISQ ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_isq_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SOMALILAND
 		}
@@ -1951,7 +1951,7 @@ c:JAB ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_jab_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_HAIL
 		}
@@ -2053,7 +2053,7 @@ c:JMB ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_jmb_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SOUTH_SUMATRA
 		}
@@ -2075,7 +2075,7 @@ c:JNG ?= {
 		hq_region = sr:region_south_china
 		name = "ve_m4_jng_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_skirmish_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 27
 			state_region = s:STATE_JIANGXI
 		}
@@ -2095,7 +2095,7 @@ c:JNG ?= {
 		hq_region = sr:region_north_china
 		name = "ve_m4_jng_army_2"
 		combat_unit = {
-			type = unit_type:combat_unit_type_skirmish_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 18
 			state_region = s:STATE_JIANGSU
 		}
@@ -2115,7 +2115,7 @@ c:JNG ?= {
 		hq_region = sr:region_south_china
 		name = "ve_m4_jng_army_3"
 		combat_unit = {
-			type = unit_type:combat_unit_type_skirmish_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 26
 			state_region = s:STATE_SOUTHERN_ANHUI
 		}
@@ -2135,7 +2135,7 @@ c:JNG ?= {
 		hq_region = sr:region_south_china
 		name = "ve_m4_jng_army_4"
 		combat_unit = {
-			type = unit_type:combat_unit_type_skirmish_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 24
 			state_region = s:STATE_SUZHOU
 		}
@@ -2189,7 +2189,7 @@ c:JOH ?= {
 		hq_region = sr:region_indochina
 		name = "ve_m4_joh_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_MALAYA
 		}
@@ -2211,7 +2211,7 @@ c:KAB ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_kab_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 7
 			state_region = s:STATE_PASHTUNISTAN
 		}
@@ -2233,7 +2233,7 @@ c:KAL ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_kal_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_BALUCHISTAN
 		}
@@ -2260,7 +2260,7 @@ c:KAN ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_kan_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_KANDAHAR
 		}
@@ -2287,7 +2287,7 @@ c:KAS ?= {
 		hq_region = sr:region_himalayas
 		name = "ve_m4_kas_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 5
 			state_region = s:STATE_KASHMIR
 		}
@@ -2304,7 +2304,7 @@ c:KAT ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_kat_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_YEMEN
 		}
@@ -2352,7 +2352,7 @@ c:KHI ?= {
 		hq_region = sr:region_central_asia
 		name = "ve_m4_khi_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 4
 			state_region = s:STATE_KHIVA
 		}
@@ -2362,7 +2362,7 @@ c:KHI ?= {
 			state_region = s:STATE_KHIVA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_KHIVA
 		}
@@ -2402,7 +2402,7 @@ c:KNO ?= {
 		hq_region = sr:region_south_india
 		name = "ve_m4_kno_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_KURNOOL
 		}
@@ -2414,7 +2414,7 @@ c:KOK ?= {
 		hq_region = sr:region_central_asia
 		name = "ve_m4_kok_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 5
 			state_region = s:STATE_FERGANA
 		}
@@ -2424,7 +2424,7 @@ c:KOK ?= {
 			state_region = s:STATE_FERGANA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_FERGANA
 		}
@@ -2530,7 +2530,7 @@ c:KRM ?= {
 			state_region = s:STATE_KERMAN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_KERMAN
 		}
@@ -2552,7 +2552,7 @@ c:KRT ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_krt_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WESTERN_MALI
 		}
@@ -2575,7 +2575,7 @@ c:KSG ?= {
 			state_region = s:STATE_GANSU
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 4
 			state_region = s:STATE_GANSU
 		}
@@ -2595,7 +2595,7 @@ c:KSG ?= {
 			state_region = s:STATE_QINGHAI
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 2
 			state_region = s:STATE_QINGHAI
 		}
@@ -2656,7 +2656,7 @@ c:KZH ?= {
 		hq_region = sr:region_central_asia
 		name = "ve_m4_kzh_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SYRDARYA
 		}
@@ -2674,7 +2674,7 @@ c:LAH ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_lah_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_YEMEN
 		}
@@ -2696,7 +2696,7 @@ c:LAN ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_lan_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WEST_BORNEO
 		}
@@ -2781,7 +2781,7 @@ c:LUR ?= {
 			state_region = s:STATE_PERSIAN_KURDISTAN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_PERSIAN_KURDISTAN
 		}
@@ -2823,7 +2823,7 @@ c:MAK ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_mak_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_BALUCHISTAN
 		}
@@ -2887,7 +2887,7 @@ c:MAS ?= {
 		hq_region = sr:region_north_africa
 		name = "ve_m4_mas_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 15
 			state_region = s:STATE_CONSTANTINE
 		}
@@ -2897,7 +2897,7 @@ c:MAS ?= {
 			state_region = s:STATE_CONSTANTINE
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 2
 			state_region = s:STATE_CONSTANTINE
 		}
@@ -2946,7 +2946,7 @@ c:MBS ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_mbs_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_KENYA
 		}
@@ -3036,7 +3036,7 @@ c:MGD ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_mgd_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MINDANAO
 		}
@@ -3081,7 +3081,7 @@ c:MJT ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_mjt_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SOMALILAND
 		}
@@ -3179,7 +3179,7 @@ c:MOR ?= {
 		hq_region = sr:region_north_africa
 		name = "ve_m4_mor_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 15
 			state_region = s:STATE_FEZ
 		}
@@ -3189,7 +3189,7 @@ c:MOR ?= {
 			state_region = s:STATE_FEZ
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 3
 			state_region = s:STATE_FEZ
 		}
@@ -3223,7 +3223,7 @@ c:MSN ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_msn_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_EASTERN_MALI
 		}
@@ -3242,7 +3242,7 @@ c:MUG ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_mug_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 39
 			state_region = s:STATE_AGRA
 		}
@@ -3252,7 +3252,7 @@ c:MUG ?= {
 			state_region = s:STATE_AGRA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 6
 			state_region = s:STATE_AGRA
 		}
@@ -3262,7 +3262,7 @@ c:MUG ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_mug_army_2"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 21
 			state_region = s:STATE_PUNJAB
 		}
@@ -3272,7 +3272,7 @@ c:MUG ?= {
 			state_region = s:STATE_PUNJAB
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 3
 			state_region = s:STATE_PUNJAB
 		}
@@ -3282,7 +3282,7 @@ c:MUG ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_mug_army_3"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 16
 			state_region = s:STATE_DELHI
 		}
@@ -3292,7 +3292,7 @@ c:MUG ?= {
 			state_region = s:STATE_DELHI
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 3
 			state_region = s:STATE_DELHI
 		}
@@ -3426,7 +3426,7 @@ c:NEJ ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_nej_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_NEJD
 		}
@@ -3485,7 +3485,7 @@ c:NET ?= {
 			state_region = s:STATE_HOLLAND
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_HOLLAND
 		}
@@ -3571,7 +3571,7 @@ c:OMA ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_oma_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 6
 			state_region = s:STATE_ZANZIBAR
 		}
@@ -3581,7 +3581,7 @@ c:OMA ?= {
 			state_region = s:STATE_ZANZIBAR
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_ZANZIBAR
 		}
@@ -3752,7 +3752,7 @@ c:PON ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_pon_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WEST_BORNEO
 		}
@@ -3777,7 +3777,7 @@ c:PRK ?= {
 		hq_region = sr:region_indochina
 		name = "ve_m4_prk_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MALAYA
 		}
@@ -3943,7 +3943,7 @@ c:SAK ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_sak_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 4
 			state_region = s:STATE_NORTH_SUMATRA
 		}
@@ -3976,7 +3976,7 @@ c:SAR ?= {
 			state_region = s:STATE_PIEDMONT
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_PIEDMONT
 		}
@@ -4008,7 +4008,7 @@ c:SAX ?= {
 			state_region = s:STATE_SAXONY
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_SAXONY
 		}
@@ -4055,7 +4055,7 @@ c:SEL ?= {
 		hq_region = sr:region_indochina
 		name = "ve_m4_sel_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MALAYA
 		}
@@ -4090,7 +4090,7 @@ c:SGU ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_sgu_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WESTERN_MALI
 		}
@@ -4254,7 +4254,7 @@ c:SIN ?= {
 		hq_region = sr:region_north_india
 		name = "ve_m4_sin_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 6
 			state_region = s:STATE_SINDH
 		}
@@ -4292,7 +4292,7 @@ c:SMB ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_smb_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WEST_BORNEO
 		}
@@ -4316,13 +4316,18 @@ c:SOK ?= {
 		hq_region = sr:region_west_africa
 		name = "ve_m4_sok_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
-			count = 13
+			type = unit_type:combat_unit_type_line_infantry
+			count = 11
 			state_region = s:STATE_EAST_HAUSALAND
 		}
 		combat_unit = {
 			type = unit_type:combat_unit_type_hussars
 			count = 6
+			state_region = s:STATE_EAST_HAUSALAND
+		}
+		combat_unit = {
+			type = unit_type:combat_unit_type_cannon_artillery
+			count = 2
 			state_region = s:STATE_EAST_HAUSALAND
 		}
 	}
@@ -4345,7 +4350,7 @@ c:SRK ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_srk_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 6
 			state_region = s:STATE_EAST_JAVA
 		}
@@ -4379,7 +4384,7 @@ c:STG ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_stg_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_WEST_BORNEO
 		}
@@ -4401,7 +4406,7 @@ c:SUL ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_sul_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MINDANAO
 		}
@@ -4470,7 +4475,7 @@ c:SWI ?= {
 			state_region = s:STATE_WEST_SWITZERLAND
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_WEST_SWITZERLAND
 		}
@@ -4570,7 +4575,7 @@ c:TGI ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_tgi_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_MOCAMBIQUE
 		}
@@ -4686,7 +4691,7 @@ c:TRI ?= {
 		hq_region = sr:region_north_africa
 		name = "ve_m4_tri_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 4
 			state_region = s:STATE_LIBYA
 		}
@@ -4719,7 +4724,7 @@ c:TRS ?= {
 			state_region = s:STATE_SOUTHERN_TRANSYLVANIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_SOUTHERN_TRANSYLVANIA
 		}
@@ -4732,7 +4737,7 @@ c:TUN ?= {
 		hq_region = sr:region_north_africa
 		name = "ve_m4_tun_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 5
 			state_region = s:STATE_TUNISIA
 		}
@@ -4742,7 +4747,7 @@ c:TUN ?= {
 			state_region = s:STATE_TUNISIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_TUNISIA
 		}
@@ -4811,7 +4816,7 @@ c:UBD ?= {
 			state_region = s:STATE_RIGA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_RIGA
 		}
@@ -4885,7 +4890,7 @@ c:VAN ?= {
 		name = "ve_m4_van_army_1"
 		combat_unit = {
 			type = unit_type:combat_unit_type_skirmish_infantry
-			count = 23
+			count = 25
 			state_region = s:STATE_LOWER_ANDALUSIA
 		}
 		combat_unit = {
@@ -4905,7 +4910,7 @@ c:VAN ?= {
 		name = "ve_m4_van_army_2"
 		combat_unit = {
 			type = unit_type:combat_unit_type_skirmish_infantry
-			count = 22
+			count = 23
 			state_region = s:STATE_UPPER_ANDALUSIA
 		}
 		combat_unit = {
@@ -4915,7 +4920,7 @@ c:VAN ?= {
 		}
 		combat_unit = {
 			type = unit_type:combat_unit_type_mobile_artillery
-			count = 4
+			count = 5
 			state_region = s:STATE_UPPER_ANDALUSIA
 		}
 	}
@@ -4925,7 +4930,7 @@ c:VAN ?= {
 		name = "ve_m4_van_army_3"
 		combat_unit = {
 			type = unit_type:combat_unit_type_skirmish_infantry
-			count = 19
+			count = 21
 			state_region = s:STATE_BEIRA
 		}
 		combat_unit = {
@@ -4977,7 +4982,7 @@ c:VAR ?= {
 		name = "ve_m4_var_army_1"
 		combat_unit = {
 			type = unit_type:combat_unit_type_line_infantry
-			count = 9
+			count = 6
 			state_region = s:STATE_CATALONIA
 		}
 		combat_unit = {
@@ -5008,7 +5013,7 @@ c:VBA ?= {
 		hq_region = sr:region_greater_persia
 		name = "ve_m4_vba_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_AZERBAIJAN
 		}
@@ -5022,16 +5027,6 @@ c:VBC ?= {
 		combat_unit = {
 			type = unit_type:combat_unit_type_irregular_infantry
 			count = 2
-			state_region = s:STATE_BUENOS_AIRES
-		}
-	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_la_plata
-		name = "ve_m4_vbc_fleet_1"
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 1
 			state_region = s:STATE_BUENOS_AIRES
 		}
 	}
@@ -5166,18 +5161,18 @@ c:VCA ?= {
 		name = "ve_m4_vca_army_1"
 		combat_unit = {
 			type = unit_type:combat_unit_type_line_infantry
-			count = 10
-			state_region = s:STATE_NEW_CASTILE
+			count = 9
+			state_region = s:STATE_OLD_CASTILE
 		}
 		combat_unit = {
 			type = unit_type:combat_unit_type_hussars
-			count = 2
-			state_region = s:STATE_NEW_CASTILE
+			count = 1
+			state_region = s:STATE_OLD_CASTILE
 		}
 		combat_unit = {
 			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
-			state_region = s:STATE_NEW_CASTILE
+			state_region = s:STATE_OLD_CASTILE
 		}
 	}
 	create_military_formation = {
@@ -5241,7 +5236,7 @@ c:VCR ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vcr_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_KUBAN
 		}
@@ -5253,12 +5248,12 @@ c:VCR ?= {
 	}
 	create_military_formation = {
 		type = fleet
-		hq_region = sr:region_eastern_europe
+		hq_region = sr:region_russia
 		name = "ve_m4_vcr_fleet_1"
 		ship = {
 			type = ship_type:ship_type_frigate
 			count = 1
-			state_region = s:STATE_CRIMEA
+			state_region = s:STATE_KUBAN
 		}
 	}
 }
@@ -5292,7 +5287,7 @@ c:VDA ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vda_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_DAGESTAN
 		}
@@ -5342,7 +5337,7 @@ c:VEL ?= {
 			state_region = s:STATE_HOME_COUNTIES
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 3
 			state_region = s:STATE_HOME_COUNTIES
 		}
@@ -5362,7 +5357,7 @@ c:VEL ?= {
 			state_region = s:STATE_MIDLANDS
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_MIDLANDS
 		}
@@ -5641,16 +5636,6 @@ c:VIT ?= {
 			state_region = s:STATE_PANAMA
 		}
 	}
-	create_military_formation = {
-		type = fleet
-		hq_region = sr:region_central_america
-		name = "ve_m4_vit_fleet_1"
-		ship = {
-			type = ship_type:ship_type_frigate
-			count = 1
-			state_region = s:STATE_PANAMA
-		}
-	}
 }
 c:VJL ?= {
 	create_military_formation = {
@@ -5828,7 +5813,7 @@ c:VMO ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vmo_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 4
 			state_region = s:STATE_NIZHNY_NOVGOROD
 		}
@@ -5841,7 +5826,7 @@ c:VMS ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vms_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 16
 			state_region = s:STATE_ORYOL
 		}
@@ -5861,7 +5846,7 @@ c:VMS ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vms_army_2"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 15
 			state_region = s:STATE_YAROSLAVL
 		}
@@ -5958,7 +5943,7 @@ c:VNG ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vng_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 7
 			state_region = s:STATE_NOVGOROD
 		}
@@ -6000,7 +5985,7 @@ c:VNH ?= {
 			state_region = s:STATE_NEW_YORK
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_NEW_YORK
 		}
@@ -6032,7 +6017,7 @@ c:VNI ?= {
 			state_region = s:STATE_MASSACHUSETTS
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_MASSACHUSETTS
 		}
@@ -6109,7 +6094,7 @@ c:VPA ?= {
 			state_region = s:STATE_PENNSYLVANIA
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_PENNSYLVANIA
 		}
@@ -6453,7 +6438,7 @@ c:VSN ?= {
 		hq_region = sr:region_nile_basin
 		name = "ve_m4_vsn_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 3
 			state_region = s:STATE_BLUE_NILE
 		}
@@ -6482,7 +6467,7 @@ c:VST ?= {
 		hq_region = sr:region_siberia
 		name = "ve_m4_vst_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_TOBOLSK
 		}
@@ -6500,7 +6485,7 @@ c:VTA ?= {
 		hq_region = sr:region_russia
 		name = "ve_m4_vta_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 20
 			state_region = s:STATE_KAZAN
 		}
@@ -6510,7 +6495,7 @@ c:VTA ?= {
 			state_region = s:STATE_KAZAN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 4
 			state_region = s:STATE_KAZAN
 		}
@@ -6682,7 +6667,7 @@ c:WAD ?= {
 		hq_region = sr:region_equatorial_africa
 		name = "ve_m4_wad_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 1
 			state_region = s:STATE_WADDAI
 		}
@@ -6782,7 +6767,7 @@ c:WSG ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_wsg_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_SOMALILAND
 		}
@@ -6805,7 +6790,7 @@ c:WTU ?= {
 		hq_region = sr:region_east_africa
 		name = "ve_m4_wtu_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 2
 			state_region = s:STATE_KENYA
 		}
@@ -6837,7 +6822,7 @@ c:WUR ?= {
 			state_region = s:STATE_WURTTEMBERG
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 1
 			state_region = s:STATE_WURTTEMBERG
 		}
@@ -6852,7 +6837,7 @@ c:YOG ?= {
 		hq_region = sr:region_indonesia
 		name = "ve_m4_yog_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 16
 			state_region = s:STATE_WEST_JAVA
 		}
@@ -6894,7 +6879,7 @@ c:YUE ?= {
 			state_region = s:STATE_FUJIAN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_FUJIAN
 		}
@@ -6914,7 +6899,7 @@ c:YUE ?= {
 			state_region = s:STATE_GUANGXI
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_mobile_artillery
+			type = unit_type:combat_unit_type_cannon_artillery
 			count = 2
 			state_region = s:STATE_GUANGXI
 		}
@@ -6926,12 +6911,12 @@ c:YUE ?= {
 		ship = {
 			type = ship_type:ship_type_frigate
 			count = 12
-			state_region = s:STATE_GUANGDONG
+			state_region = s:STATE_FUJIAN
 		}
 		ship = {
 			type = ship_type:ship_type_ship_of_the_line
 			count = 6
-			state_region = s:STATE_GUANGDONG
+			state_region = s:STATE_FUJIAN
 		}
 	}
 }
@@ -6942,7 +6927,7 @@ c:ZAI ?= {
 		hq_region = sr:region_arabia
 		name = "ve_m4_zai_army_1"
 		combat_unit = {
-			type = unit_type:combat_unit_type_irregular_infantry
+			type = unit_type:combat_unit_type_line_infantry
 			count = 4
 			state_region = s:STATE_YEMEN
 		}
@@ -6952,7 +6937,7 @@ c:ZAI ?= {
 			state_region = s:STATE_YEMEN
 		}
 		combat_unit = {
-			type = unit_type:combat_unit_type_cannon_artillery
+			type = unit_type:combat_unit_type_mobile_artillery
 			count = 1
 			state_region = s:STATE_YEMEN
 		}

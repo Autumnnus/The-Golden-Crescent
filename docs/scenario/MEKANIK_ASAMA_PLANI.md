@@ -76,6 +76,10 @@ Rûm 1B.3 ordusu ve diğer ülkelerin temel orduları; M0'dan kalan askerî kal�
 
 **26 Eylül 2026 · etkin:** [M4](../../scenarios/atlas/mechanics_m4_military/README.md) bütün dünyanın ordu, donanma ve komutanlarını kurdu (2.807 tabur, 648 gemi, 401 komutan; Rûm 1B.3 ordusu dahil). Kalan: askerî sanayi tedariki ve ordu kanunları (M4d), motor davranışı testi.
 
+### B — Denge (etkin)
+
+**26 Eylül 2026:** Kullanıcı ordu ve sınırlardan sonra pazar ve ekonomi dengesinin yeniden kurulmasını istedi. [Denge önerisi](DENGE_KURULUM_ONERISI.md) vanilla ile etkin modu [B0 ölçüm aracıyla](../../scenarios/atlas/balance_b0_model/README.md) karşılaştırır ve dört faz önerir: B1 teknoloji ve kanunlar, B2 üretim binaları ve üretim yöntemleri, B3 devlet binaları ve altyapı, B4 kalibrasyon. Kararlar aynı gün verildi; B1 ve B2/B3 etkin (İsfahan 63, Rûm 59, Mısır 57 teknoloji; Rûm toplam katma değerde, İsfahan kişi başında birinci; altyapısı yetmeyen state 0). Sırada oyun testi (B4).
+
 ## 4. Test döngüsü
 
 Her paketten sonra oyunda yeni başlangıçla aynı kısa liste kontrol edilir: seçili 10 ülkenin okuryazarlığı, hayat standardı ve tahıl/giyim fiyatı, işsizlik, `error.log` satır sayısı. Log salt okunur incelenir.

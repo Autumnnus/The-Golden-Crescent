@@ -194,7 +194,7 @@ CHARACTERS = {
 		create_character = {
 			is_admiral = yes
 			culture = primary_culture
-			hq = region_greater_persia
+			hq = region_arabia
 			commander_rank = commander_rank_1
 		}
 	}
@@ -1995,12 +1995,6 @@ CHARACTERS = {
 			hq = region_la_plata
 			commander_rank = commander_rank_1
 		}
-		create_character = {
-			is_admiral = yes
-			culture = primary_culture
-			hq = region_la_plata
-			commander_rank = commander_rank_1
-		}
 	}
 	c:VBJ ?= {
 		create_character = {
@@ -2108,7 +2102,7 @@ CHARACTERS = {
 		create_character = {
 			is_admiral = yes
 			culture = primary_culture
-			hq = region_eastern_europe
+			hq = region_russia
 			commander_rank = commander_rank_1
 		}
 	}
@@ -2309,12 +2303,6 @@ CHARACTERS = {
 	c:VIT ?= {
 		create_character = {
 			is_general = yes
-			culture = primary_culture
-			hq = region_central_america
-			commander_rank = commander_rank_1
-		}
-		create_character = {
-			is_admiral = yes
 			culture = primary_culture
 			hq = region_central_america
 			commander_rank = commander_rank_1

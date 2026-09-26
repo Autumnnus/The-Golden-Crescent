@@ -15775,26 +15775,48 @@ POPS = {
 		}
 	}
 	s:STATE_NEW_CASTILE = {
-		region_state:VCA = {
+		region_state:VAN = {
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 1531533
+				size = 455900
 			}
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 23684
+				size = 7050
 			}
 			create_pop = {
 				culture = spanish
 				religion = sunni
-				size = 15789
+				size = 4700
 			}
 			create_pop = {
 				culture = ve_andalusi
 				religion = sunni
-				size = 7894
+				size = 2350
+			}
+		}
+		region_state:VCA = {
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 1075633
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 16634
+			}
+			create_pop = {
+				culture = spanish
+				religion = sunni
+				size = 11089
+			}
+			create_pop = {
+				culture = ve_andalusi
+				religion = sunni
+				size = 5544
 			}
 		}
 	}
@@ -24566,7 +24588,7 @@ POPS = {
 		}
 	}
 	s:STATE_VALENCIA = {
-		region_state:VAR = {
+		region_state:VAN = {
 			create_pop = {
 				culture = catalan
 				religion = catholic

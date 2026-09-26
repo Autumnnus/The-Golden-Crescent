@@ -1,0 +1,22 @@
+# P5 — Andalusia grows north (user request 26 Sep 2026: "Kastilya ve Aragon'un güneylerinden toprak verelim").
+# Same format as political_p3_borders/plan.yml; applied by that package's prepare.py with --plan-dir/--name p5.
+version: 1
+title: The Golden Crescent — 1836 dünya (P5 Endülüs sınırı)
+moves:
+  # La Mancha (Ciudad Real, Albacete, southern Cuenca): the seven New Castile provinces south of y = 1150 on the
+  # installed map; Madrid (city hub xDCD24C) and Toledo stay Castilian. Rural and thinly peopled: ~30% of 1.58 M.
+  - state: STATE_NEW_CASTILE
+    from: VCA
+    to: VAN
+    provinces: [x92DDDA, xB0A000, xF693FD, xF44640, xA1BEC2, x8010A0, x88CEE5]
+    total: 470000
+transfers:
+  - {state: STATE_VALENCIA, from: VAR, to: VAN}     # the Valencian coast, Aragon's south
+countries: {}
+claims:
+  STATE_NEW_CASTILE: [VCA]
+  STATE_VALENCIA: [VAR]
+diplomacy:
+  remove_subjects: []
+  subjects: []
+  relations: []

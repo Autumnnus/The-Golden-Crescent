@@ -37,6 +37,10 @@ Merkezsiz topluluklarda ordu yoktur. Londra'nın denizaşırı taç bağımlıl�
 | Uygur | 45 | — | Gansu ve Hindukuş orduları |
 | Tatar | 34 | 2 | Süvari ağırlıklı |
 
+**B1 sonrası (26 Eylül):** [B1](../balance_b1_tech_laws/README.md) teknolojileri değiştirdiği için `plan.py` yeniden çalıştırıldı ve 116 ülkenin birlik türleri yeni teknolojiye göre seçildi. Örnekler: Mısır avcı piyadesi, Gurkanî hat piyadesi ve seyyar topçu, Londra toplu topçu. Sokoto 2 topçu taburu aldı. Toplam tabur, gemi ve komutan sayısı aynı kaldı.
+
+**Üçüncü tur (26 Eylül):** `admiralty` teknolojisi olmayan ülkeye donanma verilmiyor, çünkü donanma yönetimi kurulamaz ve gemiler mürettebatsız kalır. Buenos Aires ile Panama'nın birer fırkateyni ve iki amiral kalktı: 646 gemi, 131 amiral. Donanma yönetimi binaları [B2/B3](../balance_b2_economy/README.md) tarafından mürettebata göre kurulur.
+
 ## Kurallar
 
 - **Ordu büyüklüğü:** `m × nüfus_milyon^0,85`.

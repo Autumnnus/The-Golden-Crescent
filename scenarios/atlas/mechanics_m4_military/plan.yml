@@ -2,11 +2,11 @@
 version: 1
 summary:
   countries: 288
-  battalions: 2807
-  ships: 648
+  battalions: 2808
+  ships: 646
   generals: 268
-  admirals: 133
-  scale: 0.4807
+  admirals: 131
+  scale: 0.4804
 names:
   ve_m4_abu_army_1:
     tr: Ateşkes Devletleri Arabistan Ordusu
@@ -105,8 +105,8 @@ names:
     tr: Bahreyn Arabistan Ordusu
     en: Bahraini Arabia Army
   ve_m4_bhn_fleet_1:
-    tr: Bahreyn Büyük İran Donanması
-    en: Bahraini Greater Persia Fleet
+    tr: Bahreyn Arabistan Donanması
+    en: Bahraini Arabia Fleet
   ve_m4_bhu_army_1:
     tr: Butan Himalayalar Ordusu
     en: Bhutanese Himalayas Army
@@ -989,9 +989,6 @@ names:
   ve_m4_vbc_army_1:
     tr: Buenos Aires La Plata Ordusu
     en: Buenos Aires La Plata Army
-  ve_m4_vbc_fleet_1:
-    tr: Buenos Aires La Plata Donanması
-    en: Buenos Aires La Plata Fleet
   ve_m4_vbj_army_1:
     tr: Bajío Orta Amerika Ordusu
     en: Bajío Central America Army
@@ -1035,8 +1032,8 @@ names:
     tr: Kırım Rusya Ordusu
     en: Crimean Russia Army
   ve_m4_vcr_fleet_1:
-    tr: Kırım Doğu Avrupa Donanması
-    en: Crimean Eastern Europe Fleet
+    tr: Kırım Rusya Donanması
+    en: Crimean Russia Fleet
   ve_m4_vcs_army_1:
     tr: Orta Şili La Plata Ordusu
     en: Central Chilean La Plata Army
@@ -1121,9 +1118,6 @@ names:
   ve_m4_vit_army_1:
     tr: Kıstak Orta Amerika Ordusu
     en: Isthmian Central America Army
-  ve_m4_vit_fleet_1:
-    tr: Kıstak Orta Amerika Donanması
-    en: Isthmian Central America Fleet
   ve_m4_vjl_army_1:
     tr: Jalisco Orta Amerika Ordusu
     en: Jalisco Central America Army
@@ -1389,7 +1383,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_ABU_DHABI
         count: 2
     - name: ve_m4_abu_fleet_1
@@ -1418,7 +1412,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_ACEH
         count: 2
     - name: ve_m4_ace_fleet_1
@@ -1479,7 +1473,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MOCAMBIQUE
         count: 2
     - name: ve_m4_agc_fleet_1
@@ -1543,7 +1537,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_ANHALT
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_ANHALT
         count: 1
     commanders:
@@ -1581,7 +1575,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_OROMIA
         count: 2
     commanders:
@@ -1647,7 +1641,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_AUSTRIA
         count: 2
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_AUSTRIA
         count: 2
     commanders: []
@@ -1663,7 +1657,7 @@ countries:
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_AWADH
         count: 22
       - type: combat_unit_type_hussars
@@ -1688,7 +1682,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_ERITREA
         count: 1
       - type: combat_unit_type_hussars
@@ -1723,7 +1717,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_BADEN
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_BADEN
         count: 1
     commanders: []
@@ -1739,7 +1733,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SUNDA_ISLANDS
         count: 5
       - type: combat_unit_type_hussars
@@ -1780,7 +1774,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_FRANCONIA
         count: 2
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_FRANCONIA
         count: 2
     commanders: []
@@ -1945,15 +1939,15 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_HAIL
         count: 2
     - name: ve_m4_bhn_fleet_1
       type: fleet
-      hq_region: region_greater_persia
+      hq_region: region_arabia
       ships:
       - type: ship_type_frigate
-        state: STATE_LARISTAN
+        state: STATE_HAIL
         count: 1
     commanders:
     - role: general
@@ -1961,7 +1955,7 @@ countries:
       hq: region_arabia
     - role: admiral
       rank: 1
-      hq: region_greater_persia
+      hq: region_arabia
     vanilla_commanders:
       general: 0
       admiral: 0
@@ -2012,7 +2006,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_EAST_BORNEO
         count: 2
     - name: ve_m4_bnj_fleet_1
@@ -2060,7 +2054,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_BORNU
         count: 3
       - type: combat_unit_type_hussars
@@ -2120,7 +2114,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_DAHOMEY
         count: 2
     - name: ve_m4_brg_fleet_1
@@ -2149,7 +2143,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_NORTH_BORNEO
         count: 2
     - name: ve_m4_bru_fleet_1
@@ -2178,7 +2172,7 @@ countries:
       type: army
       hq_region: region_near_east
       units:
-      - type: combat_unit_type_line_infantry
+      - type: combat_unit_type_skirmish_infantry
         state: STATE_BASRA
         count: 2
     - name: ve_m4_bsr_fleet_1
@@ -2264,13 +2258,13 @@ countries:
       type: army
       hq_region: region_central_asia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_UZBEKIA
         count: 6
       - type: combat_unit_type_hussars
         state: STATE_UZBEKIA
         count: 3
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_UZBEKIA
         count: 1
     commanders:
@@ -2576,7 +2570,7 @@ countries:
       type: army
       hq_region: region_nile_basin
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KORDOFAN
         count: 2
       - type: combat_unit_type_hussars
@@ -2598,7 +2592,7 @@ countries:
       type: army
       hq_region: region_nile_basin
       units:
-      - type: combat_unit_type_line_infantry
+      - type: combat_unit_type_skirmish_infantry
         state: STATE_LOWER_EGYPT
         count: 25
       - type: combat_unit_type_hussars
@@ -2611,7 +2605,7 @@ countries:
       type: army
       hq_region: region_nile_basin
       units:
-      - type: combat_unit_type_line_infantry
+      - type: combat_unit_type_skirmish_infantry
         state: STATE_MIDDLE_EGYPT
         count: 18
       - type: combat_unit_type_hussars
@@ -2624,7 +2618,7 @@ countries:
       type: army
       hq_region: region_nile_basin
       units:
-      - type: combat_unit_type_line_infantry
+      - type: combat_unit_type_skirmish_infantry
         state: STATE_UPPER_EGYPT
         count: 13
       - type: combat_unit_type_hussars
@@ -2949,7 +2943,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_GUINEA
         count: 2
     - name: ve_m4_ftj_fleet_1
@@ -2978,7 +2972,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SENEGAL
         count: 2
     - name: ve_m4_ftr_fleet_1
@@ -3007,7 +3001,7 @@ countries:
       type: army
       hq_region: region_north_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_TRIPOLI
         count: 2
     - name: ve_m4_fzn_fleet_1
@@ -3055,7 +3049,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_GUJARAT
         count: 2
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_GUJARAT
         count: 2
     - name: ve_m4_gjt_fleet_1
@@ -3087,7 +3081,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOMALILAND
         count: 2
     - name: ve_m4_gld_fleet_1
@@ -3189,7 +3183,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_HANNOVER
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_HANNOVER
         count: 1
     - name: ve_m4_han_fleet_1
@@ -3212,7 +3206,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_OROMIA
         count: 2
     commanders:
@@ -3231,7 +3225,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_OUTER_HAUSALAND
         count: 2
     commanders:
@@ -3269,7 +3263,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_HEDJAZ
         count: 2
       - type: combat_unit_type_hussars
@@ -3301,7 +3295,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_AMHARA
         count: 2
     commanders:
@@ -3320,13 +3314,13 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_HERAT
         count: 2
       - type: combat_unit_type_hussars
         state: STATE_HERAT
         count: 2
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_HERAT
         count: 1
     commanders: []
@@ -3348,7 +3342,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_HESSE
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_HESSE
         count: 1
     commanders:
@@ -3402,7 +3396,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_TRANSDANUBIA
         count: 3
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_TRANSDANUBIA
         count: 2
     commanders:
@@ -3427,7 +3421,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_KHUZESTAN
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_KHUZESTAN
         count: 1
     - name: ve_m4_huz_fleet_1
@@ -3456,7 +3450,7 @@ countries:
       type: army
       hq_region: region_south_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_HYDERABAD
         count: 24
       - type: combat_unit_type_hussars
@@ -3469,7 +3463,7 @@ countries:
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_CENTRAL_PROVINCES
         count: 12
       - type: combat_unit_type_hussars
@@ -3596,7 +3590,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOMALILAND
         count: 2
     - name: ve_m4_isq_fleet_1
@@ -3622,7 +3616,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_HAIL
         count: 1
       - type: combat_unit_type_hussars
@@ -3721,7 +3715,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOUTH_SUMATRA
         count: 2
     - name: ve_m4_jmb_fleet_1
@@ -3750,7 +3744,7 @@ countries:
       type: army
       hq_region: region_south_china
       units:
-      - type: combat_unit_type_skirmish_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_JIANGXI
         count: 27
       - type: combat_unit_type_hussars
@@ -3763,7 +3757,7 @@ countries:
       type: army
       hq_region: region_north_china
       units:
-      - type: combat_unit_type_skirmish_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_JIANGSU
         count: 18
       - type: combat_unit_type_hussars
@@ -3776,7 +3770,7 @@ countries:
       type: army
       hq_region: region_south_china
       units:
-      - type: combat_unit_type_skirmish_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOUTHERN_ANHUI
         count: 26
       - type: combat_unit_type_hussars
@@ -3789,7 +3783,7 @@ countries:
       type: army
       hq_region: region_south_china
       units:
-      - type: combat_unit_type_skirmish_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SUZHOU
         count: 24
       - type: combat_unit_type_hussars
@@ -3858,7 +3852,7 @@ countries:
       type: army
       hq_region: region_indochina
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MALAYA
         count: 3
     - name: ve_m4_joh_fleet_1
@@ -3887,7 +3881,7 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_PASHTUNISTAN
         count: 7
       - type: combat_unit_type_hussars
@@ -3912,7 +3906,7 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_BALUCHISTAN
         count: 2
       - type: combat_unit_type_hussars
@@ -3944,7 +3938,7 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KANDAHAR
         count: 3
       - type: combat_unit_type_hussars
@@ -3976,7 +3970,7 @@ countries:
       type: army
       hq_region: region_himalayas
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KASHMIR
         count: 5
       - type: combat_unit_type_hussars
@@ -3995,7 +3989,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_YEMEN
         count: 2
     - name: ve_m4_kat_fleet_1
@@ -4062,13 +4056,13 @@ countries:
       type: army
       hq_region: region_central_asia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KHIVA
         count: 4
       - type: combat_unit_type_hussars
         state: STATE_KHIVA
         count: 2
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_KHIVA
         count: 1
     commanders:
@@ -4112,7 +4106,7 @@ countries:
       type: army
       hq_region: region_south_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KURNOOL
         count: 2
     commanders:
@@ -4131,13 +4125,13 @@ countries:
       type: army
       hq_region: region_central_asia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_FERGANA
         count: 5
       - type: combat_unit_type_hussars
         state: STATE_FERGANA
         count: 3
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_FERGANA
         count: 1
     commanders:
@@ -4260,7 +4254,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_KERMAN
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_KERMAN
         count: 1
     - name: ve_m4_krm_fleet_1
@@ -4289,7 +4283,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WESTERN_MALI
         count: 2
     commanders:
@@ -4314,7 +4308,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_GANSU
         count: 9
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_GANSU
         count: 4
     - name: ve_m4_ksg_army_2
@@ -4327,7 +4321,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_QINGHAI
         count: 4
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_QINGHAI
         count: 2
     commanders:
@@ -4416,7 +4410,7 @@ countries:
       type: army
       hq_region: region_central_asia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SYRDARYA
         count: 2
       - type: combat_unit_type_hussars
@@ -4438,7 +4432,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_YEMEN
         count: 2
     - name: ve_m4_lah_fleet_1
@@ -4467,7 +4461,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WEST_BORNEO
         count: 2
     - name: ve_m4_lan_fleet_1
@@ -4566,7 +4560,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_PERSIAN_KURDISTAN
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_PERSIAN_KURDISTAN
         count: 1
     commanders:
@@ -4626,7 +4620,7 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_BALUCHISTAN
         count: 2
       - type: combat_unit_type_hussars
@@ -4696,13 +4690,13 @@ countries:
       type: army
       hq_region: region_north_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_CONSTANTINE
         count: 15
       - type: combat_unit_type_hussars
         state: STATE_CONSTANTINE
         count: 2
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_CONSTANTINE
         count: 2
     - name: ve_m4_mas_fleet_1
@@ -4756,7 +4750,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KENYA
         count: 2
     - name: ve_m4_mbs_fleet_1
@@ -4868,7 +4862,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MINDANAO
         count: 2
     - name: ve_m4_mgd_fleet_1
@@ -4922,7 +4916,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOMALILAND
         count: 2
     - name: ve_m4_mjt_fleet_1
@@ -5041,13 +5035,13 @@ countries:
       type: army
       hq_region: region_north_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_FEZ
         count: 15
       - type: combat_unit_type_hussars
         state: STATE_FEZ
         count: 3
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_FEZ
         count: 3
     - name: ve_m4_mor_fleet_1
@@ -5076,7 +5070,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_EASTERN_MALI
         count: 3
       - type: combat_unit_type_hussars
@@ -5098,39 +5092,39 @@ countries:
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_AGRA
         count: 39
       - type: combat_unit_type_hussars
         state: STATE_AGRA
         count: 6
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_AGRA
         count: 6
     - name: ve_m4_mug_army_2
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_PUNJAB
         count: 21
       - type: combat_unit_type_hussars
         state: STATE_PUNJAB
         count: 3
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_PUNJAB
         count: 3
     - name: ve_m4_mug_army_3
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_DELHI
         count: 16
       - type: combat_unit_type_hussars
         state: STATE_DELHI
         count: 3
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_DELHI
         count: 3
     commanders:
@@ -5275,7 +5269,7 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_NEJD
         count: 1
       - type: combat_unit_type_hussars
@@ -5338,7 +5332,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_HOLLAND
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_HOLLAND
         count: 1
     - name: ve_m4_net_fleet_1
@@ -5412,13 +5406,13 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_ZANZIBAR
         count: 6
       - type: combat_unit_type_hussars
         state: STATE_ZANZIBAR
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_ZANZIBAR
         count: 1
     - name: ve_m4_oma_fleet_1
@@ -5618,7 +5612,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WEST_BORNEO
         count: 2
     - name: ve_m4_pon_fleet_1
@@ -5647,7 +5641,7 @@ countries:
       type: army
       hq_region: region_indochina
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MALAYA
         count: 2
     - name: ve_m4_prk_fleet_1
@@ -5826,7 +5820,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_NORTH_SUMATRA
         count: 4
     - name: ve_m4_sak_fleet_1
@@ -5861,7 +5855,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_PIEDMONT
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_PIEDMONT
         count: 1
     - name: ve_m4_sar_fleet_1
@@ -5890,7 +5884,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_SAXONY
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_SAXONY
         count: 1
     commanders: []
@@ -5954,7 +5948,7 @@ countries:
       type: army
       hq_region: region_indochina
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MALAYA
         count: 2
     - name: ve_m4_sel_fleet_1
@@ -5999,7 +5993,7 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WESTERN_MALI
         count: 2
     commanders:
@@ -6186,7 +6180,7 @@ countries:
       type: army
       hq_region: region_north_india
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SINDH
         count: 6
       - type: combat_unit_type_hussars
@@ -6221,7 +6215,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WEST_BORNEO
         count: 2
     - name: ve_m4_smb_fleet_1
@@ -6250,12 +6244,15 @@ countries:
       type: army
       hq_region: region_west_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_EAST_HAUSALAND
-        count: 13
+        count: 11
       - type: combat_unit_type_hussars
         state: STATE_EAST_HAUSALAND
         count: 6
+      - type: combat_unit_type_cannon_artillery
+        state: STATE_EAST_HAUSALAND
+        count: 2
     commanders:
     - role: general
       rank: 1
@@ -6291,7 +6288,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_EAST_JAVA
         count: 6
       - type: combat_unit_type_hussars
@@ -6326,7 +6323,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WEST_BORNEO
         count: 2
     - name: ve_m4_stg_fleet_1
@@ -6355,7 +6352,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MINDANAO
         count: 2
     - name: ve_m4_sul_fleet_1
@@ -6422,7 +6419,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_WEST_SWITZERLAND
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_WEST_SWITZERLAND
         count: 1
     commanders:
@@ -6549,7 +6546,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_MOCAMBIQUE
         count: 2
     - name: ve_m4_tgi_fleet_1
@@ -6692,7 +6689,7 @@ countries:
       type: army
       hq_region: region_north_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_LIBYA
         count: 4
     - name: ve_m4_tri_fleet_1
@@ -6724,7 +6721,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_SOUTHERN_TRANSYLVANIA
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_SOUTHERN_TRANSYLVANIA
         count: 1
     commanders: []
@@ -6740,13 +6737,13 @@ countries:
       type: army
       hq_region: region_north_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_TUNISIA
         count: 5
       - type: combat_unit_type_hussars
         state: STATE_TUNISIA
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_TUNISIA
         count: 1
     - name: ve_m4_tun_fleet_1
@@ -6819,7 +6816,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_RIGA
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_RIGA
         count: 1
     - name: ve_m4_ubd_fleet_1
@@ -6905,7 +6902,7 @@ countries:
       admiral: 0
   VAN:
     band: islam_core
-    battalions: 88
+    battalions: 94
     ships: 60
     formations:
     - name: ve_m4_van_army_1
@@ -6914,7 +6911,7 @@ countries:
       units:
       - type: combat_unit_type_skirmish_infantry
         state: STATE_LOWER_ANDALUSIA
-        count: 23
+        count: 25
       - type: combat_unit_type_hussars
         state: STATE_LOWER_ANDALUSIA
         count: 4
@@ -6927,20 +6924,20 @@ countries:
       units:
       - type: combat_unit_type_skirmish_infantry
         state: STATE_UPPER_ANDALUSIA
-        count: 22
+        count: 23
       - type: combat_unit_type_hussars
         state: STATE_UPPER_ANDALUSIA
         count: 4
       - type: combat_unit_type_mobile_artillery
         state: STATE_UPPER_ANDALUSIA
-        count: 4
+        count: 5
     - name: ve_m4_van_army_3
       type: army
       hq_region: region_southern_europe
       units:
       - type: combat_unit_type_skirmish_infantry
         state: STATE_BEIRA
-        count: 19
+        count: 21
       - type: combat_unit_type_hussars
         state: STATE_BEIRA
         count: 3
@@ -6988,7 +6985,7 @@ countries:
       admiral: 0
   VAR:
     band: europe_south
-    battalions: 11
+    battalions: 8
     ships: 1
     formations:
     - name: ve_m4_var_army_1
@@ -6997,7 +6994,7 @@ countries:
       units:
       - type: combat_unit_type_line_infantry
         state: STATE_CATALONIA
-        count: 9
+        count: 6
       - type: combat_unit_type_hussars
         state: STATE_CATALONIA
         count: 1
@@ -7030,7 +7027,7 @@ countries:
       type: army
       hq_region: region_greater_persia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_AZERBAIJAN
         count: 3
     commanders:
@@ -7043,7 +7040,7 @@ countries:
   VBC:
     band: rest
     battalions: 2
-    ships: 1
+    ships: 0
     formations:
     - name: ve_m4_vbc_army_1
       type: army
@@ -7052,18 +7049,8 @@ countries:
       - type: combat_unit_type_irregular_infantry
         state: STATE_BUENOS_AIRES
         count: 2
-    - name: ve_m4_vbc_fleet_1
-      type: fleet
-      hq_region: region_la_plata
-      ships:
-      - type: ship_type_frigate
-        state: STATE_BUENOS_AIRES
-        count: 1
     commanders:
     - role: general
-      rank: 1
-      hq: region_la_plata
-    - role: admiral
       rank: 1
       hq: region_la_plata
     vanilla_commanders:
@@ -7223,7 +7210,7 @@ countries:
       admiral: 0
   VCA:
     band: europe_south
-    battalions: 13
+    battalions: 11
     ships: 1
     formations:
     - name: ve_m4_vca_army_1
@@ -7231,13 +7218,13 @@ countries:
       hq_region: region_southern_europe
       units:
       - type: combat_unit_type_line_infantry
-        state: STATE_NEW_CASTILE
-        count: 10
+        state: STATE_OLD_CASTILE
+        count: 9
       - type: combat_unit_type_hussars
-        state: STATE_NEW_CASTILE
-        count: 2
+        state: STATE_OLD_CASTILE
+        count: 1
       - type: combat_unit_type_cannon_artillery
-        state: STATE_NEW_CASTILE
+        state: STATE_OLD_CASTILE
         count: 1
     - name: ve_m4_vca_fleet_1
       type: fleet
@@ -7316,7 +7303,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KUBAN
         count: 2
       - type: combat_unit_type_hussars
@@ -7324,10 +7311,10 @@ countries:
         count: 1
     - name: ve_m4_vcr_fleet_1
       type: fleet
-      hq_region: region_eastern_europe
+      hq_region: region_russia
       ships:
       - type: ship_type_frigate
-        state: STATE_CRIMEA
+        state: STATE_KUBAN
         count: 1
     commanders:
     - role: general
@@ -7335,7 +7322,7 @@ countries:
       hq: region_russia
     - role: admiral
       rank: 1
-      hq: region_eastern_europe
+      hq: region_russia
     vanilla_commanders:
       general: 0
       admiral: 0
@@ -7386,7 +7373,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_DAGESTAN
         count: 1
       - type: combat_unit_type_hussars
@@ -7443,7 +7430,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_HOME_COUNTIES
         count: 3
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_HOME_COUNTIES
         count: 3
     - name: ve_m4_vel_army_2
@@ -7456,7 +7443,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_MIDLANDS
         count: 3
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_MIDLANDS
         count: 2
     - name: ve_m4_vel_fleet_1
@@ -7792,7 +7779,7 @@ countries:
   VIT:
     band: rest
     battalions: 2
-    ships: 1
+    ships: 0
     formations:
     - name: ve_m4_vit_army_1
       type: army
@@ -7801,18 +7788,8 @@ countries:
       - type: combat_unit_type_irregular_infantry
         state: STATE_PANAMA
         count: 2
-    - name: ve_m4_vit_fleet_1
-      type: fleet
-      hq_region: region_central_america
-      ships:
-      - type: ship_type_frigate
-        state: STATE_PANAMA
-        count: 1
     commanders:
     - role: general
-      rank: 1
-      hq: region_central_america
-    - role: admiral
       rank: 1
       hq: region_central_america
     vanilla_commanders:
@@ -8052,7 +8029,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_NIZHNY_NOVGOROD
         count: 4
     commanders:
@@ -8071,7 +8048,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_ORYOL
         count: 16
       - type: combat_unit_type_hussars
@@ -8084,7 +8061,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_YAROSLAVL
         count: 15
       - type: combat_unit_type_hussars
@@ -8207,7 +8184,7 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_NOVGOROD
         count: 7
       - type: combat_unit_type_hussars
@@ -8248,7 +8225,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_NEW_YORK
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_NEW_YORK
         count: 1
     - name: ve_m4_vnh_fleet_1
@@ -8283,7 +8260,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_MASSACHUSETTS
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_MASSACHUSETTS
         count: 1
     - name: ve_m4_vni_fleet_1
@@ -8369,7 +8346,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_PENNSYLVANIA
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_PENNSYLVANIA
         count: 1
     - name: ve_m4_vpa_fleet_1
@@ -8732,7 +8709,7 @@ countries:
       type: army
       hq_region: region_nile_basin
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_BLUE_NILE
         count: 3
       - type: combat_unit_type_hussars
@@ -8773,7 +8750,7 @@ countries:
       type: army
       hq_region: region_siberia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_TOBOLSK
         count: 1
       - type: combat_unit_type_hussars
@@ -8795,13 +8772,13 @@ countries:
       type: army
       hq_region: region_russia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KAZAN
         count: 20
       - type: combat_unit_type_hussars
         state: STATE_KAZAN
         count: 10
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_KAZAN
         count: 4
     - name: ve_m4_vta_fleet_1
@@ -9020,7 +8997,7 @@ countries:
       type: army
       hq_region: region_equatorial_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WADDAI
         count: 1
       - type: combat_unit_type_hussars
@@ -9153,7 +9130,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_SOMALILAND
         count: 2
     - name: ve_m4_wsg_fleet_1
@@ -9182,7 +9159,7 @@ countries:
       type: army
       hq_region: region_east_africa
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_KENYA
         count: 2
     - name: ve_m4_wtu_fleet_1
@@ -9217,7 +9194,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_WURTTEMBERG
         count: 1
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_WURTTEMBERG
         count: 1
     commanders: []
@@ -9233,7 +9210,7 @@ countries:
       type: army
       hq_region: region_indonesia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_WEST_JAVA
         count: 16
       - type: combat_unit_type_hussars
@@ -9274,7 +9251,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_FUJIAN
         count: 3
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_FUJIAN
         count: 2
     - name: ve_m4_yue_army_2
@@ -9287,7 +9264,7 @@ countries:
       - type: combat_unit_type_hussars
         state: STATE_GUANGXI
         count: 3
-      - type: combat_unit_type_mobile_artillery
+      - type: combat_unit_type_cannon_artillery
         state: STATE_GUANGXI
         count: 2
     - name: ve_m4_yue_fleet_1
@@ -9295,10 +9272,10 @@ countries:
       hq_region: region_south_china
       ships:
       - type: ship_type_frigate
-        state: STATE_GUANGDONG
+        state: STATE_FUJIAN
         count: 12
       - type: ship_type_ship_of_the_line
-        state: STATE_GUANGDONG
+        state: STATE_FUJIAN
         count: 6
     commanders:
     - role: general
@@ -9322,13 +9299,13 @@ countries:
       type: army
       hq_region: region_arabia
       units:
-      - type: combat_unit_type_irregular_infantry
+      - type: combat_unit_type_line_infantry
         state: STATE_YEMEN
         count: 4
       - type: combat_unit_type_hussars
         state: STATE_YEMEN
         count: 1
-      - type: combat_unit_type_cannon_artillery
+      - type: combat_unit_type_mobile_artillery
         state: STATE_YEMEN
         count: 1
     - name: ve_m4_zai_fleet_1

@@ -72,7 +72,7 @@ Bakü, Kürdistan, Basra ve Beluç devletleri konfederasyonun **dışındadır**
 
 | Bölge | 1836 düzeni | Sınır ve kimlik kararı |
 |---|---|---|
-| Endülüs | Kurtuba merkezli federal taç; güney ve orta İberya, batıda Lizbon kıyısına erişim | Başkent Kurtuba'dır; Sevilla/İşbiliye başlıca tersane. Kuzey krallıkları ve Mağrip ayrı. |
+| Endülüs | Kurtuba merkezli federal taç; güney ve orta İberya, batıda Lizbon kıyısına erişim; 26 Eylül [P5](../../scenarios/atlas/political_p5_andalusia/README.md) ile La Mancha ve Valensiya kıyısı | Başkent Kurtuba'dır; Sevilla/İşbiliye başlıca tersane. Kuzey krallıkları ve Mağrip ayrı; Madrid–Toledo Kastilya'da, Katalonya ve Aragon iç bölgesi Aragon'da kalır. |
 | Kuzey İberya | Kastilya: Burgos–kuzey iç yayla; Aragon: Zaragoza–Barcelona/doğu kuzey kıyı; Galiçya: kuzeybatı ve Porto çevresi; Navarra: Pamplona/Bask geçitleri | İspanya ve Portekiz adında birleşik devlet yok. Portekizce konuşan topluluklar yaşamaya devam eder. |
 | Fransız ülkeleri | Paris: Seine–Loire'ın merkez/kuzey çekirdeği; Burgonya: Dijon–Saône; Bretonya: yarımada; Akitanya: Bordeaux–Garonne/Gaskonya; Oksitanya: Toulouse–Languedoc; Provence: Rhône ağzı–Marseille | **Altı bağımsız devlet.** Paris'in unvan iddiası diğer beşini vassal yapmaz. Lyon/Rhône tarifeleri Burgonya–Provence anlaşmazlığıdır. |
 | Alçak Ülkeler | Hollanda denizci birlik; Brabant kentleri ve Liège ayrı yönetimler | Tarihsel Belçika kuruluşu otomatik korunmaz. Hollanda'nın yüksek ticaret kapasitesi bütün hinterlandın sanayileşmesi değildir. |

@@ -1,0 +1,170 @@
+# B2/B3 economy and state-building targets (hand-written). User decisions, 26 Sep 2026:
+# - Rûm is the largest economy in total value added, Isfahan the highest per head;
+# - Isfahan, Rûm and Egypt are the protagonists; Europe lags, Europe's top is a step ahead of the rest;
+# - railways only as the canon's short mining and port lines.
+# Value added (VA) = building output minus input at base prices per week (B0 measure); per head in £ per 1,000 people.
+# Vanilla reference: Britain 13.2, France 8.9, Ottomans 7.3, Russia 5.4, China 1.6.
+
+# B1 group (balance_b1_tech_laws/targets.yml) -> VA per 1,000 people. Countries outside these groups are untouched.
+va_per_head:
+  isfahan: 20
+  rum: 15.5
+  egypt: 15.5
+  islam_core: 14
+  islam_mid: 7
+  islam: 4
+  europe_top: 7
+  london: 9.5
+  europe: 5.5
+  europe_south: 3.5
+  jiangnan: 2.8
+  yue: 3.0
+  china: 2.3
+tolerance: 0.15          # act only outside target x (1 +- tolerance)
+protagonists: [ISF, RUM, EGY]
+protagonist_floor: 0.97  # protagonists (and floor_countries) grow to at least this share of their target
+floor_countries: [VAN, TBR]   # 26 Sep game test: Andalusia's standard of living was low (too few jobs)
+rank_leader: RUM         # no other country's total VA exceeds rank_cap x Rûm's
+rank_cap: 0.9
+min_population: 150000   # smaller countries are only scaled down, never grown
+closure_only: true       # organized countries outside the groups (Japan, Korea, Maratha...) join the market
+                         # closure only: no VA target, no method change
+
+# Production-method profile. `advanced` groups start like vanilla's tier-1 Britain; the rest keep basic methods.
+advanced_groups: [isfahan, rum, egypt, islam_core]
+advanced_methods:         # production method group -> preference (first allowed wins)
+  pmg_base_building_textile_mill: [pm_sewing_machines, pm_dye_workshops, pm_handsewn_clothes]
+  pmg_automation_building_textile_mill: [pm_mechanized_looms, pm_traditional_looms]
+  pmg_base_building_furniture_manufactory: [pm_lathe, pm_handcrafted_furniture]
+  pmg_base_building_paper_mill: [pm_sulfite_pulping, pm_pulp_pressing]
+  pmg_base_building_tooling_workshop: [pm_steel, pm_pig_iron, pm_crude_tools]
+  pmg_mining_equipment_building_coal_mine: [pm_atmospheric_engine_pump_building_coal_mine, pm_picks_and_shovels_building_coal_mine]
+  pmg_mining_equipment_building_iron_mine: [pm_atmospheric_engine_pump_building_iron_mine, pm_picks_and_shovels_building_iron_mine]
+  pmg_mining_equipment_building_lead_mine: [pm_atmospheric_engine_pump_building_lead_mine, pm_picks_and_shovels_building_lead_mine]
+  pmg_mining_equipment_building_sulfur_mine: [pm_atmospheric_engine_pump_building_sulfur_mine, pm_picks_and_shovels_building_sulfur_mine]
+  pmg_base_building_logging_camp: [pm_saw_mills, pm_simple_forestry]
+  pmg_harvesting_process_building_wheat_farm: [pm_tools, pm_tools_disabled]
+  pmg_harvesting_process_building_rice_farm: [pm_tools_building_rice_farm, pm_tools_disabled]
+  pmg_base_building_livestock_ranch: [pm_butchering_tools, pm_open_air_stockyards]
+  pmg_sheep_ranch: [pm_sheep_farms, pm_simple_ranch]
+  pmg_steelmaking_process: [pm_bessemer_process, pm_blister_steel_process]
+  pmg_base_building_government_administration: [pm_vertical_filing_cabinets, pm_horizontal_drawer_cabinets, pm_simple_organization]
+  pmg_base_building_university: [pm_philosophy_department, pm_scholastic_education]
+  pmg_base_building_construction_sector: [pm_iron_frame_buildings, pm_wooden_buildings]
+  pmg_base_building_port: [pm_basic_port]
+  pmg_firearms_manufacturing: [pm_rifles, pm_muskets]
+  pmg_foundries: [pm_smoothbores, pm_cannons]
+  pmg_base_building_shipyard: [pm_complex_shipbuilding, pm_basic_shipbuilding]
+basic_methods:            # new buildings of the other groups (existing ones keep their methods)
+  pmg_base_building_government_administration: [pm_horizontal_drawer_cabinets, pm_simple_organization]
+  pmg_base_building_construction_sector: [pm_wooden_buildings]
+  pmg_base_building_logging_camp: [pm_saw_mills, pm_simple_forestry]
+  pmg_base_building_tooling_workshop: [pm_pig_iron, pm_crude_tools]
+  pmg_base_building_port: [pm_basic_port]
+  pmg_base_building_university: [pm_scholastic_education]
+never: [pm_craftsman_sewing, pm_luxury_furniture, pm_pot_stills, pm_patent_stills, slave_exploitation_cotton,
+        slave_exploitation_dye, worker_exploitation_cotton, worker_exploitation_dye, hand_rolled_worker_exploitation]
+
+# Growth mixes (relative weights of levels). `staple` is the state's best allowed grain farm.
+mixes:
+  default: {staple: 22, building_livestock_ranch: 10, building_logging_camp: 10, building_fishing_wharf: 4,
+            building_cotton_plantation: 6, building_textile_mill: 10, building_furniture_manufactory: 8,
+            building_food_industry: 8, building_glassworks: 4, building_paper_mill: 4, building_tooling_workshop: 5,
+            building_iron_mine: 4, building_coal_mine: 3}
+  isfahan: {staple: 12, building_livestock_ranch: 10, building_silk_plantation: 8, building_cotton_plantation: 6,
+            building_textile_mill: 10, building_paper_mill: 8, building_glassworks: 8,
+            building_chemical_plant: 4, building_tooling_workshop: 6, building_iron_mine: 6, building_coal_mine: 5,
+            building_lead_mine: 3, building_food_industry: 6, building_furniture_manufactory: 5}
+  egypt: {staple: 14, building_cotton_plantation: 14, building_textile_mill: 14, building_food_industry: 8,
+          building_paper_mill: 6, building_furniture_manufactory: 6, building_tobacco_plantation: 4,
+          building_shipyard: 3, building_glassworks: 4, building_tooling_workshop: 4, building_fishing_wharf: 4,
+          building_livestock_ranch: 6, building_sugar_plantation: 3}
+  TBR: {building_tooling_workshop: 12, building_iron_mine: 10, building_coal_mine: 8, building_steel_mill: 5,
+        building_arms_industry: 4, building_textile_mill: 8, staple: 12,
+        building_livestock_ranch: 8, building_logging_camp: 4, building_food_industry: 5}
+  VPL: {building_tooling_workshop: 8, building_arms_industry: 4, building_iron_mine: 6, building_coal_mine: 5,
+        building_logging_camp: 12, staple: 20, building_livestock_ranch: 8, building_textile_mill: 8,
+        building_furniture_manufactory: 6, building_food_industry: 6, building_glassworks: 3, building_paper_mill: 3}
+country_mix: {ISF: isfahan, EGY: egypt, TBR: TBR, VPL: VPL}
+
+# Market closure: in every market of an in-scope country, inputs reach at least `input_floor` supply/demand
+# (vanilla 1836: fabric 0.40, wood 0.44, iron 0.75) and consumer goods stay at or below `consumer_ceiling`.
+# 26 Sep game test: coal, tools and explosives were short and dragged down the standard of living; inputs now
+# close near balance. A missing input costs a building 75% of its output, so a good with zero supply always gets
+# at least one level.
+input_floor: 0.9
+input_floor_by_good: {fabric: 0.6, wood: 0.8, clothes: 0.7, furniture: 0.7, groceries: 0.7}   # consumer floors: standard of living
+# What an in-scope market still cannot make after closure (no deposit, no room) is built in exporter countries,
+# within their VA ceiling, so the importer can buy it on the world market (Egypt's coal: canon 'yakıt ithal').
+exporter_groups: [rum, egypt, islam_core, london, europe_top]
+min_output_per_level: {fabric: 10}   # a ranch without sheep farms (5 fabric) is not a fabric producer
+input_ceiling: 2.0       # an input market may hold at most this supply/demand while the world is in surplus
+                         # (protagonists and floor_countries are exporters and exempt)
+world_surplus: 1.2
+consumer_ceiling: 1.1
+export_ceiling: 1.8      # a market may export this much while the world as a whole is short of the good
+world_short: 0.9         # (world supply/demand below this)
+consumer_goods: [clothes, furniture, groceries, luxury_clothes, luxury_furniture, glass, liquor]
+producers:                # good -> building types that make it, in order of preference
+  fabric: [building_cotton_plantation, building_livestock_ranch, building_silk_plantation]
+  wood: [building_logging_camp]
+  hardwood: [building_logging_camp]
+  tools: [building_tooling_workshop]
+  iron: [building_iron_mine]
+  coal: [building_coal_mine]
+  steel: [building_steel_mill]
+  paper: [building_paper_mill]
+  dye: [building_dye_plantation]
+  silk: [building_silk_plantation]
+  sulfur: [building_sulfur_mine]
+  lead: [building_lead_mine]
+  fertilizer: [building_chemical_plant]
+  sugar: [building_sugar_plantation]
+  grain: [staple]
+  small_arms: [building_arms_industry]
+  artillery: [building_artillery_foundry]
+  ammunition: [building_munition_plant]
+  explosives: [building_explosives_factory]
+  clippers: [building_shipyard]
+  engines: [building_motor_industry]
+  clothes: [building_textile_mill]
+  furniture: [building_furniture_manufactory]
+  groceries: [building_food_industry]
+max_jobs_share: 0.26      # of a state share's population (Atlas screens at 30%)
+
+# Canon industrial basins (ekonomi_ve_toplum.md §1) kept at least at these levels; cuts never go below them.
+canon_minimum:
+  ISF: {building_textile_mill: 12, building_silk_plantation: 10, building_paper_mill: 10, building_glassworks: 8,
+        building_chemical_plant: 3}                    # Isfahan–Kashan–Shiraz: education, silk, printing, chemistry
+  TBR: {building_tooling_workshop: 14, building_iron_mine: 8, building_arms_industry: 4, building_textile_mill: 6}
+  EGY: {building_textile_mill: 24, building_cotton_plantation: 24, building_paper_mill: 6, building_shipyard: 4,
+        building_food_industry: 6}                     # Cairo–Alexandria: cotton goods, paper, shipyards, food
+  RUM: {building_textile_mill: 30, building_tooling_workshop: 30, building_steel_mill: 12, building_coal_mine: 36,
+        building_shipyard: 12}                         # Marmara–Bursa, Ereğli coal (1B.2)
+  VAN: {building_textile_mill: 12, building_shipyard: 10, building_paper_mill: 6}
+  VPL: {building_tooling_workshop: 8, building_arms_industry: 4, building_iron_mine: 6}
+  VEL: {building_textile_mill: 20, building_coal_mine: 20}   # Manchester–Midlands coal textiles
+  SWE: {building_iron_mine: 6}
+
+# B3 state buildings
+bureaucracy_margin: {advanced: 1.5, default: 1.2}   # supply / (state + population + government-level) cost
+universities: {ISF: 40, RUM: 25, EGY: 12, VAN: 10, TBR: 8, MUG: 4, BGL: 4, KSG: 2, MOR: 2, VEL: 6, VPL: 4,
+               SWE: 3, VSC: 2, FPA: 3}
+construction_points: {RUM: 70, EGY: 35, VAN: 35, ISF: 30, TBR: 20}
+railways: {RUM: 12, EGY: 3, ISF: 2, TBR: 2}        # everyone else 0 (canon: mining and port lines only)
+railway_states:            # where the lines are (first states get the levels first)
+  RUM: [STATE_KASTAMONU, STATE_EASTERN_THRACE, STATE_HUDAVENDIGAR, STATE_AYDIN]   # Ereğli coal, Istanbul, Bursa, İzmir coal
+  EGY: [STATE_LOWER_EGYPT]
+  ISF: [STATE_ISFAHAN]
+  TBR: [STATE_TABRIZ]
+max_construction_sector_per_state: 15
+
+# Third pass (26 Sep game test): fleets without crews, low market access in crowded states.
+naval_crew: {ship_type_frigate: 500, ship_type_ship_of_the_line: 800}   # ship_crew_max_add (00_ship_types.txt)
+sailors_per_level: 1000   # NMilitary SAILORS_PER_BUILDING_LEVEL
+naval_margin: 1.15        # naval administration covers the fleets' crews x this
+naval_excess: 1.6         # above this cover the extra levels (vanilla Britain's 136) are cut to the margin
+infra_headroom: 0.85      # usage at most this share of the modelled supply: the model is not the engine
+max_ports_per_state: 8
+# railways: the user now asks for lines wherever infrastructure is short and the owner has the technology;
+# the `railways` totals below are minimums.

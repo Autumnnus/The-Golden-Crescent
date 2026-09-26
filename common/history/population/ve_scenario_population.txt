@@ -5922,6 +5922,15 @@ s:STATE_NEW_BRUNSWICK = {
 	}
 }
 s:STATE_NEW_CASTILE = {
+	region_state:VAN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.12
+			}
+		}
+	}
+}
+s:STATE_NEW_CASTILE = {
 	region_state:VCA = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -8910,7 +8919,7 @@ s:STATE_UZBEKIA = {
 	}
 }
 s:STATE_VALENCIA = {
-	region_state:VAR = {
+	region_state:VAN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.118

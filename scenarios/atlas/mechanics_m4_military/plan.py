@@ -6,7 +6,8 @@ Every organized landed country (not decentralized, not excluded) gets:
 - army formations (one per `armies_per_battalions`, 1..5) in the strategic regions where it holds
   most people, recruited from its most populous state there; infantry/cavalry/artillery by share,
   each with the best unit type its technologies allow;
-- a navy of the planned size (or a small default squadron) at its most populous coastal states;
+- a navy of the planned size (or a small default squadron) at its most populous coastal states, only with
+  the admiralty technology (naval administration crews the ships);
 - one general per army and one admiral per fleet, less the commanders its vanilla history already has.
 """
 
@@ -193,6 +194,8 @@ def main() -> None:
             low, high, per = targets["navy_default"]["recognized" if kind(tag) in ("recognized", "colonial") else "other"]
             army = sum(u["count"] for f in formations for u in f["units"])
             ships = max(low, min(high, round(army / per)))
+        if "admiralty" not in techs:
+            ships = 0  # no naval administration can be built, so the ships would have no crew
         fleets = []
         if shores and ships:
             homes = []

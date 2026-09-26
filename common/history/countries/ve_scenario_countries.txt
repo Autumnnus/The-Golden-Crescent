@@ -107,18 +107,6 @@ c:ADA ?= {
 	}
 	set_capital = STATE_ADANA
 }
-c:ADG ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:ADR ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:AGC ?= {
 	effect_starting_technology_tier_5_tech = yes
 	add_technology_researched = international_trade
@@ -143,33 +131,6 @@ c:AIN ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	set_capital = STATE_SAKHALIN
-}
-c:AIR ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_4 = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:AIT ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_slave_trade
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	add_journal_entry = {
-		type = je_reconquest_of_algeria
-	}
-	set_variable = algeria_ait_abbas_var
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
-c:AJJ ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
 }
 c:AJR ?= {
 	effect_starting_technology_tier_6_tech = yes
@@ -242,10 +203,6 @@ c:ALB ?= {
 		level = 1
 	}
 	set_capital = STATE_ALBANIA
-}
-c:ALW ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
 }
 c:ANH ?= {
 	effect_starting_technology_tier_2_tech = yes
@@ -331,12 +288,6 @@ c:ATB ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_10 = yes
 	set_capital = STATE_ALASKA
-}
-c:ATR ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
 }
 c:AUL ?= {
 	effect_starting_technology_tier_6_tech = yes
@@ -444,13 +395,6 @@ c:BAD ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:BAG ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:BAL ?= {
 	effect_starting_technology_tier_4_tech = yes
 	activate_law = law_type:law_debt_slavery
@@ -464,10 +408,6 @@ c:BAL ?= {
 		institution = institution_schools
 		level = 1
 	}
-}
-c:BAS ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
 }
 c:BAV ?= {
 	effect_starting_technology_tier_2_tech = yes
@@ -601,10 +541,6 @@ c:BHN ?= {
 		level = 1
 	}
 }
-c:BHO ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
 c:BHU ?= {
 	effect_starting_technology_tier_4_tech = yes
 	activate_law = law_type:law_presidential_republic
@@ -619,32 +555,6 @@ c:BHU ?= {
 	ig:ig_landowners ?= {
 		add_ruling_interest_group = yes
 	}
-}
-c:BHV ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
-c:BHW ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
-c:BIK ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_serfdom
-	activate_law = law_type:law_debt_slavery
-	effect_starting_politics_traditional = yes
 }
 c:BLA ?= {
 	effect_starting_technology_tier_7_tech = yes
@@ -803,30 +713,11 @@ c:BOS ?= {
 	}
 	set_capital = STATE_BOSNIA
 }
-c:BRA ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	add_technology_researched = railways
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:BRD ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
 	activate_law = law_type:law_isolationism
 	activate_law = law_type:law_debt_slavery
-}
-c:BRE ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_wealth_voting
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_free_trade
 }
 c:BRG ?= {
 	effect_starting_technology_tier_5_tech = yes
@@ -839,12 +730,6 @@ c:BRG ?= {
 		institution = institution_schools
 		level = 1
 	}
-}
-c:BRK ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
 }
 c:BRN ?= {
 	effect_starting_technology_tier_7_tech = yes
@@ -1053,10 +938,6 @@ c:BUL ?= {
 	}
 	set_capital = STATE_BULGARIA
 }
-c:BUN ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
 c:BUR ?= {
 	effect_starting_technology_tier_4_tech = yes
 	effect_starting_politics_traditional = yes
@@ -1124,20 +1005,6 @@ c:CHP ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:CHT ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
 c:CIR ?= {
 	effect_starting_technology_tier_3_tech = yes
 	activate_law = law_type:law_parliamentary_republic
@@ -1163,12 +1030,6 @@ c:CIR ?= {
 		level = 1
 	}
 }
-c:CMB ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:CMI ?= {
 	effect_starting_technology_tier_4_tech = yes
 	effect_starting_politics_traditional = yes
@@ -1177,51 +1038,10 @@ c:CMI ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:COB ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
-c:COC ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
 c:COM ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_11 = yes
-}
-c:CON ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_people_of_the_book
-	activate_law = law_type:law_subjecthood
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_slave_trade
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	add_journal_entry = {
-		type = je_reconquest_of_algeria
-	}
-	set_variable = algeria_constantine_var
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-	set_capital = STATE_CONSTANTINE
-}
-c:COO ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	set_capital = STATE_WEST_BENGAL
 }
 c:CRO ?= {
 	effect_starting_technology_tier_2_tech = yes
@@ -1344,38 +1164,10 @@ c:DGR ?= {
 	effect_native_conscription_10 = yes
 	set_capital = STATE_MEKONG
 }
-c:DHA ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_serfdom
-	activate_law = law_type:law_debt_slavery
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
-c:DIN ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:DIO ?= {
-	effect_starting_technology_tier_7_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_3 = yes
-	activate_law = law_type:law_debt_slavery
-	set_capital = STATE_SENEGAL
-}
 c:DLA ?= {
 	effect_starting_technology_tier_7_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:DLM ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
 	activate_law = law_type:law_debt_slavery
 }
 c:DNK ?= {
@@ -1383,68 +1175,6 @@ c:DNK ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:DZH ?= {
-	add_technology_researched = rationalism
-	add_technology_researched = academia
-	add_technology_researched = navigation
-	add_technology_researched = admiralty
-	add_technology_researched = standing_army
-	add_technology_researched = mandatory_service
-	add_technology_researched = military_drill
-	add_technology_researched = line_infantry
-	add_technology_researched = army_reserves
-	add_technology_researched = gunsmithing
-	add_technology_researched = artillery
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = centralization
-	add_technology_researched = international_relations
-	add_technology_researched = colonization
-	add_technology_researched = manufacturies
-	add_technology_researched = cotton_gin
-	add_technology_researched = international_trade
-	add_technology_researched = currency_standards
-	add_technology_researched = democracy
-	add_technology_researched = distillation
-	add_technology_researched = drydocks
-	add_technology_researched = enclosure
-	add_technology_researched = urban_planning
-	add_technology_researched = law_enforcement
-	add_technology_researched = medical_degrees
-	add_technology_researched = shaft_mining
-	add_technology_researched = prospecting
-	add_technology_researched = romanticism
-	add_technology_researched = steelworking
-	activate_law = law_type:law_appointed_bureaucrats
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_interventionism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_migration_controls
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_tenant_farmers
-	activate_law = law_type:law_women_own_property
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_DZUNGARIA
 }
 c:EGY ?= {
 	add_technology_researched = rationalism
@@ -2044,10 +1774,6 @@ c:FZN ?= {
 		level = 1
 	}
 }
-c:GAR ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
 c:GBR ?= {
 	set_next_election_date = 1836.2.1
 	ig:ig_intelligentsia ?= {
@@ -2251,34 +1977,6 @@ c:GZA ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:HAI ?= {
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_censorship
-	activate_law = law_type:law_agrarianism
-	activate_law = law_type:law_per_capita_based_taxation
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_homesteading
-	active_law:lawgroup_citizenship ?= {
-		add_amendment = {
-			type = amendment_haiti_polish_naturalization
-			sponsor = PREV.ig:ig_armed_forces
-		}
-	}
-	set_tax_level = high
-	ig:ig_armed_forces ?= {
-		add_ruling_interest_group = yes
-	}
-	add_journal_entry = {
-		type = je_haitian_debt
-	}
-}
 c:HAM ?= {
 	effect_starting_technology_tier_2_tech = yes
 	effect_starting_politics_conservative = yes
@@ -2378,15 +2076,6 @@ c:HDY ?= {
 		level = 1
 	}
 }
-c:HEK ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:HER ?= {
 	effect_starting_technology_tier_4_tech = yes
 	activate_law = law_type:law_debt_slavery
@@ -2429,15 +2118,6 @@ c:HMB ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:HOH ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
 }
 c:HOL ?= {
 	effect_starting_technology_tier_2_tech = yes
@@ -2571,16 +2251,6 @@ c:IBO ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_1 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:IDA ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	add_modifier = {
-		name = modifier_regency_landowners
-	}
 }
 c:IND ?= {
 	effect_starting_technology_tier_4_tech = yes
@@ -2798,22 +2468,6 @@ c:JAP ?= {
 		}
 	}
 }
-c:JAS ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
-c:JEY ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_capital = STATE_CIRCARS
-}
-c:JHN ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
 c:JLF ?= {
 	effect_starting_technology_tier_7_tech = yes
 	effect_starting_politics_traditional = yes
@@ -2942,20 +2596,6 @@ c:JOH ?= {
 		level = 1
 	}
 }
-c:JUN ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_tenant_farmers
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
 c:KAB ?= {
 	effect_starting_technology_tier_4_tech = yes
 	activate_law = law_type:law_debt_slavery
@@ -2971,17 +2611,6 @@ c:KAB ?= {
 	set_institution_investment_level = {
 		institution = institution_schools
 		level = 1
-	}
-}
-c:KAF ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	add_journal_entry = {
-		type = je_unify_afghanistan
 	}
 }
 c:KAL ?= {
@@ -3083,12 +2712,6 @@ c:KBD ?= {
 	effect_native_conscription_5 = yes
 	activate_law = law_type:law_debt_slavery
 }
-c:KBU ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_4 = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:KFA ?= {
 	effect_starting_technology_tier_5_tech = yes
 	effect_starting_politics_traditional = yes
@@ -3188,67 +2811,6 @@ c:KHO ?= {
 	}
 	set_capital = STATE_KHORASAN
 }
-c:KHP ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
-c:KIR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_people_of_the_book
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-	set_capital = STATE_KIRGHIZIA
-}
-c:KKI ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_elder_council
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_peasant_levies
-	effect_native_conscription_10 = yes
-}
 c:KKY ?= {
 	effect_starting_technology_tier_7_tech = yes
 	effect_starting_politics_traditional = yes
@@ -3338,13 +2900,6 @@ c:KOR ?= {
 	}
 	add_modifier = {
 		name = modifier_regency_landowners
-	}
-}
-c:KOT ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
 	}
 }
 c:KRA ?= {
@@ -3548,23 +3103,6 @@ c:KTU ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_10 = yes
 }
-c:KUN ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	add_journal_entry = {
-		type = je_unify_afghanistan
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
 c:KUR ?= {
 	add_technology_researched = rationalism
 	add_technology_researched = academia
@@ -3630,10 +3168,6 @@ c:KUR ?= {
 		level = 1
 	}
 	set_capital = STATE_MOSUL
-}
-c:KUT ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
 }
 c:KUW ?= {
 	add_technology_researched = rationalism
@@ -3719,21 +3253,13 @@ c:KZH ?= {
 		institution = institution_schools
 		level = 1
 	}
-	set_capital = STATE_JETISY
+	set_capital = STATE_SYRDARYA
 }
 c:KZM ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:LAD ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
 }
 c:LAH ?= {
 	effect_starting_technology_tier_4_tech = yes
@@ -3858,15 +3384,6 @@ c:LIB ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:LIP ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:LKT ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
@@ -3896,21 +3413,6 @@ c:LUA ?= {
 	ig:ig_landowners ?= {
 		add_ruling_interest_group = yes
 	}
-}
-c:LUB ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_wealth_voting
-	activate_law = law_type:law_free_trade
-	activate_law = law_type:law_right_of_assembly
-}
-c:LUC ?= {
-	effect_starting_technology_tier_3_tech = yes
-	add_technology_researched = banking
-	effect_starting_politics_reactionary = yes
-	activate_law = law_type:law_religious_schools
 }
 c:LUO ?= {
 	effect_starting_technology_tier_6_tech = yes
@@ -4004,37 +3506,6 @@ c:MAD ?= {
 	activate_law = law_type:law_mercantilism
 	add_modifier = {
 		name = modifier_tangena_ordeal
-	}
-}
-c:MAH ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
-c:MAI ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	add_journal_entry = {
-		type = je_unify_afghanistan
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
 	}
 }
 c:MAK ?= {
@@ -4330,15 +3801,6 @@ c:MEC ?= {
 		level = 2
 	}
 }
-c:MEI ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:MEW ?= {
 	effect_starting_technology_tier_4_tech = yes
 	effect_starting_politics_princely_state = yes
@@ -4356,15 +3818,6 @@ c:MGD ?= {
 		institution = institution_schools
 		level = 1
 	}
-}
-c:MGH ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_elder_council
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_peasant_levies
-	effect_native_conscription_10 = yes
 }
 c:MGL ?= {
 	add_technology_researched = rationalism
@@ -4650,15 +4103,6 @@ c:MSN ?= {
 		level = 1
 	}
 }
-c:MST ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:MTB ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_native_conscription_4 = yes
@@ -4698,13 +4142,6 @@ c:MUG ?= {
 	}
 	set_capital = STATE_DELHI
 }
-c:MYB ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:MYS ?= {
 	effect_starting_technology_tier_3_tech = yes
 	effect_starting_politics_princely_state = yes
@@ -4716,12 +4153,6 @@ c:MYS ?= {
 	}
 	set_capital = STATE_MYSORE
 }
-c:MZB ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:NAG ?= {
 	effect_starting_technology_tier_4_tech = yes
 	effect_starting_politics_princely_state = yes
@@ -4732,30 +4163,6 @@ c:NAM ?= {
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:NAR ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
-c:NAS ?= {
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_reactionary = yes
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
-c:NAW ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
 }
 c:NCH ?= {
 	add_technology_researched = rationalism
@@ -4875,15 +4282,6 @@ c:NET ?= {
 		institution = institution_colonial_affairs
 		level = 1
 	}
-}
-c:NGA ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_elder_council
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_peasant_levies
-	effect_native_conscription_10 = yes
 }
 c:NNG ?= {
 	effect_starting_technology_tier_6_tech = yes
@@ -5029,11 +4427,6 @@ c:OGD ?= {
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
 }
-c:OLD ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-}
 c:OMA ?= {
 	effect_starting_technology_tier_4_tech = yes
 	add_technology_researched = currency_standards
@@ -5078,16 +4471,26 @@ c:OMO ?= {
 	activate_law = law_type:law_debt_slavery
 }
 c:ORG ?= {
-	ig:ig_industrialists ?= {
-		add_ruling_interest_group = yes
-	}
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_liberal = yes
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_free_trade
-	activate_law = law_type:law_per_capita_based_taxation
-	activate_law = law_type:law_homesteading
-	activate_law = law_type:law_frontier_colonization
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 	set_capital = STATE_OREGON
 }
 c:ORI ?= {
@@ -5158,12 +4561,6 @@ c:ORM ?= {
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
 }
-c:OUA ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_native_conscription_6 = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:OVB ?= {
 	effect_starting_technology_tier_7_tech = yes
 	effect_starting_politics_traditional = yes
@@ -5181,20 +4578,6 @@ c:OYO ?= {
 	add_technology_researched = international_trade
 	effect_starting_politics_traditional = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:OZH ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
 }
 c:PAA ?= {
 	effect_starting_technology_tier_6_tech = yes
@@ -5295,11 +4678,6 @@ c:PAP ?= {
 		level = 1
 	}
 }
-c:PAR ?= {
-	effect_starting_technology_tier_3_tech = yes
-	add_technology_researched = banking
-	effect_starting_politics_reactionary = yes
-}
 c:PAT ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_native_conscription_10 = yes
@@ -5336,20 +4714,6 @@ c:PHL ?= {
 		type = je_struggle_for_the_highveld
 	}
 }
-c:PLP ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_tenant_farmers
-	activate_law = law_type:law_debt_slavery
-	activate_law = law_type:law_religious_schools
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-}
 c:PLY ?= {
 	effect_starting_technology_tier_5_tech = yes
 	add_technology_researched = international_trade
@@ -5368,30 +4732,26 @@ c:PMA ?= {
 	effect_native_conscription_10 = yes
 }
 c:PNI ?= {
-	set_next_election_date = 1836.9.11
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_slave_trade
-	activate_law = law_type:law_wealth_voting
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_interventionism
-	activate_law = law_type:law_per_capita_based_taxation
-	activate_law = law_type:law_censorship
-	set_import_tariff_level = {
-		goods = g:artillery
-		level = high_subventions
-	}
-	set_import_tariff_level = {
-		goods = g:small_arms
-		level = high_subventions
-	}
-	set_variable = ragamuffin_nation_var
-	add_journal_entry = {
-		type = ragamuffin_war_minors
-	}
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 }
 c:PNJ ?= {
 	add_technology_researched = rationalism
@@ -5475,65 +4835,48 @@ c:PPU ?= {
 	effect_native_conscription_1 = yes
 }
 c:PRA ?= {
-	set_next_election_date = 1839.1.6
-	effect_starting_technology_tier_3_tech = yes
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_tenant_farmers
-	activate_law = law_type:law_legacy_slavery
-	activate_law = law_type:law_wealth_voting
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_traditionalism
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
 	activate_law = law_type:law_consumption_based_taxation
-	activate_law = law_type:law_censorship
-	set_import_tariff_level = {
-		goods = g:artillery
-		level = high_subventions
-	}
-	set_import_tariff_level = {
-		goods = g:small_arms
-		level = high_subventions
-	}
-	add_journal_entry = {
-		type = ragamuffin_war_minors
-	}
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 }
 c:PRG ?= {
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_freedom_of_conscience
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_interventionism
-	activate_law = law_type:law_legacy_slavery
-	activate_law = law_type:law_per_capita_based_taxation
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
 	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_secret_police
-	activate_law = law_type:law_national_militia
-	add_technology_researched = mass_communication
-	add_technology_researched = egalitarianism
-	add_technology_researched = central_archives
-	add_technology_researched = empiricism
-	set_institution_investment_level = {
-		institution = institution_home_affairs
-		level = 3
-	}
-	ig:ig_intelligentsia ?= {
-		add_ruling_interest_group = yes
-	}
-	if = {
-		limit = {
-			has_dlc_feature = rp1_content
-		}
-		add_modifier = {
-			name = hairy_feet_modifier
-		}
-	}
-	set_variable = francocracia_paraguay_var
-	initialise_caciquismo_effect = yes
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 }
 c:PRK ?= {
 	effect_starting_technology_tier_4_tech = yes
@@ -5549,24 +4892,6 @@ c:PRK ?= {
 		level = 1
 	}
 }
-c:PTA ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-}
-c:PTN ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
-c:PUD ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:PWN ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_native_conscription_10 = yes
@@ -5577,12 +4902,6 @@ c:QWR ?= {
 	effect_starting_politics_traditional = yes
 	activate_law = law_type:law_slave_trade
 	activate_law = law_type:law_mercantilism
-}
-c:RGB ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
 }
 c:RUM ?= {
 	add_technology_researched = rationalism
@@ -5750,13 +5069,6 @@ c:SAR ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:SAT ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:SAX ?= {
 	effect_starting_technology_tier_2_tech = yes
 	effect_starting_politics_conservative = yes
@@ -5773,15 +5085,6 @@ c:SCH ?= {
 	effect_starting_politics_conservative = yes
 	activate_law = law_type:law_freedom_of_conscience
 }
-c:SCM ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
-}
 c:SCT ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
@@ -5790,15 +5093,6 @@ c:SCT ?= {
 	activate_law = law_type:law_traditionalism
 	activate_law = law_type:law_peasant_levies
 	effect_native_conscription_10 = yes
-}
-c:SCW ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
 }
 c:SDM ?= {
 	effect_starting_technology_tier_5_tech = yes
@@ -5821,14 +5115,26 @@ c:SEL ?= {
 	}
 }
 c:SEQ ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_legacy_slavery
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 }
 c:SER ?= {
 	effect_starting_technology_tier_3_tech = yes
@@ -6184,13 +5490,6 @@ c:SUL ?= {
 		level = 1
 	}
 }
-c:SUR ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_princely_state = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:SWE ?= {
 	effect_starting_technology_tier_2_tech = yes
 	add_technology_researched = dialectics
@@ -6412,12 +5711,6 @@ c:TAM ?= {
 	}
 	set_capital = STATE_MADRAS
 }
-c:TBI ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_native_conscription_5 = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_slave_trade
-}
 c:TBR ?= {
 	add_technology_researched = rationalism
 	add_technology_researched = academia
@@ -6509,13 +5802,6 @@ c:TBR ?= {
 	}
 	set_capital = STATE_TABRIZ
 }
-c:TEK ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
-	set_capital = STATE_WEST_SAHARA
-}
 c:TGI ?= {
 	effect_starting_technology_tier_5_tech = yes
 	add_technology_researched = international_trade
@@ -6568,25 +5854,10 @@ c:TID ?= {
 		add_ruling_interest_group = yes
 	}
 }
-c:TIP ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_elder_council
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_traditionalism
-	activate_law = law_type:law_peasant_levies
-	effect_native_conscription_10 = yes
-}
 c:TKE ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_native_conscription_8 = yes
 	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:TMN ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
 	activate_law = law_type:law_debt_slavery
 }
 c:TNG ?= {
@@ -6688,14 +5959,6 @@ c:TRK ?= {
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
 }
-c:TRM ?= {
-	effect_starting_technology_tier_4_tech = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_slave_trade
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-}
 c:TRS ?= {
 	remove_primary_culture = cu:romanian
 	effect_starting_technology_tier_2_tech = yes
@@ -6720,38 +5983,11 @@ c:TRS ?= {
 	}
 	set_capital = STATE_NORTHERN_TRANSYLVANIA
 }
-c:TRZ ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_native_conscription_4 = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-}
 c:TSW ?= {
 	effect_starting_technology_tier_7_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_3 = yes
 	activate_law = law_type:law_debt_slavery
-}
-c:TUA ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_native_conscription_8 = yes
-	effect_starting_politics_traditional = yes
-	activate_law = law_type:law_debt_slavery
-}
-c:TUG ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_slave_trade
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	add_journal_entry = {
-		type = je_reconquest_of_algeria
-	}
-	set_variable = algeria_touggourt_var
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
 }
 c:TUN ?= {
 	effect_starting_technology_tier_4_tech = yes
@@ -6842,74 +6078,118 @@ c:UNT ?= {
 	activate_law = law_type:law_homesteading
 }
 c:URU ?= {
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_conservative = yes
-	add_technology_researched = empiricism
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_wealth_voting
-	activate_law = law_type:law_legacy_slavery
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_interventionism
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_per_capita_based_taxation
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_police
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
-	}
-	ig:ig_devout ?= {
-		set_interest_group_name = ig_catholic_church
-	}
-	initialise_caciquismo_effect = yes
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_traditionalism
 }
 c:UTE ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_12 = yes
 }
-c:UZH ?= {
-	effect_starting_technology_tier_4_tech = yes
-	activate_law = law_type:law_debt_slavery
+c:VAG ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
+	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
+	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_interventionism
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_latifundias
+	activate_law = law_type:law_legacy_slavery
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_health_system
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_people_of_the_book
+	activate_law = law_type:law_professional_army
 	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_tenant_farmers
-	effect_starting_politics_traditional = yes
-	ig:ig_landowners ?= {
-		add_ruling_interest_group = yes
+	activate_law = law_type:law_right_of_assembly
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
 	}
 	set_institution_investment_level = {
 		institution = institution_schools
 		level = 1
 	}
-	set_capital = STATE_SYRDARYA
+	set_capital = STATE_SIERRA_LEONE
 }
 c:VAI ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_ONTARIO
 }
@@ -6944,32 +6224,25 @@ c:VAK ?= {
 	set_capital = STATE_ANTOFAGASTA
 }
 c:VAM ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_ACRE
 }
@@ -7334,32 +6607,25 @@ c:VBO ?= {
 	set_capital = STATE_BOHEMIA
 }
 c:VBP ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_BAJA_CALIFORNIA
 }
@@ -7677,194 +6943,184 @@ c:VCA ?= {
 	}
 	set_capital = STATE_NEW_CASTILE
 }
-c:VCD ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
-	activate_law = law_type:law_traditionalism
-	set_capital = STATE_TEXAS
-}
 c:VCE ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_isolationism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
 	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
 	set_capital = STATE_GEORGIA
 }
 c:VCH ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_manorialism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_CHUKOTKA
 }
 c:VCI ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MANITOBA
 }
 c:VCL ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_CALIFORNIA
 }
-c:VCO ?= {
-	add_technology_researched = enclosure
+c:VCN ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
 	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
 	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
 	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_combination_acts
+	activate_law = law_type:law_laissez_faire
 	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_landed_voting
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_no_colonial_affairs
 	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_tenant_farmers
+	activate_law = law_type:law_women_own_property
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_schools
+		level = 1
+	}
+	set_capital = STATE_PIEDMONT
+}
+c:VCO ?= {
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MISSISSIPPI
 }
@@ -8146,75 +7402,27 @@ c:VDC ?= {
 	set_capital = STATE_DISTRICT_OF_COLUMBIA
 }
 c:VDE ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_NORTHWEST_TERRITORIES
-}
-c:VDR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_DURANGO
 }
 c:VEL ?= {
 	add_technology_researched = rationalism
@@ -8346,6 +7554,72 @@ c:VER ?= {
 	}
 	set_capital = STATE_ARMENIA
 }
+c:VFA ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
+	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
+	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_interventionism
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_latifundias
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_health_system
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_people_of_the_book
+	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_slavery_banned
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_schools
+		level = 1
+	}
+	set_capital = STATE_WEST_INDIES
+}
 c:VFB ?= {
 	add_technology_researched = rationalism
 	add_technology_researched = academia
@@ -8413,32 +7687,25 @@ c:VFB ?= {
 	set_capital = STATE_PERNAMBUCO
 }
 c:VFC ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_ALBERTA
 }
@@ -8484,32 +7751,25 @@ c:VGA ?= {
 	set_capital = STATE_GUATEMALA
 }
 c:VGC ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_GOIAS
 }
@@ -8627,32 +7887,25 @@ c:VGL ?= {
 	set_capital = STATE_GALICIA
 }
 c:VGN ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_CORRIENTES
 }
@@ -8698,62 +7951,114 @@ c:VGR ?= {
 	set_capital = STATE_GUERRERO
 }
 c:VGT ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MICHIGAN
 }
-c:VHD ?= {
-	add_technology_researched = enclosure
+c:VGZ ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
 	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
 	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
 	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_interventionism
 	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_latifundias
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
 	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_migration_controls
 	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_no_colonial_affairs
 	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
+	activate_law = law_type:law_people_of_the_book
+	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_religious_schools
 	activate_law = law_type:law_right_of_assembly
 	activate_law = law_type:law_slavery_banned
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_schools
+		level = 1
+	}
+	set_capital = STATE_LOUISIANA
+}
+c:VHD ?= {
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_OHIO
 }
@@ -9002,32 +8307,25 @@ c:VJL ?= {
 	set_capital = STATE_JALISCO
 }
 c:VKA ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_manorialism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_KAMCHATKA
 }
@@ -9062,44 +8360,26 @@ c:VKC ?= {
 	set_capital = STATE_POTOSI
 }
 c:VKL ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_isolationism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
 	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
 	set_capital = STATE_KOLYMA
 }
 c:VKM ?= {
@@ -9246,75 +8526,27 @@ c:VKR ?= {
 	set_capital = STATE_COSTA_RICA
 }
 c:VLA ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_NORTH_DAKOTA
-}
-c:VLE ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_WEST_INDIES
 }
 c:VLG ?= {
 	add_technology_researched = rationalism
@@ -9516,62 +8748,48 @@ c:VMB ?= {
 	set_capital = STATE_INDIAN_OCEAN_TERRITORY
 }
 c:VMC ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_ALABAMA
 }
 c:VMG ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MINAS_GERAIS
 }
@@ -9683,32 +8901,25 @@ c:VMO ?= {
 	set_capital = STATE_NIZHNY_NOVGOROD
 }
 c:VMR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MISSOURI
 }
@@ -9764,32 +8975,25 @@ c:VMS ?= {
 	set_capital = STATE_MOSCOW
 }
 c:VMT ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_MATO_GROSSO
 }
@@ -10173,63 +9377,26 @@ c:VNI ?= {
 	}
 	set_capital = STATE_MASSACHUSETTS
 }
-c:VNP ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
-	activate_law = law_type:law_traditionalism
-	set_capital = STATE_CHIHUAHUA
-}
 c:VNR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_CEARA
 }
@@ -10239,32 +9406,25 @@ c:VNT ?= {
 	effect_native_conscription_3 = yes
 }
 c:VNU ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_NUNAVUT
 }
@@ -10334,36 +9494,6 @@ c:VNV ?= {
 	}
 	set_capital = STATE_BASQUE_COUNTRY
 }
-c:VNZ ?= {
-	effect_starting_technology_tier_3_tech = yes
-	effect_starting_politics_conservative = yes
-	add_technology_researched = empiricism
-	activate_law = law_type:law_presidential_republic
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_legacy_slavery
-	activate_law = law_type:law_racial_segregation
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_interventionism
-	activate_law = law_type:law_censorship
-	activate_law = law_type:law_per_capita_based_taxation
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_police
-	set_import_tariff_level = {
-		goods = g:artillery
-		level = high_subventions
-	}
-	set_import_tariff_level = {
-		goods = g:small_arms
-		level = high_subventions
-	}
-	ig:ig_intelligentsia ?= {
-		add_ruling_interest_group = yes
-	}
-	ig:ig_devout ?= {
-		set_interest_group_name = ig_catholic_church
-	}
-	initialise_caciquismo_effect = yes
-}
 c:VOA ?= {
 	add_technology_researched = enclosure
 	add_technology_researched = urbanization
@@ -10406,103 +9536,71 @@ c:VOA ?= {
 	set_capital = STATE_OAXACA
 }
 c:VOB ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_OB
-}
-c:VOK ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_manorialism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
+	activate_law = law_type:law_traditionalism
+	set_capital = STATE_OB
+}
+c:VOK ?= {
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_peasant_levies
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_OKHOTSK
 }
 c:VOR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_manorialism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_GUAVIARE
 }
@@ -10573,32 +9671,25 @@ c:VPA ?= {
 	set_capital = STATE_PENNSYLVANIA
 }
 c:VPC ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_SASKATCHEWAN
 }
@@ -10876,122 +9967,94 @@ c:VPM ?= {
 	set_capital = STATE_POMERANIA
 }
 c:VPS ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_PARANA
 }
 c:VPT ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_LA_PAMPA
 }
 c:VPW ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_NEBRASKA
 }
 c:VQC ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_QUEBEC
 }
@@ -11103,92 +10166,71 @@ c:VRC ?= {
 	set_capital = STATE_RUHR
 }
 c:VRI ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_LOS_RIOS
 }
 c:VSA ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_manorialism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
 	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_YAKUTSK
 }
 c:VSB ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_SANTA_CRUZ
 }
@@ -11270,6 +10312,72 @@ c:VSC ?= {
 		level = 1
 	}
 	set_capital = STATE_LOWLANDS
+}
+c:VSD ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
+	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
+	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_combination_acts
+	activate_law = law_type:law_laissez_faire
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_landed_voting
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_health_system
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_tenant_farmers
+	activate_law = law_type:law_women_own_property
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_schools
+		level = 1
+	}
+	set_capital = STATE_SICILY
 }
 c:VSI ?= {
 	add_technology_researched = rationalism
@@ -11415,77 +10523,6 @@ c:VSN ?= {
 	}
 	set_capital = STATE_BLUE_NILE
 }
-c:VSO ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
-	activate_law = law_type:law_traditionalism
-	set_capital = STATE_SONORA
-}
-c:VSR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
-	activate_law = law_type:law_peasant_proprietorship
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_RIO_GRANDE
-}
 c:VSS ?= {
 	add_technology_researched = enclosure
 	add_technology_researched = urbanization
@@ -11573,32 +10610,25 @@ c:VST ?= {
 	set_capital = STATE_TOBOLSK
 }
 c:VSV ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_SAO_PAULO
 }
@@ -11656,6 +10686,72 @@ c:VTA ?= {
 		level = 2
 	}
 	set_capital = STATE_KAZAN
+}
+c:VTB ?= {
+	add_technology_researched = rationalism
+	add_technology_researched = academia
+	add_technology_researched = navigation
+	add_technology_researched = admiralty
+	add_technology_researched = standing_army
+	add_technology_researched = mandatory_service
+	add_technology_researched = military_drill
+	add_technology_researched = line_infantry
+	add_technology_researched = army_reserves
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
+	add_technology_researched = urbanization
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = centralization
+	add_technology_researched = international_relations
+	add_technology_researched = colonization
+	add_technology_researched = manufacturies
+	add_technology_researched = cotton_gin
+	add_technology_researched = international_trade
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = distillation
+	add_technology_researched = drydocks
+	add_technology_researched = enclosure
+	add_technology_researched = urban_planning
+	add_technology_researched = law_enforcement
+	add_technology_researched = medical_degrees
+	add_technology_researched = shaft_mining
+	add_technology_researched = prospecting
+	add_technology_researched = romanticism
+	add_technology_researched = steelworking
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_guild_system
+	activate_law = law_type:law_interventionism
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_latifundias
+	activate_law = law_type:law_local_police
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_merchant_navy
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_health_system
+	activate_law = law_type:law_no_home_affairs
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_no_womens_rights
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_people_of_the_book
+	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_slave_trade
+	set_institution_investment_level = {
+		institution = institution_police
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_schools
+		level = 1
+	}
+	set_capital = STATE_TIMBUKTU
 }
 c:VTC ?= {
 	add_technology_researched = enclosure
@@ -11759,107 +10855,48 @@ c:VTL ?= {
 	set_capital = STATE_TASMANIA
 }
 c:VTU ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_ALASKA
 }
-c:VUR ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_people_of_the_book
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_religious_schools
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 1
-	}
-	set_capital = STATE_URAL
-}
 c:VUT ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_COLORADO
 }
@@ -12036,116 +11073,50 @@ c:VVS ?= {
 	}
 	set_capital = STATE_VISAYAS
 }
-c:VWI ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
-	activate_law = law_type:law_child_labor_allowed
-	activate_law = law_type:law_closed_borders
-	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
-	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
-	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_schools
-	activate_law = law_type:law_no_social_security
-	activate_law = law_type:law_no_womens_rights
-	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_professional_army
-	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_slavery_banned
-	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
-	set_capital = STATE_WEST_INDIES
-}
 c:VWM ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = standing_army
-	add_technology_researched = urbanization
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
 	activate_law = law_type:law_isolationism
-	activate_law = law_type:law_land_based_taxation
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
-	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_peasant_levies
-	activate_law = law_type:law_peasant_proprietorship
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
-	activate_law = law_type:law_subjecthood
 	activate_law = law_type:law_traditionalism
 	set_capital = STATE_NEW_BRUNSWICK
 }
 c:VYE ?= {
-	add_technology_researched = enclosure
-	add_technology_researched = urbanization
-	add_technology_researched = tech_bureaucracy
-	add_technology_researched = international_trade
-	add_technology_researched = manufacturies
-	add_technology_researched = standing_army
-	add_technology_researched = military_drill
-	add_technology_researched = navigation
-	add_technology_researched = rationalism
-	add_technology_researched = shaft_mining
-	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chiefdom
 	activate_law = law_type:law_child_labor_allowed
 	activate_law = law_type:law_closed_borders
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_guild_system
-	activate_law = law_type:law_hereditary_bureaucrats
-	activate_law = law_type:law_land_based_taxation
-	activate_law = law_type:law_local_police
-	activate_law = law_type:law_manorialism
-	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_isolationism
 	activate_law = law_type:law_merchant_navy
-	activate_law = law_type:law_monarchy
-	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_no_colonial_affairs
-	activate_law = law_type:law_no_health_system
 	activate_law = law_type:law_no_home_affairs
 	activate_law = law_type:law_no_schools
 	activate_law = law_type:law_no_social_security
 	activate_law = law_type:law_no_womens_rights
 	activate_law = law_type:law_no_workers_rights
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_peasant_levies
 	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_serfdom
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_state_religion
 	activate_law = law_type:law_traditionalism
-	set_institution_investment_level = {
-		institution = institution_police
-		level = 1
-	}
 	set_capital = STATE_KRASNOYARSK
 }
 c:VZA ?= {
@@ -12243,15 +11214,6 @@ c:WKB ?= {
 	effect_starting_technology_tier_6_tech = yes
 	effect_starting_politics_traditional = yes
 	effect_native_conscription_10 = yes
-}
-c:WLD ?= {
-	effect_starting_technology_tier_2_tech = yes
-	effect_starting_politics_conservative = yes
-	activate_law = law_type:law_freedom_of_conscience
-	set_institution_investment_level = {
-		institution = institution_schools
-		level = 2
-	}
 }
 c:WLG ?= {
 	effect_starting_technology_tier_5_tech = yes
@@ -12457,11 +11419,5 @@ c:ZUL ?= {
 	add_journal_entry = {
 		type = je_struggle_for_the_highveld
 	}
-}
-c:ZWY ?= {
-	effect_starting_technology_tier_6_tech = yes
-	effect_starting_politics_traditional = yes
-	effect_native_conscription_5 = yes
-	activate_law = law_type:law_debt_slavery
 }
 }

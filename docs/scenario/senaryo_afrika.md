@@ -49,12 +49,12 @@ Zulu askerî merkezîleşmesi 1790–1825 arasındaki otlak, ticaret ve yerel re
 
 | Bölge / aktör | Siyasi yapı ve başlıca merkez | Ekonomik temel | Dış ilişki / iç sorun |
 |---|---|---|---|
-| Fas | Fes merkezli sultanlık, H8 | Tahıl, deri/dokuma, liman ve Brezilya kredisi | Endülüs'le ticari rakip; kırsal vergi ve plantasyon çıkarı |
-| Cezayir / Tunus / Trablus | Ayrı kıyı hanedan/divanları, H8 | Denizcilik, zanaat, iç ticaret geçişi | Yerel dinî gelenekler; Kahire'ye siyasi tabiiyet yok |
-| Sahra/Tuareg ve Bidan ağları | Ayrı vaha/otlak sözleşmeleri, H9 | Hayvan, tuz ve taşıma | Sabit harita sınırı ile mevsimlik hareket ayrılacak |
+| Fas | Fes merkezli sultanlık, H8 | Tahıl, deri/dokuma, liman ve Brezilya kredisi | Endülüs'le ticari rakip; kırsal vergi ve plantasyon çıkarı. Tuat, Batı Sahra ve Moritanya doğrudan; Timbuktu Paşalığı, Fas Brezilyası ve Fas Antilleri kolonileri; Septe Rûm'un boğaz üssü ([P3](../../scenarios/atlas/political_p3_borders/README.md)). |
+| Cezayir / Tunus / Trablus | Ayrı kıyı hanedan/divanları, H8 | Denizcilik, zanaat, iç ticaret geçişi | Yerel dinî gelenekler; Kahire'ye siyasi tabiiyet yok (Trablus 25 Eylül 2026'dan beri Mısır'ın bağlısı). Cezayir Konstantin, Kabiliye ve kuzey Sahra vahalarını (Tuğurt, Mzab, Şaamba) tutar ([P3](../../scenarios/atlas/political_p3_borders/README.md)). |
+| Sahra/Tuareg ve Bidan ağları | Tek Tuareg Konfederasyonu (merkezsiz); Bidan ağları Fas'ta, Tebu ve Zuwaya Fizan'da, H9 | Hayvan, tuz ve taşıma | Sabit harita sınırı ile mevsimlik hareket ayrılacak. Kuzey Afrika–Sahra'da yaklaşık 25 aktör 7'ye indi ([P3](../../scenarios/atlas/political_p3_borders/README.md)). |
 | Sokoto birliği | Sokoto ve Hausa emirlikleri; H8, üye sözleşmeleri | Tarım, tekstil, kent ticareti, eğitim | Hukuk merkezîleşmesi ve yerel emek/otorite uyuşmazlığı |
 | Bornu | Kuka çevresinde sultanlık, H8 | Göl havzası tarımı ve ticaret | Su/otlak, Sokoto rekabeti; Kahire ile dinî bağ ayrı |
-| Massina / Timbuktu | İç delta devleti / özerk ilmî-ticari kent | Hayvancılık, tahıl, nehir–çöl aktarması | Timbuktu, Massina'nın sözleşmeli özerk kentidir; bütün Malî onların tek idaresi değil |
+| Massina / Timbuktu Paşalığı | İç delta devleti / Fas'ın 1591'den kalma paşalığı | Hayvancılık, tahıl, nehir–çöl aktarması | 25 Eylül 2026 kararıyla Timbuktu Fas kolonisidir (Timbuktu Paşalığı); Massina kenti geri ister ([P3](../../scenarios/atlas/political_p3_borders/README.md)). Bütün Mali onların tek idaresi değil. |
 | Segu | Bamako–Segu nehir kuşağı, H8 | Tarım, zanaat, bölgesel pazar | Yerel inançlar ve Müslüman cemaatler; zorlayıcı emek tartışması |
 | Futa Jallon / Futa Toro | Ayrı dinî-eşraf meclisleri, H8 | Tarım, yayla ve nehir geçişi | Kıyı ticareti ve yerel otorite |
 | Vaday / Darfur / Sennaar | Ayrı sultanlıklar, H8 | Tarım, hayvan ve transit | Nil/Çad/Sahel bağları; Mısır nüfuzuna koşullu yaklaşım |
@@ -82,13 +82,14 @@ H8 varsayılanları yerel emek/inanç kartıyla kesinleştirilecek. Yukarıdaki 
 |---|---|---|---|
 | Rûm | Rufisque iskelesi; Cayor | 1809'dan kalan sınırlı ikmal/depo kirası | Senegal/Gine'nin tamamında egemenlik veya vergi |
 | Endülüs şirketleri | Whydah ticaret mahallesi; Dahomey | Depo, ticaret ve sınırlı konsolosluk | Bütün Gine Körfezi'ni “Endülüs Ginesi” kolonisi yapma |
+| Endülüs (25 Eylül 2026) | Sierra Leone, Kazamans ve Kaabu (Bissau) kıyısı | **Endülüs Ginesi** kolonisi: doğrudan egemenlik ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Gine Körfezi'nin geri kalanı |
 | Fas tüccarları | Loango ve Benguela çevresinde farklı yerel muhataplar | Ayrı liman/ambar sözleşmeleri | Angola/Kamerun'un ilhakı; tek bir yekpare Afrika kolonisi |
 | Mısır | Massava ve Dahlak'taki yerel yönetimler | Donanma ikmali, kira ve hac güvenliği | Eritre/Habeş yaylası egemenliği |
 | Mısır tüccarları | Kilwa ve Mozambik kıyı kentleri | Ticaret, ortak gemi/ambar yatırımı | Zanzibar veya bütün Mozambik'in yönetimi |
 | Britanya/Hollanda | Yerel güney kıyı kurullarıyla süreli sözleşmeler | Burnu dolaşan gemilere su, tamir, ticari ikamet | Cape Kolonisi, Boer cumhuriyetleri veya içeriye sınırsız yerleşim hakkı |
 | Mascarene Ada Meclisi | Eski Fransız/Britanya Hint Okyanusu ada payları | Yerel liman, iş rejimi ve adalar arası geçiş yönetimi | Mısır, Umman veya Avrupa metropolünün açık egemenliği |
 
-1836'da bu erişimlerin çoğu yabancı ülke rengiyle boyanacak toprak değildir. Sonraki haritada gerekirse simge/etiketle gösterilir. Yerel egemenliğin ihlal edilmesi olay nedeni olabilir; başlangıçta bütün hakların ihlal edilmiş olduğu varsayılmaz.
+**25 Eylül 2026 kullanıcı kararı:** Fas ve Endülüs Batı Afrika'nın belirli kısımlarını kolonileştirmiştir: Fas Moritanya'yı doğrudan, Timbuktu'yu paşalık kolonisi olarak; Endülüs Sierra Leone–Kazamans–Kaabu kıyısını Endülüs Ginesi olarak tutar ([P3](../../scenarios/atlas/political_p3_borders/README.md)). 1836'da bu erişimlerin geri kalanı yabancı ülke rengiyle boyanacak toprak değildir. Sonraki haritada gerekirse simge/etiketle gösterilir. Yerel egemenliğin ihlal edilmesi olay nedeni olabilir; başlangıçta bütün hakların ihlal edilmiş olduğu varsayılmaz.
 
 ## 5. Emek, inanç ve eğitim
 

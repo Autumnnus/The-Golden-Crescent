@@ -1,6 +1,6 @@
 # The Golden Crescent — yazılı dünya tasarımı
 
-**Sürüm:** 2 · **Başlangıç:** 1 Ocak 1836 · **Durum:** siyasi harita oyunda genel olarak doğrulandı; iki küçük Boer payı aktarımı ile Alaska/Teksas, Sahalin ve Tranquebar yerel egemenlik düzeltmeleri henüz motor testinden geçmedi. Demografi 01–28 etkin; dünyanın 1.046 state–ülke payının tamamında açık nüfus planı var. Mekanik aşamada kurumsal iskelet (M1), temel ekonomi (M2), log temizliği (M0), İslam önceliğiyle okuryazarlık (M1b) ve İslam dünyasının tüketim ekonomisi (M3-lite) etkin ([plan](MEKANIK_ASAMA_PLANI.md)); üçüncü oyun testi bekleniyor. Ordu, şirketler ve kalan sanayi havzaları sonraki aşamadır. [Yeni ajan için devir notu](DEVIR_NOTU.md).
+**Sürüm:** 2 · **Başlangıç:** 1 Ocak 1836 · **Durum:** siyasi harita oyunda genel olarak doğrulandı; iki küçük Boer payı aktarımı ile Alaska/Teksas, Sahalin ve Tranquebar yerel egemenlik düzeltmeleri henüz motor testinden geçmedi. Demografi 01–28 etkin; dünyanın 1.046 state–ülke payının tamamında açık nüfus planı var. Mekanik aşamada kurumsal iskelet (M1), temel ekonomi (M2), log temizliği (M0), İslam önceliğiyle okuryazarlık (M1b) ve İslam dünyasının tüketim ekonomisi (M3-lite), merkezsiz yerli topluluklar (D1), bağlılık ağı (D2) ve başlangıç antlaşmaları (D3) etkin ([plan](MEKANIK_ASAMA_PLANI.md)); üçüncü oyun testi bekleniyor. Ordu, şirketler ve kalan sanayi havzaları sonraki aşamadır. [Yeni ajan için devir notu](DEVIR_NOTU.md).
 
 ## Değişmez kurucu fikir
 

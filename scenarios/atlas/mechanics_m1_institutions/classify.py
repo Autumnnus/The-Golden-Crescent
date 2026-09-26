@@ -208,6 +208,11 @@ def main() -> None:
     tier_techs = json.loads((HERE / "tier-techs.json").read_text())
     overrides = yaml.safe_load((HERE / "overrides.yml").read_text())["countries"]
     facts = country_facts(world, index)
+    # D1 (diplomacy_d1_natives/plan.yml): native polities that become decentralized.
+    d1 = HERE.parent / "diplomacy_d1_natives/plan.yml"
+    for tag in (yaml.safe_load(d1.read_text())["countries"] if d1.exists() else {}):
+        if tag in facts:
+            facts[tag]["type"] = "decentralized"
     tags = targets()
     unknown = set(overrides) - set(tags)
     if unknown:

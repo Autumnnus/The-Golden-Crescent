@@ -1,0 +1,61 @@
+# D1 — decentralized native polities (user decision 25 Sep 2026).
+# Only the Mesoamerican (Aztec) and Andean (Inca) states, the Muisca/Cauca highland city states,
+# the colonies and colony-born states stay organised states in the Americas. Every other native
+# polity of the Americas and the small Siberian councils become decentralized: their people,
+# homelands and land remain theirs, but the land becomes colonizable as for vanilla natives.
+version: 1
+countries:
+  # --- North America: native councils and confederacies -----------------------------------
+  VMR: Mississippi Nehir Birliği
+  VGT: Büyük Göller Ticaret Birliği
+  VCE: Cherokee Meclisi
+  VHD: Haudenosaunee Konfederasyonu
+  VMC: Muscogee Meclisi
+  VCO: Choctaw Konfederasyonu
+  VAI: Anişinabe Meclisi
+  VCL: Kaliforniya Vadi Birliği
+  VWM: Wabanaki Deniz Meclisi
+  VCD: Caddo Konfederasyonu
+  VPW: Pawnee Konfederasyonu
+  VCI: Göllerarası Cree Meclisi
+  VQC: Laurentian Meclisi
+  VTU: Tlingit–Unangan Kıyı Meclisi
+  VLA: Lakota Birliği
+  VFC: Etek Dağları Meclisi
+  VPC: Ova Cree Meclisi
+  VDE: Dene Nehir Meclisi
+  VNU: Nunavut Kıyı Meclisi
+  VUT: Ute Dağ Meclisi
+  SEQ: Indian Territory (vanilla tag)
+  ORG: Kolombiya Nehri Meclisi (vanilla tag)
+  # --- Northern Mexico: outside the Mesoamerican state belt --------------------------------
+  VSO: Sonora Meclisi
+  VDR: Durango Yüksekova Meclisi
+  VSR: Rio Grande Nehir Meclisi
+  VNP: Kuzey Plato Meclisi
+  VBP: Baja Kıyı Meclisi
+  # --- South America outside the Andes ---------------------------------------------------
+  VNR: Kuzeydoğu Nehir Meclisleri
+  VMG: Minas Yüksekova Meclisi
+  VRI: Güney Nehirleri Meclisi
+  VGN: Guaraní Nehir Birliği
+  VSV: São Vicente Vadi Birliği
+  VSB: Santa Cruz Nehir Meclisi
+  VPT: Pampa Antlaşma Meclisi
+  VPS: Güney Plato Meclisleri
+  VMT: Mato Grosso Nehir Meclisi
+  VGC: Goiás Merkez Meclisi
+  VAM: Yukarı Amazon Meclisleri
+  VOR: Orinoco Nehir Meclisi
+  PRA: Grão-Pará (vanilla tag)
+  PNI: Piratini (vanilla tag)
+  PRG: Paraguay (vanilla tag)
+  URU: Uruguay (vanilla tag)
+  # --- Siberia: small native councils ----------------------------------------------------
+  VYE: Yenisey Konfederasyonu
+  VOB: Ob Nehri Konfederasyonu
+  VCH: Çukotka Meclisi
+  VKA: Kamçatka Meclisi
+  VOK: Ohotsk Kıyı Meclisi
+  VSA: Saha Cumhuriyeti
+  VKL: Kolıma Halkları Meclisi

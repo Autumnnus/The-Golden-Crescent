@@ -1,0 +1,314 @@
+# P3 — border revision after the fifth game review (user decisions 25 Sep 2026).
+# Italy/Germany less vanilla, Poland's victory over Rum and Austria, one Kazakh khanate under the
+# Tatars, a large Uyghur khanate, Muslim Andalusian America, fewer North African/Saharan polities and
+# Moroccan/Andalusian West African colonies. See README.md for the narrative and the decisions.
+version: 1
+# Province moves create a new part inside a state. `total` people leave the old owner's share with
+# its literacy; `composition` is the new part's population mix (default: the old share's mix);
+# `industry` adds explicit buildings to the new part, `take` moves levels from the old part to it.
+moves:
+  # Rum's western Mediterranean naval stations (user choice: Ceuta and southern Sardinia)
+  - state: STATE_SICILY            # Val di Mazara: Trapani, Marsala, Mazara, Sciacca
+    from: SIC
+    to: RUM
+    provinces: [x8A0548, xC090A0]
+    total: 330000
+    composition:
+      - {culture: south_italian, religion: catholic, share: 0.61}
+      - {culture: south_italian, religion: sunni, share: 0.18}   # Sicilian Muslims of the old emirate
+      - {culture: turkish, religion: sunni, share: 0.14}
+      - {culture: maghrebi, religion: sunni, share: 0.06}
+      - {culture: sephardic, religion: jewish, share: 0.01}
+    industry: {building_port: 1, building_naval_administration: 3}
+  - state: STATE_SARDINIA          # Cagliari, Sulcis and the southern coast
+    from: SAR
+    to: RUM
+    provinces: [x0D6170, xFD923D, x80D020]
+    total: 210000
+    composition:
+      - {culture: south_italian, religion: catholic, share: 0.72}
+      - {culture: south_italian, religion: sunni, share: 0.10}
+      - {culture: turkish, religion: sunni, share: 0.12}
+      - {culture: maghrebi, religion: sunni, share: 0.05}
+      - {culture: sephardic, religion: jewish, share: 0.01}
+    industry: {building_port: 1, building_naval_administration: 2}
+  - state: STATE_AL_RIF            # Ceuta (Septe) at the Strait, on the route to New Bursa
+    from: MOR
+    to: RUM
+    provinces: [xA0B0C0]
+    total: 26000
+    composition:
+      - {culture: maghrebi, religion: sunni, share: 0.48}
+      - {culture: turkish, religion: sunni, share: 0.32}
+      - {culture: berber, religion: sunni, share: 0.12}
+      - {culture: sephardic, religion: jewish, share: 0.05}
+      - {culture: spanish, religion: catholic, share: 0.03}
+    industry: {building_naval_administration: 2}
+  # Republic of Genoa: the Ligurian coast
+  - state: STATE_PIEDMONT
+    from: SAR
+    to: VCN
+    provinces: [x904061, x5F6BAA, x54728A]
+    total: 600000
+    composition:
+      - {culture: north_italian, religion: catholic, share: 0.985}
+      - {culture: sephardic, religion: jewish, share: 0.01}
+      - {culture: greek, religion: orthodox, share: 0.005}
+    industry: {building_port: 1}
+    # Piedmont's coastal buildings sit on the Ligurian coast and leave the now landlocked Savoyard part
+    take: {building_port: 1, building_shipyard: 2, building_fishing_wharf: 2, building_naval_administration: 5}
+# Whole owner shares change hands, in order. When the receiver already has a part in the state the
+# two parts merge (provinces, people, literacy weighted, composition and buildings summed).
+transfers:
+  # --- Italy
+  - {state: STATE_SICILY, from: SIC, to: VSD}               # Naples and the Sicilian crown separate
+  - {state: STATE_SARDINIA, from: SAR, to: VSD}             # Sicily–Sardinia joint crown (canon)
+  - {state: STATE_CORSICA, from: FPR, to: VCN}              # Genoese Corsica
+  - {state: STATE_EMILIA, from: LUC, to: TUS}
+  - {state: STATE_EMILIA, from: PAR, to: VMI}
+  - {state: STATE_ISTRIA, from: AUS, to: VVE}               # Venetian terraferma and Adriatic coast
+  - {state: STATE_SOUTH_TYROL, from: AUS, to: VVE}
+  # --- Germany: the micro-states join their neighbours
+  - {state: STATE_ELBE, from: BRE, to: HAM}                  # Hanseatic League
+  - {state: STATE_SCHLESWIG_HOLSTEIN, from: LUB, to: HAM}
+  - {state: STATE_SAXONY, from: MEI, to: WEI}                # Thuringian League
+  - {state: STATE_SAXONY, from: COB, to: WEI}
+  - {state: STATE_SAXONY, from: SCW, to: WEI}
+  - {state: STATE_HESSE, from: HEK, to: HES}                 # Hesse; Frankfurt stays a free city
+  - {state: STATE_HESSE, from: NAS, to: HES}
+  - {state: STATE_HESSE, from: WLD, to: HES}
+  - {state: STATE_HANNOVER, from: OLD, to: HAN}
+  - {state: STATE_BRUNSWICK, from: BRA, to: HAN}
+  - {state: STATE_MECKLENBURG, from: MST, to: MEC}
+  - {state: STATE_WURTTEMBERG, from: HOH, to: WUR}
+  - {state: STATE_WESTPHALIA, from: LIP, to: VRC}
+  - {state: STATE_WESTPHALIA, from: SCM, to: VRC}
+  # --- Eastern Europe: the 1818–1827 war (Poland's victory over Rum and its Austrian ally)
+  - {state: STATE_BUKOVINA, from: AUS, to: VPL}
+  - {state: STATE_BESSARABIA, from: MOL, to: VPL}
+  - {state: STATE_DOBRUDJA, from: BUL, to: WAL}              # the Danube mouth leaves the Danube emirate
+  - {state: STATE_DALMATIA, from: AUS, to: CRO}              # Hungary's Croatian crown
+  - {state: STATE_MONTENEGRO, from: AUS, to: MON}
+  # --- Tatar khanate and Central Asia
+  - {state: STATE_PERM, from: VUR, to: VTA}
+  - {state: STATE_URAL, from: VUR, to: VTA}
+  - {state: STATE_CHUVASHIA, from: VMA, to: VTA}
+  - {state: STATE_SAMARA, from: KZH, to: VTA}
+  - {state: STATE_CHELYABINSK, from: KZH, to: VTA}
+  - {state: STATE_CHELYABINSK, from: OZH, to: VTA}
+  - {state: STATE_SEMIRECHE, from: OZH, to: KZH}             # one Kazakh khanate instead of three hordes
+  - {state: STATE_AKMOLINSK, from: OZH, to: KZH}
+  - {state: STATE_SYRDARYA, from: UZH, to: KZH}
+  - {state: STATE_SYRDARYA, from: OZH, to: KZH}
+  - {state: STATE_URALSK, from: TRM, to: KZH}
+  - {state: STATE_KHIVA, from: KZH, to: KHI}                 # Khwarazm takes the Turkmen desert
+  - {state: STATE_KHIVA, from: TRM, to: KHI}
+  - {state: STATE_TURKMENIA, from: TRM, to: KHI}
+  - {state: STATE_MERZ, from: TRM, to: BUK}                  # Merv, Maimana and Kunduz to Bukhara
+  - {state: STATE_MERZ, from: KHI, to: BUK}
+  - {state: STATE_BALKH, from: KUN, to: BUK}
+  - {state: STATE_BALKH, from: MAI, to: BUK}
+  - {state: STATE_KIRGHIZIA, from: KIR, to: KOK}
+  # --- Uyghur khanate
+  - {state: STATE_JETISY, from: KZH, to: KSG}
+  - {state: STATE_DZUNGARIA, from: DZH, to: KSG}
+  - {state: STATE_ALTAI, from: DZH, to: KSG}
+  - {state: STATE_GANSU, from: NCH, to: KSG}                 # the Hexi corridor under Uyghur rule
+  # --- Americas
+  - {state: STATE_BOLIVAR, from: VNZ, to: VSI}               # Venezuela joins New Ishbiliya
+  - {state: STATE_WEST_INDIES, from: VNZ, to: VSI}
+  - {state: STATE_HAITI, from: HAI, to: VPI}                 # all Hispaniola in the Pearl Islands
+  - {state: STATE_WEST_INDIES, from: VLE, to: VFA}           # Lesser Antilles: the Moroccan Antilles
+  - {state: STATE_WEST_INDIES, from: VWI, to: VFA}
+  # --- North Africa and the Sahara
+  - {state: STATE_CONSTANTINE, from: CON, to: MAS}           # Algiers: Constantine, Kabylia, the oases
+  - {state: STATE_CONSTANTINE, from: AIT, to: MAS}
+  - {state: STATE_EAST_SAHARA, from: TUG, to: MAS}
+  - {state: STATE_EAST_SAHARA, from: CMB, to: MAS}
+  - {state: STATE_SAHARA, from: MZB, to: MAS}
+  - {state: STATE_SAHARA, from: CMB, to: MAS}
+  - {state: STATE_SAHARA, from: TUA, to: MOR}                # Morocco: Tuat, Western Sahara, Mauritania
+  - {state: STATE_SAHARA, from: TEK, to: MOR}
+  - {state: STATE_SAHARA, from: RGB, to: MOR}
+  - {state: STATE_WEST_SAHARA, from: TEK, to: MOR}
+  - {state: STATE_WEST_SAHARA, from: DLM, to: MOR}
+  - {state: STATE_WEST_SAHARA, from: RGB, to: MOR}
+  - {state: STATE_MAURITANIA, from: OUA, to: MOR}
+  - {state: STATE_MAURITANIA, from: TRZ, to: MOR}
+  - {state: STATE_MAURITANIA, from: DLM, to: MOR}
+  - {state: STATE_MAURITANIA, from: BRK, to: MOR}
+  - {state: STATE_INNER_MAURITANIA, from: OUA, to: MOR}
+  - {state: STATE_INNER_MAURITANIA, from: RGB, to: MOR}
+  - {state: STATE_INNER_MAURITANIA, from: ADR, to: MOR}
+  - {state: STATE_TIMBUKTU, from: MSN, to: VTB}              # the Moroccan pashalik of 1591 survives
+  - {state: STATE_TIMBUKTU, from: OUA, to: VTB}
+  - {state: STATE_TIMBUKTU, from: ADR, to: VTB}
+  - {state: STATE_TIMBUKTU, from: RGB, to: VTB}
+  - {state: STATE_TIMBUKTU, from: ADG, to: AHG}              # one Tuareg confederation
+  - {state: STATE_TIMBUKTU, from: ATR, to: AHG}
+  - {state: STATE_EAST_SAHARA, from: AJJ, to: AHG}
+  - {state: STATE_EAST_SAHARA, from: ADG, to: AHG}
+  - {state: STATE_NIGER, from: AIR, to: AHG}
+  - {state: STATE_NIGER, from: AJJ, to: AHG}
+  - {state: STATE_NIGER, from: DIN, to: AHG}
+  - {state: STATE_NIGER, from: TBI, to: FZN}                 # Fezzan: Tibesti, Ghat and the Zuwaya
+  - {state: STATE_CHAD, from: TBI, to: FZN}
+  - {state: STATE_LIBYA, from: TBI, to: FZN}
+  - {state: STATE_LIBYAN_DESERT, from: TBI, to: FZN}
+  - {state: STATE_LIBYAN_DESERT, from: AJJ, to: FZN}
+  - {state: STATE_LIBYAN_DESERT, from: ZWY, to: FZN}
+  - {state: STATE_LIBYA, from: ZWY, to: TRI}
+  - {state: STATE_TRIPOLI, from: ZWY, to: TRI}
+  # --- Andalusian Guinea
+  - {state: STATE_SIERRA_LEONE, from: TMN, to: VAG}
+  - {state: STATE_SIERRA_LEONE, from: MDK, to: VAG}
+  - {state: STATE_SENEGAL, from: DIO, to: VAG}               # Casamance
+  - {state: STATE_SENEGAL, from: KBU, to: VAG}               # Kaabu (Bissau coast)
+  - {state: STATE_GUINEA, from: KBU, to: VAG}
+# Field changes of existing countries.
+countries:
+  SIC: {name: Kingdom of Naples, name_tr: Napoli Krallığı, adjective: Neapolitan, adjective_tr: Napoli}
+  KSG: {name: Uyghur Khanate, name_tr: Uygur Hanlığı, adjective: Uyghur, adjective_tr: Uygur}
+  KZH: {name: Kazakh Khanate, name_tr: Kazak Hanlığı, adjective: Kazakh, adjective_tr: Kazak,
+        cultures: [kazak], capital: STATE_SYRDARYA}
+  HAM: {name: Hanseatic League, name_tr: Hansa Kent Birliği, adjective: Hanseatic, adjective_tr: Hansa}
+  WEI: {name: Thuringian League, name_tr: Thüringen Birliği, adjective: Thuringian, adjective_tr: Thüringen}
+  HES: {name: Hesse, name_tr: Hessen, adjective: Hessian, adjective_tr: Hessen}
+  UBD: {name: Livonian Confederation, name_tr: Livonya Konfederasyonu, adjective: Livonian, adjective_tr: Livonya}
+  AHG: {name: Tuareg Confederation, name_tr: Tuareg Konfederasyonu, adjective: Tuareg, adjective_tr: Tuareg}
+# New countries copy the technology tier, laws and institutions of an M1 country (`like`);
+# `laws` replace the template's law of the same group.
+new_countries:
+  VSD:
+    name: Crown of Sicily and Sardinia
+    name_tr: Sicilya–Sardinya Tacı
+    adjective: Sicilian
+    adjective_tr: Sicilya
+    color: [196, 156, 58]
+    country_type: recognized
+    tier: kingdom
+    cultures: [south_italian]
+    religion: catholic
+    capital: STATE_SICILY
+    like: VVE
+    laws: [law_monarchy]
+  VCN:
+    name: Republic of Genoa
+    name_tr: Ceneviz Cumhuriyeti
+    adjective: Genoese
+    adjective_tr: Ceneviz
+    color: [176, 36, 48]
+    country_type: recognized
+    tier: principality
+    cultures: [north_italian]
+    religion: catholic
+    capital: STATE_PIEDMONT
+    like: VVE
+  VTB:
+    name: Pashalik of Timbuktu
+    name_tr: Timbuktu Paşalığı
+    adjective: Timbuktu
+    adjective_tr: Timbuktu
+    color: [166, 122, 72]
+    country_type: colonial
+    tier: principality
+    cultures: [songhai, bidan]
+    religion: sunni
+    capital: STATE_TIMBUKTU
+    like: VFB
+  VFA:
+    name: Moroccan Antilles
+    name_tr: Fas Antilleri
+    adjective: Antillean
+    adjective_tr: Antil
+    color: [150, 64, 58]
+    country_type: colonial
+    tier: principality
+    cultures: [afro_antillean]
+    religion: sunni
+    capital: STATE_WEST_INDIES
+    like: VFB
+    laws: [law_slavery_banned]       # the two island councils had already abolished slavery
+  VAG:
+    name: Andalusian Guinea
+    name_tr: Endülüs Ginesi
+    adjective: Guinean
+    adjective_tr: Gine
+    color: [64, 128, 96]
+    country_type: colonial
+    tier: principality
+    cultures: [kissi, mande]
+    religion: sunni
+    capital: STATE_SIERRA_LEONE
+    like: VSI
+# Muslim Andalusian America. Christian rows of the listed owners convert to Sunni Islam except a
+# `keep` fraction (the Andalusian Christian minority); where a `target` Muslim share is given, local
+# faiths convert further until it is reached. Owners' every American share is processed.
+religion:
+  owners: [VPI, VFA, VSI, VNE, VGZ, VSS, VNC, VMY]
+  keep: 0.15
+  targets:
+    STATE_HAITI: 0.72
+    STATE_SANTO_DOMINGO: 0.72
+    STATE_PUERTO_RICO: 0.72
+    STATE_JAMAICA: 0.72
+    STATE_WESTERN_CUBA: 0.72
+    STATE_CENTRAL_CUBA: 0.72
+    STATE_EASTERN_CUBA: 0.72
+    STATE_WEST_INDIES: 0.70
+    STATE_ZULIA: 0.62
+    STATE_MIRANDA: 0.65
+    STATE_ANTIOQUIA: 0.58
+    STATE_BOLIVAR: 0.40
+    STATE_MEXICO: 0.60
+    STATE_VERACRUZ: 0.55
+# Added Muslim communities (share of the owner's share); other rows shrink in proportion.
+communities:
+  - state: STATE_FUJIAN          # Zaitun (Quanzhou): the medieval Muslim merchant port
+    owner: YUE
+    rows:
+      - {culture: han, religion: sunni, share: 0.040}
+      - {culture: persian, religion: sunni, share: 0.004}
+      - {culture: mashriqi, religion: sunni, share: 0.004}
+  - state: STATE_GANSU           # Uyghur garrisons and Hui of the Hexi corridor
+    owner: KSG
+    rows:
+      - {culture: uighur, religion: sunni, share: 0.06}
+      - {culture: han, religion: sunni, share: 0.06}
+# Claims added to the state's inherited claims.
+claims:
+  STATE_TALINN: [SWE, VPL]          # Livonia coveted by Sweden and Poland
+  STATE_TARTU: [SWE, VPL]
+  STATE_RIGA: [SWE, VPL]
+  STATE_COURLAND: [SWE, VPL]
+  STATE_NINGXIA: [KSG]
+  STATE_QINGHAI: [KSG]
+  STATE_GANSU: [NCH]
+  STATE_ISTRIA: [AUS]
+  STATE_SOUTH_TYROL: [AUS]
+  STATE_DALMATIA: [AUS]
+  STATE_BUKOVINA: [AUS]
+  STATE_DOBRUDJA: [BUL]
+  STATE_SICILY: [VSD]
+  STATE_SARDINIA: [VSD]
+  STATE_AL_RIF: [MOR]
+  STATE_TIMBUKTU: [MSN]
+diplomacy:
+  remove_subjects: [[BUK, MAI], [BUK, KUN], [KOK, KIR]]
+  subjects:
+    - {overlord: HUN, subject: CRO, type: puppet, liberty_desire: 35}
+    - {overlord: VPL, subject: WAL, type: protectorate, liberty_desire: 40}
+    - {overlord: VTA, subject: KZH, type: protectorate, liberty_desire: 50}   # Tatar tribute (vanilla protectorate)
+    - {overlord: VTA, subject: VST, type: protectorate, liberty_desire: 45}
+    - {overlord: MOR, subject: VTB, type: colony, liberty_desire: 40}
+    - {overlord: MOR, subject: VFA, type: colony, liberty_desire: 40}
+    - {overlord: VAN, subject: VAG, type: colony, liberty_desire: 40}
+  relations:   # relations are mutual: one row per pair
+    - {actor: SWE, target: VPL, value: -50}
+    - {actor: UBD, target: SWE, value: -25}
+    - {actor: UBD, target: VPL, value: -25}
+    - {actor: KSG, target: NCH, value: -60}
+    - {actor: AUS, target: VPL, value: -40}
+    - {actor: AUS, target: HUN, value: -30}
+    - {actor: HUN, target: TRS, value: 60}
+# Rivalries and treaties live in diplomacy_d3_treaties/plan.yml (P3 edits are marked there).

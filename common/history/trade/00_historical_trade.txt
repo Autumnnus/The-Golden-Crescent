@@ -9,13 +9,6 @@ s:STATE_SVEALAND = {
 		}
 	}
 }
-s:STATE_SICILY = {
-	region_state:SIC = {
-		sg:sulfur = {
-			add_exports = 25
-		}
-	}
-}
 s:STATE_CAMPANIA = {
 	region_state:SIC = {
 		sg:silk = {

@@ -348,6 +348,72 @@ kendilerine özgü province'lerini korur.
 | `STATE_TANGANYIKA` | `NYM` — Unyamwezi | `MSI` | 3 |
 | `STATE_TRIPOLI` | `TRI` — Tripolitania | `FZN`, `ZWY` | 2 |
 
+## 25 Eylül 2026 sonrası değişiklikler
+
+| State | Önce | Sonra | Gerekçe |
+|---|---|---|---|
+| STATE_GALICH (Vologda) | VPL | VMS | Kart 12'de Kostroma bölgesi "Galich" Galiçya ile karıştırılmıştı |
+| STATE_DIYARBAKIR | KUR | RUM | Kürdistan devleti kaldırıldı; `KUR` Musul Emirliği oldu |
+| STATE_NORTHERN_THRACE | BUL | RUM | Doğrudan Rûm yönetimi |
+| STATE_LORRAINE, STATE_FRANCHE_COMTE | FBG | FPA | Paris'in taç toprakları genişledi |
+| STATE_POITOU | FAQ | FPA | Aynı |
+| STATE_RIO_GRANDE, STATE_DURANGO, STATE_CHIHUAHUA, STATE_SINALOA, STATE_SONORA | VSR, VDR, VNP, VSO | VNE | Yeni Endülüs kuzeye genişledi |
+| STATE_LOUISIANA, STATE_ARKANSAS | VMR | VGZ | Yeni Körfez kolonisi Yeni Gırnata |
+| STATE_TEXAS (Caddo payı) | VCD | VGZ | Aynı; Komançi payları değişmedi |
+| STATE_SANTO_DOMINGO | HAI | VPI | Hispanyola İnci Adaları sisteminde |
+| STATE_ZULIA, STATE_MIRANDA | VNZ | VSI | Yeni İşbiliye'nin Karayip kıyısı |
+
+Ayrıntı: [P2](../../scenarios/atlas/political_p2_corrections/README.md).
+
+### P3 — beşinci inceleme sınır revizyonu (25 Eylül 2026)
+
+Province bölmeleri:
+
+| State | Province | Önce | Sonra | Gerekçe |
+|---|---|---|---|---|
+| STATE_SICILY | x8A0548, xC090A0 (Trapani–Mazara–Sciacca) | SIC | RUM | Rûm'un Batı Sicilya deniz istasyonu |
+| STATE_SARDINIA | x0D6170, xFD923D, x80D020 (Cagliari–Sulcis) | SAR | RUM | Güney Sardinya istasyonu |
+| STATE_AL_RIF | xA0B0C0 (Septe/Ceuta) | MOR | RUM | Boğaz üssü |
+| STATE_PIEDMONT | x904061, x5F6BAA, x54728A (Liguria) | SAR | VCN | Ceneviz Cumhuriyeti |
+
+Başlıca pay aktarımları:
+
+| Bölge | Önce | Sonra |
+|---|---|---|
+| Sicilya (kalan), Sardinya (kalan) | SIC, SAR | VSD (Sicilya–Sardinya Tacı); `SIC` Napoli oldu |
+| Korsika | FPR | VCN |
+| İstirya, Güney Tirol | AUS | VVE |
+| Dalmaçya | AUS | CRO (Macaristan kuklası) |
+| Bukovina / Besarabya | AUS / MOL | VPL |
+| Dobruca | BUL | WAL (Lehistan koruması) |
+| Emilia'da Lucca / Parma | LUC / PAR | TUS / VMI |
+| Alman küçük devletleri | BRE, LUB, MEI, COB, SCW, HEK, NAS, WLD, OLD, BRA, MST, HOH, LIP, SCM | HAM, WEI, HES, HAN, MEC, WUR, VRC |
+| Perm, Ural, Çuvaşya, Samara ve Çelyabinsk payları | VUR, VMA, KZH, OZH | VTA |
+| Kazak cüzleri | OZH, UZH, TRM (Uralsk) | KZH (Kazak Hanlığı, Tatar koruması) |
+| Türkmen çölü, Hive'deki Kazak payı | TRM, KZH | KHI |
+| Merv, Belh | TRM, KHI, KUN, MAI | BUK |
+| Kırgızistan | KIR | KOK |
+| Yedisu, Cungarya, Altay, Gansu | KZH, DZH, NCH | KSG (Uygur Hanlığı) |
+| Bolívar ve Batı Hint payı / Haiti | VNZ / HAI | VSI / VPI |
+| Batı Hint'teki Leeward ve Windward | VLE, VWI | VFA (Fas Antilleri) |
+| Konstantin, Tuğurt, Mzab, Şaamba | CON, AIT, TUG, MZB, CMB | MAS |
+| Tuat, Batı Sahra, Moritanya | TUA, TEK, RGB, DLM, OUA, TRZ, BRK, ADR | MOR |
+| Timbuktu | MSN, OUA, ADR, RGB | VTB (Timbuktu Paşalığı); Tuareg payları AHG |
+| Tuareg meclisleri | ADG, ATR, AJJ, AIR, DIN | AHG (Tuareg Konfederasyonu) |
+| Tebu ve Zuwaya | TBI, ZWY, AJJ (Libya çölü) | FZN; Trablus ve Kirenayka'daki Zuwaya payları TRI |
+| Sierra Leone, Kazamans, Kaabu | TMN, MDK, DIO, KBU | VAG (Endülüs Ginesi) |
+
+Tam liste: [P3 planı](../../scenarios/atlas/political_p3_borders/plan.yml), anlatım: [P3](../../scenarios/atlas/political_p3_borders/README.md).
+
+### P4 — altıncı inceleme (26 Eylül 2026)
+
+- Province bölmeleri: `STATE_HAIL` batısı (47 province) JAB → SYR; `STATE_URALSK` batısı (28 province) KZH → VTA.
+- Çinghay NCH → KSG; Chitral (Keşmir ve Peştunistan payları) ve Kafiristan → KSG.
+- el-Hasa (`STATE_HAIL` NEJ payı) → BHN; Mahra → KAT.
+- Hindistan'da 35 küçük pay komşu devletlere geçti.
+
+Tam liste: [P4 planı](../../scenarios/atlas/political_p4_corrections/plan.yml).
+
 ## Uygulama kuralı
 
 Bir satırın değişmesi ilgili Atlas kartı, bu defter, komşu siyasi belge ve

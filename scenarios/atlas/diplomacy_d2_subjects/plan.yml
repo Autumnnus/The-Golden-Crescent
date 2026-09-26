@@ -1,0 +1,89 @@
+# D2 — new subject relations (user decisions 25 Sep 2026, see docs/scenario/DIPLOMASI_KURULUM_ONERISI.md).
+# Isfahan holds the Persian states; Paris holds all five French states; Egypt the Nile and Libyan
+# belt (the Levant stays a jointly guaranteed buffer, D3); Tabriz stays Isfahan's ally (D3) with
+# its own Caucasus protectorates. The existing 27 subject relations are unchanged.
+version: 1
+subject_types:
+  ve_shah_vassal:
+    base: vassal
+    name: Shah's Vassal
+    name_tr: Şah Vassalı
+    join_overlord_wars: true
+    income_transfer: 0.08
+  ve_feudal_vassal:
+    base: vassal
+    name: Feudal Vassal
+    name_tr: Feodal Vassal
+    join_overlord_wars: true
+    income_transfer: 0.1
+  ve_nile_compact:
+    base: vassal
+    name: Nile Compact
+    name_tr: Nil Sözleşmesi
+    join_overlord_wars: false
+    income_transfer: 0.06
+  ve_crown_union:
+    base: personal_union
+    name: Crown Union
+    name_tr: Taç Birliği
+    join_overlord_wars: true
+    income_transfer: 0.05
+  ve_tatar_tribute:
+    base: tributary
+    name: Tatar Tribute
+    name_tr: Tatar Haracı
+    join_overlord_wars: false
+    income_transfer: 0.07
+subjects:
+  # Iran: the Persian core under Isfahan's chairmanship
+  - {overlord: ISF, subject: KHO, type: ve_shah_vassal, liberty_desire: 25}
+  - {overlord: ISF, subject: MAZ, type: ve_shah_vassal, liberty_desire: 25}
+  - {overlord: ISF, subject: KRM, type: ve_shah_vassal, liberty_desire: 30}
+  - {overlord: ISF, subject: LUR, type: ve_shah_vassal, liberty_desire: 35}
+  - {overlord: ISF, subject: HUZ, type: ve_shah_vassal, liberty_desire: 35}
+  - {overlord: ISF, subject: HER, type: ve_tributary_compact, liberty_desire: 45}
+  # Tabriz: Caucasus protectorates
+  - {overlord: TBR, subject: VBA, type: ve_limited_protection, liberty_desire: 35}
+  - {overlord: TBR, subject: VER, type: ve_limited_protection, liberty_desire: 40}
+  # France: Paris' feudal crown over the other French states
+  - {overlord: FPA, subject: FBG, type: ve_feudal_vassal, liberty_desire: 55}
+  - {overlord: FPA, subject: FAQ, type: ve_feudal_vassal, liberty_desire: 50}
+  - {overlord: FPA, subject: FOC, type: ve_feudal_vassal, liberty_desire: 45}
+  - {overlord: FPA, subject: FBR, type: ve_feudal_vassal, liberty_desire: 35}
+  - {overlord: FPA, subject: FPR, type: ve_feudal_vassal, liberty_desire: 35}
+  # Egypt: the Nile and Libyan belt (Hijaz already under hajj protection)
+  - {overlord: EGY, subject: VSN, type: ve_nile_compact, liberty_desire: 35}
+  - {overlord: EGY, subject: TRI, type: ve_nile_compact, liberty_desire: 40}
+  - {overlord: EGY, subject: FZN, type: ve_tributary_compact, liberty_desire: 45}
+  - {overlord: EGY, subject: DFR, type: ve_tributary_compact, liberty_desire: 50}
+  # Oman: Gulf and Hadramawt coast
+  - {overlord: OMA, subject: ABU, type: ve_limited_protection, liberty_desire: 35}
+  - {overlord: OMA, subject: MAH, type: ve_limited_protection, liberty_desire: 40}
+  - {overlord: OMA, subject: KAT, type: ve_limited_protection, liberty_desire: 40}
+  # Great Tatar Khanate: the continuing Tatar yoke over Muscovy and the Volga peoples
+  - {overlord: VTA, subject: VMS, type: ve_tatar_tribute, liberty_desire: 65}
+  - {overlord: VTA, subject: VMA, type: ve_autonomous_compact, liberty_desire: 40}
+  - {overlord: VTA, subject: VMO, type: ve_autonomous_compact, liberty_desire: 45}
+  - {overlord: VTA, subject: VKM, type: ve_tributary_compact, liberty_desire: 45}
+  # Poland-Lithuania: Ducal Prussia as a fief
+  - {overlord: VPL, subject: VPD, type: ve_contractual_vassal, liberty_desire: 30}
+  # Kalmar foreign council (Copenhagen): Vinland colony, Schleswig and Holstein crown union
+  - {overlord: DEN, subject: VIN, type: ve_colonial_charter, liberty_desire: 35}
+  - {overlord: DEN, subject: SCH, type: ve_crown_union, liberty_desire: 25}
+  - {overlord: DEN, subject: HOL, type: ve_crown_union, liberty_desire: 30}
+  # London crown: Irish crown union and the direct overseas crown dependencies
+  - {overlord: VEL, subject: VIR, type: ve_crown_union, liberty_desire: 45}
+  - {overlord: VEL, subject: GBR, type: ve_colonial_charter, liberty_desire: 15}
+  # Turkestan khanates
+  - {overlord: BUK, subject: MAI, type: ve_tributary_compact, liberty_desire: 40}
+  - {overlord: BUK, subject: KUN, type: ve_tributary_compact, liberty_desire: 45}
+  - {overlord: KOK, subject: KIR, type: ve_tributary_compact, liberty_desire: 50}
+  # Deccan: the Nizam's order
+  - {overlord: HYD, subject: KNO, type: ve_contractual_vassal, liberty_desire: 30}
+  # Andalusia: Central American trade compacts
+  - {overlord: VAN, subject: VSS, type: ve_tributary_compact, liberty_desire: 50}
+  - {overlord: VAN, subject: VNC, type: ve_tributary_compact, liberty_desire: 50}
+  # P2 (25 Sep 2026, fourth review): Serbia and Crimea under Rum; the new Gulf colony under Andalusia
+  - {overlord: RUM, subject: SER, type: ve_autonomous_compact, liberty_desire: 45}
+  - {overlord: RUM, subject: VCR, type: ve_autonomous_compact, liberty_desire: 35}
+  - {overlord: VAN, subject: VGZ, type: ve_colonial_charter, liberty_desire: 40}

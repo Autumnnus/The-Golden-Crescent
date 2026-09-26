@@ -1,0 +1,64 @@
+# P2 — political and demographic corrections after the fourth game review (user decisions 25 Sep 2026).
+version: 1
+# Whole state parts change owner; population, literacy, composition and explicit industry move
+# with them (industry is re-checked against the new owner's technologies and laws).
+transfers:
+  - {state: STATE_GALICH, from: VPL, to: VMS}             # card 12 read vanilla "Galich" (Kostroma) as Galicia
+  - {state: STATE_DIYARBAKIR, from: KUR, to: RUM}         # Kurdistan dissolved; Diyarbakır to Rum
+  - {state: STATE_NORTHERN_THRACE, from: BUL, to: RUM}    # Plovdiv plain under direct Rum rule
+  - {state: STATE_LORRAINE, from: FBG, to: FPA}           # Paris takes French-speaking border lands
+  - {state: STATE_FRANCHE_COMTE, from: FBG, to: FPA}
+  - {state: STATE_POITOU, from: FAQ, to: FPA}
+  - {state: STATE_RIO_GRANDE, from: VSR, to: VNE}         # New Andalusia north into Aridoamerica
+  - {state: STATE_DURANGO, from: VDR, to: VNE}
+  - {state: STATE_CHIHUAHUA, from: VNP, to: VNE}
+  - {state: STATE_SINALOA, from: VSO, to: VNE}
+  - {state: STATE_SONORA, from: VSO, to: VNE}
+  - {state: STATE_LOUISIANA, from: VMR, to: VGZ}          # new Gulf colony New Granada
+  - {state: STATE_ARKANSAS, from: VMR, to: VGZ}
+  - {state: STATE_TEXAS, from: VCD, to: VGZ}               # Comanche parts of Texas stay Comanche
+  - {state: STATE_SANTO_DOMINGO, from: HAI, to: VPI}      # canon: Hispaniola in the Pearl Islands system
+  - {state: STATE_ZULIA, from: VNZ, to: VSI}               # New Ishbiliya's Caribbean coast
+  - {state: STATE_MIRANDA, from: VNZ, to: VSI}
+# Country field changes (existing countries) and new countries.
+countries:
+  KUR:   # the Kurdistan emirate becomes the independent Mosul emirate
+    name: Mosul Emirate
+    name_tr: Musul Emirliği
+    cultures: [kurdish, mashriqi]
+    capital: STATE_MOSUL
+  VNZ:
+    capital: STATE_BOLIVAR
+new_countries:
+  VGZ:
+    name: New Granada
+    name_tr: Yeni Gırnata
+    color: [72, 128, 104]
+    country_type: recognized
+    tier: principality
+    cultures: [muskogean, caddoan]
+    religion: sunni
+    capital: STATE_LOUISIANA
+    like: VSI              # technology tier, laws and institutions of New Ishbiliya
+    slavery: law_slavery_banned   # New Andalusian 1801 abolition, not the plantation islands' law
+# Balkan demography ("güçlü"): turkish = Turkish Sunni share, muslim = all Muslim share of the
+# owner's share. Other Muslim groups are scaled to muslim - turkish; non-Muslims shrink in proportion.
+balkans:
+  STATE_MACEDONIA: {owner: RUM, turkish: 0.45, muslim: 0.58}
+  STATE_SKOPIA: {owner: RUM, turkish: 0.45, muslim: 0.65}
+  STATE_WESTERN_THRACE: {owner: RUM, turkish: 0.55, muslim: 0.65}
+  STATE_EASTERN_THRACE: {owner: RUM, turkish: 0.72, muslim: 0.78}
+  STATE_NORTHERN_THRACE: {owner: RUM, turkish: 0.50, muslim: 0.60}
+  STATE_THESSALIA: {owner: RUM, turkish: 0.20, muslim: 0.32}
+  STATE_CRETE: {owner: RUM, turkish: 0.40, muslim: 0.45}
+  STATE_ATTICA: {owner: RUM, turkish: 0.15, muslim: 0.20}
+  STATE_EAST_AEGEAN_ISLANDS: {owner: RUM, turkish: 0.28, muslim: 0.30}
+  STATE_WEST_AEGEAN_ISLANDS: {owner: RUM, turkish: 0.15, muslim: 0.18}
+  # Rum's Balkan vassals: +15 Muslim points (Serbia +15 as a new Rum vassal)
+  STATE_BULGARIA: {owner: BUL, muslim: 0.39}
+  STATE_DOBRUDJA: {owner: BUL, muslim: 0.39}
+  STATE_BOSNIA: {owner: BOS, muslim: 0.50}
+  STATE_KOSOVO: {owner: ALB, muslim: 0.78}
+  STATE_ALBANIA: {owner: ALB, muslim: 0.90}
+  STATE_EASTERN_SERBIA: {owner: SER, muslim: 0.29}
+  STATE_WESTERN_SERBIA: {owner: SER, muslim: 0.25}

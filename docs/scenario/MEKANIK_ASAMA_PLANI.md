@@ -70,7 +70,11 @@ Yazılı sanayi havzaları (Marmara–Bursa, Tebriz, İsfahan–Kaşan, Kahire�
 
 ### M4 — Ordu, donanma, diplomasi davranışı
 
+Diplomasinin başlangıç kurulumu 25 Eylül'de D1–D3 olarak yapıldı ([öneri ve kararlar](DIPLOMASI_KURULUM_ONERISI.md)): merkezsiz yerliler, 63 bağlılık, 27 antlaşma ve 8 rekabet. Ordu ve donanma kalıyor.
+
 Rûm 1B.3 ordusu ve diğer ülkelerin temel orduları; M0'dan kalan askerî kalıntılar; bağlılık ve anlaşma davranışının motor denetimi.
+
+**26 Eylül 2026 · etkin:** [M4](../../scenarios/atlas/mechanics_m4_military/README.md) bütün dünyanın ordu, donanma ve komutanlarını kurdu (2.807 tabur, 648 gemi, 401 komutan; Rûm 1B.3 ordusu dahil). Kalan: askerî sanayi tedariki ve ordu kanunları (M4d), motor davranışı testi.
 
 ## 4. Test döngüsü
 

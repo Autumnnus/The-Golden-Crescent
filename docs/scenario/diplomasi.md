@@ -1,5 +1,7 @@
 # 1836 diplomasi sözleşmesi
 
+**25 Eylül 2026 kullanıcı kararı:** Bu belgenin iki ilkesi değişti. (1) İsfahan artık Horasan, Mazenderan, Kirman, Luristan ve Huzistan'ın üst devletidir (Şah Vassalı). Tebriz ayrı şahlık ve müttefiktir; yedi üyeli birlik ileride özel mekanikle genişletilecektir. (2) Paris, beş Fransız devletinin feodal üst devletidir. Sırbistan ve Kırım Hanlığı Rûm'un özerk bağlısıdır; Kürdistan kaldırıldı, Musul Emirliği bağımsızdır ([P2](../../scenarios/atlas/political_p2_corrections/README.md)). Mısır Nil–Libya kuşağını, Tatar Hanlığı Moskova'yı haraca bağlar; Vinland Kalmar dış kurulu (Danimarka), İrlanda ve denizaşırı taç bağımlılıkları Londra tacına bağlıdır. Güncel ağ ve antlaşmalar: [diplomasi kurulum önerisi ve kararları](DIPLOMASI_KURULUM_ONERISI.md), [D2](../../scenarios/atlas/diplomacy_d2_subjects/README.md), [D3](../../scenarios/atlas/diplomacy_d3_treaties/README.md). Aşağıdaki tablolardaki "eşit üye" ve "bağlı olmayanlar" satırları bu kararla aşılmıştır. **Tanınma:** İslam devletleri ile Avrupa ve Avrupa kökenli devletler tanınmış; Çin, Hindistan'ın Müslüman olmayan devletleri, Güneydoğu Asya ve Amerika'nın yerli devletleri tanınmamıştır ([D4](../../scenarios/atlas/diplomacy_d4_recognition/README.md)).
+
 Bu belge siyasi ilişki türünü tanımlar; Atlas'taki somut karşılığı Kart 6C'deki dar subject sözleşmeleri ve ilişki kayıtlarıdır. Ortak taçlar/konfederasyonlar tek bir sahte overlord'a çevrilmez; onlar eşit taraflar arasındaki ilişki göstergeleriyle temsil edilir. Aynı iki ülke arasında birbirini dışlayan statüler bulunmaz. Başlangıçta büyük güçler arası etkin savaş yoktur; aşağıdaki krizler savaşın nedenlerini verir, başlangıç savaşını zorunlu kılmaz.
 
 ## 1. İlişki türleri
@@ -23,23 +25,27 @@ Bu belge siyasi ilişki türünü tanımlar; Atlas'taki somut karşılığı Kar
 | Rûm | Adana, Erzurum, Trabzon | Özerk bağlılık; geçit/liman tarifesinin bir kısmı yerelde | Merkezîn savaş borcunu bağlılara yayma isteği |
 | Rûm | Yeni Bursa | Sömürge şartı; sivil meclis, metropol savunması | Filo gideri, gıda ve temsil; bağımsızlık başlangıçta en güçlü seçenek değil |
 | Mısır | Hicaz | Hac koruma antlaşması; %5 hedef katkı, otomatik sefer yok; Cidde geliri ayrıca pazarlık konusu | Ulema/şeriflik yetkileri, koruma maliyetinin dağılımı |
-| İran ortak meclisi | İsfahan, Tebriz, Horasan, Mazenderan, Kirman, Luristan, Huzistan | Yedi eşit imzacı; İsfahan toplantı başkanı, mutlak üst devlet değil | Ortak tarife, borç paylaşımı ve askerî karar vetosu |
+| İran ortak meclisi | İsfahan, Tebriz, Horasan, Mazenderan, Kirman, Luristan, Huzistan | Yedi eşit imzacı; İsfahan toplantı başkanı, mutlak üst devlet değil | Ortak tarife, borç paylaşımı ve askerî karar vetosu 26 Eylül 2026: Tebriz İsfahan'ın kuklası; İran İttifakı kalktı, Rûm'un rakibi artık İsfahan ([P4](../../scenarios/atlas/political_p4_corrections/README.md)). |
 | Londra ortak tacı | İngiltere–Galler, İskoçya, İrlanda | 1708 Taçlar Ahdi; ayrı maliye ve hukuk; dış kurul Londra'da | Vergi/temsil ağırlığı ve farklı kilise hakları |
 | Londra ortak tacı | Bahamalar, Bermuda, Güney Atlantik ve Batı Hint Adaları'ndaki kalan küçük idareler | Doğrudan taç bağımlılıkları; ayrı kıtasal sömürge programı veya yerel meclislerin üstünde sınırsız yetki değildir | Liman geliri, yerel temsil ve donanma ikmalinin finansmanı |
 | Kalmar ortak tacı | Danimarka, İsveç, Norveç | 1755 Deniz Ahdi ile yenilenmiş birlik; dış kurul Kopenhag'da. Atlas'ta üç eşit taç arasında +50 ilişki, hiyerarşik olmayan oyun göstergesidir | İsveç sanayi vergisi, Norveç gemicilik payı, taç meclisi temsili |
 | Kalmar tacı | Schleswig–Holstein düklükleri | Ayrı diyetli hanedan bağı; dış savunma ortak. Atlas'ta Denmark ile +30 ilişki, subject olmayan dar gösterimdir | Alman imparatorluk hukuku ile taç yükümlülükleri |
-| Lehistan–Litvanya | Boğdan | Koruma antlaşması, 1827 sonrası yenilenmiş | Tahıl transit resmi ve yerel hanedan seçimi |
+| Lehistan–Litvanya | Boğdan, Eflak | Koruma antlaşmaları; Eflak 1827'de Dobruca ile birlikte Lehistan korumasına girdi ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Tahıl transit resmi, yerel hanedan seçimi ve Rûm'un Tuna ağzı iddiası |
+| Gurkanî | Keşmir (Ladakh dahil); Jaipur, Udaipur, Jodhpur | Keşmir kukla; üç Racput devleti koruma ([P4](../../scenarios/atlas/political_p4_corrections/README.md)) | Racput hanedanlarının birleşmesi, Gurkanî vergi talebi |
+| Macaristan | Hırvatistan (Dalmaçya dahil) | 1827 sonrası kukla bağlılık; Erdel'le Karpat Ahdi ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Hırvat meclisinin özerklik talebi, Avusturya'nın Dalmaçya iddiası |
+| Büyük Tatar Hanlığı | Kazak Hanlığı, Sibirya Tatar Birliği | Haraç veren koruma devletleri (vanilla `protectorate`) ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Bozkır otlak ve kervan gümrükleri |
 | Gurkanî | Keşmir; Jaipur ve Udaipur ile ayrı sözleşmeler | Keşmir özerk bağlı; iki Racput devleti sınırlı koruma/katkı antlaşmasında | Askerî standardizasyon ve verginin nakde çevrilmesi |
 | Maratha ortak konseyi | Pune, Gwalior, Indore, Nagpur | Ayrı hazineler, ortak sefer ve dış müzakere | Ticaret ve komuta payı; Pune bütün üyelerin sahibi değil |
 | Endülüs | Yeni Endülüs | Geniş özerk sömürge şartı; yerel meclisin vergi onayı | Federal temsil, yerli iş yükümlülükleri, gelir transferi |
 | Endülüs | Yeni İşbiliye, İnci Adaları | Daha dar sömürge şartları; vali ve şirket nüfuzu yüksek | Kölelik, liman tarifesi ve yerel temsil |
 | Endülüs | Maya Birliği | Sınırlı haraç ve dış saldırmazlık sözleşmesi; yerli iç yönetim | Yeni Endülüs tahsildarlarının sözleşmeyi aşması; Maya'nın üst makamı Yeni Endülüs değildir |
+| Endülüs | Endülüs Ginesi | Sierra Leone–Kazamans–Kaabu kıyı kolonisi ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Yerel Mande ve Kissi toplulukları, Cayor'daki Rûm iskelesiyle rekabet |
 | Fas | Fas Brezilyası | Kıyı yerleşimlerine dayalı sömürge şartı | Plantasyon kredisi, kölelik, içeriye yayılma masrafı |
 | Londra | Yeni İngiltere, Virginia | İki ayrı sömürge şartı ve meclis | Aynı hak/iş rejimine sahip değiller; otomatik birleşmiş ABD yok |
 | Hollanda | Yeni Hollanda, Guyana yerleşimleri | Ayrı sömürge şartları; küçük Karayip ticaret istasyonları bağlı idari mülk | Kölelik ve ticaret imtiyazı ayrımı |
 | Kalmar dış kurulu | Vinland | Ortak taç adına özerk kıyı kolonisi | Hangi tacın bütçeye ne vereceği, yerli antlaşmalar |
 | Umman | Zanzibar | Tacın denizaşırı özerk eyaleti; ayrı vali/divan, ayrı egemen devlet değil | Maskat/Zanzibar gelir ve hanedan rekabeti |
-| Massina | Timbuktu | Massina'nın yerel state payında ilmî/ticari meclisi koruyan kent şartı; komşu Tuareg/Bidan aktörleri bağımsız | Nehir–Sahra transit geliri ve yargı sınırı |
+| Fas | Timbuktu Paşalığı, Fas Antilleri | 1591 Songay seferinden kalan paşalık ve Küçük Antiller sömürge şartları ([P3](../../scenarios/atlas/political_p3_borders/README.md)); Massina Timbuktu'yu geri ister | Nehir–Sahra transit geliri, Antiller'de kölelik yasağı |
 | Sokoto ortak makamı | Gobir emirliği; kendi doğrudan Hausa payları | Gobir sınırlı katkı veren emirlik sözleşmesinde; Bornu ve Borgu bağımsız | Ortak hukuk ve katkı payı |
 | Ryukyu | Japon makamları ve Yue ile ayrı törensel/ticari ilişkiler | Çifte haraç; tam askerî tabiiyet değil | İki tarafın töreni egemenlik iddiasına çevirmesi |
 | Mısır | Aceh; Makassar | 1824 ikmal/ambar ve 1821 tamir/ambar sözleşmeleri; ev sahibi bütün iç ve dış egemenliğini korur | İkmal kira bedeli, liman yargısı ve savaş zamanında tarafsızlık |
@@ -59,7 +65,7 @@ Finlandiya İsveç tacının, İzlanda Norveç tacının iç düzenidir. Nya Nor
 | Bağdat, 1804 | Rûm, İran'ın o dönemki şahı; Basra ve Kürdistan'ın egemenliği tanınır. Sonradan İran üyeleri teyit eder | Nehir taraması, su paylaşımı, sınır askerlerinin geçişi |
 | İran Birlik Tüzüğü, 1815 | Yedi üye; ortak savunma, diploma ve transit cetveli | Bir üyenin aldığı borcu diğerlerinin garanti edip etmediği |
 | Nizam Ahdi, 1827 | Rûm ve altı özerk bağlı; iç vergi/asker sınırı | Merkezî kadastro ek vergi sayılır mı? |
-| Tuna Uzlaşması, 1827 | Rûm, Lehistan, Eflak; bağımsız Eflak'a dış garnizon sokmama | Sırbistan ve Macaristan'ın sınır iddiaları uzlaşmaya dahil değildir |
+| Karpat Ahdi, 1827 | Macaristan ve Erdel; savunma paktı. Eski Tuna Uzlaşması'nın Eflak garantisi 1818–1827 savaşıyla geçersiz ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Avusturya'nın kayıp toprak iddiaları |
 | Çin Ateşkesi, 1810 | Beş Çin yönetimi; mevcut hat ve bazı nehir geçişleri | Geçiş ücretleri ve birleşme iddiasıyla yapılan askerî yığınak |
 | Atlantik kıyı şartları | Her koloni/ev sahibi için farklı tarih ve taraf | Yerli topraklarının şirket senediyle izinsiz satılması |
 
@@ -77,10 +83,12 @@ Bağımsızlık garantileri sonsuz otomatik savaş sözleri değildir; ilgili ü
 | Rûm–Lehistan | Boğdan, Tuna geçişleri ve Balkan nüfuzu; geçmiş seferlerin mirası | Teknik eser/uzman alışverişi, makine ve tahıl ticareti; 1827 dengesi | Bir askerî teknik ihracat kısıtlaması ile sınır tedarik sözleşmesinin çatışması |
 | Lehistan–Bavyera | İmparatorluk nüfuzu ve Orta Avrupa güvenliği | Gümrük/ulaşım ve Rûm karşısında denge | Ren şehirlerinin ortak tarife talebi |
 | Kalmar–Lehistan | Baltık limanları ve tahıl sevki | Kereste, tahıl, gemi finansmanı | Boğaz geçiş ücreti |
+| İsveç–Lehistan | Livonya Konfederasyonu'na iki taraflı hak iddiası, Baltık hâkimiyeti ([P3](../../scenarios/atlas/political_p3_borders/README.md)); karşılıklı rakip | Tahıl ve kereste ticareti | Livonya limanlarında bir gümrük anlaşmazlığı |
 | Moskova–Novgorod–Tatarlar | Tatar baskısıyla sınırlanan Moskova genişlemesi, nehir geçitleri ve Novgorod egemenliği | Tahıl, kürk, metal ticareti; farklı taraflarla ayrı geçiş uzlaşmaları | Bir konvoyun sınırda müsaderesi |
-| Kaşgar–Hokand–Horasan | Kervan geliri, geçit güvenliği | Ortak yol ve transit standardı | Demiryolu imtiyazı için egemenlik garantisi |
+| Uygur–Hokand–Horasan | Kervan geliri, geçit güvenliği | Ortak yol ve transit standardı | Demiryolu imtiyazı için egemenlik garantisi |
 | Gurkanî–Maratha–Bengal–Sih | Hindistan'ın vergi/ticaret merkezi ve toprak iddiası | Ortak transit ve dış şirketlere karşı pazarlık | Bir sınır eyaletinin asker/gelir talebi |
 | Çin'in beş yönetimi | Birleşme meşruiyeti ve iç pazar | Sel onarımı, nehir güvenliği, gıda sevki | Ortak nehir fonunun tıkanması |
+| Uygur Hanlığı–Kuzey Çin | Gansu'nun Uygur yönetimi; Ningxia ve Çinghay iddiaları ([P3](../../scenarios/atlas/political_p3_borders/README.md)); karşılıklı rakip | Kervan ticareti ve at–çay değişimi | Hexi koridorundaki Çinli köylülerin vergi isyanı |
 
 ### Güneydoğu Asya: değişen dış sömürge baskısı
 

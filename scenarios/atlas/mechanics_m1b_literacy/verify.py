@@ -50,6 +50,8 @@ def main() -> None:
         if {k: v for k, v in old_ind.items() if k != "by_owner"} != {k: v for k, v in new_ind.items() if k != "by_owner"}:
             errors.append(f"{state}: industry scale changed")
         for tag, share in new["population"]["by_owner"].items():
+            if tag not in old["population"]["by_owner"]:
+                continue  # moved by a later political transfer (political_p2_corrections)
             lit[tag][0] += share["total"]
             lit[tag][1] += share["total"] * share["literacy"]
     for tag in set(source["countries"]) | set(candidate["countries"]):

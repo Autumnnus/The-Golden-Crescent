@@ -1,0 +1,104 @@
+# M4 — armies, navies and commanders (user decisions 26 Sep 2026, docs/scenario/ORDU_KURULUM_ONERISI.md):
+# a middle scale between vanilla (~3,900 units) and a small world (~2,000): about 2,700 battalions;
+# the whole world in one package; generals and admirals included; Andalusia, the colonial empire,
+# holds the largest navy. plan.py turns these rules into plan.yml.
+version: 1
+total_battalions: 2700          # organized countries; decentralized polities keep no army
+exponent: 0.85                  # battalions = m(band) * population_millions ** exponent, then scaled
+# militarization by M1b literacy band (see mechanics_m1b_literacy/targets.yml)
+bands:
+  islam_lead: 16
+  islam_core: 15
+  islam_mid: 12
+  islam: 9
+  europe_top: 12
+  europe: 10
+  europe_south: 9
+  east_asia: 5
+  rest: 7
+default_band:                   # P3 countries without an M1b band
+  VSD: europe_south
+  VCN: europe_south
+  VTB: islam
+  VFA: islam
+  VAG: islam
+  VGZ: islam
+country_m:                      # individual militarization where the band would mislead
+  EGY: 20                       # the Nile sultanate's standing army and Red Sea power
+  ISF: 22                       # the Shah's army leads the Iranian puppets
+  VAN: 16                       # the colonial federation
+  MOR: 14
+  OMA: 12
+  VTA: 16                       # steppe cavalry khanate
+  KSG: 14                       # the Uyghur khanate's garrisons in Gansu and Dzungaria
+  VPL: 14                       # the strongest Christian land power (canon)
+  MUG: 9
+  BGL: 6
+  JNG: 3.5                      # Chinese states: large, irregular
+  NCH: 4.5
+  SHU: 3.5
+  YUE: 3.5
+  MCH: 4.5
+colonial_factor: 0.6            # colonies keep garrisons, not field armies
+subject_factor: 0.85
+min_battalions: 2
+# cavalry-heavy armies (steppe, desert, Sahel, Afghan and Polish horse)
+cavalry_heavy: [VTA, KZH, VST, VKM, KSG, MGL, KHI, BUK, KOK, JAB, NEJ, HDJ, SOK, BOR, WAD, DFR, VSN, MSN,
+                KAB, KAN, HER, MAK, KAL, VPL, CIR, CHC, VDA, VCR, AWS]
+cavalry_share: {heavy: 0.30, normal: 0.12}
+artillery_share: {islam_lead: 0.16, islam_core: 0.15, islam_mid: 0.12, europe_top: 0.12, europe: 0.11, default: 0.08}
+armies_per_battalions: 35       # one formation per this many battalions (1..5)
+# Fixed armies: the unactivated 1B.3 Rum package (scenarios/atlas/phase01b3_rum_military) is reused.
+fixed_armies:
+  RUM: phase01b3_rum_military
+# Navies (ships). Andalusia is the largest; unlisted coastal countries get a small default squadron.
+navies:
+  VAN: 60     # Atlantic and Caribbean
+  RUM: 54     # 1B.3's 48 plus a western Mediterranean squadron at the Sicilian station
+  VEL: 50
+  EGY: 26     # Red Sea and Indian Ocean
+  OMA: 22     # Muscat and Zanzibar
+  NET: 20
+  FPA: 18
+  YUE: 18
+  MOR: 18
+  DEN: 16
+  SWE: 15
+  JNG: 14
+  JAP: 14
+  VVE: 12
+  MAS: 10
+  ISF: 8
+  VPL: 8
+  VCN: 8
+  NOR: 8
+  MAR: 8
+  BGL: 8
+  GJT: 8
+  NCH: 8
+  DAI: 8
+  VNE: 8
+  VPI: 8
+  SIC: 7
+  VSD: 6
+  TUN: 6
+  ACE: 6
+  KOR: 6
+  SIA: 6
+  VSC: 6
+  VFB: 6
+  VNI: 6
+  VIR: 4
+  BUR: 4
+  JOH: 5
+  SUL: 5
+  MUG: 4
+  TAM: 4
+  VSI: 5
+  VVA: 5
+  VIN: 4
+  VNH: 4
+  VBU: 3
+navy_default: {recognized: [1, 4, 15], other: [0, 2, 30]}   # [min, max, battalions per ship]
+line_ship_share: 0.35           # ships of the line where `drydocks` is known and a navy has 6+ ships
+excluded: [GBR]                 # the London crown's overseas dependencies stay unarmed (M0 decision)

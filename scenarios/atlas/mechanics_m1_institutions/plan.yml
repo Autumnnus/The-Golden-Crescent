@@ -1363,33 +1363,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.042
     notes: class rule
-    tier: 6
+    tier: 7
   VAK:
     add_technologies: []
     fallbacks: []
@@ -1427,33 +1423,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VAN:
     add_technologies: []
     fallbacks: []
@@ -1662,33 +1654,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.036
     notes: class rule
-    tier: 6
+    tier: 7
   VBR:
     add_technologies: []
     fallbacks: []
@@ -1862,194 +1850,169 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.03
     notes: class rule
-    tier: 6
+    tier: 7
   VCE:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
-    - law_peasant_proprietorship
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.084
     notes: class rule
-    tier: 5
+    tier: 7
   VCH:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
-    - law_manorialism
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
     - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VCI:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VCL:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VCO:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VCQ:
     add_technologies: []
     fallbacks: []
@@ -2254,66 +2217,57 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VDR:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
-    - law_peasant_proprietorship
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.06
     notes: class rule
-    tier: 5
+    tier: 7
   VEL:
     add_technologies: []
     fallbacks: []
@@ -2420,33 +2374,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VGA:
     add_technologies: []
     fallbacks: []
@@ -2485,33 +2435,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VGE:
     add_technologies: []
     fallbacks: []
@@ -2583,33 +2529,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.03
     notes: class rule
-    tier: 6
+    tier: 7
   VGR:
     add_technologies: []
     fallbacks: []
@@ -2648,65 +2590,57 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VHD:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VHN:
     add_technologies: []
     fallbacks: []
@@ -2878,33 +2812,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
-    - law_manorialism
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
     - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VKC:
     add_technologies: []
     fallbacks: []
@@ -2940,36 +2870,31 @@ countries:
   VKL:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_manorialism
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 5
+    tier: 7
   VKM:
     add_technologies: []
     fallbacks: []
@@ -3073,33 +2998,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VLE:
     add_technologies: []
     fallbacks: []
@@ -3270,65 +3191,57 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VMG:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VMI:
     add_technologies: []
     fallbacks: []
@@ -3401,33 +3314,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.044
     notes: class rule
-    tier: 6
+    tier: 7
   VMS:
     add_technologies: []
     fallbacks: []
@@ -3466,33 +3375,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VMU:
     add_technologies: []
     fallbacks: []
@@ -3731,97 +3636,85 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VNR:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VNU:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VNV:
     add_technologies: []
     fallbacks: []
@@ -3892,100 +3785,87 @@ countries:
   VOB:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_manorialism
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 5
+    tier: 7
   VOK:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
-    - law_manorialism
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
     - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VOR:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
-    - law_manorialism
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
     - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VPA:
     add_technologies: []
     fallbacks: []
@@ -4025,33 +3905,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VPD:
     add_technologies: []
     fallbacks: []
@@ -4193,129 +4069,113 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VPT:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VPW:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VQC:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VQU:
     add_technologies: []
     fallbacks: []
@@ -4388,97 +4248,85 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VSA:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
-    - law_manorialism
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
     - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VSB:
     add_technologies: []
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VSC:
     add_technologies: []
     fallbacks: []
@@ -4614,66 +4462,57 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.048
     notes: class rule
-    tier: 6
+    tier: 7
   VSR:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
-    - law_peasant_proprietorship
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.06
     notes: class rule
-    tier: 5
+    tier: 7
   VSS:
     add_technologies: []
     fallbacks: []
@@ -4746,33 +4585,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.024
     notes: class rule
-    tier: 6
+    tier: 7
   VTA:
     add_technologies: []
     fallbacks: []
@@ -4909,33 +4744,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VUR:
     add_technologies: []
     fallbacks: []
@@ -4975,33 +4806,29 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 6
+    tier: 7
   VVA:
     add_technologies: []
     fallbacks: []
@@ -5141,66 +4968,57 @@ countries:
     fallbacks: []
     institutions: {}
     laws:
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
     - law_isolationism
-    - law_land_based_taxation
     - law_merchant_navy
-    - law_monarchy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
-    - law_no_police
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_oligarchy
     - law_peasant_levies
-    - law_peasant_proprietorship
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
-    - law_subjecthood
     - law_traditionalism
     literacy_target: 0.042
     notes: class rule
-    tier: 6
+    tier: 7
   VYE:
     add_technologies: []
     fallbacks: []
-    institutions:
-      institution_police: 1
+    institutions: {}
     laws:
-    - law_autocracy
+    - law_chiefdom
     - law_child_labor_allowed
     - law_closed_borders
+    - law_consumption_based_taxation
+    - law_elder_council
     - law_guild_system
-    - law_hereditary_bureaucrats
-    - law_land_based_taxation
-    - law_local_police
-    - law_manorialism
-    - law_mercantilism
+    - law_isolationism
     - law_merchant_navy
-    - law_monarchy
-    - law_national_supremacy
     - law_no_colonial_affairs
-    - law_no_health_system
     - law_no_home_affairs
     - law_no_schools
     - law_no_social_security
     - law_no_womens_rights
     - law_no_workers_rights
-    - law_professional_army
+    - law_peasant_levies
     - law_right_of_assembly
+    - law_serfdom
     - law_slavery_banned
     - law_state_religion
     - law_traditionalism
     literacy_target: 0.02
     notes: class rule
-    tier: 5
+    tier: 7
   VZA:
     add_technologies: []
     fallbacks: []

@@ -5,46 +5,54 @@
 # yeniden uret; build kendi ciktisini her calismada siler.
 
 DIPLOMACY = {
-c:AIT ?= {
+c:ASH ?= {}
+c:AUS ?= {
 	set_relations = {
-		country = c:MAS
-		value = 10
+		country = c:VPL
+		value = -40
 	}
 	set_relations = {
-		country = c:CON
-		value = 30
+		country = c:HUN
+		value = -30
 	}
 }
-c:ASH ?= {}
 c:BAV ?= {
 	set_relations = {
 		country = c:WUR
 		value = 50
 	}
 }
+c:BGL ?= {
+	create_diplomatic_pact = {
+		country = c:MUG
+		type = rivalry
+	}
+}
 c:BUR ?= {
 	create_diplomatic_pact = {
 		country = c:SHS
-		type = ve_mandala_autonomy
-	}
-}
-c:CON ?= {
-	set_relations = {
-		country = c:AIT
-		value = 30
-	}
-	set_relations = {
-		country = c:MAS
-		value = -20
+		type = tributary
 	}
 }
 c:DAI ?= {
 	create_diplomatic_pact = {
 		country = c:CAM
-		type = ve_mandala_autonomy
+		type = tributary
 	}
 }
 c:DEN ?= {
+	create_diplomatic_pact = {
+		country = c:VIN
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:SCH
+		type = personal_union
+	}
+	create_diplomatic_pact = {
+		country = c:HOL
+		type = personal_union
+	}
 	set_relations = {
 		country = c:SWE
 		value = 50
@@ -69,7 +77,27 @@ c:DEN ?= {
 c:EGY ?= {
 	create_diplomatic_pact = {
 		country = c:HDJ
-		type = ve_hajj_protection
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VSN
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:TRI
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:FZN
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:DFR
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:RUM
+		type = rivalry
 	}
 	set_relations = {
 		country = c:ACE
@@ -80,15 +108,104 @@ c:EGY ?= {
 		value = 20
 	}
 }
-c:HAI ?= {}
+c:FPA ?= {
+	create_diplomatic_pact = {
+		country = c:FBG
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:FAQ
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:FOC
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:FBR
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:FPR
+		type = puppet
+	}
+}
+c:HUN ?= {
+	create_diplomatic_pact = {
+		country = c:CRO
+		type = puppet
+	}
+	set_relations = {
+		country = c:TRS
+		value = 60
+	}
+}
+c:HYD ?= {
+	create_diplomatic_pact = {
+		country = c:KNO
+		type = puppet
+	}
+}
+c:ISF ?= {
+	create_diplomatic_pact = {
+		country = c:KHO
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:MAZ
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:KRM
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:LUR
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:HUZ
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:HER
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:TBR
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:VBA
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VER
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:RUM
+		type = rivalry
+	}
+	create_diplomatic_pact = {
+		country = c:OMA
+		type = rivalry
+	}
+}
 c:JAP ?= {
 	create_diplomatic_pact = {
 		country = c:EZO
-		type = ve_japanese_domain
+		type = vassal
 	}
 	set_relations = {
 		country = c:RYU
 		value = 20
+	}
+}
+c:JNG ?= {
+	create_diplomatic_pact = {
+		country = c:NCH
+		type = rivalry
 	}
 }
 c:KAB ?= {
@@ -107,18 +224,25 @@ c:KAN ?= {
 		value = -20
 	}
 }
-c:KTI ?= {}
-c:LAN ?= {}
-c:MAS ?= {
-	set_relations = {
-		country = c:AIT
-		value = 10
+c:KSG ?= {
+	create_diplomatic_pact = {
+		country = c:NCH
+		type = rivalry
 	}
 	set_relations = {
-		country = c:CON
-		value = -20
+		country = c:NCH
+		value = -60
 	}
 }
+c:KTI ?= {}
+c:LAN ?= {}
+c:MAR ?= {
+	create_diplomatic_pact = {
+		country = c:MUG
+		type = rivalry
+	}
+}
+c:MAS ?= {}
 c:MOL ?= {
 	set_relations = {
 		country = c:WAL
@@ -138,27 +262,57 @@ c:MOR ?= {
 	}
 	create_diplomatic_pact = {
 		country = c:VFB
-		type = ve_colonial_charter
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:VTB
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:VFA
+		type = colony
 	}
 }
 c:MUG ?= {
 	create_diplomatic_pact = {
 		country = c:KAS
-		type = ve_contractual_vassal
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:JAI
-		type = ve_limited_protection
+		type = protectorate
 	}
 	create_diplomatic_pact = {
 		country = c:MEW
-		type = ve_limited_protection
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:JOD
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:MAR
+		type = rivalry
+	}
+	create_diplomatic_pact = {
+		country = c:BGL
+		type = rivalry
+	}
+}
+c:NCH ?= {
+	create_diplomatic_pact = {
+		country = c:JNG
+		type = rivalry
+	}
+	create_diplomatic_pact = {
+		country = c:KSG
+		type = rivalry
 	}
 }
 c:NET ?= {
 	create_diplomatic_pact = {
 		country = c:VNH
-		type = ve_colonial_charter
+		type = colony
 	}
 }
 c:NOR ?= {
@@ -168,6 +322,18 @@ c:NOR ?= {
 	}
 }
 c:OMA ?= {
+	create_diplomatic_pact = {
+		country = c:ABU
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:KAT
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:ISF
+		type = rivalry
+	}
 	set_relations = {
 		country = c:JOH
 		value = 25
@@ -199,31 +365,47 @@ c:PRG ?= {}
 c:RUM ?= {
 	create_diplomatic_pact = {
 		country = c:BOS
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:ALB
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:BUL
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:ADA
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:ERZ
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:TRB
-		type = ve_autonomous_compact
+		type = puppet
 	}
 	create_diplomatic_pact = {
 		country = c:VBU
-		type = ve_colonial_charter
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:SER
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:VCR
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:EGY
+		type = rivalry
+	}
+	create_diplomatic_pact = {
+		country = c:ISF
+		type = rivalry
 	}
 }
 c:SAR ?= {
@@ -239,15 +421,15 @@ c:SAR ?= {
 c:SIA ?= {
 	create_diplomatic_pact = {
 		country = c:CHP
-		type = ve_mandala_autonomy
+		type = tributary
 	}
 	create_diplomatic_pact = {
 		country = c:CMI
-		type = ve_mandala_autonomy
+		type = tributary
 	}
 	create_diplomatic_pact = {
 		country = c:LUA
-		type = ve_mandala_autonomy
+		type = tributary
 	}
 	set_relations = {
 		country = c:DAI
@@ -257,10 +439,14 @@ c:SIA ?= {
 c:SOK ?= {
 	create_diplomatic_pact = {
 		country = c:HAU
-		type = ve_emirate_compact
+		type = puppet
 	}
 }
 c:SWE ?= {
+	create_diplomatic_pact = {
+		country = c:VPL
+		type = rivalry
+	}
 	set_relations = {
 		country = c:NOR
 		value = 50
@@ -269,6 +455,10 @@ c:SWE ?= {
 		country = c:VIN
 		value = 35
 	}
+	set_relations = {
+		country = c:VPL
+		value = -50
+	}
 }
 c:TUS ?= {
 	set_relations = {
@@ -276,33 +466,75 @@ c:TUS ?= {
 		value = 30
 	}
 }
+c:UBD ?= {
+	set_relations = {
+		country = c:SWE
+		value = -25
+	}
+	set_relations = {
+		country = c:VPL
+		value = -25
+	}
+}
 c:URU ?= {}
 c:VAN ?= {
 	create_diplomatic_pact = {
 		country = c:VNE
-		type = ve_colonial_charter
+		type = dominion
 	}
 	create_diplomatic_pact = {
 		country = c:VSI
-		type = ve_colonial_charter
+		type = colony
 	}
 	create_diplomatic_pact = {
 		country = c:VPI
-		type = ve_colonial_charter
+		type = colony
 	}
 	create_diplomatic_pact = {
 		country = c:VMY
-		type = ve_tributary_compact
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VSS
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VNC
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VGZ
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:VAG
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:VEL
+		type = rivalry
 	}
 }
 c:VEL ?= {
 	create_diplomatic_pact = {
 		country = c:VNI
-		type = ve_colonial_charter
+		type = colony
 	}
 	create_diplomatic_pact = {
 		country = c:VVA
-		type = ve_colonial_charter
+		type = colony
+	}
+	create_diplomatic_pact = {
+		country = c:VIR
+		type = personal_union
+	}
+	create_diplomatic_pact = {
+		country = c:GBR
+		type = crown_land
+	}
+	create_diplomatic_pact = {
+		country = c:VAN
+		type = rivalry
 	}
 	set_relations = {
 		country = c:VSC
@@ -313,17 +545,62 @@ c:VEL ?= {
 		value = 50
 	}
 }
-c:VNZ ?= {}
 c:VPL ?= {
 	create_diplomatic_pact = {
 		country = c:MOL
-		type = ve_tributary_compact
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VPD
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:WAL
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VTA
+		type = rivalry
+	}
+	create_diplomatic_pact = {
+		country = c:SWE
+		type = rivalry
 	}
 }
 c:VSC ?= {
 	set_relations = {
 		country = c:VIR
 		value = 50
+	}
+}
+c:VTA ?= {
+	create_diplomatic_pact = {
+		country = c:VMS
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VMA
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:VMO
+		type = puppet
+	}
+	create_diplomatic_pact = {
+		country = c:VKM
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:KZH
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VST
+		type = protectorate
+	}
+	create_diplomatic_pact = {
+		country = c:VPL
+		type = rivalry
 	}
 }
 c:WAL ?= {
@@ -386,4 +663,48 @@ c:VFB ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
 c:VNI ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
 c:VVA ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
 c:VNH ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:KHO ?= { add_liberty_desire = { value = 25 subtract = liberty_desire } }
+c:MAZ ?= { add_liberty_desire = { value = 25 subtract = liberty_desire } }
+c:KRM ?= { add_liberty_desire = { value = 30 subtract = liberty_desire } }
+c:LUR ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:HUZ ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:HER ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:FBG ?= { add_liberty_desire = { value = 55 subtract = liberty_desire } }
+c:FAQ ?= { add_liberty_desire = { value = 50 subtract = liberty_desire } }
+c:FOC ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:FBR ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:FPR ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:VSN ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:TRI ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:FZN ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:DFR ?= { add_liberty_desire = { value = 50 subtract = liberty_desire } }
+c:ABU ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:KAT ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:VMS ?= { add_liberty_desire = { value = 65 subtract = liberty_desire } }
+c:VMA ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:VMO ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:VKM ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:VPD ?= { add_liberty_desire = { value = 30 subtract = liberty_desire } }
+c:VIN ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:SCH ?= { add_liberty_desire = { value = 25 subtract = liberty_desire } }
+c:HOL ?= { add_liberty_desire = { value = 30 subtract = liberty_desire } }
+c:VIR ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:GBR ?= { add_liberty_desire = { value = 15 subtract = liberty_desire } }
+c:KNO ?= { add_liberty_desire = { value = 30 subtract = liberty_desire } }
+c:VSS ?= { add_liberty_desire = { value = 50 subtract = liberty_desire } }
+c:VNC ?= { add_liberty_desire = { value = 50 subtract = liberty_desire } }
+c:SER ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:VCR ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:VGZ ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:CRO ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:WAL ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:KZH ?= { add_liberty_desire = { value = 50 subtract = liberty_desire } }
+c:VST ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
+c:VTB ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:VFA ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:VAG ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:TBR ?= { add_liberty_desire = { value = 30 subtract = liberty_desire } }
+c:VBA ?= { add_liberty_desire = { value = 35 subtract = liberty_desire } }
+c:VER ?= { add_liberty_desire = { value = 40 subtract = liberty_desire } }
+c:JOD ?= { add_liberty_desire = { value = 45 subtract = liberty_desire } }
 }

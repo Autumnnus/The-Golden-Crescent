@@ -5,7 +5,12 @@ state owners that no longer exist. Each override is derived from the installed v
 (read-only) and only removes entries whose scopes cannot resolve in the active world:
 
 - history/trade, history/lobbies, history/treaties, history/production_methods: entries whose
-  country or state owner is missing are dropped; valid entries are copied verbatim.
+  country or state owner is missing are dropped; valid entries are copied verbatim. Treaties
+  listed in diplomacy_d3_treaties/plan.yml `drop_vanilla` are dropped too.
+- history/power_blocs: blocs of landless or subject leaders and landless `member` lines are dropped
+  (an unguarded landless member crashes the game at start).
+- localization/replace/<language>/: Atlas country names/adjectives whose keys vanilla also defines
+  (a duplicate key otherwise keeps the vanilla name).
 - history/military_deployments: 1836 war-front deployments (Texas, Mexico...) do not exist here;
   an empty container is written.
 - journal_entries/02_peru_bolivia.txt: copied with `exists = c:BOL` guards on the two triggers
@@ -90,9 +95,37 @@ def main() -> None:
     # Treaties: create_treaty = { first_country second_country ... }
     rel = "common/history/treaties/00_historical_treaties.txt"
     root = pdx.parse_file(VANILLA / rel).get_node("TREATIES")
-    kept = pdx.Node([it for it in root.items if tags_in(it.value) <= landed])
+    # D3 drops vanilla treaties that make no sense in this world (plan.yml `drop_vanilla`).
+    import yaml  # noqa: E402  (toolkit runtime)
+    d3 = ROOT / "scenarios/atlas/diplomacy_d3_treaties/plan.yml"
+    dropped = {tuple(pair) for pair in yaml.safe_load(d3.read_text())["drop_vanilla"]} if d3.exists() else set()
+    parties = lambda it: (str(it.value.get_str("first_country"))[2:], str(it.value.get_str("second_country"))[2:])
+    kept = pdx.Node([it for it in root.items if tags_in(it.value) <= landed and parties(it) not in dropped])
     write(rel, NOTE.format(path=rel) + "TREATIES = {\n" + pdx.dumps(kept) + "\n}\n")
     summary[rel] = (len(root.items), len(kept.items))
+
+    # Power blocs: c:LEADER ?= { create_power_bloc = { member = c:TAG ... } ... }. The leader scope is
+    # guarded, but `member` is not: a landless member crashes CCountry::JoinPowerBloc at game start
+    # (P3 dissolved Parma, a member of Austria's bloc). Blocs of landless or subject leaders and
+    # landless members are dropped.
+    rel = "common/history/power_blocs/00_power_blocs.txt"
+    root = pdx.parse_file(VANILLA / rel).get_node("POWER_BLOCS")
+    subjects = {tag for tag, row in report["countries"].items() if row.get("overlord")}
+    kept, members = pdx.Node([]), [0, 0]
+    for cb in root.items:
+        if cb.key[2:] not in landed or cb.key[2:] in subjects:  # a subject cannot lead a bloc (GBR)
+            continue
+        body = pdx.Node([])
+        for it in cb.value.items:
+            if it.key == "create_power_bloc" and isinstance(it.value, pdx.Node):
+                inner = [m for m in it.value.items if m.key != "member" or str(m.value)[2:] in landed]
+                members[0] += sum(m.key == "member" for m in it.value.items)
+                members[1] += sum(m.key == "member" for m in inner)
+                it = pdx.Item(it.key, it.op, pdx.Node(inner))
+            body.items.append(it)
+        kept.items.append(pdx.Item(cb.key, cb.op, body))
+    write(rel, NOTE.format(path=rel) + "POWER_BLOCS = {\n" + pdx.dumps(kept) + "\n}\n")
+    summary[rel] = (f"{len(root.items)} blocs/{members[0]} members", f"{len(kept.items)}/{members[1]}")
 
     rel = "common/history/military_deployments/00_military_deployments.txt"
     write(rel, NOTE.format(path=rel) + "# 1836 war-front deployments of the vanilla timeline do not exist here.\n"
@@ -136,6 +169,41 @@ def main() -> None:
                + text.replace(block, block.replace(old, new), 1))
     summary[rel] = ("guarded", 1)
 
+    # D1 made six vanilla tags decentralized native polities (history replaced, no politics).
+    # Their vanilla character files would create creole presidents and generals for them.
+    d1 = ROOT / "scenarios/atlas/diplomacy_d1_natives/plan.yml"
+    import yaml  # noqa: E402  (toolkit runtime)
+    d1_tags = set(yaml.safe_load(d1.read_text())["countries"]) if d1.exists() else set()
+    for path in sorted((VANILLA / "common/history/characters").glob("*.txt")):
+        root = pdx.parse_file(path).get_node("CHARACTERS")
+        blocks = [it.key[2:] for it in root.items] if root else []
+        if blocks and set(blocks) <= d1_tags:
+            rel = f"common/history/characters/{path.name}"
+            write(rel, NOTE.format(path=rel) + f"# {', '.join(blocks)} are decentralized native polities here (D1).\n"
+                                                "CHARACTERS = {\n}\n")
+            summary[rel] = (len(blocks), 0)
+
+    # Atlas' custom subject types (ve_*) have no icons: the game looks icons up by action name
+    # (lens_toolbar_icons/<action>.dds, diplomatic_action_icons/<action>_15.dds). Each custom type
+    # gets its vanilla base type's icons under its own name.
+    import shutil  # noqa: E402
+    world = yaml.safe_load((ROOT / "world/scenario.yml").read_text())
+    icons = 0
+    for key, spec in (world.get("subject_types") or {}).items():
+        for folder, suffix in (("lens_toolbar_icons", ""), ("diplomatic_action_icons", "_15")):
+            src = VANILLA / f"gfx/interface/icons/{folder}/{spec['base']}{suffix}.dds"
+            dst = ROOT / f"gfx/interface/icons/{folder}/{key}{suffix}.dds"
+            if src.exists():
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(src, dst)
+                icons += 1
+    keep = {f"{key}{suffix}.dds" for key in (world.get("subject_types") or {}) for suffix in ("", "_15")}
+    for folder in ("lens_toolbar_icons", "diplomatic_action_icons"):
+        for stale in (ROOT / f"gfx/interface/icons/{folder}").glob("ve_*.dds"):
+            if stale.name not in keep:
+                stale.unlink()  # icon of a custom type that no longer exists (D5 went back to vanilla types)
+    summary["gfx/interface/icons (subject types)"] = (len(world.get("subject_types") or {}), icons)
+
     culture = ROOT / "common/cultures/ve_andalusi.txt"
     body = culture.read_text(encoding="utf-8-sig")
     culture.write_text("﻿" + body, encoding="utf-8")
@@ -152,6 +220,25 @@ def main() -> None:
           "# 07_culture_standard_of_living, 10_culture_cultural_acceptance, 11_culture_fervor_target).\n" + "\n".join(modifiers))
     write("common/modifier_type_definitions/ve_andalusi_modifier_types.txt",
           "# Modifier types used by ve_andalusi culture static modifiers (vanilla per-culture pattern).\n" + "\n".join(types))
+    # Country names: Atlas writes TAG / TAG_ADJ / dyn_c_* keys in tgc_generated_countries, but where the
+    # installed game defines the same key the vanilla text wins the duplicate (the fifth game test showed
+    # "Kürdistan" for the Mosul emirate and "Küçük Cüz" for the Kazakh khanate). Keys under
+    # localization/replace/<language>/ override vanilla, so the colliding keys are copied there.
+    key_re = re.compile(r'^\s*([A-Za-z0-9_.\-]+):\d*\s+"(.*)"\s*$')
+    for language in ("english", "turkish"):
+        vanilla_keys = set()
+        for path in (VANILLA / "localization" / language).rglob("*.yml"):
+            for line in path.read_text(encoding="utf-8-sig", errors="ignore").splitlines():
+                m = key_re.match(line)
+                if m:
+                    vanilla_keys.add(m.group(1))
+        generated = ROOT / f"localization/{language}/tgc_generated_countries_l_{language}.yml"
+        rows = [line for line in generated.read_text(encoding="utf-8-sig").splitlines()
+                if (m := key_re.match(line)) and m.group(1) in vanilla_keys]
+        rel = f"localization/replace/{language}/tgc_country_name_overrides_l_{language}.yml"
+        write(rel, f"l_{language}:\n # Generated by scenarios/runtime_cleanup/vanilla_overrides.py from "
+                   f"tgc_generated_countries_l_{language}.yml; do not hand-edit.\n" + "\n".join(rows) + "\n")
+        summary[rel] = ("colliding keys", len(rows))
     for rel, (before, after) in summary.items():
         print(f"{rel}: {before} -> {after}")
 

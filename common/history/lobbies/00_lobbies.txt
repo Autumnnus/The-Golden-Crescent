@@ -52,18 +52,6 @@ c:CRO ?= {
 		add_interest_group = ig:ig_intelligentsia
 	}
 }
-c:LUC ?= {
-	create_political_lobby = {
-		type = lobby_anti_country
-		target = c:AUS
-		add_interest_group = ig:ig_petty_bourgeoisie
-	}
-	create_political_lobby = {
-		type = lobby_pro_country
-		target = c:AUS
-		add_interest_group = ig:ig_landowners
-	}
-}
 c:MOD ?= {
 	create_political_lobby = {
 		type = lobby_anti_country
@@ -104,19 +92,6 @@ c:PAP ?= {
 		target = c:AUS
 		add_interest_group = ig:ig_landowners
 		add_interest_group = ig:ig_devout
-	}
-}
-c:PAR ?= {
-	create_political_lobby = {
-		type = lobby_anti_country
-		target = c:AUS
-		add_interest_group = ig:ig_petty_bourgeoisie
-		add_interest_group = ig:ig_intelligentsia
-	}
-	create_political_lobby = {
-		type = lobby_pro_country
-		target = c:AUS
-		add_interest_group = ig:ig_landowners
 	}
 }
 c:SAR ?= {

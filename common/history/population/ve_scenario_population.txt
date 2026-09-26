@@ -21,23 +21,11 @@ c:ACH ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:ADG ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:AHG ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
 c:AIN ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:AIR ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:AIT ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -109,10 +97,6 @@ c:BAL ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:BAS ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:BAV ?= {
 	effect_starting_pop_wealth_high = yes
 	effect_starting_pop_literacy_high = yes
@@ -133,19 +117,7 @@ c:BHN ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:BHO ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:BHU ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:BHW ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:BIK ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -201,17 +173,9 @@ c:BOR ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:BRA ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:BRD ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
-}
-c:BRE ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
 }
 c:BRG ?= {
 	effect_starting_pop_wealth_low = yes
@@ -234,10 +198,6 @@ c:BUG ?= {
 	effect_starting_pop_literacy_baseline = yes
 }
 c:BUK ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:BUN ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -273,15 +233,7 @@ c:CMI ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:COB ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:COM ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:CON ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -375,10 +327,6 @@ c:GZA ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:HAI ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_very_low = yes
-}
 c:HAM ?= {
 	effect_starting_pop_wealth_high = yes
 	effect_starting_pop_literacy_high = yes
@@ -411,10 +359,6 @@ c:HDY ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:HEK ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:HER ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -434,10 +378,6 @@ c:HLA ?= {
 c:HMB ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
-}
-c:HOH ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
 }
 c:HOL ?= {
 	effect_starting_pop_wealth_high = yes
@@ -483,10 +423,6 @@ c:JAP ?= {
 	effect_starting_pop_wealth_medium = yes
 	effect_starting_pop_literacy_middling = yes
 }
-c:JAS ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:JLF ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -524,10 +460,6 @@ c:KBA ?= {
 	effect_starting_pop_literacy_baseline = yes
 }
 c:KBD ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:KBU ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -603,14 +535,6 @@ c:KTU ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:KUN ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:KUT ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:KYN ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -639,10 +563,6 @@ c:LIB ?= {
 	effect_starting_pop_wealth_medium = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:LIP ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:LKT ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -665,14 +585,6 @@ c:LUA ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_low = yes
 }
-c:LUB ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
-c:LUC ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_low = yes
-}
 c:LUO ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -686,14 +598,6 @@ c:LZO ?= {
 	effect_starting_pop_literacy_baseline = yes
 }
 c:MAD ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:MAH ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:MAI ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -718,10 +622,6 @@ c:MDK ?= {
 	effect_starting_pop_literacy_baseline = yes
 }
 c:MEC ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
-c:MEI ?= {
 	effect_starting_pop_wealth_high = yes
 	effect_starting_pop_literacy_high = yes
 }
@@ -799,10 +699,6 @@ c:MSN ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:MST ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:MTB ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -822,10 +718,6 @@ c:NAG ?= {
 c:NAM ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
-}
-c:NAS ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
 }
 c:NEJ ?= {
 	effect_starting_pop_wealth_low = yes
@@ -883,10 +775,6 @@ c:OGD ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:OLD ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
 c:OMA ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -907,10 +795,6 @@ c:ORM ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:OUA ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:OVB ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -923,19 +807,11 @@ c:OYO ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:OZH ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:PAA ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
 c:PAP ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_low = yes
-}
-c:PAR ?= {
 	effect_starting_pop_wealth_high = yes
 	effect_starting_pop_literacy_low = yes
 }
@@ -1004,14 +880,6 @@ c:SAR ?= {
 	effect_starting_pop_literacy_low = yes
 }
 c:SAX ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
-c:SCM ?= {
-	effect_starting_pop_wealth_high = yes
-	effect_starting_pop_literacy_high = yes
-}
-c:SCW ?= {
 	effect_starting_pop_wealth_high = yes
 	effect_starting_pop_literacy_high = yes
 }
@@ -1127,10 +995,6 @@ c:SWZ ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:TBI ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:TGI ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -1171,23 +1035,7 @@ c:TRK ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:TRM ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:TRZ ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:TSW ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:TUA ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
-c:TUG ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
@@ -1215,10 +1063,6 @@ c:UTE ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
 }
-c:UZH ?= {
-	effect_starting_pop_wealth_low = yes
-	effect_starting_pop_literacy_baseline = yes
-}
 c:VND ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
@@ -1226,10 +1070,6 @@ c:VND ?= {
 c:VNT ?= {
 	effect_starting_pop_wealth_low = yes
 	effect_starting_pop_literacy_baseline = yes
-}
-c:VNZ ?= {
-	effect_starting_pop_wealth_medium = yes
-	effect_starting_pop_literacy_very_low = yes
 }
 c:WAD ?= {
 	effect_starting_pop_wealth_low = yes
@@ -1384,25 +1224,16 @@ s:STATE_ADANA = {
 	}
 }
 s:STATE_AGRA = {
-	region_state:GAR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_AGRA = {
 	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.216
+				literacy_rate = 0.215
 			}
 		}
 	}
 }
 s:STATE_AKMOLINSK = {
-	region_state:OZH = {
+	region_state:KZH = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -1528,7 +1359,7 @@ s:STATE_ALSACE_LORRAINE = {
 	}
 }
 s:STATE_ALTAI = {
-	region_state:DZH = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.075
@@ -1556,6 +1387,15 @@ s:STATE_ALXA = {
 }
 s:STATE_AL_RIF = {
 	region_state:MOR = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.224
+			}
+		}
+	}
+}
+s:STATE_AL_RIF = {
+	region_state:RUM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.224
@@ -1738,16 +1578,7 @@ s:STATE_ARAKAN = {
 	region_state:BUR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.084
-			}
-		}
-	}
-}
-s:STATE_ARAKAN = {
-	region_state:KKI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.066
+				literacy_rate = 0.082
 			}
 		}
 	}
@@ -1798,7 +1629,7 @@ s:STATE_ARIZONA = {
 	}
 }
 s:STATE_ARKANSAS = {
-	region_state:VMR = {
+	region_state:VGZ = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.042
@@ -1828,22 +1659,13 @@ s:STATE_ASSAM = {
 	region_state:ASM = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.1
+				literacy_rate = 0.097
 			}
 		}
 	}
 }
 s:STATE_ASSAM = {
-	region_state:KKI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.06
-			}
-		}
-	}
-}
-s:STATE_ASSAM = {
-	region_state:MGH = {
+	region_state:BGL = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.078
@@ -1856,24 +1678,6 @@ s:STATE_ASSAM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_ASSAM = {
-	region_state:NGA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.072
-			}
-		}
-	}
-}
-s:STATE_ASSAM = {
-	region_state:TIP = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.078
 			}
 		}
 	}
@@ -2035,25 +1839,7 @@ s:STATE_BALKH = {
 	region_state:BUK = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.183
-			}
-		}
-	}
-}
-s:STATE_BALKH = {
-	region_state:KUN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
-			}
-		}
-	}
-}
-s:STATE_BALKH = {
-	region_state:MAI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
+				literacy_rate = 0.162
 			}
 		}
 	}
@@ -2212,7 +1998,7 @@ s:STATE_BERMUDA = {
 	}
 }
 s:STATE_BESSARABIA = {
-	region_state:MOL = {
+	region_state:VPL = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.08
@@ -2248,7 +2034,7 @@ s:STATE_BOHEMIA = {
 	}
 }
 s:STATE_BOLIVAR = {
-	region_state:VNZ = {
+	region_state:VSI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.072
@@ -2257,25 +2043,7 @@ s:STATE_BOLIVAR = {
 	}
 }
 s:STATE_BOMBAY = {
-	region_state:KHP = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_BOMBAY = {
 	region_state:MAR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_BOMBAY = {
-	region_state:SAT = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -2383,19 +2151,10 @@ s:STATE_BRITTANY = {
 	}
 }
 s:STATE_BRUNSWICK = {
-	region_state:BRA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.17
-			}
-		}
-	}
-}
-s:STATE_BRUNSWICK = {
 	region_state:HAN = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.168
+				literacy_rate = 0.169
 			}
 		}
 	}
@@ -2419,7 +2178,7 @@ s:STATE_BUENOS_AIRES = {
 	}
 }
 s:STATE_BUKOVINA = {
-	region_state:AUS = {
+	region_state:VPL = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.065
@@ -2437,37 +2196,10 @@ s:STATE_BULGARIA = {
 	}
 }
 s:STATE_BUNDELKHAND = {
-	region_state:BAG = {
+	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_BUNDELKHAND = {
-	region_state:BUN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_BUNDELKHAND = {
-	region_state:JHN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_BUNDELKHAND = {
-	region_state:SUR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.09
 			}
 		}
 	}
@@ -2707,15 +2439,6 @@ s:STATE_CENTRAL_JAVA = {
 	}
 }
 s:STATE_CENTRAL_PROVINCES = {
-	region_state:BAS = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.084
-			}
-		}
-	}
-}
-s:STATE_CENTRAL_PROVINCES = {
 	region_state:HYD = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -2728,7 +2451,7 @@ s:STATE_CENTRAL_PROVINCES = {
 	region_state:NAG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.1
+				literacy_rate = 0.098
 			}
 		}
 	}
@@ -2770,7 +2493,7 @@ s:STATE_CHAD = {
 	}
 }
 s:STATE_CHAD = {
-	region_state:TBI = {
+	region_state:FZN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.134
@@ -2797,16 +2520,7 @@ s:STATE_CHAMPAGNE = {
 	}
 }
 s:STATE_CHELYABINSK = {
-	region_state:KZH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_CHELYABINSK = {
-	region_state:OZH = {
+	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -2851,7 +2565,7 @@ s:STATE_CHIAPAS = {
 	}
 }
 s:STATE_CHIHUAHUA = {
-	region_state:VNP = {
+	region_state:VNE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.048
@@ -2887,7 +2601,7 @@ s:STATE_CHUKOTKA = {
 	}
 }
 s:STATE_CHUVASHIA = {
-	region_state:VMA = {
+	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.03
@@ -2905,7 +2619,7 @@ s:STATE_CIRCARS = {
 	}
 }
 s:STATE_CIRCARS = {
-	region_state:JEY = {
+	region_state:ORI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -3031,19 +2745,10 @@ s:STATE_CONNECTICUT = {
 	}
 }
 s:STATE_CONSTANTINE = {
-	region_state:AIT = {
+	region_state:MAS = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.165
-			}
-		}
-	}
-}
-s:STATE_CONSTANTINE = {
-	region_state:CON = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.23
+				literacy_rate = 0.22
 			}
 		}
 	}
@@ -3058,7 +2763,7 @@ s:STATE_CORRIENTES = {
 	}
 }
 s:STATE_CORSICA = {
-	region_state:FPR = {
+	region_state:VCN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.095
@@ -3166,7 +2871,7 @@ s:STATE_DAHOMEY = {
 	}
 }
 s:STATE_DALMATIA = {
-	region_state:AUS = {
+	region_state:CRO = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.111
@@ -3205,16 +2910,7 @@ s:STATE_DELHI = {
 	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.261
-			}
-		}
-	}
-}
-s:STATE_DELHI = {
-	region_state:PTA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
+				literacy_rate = 0.26
 			}
 		}
 	}
@@ -3238,7 +2934,7 @@ s:STATE_DISTRICT_OF_COLUMBIA = {
 	}
 }
 s:STATE_DIYARBAKIR = {
-	region_state:KUR = {
+	region_state:RUM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.215
@@ -3247,7 +2943,7 @@ s:STATE_DIYARBAKIR = {
 	}
 }
 s:STATE_DOBRUDJA = {
-	region_state:BUL = {
+	region_state:WAL = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.215
@@ -3265,7 +2961,7 @@ s:STATE_DONGOLA = {
 	}
 }
 s:STATE_DURANGO = {
-	region_state:VDR = {
+	region_state:VNE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.06
@@ -3274,7 +2970,7 @@ s:STATE_DURANGO = {
 	}
 }
 s:STATE_DZUNGARIA = {
-	region_state:DZH = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.103
@@ -3526,46 +3222,19 @@ s:STATE_EAST_PRUSSIA = {
 	}
 }
 s:STATE_EAST_SAHARA = {
-	region_state:ADG = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.051
-			}
-		}
-	}
-}
-s:STATE_EAST_SAHARA = {
 	region_state:AHG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.112
 			}
 		}
 	}
 }
 s:STATE_EAST_SAHARA = {
-	region_state:AJJ = {
+	region_state:MAS = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.108
-			}
-		}
-	}
-}
-s:STATE_EAST_SAHARA = {
-	region_state:CMB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_EAST_SAHARA = {
-	region_state:TUG = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.145
+				literacy_rate = 0.142
 			}
 		}
 	}
@@ -3598,15 +3267,6 @@ s:STATE_EGYPTIAN_DESERT = {
 	}
 }
 s:STATE_ELBE = {
-	region_state:BRE = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.2
-			}
-		}
-	}
-}
-s:STATE_ELBE = {
 	region_state:HAM = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -3634,15 +3294,6 @@ s:STATE_ELIZAVETPOL = {
 	}
 }
 s:STATE_EMILIA = {
-	region_state:LUC = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.14
-			}
-		}
-	}
-}
-s:STATE_EMILIA = {
 	region_state:MOD = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -3652,7 +3303,16 @@ s:STATE_EMILIA = {
 	}
 }
 s:STATE_EMILIA = {
-	region_state:PAR = {
+	region_state:TUS = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.14
+			}
+		}
+	}
+}
+s:STATE_EMILIA = {
+	region_state:VMI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.14
@@ -3841,7 +3501,7 @@ s:STATE_FORMOSA = {
 	}
 }
 s:STATE_FRANCHE_COMTE = {
-	region_state:FBG = {
+	region_state:FPA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.15
@@ -3904,7 +3564,7 @@ s:STATE_GABON = {
 	}
 }
 s:STATE_GALICH = {
-	region_state:VPL = {
+	region_state:VMS = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.212
@@ -3922,7 +3582,7 @@ s:STATE_GALICIA = {
 	}
 }
 s:STATE_GANSU = {
-	region_state:NCH = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.095
@@ -4129,15 +3789,6 @@ s:STATE_GUINEA = {
 	}
 }
 s:STATE_GUINEA = {
-	region_state:KBU = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_GUINEA = {
 	region_state:MDK = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -4151,6 +3802,15 @@ s:STATE_GUINEA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.13
+			}
+		}
+	}
+}
+s:STATE_GUINEA = {
+	region_state:VAG = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
 			}
 		}
 	}
@@ -4174,73 +3834,10 @@ s:STATE_GUJARAT = {
 	}
 }
 s:STATE_GUJARAT = {
-	region_state:BHV = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:DHA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
 	region_state:GJT = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.21
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:IDA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:JUN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:KUT = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:NAW = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_GUJARAT = {
-	region_state:PLP = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
+				literacy_rate = 0.18
 			}
 		}
 	}
@@ -4255,6 +3852,15 @@ s:STATE_GUYENNE = {
 	}
 }
 s:STATE_HAIL = {
+	region_state:BHN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.155
+			}
+		}
+	}
+}
+s:STATE_HAIL = {
 	region_state:JAB = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -4264,7 +3870,7 @@ s:STATE_HAIL = {
 	}
 }
 s:STATE_HAIL = {
-	region_state:NEJ = {
+	region_state:SYR = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.155
@@ -4273,7 +3879,7 @@ s:STATE_HAIL = {
 	}
 }
 s:STATE_HAITI = {
-	region_state:HAI = {
+	region_state:VPI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.036
@@ -4285,16 +3891,7 @@ s:STATE_HANNOVER = {
 	region_state:HAN = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.168
-			}
-		}
-	}
-}
-s:STATE_HANNOVER = {
-	region_state:OLD = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.198
+				literacy_rate = 0.173
 			}
 		}
 	}
@@ -4390,37 +3987,10 @@ s:STATE_HESSE = {
 	}
 }
 s:STATE_HESSE = {
-	region_state:HEK = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.157
-			}
-		}
-	}
-}
-s:STATE_HESSE = {
 	region_state:HES = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.157
-			}
-		}
-	}
-}
-s:STATE_HESSE = {
-	region_state:NAS = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.161
-			}
-		}
-	}
-}
-s:STATE_HESSE = {
-	region_state:WLD = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.146
+				literacy_rate = 0.158
 			}
 		}
 	}
@@ -4435,7 +4005,7 @@ s:STATE_HIGHLANDS = {
 	}
 }
 s:STATE_HILL_PUNJAB = {
-	region_state:GAR = {
+	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.096
@@ -4445,15 +4015,6 @@ s:STATE_HILL_PUNJAB = {
 }
 s:STATE_HILL_PUNJAB = {
 	region_state:PNJ = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_HILL_PUNJAB = {
-	region_state:PTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -4651,28 +4212,10 @@ s:STATE_INGRIA = {
 	}
 }
 s:STATE_INNER_MAURITANIA = {
-	region_state:ADR = {
+	region_state:MOR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.073
-			}
-		}
-	}
-}
-s:STATE_INNER_MAURITANIA = {
-	region_state:OUA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.113
-			}
-		}
-	}
-}
-s:STATE_INNER_MAURITANIA = {
-	region_state:RGB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.085
+				literacy_rate = 0.101
 			}
 		}
 	}
@@ -4732,7 +4275,7 @@ s:STATE_ISFAHAN = {
 	}
 }
 s:STATE_ISTRIA = {
-	region_state:AUS = {
+	region_state:VVE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.111
@@ -4786,7 +4329,7 @@ s:STATE_JAMAICA = {
 	}
 }
 s:STATE_JETISY = {
-	region_state:KZH = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -4840,7 +4383,7 @@ s:STATE_KABUL = {
 	}
 }
 s:STATE_KABUL = {
-	region_state:KAF = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.02
@@ -4966,28 +4509,19 @@ s:STATE_KASAI = {
 	}
 }
 s:STATE_KASHMIR = {
-	region_state:CHT = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
-			}
-		}
-	}
-}
-s:STATE_KASHMIR = {
 	region_state:KAS = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.175
+				literacy_rate = 0.158
 			}
 		}
 	}
 }
 s:STATE_KASHMIR = {
-	region_state:LAD = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.096
+				literacy_rate = 0.155
 			}
 		}
 	}
@@ -5176,25 +4710,7 @@ s:STATE_KHIVA = {
 	region_state:KHI = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.219
-			}
-		}
-	}
-}
-s:STATE_KHIVA = {
-	region_state:KZH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_KHIVA = {
-	region_state:TRM = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.217
 			}
 		}
 	}
@@ -5227,19 +4743,10 @@ s:STATE_KIEV = {
 	}
 }
 s:STATE_KIRGHIZIA = {
-	region_state:KIR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_KIRGHIZIA = {
 	region_state:KOK = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.189
+				literacy_rate = 0.179
 			}
 		}
 	}
@@ -5560,7 +5067,7 @@ s:STATE_LIBERIA = {
 	}
 }
 s:STATE_LIBYA = {
-	region_state:TBI = {
+	region_state:FZN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.085
@@ -5572,25 +5079,7 @@ s:STATE_LIBYA = {
 	region_state:TRI = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.2
-			}
-		}
-	}
-}
-s:STATE_LIBYA = {
-	region_state:ZWY = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_LIBYAN_DESERT = {
-	region_state:AJJ = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.108
+				literacy_rate = 0.196
 			}
 		}
 	}
@@ -5599,25 +5088,7 @@ s:STATE_LIBYAN_DESERT = {
 	region_state:FZN = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.115
-			}
-		}
-	}
-}
-s:STATE_LIBYAN_DESERT = {
-	region_state:TBI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.085
-			}
-		}
-	}
-}
-s:STATE_LIBYAN_DESERT = {
-	region_state:ZWY = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.101
+				literacy_rate = 0.109
 			}
 		}
 	}
@@ -5668,7 +5139,7 @@ s:STATE_LOMBARDY = {
 	}
 }
 s:STATE_LORRAINE = {
-	region_state:FBG = {
+	region_state:FPA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.17
@@ -5686,7 +5157,7 @@ s:STATE_LOS_RIOS = {
 	}
 }
 s:STATE_LOUISIANA = {
-	region_state:VMR = {
+	region_state:VGZ = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.054
@@ -5785,15 +5256,6 @@ s:STATE_MADEIRA = {
 	}
 }
 s:STATE_MADRAS = {
-	region_state:PUD = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_MADRAS = {
 	region_state:TAM = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -5866,15 +5328,6 @@ s:STATE_MALTA = {
 	}
 }
 s:STATE_MALWA = {
-	region_state:BHO = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_MALWA = {
 	region_state:GWA = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -5892,20 +5345,20 @@ s:STATE_MALWA = {
 		}
 	}
 }
-s:STATE_MANDALAY = {
-	region_state:BUR = {
+s:STATE_MALWA = {
+	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.116
+				literacy_rate = 0.1
 			}
 		}
 	}
 }
 s:STATE_MANDALAY = {
-	region_state:KKI = {
+	region_state:BUR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.066
+				literacy_rate = 0.114
 			}
 		}
 	}
@@ -5992,24 +5445,6 @@ s:STATE_MATRUH = {
 	}
 }
 s:STATE_MAURITANIA = {
-	region_state:BRK = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_MAURITANIA = {
-	region_state:DLM = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_MAURITANIA = {
 	region_state:FTR = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -6019,19 +5454,10 @@ s:STATE_MAURITANIA = {
 	}
 }
 s:STATE_MAURITANIA = {
-	region_state:OUA = {
+	region_state:MOR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.125
-			}
-		}
-	}
-}
-s:STATE_MAURITANIA = {
-	region_state:TRZ = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.128
 			}
 		}
 	}
@@ -6063,15 +5489,6 @@ s:STATE_MECKLENBURG = {
 		}
 	}
 }
-s:STATE_MECKLENBURG = {
-	region_state:MST = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
 s:STATE_MEKONG = {
 	region_state:DAI = {
 		every_scope_pop = {
@@ -6094,25 +5511,7 @@ s:STATE_MERZ = {
 	region_state:BUK = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.137
-			}
-		}
-	}
-}
-s:STATE_MERZ = {
-	region_state:KHI = {
-		every_scope_pop = {
-			set_pop_literacy = {
 				literacy_rate = 0.132
-			}
-		}
-	}
-}
-s:STATE_MERZ = {
-	region_state:TRM = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
 			}
 		}
 	}
@@ -6217,7 +5616,7 @@ s:STATE_MINSK = {
 	}
 }
 s:STATE_MIRANDA = {
-	region_state:VNZ = {
+	region_state:VSI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.072
@@ -6343,19 +5742,10 @@ s:STATE_MONTANA = {
 	}
 }
 s:STATE_MONTENEGRO = {
-	region_state:AUS = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.055
-			}
-		}
-	}
-}
-s:STATE_MONTENEGRO = {
 	region_state:MON = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.08
+				literacy_rate = 0.078
 			}
 		}
 	}
@@ -6667,34 +6057,16 @@ s:STATE_NICARAGUA = {
 	}
 }
 s:STATE_NIGER = {
-	region_state:AIR = {
+	region_state:AHG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.133
 			}
 		}
 	}
 }
 s:STATE_NIGER = {
-	region_state:AJJ = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.169
-			}
-		}
-	}
-}
-s:STATE_NIGER = {
-	region_state:DIN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_NIGER = {
-	region_state:TBI = {
+	region_state:FZN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.146
@@ -6901,7 +6273,7 @@ s:STATE_NORTHERN_TERRITORY = {
 	}
 }
 s:STATE_NORTHERN_THRACE = {
-	region_state:BUL = {
+	region_state:RUM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.215
@@ -7156,7 +6528,7 @@ s:STATE_OKLAHOMA = {
 	region_state:SEQ = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.036
+				literacy_rate = 0.021
 			}
 		}
 	}
@@ -7207,37 +6579,10 @@ s:STATE_OREGON = {
 	}
 }
 s:STATE_ORISSA = {
-	region_state:MYB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.096
-			}
-		}
-	}
-}
-s:STATE_ORISSA = {
-	region_state:NAR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.09
-			}
-		}
-	}
-}
-s:STATE_ORISSA = {
 	region_state:ORI = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_ORISSA = {
-	region_state:PTN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.096
+				literacy_rate = 0.098
 			}
 		}
 	}
@@ -7396,19 +6741,19 @@ s:STATE_PARANA = {
 	}
 }
 s:STATE_PASHTUNISTAN = {
-	region_state:CHT = {
+	region_state:KAB = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.155
+				literacy_rate = 0.191
 			}
 		}
 	}
 }
 s:STATE_PASHTUNISTAN = {
-	region_state:KAB = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.191
+				literacy_rate = 0.155
 			}
 		}
 	}
@@ -7477,7 +6822,7 @@ s:STATE_PENNSYLVANIA = {
 	}
 }
 s:STATE_PERM = {
-	region_state:VUR = {
+	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.125
@@ -7530,8 +6875,17 @@ s:STATE_PIEDMONT = {
 		}
 	}
 }
+s:STATE_PIEDMONT = {
+	region_state:VCN = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.121
+			}
+		}
+	}
+}
 s:STATE_POITOU = {
-	region_state:FAQ = {
+	region_state:FPA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -7603,19 +6957,10 @@ s:STATE_PUERTO_RICO = {
 	}
 }
 s:STATE_PUNJAB = {
-	region_state:BHW = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
-			}
-		}
-	}
-}
-s:STATE_PUNJAB = {
 	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.207
+				literacy_rate = 0.205
 			}
 		}
 	}
@@ -7630,7 +6975,7 @@ s:STATE_PYONGYANG = {
 	}
 }
 s:STATE_QINGHAI = {
-	region_state:NCH = {
+	region_state:KSG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.065
@@ -7747,24 +7092,6 @@ s:STATE_QUETTA = {
 	}
 }
 s:STATE_RAJPUTANA = {
-	region_state:ALW = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_RAJPUTANA = {
-	region_state:BIK = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.09
-			}
-		}
-	}
-}
-s:STATE_RAJPUTANA = {
 	region_state:GWA = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -7792,34 +7119,25 @@ s:STATE_RAJPUTANA = {
 	}
 }
 s:STATE_RAJPUTANA = {
-	region_state:JAS = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.084
-			}
-		}
-	}
-}
-s:STATE_RAJPUTANA = {
 	region_state:JOD = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_RAJPUTANA = {
-	region_state:KOT = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
+				literacy_rate = 0.098
 			}
 		}
 	}
 }
 s:STATE_RAJPUTANA = {
 	region_state:MEW = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.1
+			}
+		}
+	}
+}
+s:STATE_RAJPUTANA = {
+	region_state:MUG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -7909,7 +7227,7 @@ s:STATE_RIO_DE_JANEIRO = {
 	}
 }
 s:STATE_RIO_GRANDE = {
-	region_state:VSR = {
+	region_state:VNE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.06
@@ -8017,7 +7335,7 @@ s:STATE_RYUKYU_ISLANDS = {
 	}
 }
 s:STATE_SAHARA = {
-	region_state:CMB = {
+	region_state:MAS = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.13
@@ -8026,37 +7344,10 @@ s:STATE_SAHARA = {
 	}
 }
 s:STATE_SAHARA = {
-	region_state:MZB = {
+	region_state:MOR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_SAHARA = {
-	region_state:RGB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.097
-			}
-		}
-	}
-}
-s:STATE_SAHARA = {
-	region_state:TEK = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_SAHARA = {
-	region_state:TUA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.121
 			}
 		}
 	}
@@ -8098,19 +7389,10 @@ s:STATE_SAKHALIN = {
 	}
 }
 s:STATE_SAMARA = {
-	region_state:KZH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_SAMARA = {
 	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.205
+				literacy_rate = 0.196
 			}
 		}
 	}
@@ -8161,7 +7443,7 @@ s:STATE_SANTIAGO = {
 	}
 }
 s:STATE_SANTO_DOMINGO = {
-	region_state:HAI = {
+	region_state:VPI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.042
@@ -8188,7 +7470,16 @@ s:STATE_SAO_PAULO = {
 	}
 }
 s:STATE_SARDINIA = {
-	region_state:SAR = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.046
+			}
+		}
+	}
+}
+s:STATE_SARDINIA = {
+	region_state:VSD = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.046
@@ -8233,34 +7524,7 @@ s:STATE_SAVOY = {
 	}
 }
 s:STATE_SAXONY = {
-	region_state:COB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.17
-			}
-		}
-	}
-}
-s:STATE_SAXONY = {
-	region_state:MEI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.17
-			}
-		}
-	}
-}
-s:STATE_SAXONY = {
 	region_state:SAX = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.17
-			}
-		}
-	}
-}
-s:STATE_SAXONY = {
-	region_state:SCW = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.17
@@ -8287,7 +7551,7 @@ s:STATE_SCANIA = {
 	}
 }
 s:STATE_SCHLESWIG_HOLSTEIN = {
-	region_state:HOL = {
+	region_state:HAM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.2
@@ -8296,7 +7560,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = {
 	}
 }
 s:STATE_SCHLESWIG_HOLSTEIN = {
-	region_state:LUB = {
+	region_state:HOL = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.2
@@ -8314,7 +7578,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = {
 	}
 }
 s:STATE_SEMIRECHE = {
-	region_state:OZH = {
+	region_state:KZH = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -8350,15 +7614,6 @@ s:STATE_SENEGAL = {
 	}
 }
 s:STATE_SENEGAL = {
-	region_state:DIO = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_SENEGAL = {
 	region_state:FTR = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -8377,7 +7632,7 @@ s:STATE_SENEGAL = {
 	}
 }
 s:STATE_SENEGAL = {
-	region_state:KBU = {
+	region_state:SRR = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -8386,7 +7641,7 @@ s:STATE_SENEGAL = {
 	}
 }
 s:STATE_SENEGAL = {
-	region_state:SRR = {
+	region_state:VAG = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.1
@@ -8476,7 +7731,16 @@ s:STATE_SICHUAN = {
 	}
 }
 s:STATE_SICILY = {
-	region_state:SIC = {
+	region_state:RUM = {
+		every_scope_pop = {
+			set_pop_literacy = {
+				literacy_rate = 0.08
+			}
+		}
+	}
+}
+s:STATE_SICILY = {
+	region_state:VSD = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.08
@@ -8485,19 +7749,10 @@ s:STATE_SICILY = {
 	}
 }
 s:STATE_SIERRA_LEONE = {
-	region_state:MDK = {
+	region_state:VAG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.103
-			}
-		}
-	}
-}
-s:STATE_SIERRA_LEONE = {
-	region_state:TMN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.072
+				literacy_rate = 0.084
 			}
 		}
 	}
@@ -8512,7 +7767,7 @@ s:STATE_SINAI = {
 	}
 }
 s:STATE_SINALOA = {
-	region_state:VSO = {
+	region_state:VNE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.048
@@ -8638,7 +7893,7 @@ s:STATE_SOMALILAND = {
 	}
 }
 s:STATE_SONORA = {
-	region_state:VSO = {
+	region_state:VNE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.048
@@ -8854,7 +8109,7 @@ s:STATE_SOUTH_SUMATRA = {
 	}
 }
 s:STATE_SOUTH_TYROL = {
-	region_state:AUS = {
+	region_state:VVE = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.129
@@ -8927,24 +8182,6 @@ s:STATE_SYRDARYA = {
 }
 s:STATE_SYRDARYA = {
 	region_state:KZH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_SYRDARYA = {
-	region_state:OZH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.135
-			}
-		}
-	}
-}
-s:STATE_SYRDARYA = {
-	region_state:UZH = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.135
@@ -9151,7 +8388,7 @@ s:STATE_TEXAS = {
 	}
 }
 s:STATE_TEXAS = {
-	region_state:VCD = {
+	region_state:VGZ = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.03
@@ -9178,55 +8415,19 @@ s:STATE_TIANSHAN = {
 	}
 }
 s:STATE_TIMBUKTU = {
-	region_state:ADG = {
+	region_state:AHG = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.14
+				literacy_rate = 0.138
 			}
 		}
 	}
 }
 s:STATE_TIMBUKTU = {
-	region_state:ADR = {
+	region_state:VTB = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.191
-			}
-		}
-	}
-}
-s:STATE_TIMBUKTU = {
-	region_state:ATR = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_TIMBUKTU = {
-	region_state:MSN = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.179
-			}
-		}
-	}
-}
-s:STATE_TIMBUKTU = {
-	region_state:OUA = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.249
-			}
-		}
-	}
-}
-s:STATE_TIMBUKTU = {
-	region_state:RGB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.256
+				literacy_rate = 0.184
 			}
 		}
 	}
@@ -9403,15 +8604,6 @@ s:STATE_TRANS_BAIKAL = {
 	}
 }
 s:STATE_TRAVANCORE = {
-	region_state:COC = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
-			}
-		}
-	}
-}
-s:STATE_TRAVANCORE = {
 	region_state:TRA = {
 		every_scope_pop = {
 			set_pop_literacy = {
@@ -9433,16 +8625,7 @@ s:STATE_TRIPOLI = {
 	region_state:TRI = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.242
-			}
-		}
-	}
-}
-s:STATE_TRIPOLI = {
-	region_state:ZWY = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.146
+				literacy_rate = 0.241
 			}
 		}
 	}
@@ -9467,15 +8650,6 @@ s:STATE_TUNISIA = {
 }
 s:STATE_TURKMENIA = {
 	region_state:KHI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.132
-			}
-		}
-	}
-}
-s:STATE_TURKMENIA = {
-	region_state:TRM = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.13
@@ -9646,7 +8820,7 @@ s:STATE_UPPER_YENISEYSK = {
 	}
 }
 s:STATE_URAL = {
-	region_state:VUR = {
+	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.125
@@ -9664,10 +8838,10 @@ s:STATE_URALSK = {
 	}
 }
 s:STATE_URALSK = {
-	region_state:TRM = {
+	region_state:VTA = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.135
 			}
 		}
 	}
@@ -10105,28 +9279,10 @@ s:STATE_WESTERN_THRACE = {
 	}
 }
 s:STATE_WESTPHALIA = {
-	region_state:LIP = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.157
-			}
-		}
-	}
-}
-s:STATE_WESTPHALIA = {
-	region_state:SCM = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.146
-			}
-		}
-	}
-}
-s:STATE_WESTPHALIA = {
 	region_state:VRC = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.183
+				literacy_rate = 0.181
 			}
 		}
 	}
@@ -10144,16 +9300,7 @@ s:STATE_WEST_BENGAL = {
 	region_state:BGL = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.244
-			}
-		}
-	}
-}
-s:STATE_WEST_BENGAL = {
-	region_state:COO = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.1
+				literacy_rate = 0.242
 			}
 		}
 	}
@@ -10240,28 +9387,19 @@ s:STATE_WEST_INDIES = {
 	}
 }
 s:STATE_WEST_INDIES = {
-	region_state:VLE = {
+	region_state:VFA = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.072
+				literacy_rate = 0.069
 			}
 		}
 	}
 }
 s:STATE_WEST_INDIES = {
-	region_state:VNZ = {
+	region_state:VSI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.072
-			}
-		}
-	}
-}
-s:STATE_WEST_INDIES = {
-	region_state:VWI = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.066
 			}
 		}
 	}
@@ -10303,28 +9441,10 @@ s:STATE_WEST_PRUSSIA = {
 	}
 }
 s:STATE_WEST_SAHARA = {
-	region_state:DLM = {
+	region_state:MOR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.13
-			}
-		}
-	}
-}
-s:STATE_WEST_SAHARA = {
-	region_state:RGB = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.097
-			}
-		}
-	}
-}
-s:STATE_WEST_SAHARA = {
-	region_state:TEK = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.13
+				literacy_rate = 0.122
 			}
 		}
 	}
@@ -10384,19 +9504,10 @@ s:STATE_WISCONSIN = {
 	}
 }
 s:STATE_WURTTEMBERG = {
-	region_state:HOH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.146
-			}
-		}
-	}
-}
-s:STATE_WURTTEMBERG = {
 	region_state:WUR = {
 		every_scope_pop = {
 			set_pop_literacy = {
-				literacy_rate = 0.17
+				literacy_rate = 0.169
 			}
 		}
 	}
@@ -10505,15 +9616,6 @@ s:STATE_YEMEN = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.165
-			}
-		}
-	}
-}
-s:STATE_YEMEN = {
-	region_state:MAH = {
-		every_scope_pop = {
-			set_pop_literacy = {
-				literacy_rate = 0.155
 			}
 		}
 	}
@@ -10699,7 +9801,7 @@ s:STATE_ZHILI = {
 	}
 }
 s:STATE_ZULIA = {
-	region_state:VNZ = {
+	region_state:VSI = {
 		every_scope_pop = {
 			set_pop_literacy = {
 				literacy_rate = 0.072

@@ -130,6 +130,101 @@ POST_PREVIEW_HOMELANDS = {
 
 M1_PLAN = ROOT / "scenarios/atlas/mechanics_m1_institutions/plan.yml"
 M1B_PLAN = ROOT / "scenarios/atlas/mechanics_m1b_literacy/plan.yml"
+D1_PLAN = ROOT / "scenarios/atlas/diplomacy_d1_natives/plan.yml"
+D2_PLAN = ROOT / "scenarios/atlas/diplomacy_d2_subjects/plan.yml"
+D3_PLAN = ROOT / "scenarios/atlas/diplomacy_d3_treaties/plan.yml"
+D4_PLAN = ROOT / "scenarios/atlas/diplomacy_d4_recognition/plan.yml"
+D4 = yaml.safe_load(D4_PLAN.read_text())["countries"] if D4_PLAN.exists() else {}
+D5_PLAN = ROOT / "scenarios/atlas/diplomacy_d5_vanilla_subjects/plan.yml"
+D5 = yaml.safe_load(D5_PLAN.read_text()) if D5_PLAN.exists() else {"subjects": [], "colonial": {}}
+P2_DIR = ROOT / "scenarios/atlas/political_p2_corrections"
+P2 = yaml.safe_load((P2_DIR / "plan.yml").read_text()) if (P2_DIR / "plan.yml").exists() else \
+    {"transfers": [], "countries": {}, "new_countries": {}}
+P2_ADJ = yaml.safe_load((P2_DIR / "adjectives.yml").read_text())["countries"] if (P2_DIR / "adjectives.yml").exists() else {}
+
+
+def load_package(name: str) -> dict:
+    """A P3-style political package (political_p3_borders/prepare.py format), in application order."""
+    path = ROOT / f"scenarios/atlas/{name}/plan.yml"
+    plan = {"moves": [], "transfers": [], "countries": {}, "new_countries": {}, "claims": {},
+            **(yaml.safe_load(path.read_text()) if path.exists() else {})}
+    plan["diplomacy"] = {"remove_subjects": [], "subjects": [], "relations": [], **(plan.get("diplomacy") or {})}
+    return plan
+
+
+PACKAGES = [load_package("political_p3_borders"), load_package("political_p4_corrections")]
+LIVE = []  # the packages the active world contains (set in main)
+
+
+def package_fields(tag: str) -> dict:
+    """Country fields the live packages set; a later package overrides an earlier one."""
+    fields = {}
+    for plan in LIVE:
+        fields.update(plan["countries"].get(tag, {}))
+    return fields
+
+
+M4_PLAN = ROOT / "scenarios/atlas/mechanics_m4_military/plan.yml"
+M4 = yaml.safe_load(M4_PLAN.read_text())["countries"] if M4_PLAN.exists() else {}
+
+
+def split_m4(tag: str, spec: dict, mismatches: list) -> dict:
+    """M4 writes every organized country's army and navy (mechanics_m4_military/plan.yml)."""
+    if tag not in M4 or "military" not in spec:
+        return spec
+    if spec["military"] != {"mode": "replace", "formations": M4[tag]["formations"]}:
+        mismatches.append(f"country {tag} M4 military")
+    return {key: value for key, value in spec.items() if key != "military"}
+
+
+def split_p3(tag: str, spec: dict, mismatches: list) -> dict:
+    """P3/P4 rename a few countries (plan.yml `countries`); their fields replace P2's adjectives."""
+    spec = split_m4(tag, spec, mismatches)
+    fields = package_fields(tag)
+    for field, value in fields.items():
+        if spec.get(field) != value:
+            mismatches.append(f"country {tag} P3 {field}")
+    return {key: value for key, value in spec.items() if key not in fields}
+
+
+def split_p2(tag: str, spec: dict, mismatches: list) -> dict:
+    """P2 adds adjectives to every named country and changes a few country fields (plan.yml)."""
+    spec = split_p3(tag, spec, mismatches)
+    drop = set()
+    if tag in P2_ADJ and "adjective" in spec:
+        if (spec.get("adjective"), spec.get("adjective_tr")) != (P2_ADJ[tag]["en"], P2_ADJ[tag]["tr"]):
+            mismatches.append(f"country {tag} P2 adjective")
+        drop |= {"adjective", "adjective_tr"}
+    for field, value in P2["countries"].get(tag, {}).items():
+        if spec.get(field) != value:
+            mismatches.append(f"country {tag} P2 {field}")
+        drop.add(field)
+    return {key: value for key, value in spec.items() if key not in drop}
+D1 = set(yaml.safe_load(D1_PLAN.read_text())["countries"]) if D1_PLAN.exists() else set()
+D1_VANILLA = {"history_mode": "replace", "technology": {"mode": "replace", "tier": 7}, "institutions": {},
+              "military": {"mode": "replace", "formations": []}}
+
+
+def split_d1(tag: str, spec: dict, m1: dict, mismatches: list) -> dict:
+    """D1 makes listed native polities decentralized; vanilla tags also get a replaced tier 7 history.
+    D4 sets recognition by the scenario rule (Islamic and European sphere recognized)."""
+    if tag in D5["colonial"] and spec.get("country_type") == "colonial":
+        spec = {key: value for key, value in spec.items() if key != "country_type"}  # D5 colony type
+    if tag in D4:
+        if spec.get("country_type") != D4[tag]["to"]:
+            mismatches.append(f"country {tag} D4 recognition")
+        spec = {key: value for key, value in spec.items() if key != "country_type"}
+    if tag not in D1:
+        return spec
+    if spec.get("country_type") != "decentralized":
+        mismatches.append(f"country {tag} D1 country type")
+    drop = {"country_type"}
+    if tag not in m1:
+        if any(spec.get(k) != v for k, v in D1_VANILLA.items()) or (spec.get("laws") or {}).get("mode") != "replace" \
+                or "law_chiefdom" not in (spec.get("laws") or {}).get("values", []):
+            mismatches.append(f"country {tag} D1 vanilla history")
+        drop |= set(D1_VANILLA) | {"laws"}
+    return {key: value for key, value in spec.items() if key not in drop}
 M0_LIBERTY_RESET = ["IQU", "KZH", "NPU", "OZH", "SEQ", "SER", "UZH", "WAL"]
 M0_RELATIONS = [{"actor": "MOL", "target": "WAL", "value": 50}, {"actor": "MON", "target": "SER", "value": 30},
                 {"actor": "WAL", "target": "SER", "value": 20}]
@@ -137,6 +232,8 @@ M0_RELATIONS = [{"actor": "MOL", "target": "WAL", "value": 50}, {"actor": "MON",
 
 def split_m1(tag: str, spec: dict, m1: dict, mismatches: list) -> dict:
     """M1/M1b own technology, laws and institutions of their planned countries; check them against the plan."""
+    spec = split_p2(tag, spec, mismatches)
+    spec = split_d1(tag, spec, m1, mismatches)
     if tag not in m1:
         return spec
     row = m1[tag]
@@ -180,6 +277,54 @@ def main() -> None:
         parts = [part for part in expected_states[state]["split"] if part["owner"] == old]
         assert len(parts) == 1 and len(parts[0]["provinces"]) == count, (state, old)
         parts[0]["owner"] = new
+    # P2 (political_p2_corrections/plan.yml): whole parts change owner.
+    first = P2["transfers"][0] if P2["transfers"] else None
+    p2_active = bool(first) and first["to"] in active["states"][first["state"]]["population"]["by_owner"]
+    for row in P2["transfers"] if p2_active else []:
+        expected = expected_states[row["state"]]
+        if "split" not in expected:
+            assert expected.get("owner") == row["from"], (row["state"], row["from"])
+            expected["owner"] = row["to"]
+            continue
+        parts = [part for part in expected["split"] if part["owner"] == row["from"]]
+        assert parts, (row["state"], row["from"])
+        for part in parts:
+            part["owner"] = row["to"]
+    # P3/P4 (political_p3_borders, political_p4_corrections): province moves, whole-share
+    # transfers/merges and claims, applied in order. A package is live when its first transfer is.
+    index = json.loads((ROOT / "build/index.json").read_text())
+    for plan in PACKAGES:
+        first = plan["transfers"][0] if plan["transfers"] else None
+        if not first or first["from"] in active["states"][first["state"]]["population"]["by_owner"] or \
+                first["to"] not in active["states"][first["state"]]["population"]["by_owner"]:
+            break
+        LIVE.append(plan)
+        for row in plan["moves"]:
+            expected = expected_states[row["state"]]
+            if "split" not in expected:
+                expected["split"] = [{"owner": expected.pop("owner"), "provinces": list(index["states"][row["state"]]["provinces"])}]
+            for part in (p for p in expected["split"] if p["owner"] == row["from"]):
+                part["provinces"] = [p for p in part["provinces"] if p not in row["provinces"]]
+            expected["split"] = [p for p in expected["split"] if p["provinces"]]
+            expected["split"].append({"owner": row["to"], "provinces": list(row["provinces"])})
+        for row in plan["transfers"]:
+            expected = expected_states[row["state"]]
+            if expected.get("owner") == row["from"]:
+                expected["owner"] = row["to"]
+                continue
+            mine = [p for p in expected["split"] if p["owner"] == row["from"]]
+            theirs = [p for p in expected["split"] if p["owner"] == row["to"]]
+            assert mine, (row["state"], row["from"])
+            for p in mine:
+                if theirs:
+                    theirs[0]["provinces"] = theirs[0]["provinces"] + p["provinces"]
+                    expected["split"].remove(p)
+                else:
+                    p["owner"] = row["to"]
+        for state, tags in plan["claims"].items():
+            current = expected_states[state].get("claims")
+            current = list(index["state_history"][state]["claims"]) if current is None else current
+            expected_states[state]["claims"] = current + [t for t in tags if t not in current]
     report = json.loads(REPORT.read_text())
     metadata = json.loads((ROOT / ".metadata/metadata.json").read_text())
     mismatches = []
@@ -190,8 +335,47 @@ def main() -> None:
     if set(M0_LIBERTY_RESET) <= set((active.get("diplomacy") or {}).get("reset_countries") or []):
         expected_diplomacy["reset_countries"] = sorted(set(expected_diplomacy.get("reset_countries") or []) | set(M0_LIBERTY_RESET))
         expected_diplomacy["relations"] = (expected_diplomacy.get("relations") or []) + M0_RELATIONS
+    # D2 adds planned subject types and subject relations (diplomacy_d2_subjects/plan.yml).
+    d2 = yaml.safe_load(D2_PLAN.read_text()) if D2_PLAN.exists() else {"subject_types": {}, "subjects": []}
+    active_subjects = (active.get("diplomacy") or {}).get("subjects") or []
+    pair = lambda row: (row["overlord"], row["subject"])
+    if d2["subjects"] and pair(d2["subjects"][0]) not in {pair(row) for row in active_subjects}:
+        d2 = {"subject_types": {}, "subjects": []}
+    expected_diplomacy["subjects"] = (expected_diplomacy.get("subjects") or []) + d2["subjects"]
+    # D3 adds mutual rivalries as pacts (diplomacy_d3_treaties/prepare.py); treaties are a separate file.
+    d3 = yaml.safe_load(D3_PLAN.read_text()) if D3_PLAN.exists() else {"rivalries": []}
+    d3_pacts = [{"actor": a, "target": b, "type": "rivalry"} for x, y in d3["rivalries"] for a, b in ((x, y), (y, x))]
+    if not (active.get("diplomacy") or {}).get("pacts"):
+        d3_pacts = []
+    if d3_pacts:
+        expected_diplomacy["pacts"] = (expected_diplomacy.get("pacts") or []) + d3_pacts
+    # D5 replaces every custom subject type with a vanilla type (diplomacy_d5_vanilla_subjects/plan.yml).
+    d5_types = {(r["overlord"], r["subject"]): r["to"] for r in D5["subjects"]}
+    d5_active = bool(d5_types) and not active.get("subject_types")
+    if d5_active:
+        expected_diplomacy["subjects"] = [{**row, "type": d5_types[(row["overlord"], row["subject"])]}
+                                          for row in expected_diplomacy["subjects"]]
+    # P3/P4 remove and add vanilla-typed subjects and add relations; their rivalries and treaties are
+    # in the D3 plan (see above).
+    p3_pairs, p3_relations = set(), []
+    for plan in LIVE:
+        removed = {tuple(pair) for pair in plan["diplomacy"]["remove_subjects"]}
+        expected_diplomacy["subjects"] = [row for row in expected_diplomacy["subjects"] if pair(row) not in removed] + \
+            [dict(row) for row in plan["diplomacy"]["subjects"]]
+        expected_diplomacy["relations"] = (expected_diplomacy.get("relations") or []) + \
+            [dict(row) for row in plan["diplomacy"]["relations"]]
+        p3_pairs |= {(row["overlord"], row["subject"]) for row in plan["diplomacy"]["subjects"]}
+        p3_relations += plan["diplomacy"]["relations"]
+    expected_types = deepcopy(preview.get("subject_types") or {})
+    for key, spec in ({} if d5_active else d2["subject_types"]).items():
+        current = (active.get("subject_types") or {}).get(key, {})
+        if any(current.get(k) != v for k, v in spec.items()):
+            mismatches.append(f"subject type {key}")
+        expected_types[key] = current
     for key in ("version", "subject_types", "diplomacy"):
-        if active.get(key) != (expected_diplomacy if key == "diplomacy" else preview.get(key)):
+        expected = expected_diplomacy if key == "diplomacy" else ({} if d5_active else expected_types) \
+            if key == "subject_types" else preview.get(key)
+        if active.get(key) != expected:
             mismatches.append(key)
     m1 = yaml.safe_load(M1_PLAN.read_text())["countries"] if M1_PLAN.exists() else {}
     if not any("technology" in active["countries"].get(tag, {}) for tag in m1):
@@ -200,10 +384,25 @@ def main() -> None:
     if not any("institutions" in active["countries"].get(tag, {}) for tag in m1b):
         m1b = {}
     m1 = {**m1, **m1b}
-    expected_tags = set(preview["countries"]) | {"VSM", "TUA"} | set(POST_PREVIEW_COUNTRIES)
+    expected_tags = set(preview["countries"]) | {"VSM", "TUA"} | set(POST_PREVIEW_COUNTRIES) | \
+        (set(P2["new_countries"]) if p2_active else set()) | {tag for plan in LIVE for tag in plan["new_countries"]}
+    for tag, spec in ((tag, spec) for plan in LIVE for tag, spec in plan["new_countries"].items()):
+        current = split_m4(tag, active["countries"].get(tag, {}), mismatches)
+        ignore = {"technology", "laws", "institutions"}
+        if {k: v for k, v in current.items() if k not in ignore} != \
+                {k: v for k, v in spec.items() if k not in ("like", "laws")}:
+            mismatches.append(f"country {tag} P3 new country")
+    for tag, spec in (P2["new_countries"].items() if p2_active else []):
+        current = split_p2(tag, active["countries"].get(tag, {}), mismatches)
+        ignore = {"technology", "laws", "institutions"} | ({"country_type"} if tag in D5["colonial"] else set())
+        if {k: v for k, v in current.items() if k not in ignore} != \
+                {k: v for k, v in spec.items() if k not in ("like", "slavery") and k not in ignore}:
+            mismatches.append(f"country {tag} P2 new country")
     # M1b adds entries for vanilla countries that carry only its education fields.
     m1b_only = set(active["countries"]) - expected_tags
-    if expected_tags - set(active["countries"]) or m1b_only - set(m1b) or any(
+    p3_fields = {tag for plan in LIVE for tag in plan["countries"]} | \
+        {tag for tag in M4 if "military" in active["countries"].get(tag, {})}
+    if expected_tags - set(active["countries"]) or m1b_only - set(m1b) - set(P2["countries"]) - p3_fields or any(
             split_m1(tag, active["countries"][tag], m1, mismatches) for tag in m1b_only):
         mismatches.append("country tags")
     else:
@@ -216,10 +415,15 @@ def main() -> None:
         if active["countries"]["TUA"] != {"cultures": ["berber", "tuareg"]}:
             mismatches.append("country TUA primary cultures")
         for tag, spec in POST_PREVIEW_COUNTRIES.items():
-            if split_m1(tag, active["countries"][tag], m1, mismatches) != {k: v for k, v in spec.items() if k != "laws" or tag not in m1}:
+            if split_m1(tag, active["countries"][tag], m1, mismatches) != {
+                    k: v for k, v in spec.items() if (k != "laws" or tag not in m1) and (k != "country_type" or (tag not in D1 and tag not in D4))}:
                 mismatches.append(f"country {tag}")
         for tag, original in preview["countries"].items():
             current = split_m1(tag, active["countries"][tag], m1, mismatches)
+            if tag in D1 or tag in D4 or tag in D5["colonial"]:
+                original = {key: value for key, value in original.items() if key != "country_type"}
+            original = {key: value for key, value in original.items() if key not in P2["countries"].get(tag, {})
+                        and key not in package_fields(tag)}
             if tag == "YUE":
                 # Yue demography adds the installed game's yue culture to the
                 # confederation's original Han/Zhuang primary-culture list.
@@ -247,7 +451,7 @@ def main() -> None:
                     mismatches.append("country VSN slavery law")
                 current = {key: value for key, value in current.items() if key != "laws"}
             for field, (before, after) in POST_PREVIEW_COUNTRY_FIELDS.get(tag, {}).items():
-                if field == "laws" and tag in m1:
+                if field == "laws" and (tag in m1 or tag in D1):
                     continue  # M1 replaces the demography-phase slavery law list with the full law set
                 if original.get(field) != before or current.get(field) != after:
                     mismatches.append(f"country {tag} {field}")
@@ -279,9 +483,19 @@ def main() -> None:
         mismatches.append("empty landed country population")
     reported = deepcopy(report["diplomacy"])
     reported["relations"] = [row for row in reported.get("relations", []) if row not in M0_RELATIONS]
-    if reported != json.loads(
-        (ROOT / "build/world-political/final-political-report.json").read_text()
-    )["diplomacy"]:
+    d2_pairs = {(row["overlord"], row["subject"]) for row in d2["subjects"]}
+    reported["overlords"] = {k: v for k, v in reported.get("overlords", {}).items()
+                             if (v, k) not in d2_pairs and (v, k) not in p3_pairs}
+    reported["relations"] = [row for row in reported["relations"] if row not in p3_relations]
+    d3_keys = {(row["actor"], row["target"], row["type"]) for row in d3_pacts}
+    reported["pacts"] = [row for row in reported.get("pacts", []) if (row["actor"], row["target"]) not in d2_pairs
+                         and (row["actor"], row["target"]) not in p3_pairs
+                         and (row["actor"], row["target"], row["type"]) not in d3_keys
+                         and not (d5_active and (row["actor"], row["target"]) in d5_types)]
+    final = json.loads((ROOT / "build/world-political/final-political-report.json").read_text())["diplomacy"]
+    if d5_active:  # D5 changes the pact type of the preview's own subjects; the network is checked above
+        final = {**final, "pacts": [row for row in final.get("pacts", []) if (row["actor"], row["target"]) not in d5_types]}
+    if reported != final:
         mismatches.append("reported diplomacy")
     actual_replace_paths = set(metadata["game_custom_data"]["replace_paths"])
     if actual_replace_paths != REPLACE_PATHS:

@@ -60,11 +60,21 @@ def education(targets: dict, m1: dict, m1b: dict, report: dict) -> dict:
     """Education law and schools level every country opens with."""
     text = (ROOT / "common/history/countries/ve_scenario_countries.txt").read_text(encoding="utf-8-sig")
     blocks = dict(re.findall(r"\nc:(\w+) \?= \{(.*?)\n\}", text, re.S))
+    # Countries that later phases left landless (P3/P4) are dropped from the generated file; their
+    # starting history is the installed game's, which is what the generated block copied.
+    from vic3.paths import VANILLA
+    for path in sorted((VANILLA / "common/history/countries").glob("*.txt")):
+        for tag, body in re.findall(r"\n\s*c:(\w+) \?= \{(.*?)\n\}", "\n" + path.read_text(encoding="utf-8-sig"), re.S):
+            blocks.setdefault(tag, body)
     effects = {"effect_starting_politics_conservative": "law_religious_schools",
                "effect_starting_politics_liberal": "law_private_schools"}
+    d1 = HERE.parent / "diplomacy_d1_natives/plan.yml"
+    decentralized = set(yaml.safe_load(d1.read_text())["countries"]) if d1.exists() else set()
     result = {}
     for tag in targets:
-        if tag in m1 or tag in m1b:
+        if tag in decentralized and tag not in m1:
+            result[tag] = {"education": None, "schools": 0}  # D1 vanilla tag, history replaced
+        elif tag in m1 or tag in m1b:
             row = m1.get(tag) or m1b[tag]
             laws = row["laws"]
             edu = next((law for law in laws if law in EDUCATION), None)
@@ -93,12 +103,46 @@ def scale_literacy(world: dict, base: dict, targets: dict, schools: dict) -> dic
         value = max(0.02, targets[tag]["target"] - boost(schools[tag]["education"], schools[tag]["schools"]))
         inputs[tag] = {**schools[tag], "target": targets[tag]["target"], "input": round(value, 4),
                        "factor": value / previous}
+    # Later political transfers (political_p2_corrections): a moved share keeps its base literacy
+    # and its old owner's factor, so a rerun reproduces the literacy the share had when it moved.
+    p2 = HERE.parent / "political_p2_corrections/plan.yml"
+    moved = {(r["state"], r["to"]): r["from"] for r in (yaml.safe_load(p2.read_text())["transfers"] if p2.exists() else [])}
+    # P3/P4 (political_p3_borders, political_p4_corrections) split and merge shares; each package's
+    # lineage.yml lists the shares before it that a touched share's people came from. Its literacy is
+    # their people-weighted literacy, resolved through the older packages down to the rerun above.
+    layers = []  # newest first
+    for package in ("political_p4_corrections", "political_p3_borders"):
+        path = HERE.parent / package / "lineage.yml"
+        layers.append(yaml.safe_load(path.read_text()) if path.exists() else {})
+    totals = {(state, tag): share["total"] for state, spec in world["states"].items()
+              for tag, share in spec["population"]["by_owner"].items()}
+    # The world's stage is the newest package all of whose shares it contains unchanged.
+    stage = next((k for k, layer in enumerate(layers) if layer and all(
+        totals.get((state, tag)) == sum(n for _, n in src) for state, rows in layer.items() for tag, src in rows.items())),
+        len(layers))
+    active = layers[stage:]
+
+    def rerun(state: str, tag: str) -> tuple[float, int]:
+        source_tag = tag if tag in base["states"][state]["population"]["by_owner"] else moved[(state, tag)]
+        old = base["states"][state]["population"]["by_owner"][source_tag]
+        return round(max(BOUNDS[0], min(BOUNDS[1], old["literacy"] * inputs[source_tag]["factor"])), 3), old["total"]
+
+    def literacy(state: str, tag: str, start: int) -> float:
+        for k in range(start, len(active)):
+            sources = (active[k].get(state) or {}).get(tag)
+            if sources:
+                return round(sum(n * literacy(state, t, k + 1) for t, n in sources) / sum(n for _, n in sources), 3)
+        return rerun(state, tag)[0]
+
     for state, spec in world["states"].items():
         for tag, share in spec["population"]["by_owner"].items():
-            old = base["states"][state]["population"]["by_owner"][tag]
-            if old["total"] != share["total"]:
+            if any((layer.get(state) or {}).get(tag) for layer in active):
+                share["literacy"] = literacy(state, tag, 0)
+                continue
+            value, total = rerun(state, tag)
+            if total != share["total"]:
                 raise ValueError(f"{state}/{tag}: population differs from the frozen base")
-            share["literacy"] = round(max(BOUNDS[0], min(BOUNDS[1], old["literacy"] * inputs[tag]["factor"])), 3)
+            share["literacy"] = value
     return inputs
 
 
@@ -167,9 +211,9 @@ def main() -> None:
             tech["add"] = row["add_technologies"]
         entry["technology"] = tech
         entry["laws"] = {"values": row["laws"]}
-        entry.pop("institutions", None)
-        if row["institutions"]:
-            entry["institutions"] = row["institutions"]
+        # Explicit (possibly empty): scenario overlays merge country fields, so an omitted key
+        # would keep the active world's institutions in previews.
+        entry["institutions"] = row["institutions"]
     for tag, row in m1b.items():
         entry = world["countries"].setdefault(tag, {})
         base_entry = base["countries"].get(tag, {})

@@ -14,6 +14,8 @@
 
 ## 2. Harita ilkesi
 
+**25 Eylül 2026 kullanıcı kararı:** Mezoamerika, And, Muisca/Cauca ve koloni/koloni kökenli devletler dışındaki yerli topluluklar oyunda **merkezsiz** ülkedir ([D1](../../scenarios/atlas/diplomacy_d1_natives/README.md)). Toprakları, halkları ve homeland'leri kendilerinindir; fakat vanilla yerlileri gibi kolonileştirilebilir. Aşağıdaki "sahipsiz alan değildir" ilkesi halklar ve haklar düzeyinde geçerlidir; mekanik temsil değişmiştir.
+
 İç kıta, kimin gelip alacağını bekleyen sahipsiz alan değildir. Yerel devletler, konfederasyonlar ve çok merkezli topluluklar farklı temsillerle var olacak. Bazı bölgelerde merkezî kurum kurulmamış olması toprak hakkının bulunmaması demek değildir.
 
 Bir metropolün sözleşmeli ticaret erişimi ile doğrudan kolonisi ayrı gösterilir. ABD, Meksika Cumhuriyeti, Brezilya İmparatorluğu ve Arjantin gibi gerçek tarih sonucu oluşmuş devletlerin aynen bulunması varsayılmaz. Bu adların yerine konacak her ülkenin geçimi ve siyaseti açıklanır; yalnız etiket değiştirilmez.
@@ -52,6 +54,19 @@ Comanche'ın başka bir halkın kültür etiketiyle, Mapuçe'nin bütün Patagon
 
 ## 4. Endülüs Amerika'sı
 
+**25 Eylül 2026 kullanıcı kararı:** Endülüs kolonileri büyütüldü ([P2](../../scenarios/atlas/political_p2_corrections/README.md)).
+- Yeni Endülüs kuzeye, Río Grande, Durango, Chihuahua, Sinaloa ve Sonora'ya genişledi (2 → 7 state).
+- Körfez'de yeni **Yeni Gırnata** kolonisi kuruldu: Louisiana, Arkansas ve Teksas'ın Caddo payı.
+- İnci Adaları Santo Domingo'yu aldı.
+- Yeni İşbiliye Maracaibo ve Caracas kıyılarını aldı.
+
+**25 Eylül 2026, beşinci inceleme ([P3](../../scenarios/atlas/political_p3_borders/README.md)):**
+- Venezuela Yeni İşbiliye'ye katıldı; Haiti İnci Adaları'na geçti, Hispanyola bütünüyle Endülüs'ün.
+- Leeward ve Windward ada meclisleri Fas Antilleri kolonisinde birleşti.
+- Endülüs Amerikası'nın nüfusu Müslüman çoğunluklu: Hristiyan payının %85'i Sünni, kalan Katolik azınlık Endülüs'ün kendi Hristiyan azınlığının karşılığı. Adalarda Müslüman payı %78–86, Venezuela kıyısında %62–68, Meksika havzasında %69. Sınır bölgelerinde yerel inançlar çoğunlukta.
+
+Aşağıdaki "bütün eski Meksika sınırını almaz" satırı Aztek çekirdeğindeki yerli devletler için geçerlidir.
+
 | Birim | Merkez / çekirdek | Bağ | Kaynak ve sorun |
 |---|---|---|---|
 | Yeni Endülüs | Tenochtitlan–Meksika havzası, merkezî plato ve körfez/Pasifik'e bağlantı koridorları | Endülüs'e geniş özerk sömürge şartı | Tahıl, dokuma, gümüş ve yerel pazar; temsil, yerli iş kotası ve vergi |
@@ -59,7 +74,7 @@ Comanche'ın başka bir halkın kültür etiketiyle, Mapuçe'nin bütün Patagon
 | Orta Amerika'nın diğer yönetimleri | Maya alanı dışındaki yerel kent/hanedan ve kıyı meclisleri; Panama Kıstak Meclisi | Bazıları Endülüs ticaret şartında, bazıları bağımsız | Hepsi tek koloninin otomatik parçası değildir; Panama geçiş gelirini yerel meclis yönetir |
 | Yeni İşbiliye | Cartagena/Antioquia–aşağı Magdalena kıyı-nehir ağı ve bazı Orinoco kıyı noktaları | Daha dar Endülüs kolonisi | Şeker, boya, tütün ve liman; kahve yükselen sektör, varsayılan dev 1836 ekonomisi değil |
 | İnci Adaları | Küba, Hispanyola, Porto Riko ve Jamaika'da farklı yerel idareli ana koloni sistemi | Endülüs kolonisi; ada meclisleri ve vali | Şeker/liman, kölelik ve toprak; bütün küçük Karayip adaları tek idarede değil |
-| Leeward / Windward ada meclisleri | Eski Fransız iki Küçük Antil province'i | Ayrı yerel meclisler | İki ada tek kolonide birleşmez; sonraki toplumsal kart her adanın emek ve kültür bileşimini ayrı kurar |
+| Fas Antilleri | Eski Fransız iki Küçük Antil province'i (Leeward ve Windward) | 25 Eylül 2026 kararıyla birleşik Fas kolonisi ([P3](../../scenarios/atlas/political_p3_borders/README.md)) | Şeker, kahve ve tütün; iki adanın kölelik yasağı sürer |
 
 Yeni Endülüs bütün eski Meksika sınırını veya Orta Amerika'yı almaz. Yeni İşbiliye bütün Kolombiya/Venezuela içini almaz; Bogotá çevresindeki Muisca siyasal alanı ayrı kalır. İç bölgelerle maden/taşıma antlaşmaları toprak sahipliği değildir.
 
@@ -95,7 +110,7 @@ And devletlerinin ayrılığı bir kelime oyunundan doğmaz: 1620–1690 veraset
 
 ## 7. Kültür ve din
 
-“Katolikler Amerika'ya hiç gelmedi” iddiası kaldırıldı. Endülüs çok dinli, Britanya tacı Katolik, göçmenler ve tüccarlar çeşitlidir. Devlet egemenliği yokluğu cemaat yokluğu değildir. Bunun tersi de geçerli: Endülüs bayrağı her yerliyi Müslüman yapmaz.
+“Katolikler Amerika'ya hiç gelmedi” iddiası kaldırıldı. 25 Eylül 2026 kararıyla Endülüs'e ait Amerika'da Katolikler azınlıktır ([P3](../../scenarios/atlas/political_p3_borders/README.md)). Endülüs çok dinli, Britanya tacı Katolik, göçmenler ve tüccarlar çeşitlidir. Devlet egemenliği yokluğu cemaat yokluğu değildir. Bunun tersi de geçerli: Endülüs bayrağı her yerliyi Müslüman yapmaz.
 
 - Yerli inançların devamı, cemaat bazında Müslüman/Hristiyan dönüşümler ve yeni sentezler birlikte düşünülür. Her yerli nüfusa aynı üç oran verilmez.
 - Afrikalı zorunlu göçmenler farklı dil ve dinlerden gelir; tek bir “Afrikalı köle kültürü/dini” yoktur. Azatlı ve özgür doğmuş topluluklar ayrıca yaşar.

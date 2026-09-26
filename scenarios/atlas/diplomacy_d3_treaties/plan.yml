@@ -1,0 +1,86 @@
+# D3 — 1836 starting treaties and rivalries (user decisions 25 Sep 2026; canon: docs/scenario/diplomasi.md §2-4).
+# Treaties are outside Atlas; build.py writes common/history/treaties/tgc_scenario_treaties.txt.
+# Rivalries are Atlas `diplomacy.pacts` (prepare.py). Articles: mutual = alliance, defensive_pact;
+# directed (source -> target) = guarantee_independence, trade_privilege, military_access, transit_rights.
+version: 1
+# Vanilla treaties that make no sense in this world (Congress of Vienna guarantees; the London
+# crown's Caribbean dependencies holding Johor's port or guaranteeing Griqua states).
+drop_vanilla:
+  - [AUS, SIC]
+  - [AUS, TUS]
+  - [AUS, PAR]
+  - [AUS, MOD]
+  - [JOH, GBR]
+  - [GBR, PHL]
+  - [GBR, WBL]
+treaties:
+  # P4 (26 Sep 2026): Tabriz is Isfahan's puppet; an overlord and its subject cannot hold an alliance.
+  - {name: Kalmar Deniz Ahdi, first: DEN, second: SWE, date: 1755.6.1, years: 100, articles: [{article: defensive_pact}]}
+  - {name: Kalmar Deniz Ahdi, first: DEN, second: NOR, date: 1755.6.1, years: 100, articles: [{article: defensive_pact}]}
+  - {name: Kalmar Deniz Ahdi, first: SWE, second: NOR, date: 1755.6.1, years: 100, articles: [{article: defensive_pact}]}
+  - {name: Taçlar Ahdi, first: VEL, second: VSC, date: 1708.5.1, years: 150, articles: [{article: defensive_pact}]}
+  - {name: Maratha Konseyi, first: MAR, second: GWA, date: 1818.1.1, years: 30, articles: [{article: defensive_pact}]}
+  - {name: Maratha Konseyi, first: MAR, second: IND, date: 1818.1.1, years: 30, articles: [{article: defensive_pact}]}
+  - {name: Maratha Konseyi, first: MAR, second: NAG, date: 1818.1.1, years: 30, articles: [{article: defensive_pact}]}
+  # P3 (25 Sep 2026): Hamburg, Bremen and Lübeck form one Hanseatic League; the Hansa pacts are gone.
+  # Şam 1712: the Levant as a buffer guaranteed by both Rum and Egypt
+  - {name: Şam Antlaşması, first: RUM, second: SYR, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: RUM, target: SYR}]}
+  - {name: Şam Antlaşması, first: RUM, second: LEB, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: RUM, target: LEB}]}
+  - {name: Şam Antlaşması, first: RUM, second: PAL, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: RUM, target: PAL}]}
+  - {name: Şam Antlaşması, first: EGY, second: SYR, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: EGY, target: SYR}]}
+  - {name: Şam Antlaşması, first: EGY, second: LEB, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: EGY, target: LEB}]}
+  - {name: Şam Antlaşması, first: EGY, second: PAL, date: 1712.9.1, years: 150, articles: [{article: guarantee_independence, source: EGY, target: PAL}]}
+  # Bağdat 1804: Basra and Kurdistan recognised by Rum and Iran
+  - {name: Bağdat Antlaşması, first: RUM, second: BSR, date: 1804.3.1, years: 60, articles: [{article: guarantee_independence, source: RUM, target: BSR}]}
+  - {name: Bağdat Antlaşması, first: RUM, second: KUR, date: 1804.3.1, years: 60, articles: [{article: guarantee_independence, source: RUM, target: KUR}]}
+  - {name: Bağdat Antlaşması, first: ISF, second: BSR, date: 1804.3.1, years: 60, articles: [{article: guarantee_independence, source: ISF, target: BSR}]}
+  - {name: Bağdat Antlaşması, first: ISF, second: KUR, date: 1804.3.1, years: 60, articles: [{article: guarantee_independence, source: ISF, target: KUR}]}
+  # P3 (25 Sep 2026): after Poland's victory in the 1818–1827 war Wallachia is a Polish protectorate
+  # (P3 subjects) instead of a jointly guaranteed neutral; Hungary and Transylvania, freed together, keep a pact.
+  - {name: Karpat Ahdi, first: HUN, second: TRS, date: 1827.9.1, years: 30, articles: [{article: defensive_pact}]}
+  # Indian Ocean port and convoy contracts: host sovereignty kept
+  - name: Aceh İkmal Sözleşmesi
+    first: EGY
+    second: ACE
+    date: 1824.5.1
+    years: 20
+    articles:
+      - {article: trade_privilege, source: EGY, target: ACE}
+      - {article: trade_privilege, source: ACE, target: EGY}
+      - {article: military_access, source: ACE, target: EGY}
+  - name: Johor Konvoy Sözleşmesi
+    first: OMA
+    second: JOH
+    date: 1828.2.1
+    years: 15
+    articles:
+      - {article: trade_privilege, source: OMA, target: JOH}
+      - {article: trade_privilege, source: JOH, target: OMA}
+  - name: Sulu Geçiş Sözleşmesi
+    first: OMA
+    second: SUL
+    date: 1829.6.1
+    years: 15
+    articles:
+      - {article: trade_privilege, source: SUL, target: OMA}
+      - {article: transit_rights, source: SUL, target: OMA}
+  # Mombasa's port contract with Oman is not a treaty: Mombasa lacks international_relations (tier 5).
+  - name: Atlantik Sermaye Ortaklığı
+    first: VAN
+    second: MOR
+    date: 1790.1.1
+    years: 60
+    articles:
+      - {article: trade_privilege, source: VAN, target: MOR}
+      - {article: trade_privilege, source: MOR, target: VAN}
+rivalries:
+  - [RUM, EGY]   # Levant, Cyprus, navy, religious arbitration
+  - [RUM, ISF]   # Iraq and Caucasus claims, tariffs (P4: Isfahan leads Iran; Tabriz is its puppet)
+  - [ISF, OMA]   # the Gulf
+  - [VPL, VTA]   # Muscovy and the steppe frontier
+  - [NCH, JNG]   # legitimacy of Chinese reunification
+  - [MUG, MAR]   # the Hindustan heartland
+  - [MUG, BGL]
+  - [VAN, VEL]   # Atlantic colonies and shipping
+  - [SWE, VPL]   # P3: Livonia and the Baltic
+  - [KSG, NCH]   # P3: the Uyghur khanate's pressure on northern China

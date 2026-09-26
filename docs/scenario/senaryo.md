@@ -62,11 +62,15 @@ Bu düzenin bedeli de vardır: güçlü vakıf yöneticileri hesap vermemeye, lo
 
 **1586 — İran akademi uzlaşması.** İsfahan şahı bölge yöneticileri ve ilmî vakıflarla ortak diploma, teknik tercüme ve maden imtiyazı düzeni kurar. “Pers Bilim Devleti” resmî ülke adı değildir. İran bir hanedan devleti olmaya devam eder; bilim geleneği siyasi birliğe eşit değildir.
 
+**1591 — Timbuktu Paşalığı.** Fas'ın Songay seferi Nijer kıvrımında kalıcı bir paşalık bırakır. 1836'da Timbuktu hâlâ Fas'ın kolonisidir; Batı Sahra ve Moritanya da Fas'a bağlanmıştır ([P3](../../scenarios/atlas/political_p3_borders/README.md)).
+
 **1608–1684 — Avrupa'nın geç reformları.** Kuzey Alman ve İskandinav reform kiliseleri, basım ağları ve soyluların kilise mülkleri üzerindeki talepleriyle büyür. İngiltere tacı Katolik kalır; buna rağmen ticaret kentlerinde ve kolonilere göçen topluluklarda reform kiliseleri güçlenir. Avrupa yekpare bir Orta Çağ dekoru değildir.
 
 **1664–1712 — Büyük İçtihat Savaşları.** Bu dönem kesintisiz 48 yıllık tek cephe savaşı değildir: üç büyük sefer dizisi, iç isyanlar ve ateşkeslerden oluşur. Mısır ve Rûm'un Levant gelirleri; ulema ve hukuk meclislerinin yetkisi; İran'ın ticari erişimi aynı çatışmada birleşir. Mısır ve Hicaz yöneticileri kendi aralarında da anlaşmazlık yaşar.
 
 **1712 — Şam Antlaşması.** Rûm kuzey Suriye'deki konumunu ve Kıbrıs'ı alır. Şam emirliği, Cebel-i Lübnan ve Kudüs emirliği Mısır'ın doğrudan yönetiminden çıkar. Dinî ziyaret ve vakıf hakları devletlerarası güvenceye bağlanır. Yeni hudutlar aşağıdaki atlas/diplomasi belgelerine göre okunur; bütün Levant'ın Rûm'a verildiği varsayılmaz.
+
+**1738 — Batı Akdeniz istasyonları.** Sicilya tacıyla savaşın sonunda Rûm, Batı Sicilya'nın Mazara vadisini ve Güney Sardinya'nın Cagliari kıyısını deniz istasyonu olarak alır. Oradaki eski Müslüman Sicilyalı topluluklar ve Türk yerleşimciler azınlıktır. Septe (Ceuta) boğaz üssü sonradan Fas'tan alınır ve Yeni Bursa rotasını korur ([P3](../../scenarios/atlas/political_p3_borders/README.md)).
 
 ### 1712–1778: Ortadoğu sanayi devrimi
 
@@ -84,13 +88,13 @@ Bu düzenin bedeli de vardır: güçlü vakıf yöneticileri hesap vermemeye, lo
 
 **1778–1804 — Rûm–İran savaşları.** Gümrükler, Irak'ın siyasi bağlılığı ve Kafkas madenleri üzerindeki mücadele dört sefer ve uzun ateşkes dönemine yayılır. Ordu siparişleri sanayiyi büyütürken borç, insan kaybı ve nakliye yıkımı refahı aşındırır. Her iki tarafın bütün fabrikaları yok olmaz.
 
-**1791–1810 — Çin düzeninin çözülmesi.** Saray veraseti, taşra askerlerinin mali bağımsızlığı, sel onarım vergileri ve ticaret bölgelerinin merkezle kavgası Çing düzenini parçalar. Uygur sınır baskısı etkenlerden biridir; yüz milyonlarca insanın yaşadığı sistem tek bir dış isyan yüzünden yıkılmaz. 1810 ateşkesi beş Çin yönetiminin fiilî egemenliğini dondurur.
+**1791–1810 — Çin düzeninin çözülmesi.** Saray veraseti, taşra askerlerinin mali bağımsızlığı, sel onarım vergileri ve ticaret bölgelerinin merkezle kavgası Çing düzenini parçalar. Uygur sınır baskısı etkenlerden biridir; Uygur Hanlığı bu dönemde Hexi koridorunu (Gansu) ele geçirir; yüz milyonlarca insanın yaşadığı sistem tek bir dış isyan yüzünden yıkılmaz. 1810 ateşkesi beş Çin yönetiminin fiilî egemenliğini dondurur.
 
 **1804 — Bağdat Barışı.** Bağdat Rûm'un doğrudan toprağı olarak kalır; Basra ve Kürdistan ayrı egemen devletler olarak tanınır. Geçiş, su ve hac/ziyaret hakları korunur. Bu ülkeler aynı anda hem bağımsız hem Rûm'un koruma devleti sayılmaz.
 
 **1804–1815 — İran Konfederasyonu.** İsfahan, Tebriz, Horasan, Mazenderan, Kirman, Luristan ve Huzistan ortak savunma ve ticaret sözleşmesi imzalar. İsfahan toplantılara başkanlık eder; üyelerin vergi ve tahtları üzerinde tek taraflı hak kazanmaz. Buhara ve Hive üye değil, ticari ortaktır. Bakü ve Beluç devletleri dışarıda kalır.
 
-**1818–1827 — Rûm Taht Savaşı.** Veraset mücadelesine komşu güçler müdahil olur. Rûm, Eflak ve kuzey Balkanların bir bölümündeki eski üstünlüğünü kaybeder. Bosna, Arnavutluk ve Tuna emirliği müzakere edilmiş özerklik kazanır; Adana, Erzurum ve Trabzon atabeylikleri vergi ve ordu yükümlülüklerini sınırlar. Başkentte 1827 Nizam Ahdi kabul edilir.
+**1818–1827 — Rûm Taht Savaşı.** Veraset mücadelesine komşu güçler müdahil olur. Lehistan–Litvanya, Rûm'u ve onun yanında savaşan Avusturya'yı büyük bir zaferle yener. Rûm, Eflak ve kuzey Balkanların bir bölümündeki eski üstünlüğünü kaybeder: Eflak Dobruca ile birlikte Lehistan korumasına girer, Bukovina ile Besarabya Lehistan'a geçer. Macaristan ve Erdel savaşta birlikte serbest kalır, Macaristan Hırvatistan tacını kendine bağlar; Avusturya Adriyatik ve Tirol topraklarını kaybederek küçülür ([P3](../../scenarios/atlas/political_p3_borders/README.md)). Bosna, Arnavutluk ve Tuna emirliği müzakere edilmiş özerklik kazanır; Adana, Erzurum ve Trabzon atabeylikleri vergi ve ordu yükümlülüklerini sınırlar. Başkentte 1827 Nizam Ahdi kabul edilir.
 
 **1828–1835 — İkinci sanayi dalgası.** Britanya, Ren, Saksonya, Jiangnan ve bazı Hint merkezleri makine ithalini yerel üretime çevirir. İsfahan'ın akademileri öncü kalırken ortak pazardaki gümrük kavgaları seri üretimi yavaşlatır. Kuzey Afrika ve Hint Okyanusu devletleri ithalat ile kendi üretimlerini geliştirme arasında pazarlık eder.
 
